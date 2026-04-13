@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "kode_mk": "TSI1103",
+    "nama_mk": "Pancasila",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Nasional (MKWN)",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-01", "tipe": "Sikap", "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius"},
+    {"kode": "S-03", "tipe": "Sikap", "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila"},
+    {"kode": "S-04", "tipe": "Sikap", "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa"},
+    {"kode": "S-07", "tipe": "Sikap", "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"},
+    {"kode": "S-08", "tipe": "Sikap", "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"},
+    {"kode": "S-10", "tipe": "Sikap", "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "S-01, S-03", "deskripsi": "Mampu memahami konsep dan urgensi Pendidikan Pancasila serta sejarah perumusan Pancasila"},
+    {"kode": "CPMK-2", "cpl": "S-03, S-04", "deskripsi": "Mampu menjelaskan Pancasila sebagai ideologi dan dasar negara serta implementasinya"},
+    {"kode": "CPMK-3", "cpl": "S-07, S-08", "deskripsi": "Mampu memahami Pancasila sebagai sistem filsafat dan sistem etika"},
+    {"kode": "CPMK-4", "cpl": "S-01, S-08", "deskripsi": "Mampu menjelaskan Pancasila sebagai dasar pengembangan ilmu pengetahuan dan teknologi"},
+    {"kode": "CPMK-5", "cpl": "S-03, S-10", "deskripsi": "Mampu membangun budaya anti korupsi berbasis nilai Pancasila dalam kehidupan profesional"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dan urgensi Pendidikan Pancasila", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan Pancasila dalam arus sejarah Bangsa Indonesia (pra kemerdekaan, perumusan, hingga penetapan)", "cpmk": "CPMK-1", "minggu": "2–3", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan Pancasila sebagai ideologi terbuka dan dasar negara", "cpmk": "CPMK-2", "minggu": "4–5", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengidentifikasi nilai-nilai Pancasila dalam kehidupan bermasyarakat dan berbangsa", "cpmk": "CPMK-2", "minggu": "6", "cpl": "C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan Pancasila sebagai sistem filsafat (ontologi, epistemologi, aksiologi)", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan Pancasila sebagai sistem etika dan nilai moral bangsa", "cpmk": "CPMK-3", "minggu": "9–10", "cpl": "C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan Pancasila sebagai paradigma pengembangan ilmu pengetahuan", "cpmk": "CPMK-4", "minggu": "11–12", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan nilai-nilai anti korupsi berdasarkan Pancasila dan implementasinya", "cpmk": "CPMK-5", "minggu": "13", "cpl": "C3"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menyusun makalah dan presentasi tentang penerapan Pancasila di era digital", "cpmk": "CPMK-4, CPMK-5", "minggu": "14–15", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu mengintegrasikan nilai Pancasila dalam kehidupan profesional sebagai sarjana sistem informasi", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "16", "cpl": "C5"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep dan urgensi Pendidikan Pancasila", "indikator": "Ketepatan menjelaskan latar belakang, tujuan, dan ruang lingkup Pendidikan Pancasila di PT", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Pendahuluan, urgensi Pancasila, peran mahasiswa", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2 : Pancasila dalam arus sejarah (masa penjajahan dan kebangkitan nasional)", "indikator": "Kemampuan menjelaskan kondisi Indonesia sebelum kemerdekaan dan pemikiran para tokoh", "kriteria": "Diskusi; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Sejarah pergerakan nasional, Sumpah Pemuda, BPUPKI, PPKI", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Perumusan dan penetapan Pancasila", "indikator": "Ketepatan menjelaskan sidang BPUPKI, Piagam Jakarta, dan perubahan rumusan", "kriteria": "Kuis online; Tugas kelompok kecil", "tatap_muka": "Kuliah + diskusi TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Rumusan Pancasila, tokoh (Soekarno, M. Yamin, Supomo), Piagam Jakarta, penghapusan 7 kata", "bobot": "3%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Pancasila sebagai ideologi terbuka", "indikator": "Kemampuan menjelaskan ciri ideologi terbuka dan nilai-nilai Pancasila", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pengertian ideologi, ideologi terbuka vs tertutup, Pancasila sebagai ideologi dinamis", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Pancasila sebagai dasar negara", "indikator": "Ketepatan menjelaskan fungsi Pancasila sebagai dasar negara dan sumber hukum", "kriteria": "Tugas individu (esai pendek)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Kedudukan Pancasila, UUD 1945, peraturan perundangan, implementasi", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Nilai-nilai Pancasila dalam kehidupan", "indikator": "Kemampuan mengidentifikasi contoh penerapan sila-sila Pancasila", "kriteria": "Studi kasus; Diskusi kelompok", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Sila 1-5, contoh dalam keluarga, masyarakat, kampus, dan pekerjaan", "bobot": "4%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : Pancasila sebagai sistem filsafat", "indikator": "Ketepatan menjelaskan dimensi ontologis, epistemologis, aksiologis Pancasila", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pancasila sebagai filsafat bangsa, hubungan dengan agama, budaya", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal sejarah, ideologi, dasar negara, filsafat Pancasila", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 6 : Pancasila sebagai sistem etika", "indikator": "Kemampuan menjelaskan nilai-nilai etika Pancasila dalam kehidupan", "kriteria": "Kuis online; Diskusi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Etika Pancasila, moral, karakter, integritas", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 6 : Nilai moral bangsa dan Pancasila", "indikator": "Kemampuan mengaitkan Pancasila dengan moral dan kepribadian", "kriteria": "Tugas kelompok (studi kasus moral)", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Krisis moral, relevansi Pancasila, pendidikan karakter", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 7 : Pancasila sebagai paradigma pengembangan ilmu", "indikator": "Kemampuan menjelaskan hubungan antara Pancasila dan IPTEK", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pancasila dan etika ilmiah, tanggung jawab sosial peneliti", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Penerapan Pancasila dalam penelitian dan inovasi", "indikator": "Kemampuan menjelaskan contoh etika penelitian berdasarkan Pancasila", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Plagiarisme, kolaborasi, keadilan, manfaat bagi masyarakat", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Budaya anti korupsi berbasis Pancasila", "indikator": "Ketepatan menjelaskan nilai-nilai anti korupsi (jujur, adil, tanggung jawab, dll)", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pengertian korupsi, penyebab, pencegahan, pendidikan anti korupsi", "bobot": "5%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 9 : Makalah dan presentasi (persiapan)", "indikator": "Kemampuan menyusun makalah tentang penerapan Pancasila di era digital", "kriteria": "Draft makalah kelompok", "tatap_muka": "Bimbingan penyusunan makalah TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Topik: Pancasila dan media sosial, kebebasan berpendapat, hoaks, etika digital", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 9 : Presentasi makalah", "indikator": "Kemampuan mempresentasikan dan berdiskusi", "kriteria": "Presentasi kelompok + tanya jawab", "tatap_muka": "Presentasi kelompok TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi hasil makalah, diskusi", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester + Refleksi", "indikator": "Menjawab soal integratif tentang penerapan Pancasila dalam profesi SI", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Seluruh materi (etika, anti korupsi, paradigma IPTEK, presentasi)", "bobot": "22%"}
+  ],
+  "bahan_kajian": "1. Konsep dan urgensi Pendidikan Pancasila\n2. Pancasila dalam arus sejarah Bangsa Indonesia\n3. Pancasila sebagai ideologi dan dasar negara\n4. Pancasila sebagai sistem filsafat dan sistem etika\n5. Pancasila sebagai dasar pengembangan ilmu\n6. Membangun budaya anti korupsi berbasis nilai Pancasila",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Kaelan. (2017). *Pendidikan Pancasila*. Paradigma."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Tim Dosen Pancasila ITEKES Bintang Persada. (2026). *Buku Ajar Pendidikan Pancasila*. ITEKES Press."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Notonagoro. (2018). *Pancasila secara ilmiah populer*. Penerbit Universitas Pancasila."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Sukarno. (2019). *Lahirnya Pancasila*. Penerbit Media Pressindo."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Yudi Latif. (2015). *Negara paripurna: Historisitas, rasionalitas, dan aktualitas Pancasila*. Gramedia Pustaka Utama."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.2 Mata Kuliah Wajib Nasional."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang Pancasila sebagai ideologi, dasar negara, dan pandangan hidup bangsa Indonesia. Materi meliputi konsep dan urgensi Pendidikan Pancasila, sejarah perumusan Pancasila, Pancasila sebagai ideologi terbuka dan dasar negara, nilai-nilai Pancasila dalam kehidupan, Pancasila sebagai sistem filsafat dan sistem etika, Pancasila sebagai paradigma pengembangan ilmu pengetahuan dan teknologi, serta budaya anti korupsi berbasis Pancasila. Penekanan diberikan pada penerapan nilai-nilai Pancasila dalam kehidupan sehari-hari, khususnya sebagai calon sarjana sistem informasi.",
+  "matakuliah_syarat": "-"
+}

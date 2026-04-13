@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3535",
+    "nama_mk": "Tata Kelola Teknologi Informasi",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 5,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/septa.png",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "-",
+    "jabatan": "Lektor"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-07",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep, prinsip, dan framework tata kelola teknologi informasi"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KU-02",
+      "deskripsi": "Mampu menerapkan framework COBIT 2019 untuk perancangan tata kelola TI pada organisasi"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-07, KK-04",
+      "deskripsi": "Mampu melakukan evaluasi keselarasan strategi bisnis dan TI menggunakan maturity model"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-05",
+      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI serta menyusun rekomendasi perbaikan tata kelola"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KK-05",
+      "deskripsi": "Mampu menyusun dokumen tata kelola TI dan mempresentasikan hasil assessment secara profesional"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar tata kelola TI dan perbedaannya dengan manajemen TI",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membandingkan framework tata kelola TI (COBIT, ITIL, ISO 38500)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan komponen dan struktur COBIT 2019",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan COBIT 2019 untuk mendesain sistem tata kelola TI",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menganalisis keselarasan strategi bisnis dan TI",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menggunakan maturity model untuk evaluasi tata kelola TI",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI berdasarkan COBIT",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menyusun rekomendasi perbaikan tata kelola TI",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun laporan assessment tata kelola TI",
+      "cpmk": "CPMK-5",
+      "minggu": "12–13",
+      "cpl": "C5–P4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan hasil evaluasi tata kelola TI",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Konsep dasar tata kelola TI",
+      "indikator": "Ketepatan menjelaskan definisi, tujuan, dan ruang lingkup tata kelola TI",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Definisi tata kelola TI vs manajemen TI; prinsip tata kelola; pemangku kepentingan; nilai bisnis dari TI",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Framework tata kelola TI",
+      "indikator": "Kemampuan membandingkan COBIT, ITIL, ISO 38500",
+      "kriteria": "Diskusi kelompok; studi kasus",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Sejarah dan evolusi framework; COBIT, ITIL, ISO/IEC 38500; perbedaan dan area fokus",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Pengenalan COBIT 2019",
+      "indikator": "Ketepatan menjelaskan komponen COBIT 2019 (governance objectives, components, focus areas)",
+      "kriteria": "Kuis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Struktur COBIT 2019: governance objectives, components (processes, policies, etc.), focus areas, design factors",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 4: Desain tata kelola TI dengan COBIT",
+      "indikator": "Kemampuan menerapkan design factors untuk menyusun governance system",
+      "kriteria": "Tugas individu: desain awal",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Design factors (enterprise strategy, goals, risk profile, etc.); governance system components; tailoring",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4: Implementasi COBIT",
+      "indikator": "Kemampuan merencanakan implementasi COBIT dalam organisasi",
+      "kriteria": "Tugas kelompok: roadmap implementasi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Implementation lifecycle: recognize need, plan, scope, define, implement, operate, monitor",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Keselarasan strategi bisnis dan TI",
+      "indikator": "Kemampuan menganalisis alignment menggunakan framework",
+      "kriteria": "Studi kasus; analisis alignment",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Strategic alignment model (Henderson & Venkatraman); balanced scorecard; value creation",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Maturity model dan evaluasi",
+      "indikator": "Kemampuan menggunakan capability level COBIT untuk assessment",
+      "kriteria": "Kuis; tugas individu assessment maturity",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Capability levels (0-5); process assessment; gap analysis; maturity model",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep tata kelola TI, framework COBIT, alignment, maturity",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: Manajemen risiko TI",
+      "indikator": "Ketepatan menjelaskan siklus manajemen risiko dan hubungannya dengan COBIT",
+      "kriteria": "Diskusi; studi kasus",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Risk management framework (ISO 31000); identifikasi risiko TI; analisis risiko; risk response",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7: COBIT dan manajemen risiko",
+      "indikator": "Kemampuan mengidentifikasi risk scenarios menggunakan COBIT",
+      "kriteria": "Tugas kelompok: risk register",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "COBIT risk management processes (APO12, DSS04); risk scenarios; risk appetite; risk reporting",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Rekomendasi perbaikan tata kelola",
+      "indikator": "Kemampuan menyusun rekomendasi berdasarkan gap analysis",
+      "kriteria": "Tugas individu: rekomendasi perbaikan",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Gap analysis techniques; prioritization; action plan; continuous improvement",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 9: Penyusunan laporan assessment",
+      "indikator": "Kemampuan menyusun laporan tata kelola TI yang sistematis",
+      "kriteria": "Tugas kelompok: draft laporan",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Struktur laporan assessment: executive summary, methodology, findings, recommendations",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Finalisasi laporan",
+      "indikator": "Kemampuan menyelesaikan laporan dengan data dan analisis yang valid",
+      "kriteria": "Tugas kelompok: laporan final",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Verifikasi data; penulisan rekomendasi; review laporan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10: Persiapan presentasi",
+      "indikator": "Kemampuan merancang slide presentasi efektif",
+      "kriteria": "Konsultasi dan review slide",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Teknik presentasi; visualisasi data; storytelling",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Presentasi hasil assessment",
+      "indikator": "Kemampuan mempresentasikan temuan dan rekomendasi",
+      "kriteria": "Presentasi kelompok (15 menit)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Presentasi daring sinkron; TM: 3x50",
+      "materi": "Presentasi laporan; tanya jawab; peer feedback",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang tata kelola TI, COBIT, manajemen risiko, dan studi kasus",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Seluruh materi (minggu 1–15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep tata kelola TI (IT Governance)\n2. Framework tata kelola TI: COBIT 2019, ITIL v4, ISO 38500\n3. Keselarasan strategi bisnis dan TI\n4. Manajemen risiko TI dan kepatuhan (compliance)\n5. Pengukuran kinerja TI: KPI, BSC, dan maturity model\n6. Tata kelola data dan manajemen informasi\n7. Tata kelola keamanan informasi (ISO 27001)\n8. Implementasi tata kelola TI pada organisasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "ISACA. (2019). *COBIT 2019 Framework: Introduction and Methodology*. ISACA."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Weill, P., & Ross, J. W. (2009). *IT Governance: How Top Performers Manage IT Decision Rights for Superior Results*. Harvard Business Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "De Haes, S., & Van Grembergen, W. (2015). *Enterprise Governance of Information Technology: Achieving Alignment and Value*. Springer."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "ISO/IEC 38500:2015. *Information technology — Governance of IT for the organization*. ISO."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Moeller, R. R. (2013). *IT Audit, Control, and Security*. Wiley."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman mendalam tentang tata kelola teknologi informasi (IT Governance) yang efektif dalam organisasi. Materi mencakup konsep dasar tata kelola TI, framework utama seperti COBIT 2019, ITIL v4, dan ISO 38500, keselarasan strategi bisnis dan TI, manajemen risiko TI, pengukuran kinerja menggunakan balanced scorecard dan maturity model, serta tata kelola data dan keamanan informasi. Mahasiswa akan belajar melakukan assessment tata kelola TI menggunakan COBIT, mengidentifikasi gap, dan menyusun rekomendasi perbaikan. Penekanan diberikan pada kemampuan analisis, evaluasi, dan presentasi hasil assessment secara profesional.",
+  "matakuliah_syarat": "-"
+}

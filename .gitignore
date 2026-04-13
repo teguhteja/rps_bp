@@ -1,0 +1,24 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore generated output files (optional, but recommended if you don't want to track all generated docs)
+output/
+output_*/
+*.docx
+!RPS_MK_TSI0000.docx
+
+# If you want to ignore all raw input JSONs but keep template structure, uncomment below
+# input*/

@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3538",
+    "nama_mk": "Manajemen Proses Bisnis",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 5,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep dan framework Business Process Management (BPM) serta siklus hidup proses bisnis"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KU-02",
+      "deskripsi": "Mampu mengidentifikasi dan memodelkan proses bisnis menggunakan BPMN (Business Process Model and Notation)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-05, KK-06",
+      "deskripsi": "Mampu melakukan analisis dan evaluasi proses bisnis (as-is dan to-be) serta mengusulkan redesain"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-08",
+      "deskripsi": "Mampu mengimplementasikan otomatisasi proses bisnis (BPA/RPA) dan menggunakan tools BPM"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KU-05",
+      "deskripsi": "Mampu menyusun KPI, mengukur kinerja proses, serta menerapkan continuous improvement (Lean/Six Sigma)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar proses bisnis, BPM, dan siklus hidup BPM",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membandingkan framework BPM (ABPMP, BPMN, dan standar lainnya)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu mengidentifikasi dan mendokumentasikan proses bisnis menggunakan teknik wawancara/observasi",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu memodelkan proses bisnis dengan BPMN (level kolaborasi, orchestration, choreography)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menganalisis proses as-is dan mengidentifikasi pain points serta waste",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang proses to-be dan melakukan value-added analysis",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan konsep Business Process Automation (BPA) dan Robotic Process Automation (RPA)",
+      "cpmk": "CPMK-4",
+      "minggu": "9",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menggunakan tools BPM (seperti Bizagi, Camunda, atau Appian) untuk simulasi dan eksekusi",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun KPI proses bisnis dan menerapkan Lean Six Sigma untuk improvement",
+      "cpmk": "CPMK-5",
+      "minggu": "12–13",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengintegrasikan seluruh keterampilan dalam proyek analisis dan redesain proses bisnis",
+      "cpmk": "CPMK-3, CPMK-5",
+      "minggu": "14–15",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Konsep dasar BPM",
+      "indikator": "Ketepatan menjelaskan definisi proses bisnis, BPM, dan siklus hidup BPM",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Proses bisnis vs fungsi; nilai tambah; siklus BPM (discover, analyze, redesign, implement, monitor, optimize)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Framework BPM",
+      "indikator": "Kemampuan membandingkan ABPMP, BPMN, dan standar internasional",
+      "kriteria": "Diskusi kelompok",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Body of Knowledge (BPM CBOK); notasi BPMN; standar ISO, APQC",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Identifikasi proses bisnis",
+      "indikator": "Kemampuan mengidentifikasi proses dan mendokumentasikan dengan SIPOC",
+      "kriteria": "Tugas individu: SIPOC untuk kasus sederhana",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Teknik identifikasi: wawancara, observasi, document analysis; SIPOC diagram",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 4: Pemodelan BPMN (level kolaborasi dan orchestration)",
+      "indikator": "Kemampuan membuat diagram BPMN sederhana (pool, lane, activities, events, gateways)",
+      "kriteria": "Praktik pemodelan (Bizagi/online tool)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Elemen BPMN: flow objects, connecting objects, swimlanes, artifacts; contoh proses sederhana",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4: Pemodelan BPMN lanjut (choreography dan event subprocess)",
+      "indikator": "Kemampuan memodelkan interaksi antar pool dan event-driven process",
+      "kriteria": "Tugas kelompok: pemodelan proses bisnis organisasi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Choreography diagram; message flow; event subprocess; error handling",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Analisis proses as-is",
+      "indikator": "Kemampuan mengidentifikasi bottleneck, waste, dan pain points",
+      "kriteria": "Studi kasus: analisis proses nyata",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Value stream mapping; cycle time vs throughput; waste (Lean principles)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Redesain proses to-be",
+      "indikator": "Kemampuan merancang proses baru yang lebih efisien",
+      "kriteria": "Tugas kelompok: usulan redesain",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Heuristic redesign: task elimination, order adjustment, parallelization, integration; simulasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep BPM, pemodelan, analisis as-is, redesain",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: Business Process Automation (BPA) dan RPA",
+      "indikator": "Ketepatan menjelaskan konsep BPA, RPA, dan perbedaannya",
+      "kriteria": "Kuis; studi kasus otomatisasi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "BPA vs RPA; tools: UiPath, Automation Anywhere; kriteria proses untuk otomatisasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 8: Tools BPM (Bizagi/Camunda)",
+      "indikator": "Kemampuan menggunakan tool untuk membuat model dan simulasi",
+      "kriteria": "Praktikum: membuat model dan simulasi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Instalasi dan pengenalan Bizagi Modeler/Camunda; membuat diagram; simulasi time/cost",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Implementasi dan eksekusi proses dengan BPM engine",
+      "indikator": "Kemampuan mendeploy model ke BPM engine",
+      "kriteria": "Tugas kelompok: deploy model sederhana",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "BPM engine; user task; form; rule; monitoring",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 9: KPI dan pengukuran kinerja proses",
+      "indikator": "Kemampuan menyusun KPI operasional dan strategis",
+      "kriteria": "Tugas individu: KPI untuk proses bisnis",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Contoh KPI: cycle time, defect rate, cost per transaction, customer satisfaction; dashboard",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Continuous improvement (Lean Six Sigma)",
+      "indikator": "Kemampuan menerapkan DMAIC untuk improvement",
+      "kriteria": "Studi kasus: DMAIC project",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Lean: value, waste, Kaizen; Six Sigma: DMAIC, role, statistical tools",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10: Proyek BPM – Identifikasi dan analisis",
+      "indikator": "Kemampuan memilih kasus dan melakukan analisis awal",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Studi kasus nyata (UMKM atau perusahaan); identifikasi proses; pengumpulan data",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Presentasi proyek redesain proses",
+      "indikator": "Kemampuan mempresentasikan hasil analisis, redesain, dan rekomendasi",
+      "kriteria": "Presentasi kelompok (15 menit)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Presentasi daring sinkron; TM: 3x50",
+      "materi": "Presentasi model as-is, to-be, KPI, improvement plan",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang BPM, pemodelan, otomatisasi, KPI, dan improvement",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Seluruh materi (minggu 1–15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan framework Business Process Management (BPM)\n2. Identifikasi dan pemodelan proses bisnis (BPMN)\n3. Analisis dan evaluasi proses bisnis (as-is dan to-be)\n4. Redesain dan optimasi proses bisnis\n5. Implementasi BPM dengan teknologi informasi\n6. Business Process Automation dan RPA\n7. KPI dan pengukuran kinerja proses bisnis\n8. Continuous Process Improvement: Lean dan Six Sigma",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Dumas, M., La Rosa, M., Mendling, J., & Reijers, H. A. (2018). *Fundamentals of Business Process Management* (2nd ed.). Springer."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Silver, B. (2017). *BPMN Method and Style: A Levels-Based Methodology for BPM Process Modeling and Improvement* (2nd ed.). Cody-Cassidy Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Jeston, J., & Nelis, J. (2018). *Business Process Management: Practical Guidelines to Successful Implementations* (4th ed.). Routledge."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "vom Brocke, J., & Rosemann, M. (2015). *Handbook on Business Process Management 1: Introduction, Methods, and Information Systems* (2nd ed.). Springer."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "George, M. L. (2017). *The Lean Six Sigma Pocket Toolbook*. McGraw-Hill."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pengetahuan dan keterampilan dalam mengelola, menganalisis, dan meningkatkan proses bisnis menggunakan pendekatan Business Process Management (BPM). Materi meliputi konsep dasar BPM, pemodelan proses dengan BPMN, analisis proses as-is, redesain proses to-be, implementasi otomatisasi proses (BPA/RPA), pengukuran kinerja dengan KPI, serta metode continuous improvement seperti Lean dan Six Sigma. Mahasiswa akan mempraktikkan penggunaan tools BPM (Bizagi, Camunda) melalui studi kasus dan proyek kelompok untuk mengidentifikasi, memodelkan, dan mengoptimalkan proses bisnis di organisasi nyata.",
+  "matakuliah_syarat": "TSI3104 Konsep Sistem Informasi"
+}

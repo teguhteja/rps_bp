@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "kode_mk": "TSI3213",
+    "nama_mk": "Statistika dan Probabilitas",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-03", "deskripsi": "Mampu menjelaskan teori probabilitas, aturan peluang, dan distribusi probabilitas (diskret dan kontinu)"},
+    {"kode": "CPMK-3", "cpl": "KU-02, KK-04", "deskripsi": "Mampu memahami sampling, distribusi sampling, estimasi, dan interval kepercayaan"},
+    {"kode": "CPMK-4", "cpl": "P-01, KU-01", "deskripsi": "Mampu melakukan pengujian hipotesis (satu sampel, dua sampel) dan menginterpretasikan hasil"},
+    {"kode": "CPMK-5", "cpl": "KK-03, KK-04", "deskripsi": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep statistika, data, dan skala pengukuran", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menyajikan data dalam bentuk tabel, grafik, dan diagram", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menghitung dan menginterpretasikan ukuran pemusatan (mean, median, modus)", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menghitung dan menginterpretasikan ukuran penyebaran (range, varians, standar deviasi)", "cpmk": "CPMK-1", "minggu": "4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan konsep probabilitas, aturan penjumlahan dan perkalian", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menggunakan distribusi probabilitas diskret (Binomial, Poisson) dan kontinu (Normal)", "cpmk": "CPMK-2", "minggu": "6", "cpl": "C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan konsep sampling, distribusi sampling, dan teorema limit pusat", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu melakukan estimasi titik dan interval kepercayaan untuk rata-rata dan proporsi", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan uji hipotesis satu sampel dan dua sampel (z, t, chi-square)", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C4"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu melakukan analisis korelasi dan regresi linier sederhana serta menginterpretasikan output", "cpmk": "CPMK-5", "minggu": "12–14", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 11", "deskripsi": "Mampu menyusun laporan analisis statistik dan mempresentasikan hasil", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C5–C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Pengertian statistika, data, dan skala pengukuran", "indikator": "Ketepatan membedakan statistika deskriptif dan inferensial, data kualitatif/kuantitatif, skala nominal, ordinal, interval, rasio", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Statistika deskriptif vs inferensial, jenis data, skala pengukuran", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2 : Penyajian data (tabel, grafik, diagram)", "indikator": "Kemampuan membuat tabel frekuensi, histogram, poligon, ogive, diagram batang, lingkaran", "kriteria": "Tugas individu (penyajian data)", "tatap_muka": "Kuliah + praktik TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Distribusi frekuensi, grafik, diagram", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3 : Ukuran pemusatan (mean, median, modus)", "indikator": "Kemampuan menghitung mean, median, modus untuk data tunggal dan kelompok", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Mean, median, modus, interpretasi", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4 : Ukuran penyebaran (range, varians, standar deviasi)", "indikator": "Kemampuan menghitung range, varians, standar deviasi, koefisien variasi", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Varians, standar deviasi, range, interpretasi sebaran", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5 : Konsep probabilitas", "indikator": "Ketepatan menjelaskan ruang sampel, kejadian, aturan penjumlahan, aturan perkalian, probabilitas bersyarat", "kriteria": "Kuis online; Tugas latihan", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Definisi probabilitas, kejadian saling lepas, bebas, bersyarat", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6 : Distribusi probabilitas diskret dan kontinu", "indikator": "Kemampuan menggunakan distribusi Binomial, Poisson, dan Normal (tabel z)", "kriteria": "Tugas hitungan distribusi", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Distribusi Binomial, Poisson, Normal, pendekatan normal", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7 : Sampling dan distribusi sampling", "indikator": "Kemampuan menjelaskan teknik sampling, distribusi sampling rata-rata, dan teorema limit pusat", "kriteria": "Kuis online; Diskusi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Populasi, sampel, sampling random, distribusi sampling, CLT", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal statistika deskriptif, probabilitas, distribusi", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8 : Estimasi dan interval kepercayaan", "indikator": "Kemampuan menghitung interval kepercayaan untuk rata-rata (σ diketahui/tidak) dan proporsi", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Estimasi titik, interval kepercayaan, margin of error", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 9 : Uji hipotesis satu sampel (rata-rata, proporsi)", "indikator": "Kemampuan melakukan uji z, uji t satu sampel, dan menginterpretasikan p-value", "kriteria": "Tugas hitungan + interpretasi", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Hipotesis nol, alternatif, statistik uji, daerah kritis", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9 : Uji hipotesis dua sampel (independen dan berpasangan)", "indikator": "Kemampuan melakukan uji t dua sampel independen dan paired t-test", "kriteria": "Tugas kelompok (studi kasus)", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Uji perbedaan dua rata-rata, asumsi, contoh kasus", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 10 : Analisis korelasi", "indikator": "Kemampuan menghitung dan menginterpretasikan koefisien korelasi Pearson", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Korelasi Pearson, uji signifikansi, korelasi rank", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10 : Regresi linier sederhana", "indikator": "Kemampuan menentukan persamaan regresi, koefisien determinasi, dan uji signifikansi", "kriteria": "Tugas hitungan + interpretasi", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Model regresi, estimasi parameter, R-squared, uji F", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 11 : Studi kasus analisis statistik dengan tools (Excel/SPSS)", "indikator": "Kemampuan menggunakan software untuk analisis data dan menginterpretasikan output", "kriteria": "Tugas praktik (analisis dataset)", "tatap_muka": "Praktik software TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Penggunaan Excel/SPSS untuk statistik deskriptif, uji hipotesis, regresi", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 11 : Penyusunan laporan analisis statistik", "indikator": "Kemampuan menulis laporan sistematis dan menyajikan hasil analisis", "kriteria": "Laporan kelompok", "tatap_muka": "Bimbingan laporan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Struktur laporan, tabel, grafik, kesimpulan", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS : Presentasi + Ujian Akhir Semester", "indikator": "Kemampuan mempresentasikan hasil analisis dan menjawab soal integratif", "kriteria": "Presentasi kelompok + ujian tertulis", "tatap_muka": "Presentasi + UAS TM: 2x50", "daring": "Presentasi daring + UAS online; [TM: 2×50']", "materi": "Seluruh materi (estimasi, uji hipotesis, korelasi, regresi, studi kasus)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Statistika deskriptif: ukuran pemusatan dan penyebaran\n2. Penyajian data: tabel, grafik, dan visualisasi\n3. Teori peluang dasar dan aturan peluang\n4. Distribusi probabilitas (diskret dan kontinu)\n5. Sampling dan distribusi sampling\n6. Estimasi dan interval kepercayaan\n7. Pengujian hipotesis\n8. Analisis korelasi dan regresi linier\n9. Penerapan statistika dalam analisis data sistem informasi",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2016). *Probability and statistics for engineers and scientists* (9th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Triola, M. F. (2018). *Elementary statistics* (13th ed.). Pearson."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Montgomery, D. C., & Runger, G. C. (2018). *Applied statistics and probability for engineers* (7th ed.). Wiley."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Hasan, I. (2014). *Pokok-pokok materi statistik 1 (statistik deskriptif)*. Bumi Aksara."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Nugroho, B. A. (2016). *Strategi jitu memilih metode statistik penelitian dengan SPSS*. Andi."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan konsep dasar statistika dan probabilitas yang diperlukan untuk analisis data dalam sistem informasi. Materi meliputi statistika deskriptif (ukuran pemusatan, penyebaran, penyajian data), teori probabilitas, distribusi probabilitas (diskret dan kontinu), sampling dan distribusi sampling, estimasi interval, pengujian hipotesis (satu dan dua sampel), serta analisis korelasi dan regresi linier. Penekanan diberikan pada penerapan statistika dalam pengambilan keputusan berbasis data, menggunakan perangkat lunak seperti Excel atau SPSS.",
+  "matakuliah_syarat": "TSI3105 (Pengantar Teknologi Informasi) – direkomendasikan"
+}

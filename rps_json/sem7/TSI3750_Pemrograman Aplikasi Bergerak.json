@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3750",
+    "nama_mk": "Pemrograman Aplikasi Bergerak",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 7,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep dan ekosistem pengembangan aplikasi mobile (Android dan iOS) serta arsitektur aplikasi"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu merancang antarmuka pengguna mobile (UI/UX) dengan menerapkan Material Design/Human Interface Guidelines"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-01, KK-03",
+      "deskripsi": "Mampu mengimplementasikan aplikasi mobile native (Android dengan Java/Kotlin) atau cross-platform (Flutter/React Native)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-08",
+      "deskripsi": "Mampu mengintegrasikan API, basis data lokal, dan layanan cloud pada aplikasi mobile"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-05, KK-08",
+      "deskripsi": "Mampu menguji, mendeploy, dan mendistribusikan aplikasi mobile ke app store"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan platform mobile (Android vs iOS), perbedaan native vs cross-platform, dan tools development",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menyiapkan environment development (Android Studio, Flutter SDK) dan membuat proyek pertama",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu merancang layout dan komponen UI dasar (TextView, Button, ImageView, RecyclerView)",
+      "cpmk": "CPMK-2",
+      "minggu": "3-4",
+      "cpl": "C3-C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan event handling, intent, dan navigasi antar halaman",
+      "cpmk": "CPMK-2",
+      "minggu": "5",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengimplementasikan penyimpanan data lokal (SharedPreferences, SQLite, atau Room)",
+      "cpmk": "CPMK-4",
+      "minggu": "6",
+      "cpl": "C3-C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu mengintegrasikan REST API (Retrofit/HttpClient) untuk komunikasi dengan backend",
+      "cpmk": "CPMK-4",
+      "minggu": "7",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menerapkan state management dan pola arsitektur (MVVM) pada aplikasi mobile",
+      "cpmk": "CPMK-3",
+      "minggu": "9-10",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan debugging, unit testing, dan pengujian UI pada aplikasi mobile",
+      "cpmk": "CPMK-5",
+      "minggu": "11",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan deployment (signed APK/AAB) dan distribusi ke Google Play Store",
+      "cpmk": "CPMK-5",
+      "minggu": "12-13",
+      "cpl": "C5-P4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengembangkan proyek aplikasi mobile lengkap dengan dokumentasi dan presentasi",
+      "cpmk": "CPMK-3, CPMK-5",
+      "minggu": "14-15",
+      "cpl": "C5-C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Pengenalan pemrograman mobile",
+      "indikator": "Ketepatan menjelaskan platform, arsitektur, dan perbedaan native vs cross-platform",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Android vs iOS, Android architecture (Linux kernel, Dalvik/ART, Application Framework), Flutter vs React Native, tools (Android Studio, Xcode)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Setup environment dan proyek pertama",
+      "indikator": "Kemampuan menginstal Android Studio/Flutter dan membuat Hello World",
+      "kriteria": "Praktik: instalasi dan proyek pertama",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Instalasi Android Studio, SDK, emulator; membuat project; struktur project; running di emulator/device",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Layout dan UI dasar",
+      "indikator": "Kemampuan membuat layout dengan XML (Android) atau widget (Flutter)",
+      "kriteria": "Tugas individu: layout sederhana",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "LinearLayout, RelativeLayout, ConstraintLayout; TextView, EditText, Button, ImageView; Flutter: Row, Column, Container",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3: RecyclerView dan list",
+      "indikator": "Kemampuan menampilkan data dalam bentuk list dengan adapter",
+      "kriteria": "Tugas individu: RecyclerView",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "RecyclerView, adapter, view holder, item click listener; Flutter: ListView.builder",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4: Event handling dan navigasi",
+      "indikator": "Kemampuan menangani klik, intent, dan navigasi antar activity/fragment",
+      "kriteria": "Tugas individu: multi-screen app",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Event listener (onClick), Intent (explicit, implicit), Activity lifecycle, Fragment; Flutter: Navigator, routes",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Penyimpanan data lokal",
+      "indikator": "Kemampuan menggunakan SharedPreferences dan SQLite/Room",
+      "kriteria": "Tugas individu: todo app dengan SQLite",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "SharedPreferences, SQLite database, Room persistence library (Entity, DAO, Database); CRUD operations",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Integrasi REST API",
+      "indikator": "Kemampuan mengambil data dari API dan menampilkannya",
+      "kriteria": "Tugas individu: API client",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Retrofit (Android) atau http (Flutter), parsing JSON (Gson), asynchronous (Coroutines/AsyncTask), menampilkan data di RecyclerView",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep mobile, UI, event handling, penyimpanan lokal, API",
+      "kriteria": "Ujian tertulis online + praktik coding",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Materi Minggu 1-7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: State management dan MVVM",
+      "indikator": "Kemampuan menerapkan pola MVVM dan state management",
+      "kriteria": "Praktik coding",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Arsitektur MVVM, LiveData, ViewModel, Repository; Flutter: Provider, Bloc, Riverpod",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7: Lanjutan state management dan background tasks",
+      "indikator": "Kemampuan menggunakan WorkManager/Service untuk tugas background",
+      "kriteria": "Tugas kelompok: aplikasi dengan background sync",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "WorkManager, Service, BroadcastReceiver; notifikasi; scheduling tasks",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Debugging dan testing",
+      "indikator": "Kemampuan menggunakan debugger, Logcat, dan menulis unit test",
+      "kriteria": "Tugas individu: testing",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Debugging (breakpoints, Logcat), unit testing (JUnit), UI testing (Espresso/Flutter test)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 9: Deployment ke app store",
+      "indikator": "Kemampuan membuat signed APK/AAB dan upload ke Google Play Console",
+      "kriteria": "Praktik: generate signed APK",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Generate signed APK/AAB, keystore, Google Play Console, app listing, store listing",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Keamanan aplikasi mobile",
+      "indikator": "Kemampuan menjelaskan best practices keamanan (obfuscation, secure storage, HTTPS)",
+      "kriteria": "Kuis; studi kasus",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "ProGuard, R8, secure SharedPreferences (EncryptedSharedPreferences), HTTPS, SSL pinning, input validation",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10: Proyek aplikasi mobile – perencanaan dan desain",
+      "indikator": "Kemampuan merancang aplikasi (UI, fitur, arsitektur)",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Pemilihan tema, perancangan UI mockup, pembagian tugas, penyusunan jadwal",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Implementasi dan presentasi proyek",
+      "indikator": "Kemampuan menyelesaikan dan mempresentasikan aplikasi mobile",
+      "kriteria": "Presentasi kelompok (15 menit), demo",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Presentasi daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Demo aplikasi, presentasi slide, tanya jawab, dokumentasi kode",
+      "bobot": "10%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang MVVM, testing, deployment, keamanan, dan studi kasus",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Seluruh materi (minggu 1-15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan ekosistem mobile computing\n2. Platform mobile: Android dan iOS\n3. Pengembangan aplikasi mobile native dan cross-platform (Flutter/React Native)\n4. Desain antarmuka mobile (Material Design, Human Interface Guidelines)\n5. Pengelolaan data lokal dan basis data mobile\n6. Integrasi API dan layanan web pada aplikasi mobile\n7. Keamanan aplikasi mobile\n8. Publishing dan distribusi aplikasi mobile\n9. Praktikum: pengembangan aplikasi mobile berbasis sistem informasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Phillips, B., Stewart, C., & Marsicano, K. (2021). *Android Programming: The Big Nerd Ranch Guide* (5th ed.). Big Nerd Ranch Guides."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Napoli, M. L. (2019). *Beginning Flutter: A Hands-On Guide to App Development*. Wrox."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Horton, J. (2018). *Android Programming for Beginners* (2nd ed.). Packt Publishing."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Google Developers. (2026). *Android Developer Documentation*. developer.android.com"
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Flutter Team. (2026). *Flutter Documentation*. flutter.dev"
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan pengembangan aplikasi mobile untuk platform Android (atau cross-platform dengan Flutter). Materi meliputi konsep ekosistem mobile, perancangan antarmuka pengguna (UI/UX) berbasis Material Design, event handling, navigasi, penyimpanan data lokal (SharedPreferences, SQLite/Room), integrasi REST API, state management dengan pola MVVM, debugging dan testing, keamanan aplikasi, serta deployment ke Google Play Store. Mahasiswa akan mempraktikkan langsung melalui tugas dan proyek kelompok untuk membangun aplikasi mobile yang terintegrasi dengan sistem informasi backend.",
+  "matakuliah_syarat": "TSI3427 Pemrograman berbasis Web atau TSI3536 Pemrograman Berorientasi Objek"
+}

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "kode_mk": "TSI3320",
+    "nama_mk": "Transformasi Digital",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "III/a",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"
+    },
+    {
+      "kode": "KK-07",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dasar transformasi digital, kerangka kerja, serta teknologi penggerak (AI, IoT, Cloud, Big Data)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-04",
+      "deskripsi": "Mampu menganalisis transformasi proses bisnis berbasis digital dan menyusun digital strategy & roadmap"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-02, KK-05",
+      "deskripsi": "Mampu menjelaskan manajemen perubahan dalam transformasi digital serta tata kelola dan keamanan di era digital"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-05, KK-07",
+      "deskripsi": "Mampu memahami ekosistem digital, platform economy, dan melakukan studi kasus transformasi digital di berbagai sektor (termasuk kesehatan)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu mengintegrasikan konsep transformasi digital dalam menyusun rekomendasi strategis untuk organisasi nyata"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dan framework transformasi digital",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu mengidentifikasi teknologi penggerak transformasi digital (AI, IoT, Cloud, Big Data)",
+      "cpmk": "CPMK-1",
+      "minggu": "3–4",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menganalisis transformasi proses bisnis dan menyusun digital strategy roadmap",
+      "cpmk": "CPMK-2",
+      "minggu": "5–6",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan manajemen perubahan dalam transformasi digital",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu memahami ekosistem digital, platform economy, dan tata kelola keamanan digital",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan studi kasus transformasi digital di berbagai sektor (manufaktur, kesehatan, UMKM, pemerintahan)",
+      "cpmk": "CPMK-4",
+      "minggu": "11–12",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menyusun laporan analisis transformasi digital pada organisasi nyata",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu mempresentasikan rekomendasi strategi transformasi digital",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16 (UAS)",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep dan framework transformasi digital",
+      "indikator": "Ketepatan mendefinisikan transformasi digital dan membedakannya dengan digitalisasi",
+      "kriteria": "Kuis online (LMS); Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Konsep dasar transformasi digital; framework (Westerman, MIT, McKinsey); perbedaan digitalisasi, digitalisasi proses, transformasi digital",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Lanjutan - Dimensi dan tahapan transformasi digital",
+      "indikator": "Ketepatan menjelaskan dimensi (strategi, budaya, teknologi, operasi) dan tahapan",
+      "kriteria": "Kuis online (LMS); Tugas kelompok kecil",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Dimensi transformasi digital; model kematangan digital; studi kasus awal (Netflix, Uber, Gojek)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Teknologi penggerak - AI dan IoT",
+      "indikator": "Ketepatan menjelaskan aplikasi AI dan IoT dalam transformasi digital",
+      "kriteria": "Kuis online (LMS); Tugas analisis implementasi AI/IoT",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Artificial Intelligence (AI) dalam bisnis: predictive analytics, chatbots, personalisasi; Internet of Things (IoT): sensor, data real-time, smart manufacturing",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 2 : Teknologi penggerak - Cloud Computing dan Big Data",
+      "indikator": "Ketepatan menjelaskan model cloud (IaaS, PaaS, SaaS) dan peran Big Data",
+      "kriteria": "Kuis online (LMS); Tugas individu",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Cloud Computing: manfaat, model layanan, provider (AWS, Azure, GCP); Big Data: karakteristik 5V, data-driven decision making",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Transformasi proses bisnis berbasis digital",
+      "indikator": "Ketepatan memetakan proses bisnis tradisional menjadi digital",
+      "kriteria": "Kuis online (LMS); Tugas pemetaan BPMN sederhana",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Redesain proses bisnis digital; otomatisasi proses (RPA); integrasi sistem; studi kasus: transformasi proses customer service, supply chain",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 3 : Digital strategy dan roadmap transformasi",
+      "indikator": "Ketepatan menyusun digital strategy framework (Visi, tujuan, inisiatif, timeline)",
+      "kriteria": "Tugas kelompok (rancangan roadmap sederhana)",
+      "tatap_muka": "Kuliah interaktif; workshop TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Digital strategy: perumusan visi digital, analisis gap, prioritas inisiatif; roadmap transformasi; balanced scorecard digital",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 4 : Manajemen perubahan dalam transformasi digital",
+      "indikator": "Ketepatan menjelaskan model manajemen perubahan (Kotter, ADKAR) dan tantangan budaya",
+      "kriteria": "Kuis online (LMS); Tugas analisis studi kasus perubahan",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Manajemen perubahan: resistensi, komunikasi, pelatihan, kepemimpinan; model Kotter 8 langkah; ADKAR; studi kasus kegagalan transformasi karena faktor manusia",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep, analisis studi kasus, dan pemetaan strategi",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron (LMS); [TM: 3×50']",
+      "materi": "Materi Minggu 1–7: konsep transformasi digital, teknologi penggerak, transformasi proses bisnis, digital strategy, manajemen perubahan",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Ekosistem digital dan platform economy",
+      "indikator": "Ketepatan menjelaskan karakteristik platform digital dan network effects",
+      "kriteria": "Kuis online (LMS); Tugas individu",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Ekosistem digital: value chain digital, kolaborasi platform; platform economy (marketplace, sharing economy); network effects, multi-sided platform",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 5 : Keamanan dan tata kelola dalam era digital",
+      "indikator": "Ketepatan menjelaskan risiko keamanan digital dan framework tata kelola",
+      "kriteria": "Kuis online (LMS); Tugas analisis kasus keamanan data",
+      "tatap_muka": "Kuliah interaktif; diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Keamanan digital: ancaman siber, manajemen risiko, kepatuhan (GDPR, UU PDP); tata kelola digital: peran pimpinan, kebijakan, audit",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Studi kasus transformasi digital di sektor manufaktur dan ritel",
+      "indikator": "Kemampuan menganalisis penerapan Industry 4.0 dan omnichannel",
+      "kriteria": "Tugas kelompok (analisis studi kasus)",
+      "tatap_muka": "Kuliah interaktif; diskusi kasus TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Transformasi digital manufaktur (smart factory, digital twin, predictive maintenance); ritel (omnichannel, personalisasi, RFID); studi kasus: Nike, Unilever, Amazon",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 6 : Studi kasus transformasi digital di sektor kesehatan, UMKM, pemerintahan",
+      "indikator": "Kemampuan mengidentifikasi peluang dan tantangan di sektor spesifik",
+      "kriteria": "Tugas kelompok (presentasi studi kasus)",
+      "tatap_muka": "Kuliah interaktif; presentasi kelompok TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Telemedicine, e-Health; digitalisasi UMKM (marketplace, fintech); e-government, smart city; studi kasus: Halodoc, Gojek, Jakarta Smart City",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 7 : Persiapan proyek analisis transformasi digital pada organisasi nyata",
+      "indikator": "Kemampuan memilih organisasi dan merumuskan masalah",
+      "kriteria": "Proposal proyek (kelompok)",
+      "tatap_muka": "Bimbingan proyek; konsultasi TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Pemilihan studi kasus (perusahaan, UKM, instansi pemerintah); pengumpulan data sekunder; penyusunan kerangka analisis (kerangka transformasi digital)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 7 : Analisis dan penyusunan laporan proyek",
+      "indikator": "Kemampuan melakukan analisis gap dan menyusun rekomendasi",
+      "kriteria": "Laporan proyek (kelompok)",
+      "tatap_muka": "Bimbingan proyek; workshop TM: 3x50",
+      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Analisis kondisi as-is dan to-be; identifikasi gap; rekomendasi strategi digital; roadmap implementasi; penyusunan laporan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 8 : Presentasi proyek dan diskusi kelas",
+      "indikator": "Kemampuan mempresentasikan dan mempertahankan rekomendasi",
+      "kriteria": "Presentasi kelompok; tanya jawab",
+      "tatap_muka": "Presentasi proyek TM: 3x50",
+      "daring": "Presentasi daring sinkron (video conference); [TM: 3×50']",
+      "materi": "Presentasi hasil analisis, rekomendasi strategi, dan roadmap; sesi tanya jawab; peer review",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Ujian Akhir Semester",
+      "indikator": "Menjawab soal analisis kasus, rekomendasi strategi, dan integrasi konsep",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron (LMS); [TM: 3×50']",
+      "materi": "Materi Minggu 9–15: ekosistem digital, keamanan & tata kelola, studi kasus, proyek analisis",
+      "bobot": "15%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan framework transformasi digital\n2. Teknologi penggerak transformasi digital (AI, IoT, Cloud, Big Data)\n3. Transformasi proses bisnis berbasis digital\n4. Digital strategy dan roadmap transformasi\n5. Manajemen perubahan dalam transformasi digital\n6. Ekosistem digital dan platform economy\n7. Keamanan dan tata kelola dalam era digital\n8. Studi kasus transformasi digital di berbagai sektor (manufaktur, ritel, kesehatan, UMKM, pemerintahan)",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Westerman, G., Bonnet, D., & McAfee, A. (2014). *Leading digital: Turning technology into business transformation*. Harvard Business Review Press."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Rogers, D. L. (2016). *The digital transformation playbook: Rethink your business for the digital age*. Columbia Business School Publishing."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Schwab, K. (2017). *The fourth industrial revolution*. Currency."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Vial, G. (2019). Understanding digital transformation: A review and a research agenda. *The Journal of Strategic Information Systems*, 28(2), 118-144."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Kotter, J. P. (2012). *Leading change*. Harvard Business Review Press."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman komprehensif tentang konsep, kerangka kerja, dan implementasi transformasi digital dalam organisasi. Materi meliputi teknologi penggerak (AI, IoT, Cloud, Big Data), transformasi proses bisnis, digital strategy dan roadmap, manajemen perubahan, ekosistem digital, platform economy, keamanan dan tata kelola digital, serta studi kasus di berbagai sektor (manufaktur, ritel, kesehatan, UMKM, pemerintahan). Penekanan diberikan pada kemampuan menganalisis kesiapan organisasi dan menyusun rekomendasi strategi transformasi digital yang relevan.",
+  "matakuliah_syarat": "TSI3104 (Konsep Sistem Informasi) atau TSI3320 (dapat diambil setelah semester 3) – direkomendasikan"
+}

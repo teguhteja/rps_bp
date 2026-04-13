@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "kode_mk": "TSI3104",
+    "nama_mk": "Konsep Sistem Informasi",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"},
+    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep dasar data, informasi, sistem, dan sistem informasi"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-06", "deskripsi": "Mampu mengidentifikasi komponen, jenis, dan klasifikasi sistem informasi dalam organisasi"},
+    {"kode": "CPMK-3", "cpl": "KU-02, KK-08", "deskripsi": "Mampu menjelaskan peran hardware, software, dan infrastruktur pendukung sistem informasi"},
+    {"kode": "CPMK-4", "cpl": "S-09, KK-01", "deskripsi": "Mampu menganalisis kebutuhan sistem informasi dan pengembangan sistem sederhana"},
+    {"kode": "CPMK-5", "cpl": "KU-01, KK-06", "deskripsi": "Mampu menjelaskan isu keamanan, etika, dan tren inovasi sistem informasi di era digital"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu membedakan data, informasi, sistem, dan sistem informasi", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan komponen sistem informasi (people, process, technology, data)", "cpmk": "CPMK-2", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu mengklasifikasikan jenis-jenis sistem informasi (TPS, MIS, DSS, EIS, ERP)", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan perangkat keras dan perangkat lunak dalam SI", "cpmk": "CPMK-3", "minggu": "4", "cpl": "C2"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan infrastruktur jaringan dan basis data", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan siklus pengembangan sistem (SDLC) dan metodologi sederhana", "cpmk": "CPMK-4", "minggu": "6-7", "cpl": "C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu mengidentifikasi kebutuhan informasi organisasi", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C3-C4"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan aspek keamanan dan pengendalian sistem informasi", "cpmk": "CPMK-5", "minggu": "10-11", "cpl": "C2"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan etika dan tanggung jawab profesional dalam SI", "cpmk": "CPMK-5", "minggu": "12", "cpl": "C2"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu mengidentifikasi tren dan inovasi SI (cloud, big data, AI, IoT)", "cpmk": "CPMK-5", "minggu": "13-15", "cpl": "C3"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dasar data, informasi, sistem, dan sistem informasi", "indikator": "Ketepatan membedakan data, informasi, dan sistem", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Definisi data, informasi, sistem; karakteristik sistem; contoh sistem informasi", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Komponen sistem informasi", "indikator": "Kemampuan mengidentifikasi komponen people, process, technology, data", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Komponen SI: hardware, software, data, prosedur, sumber daya manusia", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Klasifikasi sistem informasi", "indikator": "Kemampuan membedakan TPS, MIS, DSS, EIS, ERP", "kriteria": "Tugas individu: peta konsep", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Jenis SI berdasarkan level manajemen (operasional, taktis, strategis); contoh aplikasi", "bobot": "5%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Perangkat keras dan perangkat lunak", "indikator": "Ketepatan menjelaskan komponen hardware dan software", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "CPU, memori, storage, I/O; sistem operasi, aplikasi, bahasa pemrograman", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Infrastruktur jaringan dan basis data", "indikator": "Kemampuan menjelaskan dasar jaringan komputer dan basis data", "kriteria": "Tugas individu: diagram jaringan sederhana", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "LAN, WAN, internet, cloud; konsep basis data, DBMS, SQL dasar", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Siklus pengembangan sistem (SDLC)", "indikator": "Kemampuan menjelaskan tahapan SDLC (analisis, desain, implementasi, uji, maintenance)", "kriteria": "Diskusi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Waterfall, prototyping, agile; peran analis sistem", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 6: Studi kasus pengembangan sistem sederhana", "indikator": "Kemampuan mengidentifikasi kebutuhan sistem untuk kasus sederhana", "kriteria": "Tugas kelompok: proposal sistem", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Contoh kasus: sistem informasi perpustakaan, penjualan, akademik", "bobot": "6%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep dasar, komponen, klasifikasi, infrastruktur, SDLC", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 7: Identifikasi kebutuhan informasi organisasi", "indikator": "Kemampuan melakukan wawancara/observasi sederhana untuk mengidentifikasi kebutuhan", "kriteria": "Tugas kelompok: analisis kebutuhan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Teknik elicitation, studi kelayakan, requirement specification", "bobot": "6%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 8: Keamanan dan pengendalian SI", "indikator": "Kemampuan menjelaskan ancaman keamanan dan kontrol", "kriteria": "Kuis, studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ancaman (malware, hacking, phising), kontrol akses, backup, disaster recovery", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 8: Keamanan data dan privasi", "indikator": "Kemampuan menjelaskan isu privasi dan regulasi", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Enkripsi, otentikasi, UU ITE, UU PDP, etika hacking", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 9: Etika dan tanggung jawab profesional", "indikator": "Kemampuan menjelaskan kode etik profesi SI", "kriteria": "Tugas individu: esai etika", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Kode etik ACM/IEEE, APTIKOM, tanggung jawab sosial, HKI", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Tren inovasi SI (Cloud, Big Data, AI)", "indikator": "Kemampuan menjelaskan cloud computing dan big data", "kriteria": "Presentasi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Cloud (IaaS, PaaS, SaaS), Big Data 5V, analitik data", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Tren inovasi SI (IoT, AI, Blockchain)", "indikator": "Kemampuan menjelaskan IoT, AI, dan blockchain dalam SI", "kriteria": "Presentasi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "IoT arsitektur, AI/ML, smart contract, cryptocurrency", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Studi kasus implementasi SI modern", "indikator": "Kemampuan menganalisis studi kasus transformasi digital", "kriteria": "Tugas kelompok: laporan studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Analisis implementasi SI di perusahaan (e-commerce, fintech, kesehatan)", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang keamanan, etika, tren, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dasar data, informasi, sistem, dan sistem informasi\n2. Komponen, jenis, dan klasifikasi sistem informasi\n3. Hardware, software, dan infrastruktur pendukung sistem informasi\n4. Dasar basis data dan manajemen data\n5. Komunikasi data, jaringan komputer, dan internet\n6. Pengembangan, pengadaan, dan perencanaan sistem informasi\n7. Keamanan dan pengendalian sistem informasi\n8. Etika dan tanggung jawab profesional dalam sistem informasi\n9. Tren dan inovasi sistem informasi di era digital",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Laudon, K. C., & Laudon, J. P. (2020). *Management Information Systems: Managing the Digital Firm* (16th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "O'Brien, J. A., & Marakas, G. M. (2017). *Introduction to Information Systems* (16th ed.). McGraw-Hill."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Stair, R. M., & Reynolds, G. W. (2020). *Principles of Information Systems* (14th ed.). Cengage Learning."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Turban, E., Pollard, C., & Wood, G. (2018). *Information Technology for Management* (11th ed.). Wiley."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Alter, S. (2016). *Information Systems: A Management Perspective* (4th ed.). Pearson."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini memberikan fondasi pemahaman tentang konsep dasar sistem informasi yang menjadi landasan bagi studi lanjutan di bidang sistem informasi dan teknologi. Materi meliputi definisi data, informasi, sistem, dan sistem informasi; komponen dan klasifikasi sistem informasi; infrastruktur pendukung (hardware, software, jaringan, basis data); siklus pengembangan sistem (SDLC); keamanan dan pengendalian; etika profesional; serta tren inovasi seperti cloud computing, big data, AI, IoT, dan blockchain. Mahasiswa akan belajar mengidentifikasi kebutuhan informasi organisasi dan menganalisis studi kasus implementasi sistem informasi.",
+  "matakuliah_syarat": "-"
+}

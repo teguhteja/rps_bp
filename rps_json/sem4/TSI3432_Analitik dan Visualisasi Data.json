@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "kode_mk": "TSI3432",
+    "nama_mk": "Analitik dan Visualisasi Data",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi menggunakan kaidah rekayasa perangkat lunak dan tools yang relevan"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep data analytics, siklus analisis data, serta peran data dalam pengambilan keputusan bisnis"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-03",
+      "deskripsi": "Mampu melakukan eksplorasi, pembersihan, dan transformasi data (data wrangling) menggunakan tools spreadsheet atau Python"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-02, KU-02",
+      "deskripsi": "Mampu menerapkan statistika deskriptif dan inferensial untuk menganalisis data dan menarik kesimpulan"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-03, KK-11",
+      "deskripsi": "Mampu membuat visualisasi data yang efektif dan storytelling dengan data menggunakan tools modern (Power BI, Tableau, Matplotlib)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-04, KK-11",
+      "deskripsi": "Mampu menyusun laporan analitik data dan dashboard interaktif untuk mendukung pengambilan keputusan bisnis"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep data analytics, siklus analisis (CRISP-DM), dan jenis analitik (deskriptif, diagnostik, prediktif, preskriptif)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu melakukan eksplorasi data (EDA) dan data wrangling (pembersihan, transformasi, integrasi) menggunakan spreadsheet atau Python Pandas",
+      "cpmk": "CPMK-2",
+      "minggu": "3–4",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan statistika deskriptif (mean, median, modus, standar deviasi, histogram, boxplot) untuk analisis data",
+      "cpmk": "CPMK-3",
+      "minggu": "5",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan statistika inferensial (uji hipotesis, korelasi, regresi linier sederhana) untuk menarik kesimpulan",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan prinsip visualisasi data yang efektif (Tufte, Few) dan memilih chart yang tepat",
+      "cpmk": "CPMK-4",
+      "minggu": "7",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu membuat visualisasi data menggunakan tools (Power BI, Tableau, atau Matplotlib/Seaborn)",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu melakukan storytelling dengan data dan menyusun dashboard interaktif",
+      "cpmk": "CPMK-4",
+      "minggu": "11–12",
+      "cpl": "C4–P5"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menyusun laporan analitik data dan rekomendasi untuk pengambilan keputusan bisnis",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mempresentasikan hasil analisis dan visualisasi data dalam bentuk dashboard dan laporan",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep data analytics dan siklus analisis data",
+      "indikator": "Ketepatan mendefinisikan data analytics, membedakan jenis analitik (deskriptif, diagnostik, prediktif, preskriptif), dan menjelaskan siklus CRISP-DM",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Definisi data analytics; peran data dalam bisnis; siklus CRISP-DM; jenis analitik",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Data-driven decision making",
+      "indikator": "Kemampuan menjelaskan konsep data-driven decision making dan contoh penerapannya",
+      "kriteria": "Studi kasus; Forum diskusi",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Data-driven vs intuition; budaya data; contoh keputusan bisnis berbasis data",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Eksplorasi data (EDA) dan data wrangling",
+      "indikator": "Kemampuan melakukan eksplorasi data awal (info, describe, missing value) menggunakan spreadsheet atau Python",
+      "kriteria": "Tugas praktik (EDA sederhana)",
+      "tatap_muka": "Praktik spreadsheet/Pandas TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "EDA: statistik deskriptif, missing value, outlier; data wrangling: filtering, sorting, merging",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 2 : Pembersihan dan transformasi data",
+      "indikator": "Kemampuan membersihkan data (duplikat, format tidak konsisten, missing value handling)",
+      "kriteria": "Tugas praktik (data cleaning)",
+      "tatap_muka": "Praktik data cleaning TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Teknik pembersihan: deduplikasi, imputasi, normalisasi, encoding",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Statistika deskriptif untuk analitik",
+      "indikator": "Kemampuan menghitung dan menginterpretasikan mean, median, modus, varians, standar deviasi, dan membuat histogram/boxplot",
+      "kriteria": "Kuis online; Tugas hitungan",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Statistika deskriptif: ukuran pemusatan, penyebaran; visualisasi distribusi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Statistika inferensial (uji hipotesis, korelasi, regresi)",
+      "indikator": "Kemampuan melakukan uji t, korelasi Pearson, dan regresi linier sederhana",
+      "kriteria": "Tugas praktik (analisis korelasi/regresi)",
+      "tatap_muka": "Praktik statistik inferensial TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Uji hipotesis (p-value), korelasi, regresi linier, interpretasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Prinsip visualisasi data",
+      "indikator": "Ketepatan menjelaskan prinsip Tufte (data-ink ratio) dan Few (dashboard design), serta memilih chart yang tepat",
+      "kriteria": "Kuis online; Studi kasus",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Prinsip visualisasi: kejelasan, kesederhanaan, akurasi; jenis chart (bar, line, scatter, heatmap, dll)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep data analytics, data wrangling, statistika deskriptif dan inferensial",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Visualisasi dengan Power BI (atau Tableau)",
+      "indikator": "Kemampuan membuat visualisasi dasar (bar, line, pie, map) dengan Power BI",
+      "kriteria": "Tugas praktik (dashboard sederhana)",
+      "tatap_muka": "Praktik Power BI TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pengenalan Power BI: koneksi data, visual, filter, slicer",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : Visualisasi dengan Python (Matplotlib/Seaborn)",
+      "indikator": "Kemampuan membuat plot (line, bar, scatter, histogram, boxplot) menggunakan Matplotlib/Seaborn",
+      "kriteria": "Tugas praktik (coding visualisasi)",
+      "tatap_muka": "Praktik Python TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Matplotlib: figure, axes, customization; Seaborn: styling, statistical plots",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Storytelling dengan data",
+      "indikator": "Kemampuan menyusun narasi data dan membuat dashboard yang komunikatif",
+      "kriteria": "Tugas kelompok (storytelling dashboard)",
+      "tatap_muka": "Kuliah + workshop TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur storytelling: konteks, insight, rekomendasi; dashboard interaktif",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Dashboard interaktif dan fitur advanced",
+      "indikator": "Kemampuan membuat dashboard dengan filter, drill-down, dan parameter",
+      "kriteria": "Tugas kelompok (dashboard interaktif)",
+      "tatap_muka": "Praktik lanjutan TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Dashboard interaktif: filter silang, drill-through, bookmarks; best practices",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analitik data (persiapan)",
+      "indikator": "Kemampuan memilih dataset, merumuskan pertanyaan bisnis, dan merencanakan analisis",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pemilihan dataset (open data, perusahaan); perumusan masalah; rencana analisis",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Implementasi analisis dan visualisasi",
+      "indikator": "Kemampuan melakukan analisis data lengkap (wrangling, statistik, visualisasi) dan menarik insight",
+      "kriteria": "Laporan proyek (draft)",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Implementasi analisis; pembuatan dashboard; dokumentasi insight",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Finalisasi laporan dan persiapan presentasi",
+      "indikator": "Kemampuan menyusun laporan sistematis dan slide presentasi yang efektif",
+      "kriteria": "Laporan final (draft akhir)",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur laporan: pendahuluan, metode, hasil, kesimpulan, rekomendasi; slide deck",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
+      "indikator": "Kemampuan mempresentasikan dashboard dan laporan, serta menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis online",
+      "tatap_muka": "Presentasi + UAS TM: 2x50",
+      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
+      "materi": "Seluruh materi (data analytics, wrangling, statistika, visualisasi, storytelling) + proyek",
+      "bobot": "18%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep data analytics dan siklus analisis data\n2. Eksplorasi dan pembersihan data (data wrangling)\n3. Statistika deskriptif dan inferensial untuk analitik\n4. Visualisasi data: prinsip dan best practices\n5. Tools visualisasi data (Tableau, Power BI, Python Matplotlib)\n6. Storytelling dengan data\n7. Analitik data untuk pengambilan keputusan bisnis\n8. Pengantar predictive analytics",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Few, S. (2012). *Show me the numbers: Designing tables and graphs to enlighten* (2nd ed.). Analytics Press."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Knaflic, C. N. (2015). *Storytelling with data: A data visualization guide for business professionals*. Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "McKinney, W. (2018). *Python for data analysis: Data wrangling with pandas, NumPy, and IPython* (2nd ed.). O'Reilly Media."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Provost, F., & Fawcett, T. (2013). *Data science for business*. O'Reilly Media."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Microsoft. (2025). *Power BI documentation*. https://learn.microsoft.com/en-us/power-bi/"
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan dalam melakukan analisis data dan visualisasi untuk mendukung pengambilan keputusan berbasis data. Materi meliputi konsep data analytics, siklus analisis data (CRISP-DM), eksplorasi dan pembersihan data (data wrangling), statistika deskriptif dan inferensial, prinsip visualisasi data yang efektif, penggunaan tools modern (Power BI, Tableau, Python Matplotlib), storytelling dengan data, serta penyusunan laporan analitik dan dashboard interaktif. Penekanan diberikan pada praktik langsung menggunakan dataset nyata dan studi kasus bisnis.",
+  "matakuliah_syarat": "TSI3213 (Statistika dan Probabilitas) – direkomendasikan"
+}

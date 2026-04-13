@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "kode_mk": "TSI3323",
+    "nama_mk": "Fundamental ERP",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek sistem informasi"},
+    {"kode": "KK-05", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO)"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep, sejarah, dan arsitektur Enterprise Resource Planning (ERP) serta peran strategisnya dalam digitalisasi proses bisnis"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-04", "deskripsi": "Mampu mengidentifikasi dan menjelaskan fungsi modul-modul utama ERP (Finance, HRM, SCM, Manufacturing, Sales, CRM)"},
+    {"kode": "CPMK-3", "cpl": "P-01, KK-05", "deskripsi": "Mampu menjelaskan metodologi implementasi ERP (ASAP waterfall, agile) serta faktor kritis keberhasilan dan risiko kegagalan"},
+    {"kode": "CPMK-4", "cpl": "KK-06, KK-05", "deskripsi": "Mampu melakukan analisis kebutuhan ERP pada studi kasus UMKM/perusahaan menggunakan pendekatan fit-gap analysis"},
+    {"kode": "CPMK-5", "cpl": "KU-06, KK-04", "deskripsi": "Mampu membandingkan solusi ERP (SAP, Oracle, Odoo) dan memberikan rekomendasi berdasarkan kebutuhan bisnis serta tren terkini (ERP cloud, open-source)"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan definisi, tujuan, sejarah, dan evolusi ERP (MRP → MRP II → ERP → ERP II/Cloud)", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mengidentifikasi dan menjelaskan fungsi modul-modul utama ERP: Finance, HRM, SCM, Manufacturing, Sales, CRM", "cpmk": "CPMK-2", "minggu": "3–4", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan tahapan implementasi ERP (metodologi ASAP waterfall) dan membandingkan dengan pendekatan Agile/Hybrid", "cpmk": "CPMK-3", "minggu": "5–6", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis Critical Success Factors (CSF) dan risiko kegagalan implementasi ERP", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu melakukan analisis proses bisnis as-is dan pemetaan kebutuhan ERP to-be menggunakan fit-gap analysis pada studi kasus", "cpmk": "CPMK-4", "minggu": "9–10", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu membandingkan solusi ERP Enterprise (SAP, Oracle) dan open-source (Odoo) serta tren ERP modern (cloud, AI)", "cpmk": "CPMK-5", "minggu": "11–12", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menyusun laporan proyek analisis ERP dan mempresentasikan hasil rekomendasi solusi", "cpmk": "CPMK-5", "minggu": "13–15", "cpl": "C5–C6"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu mengintegrasikan seluruh konsep ERP dalam pemecahan masalah nyata pada studi kasus terintegrasi", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "16", "cpl": "C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep dasar dan definisi ERP", "indikator": "Ketepatan mendefinisikan ERP, membedakan dengan sistem tradisional, dan menjelaskan manfaat ERP", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi ERP, peran dalam integrasi bisnis, keuntungan dan tantangan", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Sejarah dan evolusi ERP", "indikator": "Kemampuan menjelaskan fase evolusi dari MRP, MRP II, ERP hingga ERP II/Cloud", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Sejarah ERP, era persediaan, MRP, MRP II, ERP, ERP II, Cloud ERP", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Modul Finance dan HRM", "indikator": "Kemampuan menjelaskan sub-modul keuangan (GL, AP, AR, FA) dan fungsi HRM (penggajian, rekrutmen)", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Modul Finance dan HRM, proses bisnis terintegrasi", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 2 : Modul SCM, Manufacturing, Sales, CRM", "indikator": "Kemampuan menjelaskan siklus P2P, O2C, MRP, BOM, work order, dan CRM", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Supply chain, manufaktur, penjualan, CRM", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Metodologi implementasi ASAP waterfall", "indikator": "Kemampuan menjelaskan 5 fase ASAP (persiapan, blueprint, realisasi, persiapan akhir, go-live & support)", "kriteria": "Kuis online; Tugas kelompok (timeline)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "ASAP methodology, fase implementasi, deliverable", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 3 : Pendekatan Agile/Hybrid untuk ERP", "indikator": "Kemampuan membandingkan waterfall vs agile serta memilih strategi berdasarkan kasus", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Agile, hybrid, iterative implementation, kelebihan/kekurangan", "bobot": "4%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Critical Success Factors dan risiko kegagalan ERP", "indikator": "Kemampuan mengidentifikasi CSF (komitmen manajemen, pelatihan, data migration) dan risiko (cost overrun, resistance)", "kriteria": "Kuis online; Tugas analisis kasus kegagalan", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Faktor keberhasilan, risiko, mitigasi, studi kasus", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep ERP, modul, implementasi, CSF", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Analisis proses bisnis as-is (studi kasus UMKM)", "indikator": "Kemampuan memetakan proses bisnis eksisting dan mengidentifikasi gap", "kriteria": "Tugas kelompok (proposal proyek)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "As-is analysis, identifikasi pain points, dokumentasi proses", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 5 : Pemetaan to-be dan fit-gap analysis", "indikator": "Kemampuan merancang proses to-be dan melakukan fit-gap terhadap solusi ERP", "kriteria": "Tugas kelompok (laporan analisis)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "To-be process, fit-gap matrix, rekomendasi konfigurasi", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Solusi ERP Enterprise (SAP, Oracle)", "indikator": "Kemampuan membandingkan fitur utama SAP S/4HANA dan Oracle ERP Cloud", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "SAP modules, Oracle ERP, arsitektur, kelebihan", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 6 : Solusi open-source (Odoo) dan tren ERP modern", "indikator": "Kemampuan menjelaskan Odoo, ERPNext, serta tren Cloud ERP, AI, IoT", "kriteria": "Kuis online; Forum diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Odoo, open-source vs proprietary, cloud, AI in ERP", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 7 : Penyusunan laporan proyek", "indikator": "Kemampuan menulis laporan analisis ERP (studi kasus) dengan struktur yang benar", "kriteria": "Draft laporan", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Struktur laporan, rekomendasi, kesimpulan", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 7 : Finalisasi laporan dan persiapan presentasi", "indikator": "Kemampuan merevisi laporan dan membuat slide presentasi", "kriteria": "Laporan final", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Revisi, slide deck, demo", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 7 : Presentasi hasil proyek", "indikator": "Kemampuan mempresentasikan temuan dan rekomendasi solusi ERP", "kriteria": "Presentasi kelompok + tanya jawab", "tatap_muka": "Presentasi TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi studi kasus, diskusi", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester + Integrasi", "indikator": "Menjawab soal integratif tentang fit-gap, rekomendasi solusi, dan tren ERP", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 9–15 (fit-gap, solusi ERP, proyek)", "bobot": "20%"}
+  ],
+  "bahan_kajian": "1. Konsep dan sejarah Enterprise Resource Planning\n2. Modul-modul utama ERP (Finance, HRM, SCM, CRM, Production)\n3. Proses bisnis terintegrasi dalam ERP\n4. Implementasi ERP: metodologi dan tahapan\n5. Seleksi vendor dan solusi ERP (SAP, Oracle, Odoo)\n6. Tantangan dan risiko implementasi ERP\n7. ERP berbasis cloud dan ERP masa depan\n8. Studi kasus implementasi ERP di perusahaan",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Sarno, R., et al. (2026). *Konsep dan praktis enterprise resource planning dan customer relationship management*. ITS Press."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Monk, E. F., & Wagner, B. J. (2018). *Concepts in enterprise resource planning* (5th ed.). Cengage Learning."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Magal, S. R., & Word, J. (2011). *Integrated business processes with ERP systems*. John Wiley & Sons."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Motiwalla, L. F., & Thompson, J. (2012). *Enterprise systems for management* (2nd ed.). Pearson."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Odoo. (2025). *Odoo ERP system documentation*. https://www.odoo.com"},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman komprehensif tentang konsep, arsitektur, dan implementasi Enterprise Resource Planning (ERP) sebagai fondasi utama dalam digitalisasi proses bisnis modern. Materi meliputi evolusi ERP (MRP, MRP II, ERP, Cloud), arsitektur sistem terintegrasi, modul-modul fungsional utama (keuangan, SDM, rantai pasok, produksi, penjualan, CRM), metodologi implementasi ERP (ASAP, Agile), proses fit-gap analysis, tantangan dan risiko implementasi, serta studi kasus implementasi ERP pada perusahaan manufaktur dan UMKM. Penekanan diberikan pada kemampuan menganalisis kebutuhan proses bisnis dan merancang solusi ERP yang terintegrasi.",
+  "matakuliah_syarat": "TSI3107 (Sistem Informasi Manajemen) – direkomendasikan"
+}

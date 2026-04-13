@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "kode_mk": "TSI3106",
+    "nama_mk": "Pemrograman Dasar",
+    "sks_total": 3,
+    "sks_teori": 2,
+    "sks_praktik": 1,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
+    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"},
+    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep dasar pemrograman dan algoritma serta membuat flowchart/pseudocode"},
+    {"kode": "CPMK-2", "cpl": "P-03, KU-02", "deskripsi": "Mampu mengimplementasikan tipe data, variabel, operator, dan struktur kendali (percabangan, perulangan)"},
+    {"kode": "CPMK-3", "cpl": "KU-01, KK-03", "deskripsi": "Mampu menerapkan fungsi/prosedur, array, dan struktur data dasar dalam pemecahan masalah"},
+    {"kode": "CPMK-4", "cpl": "S-09, KK-08", "deskripsi": "Mampu melakukan pengurutan dan pencarian data menggunakan algoritma sorting dan searching sederhana"},
+    {"kode": "CPMK-5", "cpl": "KU-02, KK-08", "deskripsi": "Mampu menulis program lengkap dengan penanganan error dasar dan dokumentasi"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan algoritma, flowchart, dan pseudocode", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu membuat flowchart dan pseudocode untuk masalah sederhana", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menggunakan tipe data, variabel, operator, dan ekspresi", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengimplementasikan struktur percabangan (if, if-else, switch)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu mengimplementasikan struktur perulangan (for, while, do-while)", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menggunakan fungsi/prosedur dengan parameter dan return value", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C3-C4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu mengelola array satu dimensi dan multidimensi", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu mengimplementasikan algoritma pengurutan (bubble, selection) dan pencarian (sequential, binary)", "cpmk": "CPMK-4", "minggu": "9-10", "cpl": "C3-C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan penanganan error sederhana dan debugging", "cpmk": "CPMK-5", "minggu": "11-12", "cpl": "C3"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun program terintegrasi (studi kasus) dan dokumentasi", "cpmk": "CPMK-5", "minggu": "13-15", "cpl": "C5-C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dasar algoritma dan pemrograman", "indikator": "Ketepatan menjelaskan algoritma, flowchart, pseudocode", "kriteria": "Kuis online; tanya jawab", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Definisi algoritma, karakteristik, representasi (flowchart, pseudocode), pengenalan bahasa pemrograman", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Flowchart dan pseudocode", "indikator": "Kemampuan membuat flowchart/pseudocode untuk kasus sederhana", "kriteria": "Tugas individu: flowchart", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Simbol flowchart, struktur sequence, selection, repetition; contoh konversi", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Tipe data, variabel, operator", "indikator": "Kemampuan mendeklarasikan variabel dan menggunakan operator", "kriteria": "Praktik coding", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Tipe data primitif (int, float, char, boolean), variabel, konstanta, operator aritmatika/logika/perbandingan", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Struktur percabangan", "indikator": "Kemampuan menggunakan if, if-else, switch", "kriteria": "Tugas individu: program percabangan", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "If single, if-else, nested if, else-if, switch-case, operator ternary", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Struktur perulangan", "indikator": "Kemampuan menggunakan for, while, do-while", "kriteria": "Tugas individu: program perulangan", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Perulangan for, while, do-while; nested loop; break, continue", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Fungsi dan prosedur", "indikator": "Kemampuan membuat fungsi dengan parameter dan return", "kriteria": "Tugas individu: fungsi", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Definisi fungsi, parameter (by value, by reference), return value, scope variabel, rekursi dasar", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Array", "indikator": "Kemampuan menggunakan array satu dimensi dan multidimensi", "kriteria": "Tugas individu: array", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Deklarasi array, indeks, iterasi array, array multidimensi, array sebagai parameter fungsi", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep algoritma, flowchart, tipe data, percabangan, perulangan, fungsi, array", "kriteria": "Ujian tertulis online + praktik coding", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Ujian daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8: Algoritma pengurutan (bubble sort, selection sort)", "indikator": "Kemampuan mengimplementasikan bubble sort dan selection sort", "kriteria": "Praktik coding", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Konsep sorting, bubble sort (logika, implementasi), selection sort", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 8: Algoritma pencarian (sequential, binary)", "indikator": "Kemampuan mengimplementasikan sequential search dan binary search", "kriteria": "Tugas individu: sorting & searching", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Sequential search, binary search (syarat data terurut), kompleksitas sederhana", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Penanganan error (exception handling)", "indikator": "Kemampuan menggunakan try-catch dan debugging", "kriteria": "Praktik", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Jenis error (syntax, runtime, logical), try-catch, throw, debugging dengan IDE", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 9: Struktur data dasar (record/struct)", "indikator": "Kemampuan menggunakan struct/record untuk data majemuk", "kriteria": "Tugas individu: struct", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Pengertian record/struct, deklarasi, akses anggota, array of struct", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Proyek pemrograman – perencanaan", "indikator": "Kemampuan merancang program untuk studi kasus (misal: sistem sederhana)", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Analisis masalah, perancangan algoritma, pembagian modul", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Implementasi proyek", "indikator": "Kemampuan menulis kode program terintegrasi", "kriteria": "Progress demo", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Coding, pengujian modul, integrasi", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Finalisasi dan presentasi proyek", "indikator": "Kemampuan menyelesaikan program dan mempresentasikan", "kriteria": "Presentasi kelompok + demo", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Presentasi daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Dokumentasi, presentasi, tanya jawab", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang algoritma, sorting, searching, dan studi kasus", "kriteria": "Ujian tertulis online + coding", "tatap_muka": "Kuliah TM: 2x50; Praktik: 1x170", "daring": "Ujian daring sinkron; TM: 2x50; Praktik: 1x170", "materi": "Seluruh materi (minggu 1-15)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dasar pemrograman dan algoritma\n2. Flowchart dan pseudocode\n3. Tipe data, variabel, operator, dan ekspresi\n4. Struktur kendali: seleksi dan perulangan\n5. Fungsi dan prosedur\n6. Array dan struktur data dasar\n7. Teknik pengurutan dan pencarian data\n8. Penanganan kesalahan (error handling) dasar\n9. Praktikum pemrograman menggunakan bahasa pemrograman modern",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Deitel, P., & Deitel, H. (2019). *C++ How to Program* (10th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Sedgewick, R., & Wayne, K. (2015). *Introduction to Programming in Python: An Interdisciplinary Approach*. Addison-Wesley."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). *Introduction to Algorithms* (4th ed.). MIT Press."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Stroustrup, B. (2013). *The C++ Programming Language* (4th ed.). Addison-Wesley."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Downey, A. B. (2015). *Think Python: How to Think Like a Computer Scientist* (2nd ed.). O'Reilly Media."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan fondasi logika pemrograman dan algoritma sebagai dasar pengembangan perangkat lunak. Materi meliputi konsep algoritma, flowchart, pseudocode, tipe data, variabel, operator, struktur kendali (percabangan dan perulangan), fungsi/prosedur, array, algoritma pengurutan (bubble, selection) dan pencarian (sequential, binary), penanganan error, serta struktur data sederhana. Mahasiswa akan mempraktikkan langsung melalui latihan coding dan proyek kelompok untuk membangun program sederhana, mengasah kemampuan pemecahan masalah logis, dan mempersiapkan diri untuk mata kuliah pemrograman lanjutan.",
+  "matakuliah_syarat": "-"
+}

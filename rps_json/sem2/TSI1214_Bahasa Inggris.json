@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "kode_mk": "TSI1214",
+    "nama_mk": "Bahasa Inggris",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Umum / Bela Negara / Pendidikan Umum (Kepribadian)",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-06", "tipe": "Sikap", "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"},
+    {"kode": "S-07", "tipe": "Sikap", "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"},
+    {"kode": "KK-02", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "KU-01, KU-02", "deskripsi": "Mampu memahami dan menganalisis teks bacaan (reading comprehension) bidang teknologi informasi"},
+    {"kode": "CPMK-2", "cpl": "KU-01, KK-02", "deskripsi": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional"},
+    {"kode": "CPMK-3", "cpl": "S-06, KU-05", "deskripsi": "Mampu menguasai technical vocabulary dan istilah dalam bidang sistem informasi"},
+    {"kode": "CPMK-4", "cpl": "S-07, KU-01", "deskripsi": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif"},
+    {"kode": "CPMK-5", "cpl": "KU-02, KK-02", "deskripsi": "Mampu menulis email bisnis dan korespondensi profesional dalam bahasa Inggris"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu mengidentifikasi ide pokok dan detail dalam teks bahasa Inggris bidang TI", "cpmk": "CPMK-1", "minggu": "1-2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menggunakan tata bahasa fungsional (tenses, passive voice, modal) dalam kalimat", "cpmk": "CPMK-2", "minggu": "3-4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan istilah teknis (hardware, software, database, jaringan) dalam bahasa Inggris", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menulis ringkasan artikel ilmiah dan abstrak", "cpmk": "CPMK-2", "minggu": "6-7", "cpl": "C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menyusun email formal dan surat bisnis dalam bahasa Inggris", "cpmk": "CPMK-5", "minggu": "9", "cpl": "C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu membuat slide presentasi dan menyampaikan presentasi singkat", "cpmk": "CPMK-4", "minggu": "10-11", "cpl": "C3-P4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu berpartisipasi dalam diskusi kelompok (role-play) menggunakan bahasa Inggris", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menulis laporan teknis sederhana dalam bahasa Inggris", "cpmk": "CPMK-2", "minggu": "13-14", "cpl": "C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan simulasi wawancara kerja dalam bahasa Inggris", "cpmk": "CPMK-4", "minggu": "15", "cpl": "C3-P4"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Reading comprehension – skimming dan scanning", "indikator": "Kemampuan menemukan ide pokok dalam teks pendek", "kriteria": "Kuis, latihan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Teknik membaca cepat, identifikasi main idea dan supporting details", "bobot": "4%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1: Membaca teks teknis bidang TI", "indikator": "Kemampuan memahami artikel tentang konsep sistem informasi", "kriteria": "Tugas individu: ringkasan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Membaca artikel dari IEEE, ACM, atau website teknologi; mengidentifikasi kosakata teknis", "bobot": "5%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2: Tenses dan passive voice", "indikator": "Kemampuan menggunakan simple present, past, future, present perfect, dan passive voice", "kriteria": "Kuis, latihan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Review tenses, passive voice dalam konteks teknologi (contoh: 'The data is processed')", "bobot": "5%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 2: Modal verbs dan conditional", "indikator": "Kemampuan menggunakan modal (can, must, should) dan conditional sentences", "kriteria": "Tugas individu: kalimat", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Modal untuk kemungkinan, keharusan; conditional type 1 dan 2 untuk hipotesis", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3: Technical vocabulary", "indikator": "Kemampuan menjelaskan istilah: hardware, software, database, network, cloud, AI", "kriteria": "Kuis vocabulary", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Daftar istilah teknis, definisi, penggunaan dalam kalimat", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 4: Menulis ringkasan artikel", "indikator": "Kemampuan meringkas artikel 1-2 halaman", "kriteria": "Tugas individu: ringkasan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Teknik paraphrasing, menulis summary, menghindari plagiarisme", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 4: Menulis abstrak", "indikator": "Kemampuan menulis abstrak untuk paper sederhana", "kriteria": "Tugas individu: abstrak", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Struktur abstrak (background, methods, results, conclusion), gaya bahasa", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal reading comprehension, grammar, vocabulary, writing summary", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 5: Email bisnis dan surat formal", "indikator": "Kemampuan menulis email profesional (inquiry, response, complaint)", "kriteria": "Tugas individu: email", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Struktur email (subject, salutation, body, closing), bahasa formal, etika", "bobot": "6%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 6: Membuat slide presentasi", "indikator": "Kemampuan merancang slide dengan bahasa Inggris yang efektif", "kriteria": "Tugas kelompok: slide", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Desain slide, bullet points, visual, kalimat kunci, bahasa yang digunakan", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 6: Simulasi presentasi", "indikator": "Kemampuan menyampaikan presentasi singkat (3-5 menit)", "kriteria": "Presentasi individu", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Latihan presentasi, intonasi, body language, menangani pertanyaan", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 7: Diskusi kelompok (role-play)", "indikator": "Kemampuan berpartisipasi dalam diskusi topik TI", "kriteria": "Observasi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Topik: 'Impact of AI', 'Cloud vs On-premise'; ekspresi setuju/tidak, memberi pendapat", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 8: Menulis laporan teknis sederhana (struktur)", "indikator": "Kemampuan menyusun laporan dengan bagian pendahuluan, metode, hasil", "kriteria": "Tugas kelompok: draft laporan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Struktur laporan, bahasa impersonal, presentasi data", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 8: Finalisasi laporan teknis", "indikator": "Laporan selesai dengan tata bahasa dan kosakata yang tepat", "kriteria": "Tugas kelompok: laporan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Revisi, proofreading, pengecekan grammar", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 9: Simulasi wawancara kerja", "indikator": "Kemampuan menjawab pertanyaan wawancara dalam bahasa Inggris", "kriteria": "Role-play berpasangan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pertanyaan umum (introduction, experience, skill), tips wawancara", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang writing (email, laporan), presentasi, dan diskusi", "kriteria": "Ujian tertulis + presentasi singkat", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "15%"}
+  ],
+  "bahan_kajian": "1. Reading comprehension teks teknologi informasi\n2. Academic writing dalam bahasa Inggris\n3. Tata bahasa fungsional: tenses, passive voice, modal\n4. Technical vocabulary dalam bidang sistem informasi\n5. Listening dan speaking untuk konteks profesional\n6. Penulisan email dan korespondensi bisnis dalam bahasa Inggris\n7. Presentasi dan diskusi ilmiah dalam bahasa Inggris",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Murphy, R. (2019). *English Grammar in Use* (5th ed.). Cambridge University Press."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Emmerson, P. (2013). *Email English* (2nd ed.). Macmillan Education."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Powell, M. (2011). *Presenting in English: How to Give Successful Presentations*. Cengage Learning."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Swan, M. (2016). *Practical English Usage* (4th ed.). Oxford University Press."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "McCarthy, M., & O'Dell, F. (2017). *Academic Vocabulary in Use* (2nd ed.). Cambridge University Press."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan berbahasa Inggris yang diperlukan dalam konteks akademik dan profesional di bidang sistem informasi dan teknologi. Materi meliputi reading comprehension teks teknis, academic writing (ringkasan, abstrak, laporan), tata bahasa fungsional (tenses, passive voice, modal), technical vocabulary, presentasi dan diskusi ilmiah, serta penulisan email bisnis dan korespondensi profesional. Mahasiswa akan berlatih melalui latihan membaca, menulis, presentasi, dan simulasi wawancara kerja untuk mempersiapkan diri menghadapi lingkungan kerja global dan publikasi ilmiah internasional.",
+  "matakuliah_syarat": "-"
+}

@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "kode_mk": "TSI3537",
+    "nama_mk": "Komunikasi dan Negosiasi",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 5,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-02",
+      "tipe": "Sikap",
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+    },
+    {
+      "kode": "S-06",
+      "tipe": "Sikap",
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"
+    },
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KU-06",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-02, KU-06",
+      "deskripsi": "Mampu menjelaskan teori dan model komunikasi dalam konteks profesional serta menerapkan komunikasi interpersonal dan kelompok"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KU-05, KK-01",
+      "deskripsi": "Mampu menerapkan teknik negosiasi integratif dan distributif serta strategi persuasi dalam situasi bisnis"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-06, KU-02",
+      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan menerapkan strategi resolusi konflik yang tepat"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-05, KU-06",
+      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan serta menyusun negosiasi kontrak dan SLA"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-09, KU-02",
+      "deskripsi": "Mampu melakukan presentasi teknis dan non-teknis secara profesional serta mengevaluasi hasil negosiasi"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan model komunikasi (Shannon-Weaver, Schramm, transaksional) dan hambatan komunikasi",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menerapkan komunikasi interpersonal dan kelompok dalam tim proyek",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan prinsip negosiasi (BATNA, ZOPA) dan perbedaan negosiasi integratif vs distributif",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan strategi persuasi (Cialdini: reciprocity, scarcity, authority, dll.) dalam simulasi",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan memilih gaya resolusi (kolaborasi, kompromi, kompetisi, menghindar, akomodasi)",
+      "cpmk": "CPMK-3",
+      "minggu": "5–6",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan (stakeholder mapping, komunikasi asertif)",
+      "cpmk": "CPMK-4",
+      "minggu": "7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menyusun dan menegosiasikan kontrak serta Service Level Agreement (SLA) dalam proyek TI",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu mempersiapkan dan menyampaikan presentasi teknis dan non-teknis secara efektif",
+      "cpmk": "CPMK-5",
+      "minggu": "11–12",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan simulasi negosiasi dan presentasi dalam studi kasus profesional",
+      "cpmk": "CPMK-2, CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengevaluasi hasil negosiasi dan presentasi serta melakukan refleksi diri",
+      "cpmk": "CPMK-5",
+      "minggu": "15",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Teori dan model komunikasi profesional",
+      "indikator": "Ketepatan menjelaskan model komunikasi dan hambatan komunikasi",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Model komunikasi (Shannon-Weaver, Schramm, transaksional); unsur komunikasi; hambatan (noise, persepsi, dll)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Komunikasi interpersonal dan kelompok",
+      "indikator": "Kemampuan menerapkan komunikasi efektif dalam tim",
+      "kriteria": "Studi kasus kelompok; role-play",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Komunikasi verbal dan non-verbal; mendengarkan aktif; umpan balik; komunikasi dalam rapat",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Prinsip negosiasi",
+      "indikator": "Ketepatan menjelaskan BATNA, ZOPA, dan gaya negosiasi",
+      "kriteria": "Kuis; diskusi",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "BATNA, ZOPA, reservasi price; negosiasi integratif vs distributif; gaya negosiasi (kompetitif, kolaboratif, kompromi)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 4: Strategi persuasi",
+      "indikator": "Kemampuan mengidentifikasi dan menerapkan prinsip persuasi Cialdini",
+      "kriteria": "Tugas individu: analisis iklan/campaign",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Prinsip persuasi: reciprocity, scarcity, authority, consistency, liking, consensus; teknik framing",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 5: Manajemen konflik (bagian 1)",
+      "indikator": "Kemampuan mengidentifikasi sumber konflik dalam tim proyek TI",
+      "kriteria": "Studi kasus; analisis sumber konflik",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Sumber konflik: perbedaan tujuan, komunikasi, sumber daya, peran; dampak konflik",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Strategi resolusi konflik",
+      "indikator": "Kemampuan memilih gaya resolusi yang tepat",
+      "kriteria": "Role-play simulasi konflik",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Gaya resolusi: kolaborasi, kompromi, kompetisi, menghindar, akomodasi; mediasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Komunikasi dengan klien dan stakeholder",
+      "indikator": "Kemampuan melakukan stakeholder mapping dan komunikasi asertif",
+      "kriteria": "Tugas kelompok: mapping stakeholder",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Stakeholder analysis; communication plan; komunikasi asertif; handling difficult clients",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal teori komunikasi, negosiasi, persuasi, konflik",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Ujian daring sinkron; TM: 2x50",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: Negosiasi kontrak dan SLA (bagian 1)",
+      "indikator": "Kemampuan menjelaskan elemen kontrak dan SLA",
+      "kriteria": "Kuis; studi kasus kontrak",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Elemen kontrak: scope, deliverables, timeline, payment terms, termination; Service Level Agreement (SLA): metrik, penalti",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7: Simulasi negosiasi kontrak",
+      "indikator": "Kemampuan melakukan negosiasi kontrak dalam role-play",
+      "kriteria": "Simulasi negosiasi (berpasangan)",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Persiapan negosiasi, taktik tawar-menawar, closing deal",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Presentasi teknis dan non-teknis",
+      "indikator": "Kemampuan merancang slide dan menyampaikan presentasi",
+      "kriteria": "Tugas individu: presentasi singkat (5 menit)",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Struktur presentasi; visual aids; bahasa tubuh; manajemen kecemasan; menyesuaikan audiens",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8: Presentasi untuk pemangku kepentingan",
+      "indikator": "Kemampuan menyampaikan informasi teknis ke non-teknis",
+      "kriteria": "Tugas kelompok: presentasi proyek fiktif",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Teknik storytelling; visualisasi data; Q&A handling",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Simulasi negosiasi dan presentasi – persiapan",
+      "indikator": "Kemampuan menyusun skenario negosiasi dan presentasi",
+      "kriteria": "Proposal simulasi kelompok",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Studi kasus terintegrasi: peran sebagai vendor dan klien; persiapan argumen",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9: Simulasi negosiasi dan presentasi – pelaksanaan",
+      "indikator": "Kemampuan melakukan negosiasi dan presentasi dalam skenario nyata",
+      "kriteria": "Role-play negosiasi dan presentasi",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Simulasi: negosiasi kontrak proyek TI, presentasi hasil negosiasi ke manajemen",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Evaluasi dan refleksi",
+      "indikator": "Kemampuan mengevaluasi hasil negosiasi dan presentasi serta refleksi diri",
+      "kriteria": "Laporan refleksi individu; peer feedback",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Kuliah daring sinkron; TM: 2x50",
+      "materi": "Analisis kekuatan dan kelemahan; perbaikan ke depan; etika komunikasi",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang negosiasi, manajemen konflik, presentasi, dan studi kasus",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 2x50",
+      "daring": "Ujian daring sinkron; TM: 2x50",
+      "materi": "Seluruh materi (minggu 1–15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Teori dan model komunikasi dalam konteks profesional\n2. Komunikasi interpersonal dan kelompok\n3. Teknik negosiasi: integratif dan distributif\n4. Strategi persuasi dan pengaruh\n5. Manajemen konflik dalam tim proyek TI\n6. Komunikasi dengan klien dan pemangku kepentingan\n7. Presentasi teknis dan non-teknis\n8. Negosiasi kontrak dan SLA dalam proyek TI",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Fisher, R., Ury, W., & Patton, B. (2011). *Getting to Yes: Negotiating Agreement Without Giving In* (3rd ed.). Penguin Books."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Cialdini, R. B. (2016). *Pre-suasion: A Revolutionary Way to Influence and Persuade*. Simon & Schuster."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Adler, R. B., & Elmhorst, J. M. (2018). *Communicating at Work: Strategies for Success in Business and the Professions* (12th ed.). McGraw-Hill."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Stone, D., Patton, B., & Heen, S. (2010). *Difficult Conversations: How to Discuss What Matters Most*. Penguin Books."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Guffey, M. E., & Loewy, D. (2018). *Business Communication: Process and Product* (9th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan komunikasi dan negosiasi yang esensial dalam konteks profesional, khususnya di bidang sistem informasi dan teknologi. Materi meliputi teori dan model komunikasi, komunikasi interpersonal dan kelompok, teknik negosiasi integratif dan distributif, strategi persuasi, manajemen konflik dalam tim proyek TI, komunikasi dengan klien dan pemangku kepentingan, presentasi teknis dan non-teknis, serta negosiasi kontrak dan Service Level Agreement (SLA). Penekanan diberikan pada praktik langsung melalui simulasi, role-play, dan studi kasus untuk meningkatkan kemampuan negosiasi, presentasi, dan resolusi konflik dalam lingkungan profesional.",
+  "matakuliah_syarat": "-"
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "kode_mk": "TSI3216",
+    "nama_mk": "Financial Technology",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-10", "tipe": "Sikap", "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"},
+    {"kode": "P-05", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship) untuk mengidentifikasi dan mengembangkan peluang usaha di bidang sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"},
+    {"kode": "KK-10", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi"},
+    {"kode": "KK-11", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-05, KU-01", "deskripsi": "Mampu menjelaskan konsep, ekosistem, dan perkembangan Financial Technology (FinTech) di Indonesia dan global"},
+    {"kode": "CPMK-2", "cpl": "KU-05, KK-10", "deskripsi": "Mampu menganalisis berbagai model bisnis FinTech (pembayaran digital, lending, crowdfunding, investasi)"},
+    {"kode": "CPMK-3", "cpl": "S-10, KK-11", "deskripsi": "Mampu menerapkan teknologi dalam FinTech (API, blockchain, big data, keamanan) dan memahami RegTech"},
+    {"kode": "CPMK-4", "cpl": "KU-01, KK-10", "deskripsi": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana"},
+    {"kode": "CPMK-5", "cpl": "KU-05, KK-11", "deskripsi": "Mampu melakukan analisis risiko dan kepatuhan regulasi FinTech di Indonesia (OJK, Bank Indonesia)"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan definisi FinTech, ruang lingkup, dan sejarah perkembangannya", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mengidentifikasi pemain utama dan ekosistem FinTech di Indonesia (startup, bank, regulator)", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan model bisnis pembayaran digital (e-wallet, QRIS, payment gateway)", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C2"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan model bisnis peer-to-peer lending dan crowdfunding", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C2"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan model bisnis robo-advisor, insurtech, dan investasi digital", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan peran API ekonomi, open banking, dan teknologi pendukung FinTech", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C2"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan konsep dasar blockchain, cryptocurrency, dan smart contract", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C2"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan RegTech, kepatuhan regulasi FinTech (OJK, BI, UU PDP)", "cpmk": "CPMK-5", "minggu": "9", "cpl": "C2"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan analisis risiko dan keamanan dalam FinTech", "cpmk": "CPMK-5", "minggu": "10-11", "cpl": "C4"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun ide bisnis FinTech sederhana (Business Model Canvas) dan mempresentasikannya", "cpmk": "CPMK-4", "minggu": "12-15", "cpl": "C5-C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dan perkembangan FinTech", "indikator": "Ketepatan menjelaskan definisi FinTech, ruang lingkup, dan evolusi", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Definisi FinTech, perbedaan dengan bank tradisional, sejarah FinTech global dan Indonesia", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Ekosistem FinTech Indonesia", "indikator": "Kemampuan mengidentifikasi pemain (GoPay, OVO, Dana, Akulaku, Investree) dan regulator", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ekosistem FinTech: startup, perbankan, teknologi, investor, regulator (OJK, BI, Kominfo)", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Pembayaran digital", "indikator": "Kemampuan menjelaskan e-wallet, QRIS, payment gateway", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Dompet elektronik, QRIS (standar QR code), payment gateway (Midtrans, Xendit), biaya transaksi", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Peer-to-peer lending dan crowdfunding", "indikator": "Kemampuan menjelaskan mekanisme pinjam meminjam online dan penggalangan dana", "kriteria": "Tugas individu: analisis platform", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "P2P lending (Modalku, Amartha), crowdfunding (KitaBisa, Kitabisa), resiko gagal bayar", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Robo-advisor, insurtech, investasi digital", "indikator": "Kemampuan menjelaskan investasi online dan asuransi digital", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Robo-advisor (Bibit, Bareksa), insurtech (PasarPolis, Qoala), reksadana, saham digital", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: API ekonomi, open banking, teknologi pendukung", "indikator": "Kemampuan menjelaskan peran API, big data, dan AI dalam FinTech", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "API (Application Programming Interface), open banking (BI), big data analytics, AI untuk credit scoring", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Blockchain dan cryptocurrency", "indikator": "Kemampuan menjelaskan blockchain, Bitcoin, Ethereum, smart contract", "kriteria": "Tugas individu: esai singkat", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Konsep blockchain (desentralisasi, konsensus), cryptocurrency, token, smart contract", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep FinTech, model bisnis, teknologi", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8: RegTech dan regulasi FinTech", "indikator": "Kemampuan menjelaskan peran OJK, BI, UU PDP, dan aturan perlindungan konsumen", "kriteria": "Studi kasus regulasi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Peraturan OJK (POJK), BI (PBI), UU Perlindungan Data Pribadi, anti pencucian uang (AML)", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 9: Analisis risiko FinTech", "indikator": "Kemampuan mengidentifikasi risiko kredit, likuiditas, operasional, dan keamanan siber", "kriteria": "Tugas kelompok: analisis risiko", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Risiko kredit (default), risiko likuiditas, risiko operasional, fraud, cybersecurity", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Keamanan dan manajemen risiko", "indikator": "Kemampuan menjelaskan enkripsi, otentikasi, pencegahan fraud", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Keamanan transaksi, 2FA, tokenisasi, deteksi fraud dengan AI", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 10: Ideasi bisnis FinTech", "indikator": "Kemampuan mengidentifikasi masalah dan solusi FinTech", "kriteria": "Proposal ide kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Brainstorming ide, validasi masalah, target pasar", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Business Model Canvas (BMC) FinTech", "indikator": "Kemampuan menyusun BMC untuk ide FinTech", "kriteria": "Tugas kelompok: BMC", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "9 blok BMC (value proposition, customer segments, channels, revenue streams, cost structure)", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Penyusunan rencana bisnis sederhana", "indikator": "Kemampuan membuat proyeksi keuangan sederhana dan strategi pemasaran", "kriteria": "Tugas kelompok: draft rencana", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Proyeksi pendapatan, biaya, break-even point, strategi akuisisi pengguna", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi ide bisnis FinTech", "indikator": "Kemampuan mempresentasikan ide dan BMC di depan kelas", "kriteria": "Presentasi kelompok (10 menit)", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Presentasi, tanya jawab, peer feedback", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang regulasi, risiko, ide bisnis, dan studi kasus FinTech", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "15%"}
+  ],
+  "bahan_kajian": "1. Konsep dan ekosistem Financial Technology (FinTech)\n2. Teknologi pembayaran digital dan dompet elektronik\n3. Peer-to-peer lending dan crowdfunding\n4. RegTech dan kepatuhan regulasi FinTech di Indonesia\n5. Keamanan dan manajemen risiko FinTech\n6. Blockchain dan cryptocurrency dasar\n7. Open banking dan API ekonomi\n8. Peluang wirausaha di ekosistem FinTech",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Chishti, S., & Barberis, J. (2016). *The FinTech Book: The Financial Technology Handbook for Investors, Entrepreneurs and Visionaries*. Wiley."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Arner, D. W., Barberis, J. N., & Buckley, R. P. (2017). *The FinTech RegTech Book: The Financial Technology and Regulatory Technology Handbook*. Wiley."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Otoritas Jasa Keuangan. (2021). *Roadmap Pengembangan FinTech di Indonesia*. OJK."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Narayanaswamy, R. (2019). *Financial Technology: A Guide to the Future of Finance*. BPB Publications."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Schueffel, P. (2017). *The Concise FinTech Compendium*. School of Management Fribourg."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang Financial Technology (FinTech) yang mengintegrasikan keuangan dan teknologi informasi. Materi meliputi konsep dan ekosistem FinTech, model bisnis (pembayaran digital, P2P lending, crowdfunding, insurtech, robo-advisor), teknologi pendukung (API, big data, AI), blockchain dan cryptocurrency, regulasi dan kepatuhan (RegTech), manajemen risiko dan keamanan, serta peluang wirausaha di ekosistem FinTech. Mahasiswa akan menganalisis studi kasus platform FinTech Indonesia dan menyusun ide bisnis FinTech sederhana dengan Business Model Canvas, mempersiapkan mereka untuk berinovasi di sektor jasa keuangan digital.",
+  "matakuliah_syarat": "-"
+}

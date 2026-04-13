@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "kode_mk": "TSI3536",
+    "nama_mk": "Pemrograman Berorientasi Objek",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 5,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
+    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"},
+    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"},
+    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan paradigma dan konsep dasar pemrograman berorientasi objek (class, object, atribut, method, enkapsulasi)"},
+    {"kode": "CPMK-2", "cpl": "P-03, KU-02", "deskripsi": "Mampu menerapkan inheritance, polymorphism, interface, dan abstract class dalam pembuatan program"},
+    {"kode": "CPMK-3", "cpl": "KU-05, KK-03", "deskripsi": "Mampu mengimplementasikan exception handling, collections, dan koneksi basis data pada aplikasi OOP"},
+    {"kode": "CPMK-4", "cpl": "S-09, KK-08", "deskripsi": "Mampu merancang dan membangun aplikasi berorientasi objek dengan menerapkan design patterns dasar"},
+    {"kode": "CPMK-5", "cpl": "KU-01, KK-08", "deskripsi": "Mampu menguji, mendokumentasikan, dan mempresentasikan hasil pengembangan aplikasi OOP secara profesional"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan perbedaan pemrograman prosedural dan OOP serta konsep class dan object", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mengimplementasikan enkapsulasi menggunakan access modifier (private, public, protected)", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menerapkan inheritance dan penggunaan superclass/subclass", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengimplementasikan polymorphism (overloading dan overriding)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menggunakan abstract class dan interface", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu melakukan exception handling dan debugging", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menggunakan collections framework (List, Set, Map)", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu mengintegrasikan basis data ke dalam aplikasi OOP (JDBC/ORM)", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menerapkan design patterns dasar (Singleton, Factory, Observer)", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun dokumentasi dan presentasi aplikasi OOP", "cpmk": "CPMK-5", "minggu": "12–15", "cpl": "C5–C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Pengenalan Pemrograman Berorientasi Objek", "indikator": "Ketepatan menjelaskan perbedaan paradigma prosedural vs OOP, konsep class dan object", "kriteria": "Kuis online; tanya jawab", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Sejarah OOP; keuntungan OOP; class, object, atribut, method; instansiasi object", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Enkapsulasi", "indikator": "Kemampuan menggunakan access modifier dan properti getter/setter", "kriteria": "Tugas individu: membuat class dengan enkapsulasi", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Access modifier (private, public, protected); getter dan setter; data hiding", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Inheritance", "indikator": "Kemampuan membuat hierarki kelas menggunakan extends", "kriteria": "Tugas individu: program dengan inheritance", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Superclass, subclass, keyword super, method overriding, constructor chaining", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Polymorphism", "indikator": "Kemampuan mengimplementasikan overloading dan overriding", "kriteria": "Kuis; praktik coding", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Method overloading, method overriding, dynamic method dispatch, polymorphism dengan array", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Abstract class dan Interface", "indikator": "Kemampuan menggunakan abstract class dan interface untuk kontrak", "kriteria": "Tugas kelompok kecil", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Abstract class vs interface; multiple inheritance dengan interface; implementasi", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Exception Handling", "indikator": "Kemampuan menangani error dengan try-catch-finally dan throws", "kriteria": "Tugas individu: program dengan exception", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Checked vs unchecked exception, try-catch-finally, throw, throws, custom exception", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Collections Framework", "indikator": "Kemampuan menggunakan List, Set, Map", "kriteria": "Kuis; praktik coding", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, iterasi", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep OOP (class, enkapsulasi, inheritance, polymorphism, abstract, interface, exception, collection)", "kriteria": "Ujian tertulis online (LMS) + praktik coding sederhana", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8: Koneksi Basis Data (JDBC)", "indikator": "Kemampuan menghubungkan aplikasi OOP ke database dan melakukan CRUD", "kriteria": "Tugas individu: CRUD dengan JDBC", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Driver JDBC, connection, statement, result set, prepared statement, transaction", "bobot": "6%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 9: Design Patterns – Singleton dan Factory", "indikator": "Kemampuan menerapkan Singleton dan Factory pattern", "kriteria": "Tugas kelompok: implementasi pola", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Pengertian design pattern; Singleton (lazy, eager, thread-safe); Factory Method", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Design Patterns – Observer dan MVC", "indikator": "Kemampuan menerapkan Observer pattern dan memahami arsitektur MVC", "kriteria": "Tugas kelompok: implementasi Observer", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Observer pattern (event listener), Model-View-Controller, contoh implementasi", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 10: Dokumentasi dan Pengujian", "indikator": "Kemampuan membuat dokumentasi kode (Javadoc) dan unit testing sederhana", "kriteria": "Tugas individu: dokumentasi dan testing", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Javadoc, unit testing dengan JUnit, debugging tools", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Proyek Aplikasi OOP – Perencanaan", "indikator": "Kemampuan merancang aplikasi OOP dengan studi kasus (misal: sistem sederhana)", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Analisis kebutuhan, perancangan class diagram, pembagian tugas", "bobot": "5%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Pengembangan Proyek", "indikator": "Kemampuan mengimplementasikan fitur sesuai rancangan", "kriteria": "Progress review, demo fitur", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Coding, integrasi basis data, implementasi pattern", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Finalisasi dan Presentasi Proyek", "indikator": "Kemampuan menyelesaikan dan mempresentasikan aplikasi OOP", "kriteria": "Presentasi kelompok (15 menit), demo aplikasi", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Presentasi daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Presentasi proyek, tanya jawab, peer review", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang OOP lanjut (JDBC, design pattern, studi kasus perancangan)", "kriteria": "Ujian tertulis online + praktik coding", "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170", "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170", "materi": "Seluruh materi (minggu 1–15)", "bobot": "20%"}
+  ],
+  "bahan_kajian": "1. Paradigma dan konsep pemrograman berorientasi objek\n2. Class, object, atribut, dan method\n3. Encapsulation dan access modifier\n4. Inheritance dan polymorphism\n5. Interface dan abstract class\n6. Exception handling\n7. Collections dan generics\n8. Koneksi basis data dari aplikasi OOP\n9. Design patterns dasar (Singleton, Factory, Observer)\n10. Praktikum: pengembangan aplikasi berorientasi objek",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Deitel, P., & Deitel, H. (2017). *Java: How to Program* (11th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Sierra, K., & Bates, B. (2020). *Head First Java* (3rd ed.). O'Reilly Media."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Horstmann, C. S. (2019). *Core Java Volume I: Fundamentals* (11th ed.). Pearson."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Freeman, E., & Robson, E. (2020). *Head First Design Patterns* (2nd ed.). O'Reilly Media."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan pemrograman menggunakan paradigma berorientasi objek (OOP) yang menjadi fondasi pengembangan perangkat lunak modern. Materi meliputi konsep class, object, enkapsulasi, inheritance, polymorphism, abstract class, interface, exception handling, collections framework, koneksi basis data melalui JDBC, serta pengenalan design patterns dasar (Singleton, Factory, Observer). Mahasiswa akan mempraktikkan langsung melalui latihan coding dan proyek kelompok untuk membangun aplikasi berbasis OOP yang terintegrasi dengan basis data. Penekanan diberikan pada kemampuan analisis, perancangan, implementasi, dokumentasi, dan presentasi hasil pengembangan perangkat lunak.",
+  "matakuliah_syarat": "TSI3106 Pemrograman Dasar"
+}

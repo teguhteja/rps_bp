@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "kode_mk": "TSI3321",
+    "nama_mk": "Analisis dan Perancangan Sistem Informasi",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/septa.png",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "III/a",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01, KK-06",
+      "deskripsi": "Mampu memahami konsep dan metodologi pengembangan sistem informasi serta melakukan investigasi awal dan studi kelayakan"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-03",
+      "deskripsi": "Mampu melakukan teknik pengumpulan kebutuhan (requirement elicitation) dan menganalisis kebutuhan fungsional dan non-fungsional"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-02, KK-03, KK-08",
+      "deskripsi": "Mampu memodelkan proses bisnis menggunakan DFD dan BPMN serta pemodelan berorientasi objek dengan UML (use case, class, sequence diagram)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-03, KK-04, KK-08",
+      "deskripsi": "Mampu merancang arsitektur sistem informasi, basis data logis dan fisik, serta antarmuka pengguna (UI)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KU-04, KK-01",
+      "deskripsi": "Mampu mendokumentasikan dan mengelola konfigurasi sistem serta menyusun laporan analisis dan perancangan sistem informasi"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar sistem informasi dan metodologi pengembangan (waterfall, agile, prototyping)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu melakukan investigasi awal, identifikasi masalah, dan studi kelayakan (teknis, ekonomi, operasional)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu melakukan teknik pengumpulan kebutuhan (wawancara, kuesioner, observasi, studi dokumen)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menganalisis kebutuhan fungsional dan non-fungsional serta menyusun spesifikasi kebutuhan perangkat lunak (SRS)",
+      "cpmk": "CPMK-2",
+      "minggu": "6–7",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu memodelkan proses bisnis menggunakan DFD (level 0,1,2) dan BPMN",
+      "cpmk": "CPMK-3",
+      "minggu": "8–9",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu memodelkan sistem berorientasi objek dengan UML (use case diagram, class diagram, sequence diagram)",
+      "cpmk": "CPMK-3",
+      "minggu": "10–11",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu merancang arsitektur sistem (client-server, 3-tier, MVC) dan antarmuka pengguna (UI prototype)",
+      "cpmk": "CPMK-4",
+      "minggu": "12–13",
+      "cpl": "C5–P5"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu merancang basis data (ERD, normalisasi, relasi tabel) dan basis data fisik (SQL DDL)",
+      "cpmk": "CPMK-4",
+      "minggu": "14",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mendokumentasikan hasil analisis dan perancangan dalam laporan serta mempresentasikan proyek",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar sistem informasi dan siklus hidup pengembangan",
+      "indikator": "Ketepatan mendefinisikan sistem informasi, komponen, dan tahapan SDLC",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: studi kasus awal",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Definisi SI; komponen; SDLC waterfall, prototyping, agile; peran analis sistem",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Metodologi pengembangan sistem (waterfall, agile, prototyping)",
+      "indikator": "Ketepatan membandingkan metodologi dan memilih yang sesuai",
+      "kriteria": "Kuis online; Tugas kelompok kecil",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: studi banding metodologi",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Waterfall: fase; Agile: scrum, kanban; prototyping; kelebihan/kekurangan",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Investigasi awal dan studi kelayakan",
+      "indikator": "Kemampuan mengidentifikasi masalah, peluang, dan arahan; analisis kelayakan",
+      "kriteria": "Tugas analisis studi kasus sederhana",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi studi kelayakan",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Identifikasi masalah; studi kelayakan teknis, ekonomis (ROI, NPV), operasional, jadwal",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Teknik pengumpulan kebutuhan (wawancara, kuesioner)",
+      "indikator": "Kemampuan merancang daftar pertanyaan wawancara dan kuesioner",
+      "kriteria": "Tugas individu (merancang instrumen)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: role-play wawancara",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Teknik wawancara: persiapan, pertanyaan, dokumentasi; kuesioner: desain, skala Likert",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Observasi, studi dokumen, dan brainstorming",
+      "indikator": "Ketepatan mengidentifikasi kebutuhan melalui observasi dan dokumen",
+      "kriteria": "Tugas kelompok (studi kasus)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: observasi simulasi",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Observasi partisipatif; studi dokumen (formulir, laporan); brainstorming, focus group",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Analisis kebutuhan fungsional dan non-fungsional",
+      "indikator": "Kemampuan membedakan dan mendaftar kebutuhan fungsional/non-fungsional",
+      "kriteria": "Kuis online; Tugas analisis",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: identifikasi kebutuhan pada kasus",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Kebutuhan fungsional (fitur, proses); non-fungsional (kinerja, keamanan, usability); prioritas",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 4 : Spesifikasi kebutuhan perangkat lunak (SRS)",
+      "indikator": "Kemampuan menyusun dokumen SRS sesuai standar (IEEE 830)",
+      "kriteria": "Tugas kelompok (draft SRS)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: penyusunan SRS",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Struktur SRS: pendahuluan, deskripsi umum, kebutuhan spesifik, lampiran; validasi kebutuhan",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "Sub-CPMK 5 : Pemodelan proses bisnis dengan DFD (level 0)",
+      "indikator": "Kemampuan membuat DFD konteks dan level 0",
+      "kriteria": "Tugas praktik (menggambar DFD)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: tools DFD (draw.io)",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "DFD: notasi, konteks diagram, level 0, level 1,2; balancing; kamus data",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Pemodelan dengan BPMN",
+      "indikator": "Kemampuan membuat diagram BPMN sederhana (kolam, jalur, aktivitas, gateway)",
+      "kriteria": "Tugas praktik BPMN",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: BPMN tools",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "BPMN: elemen (event, aktivitas, gateway, flow); kolam dan jalur; contoh proses bisnis",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep, studi kelayakan, pengumpulan kebutuhan, DFD",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron (LMS); [TM: 3×50']",
+      "materi": "Materi Minggu 1–9",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Pemodelan UML – Use Case Diagram",
+      "indikator": "Kemampuan mengidentifikasi aktor, use case, dan relasi",
+      "kriteria": "Tugas praktik use case diagram",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: tools UML (StarUML)",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "UML: use case diagram (aktor, use case, include, extend, generalisasi); skenario",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 6 : UML – Class Diagram dan Sequence Diagram",
+      "indikator": "Kemampuan membuat class diagram dari use case dan sequence diagram untuk satu skenario",
+      "kriteria": "Tugas praktik class + sequence",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: lanjutan tools UML",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Class diagram: kelas, atribut, method, relasi (asosiasi, agregasi, komposisi, inheritance); sequence diagram: lifeline, message, activation",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 7 : Perancangan arsitektur sistem",
+      "indikator": "Kemampuan memilih arsitektur (client-server, 3-tier, MVC) dan membuat diagram komponen",
+      "kriteria": "Tugas kelompok (rancangan arsitektur)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: diagram arsitektur",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Arsitektur: 1-tier, 2-tier, 3-tier, n-tier; MVC; deployment diagram; pemilihan platform",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Perancangan basis data (ERD dan normalisasi)",
+      "indikator": "Kemampuan membuat ERD, melakukan normalisasi hingga 3NF, dan menghasilkan skema relasi",
+      "kriteria": "Tugas praktik perancangan basis data",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: tools ERD (MySQL Workbench)",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "ERD: entitas, atribut, hubungan; normalisasi (1NF,2NF,3NF); konversi ke tabel relasional; DDL",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Dokumentasi dan presentasi proyek (persiapan)",
+      "indikator": "Kemampuan menyusun laporan analisis dan perancangan sistem informasi",
+      "kriteria": "Laporan proyek kelompok (draft)",
+      "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: finalisasi laporan",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Struktur laporan: pendahuluan, analisis kebutuhan, perancangan (DFD, UML, arsitektur, basis data, UI), kesimpulan; presentasi efektif",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Ujian Akhir Semester + Presentasi Proyek",
+      "indikator": "Kemampuan mempresentasikan hasil proyek dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis online",
+      "tatap_muka": "Presentasi proyek + UAS TM: 3x50",
+      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
+      "materi": "Seluruh materi (analisis kebutuhan, pemodelan, perancangan arsitektur, basis data, UI) + proyek",
+      "bobot": "15%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan metodologi pengembangan sistem informasi\n2. Investigasi awal dan studi kelayakan\n3. Teknik pengumpulan kebutuhan (requirement elicitation)\n4. Analisis kebutuhan sistem: fungsional dan non-fungsional\n5. Pemodelan proses bisnis (DFD, BPMN)\n6. Pemodelan berorientasi objek (UML: use case, class, sequence diagram)\n7. Perancangan arsitektur sistem informasi\n8. Perancangan basis data logis dan fisik\n9. Perancangan antarmuka pengguna (UI)\n10. Dokumentasi dan manajemen konfigurasi sistem",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Kendall, K. E., & Kendall, J. E. (2018). *Systems analysis and design* (10th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). *Systems analysis and design: An object-oriented approach with UML* (5th ed.). Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Pressman, R. S. (2014). *Software engineering: A practitioner's approach* (8th ed.). McGraw-Hill."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Satzinger, J. W., Jackson, R. B., & Burd, S. D. (2016). *Systems analysis and design in a changing world* (7th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Whitten, J. L., & Bentley, L. D. (2007). *Systems analysis and design methods* (7th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan kemampuan menganalisis dan merancang sistem informasi menggunakan metodologi dan tools yang sesuai. Materi meliputi konsep dan metodologi pengembangan sistem, investigasi awal dan studi kelayakan, teknik pengumpulan kebutuhan, analisis kebutuhan fungsional dan non-fungsional, pemodelan proses bisnis (DFD, BPMN), pemodelan berorientasi objek dengan UML (use case, class, sequence diagram), perancangan arsitektur sistem, perancangan basis data (ERD, normalisasi), perancangan antarmuka pengguna (UI), serta dokumentasi dan presentasi proyek. Penekanan diberikan pada praktik menggunakan tools pemodelan (draw.io, StarUML, MySQL Workbench) dan studi kasus nyata.",
+  "matakuliah_syarat": "TSI3104 (Konsep Sistem Informasi) – direkomendasikan"
+}

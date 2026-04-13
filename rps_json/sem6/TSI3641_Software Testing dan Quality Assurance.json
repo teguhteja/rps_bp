@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "kode_mk": "TSI3641",
+    "nama_mk": "Software Testing dan Quality Assurance",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 6,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom, M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan kaidah rekayasa perangkat lunak"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep kualitas perangkat lunak, software testing, dan level pengujian (unit, integrasi, sistem, acceptance)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-03",
+      "deskripsi": "Mampu menerapkan teknik pengujian black-box, white-box, dan grey-box pada perangkat lunak"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu merancang test case, test plan, dan melakukan pengujian fungsional serta non-fungsional"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-04, KK-05",
+      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium, JUnit) dan menerapkan continuous integration (CI/CT)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-04, KK-08",
+      "deskripsi": "Mampu melakukan bug tracking, manajemen defect, dan menyusun laporan quality assurance berdasarkan standar (ISO 25010)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep kualitas perangkat lunak dan software testing",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membedakan level pengujian (unit, integrasi, sistem, acceptance) dan model V-Model",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan teknik black-box testing (equivalence partitioning, boundary value analysis)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan teknik white-box testing (statement coverage, branch coverage, path coverage)",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu merancang test case dan test plan, serta melakukan pengujian fungsional",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan pengujian non-fungsional (kinerja, keamanan, usability) dan regression testing",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium WebDriver, JUnit/TestNG)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan continuous integration/continuous testing (CI/CT) dengan Jenkins atau GitLab CI",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan bug tracking dan manajemen defect menggunakan tools (JIRA, Bugzilla)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyusun laporan quality assurance dan melakukan evaluasi berdasarkan standar ISO 25010",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep kualitas perangkat lunak",
+      "indikator": "Ketepatan mendefinisikan kualitas (ISO 25010), software testing, dan verifikasi vs validasi",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Definisi kualitas, testing, error, fault, failure; verifikasi dan validasi; prinsip testing",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Level pengujian dan V-Model",
+      "indikator": "Kemampuan menjelaskan unit, integration, system, acceptance testing serta V-Model",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Level testing; V-Model; alpha/beta testing; regression testing",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Black-box testing (equivalence partitioning, boundary value analysis)",
+      "indikator": "Kemampuan merancang test case dengan EP dan BVA",
+      "kriteria": "Tugas praktik (rancangan test case)",
+      "tatap_muka": "Kuliah + praktik TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Equivalence partitioning; boundary value analysis; decision table; state transition",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Black-box lainnya (decision table, state transition)",
+      "indikator": "Kemampuan membuat decision table dan state transition diagram",
+      "kriteria": "Tugas kelompok (studi kasus)",
+      "tatap_muka": "Praktik black-box TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Decision table; state transition; use case testing; pairwise testing",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4 : White-box testing (statement, branch, path coverage)",
+      "indikator": "Kemampuan menghitung coverage dan membuat test case untuk struktur kontrol",
+      "kriteria": "Tugas hitungan coverage",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Statement coverage, decision coverage, condition coverage, path coverage; cyclomatic complexity",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5 : Perancangan test case dan test plan",
+      "indikator": "Kemampuan menyusun test plan (IEEE 829) dan test case template",
+      "kriteria": "Tugas individu (dokumen test plan sederhana)",
+      "tatap_muka": "Kuliah + workshop TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Test plan: scope, strategi, sumber daya, jadwal; test case: ID, deskripsi, langkah, hasil yang diharapkan",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Pengujian fungsional dan non-fungsional",
+      "indikator": "Kemampuan melakukan pengujian fungsional (smoke, sanity) dan non-fungsional (performance, security)",
+      "kriteria": "Tugas kelompok (uji coba aplikasi)",
+      "tatap_muka": "Praktik pengujian TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Smoke test, sanity test, regression; performance (load, stress), security, usability",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep testing, black-box, white-box, test plan",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron; [TM: 3×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Regression testing dan otomatisasi pendahuluan",
+      "indikator": "Ketepatan menjelaskan regression testing dan kapan menggunakan otomatisasi",
+      "kriteria": "Kuis online; Diskusi",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Regression testing; seleksi test case; otomatisasi regression; ROI otomatisasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7 : Otomatisasi dengan Selenium WebDriver",
+      "indikator": "Kemampuan menulis script Selenium untuk testing web",
+      "kriteria": "Tugas praktik (script Selenium)",
+      "tatap_muka": "Praktik Selenium TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Selenium WebDriver: setup, locator, WebDriverWait, assertion, test suite",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Unit testing dengan JUnit/TestNG",
+      "indikator": "Kemampuan menulis unit test di Java/Python menggunakan JUnit atau pytest",
+      "kriteria": "Tugas praktik (unit test)",
+      "tatap_muka": "Praktik unit testing TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "JUnit: annotation, assertion, test fixture; parameterized test; mocking (Mockito)",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8 : Continuous Integration / Continuous Testing",
+      "indikator": "Kemampuan menjelaskan CI/CT dengan Jenkins/GitLab CI dan integrasi dengan test automation",
+      "kriteria": "Kuis online; Studi kasus",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "CI/CD pipeline; Jenkins: job, pipeline, integrasi dengan Selenium/JUnit; GitLab CI",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9 : Bug tracking dan manajemen defect",
+      "indikator": "Kemampuan menggunakan JIRA/Bugzilla untuk melaporkan dan mengelola bug",
+      "kriteria": "Tugas praktik (simulasi bug tracking)",
+      "tatap_muka": "Praktik JIRA TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Siklus hidup defect; severity vs priority; JIRA workflow; laporan bug",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Quality assurance dan standar (ISO 25010)",
+      "indikator": "Kemampuan menjelaskan karakteristik kualitas ISO 25010 dan proses QA",
+      "kriteria": "Tugas kelompok (analisis standar)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "ISO 25010: functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability, portability",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10 : Penyusunan laporan QA dan evaluasi",
+      "indikator": "Kemampuan menyusun laporan quality assurance dan rekomendasi",
+      "kriteria": "Tugas kelompok (laporan QA untuk proyek)",
+      "tatap_muka": "Bimbingan laporan TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Struktur laporan QA; metrik; rekomendasi perbaikan; presentasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang testing, otomatisasi, CI/CT, QA, dan standar",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron; [TM: 3×50']",
+      "materi": "Materi Minggu 9–15",
+      "bobot": "18%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep kualitas perangkat lunak dan software testing\n2. Level pengujian: unit, integrasi, sistem, acceptance\n3. Teknik pengujian: black-box, white-box, grey-box\n4. Pengujian fungsional dan non-fungsional\n5. Test case design dan test planning\n6. Otomatisasi pengujian (Selenium, JUnit)\n7. Continuous Integration dan Continuous Testing (CI/CT)\n8. Standar kualitas perangkat lunak (ISO 25010)\n9. Bug tracking dan manajemen defect",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Pressman, R. S. (2014). *Software engineering: A practitioner's approach* (8th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Myers, G. J., Sandler, C., & Badgett, T. (2016). *The art of software testing* (3rd ed.). Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Fewster, M., & Graham, D. (2016). *Software test automation*. Addison-Wesley."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "ISO/IEC 25010:2011. Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Selenium Documentation. (2025). https://www.selenium.dev/documentation/"
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam pengujian perangkat lunak dan jaminan kualitas (Quality Assurance) yang merupakan bagian penting dari rekayasa perangkat lunak. Materi meliputi konsep kualitas perangkat lunak, level pengujian (unit, integrasi, sistem, acceptance), teknik pengujian black-box, white-box, dan grey-box, perancangan test case dan test plan, pengujian fungsional dan non-fungsional, otomatisasi pengujian dengan Selenium dan JUnit, continuous integration dan continuous testing (CI/CT), bug tracking dan manajemen defect, serta standar kualitas ISO 25010. Penekanan diberikan pada praktik perancangan test case, implementasi otomatisasi, dan penyusunan laporan QA.",
+  "matakuliah_syarat": "TSI3536 (Pemrograman Berorientasi Objek) – direkomendasikan"
+}

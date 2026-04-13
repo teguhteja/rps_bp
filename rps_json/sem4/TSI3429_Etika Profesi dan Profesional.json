@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "kode_mk": "TSI3429",
+    "nama_mk": "Etika Profesi dan Profesional",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/septa.png",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "III/a",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-02",
+      "tipe": "Sikap",
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+    },
+    {
+      "kode": "S-07",
+      "tipe": "Sikap",
+      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"
+    },
+    {
+      "kode": "S-08",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"
+    },
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-02, S-08, KU-01",
+      "deskripsi": "Mampu memahami konsep etika, moral, dan nilai dalam profesi TI serta kode etik profesi (APTIKOM, ACM, IEEE)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "S-08, S-09, KK-01",
+      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual, lisensi perangkat lunak, dan implikasi pelanggarannya"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-02, S-07, KU-02",
+      "deskripsi": "Mampu menjelaskan privasi data, perlindungan informasi pribadi (UU PDP), dan tanggung jawab profesional"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, S-10, KU-01",
+      "deskripsi": "Mampu menganalisis isu keamanan siber dan etika hacking serta isu etika dalam kecerdasan buatan dan otomasi"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-08, KK-01",
+      "deskripsi": "Mampu menerapkan profesionalisme dan pengembangan karier di bidang sistem informasi serta studi kasus pelanggaran etik"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep etika, moral, nilai, dan perbedaan dengan hukum",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menguraikan kode etik profesi TI (APTIKOM, ACM, IEEE) dan penerapannya",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual (HAKI), lisensi perangkat lunak (open source vs proprietary)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan privasi data, UU Perlindungan Data Pribadi (UU PDP), dan tanggung jawab profesional",
+      "cpmk": "CPMK-3",
+      "minggu": "6–7",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menganalisis isu keamanan siber, etika hacking, whistleblowing, dan malpraktik TI",
+      "cpmk": "CPMK-4",
+      "minggu": "8–9",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan etika dalam kecerdasan buatan (AI), otomasi, dan big data",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan profesionalisme, sertifikasi, dan pengembangan karier di bidang SI",
+      "cpmk": "CPMK-5",
+      "minggu": "12",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan analisis studi kasus pelanggaran etik dan penyusunan rekomendasi",
+      "cpmk": "CPMK-5",
+      "minggu": "13–15",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus dan mengintegrasikan seluruh konsep etika profesi",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep etika, moral, dan nilai",
+      "indikator": "Ketepatan mendefinisikan etika, moral, nilai, dan membedakan dengan hukum",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Pengertian etika, moral, nilai; perbedaan etika dan hukum; teori etika (deontologi, utilitarianisme, virtue ethics)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Etika dalam profesi dan organisasi",
+      "indikator": "Kemampuan menjelaskan dilema etika dan pengambilan keputusan etis",
+      "kriteria": "Studi kasus dilema etika; Diskusi",
+      "tatap_muka": "Diskusi interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Dilema etika; model pengambilan keputusan etis; kode etik organisasi",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Kode etik profesi TI (APTIKOM, ACM, IEEE)",
+      "indikator": "Ketepatan menjelaskan prinsip-prinsip kode etik APTIKOM, ACM, dan IEEE",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Kode etik APTIKOM, ACM (Software Engineering Code of Ethics), IEEE; perbandingan dan contoh kasus",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Hak Kekayaan Intelektual (HAKI)",
+      "indikator": "Ketepatan menjelaskan hak cipta, paten, merek, rahasia dagang",
+      "kriteria": "Kuis online; Tugas analisis",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Hak cipta; paten perangkat lunak; merek dagang; rahasia dagang; UU HAKI di Indonesia",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Lisensi perangkat lunak (open source vs proprietary)",
+      "indikator": "Kemampuan membedakan lisensi GPL, MIT, Apache, BSD, dan lisensi komersial",
+      "kriteria": "Tugas individu (studi komparasi lisensi)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Lisensi open source (GPL, LGPL, MIT, Apache, BSD); proprietary software; freeware; shareware; creative commons",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Privasi data dan UU Perlindungan Data Pribadi (UU PDP)",
+      "indikator": "Ketepatan menjelaskan hak subjek data, kewajiban pengendali data, dan prinsip pemrosesan data",
+      "kriteria": "Kuis online; Studi kasus kebocoran data",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Privasi data; UU PDP Indonesia; GDPR; hak subjek data; sanksi pelanggaran",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 4 : Tanggung jawab profesional dan malpraktik TI",
+      "indikator": "Kemampuan menjelaskan tanggung jawab profesional, kelalaian, dan malpraktik",
+      "kriteria": "Tugas kelompok (studi kasus malpraktik)",
+      "tatap_muka": "Diskusi kasus TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Tanggung jawab profesional; standar due care; malpraktik TI; kasus kegagalan sistem",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep etika, HAKI, privasi data, tanggung jawab profesional",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron; [TM: 3×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Isu keamanan siber dan etika hacking",
+      "indikator": "Ketepatan menjelaskan ethical hacking, white hat vs black hat, bug bounty",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Keamanan siber; etika hacking; responsible disclosure; bug bounty program; UU ITE",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 5 : Whistleblowing dan perlindungan pelapor",
+      "indikator": "Kemampuan menjelaskan whistleblowing, dilema, dan perlindungan hukum",
+      "kriteria": "Studi kasus whistleblowing",
+      "tatap_muka": "Diskusi interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Whistleblowing; jenis (internal, eksternal); perlindungan whistleblower; kasus di Indonesia",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Etika dalam kecerdasan buatan (AI) dan otomasi",
+      "indikator": "Ketepatan menjelaskan bias algoritma, transparansi, akuntabilitas, dan dampak sosial AI",
+      "kriteria": "Kuis online; Tugas analisis",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Etika AI: fairness, accountability, transparency; bias data; AI dan pekerjaan; regulasi AI",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Profesionalisme dan pengembangan karier di bidang SI",
+      "indikator": "Kemampuan menjelaskan sertifikasi profesi (CISA, CISSP, CDMP), etika kerja, dan pengembangan berkelanjutan",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Profesionalisme; sertifikasi; kode etik kerja; pengembangan karier; lifelong learning",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (persiapan)",
+      "indikator": "Kemampuan memilih kasus pelanggaran etik (nyata/fiktif) dan merumuskan masalah",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Pemilihan studi kasus (pelanggaran HAKI, kebocoran data, hacking, bias AI); identifikasi isu etik",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analisis etika",
+      "indikator": "Kemampuan menganalisis kasus dengan kerangka etika dan memberikan rekomendasi",
+      "kriteria": "Laporan proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Kerangka analisis etis; identifikasi pemangku kepentingan; rekomendasi tindakan; format laporan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 8 : Finalisasi dan review presentasi",
+      "indikator": "Kemampuan menyempurnakan laporan dan menyiapkan slide presentasi",
+      "kriteria": "Draft final laporan",
+      "tatap_muka": "Bimbingan proyek TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Revisi laporan; persiapan presentasi; simulasi presentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "Sub-CPMK 9 : UAS (Presentasi studi kasus + ujian integrasi)",
+      "indikator": "Kemampuan mempresentasikan analisis etika dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis online",
+      "tatap_muka": "Presentasi + UAS TM: 3x50",
+      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
+      "materi": "Seluruh materi (etika profesi, HAKI, privasi, keamanan, AI, profesionalisme) + proyek",
+      "bobot": "19%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep etika, moral, dan nilai dalam profesi TI\n2. Kode etik profesi teknologi informasi (APTIKOM, ACM, IEEE)\n3. Hak kekayaan intelektual dan lisensi perangkat lunak\n4. Privasi data dan perlindungan informasi pribadi (UU PDP)\n5. Tanggung jawab profesional dan malpraktik TI\n6. Isu keamanan siber dan etika hacking\n7. Etika dalam kecerdasan buatan dan otomasi\n8. Profesionalisme dan pengembangan karier di bidang SI",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Reynolds, G. W. (2019). *Ethics in information technology* (6th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Tavani, H. T. (2016). *Ethics and technology: Controversies, questions, and strategies for ethical computing* (5th ed.). Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Bynum, T. W., & Rogerson, S. (2019). *Computer ethics and professional responsibility* (2nd ed.). Wiley-Blackwell."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "ACM. (2018). *ACM Code of Ethics and Professional Conduct*. https://www.acm.org/code-of-ethics"
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Undang-Undang Republik Indonesia Nomor 27 Tahun 2022 tentang Perlindungan Data Pribadi (UU PDP)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang etika profesi, tanggung jawab moral, dan profesionalisme dalam bidang teknologi informasi dan sistem informasi. Materi meliputi konsep etika dan moral, kode etik profesi (APTIKOM, ACM, IEEE), hak kekayaan intelektual dan lisensi perangkat lunak, privasi data dan perlindungan informasi pribadi (UU PDP), tanggung jawab profesional dan malpraktik TI, isu keamanan siber dan etika hacking, whistleblowing, etika dalam kecerdasan buatan (AI) dan otomasi, serta pengembangan karier profesional. Penekanan diberikan pada analisis studi kasus pelanggaran etik dan pengambilan keputusan etis dalam konteks organisasi.",
+  "matakuliah_syarat": "-"
+}

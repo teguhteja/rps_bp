@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "kode_mk": "TSI3643",
+    "nama_mk": "Keamanan Sistem Informasi",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 6,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
+    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"},
+    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep keamanan sistem informasi, prinsip CIA Triad, dan komponen keamanan"},
+    {"kode": "CPMK-2", "cpl": "P-03, KK-03", "deskripsi": "Mampu menerapkan kriptografi (enkripsi simetrik, asimetrik, hash) untuk melindungi data"},
+    {"kode": "CPMK-3", "cpl": "KK-01, KK-04", "deskripsi": "Mampu mengimplementasikan keamanan autentikasi, manajemen identitas, dan keamanan aplikasi (OWASP Top 10)"},
+    {"kode": "CPMK-4", "cpl": "KU-02, KK-08", "deskripsi": "Mampu melakukan keamanan infrastruktur (jaringan, cloud) dan manajemen insiden keamanan"},
+    {"kode": "CPMK-5", "cpl": "KK-04", "deskripsi": "Mampu memahami forensik digital, investigasi siber, serta regulasi dan kepatuhan keamanan (UU ITE, UU PDP, ISO 27001)"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep keamanan sistem informasi, CIA Triad, ancaman, dan kerentanan", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menerapkan kriptografi simetrik dan asimetrik", "cpmk": "CPMK-2", "minggu": "3–4", "cpl": "C3–P4"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menerapkan fungsi hash dan digital signature", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C3–P4"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengimplementasikan keamanan autentikasi (MFA, biometric) dan manajemen identitas", "cpmk": "CPMK-3", "minggu": "6–7", "cpl": "C3–P4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu melakukan keamanan aplikasi (OWASP Top 10) dan penetration testing dasar", "cpmk": "CPMK-3", "minggu": "8–9", "cpl": "C4–P4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu mengkonfigurasi keamanan jaringan (firewall, IDS/IPS, VPN) dan cloud security", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C3–P4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan manajemen insiden keamanan dan respons", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu melakukan forensik digital dasar dan investigasi siber", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C4–P4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan regulasi dan kepatuhan (UU ITE, UU PDP, ISO 27001)", "cpmk": "CPMK-5", "minggu": "15", "cpl": "C3"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu mengintegrasikan seluruh konsep dalam proyek keamanan sistem informasi", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "16", "cpl": "C5–P5"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep keamanan SI dan CIA Triad", "indikator": "Ketepatan menjelaskan Confidentiality, Integrity, Availability dan contoh ancaman", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi ancaman dasar", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "CIA Triad; ancaman internal/eksternal; kerentanan; manajemen risiko", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Ancaman, serangan, dan kontrol keamanan", "indikator": "Kemampuan mengidentifikasi jenis serangan (malware, phishing, DoS, MITM)", "kriteria": "Studi kasus; Tugas kelompok", "tatap_muka": "Diskusi interaktif TM: 3x50; Praktik: analisis malware dummy", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Malware, phishing, social engineering, DDoS; kontrol teknis dan administratif", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Kriptografi simetrik (AES, DES, 3DES)", "indikator": "Kemampuan menjelaskan algoritma simetrik dan melakukan enkripsi/dekripsi sederhana", "kriteria": "Kuis online; Tugas praktik (OpenSSL)", "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Kriptografi simetrik: AES, DES; mode ECB, CBC; key management", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 2 : Kriptografi asimetrik (RSA, ECC)", "indikator": "Kemampuan menjelaskan konsep kunci publik/privat dan implementasi RSA", "kriteria": "Tugas praktik (generasi kunci, enkripsi RSA)", "tatap_muka": "Praktik kriptografi asimetrik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "RSA, ECC; digital envelope; hybrid cryptosystem", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Fungsi hash dan digital signature", "indikator": "Kemampuan membuat hash (MD5, SHA) dan menandatangani secara digital", "kriteria": "Tugas praktik (hash, sign, verify)", "tatap_muka": "Praktik hash & signature TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Hash: MD5, SHA-1, SHA-256; digital signature; PKI; sertifikat X.509", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Autentikasi dan manajemen identitas", "indikator": "Kemampuan mengkonfigurasi MFA, password policy, dan SSO", "kriteria": "Kuis online; Tugas praktik (konfigurasi otentikasi)", "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Autentikasi: knowledge, possession, inherence; MFA; biometric; SSO; IAM", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Manajemen identitas dan akses (IAM)", "indikator": "Kemampuan menjelaskan RBAC, ABAC, dan provisioning", "kriteria": "Tugas kelompok (desain IAM sederhana)", "tatap_muka": "Diskusi + praktik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "RBAC, ABAC; user provisioning; identity governance; directory service (LDAP, Active Directory)", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep keamanan, kriptografi, autentikasi", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron; [TM: 3×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Keamanan aplikasi (OWASP Top 10)", "indikator": "Kemampuan menjelaskan dan mencegah SQL injection, XSS, CSRF", "kriteria": "Kuis online; Tugas praktik (simulasi serangan)", "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "OWASP Top 10: injection, broken auth, XSS, CSRF, insecure deserialization, dll", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 5 : Penetration testing dasar", "indikator": "Kemampuan menggunakan nmap, metasploit, dan burp suite untuk testing", "kriteria": "Tugas praktik (pentest lingkungan virtual)", "tatap_muka": "Praktik pentest TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Metodologi pentest; scanning; exploitation; post-exploitation; reporting", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Keamanan jaringan (firewall, IDS/IPS, VPN)", "indikator": "Kemampuan mengkonfigurasi iptables, Snort, dan OpenVPN", "kriteria": "Tugas praktik (konfigurasi keamanan jaringan)", "tatap_muka": "Praktik keamanan jaringan TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Firewall (iptables/pfSense), IDS/IPS (Snort), VPN (IPsec, OpenVPN)", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Manajemen insiden keamanan", "indikator": "Kemampuan menjelaskan siklus respons insiden (preparation, detection, containment, eradication, recovery, lessons learned)", "kriteria": "Kuis online; Studi kasus insiden", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi respons", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Incident response plan; tim CSIRT; forensik awal; business continuity", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Forensik digital dasar", "indikator": "Kemampuan melakukan akuisisi data, analisis, dan preservasi bukti", "kriteria": "Tugas praktik (forensik dengan Autopsy)", "tatap_muka": "Praktik forensik TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Forensik disk, memory, network; chain of custody; tools: Autopsy, FTK Imager, Volatility", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Investigasi siber", "indikator": "Kemampuan menganalisis log dan melakukan tracking", "kriteria": "Tugas kelompok (simulasi investigasi)", "tatap_muka": "Praktik investigasi TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Analisis log; timeline analysis; malware reverse engineering dasar; koordinasi dengan penegak hukum", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 9 : Regulasi dan kepatuhan (UU ITE, UU PDP, ISO 27001)", "indikator": "Ketepatan menjelaskan pasal-pasal penting dan kewajiban organisasi", "kriteria": "Kuis online; Diskusi", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: analisis kasus hukum", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "UU ITE, UU PDP, ISO 27001 (klausul 4-10), GDPR, kepatuhan industri (PCI-DSS)", "bobot": "5%"},
+    {"minggu": 16, "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester", "indikator": "Kemampuan mempresentasikan proyek keamanan sistem informasi dan menjawab soal integratif", "kriteria": "Presentasi kelompok + ujian tertulis online", "tatap_muka": "Presentasi + UAS TM: 3x50", "daring": "Presentasi daring + UAS online; [TM: 3×50']", "materi": "Seluruh materi + proyek (implementasi keamanan pada sistem informasi studi kasus)", "bobot": "20%"}
+  ],
+  "bahan_kajian": "1. Konsep, prinsip, dan komponen keamanan sistem informasi (CIA Triad)\n2. Ancaman, kerentanan, dan risiko keamanan SI\n3. Kriptografi: enkripsi simetrik, asimetrik, dan hash\n4. Keamanan autentikasi dan manajemen identitas\n5. Keamanan aplikasi (OWASP Top 10)\n6. Keamanan infrastruktur dan cloud security\n7. Manajemen insiden keamanan\n8. Forensik digital dan investigasi siber\n9. Regulasi dan kepatuhan keamanan (UU ITE, UU PDP, ISO 27001)\n10. Praktikum: penetration testing dasar",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Stallings, W., & Brown, L. (2018). *Computer security: Principles and practice* (4th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Anderson, R. (2020). *Security engineering: A guide to building dependable distributed systems* (3rd ed.). Wiley."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Vacca, J. R. (2017). *Network and system security* (2nd ed.). Syngress."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "OWASP Foundation. (2025). *OWASP Top 10 - 2025*. https://owasp.org/Top10/"},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "ISO/IEC 27001:2022. Information security management systems — Requirements."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam mengamankan sistem informasi dari berbagai ancaman. Materi meliputi konsep keamanan (CIA Triad), kriptografi (simetrik, asimetrik, hash), keamanan autentikasi dan manajemen identitas, keamanan aplikasi (OWASP Top 10), penetration testing dasar, keamanan infrastruktur (jaringan, cloud), manajemen insiden keamanan, forensik digital dan investigasi siber, serta regulasi dan kepatuhan (UU ITE, UU PDP, ISO 27001). Penekanan diberikan pada praktikum menggunakan tools keamanan dan simulasi serangan dalam lingkungan virtual.",
+  "matakuliah_syarat": "TSI3428 (Keamanan Jaringan) – wajib"
+}

@@ -1,0 +1,79 @@
+
+{
+  "meta": {
+    "kode_mk": "TSI1210",
+    "nama_mk": "Kewarganegaraan",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Umum / Bela Negara / Pendidikan Umum (Kepribadian)",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-01", "tipe": "Sikap", "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius"},
+    {"kode": "S-03", "tipe": "Sikap", "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila"},
+    {"kode": "S-04", "tipe": "Sikap", "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa"},
+    {"kode": "S-06", "tipe": "Sikap", "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"},
+    {"kode": "S-07", "tipe": "Sikap", "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"},
+    {"kode": "S-08", "tipe": "Sikap", "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "S-01, S-03", "deskripsi": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional"},
+    {"kode": "CPMK-2", "cpl": "S-04, S-07", "deskripsi": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia"},
+    {"kode": "CPMK-3", "cpl": "S-06, KU-06", "deskripsi": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila"},
+    {"kode": "CPMK-4", "cpl": "S-03, S-08", "deskripsi": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara"},
+    {"kode": "CPMK-5", "cpl": "S-07, KU-01", "deskripsi": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep, tujuan, dan ruang lingkup pendidikan kewarganegaraan di perguruan tinggi", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menguraikan identitas nasional dan integrasi nasional", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan sejarah, isi, dan makna UUD NRI 1945 serta konstitusi", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C2"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis sistem ketatanegaraan (lembaga negara, pembagian kekuasaan)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu mengidentifikasi hak dan kewajiban warga negara berdasarkan UUD 1945", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan konsep demokrasi Pancasila dan negara hukum", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C2"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan wawasan nusantara sebagai geopolitik Indonesia", "cpmk": "CPMK-4", "minggu": "7", "cpl": "C2"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menganalisis ketahanan nasional dan konsep bela negara", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan nilai-nilai anti korupsi dan upaya pemberantasannya", "cpmk": "CPMK-5", "minggu": "10-11", "cpl": "C2"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun karya tulis atau presentasi tentang isu kebangsaan dan anti korupsi", "cpmk": "CPMK-5", "minggu": "12-15", "cpl": "C5-C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dan urgensi Pendidikan Kewarganegaraan", "indikator": "Ketepatan menjelaskan tujuan dan ruang lingkup MKWU Kewarganegaraan", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pengertian, landasan hukum, tujuan pendidikan kewarganegaraan di PT, hubungan dengan profil lulusan", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Identitas nasional dan integrasi nasional", "indikator": "Kemampuan menguraikan unsur-unsur identitas nasional dan faktor pendorong integrasi", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Identitas nasional (bahasa, budaya, sejarah, simbol negara), integrasi nasional, tantangan disintegrasi", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Konstitusi dan UUD NRI 1945", "indikator": "Kemampuan menjelaskan sejarah dan isi UUD 1945", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen), isi UUD NRI 1945", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Sistem ketatanegaraan Indonesia", "indikator": "Kemampuan menganalisis lembaga negara dan mekanisme checks and balances", "kriteria": "Tugas individu: peta konsep", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "MPR, DPR, DPD, Presiden, MA, MK, BPK; pembagian kekuasaan eksekutif, legislatif, yudikatif", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Hak dan kewajiban warga negara", "indikator": "Kemampuan mengidentifikasi hak asasi dan kewajiban berdasarkan UUD 1945", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Hak warga negara (pasal 27-34), kewajiban (membayar pajak, bela negara, menghormati hukum)", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Demokrasi Pancasila dan negara hukum", "indikator": "Kemampuan menjelaskan prinsip demokrasi Pancasila dan rule of law", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Demokrasi Pancasila (kerakyatan, musyawarah), negara hukum (rechtstaat), supremasi hukum", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Wawasan nusantara", "indikator": "Kemampuan menjelaskan konsep geopolitik Indonesia", "kriteria": "Tugas individu: esai", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Wawasan nusantara sebagai cara pandang, asas (kepulauan, archipelago), implementasi", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep identitas nasional, konstitusi, demokrasi, wawasan nusantara", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8: Ketahanan nasional dan bela negara", "indikator": "Kemampuan menganalisis konsep ketahanan nasional dan bentuk bela negara", "kriteria": "Tugas kelompok: analisis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ketahanan nasional (astagatra), bela negara (fisik dan nonfisik), peran mahasiswa", "bobot": "6%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 9: Nilai-nilai anti korupsi (bagian 1)", "indikator": "Kemampuan menjelaskan definisi, jenis, dan dampak korupsi", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Definisi korupsi (UU 31/1999), jenis (suap, gratifikasi, penggelapan), dampak ekonomi dan sosial", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Pendidikan anti korupsi dan integritas", "indikator": "Kemampuan menginternalisasi 9 nilai anti korupsi", "kriteria": "Kuis, refleksi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 10: Proyek kebangsaan – perencanaan", "indikator": "Kemampuan memilih isu kebangsaan atau anti korupsi untuk kajian", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pemilihan topik (korupsi di lingkungan kampus, nasionalisme generasi milenial, dll)", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Pengumpulan data dan analisis", "indikator": "Kemampuan mengumpulkan data/informasi dan menganalisis", "kriteria": "Progress report", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Metode pengumpulan data, wawancara, kuesioner, studi literatur", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Penyusunan laporan dan poster", "indikator": "Kemampuan menyusun laporan dan poster kampanye anti korupsi/nasionalisme", "kriteria": "Tugas kelompok: laporan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Penulisan laporan, desain poster, pesan kampanye", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi proyek", "indikator": "Kemampuan mempresentasikan hasil proyek kebangsaan", "kriteria": "Presentasi kelompok (10 menit)", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Presentasi laporan, poster, tanya jawab", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang ketahanan nasional, bela negara, anti korupsi, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "15%"}
+  ],
+  "bahan_kajian": "1. Konsep dan urgensi Pendidikan Kewarganegaraan\n2. Identitas nasional dan integrasi nasional\n3. Konstitusi dan UUD NRI 1945\n4. Hak dan kewajiban warga negara\n5. Demokrasi Pancasila dan negara hukum\n6. Pendidikan antikorupsi\n7. Wawasan nusantara dan ketahanan nasional\n8. Bela negara dan komitmen kebangsaan",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Kaelan, M.S. (2016). *Pendidikan Kewarganegaraan untuk Perguruan Tinggi*. Paradigma."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Winarno, S.H. (2019). *Paradigma Baru Pendidikan Kewarganegaraan*. Bumi Aksara."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Tim Dosen PKn Universitas Indonesia. (2015). *Pendidikan Kewarganegaraan: Demokrasi, HAM, dan Masyarakat Madani*. Prenada Media."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Amandemen)."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Komisi Pemberantasan Korupsi. (2019). *Modul Pendidikan Anti Korupsi untuk Perguruan Tinggi*. KPK."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep kewarganegaraan, identitas nasional, konstitusi, demokrasi Pancasila, hak dan kewajiban warga negara, wawasan nusantara, ketahanan nasional, bela negara, serta pendidikan anti korupsi. Mahasiswa diajak untuk berpikir kritis dan bertanggung jawab sebagai warga negara yang baik, menjunjung tinggi nilai-nilai Pancasila dan UUD 1945, serta berperan aktif dalam menjaga keutuhan NKRI. Penekanan diberikan pada internalisasi nilai integritas, anti korupsi, dan semangat bela negara dalam konteks profesional di bidang teknologi informasi.",
+  "matakuliah_syarat": "-"
+}

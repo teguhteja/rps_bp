@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "kode_mk": "TSI3108",
+    "nama_mk": "Sistem Basis Data",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
+    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-02", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"},
+    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"},
+    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep dan arsitektur basis data serta peran DBMS dalam sistem informasi"},
+    {"kode": "CPMK-2", "cpl": "P-03, KK-03", "deskripsi": "Mampu merancang Entity Relationship Diagram (ERD) dan melakukan normalisasi basis data"},
+    {"kode": "CPMK-3", "cpl": "KU-02, KK-02", "deskripsi": "Mampu mengimplementasikan basis data relasional menggunakan SQL (DDL, DML) pada RDBMS"},
+    {"kode": "CPMK-4", "cpl": "S-09, KK-08", "deskripsi": "Mampu melakukan pengelolaan transaksi, konkurensi, serta keamanan dan integritas data"},
+    {"kode": "CPMK-5", "cpl": "KU-01, KK-08", "deskripsi": "Mampu mengintegrasikan basis data dengan aplikasi sederhana dan melakukan backup/recovery"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep basis data, DBMS, dan arsitektur (eksternal, konseptual, internal)", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu membedakan model data (hierarkis, jaringan, relasional, objek)", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu membuat ERD (entitas, atribut, relasi, kardinalitas) dan mengubahnya ke tabel relasional", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menerapkan normalisasi (1NF, 2NF, 3NF) untuk mengatasi redundansi dan anomali", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C3-C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menggunakan DDL (CREATE, ALTER, DROP) untuk mendefinisikan struktur basis data", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menggunakan DML (INSERT, UPDATE, DELETE, SELECT) untuk memanipulasi data", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menulis query SELECT lanjutan (JOIN, subquery, fungsi agregat, GROUP BY)", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3-C4"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan konsep transaksi, ACID, dan konkurensi", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C2"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menerapkan keamanan basis data (user, privilege, GRANT/REVOKE) dan integritas (constraints, trigger)", "cpmk": "CPMK-4", "minggu": "10-11", "cpl": "C3"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu melakukan backup, recovery, dan integrasi basis data dengan aplikasi (koneksi JDBC/ODBC)", "cpmk": "CPMK-5", "minggu": "12-15", "cpl": "C3-C4"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dasar basis data dan DBMS", "indikator": "Ketepatan menjelaskan definisi basis data, DBMS, dan arsitektur 3-level", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Data vs informasi, basis data, DBMS (fungsi, keuntungan), arsitektur ANSI-SPARC (eksternal, konseptual, internal)", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Model data", "indikator": "Kemampuan membedakan model data hierarkis, jaringan, relasional, objek", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Model data hierarkis (IMS), jaringan (CODASYL), relasional (Codd), objek-relasional, NoSQL", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Entity Relationship Diagram (ERD)", "indikator": "Kemampuan membuat ERD dengan entitas, atribut, relasi, kardinalitas", "kriteria": "Tugas individu: ERD", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Entitas kuat/lemah, atribut (sederhana, komposit, multinilai, turunan), relasi (1:1, 1:N, M:N), kardinalitas", "bobot": "5%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Normalisasi", "indikator": "Kemampuan menormalisasi tabel hingga 3NF", "kriteria": "Tugas individu: normalisasi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Anomali (insert, update, delete), ketergantungan fungsional, 1NF (atomic), 2NF (tanpa partial dependency), 3NF (tanpa transitive dependency)", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: DDL (Data Definition Language)", "indikator": "Kemampuan membuat tabel, mengubah struktur, menghapus objek", "kriteria": "Praktik SQL", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "CREATE DATABASE, CREATE TABLE (tipe data, constraints: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY), ALTER, DROP", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: DML dasar (INSERT, UPDATE, DELETE, SELECT)", "indikator": "Kemampuan memanipulasi data", "kriteria": "Tugas individu: DML", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "INSERT (single, multiple), UPDATE, DELETE, SELECT sederhana (WHERE, ORDER BY, LIMIT)", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Query lanjutan (JOIN, subquery, agregat)", "indikator": "Kemampuan menulis query dengan JOIN, subquery, GROUP BY", "kriteria": "Tugas individu: query", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "INNER JOIN, LEFT/RIGHT JOIN, SELF JOIN; subquery di WHERE/FROM/SELECT; fungsi agregat (COUNT, SUM, AVG, MIN, MAX), GROUP BY, HAVING", "bobot": "6%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep basis data, ERD, normalisasi, SQL dasar", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 8: Transaksi dan konkurensi", "indikator": "Kemampuan menjelaskan sifat ACID dan masalah konkurensi", "kriteria": "Kuis, diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Transaksi (BEGIN, COMMIT, ROLLBACK), sifat ACID, jadwal, serializability, locking (shared, exclusive), deadlock", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 9: Keamanan basis data", "indikator": "Kemampuan mengelola user dan privilege", "kriteria": "Praktik GRANT/REVOKE", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "User management (CREATE USER), privilege (GRANT, REVOKE), role, view untuk keamanan", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Integritas data (constraints, trigger)", "indikator": "Kemampuan menggunakan CHECK, DEFAULT, dan trigger sederhana", "kriteria": "Tugas individu: trigger", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Integritas domain, entitas, referensial; CHECK, DEFAULT; trigger (BEFORE/AFTER INSERT/UPDATE/DELETE)", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 10: Backup dan recovery", "indikator": "Kemampuan melakukan backup database dan restore", "kriteria": "Praktik backup", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Jenis backup (full, incremental, differential), tools (mysqldump, pg_dump), restore, point-in-time recovery", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Integrasi basis data dengan aplikasi", "indikator": "Kemampuan menghubungkan basis data dengan program (Python/Java)", "kriteria": "Tugas kelompok: koneksi DB", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "JDBC/ODBC, driver, connection string, execute query, result set, prepared statement", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Proyek basis data – perancangan", "indikator": "Kemampuan merancang basis data untuk studi kasus (misal: perpustakaan, penjualan)", "kriteria": "Proposal proyek", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Analisis kebutuhan, ERD, normalisasi, implementasi DDL", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Implementasi proyek dan presentasi", "indikator": "Kemampuan mengimplementasikan basis data dan membuat query aplikatif", "kriteria": "Presentasi kelompok + demo", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Pembuatan database, pengisian data, query laporan, dokumentasi", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang transaksi, keamanan, integrasi, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dan arsitektur basis data\n2. Model data relasional\n3. Entity Relationship Diagram (ERD)\n4. Normalisasi basis data\n5. Structured Query Language (SQL) dasar\n6. Implementasi basis data dengan RDBMS\n7. Transaksi dan konkurensi\n8. Keamanan dan integritas data",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Elmasri, R., & Navathe, S. B. (2016). *Fundamentals of Database Systems* (7th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Connolly, T., & Begg, C. (2015). *Database Systems: A Practical Approach to Design, Implementation, and Management* (6th ed.). Pearson."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Date, C. J. (2019). *An Introduction to Database Systems* (8th ed.). Addison-Wesley."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2019). *Database System Concepts* (7th ed.). McGraw-Hill."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Ramakrishnan, R., & Gehrke, J. (2003). *Database Management Systems* (3rd ed.). McGraw-Hill."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini memberikan pemahaman tentang konsep dasar basis data yang menjadi fondasi penting dalam pengelolaan data pada sistem informasi. Materi meliputi arsitektur basis data, model data relasional, Entity Relationship Diagram (ERD), normalisasi, bahasa SQL (DDL dan DML), transaksi dan konkurensi, keamanan dan integritas data, serta backup dan recovery. Mahasiswa akan mempraktikkan perancangan dan implementasi basis data menggunakan RDBMS (seperti MySQL atau PostgreSQL) melalui studi kasus, serta belajar mengintegrasikan basis data dengan aplikasi sederhana. Mata kuliah ini mempersiapkan mahasiswa untuk mata kuliah lanjutan seperti Sistem Basis Data Lanjut dan Big Data.",
+  "matakuliah_syarat": "-"
+}

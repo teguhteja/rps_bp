@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "kode_mk": "TSI3645",
+    "nama_mk": "UI Design and UX Design Practical",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 6,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Pilihan",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami prinsip desain antarmuka pengguna (UI) yang efektif dan perbedaan UI dengan UX"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KK-03, KK-11",
+      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping) untuk memahami kebutuhan pengguna"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KK-08",
+      "deskripsi": "Mampu membuat wireframing dan prototyping menggunakan tools desain (Figma, Adobe XD)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-02, KK-01",
+      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan desain responsif serta aksesibilitas"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KK-04, KK-08",
+      "deskripsi": "Mampu melakukan usability testing, evaluasi heuristik, dan merancang antarmuka aplikasi sistem informasi"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan prinsip UI/UX, perbedaan UI dan UX, serta pentingnya user-centered design",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping)",
+      "cpmk": "CPMK-2",
+      "minggu": "3–4",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu membuat wireframing (low-fidelity) menggunakan tools",
+      "cpmk": "CPMK-3",
+      "minggu": "5–6",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu membuat prototyping (high-fidelity) interaktif di Figma",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan design system",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang desain responsif dan aksesibilitas (WCAG)",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu melakukan usability testing dan evaluasi heuristik (Nielsen)",
+      "cpmk": "CPMK-5",
+      "minggu": "12–13",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan iterasi desain berdasarkan hasil testing",
+      "cpmk": "CPMK-5",
+      "minggu": "14",
+      "cpl": "C5–P5"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun portofolio UI/UX dan mempresentasikan proyek akhir",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Pengantar UI/UX dan prinsip desain",
+      "indikator": "Ketepatan menjelaskan perbedaan UI dan UX, prinsip user-centered design",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: eksplorasi tools desain",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Definisi UI, UX, user-centered design; prinsip desain (visibility, feedback, consistency, affordance)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Proses desain UI/UX (double diamond)",
+      "indikator": "Kemampuan menjelaskan tahapan discover, define, develop, deliver",
+      "kriteria": "Studi kasus; Diskusi",
+      "tatap_muka": "Diskusi interaktif TM: 3x50; Praktik: studi kasus aplikasi",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Double diamond; design thinking; lean UX",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Riset pengguna (user persona)",
+      "indikator": "Kemampuan membuat user persona berdasarkan data demografis dan perilaku",
+      "kriteria": "Tugas kelompok (persona)",
+      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Metode riset: wawancara, survei; user persona: goals, pain points, behaviors",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 2 : User journey map dan empathy mapping",
+      "indikator": "Kemampuan memetakan perjalanan pengguna dan empati",
+      "kriteria": "Tugas kelompok (journey map)",
+      "tatap_muka": "Praktik journey map TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "User journey map, empathy map, service blueprint",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Wireframing (low-fidelity)",
+      "indikator": "Kemampuan membuat wireframe kertas atau digital (Figma)",
+      "kriteria": "Tugas individu (wireframe)",
+      "tatap_muka": "Praktik wireframing TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Wireframing: konsep, tools (Figma, Balsamiq, Adobe XD), layout dasar",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 3 : Wireframing lanjutan (interactive wireframe)",
+      "indikator": "Kemampuan membuat wireframe dengan interaksi sederhana",
+      "kriteria": "Tugas kelompok (wireframe interaktif)",
+      "tatap_muka": "Praktik wireframe interaktif TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Prototyping di Figma; linking screens; component",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 4 : High-fidelity prototyping",
+      "indikator": "Kemampuan membuat prototype interaktif yang mirip dengan produk final",
+      "kriteria": "Tugas kelompok (prototype high-fi)",
+      "tatap_muka": "Praktik high-fi TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Menggunakan auto layout, variants, interactive components, micro-interactions",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep UI/UX, riset pengguna, wireframing, prototyping",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron; [TM: 3×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Desain visual (tipografi, warna, ikon)",
+      "indikator": "Kemampuan memilih tipografi, palet warna, dan ikon yang sesuai",
+      "kriteria": "Tugas praktik (mood board, style guide)",
+      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Tipografi (serif, sans-serif, hierarchy); color theory; iconography; spacing",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 5 : Design system dan komponen UI",
+      "indikator": "Kemampuan membuat design system (color, typography, component library)",
+      "kriteria": "Tugas kelompok (design system)",
+      "tatap_muka": "Praktik design system TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Atomic design; design system (Material, Human Interface); komponen: button, card, input",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Desain responsif dan aksesibilitas",
+      "indikator": "Kemampuan merancang UI untuk berbagai ukuran layar dan memenuhi WCAG",
+      "kriteria": "Tugas individu (responsif dan aksesibilitas)",
+      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Responsive design (breakpoints, grid); WCAG (contrast, keyboard navigation, screen reader)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Usability testing (persiapan)",
+      "indikator": "Kemampuan merancang rencana usability testing (partisipan, skenario, tugas)",
+      "kriteria": "Proposal usability testing (kelompok)",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: desain test",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Metode usability testing (moderated, unmoderated); test plan; task list",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 7 : Evaluasi heuristik (Nielsen) dan analisis hasil",
+      "indikator": "Kemampuan mengevaluasi UI berdasarkan 10 prinsip heuristik dan menyusun laporan",
+      "kriteria": "Laporan evaluasi heuristik",
+      "tatap_muka": "Praktik evaluasi TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "10 heuristics (Nielsen); severity rating; rekomendasi perbaikan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Iterasi desain berdasarkan feedback",
+      "indikator": "Kemampuan memperbaiki prototype berdasarkan hasil testing",
+      "kriteria": "Prototype hasil iterasi",
+      "tatap_muka": "Praktik iterasi TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Prioritaskan temuan; design iteration; A/B testing",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Penyusunan portofolio UI/UX",
+      "indikator": "Kemampuan menyusun case study portofolio (latar belakang, proses, hasil)",
+      "kriteria": "Draft portofolio",
+      "tatap_muka": "Bimbingan portofolio TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Struktur portofolio: problem, solution, process, outcome; tips presentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
+      "indikator": "Kemampuan mempresentasikan proyek UI/UX (prototype + portofolio) dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis",
+      "tatap_muka": "Presentasi + UAS TM: 3x50",
+      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
+      "materi": "Seluruh materi + proyek (desain aplikasi sistem informasi)",
+      "bobot": "19%"
+    }
+  ],
+  "bahan_kajian": "1. Prinsip desain antarmuka pengguna (UI) yang efektif\n2. Riset pengguna: user persona, user journey, empathy mapping\n3. Wireframing dan prototyping\n4. Desain visual: tipografi, warna, layout, dan ikon\n5. Usability testing dan evaluasi heuristik\n6. Desain responsif dan aksesibilitas\n7. Tools desain UI/UX (Figma, Adobe XD)\n8. Praktikum: merancang antarmuka aplikasi sistem informasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Norman, D. (2013). *The design of everyday things* (Revised ed.). Basic Books."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Krug, S. (2014). *Don't make me think, revisited: A common sense approach to web usability* (3rd ed.). New Riders."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Nielsen, J. (2020). *Usability engineering*. Morgan Kaufmann."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Figma. (2025). *Figma Help Center*. https://help.figma.com/"
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "WCAG 2.1. (2018). Web Content Accessibility Guidelines. W3C."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan praktis dalam merancang antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk aplikasi sistem informasi. Materi meliputi prinsip desain UI/UX, riset pengguna (user persona, user journey, empathy mapping), wireframing, prototyping (Figma/Adobe XD), desain visual (tipografi, warna, layout), desain responsif dan aksesibilitas, usability testing, evaluasi heuristik, serta penyusunan portofolio UI/UX. Penekanan diberikan pada praktik langsung dengan tools desain dan studi kasus nyata untuk menghasilkan prototype aplikasi yang user-centered.",
+  "matakuliah_syarat": "TSI3427 (Pemrograman berbasis Web) – direkomendasikan"
+}

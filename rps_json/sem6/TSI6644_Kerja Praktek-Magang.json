@@ -1,0 +1,77 @@
+
+{
+  "meta": {
+    "kode_mk": "TSI6644",
+    "nama_mk": "Kerja Praktek / Magang",
+    "sks_total": 4,
+    "sks_teori": 0,
+    "sks_praktik": 4,
+    "semester": 6,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Tim Koordinator Magang Prodi S1 Sistem Informasi",
+    "dosen_sign": "sign/default.png",
+    "nuptk": "",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "S-10", "tipe": "Sikap", "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"},
+    {"kode": "P-04", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"},
+    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat"},
+    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek sistem informasi"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "S-09, KU-06", "deskripsi": "Mampu mempersiapkan diri dan memahami lingkungan kerja industri serta etika profesional"},
+    {"kode": "CPMK-2", "cpl": "KK-04, KK-06", "deskripsi": "Mampu menerapkan kompetensi sistem informasi di lingkungan kerja nyata sesuai bidang magang"},
+    {"kode": "CPMK-3", "cpl": "KU-02, KU-05", "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi tempat magang"},
+    {"kode": "CPMK-4", "cpl": "S-10, KK-01", "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas nyata di tempat magang"},
+    {"kode": "CPMK-5", "cpl": "P-04, KU-02", "deskripsi": "Mampu menyusun laporan magang dan mempresentasikan hasil magang secara profesional"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu mengurus administrasi magang dan memahami target kompetensi", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu melakukan orientasi lingkungan kerja dan memahami etika profesional", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu melaksanakan tugas magang sesuai dengan bidang (IT support, pengembangan, analisis, dll)", "cpmk": "CPMK-2", "minggu": "4–11", "cpl": "C3–P5"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi", "cpmk": "CPMK-3", "minggu": "6–10", "cpl": "C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas tim", "cpmk": "CPMK-4", "minggu": "7–12", "cpl": "C3–P4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menyusun laporan magang secara sistematis", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C5–P5"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu mempresentasikan hasil magang dan menjawab pertanyaan", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C6–P5"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Persiapan administrasi magang", "indikator": "Kelengkapan berkas (surat pengajuan, CV, proposal magang) dan pengajuan ke koordinator", "kriteria": "Submit dokumen persyaratan", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Bimbingan daring; [TM: 2×50'] [BM: 4×60'] [BT: 2×60']", "materi": "Prosedur magang, target kompetensi, pembimbing lapangan, logbook", "bobot": "2%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Pembekalan magang", "indikator": "Ketepatan memahami etika profesional, K3, dan kontrak magang", "kriteria": "Kuis pembekalan; Kehadiran", "tatap_muka": "Kuliah pembekalan TM: 2x50", "daring": "Sesi sinkron; [TM: 2×50']", "materi": "Etika kerja, komunikasi profesional, konflik kepentingan, kerahasiaan data", "bobot": "2%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Orientasi di tempat magang", "indikator": "Kemampuan beradaptasi dengan lingkungan dan memahami tugas", "kriteria": "Laporan orientasi", "tatap_muka": "Kegiatan di tempat magang (full day)", "daring": "Magang luring; [TM: 0] [Praktik: 40 jam/minggu ekuivalen]", "materi": "Pengenalan organisasi, struktur tim, tools yang digunakan, job desk", "bobot": "2%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 1)", "indikator": "Partisipasi dalam tugas sesuai bidang", "kriteria": "Logbook harian; Penilaian pembimbing lapangan", "tatap_muka": "Kerja di tempat magang (full day)", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Implementasi kompetensi SI di proyek nyata", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 2)", "indikator": "Kemampuan menyelesaikan tugas dengan bimbingan", "kriteria": "Logbook, penilaian pembimbing", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Penggunaan tools dan metodologi di industri", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Analisis proses bisnis", "indikator": "Kemampuan mengidentifikasi proses bisnis dan sistem informasi yang digunakan", "kriteria": "Catatan analisis (untuk laporan)", "tatap_muka": "Kerja di tempat magang + wawancara", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Dokumentasi proses bisnis, arsitektur SI, pain points", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : Partisipasi dalam proyek tim", "indikator": "Kemampuan berkolaborasi dan berkontribusi dalam tim", "kriteria": "Feedback dari pembimbing/rekan", "tatap_muka": "Kerja tim di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Manajemen proyek, agile, komunikasi tim", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "Monitoring Tengah Semester (MTS)", "indikator": "Ketepatan mengisi laporan kemajuan dan konsultasi dengan pembimbing akademik", "kriteria": "Laporan kemajuan; Berita acara monitoring", "tatap_muka": "Monitoring oleh dosen pembimbing", "daring": "Sinkron via Zoom/LMS; [TM: 2×50']", "materi": "Evaluasi capaian tengah magang, perbaikan jika diperlukan", "bobot": "5%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 3 : Lanjutan pelaksanaan magang", "indikator": "Peningkatan kompetensi dan kemandirian", "kriteria": "Logbook, penilaian pembimbing", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Eksposur ke berbagai tugas", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 4 : Analisis lebih mendalam", "indikator": "Kemampuan merumuskan rekomendasi perbaikan", "kriteria": "Draft analisis", "tatap_muka": "Kerja + wawancara dengan user", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Identifikasi gap, usulan solusi", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 5 : Kontribusi proyek dan dokumentasi", "indikator": "Kemampuan menyelesaikan tugas proyek dengan baik", "kriteria": "Output proyek (kode, dokumen, dll)", "tatap_muka": "Kerja tim + dokumentasi", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Pengujian, deployment, user manual", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 3 : Finalisasi tugas magang", "indikator": "Penyelesaian seluruh tugas yang diberikan", "kriteria": "Persetujuan pembimbing lapangan", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Closure proyek, handover", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 6 : Penyusunan laporan magang (draft)", "indikator": "Kemampuan menulis laporan sesuai pedoman (format, isi, referensi)", "kriteria": "Draft laporan magang", "tatap_muka": "Bimbingan penyusunan laporan", "daring": "Konsultasi daring; [TM: 2×50'] [BM: 4×60']", "materi": "Struktur laporan: pendahuluan, deskripsi instansi, aktivitas, analisis, kesimpulan", "bobot": "10%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 6 : Finalisasi laporan magang", "indikator": "Kelengkapan laporan, lampiran, dan logbook", "kriteria": "Laporan final (disetujui pembimbing lapangan)", "tatap_muka": "Bimbingan final", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Revisi, pengecekan plagiarisme, tanda tangan", "bobot": "15%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 7 : Presentasi hasil magang (persiapan)", "indikator": "Kemampuan menyusun slide dan simulasi presentasi", "kriteria": "Draft slide", "tatap_muka": "Simulasi presentasi", "daring": "Bimbingan presentasi; [TM: 2×50']", "materi": "Teknik presentasi, menjawab pertanyaan", "bobot": "5%"},
+    {"minggu": 16, "deskripsi": "Ujian Akhir Magang (Presentasi + Evaluasi)", "indikator": "Kemampuan mempresentasikan hasil magang dan mempertahankan argumen", "kriteria": "Presentasi di depan penguji; Nilai pembimbing lapangan (30%) sudah masuk", "tatap_muka": "Sidang magang", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi 15 menit + tanya jawab", "bobot": "19%"}
+  ],
+  "bahan_kajian": "1. Orientasi dan pengenalan lingkungan kerja\n2. Penerapan kompetensi sistem informasi di industri nyata\n3. Analisis proses bisnis dan sistem informasi organisasi\n4. Partisipasi dalam proyek atau tugas nyata di tempat magang\n5. Laporan kerja praktek: metodologi penulisan ilmiah\n6. Presentasi dan evaluasi hasil kerja praktek\n7. Refleksi dan pengembangan kompetensi profesional",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Pedoman Magang Program Studi S1 Sistem Informasi ITEKES Bintang Persada (2026)."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab IV.1 Bahan Kajian."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Undang-Undang Ketenagakerjaan dan peraturan perusahaan yang relevan."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Panduan Penulisan Laporan Kerja Praktek (disediakan oleh prodi)."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Materi pembekalan magang (internal)."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Standar operasional perusahaan tempat magang."}
+  ],
+  "deskripsi_singkat": "Mata kuliah Kerja Praktek / Magang bertujuan memberikan pengalaman kerja nyata kepada mahasiswa di industri, instansi pemerintah, atau startup yang relevan dengan bidang sistem informasi. Mahasiswa akan terjun langsung ke lingkungan profesional, menerapkan kompetensi yang telah dipelajari, berpartisipasi dalam proyek, menganalisis proses bisnis, serta mengasah soft skill dan etika kerja. Hasil magang dituangkan dalam laporan dan dipresentasikan di hadapan dosen penguji. Penilaian dilakukan oleh pembimbing lapangan (30%), laporan (40%), presentasi (20%), dan monitoring (10%).",
+  "matakuliah_syarat": "Telah menyelesaikan minimal 100 SKS dan lulus mata kuliah prasyarat yang ditentukan prodi."
+}

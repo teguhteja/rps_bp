@@ -1,0 +1,79 @@
+
+{
+  "meta": {
+    "kode_mk": "TSI3215",
+    "nama_mk": "Manajemen Layanan Teknologi Informasi",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"},
+    {"kode": "KK-05", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dan framework manajemen layanan TI (ITIL v4) serta perbedaannya dengan manajemen infrastruktur"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-05", "deskripsi": "Mampu menjelaskan service lifecycle (strategy, design, transition, operation, continual improvement)"},
+    {"kode": "CPMK-3", "cpl": "KK-04, KK-06", "deskripsi": "Mampu menerapkan service level management dan menyusun Service Level Agreement (SLA)"},
+    {"kode": "CPMK-4", "cpl": "KU-06, KK-05", "deskripsi": "Mampu menjelaskan manajemen insiden, masalah, perubahan, dan aset konfigurasi"},
+    {"kode": "CPMK-5", "cpl": "S-09, KK-04", "deskripsi": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep manajemen layanan TI, perbedaan dengan manajemen teknis, dan framework ITIL", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan service lifecycle ITIL v4 (5 tahap utama)", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan service strategy (value creation, financial management, demand management)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan service design (service level management, capacity, availability, continuity, security)", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan service transition (change management, release management, configuration management)", "cpmk": "CPMK-4", "minggu": "6", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan service operation (incident management, problem management, request fulfillment)", "cpmk": "CPMK-4", "minggu": "7", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan continual service improvement (CSI) dan metrics (KPI, SLI, SLO)", "cpmk": "CPMK-5", "minggu": "9", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menyusun Service Level Agreement (SLA) sederhana dan mengelola vendor", "cpmk": "CPMK-3", "minggu": "10", "cpl": "C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan studi kasus penerapan ITIL pada organisasi dan menyusun laporan", "cpmk": "CPMK-5", "minggu": "11–14", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu mempresentasikan hasil studi kasus dan evaluasi penerapan IT service management", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C5–C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Pengantar manajemen layanan TI", "indikator": "Ketepatan mendefinisikan ITSM, perbedaan dengan IT governance dan IT technical management, serta manfaat framework", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi ITSM, nilai bisnis, ITIL, ISO 20000, COBIT", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Framework ITIL v4", "indikator": "Kemampuan menjelaskan sejarah ITIL, struktur sertifikasi, dan 7 prinsip guiding", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "ITIL v4, 4 dimensi, 34 praktik, prinsip guiding", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Service lifecycle (gambaran umum)", "indikator": "Kemampuan menjelaskan 5 fase (Strategy, Design, Transition, Operation, CSI) dan hubungannya", "kriteria": "Diskusi; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Service lifecycle overview, value chain activities", "bobot": "3%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Service strategy", "indikator": "Kemampuan menjelaskan service portfolio, financial management, demand management, business case", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Service strategy, value creation, service portfolio", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 4 : Service design", "indikator": "Kemampuan menjelaskan service level management, capacity, availability, continuity, security, supplier management", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Service design, SLM, capacity, availability, ITSCM, security, supplier", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 5 : Service transition", "indikator": "Kemampuan menjelaskan change management, release management, configuration management, knowledge management", "kriteria": "Kuis online; Tugas studi kasus", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Change management, release, deployment, configuration management (CMDB)", "bobot": "4%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 6 : Service operation", "indikator": "Kemampuan menjelaskan incident management, problem management, request fulfillment, access management", "kriteria": "Kuis online; Tugas simulasi (role play)", "tatap_muka": "Kuliah + simulasi TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Incident, problem, request, access management, event management", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep ITIL, service lifecycle, strategy, design, transition, operation", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 7 : Continual service improvement (CSI)", "indikator": "Kemampuan menjelaskan CSI model, deming cycle, KPI, SLI, SLO, maturity model", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "CSI, PDCA, metrics, dashboard, improvement", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 8 : Service Level Agreement (SLA) dan manajemen vendor", "indikator": "Kemampuan menyusun SLA sederhana, OLA, underpinning contract, dan mengelola vendor", "kriteria": "Tugas individu (draft SLA)", "tatap_muka": "Kuliah + praktik TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "SLA, OLA, UC, vendor management, service review", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 9 : Studi kasus penerapan ITSM (persiapan)", "indikator": "Kemampuan memilih organisasi dan mengidentifikasi proses ITSM yang diterapkan", "kriteria": "Proposal studi kasus", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pemilihan kasus, identifikasi proses, pengumpulan data", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 9 : Analisis studi kasus", "indikator": "Kemampuan menganalisis kematangan proses ITSM dan gap dengan best practice", "kriteria": "Draft laporan", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Gap analysis, rekomendasi perbaikan", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 9 : Penyusunan laporan", "indikator": "Kemampuan menulis laporan sistematis (studi kasus, temuan, rekomendasi)", "kriteria": "Laporan studi kasus", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Struktur laporan, lampiran, daftar pustaka", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10 : Persiapan presentasi", "indikator": "Kemampuan membuat slide dan menyiapkan presentasi", "kriteria": "Draft slide", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Slide presentasi, demo, Q&A", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10 : Presentasi studi kasus", "indikator": "Kemampuan mempresentasikan hasil dan mempertahankan argumen", "kriteria": "Presentasi kelompok + tanya jawab", "tatap_muka": "Presentasi TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi hasil studi kasus", "bobot": "7%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester + Evaluasi", "indikator": "Menjawab soal integratif tentang penerapan ITSM, SLA, CSI, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Seluruh materi (SLA, CSI, studi kasus, service operation)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dan framework manajemen layanan TI (ITIL v4)\n2. Service lifecycle: strategy, design, transition, operation\n3. Service level management dan SLA\n4. Manajemen insiden, masalah, dan perubahan\n5. Manajemen aset dan konfigurasi\n6. Pengukuran dan pelaporan kinerja layanan TI\n7. Tata kelola layanan TI dan keselarasan bisnis-TI\n8. Penerapan manajemen layanan TI pada organisasi",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "AXELOS. (2019). *ITIL Foundation: ITIL 4 Edition*. The Stationery Office."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "van Bon, J., et al. (2018). *ITIL 4: A Pocket Guide*. Van Haren Publishing."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Watts, S. (2019). *ITIL 4: The complete guide to ITIL 4 and the ITIL 4 Foundation certification*. Independently published."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Kepner-Tregoe. (2020). *Problem management: ITIL 4 best practices*. KT Press."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "ISO/IEC 20000-1:2018. Information technology — Service management — Part 1: Service management system requirements."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang manajemen layanan teknologi informasi berdasarkan best practice ITIL v4. Materi meliputi konsep dan framework ITIL, service lifecycle (strategy, design, transition, operation, continual improvement), service level management dan Service Level Agreement (SLA), manajemen insiden, masalah, perubahan, aset konfigurasi, pengukuran kinerja layanan (KPI, SLI, SLO), serta tata kelola layanan TI. Penekanan diberikan pada penerapan praktik ITIL dalam organisasi melalui studi kasus dan penyusunan SLA sederhana.",
+  "matakuliah_syarat": "TSI3107 (Sistem Informasi Manajemen) – direkomendasikan"
+}

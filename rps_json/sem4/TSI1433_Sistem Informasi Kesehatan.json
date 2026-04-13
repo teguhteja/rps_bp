@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "kode_mk": "TSI1433",
+    "nama_mk": "Sistem Informasi Kesehatan",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Kekhasan / BP (Kesehatan)",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {"kode": "S-05", "tipe": "Sikap", "deskripsi": "Menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain di bidang keahliannya secara mandiri"},
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-04", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi"},
+    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dasar sistem informasi kesehatan, ekosistem layanan kesehatan di Indonesia, serta peran teknologi informasi dalam transformasi layanan kesehatan"},
+    {"kode": "CPMK-2", "cpl": "P-03, KK-04", "deskripsi": "Mampu menjelaskan standar data kesehatan (ICD-10, HL7, FHIR) dan rekam medis elektronik (RME) serta interoperabilitas sistem informasi kesehatan"},
+    {"kode": "CPMK-3", "cpl": "P-01, KK-01", "deskripsi": "Mampu menganalisis arsitektur, modul, dan integrasi Sistem Informasi Rumah Sakit (SIMRS) serta Sistem Informasi Puskesmas (FKTP)"},
+    {"kode": "CPMK-4", "cpl": "S-05, S-09", "deskripsi": "Mampu menjelaskan manajemen data pasien, privasi, keamanan data kesehatan, dan regulasi terkait (UU Kesehatan No. 17 Tahun 2023, UU PDP)"},
+    {"kode": "CPMK-5", "cpl": "KU-04, KK-04", "deskripsi": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar sistem informasi kesehatan dan ekosistem layanan kesehatan di Indonesia", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan standar data kesehatan (ICD-10, HL7, FHIR) dan rekam medis elektronik (RME)", "cpmk": "CPMK-2", "minggu": "3–4", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menganalisis arsitektur dan modul SIMRS (Sistem Informasi Manajemen Rumah Sakit)", "cpmk": "CPMK-3", "minggu": "5–6", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis sistem informasi puskesmas (FKTP) dan integrasinya dengan SIMRS", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan manajemen data pasien, privasi, dan keamanan data kesehatan (UU Kesehatan, UU PDP)", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan konsep telemedicine, e-Health, dan interoperabilitas antar sistem informasi kesehatan", "cpmk": "CPMK-5", "minggu": "10–11", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menganalisis regulasi dan kebijakan sistem informasi kesehatan di Indonesia (Kemenkes)", "cpmk": "CPMK-4, CPMK-5", "minggu": "12", "cpl": "C4"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menyusun studi kasus implementasi SI Kesehatan (SIMRS, telemedicine) dan mempresentasikan hasil analisis", "cpmk": "CPMK-5", "minggu": "13–15", "cpl": "C5–C6"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu mengintegrasikan seluruh konsep SI Kesehatan dalam pemecahan masalah nyata pada fasilitas kesehatan", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "16", "cpl": "C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep dasar sistem informasi kesehatan", "indikator": "Ketepatan mendefinisikan SI Kesehatan, komponen, dan peran dalam layanan kesehatan", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi SI Kesehatan; komponen (data, informasi, teknologi, manusia, proses); peran SI dalam peningkatan mutu layanan", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Ekosistem layanan kesehatan Indonesia", "indikator": "Kemampuan memetakan fasilitas kesehatan (rumah sakit, puskesmas, klinik, laboratorium) dan alur rujukan", "kriteria": "Forum diskusi; Tugas individu", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Ekosistem kesehatan Indonesia: FKTP, rujukan, JKN, BPJS, peran Dinas Kesehatan dan Kemenkes", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Standar data kesehatan (ICD-10, ICD-9-CM)", "indikator": "Ketepatan menjelaskan kodefikasi diagnosis dan tindakan medis; kemampuan menggunakan kode ICD sederhana", "kriteria": "Kuis online; Tugas praktik kodefikasi sederhana", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "ICD-10 (klasifikasi penyakit), ICD-9-CM (tindakan medis); struktur kode, contoh penggunaan untuk klaim BPJS", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 2 : HL7, FHIR, dan rekam medis elektronik (RME)", "indikator": "Ketepatan menjelaskan interoperabilitas, format pesan HL7, sumber daya FHIR, dan komponen RME", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "HL7 (standar pertukaran), FHIR (API), Rekam Medis Elektronik (definisi, komponen, manfaat, tantangan)", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Arsitektur dan modul SIMRS", "indikator": "Kemampuan mengidentifikasi modul-modul SIMRS (pendaftaran, rawat jalan, rawat inap, farmasi, laboratorium, radiologi, keuangan, rekam medis)", "kriteria": "Kuis online; Tugas kelompok (analisis modul SIMRS)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "SIMRS: definisi, tujuan, arsitektur (client-server, web-based, cloud); modul fungsional; alur data", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 3 : Integrasi SIMRS dengan sistem lain (BPJS, laboratorium, farmasi)", "indikator": "Ketepatan menjelaskan mekanisme integrasi (API, HL7, web service) dan tantangan", "kriteria": "Kuis online; Tugas analisis studi kasus integrasi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Integrasi dengan BPJS (VClaim, INA-CBG), LIS, sistem farmasi, e-Puskesmas; mekanisme API, HL7, ETL", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Sistem informasi puskesmas (FKTP)", "indikator": "Ketepatan menjelaskan modul e-Puskesmas dan integrasinya dengan SIMRS dan BPJS", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "e-Puskesmas: modul (data kunjungan, kohort, obat, surveilans, PIS-PK); pelaporan ke Dinas Kesehatan", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep SI Kesehatan, standar data, SIMRS, e-Puskesmas", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Manajemen data pasien, privasi, dan keamanan data kesehatan", "indikator": "Ketepatan menjelaskan prinsip keamanan data kesehatan (CIA Triad) dan regulasi (UU Kesehatan, UU PDP)", "kriteria": "Kuis online; Forum diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Manajemen data pasien; privasi dan kerahasiaan; UU Kesehatan No. 17/2023 (rahasia medis), UU PDP (hak pasien)", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 6 : Telemedicine dan e-Health", "indikator": "Ketepatan menjelaskan jenis layanan telemedicine (konsultasi jarak jauh, remote monitoring, store-and-forward)", "kriteria": "Kuis online; Tugas kelompok (analisis platform telemedicine)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Telemedicine: definisi, jenis, platform (Halodoc, Alodokter); e-Health: SISRUTE, aplikasi kesehatan masyarakat", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Interoperabilitas sistem informasi kesehatan", "indikator": "Ketepatan menjelaskan tingkat interoperabilitas (fundamental, struktural, semantik) dan arsitektur SISRUTE", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Interoperabilitas: definisi, tingkat, standar (HL7, FHIR, DICOM); SISRUTE (Sistem Informasi Rumah Sakit Terintegrasi)", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Regulasi dan kebijakan SI Kesehatan di Indonesia", "indikator": "Ketepatan menjelaskan peraturan Kemenkes tentang SIMRS, telemedicine, rekam medis elektronik", "kriteria": "Kuis online; Tugas analisis regulasi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Permenkes SIMRS, rekam medis elektronik, telemedicine, SISRUTE; kebijakan transformasi digital kesehatan", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Studi kasus implementasi SI Kesehatan (persiapan)", "indikator": "Kemampuan memilih fasilitas kesehatan (rumah sakit/puskesmas) dan mengidentifikasi permasalahan", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pemilihan kasus, identifikasi masalah (manual, tidak terintegrasi, pelaporan lambat), analisis kebutuhan", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Analisis dan rekomendasi solusi", "indikator": "Kemampuan menyusun rekomendasi (arsitektur, modul, standar, keamanan, interoperabilitas)", "kriteria": "Laporan proyek (draft)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Perancangan solusi SI Kesehatan: usulan arsitektur, modul, standar data, keamanan, interoperabilitas", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 8 : Finalisasi laporan dan presentasi", "indikator": "Kemampuan menyusun laporan sistematis dan slide presentasi", "kriteria": "Laporan final (draft akhir)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Struktur laporan, kesimpulan, rekomendasi, persiapan presentasi", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester", "indikator": "Kemampuan mempresentasikan hasil studi kasus dan menjawab soal integratif", "kriteria": "Presentasi kelompok + ujian tertulis online", "tatap_muka": "Presentasi + UAS TM: 2x50", "daring": "Presentasi daring + UAS online; [TM: 2×50']", "materi": "Seluruh materi (konsep, standar, SIMRS, e-Puskesmas, privasi, telemedicine, interoperabilitas, regulasi) + proyek", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dasar sistem informasi kesehatan dan ekosistem layanan kesehatan di Indonesia\n2. Standar data kesehatan: ICD-10, HL7, FHIR, dan rekam medis elektronik (RME)\n3. Sistem informasi rumah sakit (SIMRS): arsitektur, modul, dan integrasi\n4. Sistem informasi puskesmas dan fasilitas kesehatan tingkat pertama (FKTP)\n5. Manajemen data pasien, privasi, dan keamanan data kesehatan (UU Kesehatan No. 17 Tahun 2023)\n6. Telemedicine, e-Health, dan transformasi digital layanan kesehatan\n7. Interoperabilitas sistem informasi kesehatan dan integrasi antar fasilitas\n8. Regulasi dan kebijakan sistem informasi kesehatan di Indonesia (Kemenkes)\n9. Studi kasus implementasi SI Kesehatan di rumah sakit dan puskesmas",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Tan, J. (2020). *Healthcare information systems and informatics: Concepts and practice*. CRC Press."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Wager, K. A., Lee, F. W., & Glaser, J. P. (2021). *Health care information systems: A practical approach for health care management* (4th ed.). Jossey-Bass."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Kementerian Kesehatan RI. (2023). *Pedoman Sistem Informasi Rumah Sakit (SIMRS)*. Kemenkes RI."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Undang-Undang Republik Indonesia Nomor 17 Tahun 2023 tentang Kesehatan."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Undang-Undang Republik Indonesia Nomor 27 Tahun 2022 tentang Perlindungan Data Pribadi (UU PDP)."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman komprehensif tentang konsep, arsitektur, dan implementasi sistem informasi di bidang kesehatan. Materi mencakup ekosistem layanan kesehatan Indonesia, standar data kesehatan (ICD-10, HL7, FHIR), rekam medis elektronik (RME), Sistem Informasi Rumah Sakit (SIMRS), Sistem Informasi Puskesmas (FKTP), manajemen data pasien, privasi dan keamanan data kesehatan (UU Kesehatan, UU PDP), telemedicine, e-Health, interoperabilitas, serta regulasi dan kebijakan Kemenkes. Penekanan diberikan pada kemampuan menganalisis kebutuhan sistem informasi di fasilitas kesehatan dan merancang solusi yang tepat guna.",
+  "matakuliah_syarat": "TSI3104 (Konsep Sistem Informasi) atau TSI3107 (Sistem Informasi Manajemen) – direkomendasikan"
+}

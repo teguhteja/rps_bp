@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "kode_mk": "TSI3324",
+    "nama_mk": "Supply Chain Management",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "",
+    "jabatan": ""
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+    },
+    {
+      "kode": "KK-07",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dasar, strategi, dan komponen Supply Chain Management (SCM)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-04, KK-06",
+      "deskripsi": "Mampu menjelaskan desain jaringan rantai pasok, manajemen permintaan, dan peramalan (demand forecasting)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KK-05, KK-07",
+      "deskripsi": "Mampu menganalisis manajemen persediaan, logistik, dan koordinasi antar mitra rantai pasok"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-02, KK-08",
+      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, IoT) dalam SCM serta green supply chain"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KK-04",
+      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok dan studi kasus implementasi SCM pada perusahaan"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar SCM, evolusi, dan perbedaannya dengan logistik tradisional",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan strategi SCM (efisiensi vs responsivitas, push vs pull) dan komponen utama",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menganalisis desain jaringan rantai pasok (lokasi fasilitas, distribusi, transportasi)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan metode peramalan permintaan (time series, causal) dalam manajemen rantai pasok",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan model manajemen persediaan (EOQ, safety stock, reorder point) dan logistik",
+      "cpmk": "CPMK-3",
+      "minggu": "7–8",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menganalisis koordinasi rantai pasok (bullwhip effect, CPFR, VMI)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, RFID, IoT) dalam SCM",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan konsep green supply chain dan keberlanjutan",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok (SCOR model, KPI) dan studi kasus",
+      "cpmk": "CPMK-5",
+      "minggu": "13–15",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus SCM",
+      "cpmk": "CPMK-5",
+      "minggu": "16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar SCM",
+      "indikator": "Ketepatan mendefinisikan SCM, membedakan dengan logistik, dan menjelaskan evolusi",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Definisi SCM; perbedaan SCM dengan logistik; evolusi dari fungsi terpisah ke terintegrasi",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Komponen dan aliran SCM",
+      "indikator": "Ketepatan mengidentifikasi komponen (supplier, manufaktur, distribusi, ritel, customer) dan aliran (produk, informasi, keuangan)",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Komponen rantai pasok; aliran material, informasi, dan uang; contoh rantai pasok sederhana",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Strategi SCM",
+      "indikator": "Ketepatan membedakan strategi efisiensi vs responsivitas, push vs pull",
+      "kriteria": "Kuis online; Studi kasus strategi",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Strategi SCM: lean (efisiensi) vs agile (responsivitas); push-based vs pull-based; trade-off",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Desain jaringan rantai pasok",
+      "indikator": "Kemampuan menganalisis keputusan lokasi fasilitas, distribusi, dan transportasi",
+      "kriteria": "Tugas kelompok (analisis desain jaringan)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Model desain jaringan: facility location, distribution network, transportation mode",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Manajemen permintaan dan peramalan (pendahuluan)",
+      "indikator": "Ketepatan menjelaskan pentingnya peramalan dan metode kualitatif",
+      "kriteria": "Kuis online; Tugas latihan",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Peramalan permintaan: peran, metode kualitatif (Delphi, panel ahli)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Metode peramalan kuantitatif",
+      "indikator": "Kemampuan menghitung peramalan dengan moving average, exponential smoothing, dan regresi",
+      "kriteria": "Tugas praktik peramalan (Excel)",
+      "tatap_muka": "Kuliah interaktif + praktik TM: 2x50",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 2×50']",
+      "materi": "Time series: moving average, weighted MA, exponential smoothing; regresi linier; error (MAD, MSE, MAPE)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Manajemen persediaan",
+      "indikator": "Ketepatan menghitung EOQ, safety stock, dan reorder point",
+      "kriteria": "Kuis online; Tugas hitungan persediaan",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Model EOQ; safety stock; reorder point; periodic review vs continuous review",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep SCM, strategi, desain jaringan, peramalan, persediaan",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Koordinasi rantai pasok",
+      "indikator": "Kemampuan menjelaskan bullwhip effect, CPFR, VMI, dan kolaborasi",
+      "kriteria": "Kuis online; Studi kasus bullwhip effect",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Bullwhip effect: penyebab, dampak, mitigasi; CPFR (Collaborative Planning Forecasting Replenishment); VMI (Vendor Managed Inventory)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7 : Teknologi informasi dalam SCM (ERP, e-procurement)",
+      "indikator": "Ketepatan menjelaskan peran ERP dalam SCM dan e-procurement",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "ERP untuk SCM: modul procurement, inventory, warehouse; e-procurement; manfaat dan tantangan",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : IoT, RFID, dan blockchain dalam SCM",
+      "indikator": "Ketepatan menjelaskan aplikasi IoT, RFID, dan blockchain untuk traceability",
+      "kriteria": "Kuis online; Studi kasus teknologi",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "RFID untuk tracking; IoT sensor; blockchain untuk transparansi; contoh implementasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8 : Green supply chain dan keberlanjutan",
+      "indikator": "Ketepatan menjelaskan konsep green SCM, reverse logistics, dan circular economy",
+      "kriteria": "Kuis online; Diskusi",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Green SCM: ramah lingkungan; reverse logistics (retur, daur ulang); circular economy; regulasi",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9 : Pengukuran kinerja SCM",
+      "indikator": "Kemampuan menjelaskan SCOR model dan KPI rantai pasok",
+      "kriteria": "Tugas kelompok (rancangan KPI)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "SCOR model (Plan, Source, Make, Deliver, Return); KPI: fill rate, lead time, inventory turnover, on-time delivery",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Studi kasus SCM pada perusahaan (persiapan)",
+      "indikator": "Kemampuan memilih perusahaan dan mengidentifikasi permasalahan SCM",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pemilihan studi kasus (manufaktur, ritel, logistik); pengumpulan data sekunder",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Analisis dan penyusunan laporan",
+      "indikator": "Kemampuan menganalisis rantai pasok dan memberikan rekomendasi",
+      "kriteria": "Laporan proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Analisis menggunakan SCOR; rekomendasi perbaikan; format laporan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "Sub-CPMK 10 : Presentasi studi kasus + UAS",
+      "indikator": "Kemampuan mempresentasikan hasil analisis dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis",
+      "tatap_muka": "Presentasi + UAS TM: 2x50",
+      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
+      "materi": "Materi seluruh semester (terutama koordinasi, teknologi, green SCM, kinerja) + proyek",
+      "bobot": "15%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan strategi Supply Chain Management (SCM)\n2. Desain jaringan dan konfigurasi rantai pasok\n3. Manajemen permintaan dan peramalan (demand forecasting)\n4. Manajemen persediaan dan logistik\n5. Koordinasi rantai pasok dan kolaborasi antar mitra\n6. Teknologi informasi dalam SCM (ERP, e-procurement, IoT)\n7. Green supply chain dan keberlanjutan\n8. Pengukuran kinerja rantai pasok (SCOR model, KPI)",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Chopra, S., & Meindl, P. (2016). *Supply chain management: Strategy, planning, and operation* (6th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Heizer, J., Render, B., & Munson, C. (2020). *Operations management: Sustainability and supply chain management* (13th ed.). Pearson."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Simchi-Levi, D., Kaminsky, P., & Simchi-Levi, E. (2021). *Designing and managing the supply chain: Concepts, strategies, and case studies* (4th ed.). McGraw-Hill."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Ballou, R. H. (2004). *Business logistics/supply chain management* (5th ed.). Pearson."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Supply Chain Council. (2012). *SCOR model reference* (11th ed.). APICS."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep, strategi, dan implementasi Supply Chain Management (SCM) dalam organisasi bisnis modern. Materi meliputi konsep dasar SCM, desain jaringan rantai pasok, manajemen permintaan dan peramalan, manajemen persediaan dan logistik, koordinasi rantai pasok (bullwhip effect, CPFR, VMI), peran teknologi informasi (ERP, e-procurement, IoT, RFID, blockchain), green supply chain, keberlanjutan, serta pengukuran kinerja menggunakan SCOR model. Penekanan diberikan pada studi kasus implementasi SCM pada perusahaan nyata.",
+  "matakuliah_syarat": "TSI3107 (Sistem Informasi Manajemen) – direkomendasikan"
+}

@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3749",
+    "nama_mk": "Machine Learning",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 7,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep dan jenis machine learning (supervised, unsupervised, reinforcement) serta siklus pembelajaran mesin"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu melakukan preprocessing data dan feature engineering menggunakan Python"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-05, KK-03",
+      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi, regresi, dan clustering"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-11",
+      "deskripsi": "Mampu mengevaluasi model machine learning (akurasi, presisi, recall, F1, ROC-AUC) dan melakukan hyperparameter tuning"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KK-11",
+      "deskripsi": "Mampu menerapkan machine learning dalam studi kasus sistem informasi dan menyajikan hasil analisis"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep machine learning, perbedaan dengan AI dan deep learning, serta jenis-jenis ML",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan siklus pembelajaran mesin (data collection, preprocessing, training, evaluation, deployment)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu melakukan preprocessing data (cleaning, normalization, handling missing values) dengan Python (pandas, numpy)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu melakukan feature engineering (encoding, scaling, feature selection) dan split data (train-test)",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes)",
+      "cpmk": "CPMK-3",
+      "minggu": "5-6",
+      "cpl": "C3-C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu mengimplementasikan algoritma regresi (Linear, Logistic, Polynomial)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3-C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu mengimplementasikan algoritma clustering (K-Means, DBSCAN, Hierarchical)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "cpl": "C3-C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu mengevaluasi model menggunakan confusion matrix, accuracy, precision, recall, F1-score, ROC-AUC",
+      "cpmk": "CPMK-4",
+      "minggu": "10-11",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan hyperparameter tuning (GridSearch, RandomSearch) dan cross-validation",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menerapkan machine learning pada studi kasus (prediksi, klasifikasi, segmentasi) dan menyusun laporan",
+      "cpmk": "CPMK-5",
+      "minggu": "13-15",
+      "cpl": "C5-C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Pengenalan Machine Learning",
+      "indikator": "Ketepatan menjelaskan definisi, jenis (supervised, unsupervised, reinforcement), dan contoh aplikasi",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Sejarah ML, hubungan AI-ML-DL, supervised vs unsupervised, contoh kasus (rekomendasi, prediksi, segmentasi)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Siklus machine learning",
+      "indikator": "Kemampuan menjelaskan tahapan ML pipeline",
+      "kriteria": "Diskusi kelompok",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Data acquisition, data cleaning, EDA, feature engineering, model training, evaluation, deployment, monitoring",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Preprocessing data",
+      "indikator": "Kemampuan melakukan cleaning, handling missing values, outlier detection dengan Python",
+      "kriteria": "Tugas individu: preprocessing dataset",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Pandas: read data, dropna, fillna, drop duplicates, detect outliers (IQR, Z-score)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 4: Feature engineering dan split data",
+      "indikator": "Kemampuan melakukan encoding, scaling, dan train-test split",
+      "kriteria": "Tugas individu: pipeline preprocessing",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Label encoding, one-hot encoding, normalization, standardization, feature selection, train_test_split",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 5: Klasifikasi (Decision Tree, KNN)",
+      "indikator": "Kemampuan mengimplementasikan Decision Tree dan KNN",
+      "kriteria": "Praktik coding",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Teori Decision Tree (entropy, information gain, Gini), KNN (distance metrics), implementasi scikit-learn",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Klasifikasi (SVM, Naive Bayes)",
+      "indikator": "Kemampuan mengimplementasikan SVM dan Naive Bayes",
+      "kriteria": "Tugas individu: klasifikasi dataset",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "SVM (hyperplane, kernel trick), Naive Bayes (teorema Bayes, Gaussian/Multinomial), perbandingan performa",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Regresi (Linear, Logistic, Polynomial)",
+      "indikator": "Kemampuan mengimplementasikan regresi",
+      "kriteria": "Tugas individu: regresi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Linear regression (OLS, MSE), Logistic regression (sigmoid, log-loss), Polynomial regression (overfitting, regularization)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep ML, preprocessing, klasifikasi, regresi",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Materi Minggu 1-7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: Clustering (K-Means, DBSCAN)",
+      "indikator": "Kemampuan mengimplementasikan clustering",
+      "kriteria": "Praktik coding",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "K-Means (elbow method, inertia), DBSCAN (epsilon, min_samples), Hierarchical clustering (dendrogram)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 8: Evaluasi model (classification metrics)",
+      "indikator": "Kemampuan menghitung confusion matrix, accuracy, precision, recall, F1",
+      "kriteria": "Kuis; tugas",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Confusion matrix, TP/TN/FP/FN, akurasi, presisi, recall, F1-score, macro/micro averaging",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Evaluasi model (ROC, AUC, regression metrics)",
+      "indikator": "Kemampuan menggunakan ROC-AUC dan regression metrics (MAE, MSE, R2)",
+      "kriteria": "Tugas individu: evaluasi",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "ROC curve, AUC, MAE, MSE, RMSE, R-squared, adjusted R-squared",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 9: Hyperparameter tuning dan cross-validation",
+      "indikator": "Kemampuan menggunakan GridSearchCV dan cross-validation",
+      "kriteria": "Tugas kelompok: tuning",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "K-fold cross-validation, GridSearchCV, RandomSearchCV, overfitting vs underfitting, bias-variance tradeoff",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 10: Proyek ML – Persiapan",
+      "indikator": "Kemampuan memilih dataset dan merumuskan masalah ML",
+      "kriteria": "Proposal proyek",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Pemilihan dataset (Kaggle, UCI), analisis eksploratif, perumusan target, pembagian tugas",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10: Implementasi proyek",
+      "indikator": "Kemampuan melakukan preprocessing, training, evaluasi",
+      "kriteria": "Progress report",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Implementasi pipeline, eksperimen berbagai algoritma, tuning",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Presentasi proyek",
+      "indikator": "Kemampuan mempresentasikan hasil analisis dan insight",
+      "kriteria": "Presentasi kelompok (10-15 menit)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Presentasi daring sinkron; TM: 3x50",
+      "materi": "Presentasi laporan proyek, demo kode, kesimpulan dan rekomendasi",
+      "bobot": "10%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang ML pipeline, evaluasi, dan studi kasus",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Seluruh materi (minggu 1-15)",
+      "bobot": "15%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan jenis machine learning (supervised, unsupervised, reinforcement)\n2. Preprocessing data dan feature engineering\n3. Algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes)\n4. Algoritma regresi (Linear, Logistic, Polynomial)\n5. Algoritma clustering (K-Means, DBSCAN, Hierarchical)\n6. Evaluasi model: akurasi, presisi, recall, F1-score, ROC-AUC\n7. Pengantar deep learning dan neural network\n8. Implementasi machine learning dengan Python (Scikit-learn, TensorFlow)\n9. Penerapan machine learning dalam sistem informasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Géron, A. (2019). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (2nd ed.). O'Reilly Media."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Hastie, T., Tibshirani, R., & Friedman, J. (2017). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction* (2nd ed.). Springer."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Müller, A. C., & Guido, S. (2016). *Introduction to Machine Learning with Python: A Guide for Data Scientists*. O'Reilly Media."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An Introduction to Statistical Learning*. Springer."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Raschka, S. (2015). *Python Machine Learning*. Packt Publishing."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam machine learning (ML) untuk menganalisis data dan membangun model prediktif. Materi meliputi konsep dasar ML, siklus pembelajaran mesin, preprocessing data, feature engineering, algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes), regresi (Linear, Logistic), clustering (K-Means, DBSCAN), evaluasi model (akurasi, presisi, recall, F1, ROC-AUC), hyperparameter tuning, dan cross-validation. Mahasiswa akan mempraktikkan implementasi ML menggunakan Python (Scikit-learn) melalui studi kasus dan proyek kelompok, dengan fokus pada penerapan ML dalam sistem informasi untuk mendukung pengambilan keputusan berbasis data.",
+  "matakuliah_syarat": "TSI3213 Statistika dan Probabilitas, TSI3106 Pemrograman Dasar"
+}

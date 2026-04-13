@@ -1,0 +1,79 @@
+
+{
+  "meta": {
+    "kode_mk": "TSI3322",
+    "nama_mk": "Arsitektur Enterprise",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"},
+    {"kode": "KK-05", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"},
+    {"kode": "KK-07", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep, tujuan, dan manfaat arsitektur enterprise (EA) dalam organisasi"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-05", "deskripsi": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai"},
+    {"kode": "CPMK-3", "cpl": "KU-01, KK-07", "deskripsi": "Mampu merancang business architecture dan information/data architecture"},
+    {"kode": "CPMK-4", "cpl": "S-09, KK-04", "deskripsi": "Mampu merancang application architecture dan technology architecture"},
+    {"kode": "CPMK-5", "cpl": "KU-02, KK-07", "deskripsi": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar EA, komponen, dan nilai bisnisnya", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan sejarah dan evolusi EA serta hubungannya dengan strategi bisnis", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu membandingkan framework TOGAF, Zachman, FEAF, dan Gartner", "cpmk": "CPMK-2", "minggu": "3-4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan Architecture Development Method (ADM) TOGAF", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu merancang business architecture (strategi, proses bisnis, organisasi)", "cpmk": "CPMK-3", "minggu": "6-7", "cpl": "C4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu merancang information/data architecture (model data enterprise, manajemen data)", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu merancang application architecture (peta aplikasi, integrasi)", "cpmk": "CPMK-4", "minggu": "10-11", "cpl": "C4"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu merancang technology architecture (infrastruktur, platform, cloud)", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menyusun roadmap EA dan implementasi strategis", "cpmk": "CPMK-5", "minggu": "13-14", "cpl": "C5"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyelesaikan studi kasus EA pada organisasi dan mempresentasikan", "cpmk": "CPMK-5", "minggu": "15", "cpl": "C5-C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dasar arsitektur enterprise", "indikator": "Ketepatan menjelaskan definisi, komponen (business, data, application, technology), dan manfaat", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Definisi EA, nilai bisnis, hubungan dengan strategi IT, contoh kasus", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Sejarah dan evolusi EA", "indikator": "Kemampuan menjelaskan perkembangan EA dari John Zachman hingga saat ini", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Sejarah EA, peran dalam menyelaraskan bisnis dan TI, tantangan implementasi", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Framework EA – Zachman Framework", "indikator": "Kemampuan menjelaskan matriks Zachman (6 baris, 6 kolom)", "kriteria": "Tugas individu: analisis", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Zachman Framework: perspektif (planner, owner, designer, builder, subcontractor, enterprise), sel-sel matriks", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3: Framework EA – TOGAF dan FEAF", "indikator": "Kemampuan membandingkan TOGAF, FEAF, dan Gartner", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "TOGAF (ADM, repository), FEAF (segmented architecture), Gartner (operating model)", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 4: Architecture Development Method (ADM) TOGAF", "indikator": "Kemampuan menjelaskan fase-fase ADM (Preliminary, A-H, Requirements Management)", "kriteria": "Tugas individu: diagram fase", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "ADM cycle, input-output setiap fase, iterasi, governance", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 5: Business architecture", "indikator": "Kemampuan merancang value stream, capabilities, dan proses bisnis", "kriteria": "Tugas kelompok: business architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Business architecture: value stream map, business capability map, organization map, process modeling", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 5: Studi kasus business architecture", "indikator": "Kemampuan menganalisis kasus (misal: perusahaan ritel) dan menyusun business architecture", "kriteria": "Tugas kelompok: laporan", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Studi kasus: identifikasi strategi, value stream, capability map", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep EA, framework, ADM, business architecture", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 6: Information / Data architecture", "indikator": "Kemampuan merancang model data enterprise (ERD, data dictionary, master data management)", "kriteria": "Tugas individu: data architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Data architecture: conceptual, logical, physical models; data governance; MDM", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 7: Application architecture", "indikator": "Kemampuan membuat application portfolio dan diagram integrasi", "kriteria": "Tugas kelompok: application map", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Application portfolio, peta aplikasi, integrasi (ESB, API), microservices", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 7: Studi kasus application architecture", "indikator": "Kemampuan menganalisis aplikasi yang ada dan usulan perbaikan", "kriteria": "Tugas kelompok", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Analisis legacy system, rationalisasi aplikasi, roadmap aplikasi", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 8: Technology architecture", "indikator": "Kemampuan merancang infrastruktur (server, cloud, network, security)", "kriteria": "Tugas individu: tech architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Infrastructure, platform (cloud, on-premise), network diagram, security architecture", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 9: Roadmap arsitektur enterprise", "indikator": "Kemampuan menyusun rencana implementasi bertahap (transition architecture)", "kriteria": "Tugas kelompok: roadmap", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Gap analysis, project portfolio, prioritization, transition architecture, work packages", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 9: EA dan transformasi digital", "indikator": "Kemampuan menjelaskan peran EA dalam mendukung transformasi digital", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Digital strategy, EA untuk cloud migration, agile EA, DevOps", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi studi kasus EA", "indikator": "Kemampuan mempresentasikan hasil rancangan EA untuk organisasi", "kriteria": "Presentasi kelompok (15 menit)", "tatap_muka": "Kuliah TM: 3x50", "daring": "Presentasi daring sinkron; TM: 3x50", "materi": "Presentasi business, data, application, technology architecture, dan roadmap", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang perancangan EA, studi kasus, dan transformasi digital", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "20%"}
+  ],
+  "bahan_kajian": "1. Konsep dan framework arsitektur enterprise (TOGAF, Zachman)\n2. Business Architecture: strategi dan proses bisnis\n3. Information/Data Architecture: model dan manajemen data enterprise\n4. Application Architecture: peta aplikasi dan integrasi\n5. Technology Architecture: infrastruktur dan platform\n6. Perencanaan dan roadmap arsitektur enterprise\n7. Enterprise Architecture dan transformasi digital\n8. Studi kasus implementasi EA pada organisasi",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "The Open Group. (2018). *TOGAF Standard Version 9.2*. Van Haren Publishing."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Bernard, S. A. (2012). *An Introduction to Enterprise Architecture* (3rd ed.). AuthorHouse."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Lankhorst, M. (2017). *Enterprise Architecture at Work: Modelling, Communication and Analysis* (4th ed.). Springer."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Ross, J. W., Weill, P., & Robertson, D. C. (2006). *Enterprise Architecture as Strategy*. Harvard Business Review Press."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Schekkerman, J. (2006). *How to Survive in the Jungle of Enterprise Architecture Frameworks* (3rd ed.). Trafford Publishing."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang arsitektur enterprise (EA) sebagai kerangka kerja untuk menyelaraskan strategi bisnis dengan teknologi informasi. Materi meliputi konsep dasar EA, framework utama (TOGAF, Zachman, FEAF), Architecture Development Method (ADM), perancangan business architecture, information/data architecture, application architecture, technology architecture, serta penyusunan roadmap implementasi. Mahasiswa akan belajar menganalisis studi kasus organisasi dan merancang EA yang mendukung transformasi digital, dengan penekanan pada integrasi solusi teknologi secara efektif.",
+  "matakuliah_syarat": "TSI3104 Konsep Sistem Informasi"
+}

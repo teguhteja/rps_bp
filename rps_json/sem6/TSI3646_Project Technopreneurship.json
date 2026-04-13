@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "kode_mk": "TSI3646",
+    "nama_mk": "Project Technopreneurship",
+    "sks_total": 2,
+    "sks_teori": 0,
+    "sks_praktik": 2,
+    "semester": 6,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Pilihan",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.; Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/venny.png, sign/teguh.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"
+    },
+    {
+      "kode": "P-04",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"
+    },
+    {
+      "kode": "P-05",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship)"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KU-06",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-09",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis"
+    },
+    {
+      "kode": "KK-10",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur)"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-10, P-05",
+      "deskripsi": "Mampu melakukan ideasi dan validasi ide proyek technopreneurship menggunakan lean startup methodology"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-04, KK-10",
+      "deskripsi": "Mampu mengembangkan produk minimum viable (MVP) berbasis teknologi"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-05, KK-11",
+      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing untuk produk"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-06, KK-01",
+      "deskripsi": "Mampu mengelola tim startup dan menerapkan agile development"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KK-09",
+      "deskripsi": "Mampu melakukan pitching produk kepada pemangku kepentingan serta menganalisis kompetitor dan posisi pasar"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menghasilkan ide bisnis digital dan melakukan validasi awal",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menyusun Business Model Canvas (BMC) untuk ide startup",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu merancang dan mengembangkan MVP (minimum viable product)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–7",
+      "cpl": "C5–P5"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menguji MVP dengan target pengguna dan melakukan iterasi",
+      "cpmk": "CPMK-2",
+      "minggu": "8",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu mengelola tim dan menggunakan metode agile dalam pengembangan",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menganalisis kompetitor dan positioning pasar",
+      "cpmk": "CPMK-5",
+      "minggu": "12",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menyusun rencana bisnis dan proyeksi keuangan sederhana",
+      "cpmk": "CPMK-5",
+      "minggu": "13",
+      "cpl": "C5"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan pitching produk dan menyiapkan demo",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "cpl": "C6–P5"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengevaluasi proyek dan menyusun laporan akhir",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Ideasi dan validasi ide",
+      "indikator": "Kemampuan menghasilkan ide startup digital dan melakukan customer discovery awal",
+      "kriteria": "Presentasi ide (pitch 1 menit)",
+      "tatap_muka": "Workshop ideasi; diskusi kelompok",
+      "daring": "Sesi sinkron via video conference; [TM: 0] [Praktik: 2×170']",
+      "materi": "Teknik brainstorming, problem validation, customer discovery",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Validasi ide lanjutan",
+      "indikator": "Kemampuan mewawancarai calon pengguna dan mengumpulkan feedback",
+      "kriteria": "Laporan hasil wawancara minimal 5 responden",
+      "tatap_muka": "Kerja lapangan (wawancara)",
+      "daring": "Konsultasi kelompok; [Praktik: 2×170']",
+      "materi": "Customer interview, problem-solution fit",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Business Model Canvas (BMC)",
+      "indikator": "Kemampuan mengisi 9 blok BMC untuk ide startup",
+      "kriteria": "BMC yang sudah divalidasi",
+      "tatap_muka": "Workshop BMC",
+      "daring": "Sesi sinkron; [Praktik: 2×170']",
+      "materi": "BMC, value proposition canvas",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Perancangan MVP",
+      "indikator": "Kemampuan menentukan fitur inti MVP dan membuat prototype (mockup/wireframe)",
+      "kriteria": "Prototype MVP (Figma/Adobe XD)",
+      "tatap_muka": "Desain prototype",
+      "daring": "Praktik mandiri; [Praktik: 2×170']",
+      "materi": "MVP design, feature prioritization, prototyping",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Pengembangan MVP (coding/building)",
+      "indikator": "Kemampuan mengimplementasikan MVP sesuai prototype",
+      "kriteria": "MVP berfungsi (website, app, atau landing page)",
+      "tatap_muka": "Pengerjaan produk",
+      "daring": "Koding/development; [Praktik: 2×170']",
+      "materi": "Teknologi stack untuk MVP, no-code tools",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 3 : Iterasi MVP (sprint 1)",
+      "indikator": "Kemampuan menambah fitur berdasarkan prioritas",
+      "kriteria": "MVP versi 1.1",
+      "tatap_muka": "Pengerjaan produk",
+      "daring": "Koding/development; [Praktik: 2×170']",
+      "materi": "Agile development, sprint planning",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 3 : Finalisasi MVP sebelum user testing",
+      "indikator": "Kemampuan menyelesaikan fitur inti MVP",
+      "kriteria": "MVP siap uji coba",
+      "tatap_muka": "Quality assurance internal",
+      "daring": "Testing internal; [Praktik: 2×170']",
+      "materi": "Bug fixing, deployment ke hosting",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "Sub-CPMK 4 : User testing dan iterasi",
+      "indikator": "Kemampuan mendapatkan feedback dari pengguna dan melakukan perbaikan",
+      "kriteria": "Laporan user testing dan MVP hasil iterasi",
+      "tatap_muka": "Uji coba dengan user terbatas",
+      "daring": "Sesi feedback; [Praktik: 2×170']",
+      "materi": "User testing methods, feedback loop",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Strategi go-to-market",
+      "indikator": "Kemampuan menyusun rencana peluncuran produk ke pasar",
+      "kriteria": "Dokumen go-to-market strategy",
+      "tatap_muka": "Workshop marketing",
+      "daring": "Sesi sinkron; [Praktik: 2×170']",
+      "materi": "GTM framework, channel strategy",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 5 : Digital marketing plan",
+      "indikator": "Kemampuan merancang kampanye digital (sosmed, SEO, email, dll)",
+      "kriteria": "Digital marketing plan",
+      "tatap_muka": "Praktik perancangan konten",
+      "daring": "Analisis tools marketing; [Praktik: 2×170']",
+      "materi": "Content marketing, social media ads, SEO",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Manajemen tim dan agile",
+      "indikator": "Kemampuan mengelola tugas tim dengan agile (daily standup, sprint retrospective)",
+      "kriteria": "Dokumentasi sprint",
+      "tatap_muka": "Simulasi agile",
+      "daring": "Tools manajemen proyek (Trello, Jira); [Praktik: 2×170']",
+      "materi": "Scrum, kanban, role assignment",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Analisis kompetitor",
+      "indikator": "Kemampuan memetakan kompetitor langsung dan tidak langsung, serta posisi pasar",
+      "kriteria": "Competitor analysis report",
+      "tatap_muka": "Diskusi analisis",
+      "daring": "Riset online; [Praktik: 2×170']",
+      "materi": "SWOT competitor, positioning map",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Rencana bisnis dan proyeksi keuangan",
+      "indikator": "Kemampuan menyusun business plan dan proyeksi pendapatan/biaya sederhana",
+      "kriteria": "Business plan draft",
+      "tatap_muka": "Workshop keuangan",
+      "daring": "Konsultasi; [Praktik: 2×170']",
+      "materi": "Revenue model, cost structure, break-even point",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Persiapan pitching (deck & demo)",
+      "indikator": "Kemampuan membuat pitch deck dan menyiapkan demo produk",
+      "kriteria": "Pitch deck + demo video",
+      "tatap_muka": "Simulasi pitching",
+      "daring": "Latihan presentasi; [Praktik: 2×170']",
+      "materi": "Pitch deck structure, storytelling, demo best practices",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Pitching dan tanya jawab",
+      "indikator": "Kemampuan mempresentasikan startup di depan dosen dan investor (undangan)",
+      "kriteria": "Penilaian pitching (kejelasan, antusiasme, kemampuan menjawab)",
+      "tatap_muka": "Pitching day",
+      "daring": "Presentasi daring (jika diperlukan); [Praktik: 2×170']",
+      "materi": "Presentasi final, Q&A",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "Sub-CPMK 10 : Evaluasi proyek dan laporan akhir",
+      "indikator": "Kemampuan menyusun laporan lengkap (proses, hasil, pembelajaran)",
+      "kriteria": "Laporan proyek final",
+      "tatap_muka": "Pengumpulan laporan",
+      "daring": "Konsultasi akhir; [Praktik: 2×170']",
+      "materi": "Struktur laporan, refleksi, lampiran",
+      "bobot": "13%"
+    }
+  ],
+  "bahan_kajian": "1. Ideasi dan validasi proyek technopreneurship\n2. Pengembangan produk minimum viable (MVP)\n3. Strategi go-to-market dan pemasaran digital\n4. Manajemen tim startup dan agile development\n5. Pitching produk kepada pemangku kepentingan\n6. Analisis kompetitor dan positioning pasar\n7. Rencana bisnis dan proyeksi keuangan\n8. Demo produk dan evaluasi proyek akhir",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Ries, E. (2011). *The lean startup*. Crown Business."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Osterwalder, A., & Pigneur, Y. (2010). *Business model generation*. Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Blank, S., & Dorf, B. (2012). *The startup owner's manual*. K&S Ranch."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Maurya, A. (2012). *Running lean*. O'Reilly."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Graham, P. (2019). *Startup: How to build a successful business*. (Kompilasi esai online)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini adalah proyek berbasis tim yang bertujuan mengembangkan produk digital startup (technopreneurship) dari ide hingga siap dipasarkan. Mahasiswa akan melalui seluruh siklus: ideasi, validasi, pengembangan MVP, user testing, penyusunan strategi go-to-market, digital marketing, manajemen tim agile, analisis kompetitor, penyusunan rencana bisnis, dan pitching di depan investor/pemangku kepentingan. Hasil akhir berupa produk digital yang fungsional, pitch deck, dan laporan proyek. Penekanan pada pengalaman praktik membangun startup digital secara nyata.",
+  "matakuliah_syarat": "TSI3540 (Technopreneurship) atau pernah mengikuti mata kuliah kewirausahaan sebelumnya – direkomendasikan"
+}

@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3534",
+    "nama_mk": "Manajemen Proyek Sistem Informasi",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 5,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-12",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KU-07",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep, siklus hidup, dan metodologi manajemen proyek sistem informasi"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KU-02, KU-05",
+      "deskripsi": "Mampu menyusun rencana proyek meliputi scope, jadwal, anggaran, dan risiko menggunakan tools manajemen proyek"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-07, KK-04",
+      "deskripsi": "Mampu mengelola tim proyek, kolaborasi, dan komunikasi dengan pemangku kepentingan"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-08",
+      "deskripsi": "Mampu mengimplementasikan metodologi Agile/Scrum dalam proyek sistem informasi serta melakukan monitoring dan evaluasi"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-05, KK-04",
+      "deskripsi": "Mampu menyusun dokumentasi proyek, laporan akhir, dan presentasi hasil proyek secara profesional"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dan siklus hidup proyek sistem informasi",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membedakan metodologi proyek (Waterfall, Agile, Scrum, Kanban)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menyusun perencanaan scope, WBS, dan jadwal proyek",
+      "cpmk": "CPMK-2",
+      "minggu": "3–4",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu melakukan estimasi biaya dan menyusun anggaran proyek",
+      "cpmk": "CPMK-2",
+      "minggu": "5",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengidentifikasi dan menganalisis risiko proyek serta menyusun mitigasi",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menerapkan manajemen tim, komunikasi, dan kolaborasi dalam proyek",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu mengimplementasikan metodologi Agile/Scrum dalam studi kasus",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan monitoring, evaluasi, dan pengendalian proyek",
+      "cpmk": "CPMK-4",
+      "minggu": "11–12",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun dokumentasi teknis dan non-teknis proyek",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5–P4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan hasil proyek dan melakukan refleksi",
+      "cpmk": "CPMK-5",
+      "minggu": "15",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Konsep dan siklus hidup proyek sistem informasi",
+      "indikator": "Ketepatan menjelaskan definisi proyek, karakteristik, dan tahapan siklus hidup",
+      "kriteria": "Kuis online, tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Definisi proyek, karakteristik, siklus hidup (initiation, planning, execution, monitoring, closing)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Metodologi manajemen proyek",
+      "indikator": "Kemampuan membedakan Waterfall, Agile, Scrum, Kanban",
+      "kriteria": "Diskusi kelompok, studi kasus",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Perbandingan metodologi tradisional dan Agile; prinsip Agile manifesto; Scrum roles, artifacts, events",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: Perencanaan scope dan WBS",
+      "indikator": "Kemampuan menyusun WBS dan Gantt Chart",
+      "kriteria": "Tugas individu membuat WBS untuk kasus sederhana",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Scope statement, Work Breakdown Structure (WBS), decomposition, Gantt Chart, network diagram",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3: Penjadwalan dan estimasi waktu",
+      "indikator": "Kemampuan menggunakan metode CPM/PERT",
+      "kriteria": "Tugas kelompok: membuat jadwal proyek",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Critical Path Method (CPM), PERT, estimasi durasi, slack time, milestone",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4: Estimasi biaya dan anggaran proyek",
+      "indikator": "Kemampuan menghitung biaya proyek dan menyusun anggaran",
+      "kriteria": "Tugas individu: estimasi biaya untuk kasus",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Metode estimasi (analogous, parametric, bottom-up), cost baseline, S-curve, earned value management dasar",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 5: Manajemen risiko proyek",
+      "indikator": "Kemampuan mengidentifikasi, menganalisis, dan merespon risiko",
+      "kriteria": "Kuis online; Tugas kelompok analisis risiko",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Identifikasi risiko, analisis kualitatif/kuantitatif, risk response planning, risk register",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 6: Manajemen tim dan komunikasi",
+      "indikator": "Kemampuan menjelaskan struktur tim dan strategi komunikasi",
+      "kriteria": "Role-play simulasi rapat proyek",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Struktur tim proyek, RACI matrix, komunikasi efektif, stakeholder management, meeting management",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep manajemen proyek, metodologi, perencanaan scope, jadwal, biaya, dan risiko",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 7: Implementasi Agile/Scrum",
+      "indikator": "Kemampuan menerapkan Scrum dalam studi kasus",
+      "kriteria": "Simulasi Scrum: sprint planning, daily scrum, review, retrospective",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Product backlog, sprint backlog, user stories, velocity, burndown chart",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7: Project tracking dengan tools Agile",
+      "indikator": "Kemampuan menggunakan tools seperti Jira atau Trello",
+      "kriteria": "Praktik menggunakan Jira/Trello",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Pengenalan Jira, Trello, Asana; membuat project board, tracking progress",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 8: Monitoring dan pengendalian proyek",
+      "indikator": "Kemampuan mengukur kinerja proyek menggunakan EVM",
+      "kriteria": "Tugas individu menghitung PV, EV, AC, CPI, SPI",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Earned Value Management (EVM), variance analysis, forecasting, change control",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8: Manajemen kualitas dan pengujian",
+      "indikator": "Kemampuan menjelaskan standar kualitas dan teknik pengujian",
+      "kriteria": "Kuis; diskusi studi kasus",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Quality planning, quality assurance, quality control, testing levels (unit, integration, system, UAT)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Dokumentasi proyek",
+      "indikator": "Kemampuan menyusun laporan kemajuan dan dokumentasi akhir",
+      "kriteria": "Tugas kelompok: draft laporan proyek",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Struktur laporan proyek, status report, final report, lessons learned",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9: Penutupan proyek dan evaluasi",
+      "indikator": "Kemampuan melakukan closing project dan post-implementation review",
+      "kriteria": "Tugas kelompok: menyusun closing document",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Project closing checklist, handover, release resources, post-implementation review",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Presentasi proyek kelompok",
+      "indikator": "Kemampuan mempresentasikan hasil proyek dan menjawab pertanyaan",
+      "kriteria": "Presentasi kelompok (15 menit per kelompok)",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Presentasi daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Presentasi laporan proyek, demo produk (jika ada), peer feedback",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang manajemen proyek sistem informasi, termasuk kasus dan perhitungan EVM",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
+      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
+      "materi": "Seluruh materi (minggu 1–15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan siklus hidup proyek sistem informasi\n2. Perencanaan proyek: scope, jadwal, anggaran (WBS, Gantt Chart)\n3. Metodologi proyek: Waterfall, Agile, Scrum, Kanban\n4. Manajemen risiko proyek SI\n5. Manajemen tim dan sumber daya proyek\n6. Manajemen kualitas dan pengujian proyek SI\n7. Manajemen pengadaan dan vendor\n8. Monitoring, evaluasi, dan penutupan proyek\n9. Standar manajemen proyek: PMBOK dan PRINCE2\n10. Praktikum: simulasi manajemen proyek dengan tools modern",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Project Management Institute. (2021). *A Guide to the Project Management Body of Knowledge (PMBOK Guide)* (7th ed.). Project Management Institute."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Schwalbe, K. (2018). *Information Technology Project Management* (9th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Sutherland, J., & Sutherland, J. J. (2019). *Scrum: The Art of Doing Twice the Work in Half the Time*. Currency."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Kerzner, H., & Kerzner, H. R. (2017). *Project Management: A Systems Approach to Planning, Scheduling, and Controlling* (12th ed.). Wiley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Cohn, M. (2010). *Succeeding with Agile: Software Development Using Scrum*. Addison-Wesley."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pengetahuan dan keterampilan dalam mengelola proyek sistem informasi secara efektif dan efisien. Materi meliputi siklus hidup proyek, metodologi tradisional dan Agile (termasuk Scrum), perencanaan scope, jadwal, anggaran, manajemen risiko, manajemen tim dan komunikasi, monitoring dan pengendalian proyek menggunakan Earned Value Management, manajemen kualitas, dokumentasi, serta penutupan proyek. Mahasiswa akan mempraktikkan penggunaan tools manajemen proyek modern (seperti Jira, Trello, atau MS Project) melalui proyek kelompok berbasis kasus nyata. Penekanan diberikan pada pengembangan soft skill kepemimpinan, kolaborasi, dan komunikasi dengan pemangku kepentingan.",
+  "matakuliah_syarat": "-"
+}

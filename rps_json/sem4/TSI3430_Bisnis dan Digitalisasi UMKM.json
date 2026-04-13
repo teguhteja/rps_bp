@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "kode_mk": "TSI3430",
+    "nama_mk": "Bisnis dan Digitalisasi UMKM",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {"kode": "S-10", "tipe": "Sikap", "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "P-04", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"},
+    {"kode": "P-05", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship)"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KU-03", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengkaji implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"},
+    {"kode": "KK-09", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis"},
+    {"kode": "KK-10", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur)"},
+    {"kode": "KK-11", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep bisnis, karakteristik, dan ekosistem UMKM di Indonesia serta tantangan dan peluang digitalisasinya"},
+    {"kode": "CPMK-2", "cpl": "P-02, P-05, KK-10", "deskripsi": "Mampu mengidentifikasi dan memanfaatkan platform digital (marketplace, media sosial, sistem informasi manajemen) untuk mendigitalisasi operasional UMKM"},
+    {"kode": "CPMK-3", "cpl": "KU-03, KU-05, KK-11", "deskripsi": "Mampu merancang strategi digital marketing dan pemasaran online yang efektif untuk UMKM berbasis analisis perilaku pengguna dan data digital"},
+    {"kode": "CPMK-4", "cpl": "P-04, KK-09", "deskripsi": "Mampu menganalisis manajemen keuangan digital dan pemanfaatan FinTech bagi UMKM serta memahami regulasi yang berlaku"},
+    {"kode": "CPMK-5", "cpl": "P-02, KK-09, KK-10", "deskripsi": "Mampu menyusun rekomendasi transformasi digital untuk studi kasus UMKM nyata melalui pendekatan analisis kebutuhan dan evaluasi dampak"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep bisnis UMKM, karakteristik, peran dalam ekonomi, serta ekosistem pendukung di Indonesia", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menganalisis tantangan dan peluang digitalisasi UMKM serta mengidentifikasi platform digital yang relevan", "cpmk": "CPMK-2", "minggu": "3–4", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu merancang strategi digital marketing (media sosial, SEO, SEM, email marketing) dan mengukur efektivitasnya", "cpmk": "CPMK-3", "minggu": "5–6", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis manajemen keuangan digital, penggunaan FinTech (pembayaran digital, peer-to-peer lending, crowdfunding) bagi UMKM", "cpmk": "CPMK-4", "minggu": "7", "cpl": "C4"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan regulasi, kebijakan pemerintah, dan program pendukung digitalisasi UMKM di Indonesia", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C3–C4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu melakukan analisis kebutuhan digitalisasi pada studi kasus UMKM (as-is dan to-be) serta menyusun rekomendasi strategi", "cpmk": "CPMK-5", "minggu": "10–11", "cpl": "C5–C6"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu mempresentasikan hasil analisis dan rekomendasi digitalisasi UMKM dalam bentuk laporan dan presentasi kelompok", "cpmk": "CPMK-5", "minggu": "12–13", "cpl": "C5–C6"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu mengintegrasikan seluruh konsep digitalisasi UMKM dalam pemecahan masalah nyata dan menyusun rencana implementasi", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "14–16", "cpl": "C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep bisnis UMKM dan karakteristik", "indikator": "Ketepatan mendefinisikan UMKM, mengklasifikasikan (mikro, kecil, menengah), dan menjelaskan peran UMKM dalam ekonomi", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi UMKM; kriteria (omzet, aset, jumlah karyawan); peran terhadap PDB dan penyerapan tenaga kerja", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Ekosistem UMKM digital di Indonesia", "indikator": "Kemampuan memetakan stakeholder (Kemenkop UKM, perbankan, platform digital, asosiasi) dan program pendukung", "kriteria": "Forum diskusi; Tugas kelompok kecil", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Ekosistem UMKM digital: pemerintah, lembaga keuangan, teknologi, asosiasi, inkubator", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Tantangan dan peluang digitalisasi UMKM", "indikator": "Ketepatan mengidentifikasi hambatan (literasi digital, infrastruktur, modal) dan peluang (pasar lebih luas, efisiensi)", "kriteria": "Kuis online; Tugas analisis studi kasus sederhana", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Tantangan: rendahnya literasi digital, keterbatasan akses internet, biaya adopsi teknologi; Peluang: akses pasar nasional/internasional, efisiensi", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 2 : Platform digital untuk UMKM (marketplace, media sosial, sistem informasi manajemen)", "indikator": "Kemampuan membandingkan fitur marketplace (Tokopedia, Shopee, Lazada) dan memilih platform sesuai jenis UMKM", "kriteria": "Tugas individu (studi komparasi platform)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Marketplace, media sosial (Instagram, TikTok, Facebook), website toko online, sistem informasi manajemen (POS, inventory, CRM)", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Digital marketing dasar (media sosial, SEO, SEM)", "indikator": "Ketepatan menjelaskan elemen digital marketing dan kemampuan membuat rencana sederhana", "kriteria": "Kuis online; Tugas kelompok (rancangan digital marketing)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Social media marketing (konten, engagement, iklan), SEO, SEM, email marketing; pengukuran efektivitas", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 3 : Analisis perilaku pengguna dan data digital untuk optimasi pemasaran", "indikator": "Kemampuan menggunakan tools analisis sederhana (Google Analytics, insight media sosial) dan memberikan rekomendasi", "kriteria": "Tugas praktik analisis data sederhana", "tatap_muka": "Praktik analisis TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Analisis perilaku pengguna; customer journey; segmentasi; engagement rate, conversion rate; Google Analytics, Meta Business Suite", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Manajemen keuangan digital dan FinTech untuk UMKM", "indikator": "Ketepatan menjelaskan pembayaran digital, peer-to-peer lending, crowdfunding, dan kemampuan menilai risiko", "kriteria": "Kuis online; Tugas analisis studi kasus FinTech", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pembukuan digital, payment gateway, dompet elektronik; FinTech: peer-to-peer lending (Amartha, Investree), crowdfunding (Kitabisa); risiko", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep UMKM, ekosistem, tantangan, platform digital, digital marketing, FinTech", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Regulasi dan kebijakan digitalisasi UMKM di Indonesia", "indikator": "Ketepatan menjelaskan peraturan terkait (UU Cipta Kerja, Perpres, program Kemenkop UKM)", "kriteria": "Kuis online; Forum diskusi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Regulasi: UU Cipta Kerja, Perpres tentang digitalisasi UMKM, program 'Go Digital', Gerakan Nasional Bangga Buatan Indonesia, pajak UMKM digital", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 6 : Analisis kebutuhan digitalisasi pada studi kasus UMKM (as-is)", "indikator": "Kemampuan memetakan proses bisnis eksisting UMKM dan mengidentifikasi gap digital", "kriteria": "Tugas kelompok (proyek analisis) – observasi/wawancara", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Studi kasus UMKM (kuliner, fashion, kerajinan); identifikasi proses bisnis, pain points, tingkat adopsi teknologi", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Perancangan rekomendasi strategi digitalisasi (to-be) dan rencana implementasi", "indikator": "Kemampuan menyusun rekomendasi solusi digital yang terintegrasi (platform, marketing, keuangan, regulasi)", "kriteria": "Tugas kelompok (laporan rekomendasi)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Perancangan solusi to-be: pemilihan platform, strategi digital marketing, integrasi pembayaran digital, rencana pelatihan, anggaran", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Presentasi awal hasil analisis dan rekomendasi", "indikator": "Kemampuan mempresentasikan temuan awal dan menerima masukan", "kriteria": "Presentasi kelompok; Peer feedback", "tatap_muka": "Presentasi proyek (sinkron) TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi draft laporan: latar belakang UMKM, analisis as-is, rekomendasi solusi, rencana implementasi", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 7 : Finalisasi laporan dan persiapan presentasi final", "indikator": "Kemampuan menyusun laporan yang sistematis dan komprehensif", "kriteria": "Tugas kelompok (laporan final)", "tatap_muka": "Bimbingan proyek TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Finalisasi laporan: revisi berdasarkan masukan, penyempurnaan analisis, format penulisan ilmiah", "bobot": "5%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Presentasi final proyek digitalisasi UMKM", "indikator": "Kemampuan mempresentasikan secara profesional dan mempertahankan argumen", "kriteria": "Presentasi kelompok; Tanya jawab", "tatap_muka": "Presentasi final TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi final: ringkasan analisis, rekomendasi solusi, rencana implementasi, evaluasi dampak", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 8 : Review dan integrasi seluruh materi", "indikator": "Kemampuan mengintegrasikan konsep digitalisasi UMKM secara menyeluruh", "kriteria": "Kuis review (LMS); Tanya jawab interaktif", "tatap_muka": "Kuliah review TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Review terpadu: konsep UMKM, tantangan & peluang, platform digital, digital marketing, FinTech, regulasi, studi kasus", "bobot": "5%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester", "indikator": "Menjawab soal analisis kasus, rekomendasi digitalisasi UMKM, dan integrasi konsep", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 9–15 (regulasi, kebijakan, analisis kebutuhan, rekomendasi solusi, studi kasus)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep bisnis dan ekosistem UMKM di Indonesia\n2. Tantangan dan peluang digitalisasi UMKM\n3. Platform digital untuk UMKM (marketplace, media sosial)\n4. Sistem informasi manajemen untuk UMKM\n5. Digital marketing dan strategi pemasaran online UMKM\n6. Manajemen keuangan digital dan FinTech untuk UMKM\n7. Regulasi dan ekosistem pendukung UMKM digital\n8. Studi kasus transformasi digital UMKM lokal",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Suryana, Y., & Kartib, B. (2021). *Kewirausahaan dan digitalisasi UMKM*. Penerbit Alfabeta."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Chaffey, D., & Ellis-Chadwick, F. (2019). *Digital marketing: Strategy, implementation and practice* (7th ed.). Pearson."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Bank Indonesia. (2023). *Blueprint sistem pembayaran digital Indonesia 2025–2030*. BI Press."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Kementerian Koperasi dan UKM. (2024). *Laporan kinerja digitalisasi UMKM 2024*."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Otoritas Jasa Keuangan. (2023). *Regulasi dan pengembangan FinTech untuk UMKM*. OJK."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep bisnis Usaha Mikro, Kecil, dan Menengah (UMKM) di Indonesia serta strategi digitalisasi untuk meningkatkan daya saing dan ketahanan usaha. Materi mencakup karakteristik UMKM, tantangan dan peluang digitalisasi, pemanfaatan platform digital (marketplace, media sosial, sistem informasi manajemen), digital marketing, manajemen keuangan digital dan FinTech, regulasi terkait, serta studi kasus transformasi digital UMKM lokal. Penekanan diberikan pada kemampuan menganalisis kebutuhan UMKM dan merancang solusi digital yang tepat guna.",
+  "matakuliah_syarat": "TSI3104 (Konsep Sistem Informasi) atau TSI3107 (Sistem Informasi Manajemen) – direkomendasikan"
+}

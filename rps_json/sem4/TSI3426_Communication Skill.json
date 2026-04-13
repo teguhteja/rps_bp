@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "kode_mk": "TSI3426",
+    "nama_mk": "Communication Skill",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-02",
+      "tipe": "Sikap",
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+    },
+    {
+      "kode": "S-06",
+      "tipe": "Sikap",
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"
+    },
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KU-06",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-06, KU-01",
+      "deskripsi": "Mampu memahami prinsip dan proses komunikasi efektif, baik verbal, non-verbal, maupun tertulis"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KU-02, KU-05",
+      "deskripsi": "Mampu menerapkan komunikasi bisnis dan teknis dalam organisasi, serta menulis laporan teknis dan dokumentasi profesional"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-09, KU-06",
+      "deskripsi": "Mampu melakukan presentasi dan public speaking yang efektif di depan audiens"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-05, KK-01",
+      "deskripsi": "Mampu melakukan negosiasi dan komunikasi persuasif dalam konteks profesional"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-02, KU-06",
+      "deskripsi": "Mampu berkomunikasi lintas budaya dan menerapkan etika komunikasi di era digital"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan prinsip dan proses komunikasi efektif",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membedakan komunikasi verbal, non-verbal, dan tertulis serta mengaplikasikannya",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan komunikasi bisnis dan teknis dalam organisasi",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menulis laporan teknis dan dokumentasi profesional",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu melakukan presentasi dan public speaking yang efektif",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan negosiasi dan komunikasi persuasif",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu berkomunikasi lintas budaya dan memahami etika komunikasi di era digital",
+      "cpmk": "CPMK-5",
+      "minggu": "11–12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menyusun dan mempresentasikan studi kasus komunikasi dalam tim proyek TI",
+      "cpmk": "CPMK-3, CPMK-5",
+      "minggu": "13–15",
+      "cpl": "C5–C6"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mengintegrasikan seluruh keterampilan komunikasi dalam simulasi profesional",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Prinsip dan proses komunikasi efektif",
+      "indikator": "Ketepatan menjelaskan model komunikasi (Shannon-Weaver, Schramm) dan hambatan komunikasi",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Definisi komunikasi; model komunikasi; unsur-unsur komunikasi; hambatan (noise, persepsi, dll)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Proses komunikasi dan umpan balik",
+      "indikator": "Kemampuan menganalisis kasus komunikasi gagal dan memberikan solusi",
+      "kriteria": "Studi kasus kelompok",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Proses encoding-decoding; umpan balik; konteks komunikasi; studi kasus komunikasi organisasi",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Komunikasi verbal, non-verbal, dan tertulis",
+      "indikator": "Ketepatan mengidentifikasi jenis komunikasi dan penggunaannya",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Komunikasi lisan (intonasi, kejelasan); bahasa tubuh (ekspresi, gestur, postur); tulisan (email, memo, laporan)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Komunikasi bisnis dan teknis",
+      "indikator": "Kemampuan menulis email bisnis, memo, dan surat resmi",
+      "kriteria": "Tugas menulis dokumen bisnis",
+      "tatap_muka": "Kuliah + praktik menulis TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Komunikasi bisnis: etika, format surat, email profesional; komunikasi teknis: dokumentasi, user manual",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Komunikasi dalam organisasi",
+      "indikator": "Ketepatan menjelaskan aliran komunikasi vertikal, horizontal, dan diagonal",
+      "kriteria": "Kuis online; Tugas kelompok",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Jaringan komunikasi formal dan informal; peran komunikasi dalam manajemen; rapat efektif",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Penulisan laporan teknis dan dokumentasi",
+      "indikator": "Kemampuan menyusun laporan teknis (struktur, gaya bahasa, referensi)",
+      "kriteria": "Tugas individu (laporan teknis sederhana)",
+      "tatap_muka": "Praktik penulisan TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur laporan teknis: pendahuluan, metode, hasil, kesimpulan; teknik penulisan ilmiah; daftar pustaka",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Presentasi dan public speaking",
+      "indikator": "Kemampuan membuat slide presentasi efektif dan menyampaikan dengan percaya diri",
+      "kriteria": "Presentasi individu (5 menit)",
+      "tatap_muka": "Praktik presentasi TM: 2x50",
+      "daring": "Kuliah daring sinkron + rekaman video; [TM: 2×50']",
+      "materi": "Teknik presentasi: persiapan, struktur, visual aids, bahasa tubuh, manajemen kecemasan; public speaking",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep komunikasi, laporan, dan presentasi",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Negosiasi dan komunikasi persuasif",
+      "indikator": "Ketepatan menjelaskan strategi negosiasi (integratif vs distributif) dan teknik persuasi",
+      "kriteria": "Kuis online; Simulasi negosiasi",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Prinsip negosiasi (BATNA, ZOPA); gaya negosiasi; teknik persuasi (Cialdini); studi kasus",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : Manajemen konflik dalam tim proyek TI",
+      "indikator": "Kemampuan mengidentifikasi sumber konflik dan strategi resolusi",
+      "kriteria": "Tugas kelompok (analisis konflik)",
+      "tatap_muka": "Diskusi kasus TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Sumber konflik tim; strategi resolusi (kolaborasi, kompromi, kompetisi, menghindar, akomodasi)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Komunikasi lintas budaya",
+      "indikator": "Ketepatan menjelaskan dimensi budaya (Hofstede) dan dampaknya pada komunikasi",
+      "kriteria": "Kuis online; Studi kasus",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Dimensi budaya: power distance, individualism, uncertainty avoidance; komunikasi lintas budaya dalam tim global",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Etika komunikasi di era digital",
+      "indikator": "Kemampuan menjelaskan etika berkomunikasi di media sosial, email, dan platform digital",
+      "kriteria": "Forum diskusi; Tulis esai pendek",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Netiket; privasi dan keamanan informasi; etika dalam komunikasi daring; hoax dan cyberbullying",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Persiapan studi kasus komunikasi dalam tim proyek TI",
+      "indikator": "Kemampuan memilih kasus dan merancang analisis",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pemilihan studi kasus (tim proyek TI, startup, perusahaan); identifikasi masalah komunikasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan dan simulasi komunikasi",
+      "indikator": "Kemampuan menyusun laporan analisis dan merancang simulasi perbaikan komunikasi",
+      "kriteria": "Laporan proyek",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur laporan; rekomendasi perbaikan; simulasi role-play komunikasi efektif",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 8 : Presentasi studi kasus",
+      "indikator": "Kemampuan mempresentasikan hasil analisis dan rekomendasi",
+      "kriteria": "Presentasi kelompok (10 menit)",
+      "tatap_muka": "Presentasi proyek TM: 2x50",
+      "daring": "Presentasi daring sinkron; [TM: 2×50']",
+      "materi": "Presentasi hasil; tanya jawab; peer feedback",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "Sub-CPMK 9 : Ujian Akhir Semester + Integrasi",
+      "indikator": "Menjawab soal integratif tentang komunikasi dalam konteks organisasi dan tim proyek",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "UAS TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Seluruh materi (komunikasi efektif, laporan, presentasi, negosiasi, lintas budaya, etika digital)",
+      "bobot": "18%"
+    }
+  ],
+  "bahan_kajian": "1. Prinsip dan proses komunikasi efektif\n2. Komunikasi verbal, non-verbal, dan tertulis\n3. Komunikasi bisnis dan teknis dalam organisasi\n4. Penulisan laporan teknis dan dokumentasi profesional\n5. Presentasi dan public speaking\n6. Negosiasi dan komunikasi persuasif\n7. Komunikasi lintas budaya dan profesional\n8. Etika komunikasi di era digital",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Adler, R. B., & Elmhorst, J. M. (2018). *Communicating at work: Strategies for success in business and the professions* (12th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "DeVito, J. A. (2019). *The interpersonal communication book* (15th ed.). Pearson."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Guffey, M. E., & Loewy, D. (2018). *Business communication: Process and product* (9th ed.). Cengage Learning."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Fisher, R., Ury, W., & Patton, B. (2011). *Getting to yes: Negotiating agreement without giving in* (3rd ed.). Penguin Books."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Cialdini, R. B. (2016). *Pre-suasion: A revolutionary way to influence and persuade*. Simon & Schuster."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan keterampilan komunikasi yang efektif dalam konteks profesional, khususnya di bidang sistem informasi dan teknologi. Materi meliputi prinsip dan proses komunikasi, komunikasi verbal dan non-verbal, komunikasi bisnis dan teknis, penulisan laporan teknis, presentasi dan public speaking, negosiasi dan komunikasi persuasif, komunikasi lintas budaya, serta etika komunikasi di era digital. Penekanan diberikan pada praktik langsung melalui simulasi, studi kasus, dan proyek kelompok untuk meningkatkan kemampuan komunikasi dalam tim proyek TI dan organisasi.",
+  "matakuliah_syarat": "-"
+}

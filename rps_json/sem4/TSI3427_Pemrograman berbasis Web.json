@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "kode_mk": "TSI3427",
+    "nama_mk": "Pemrograman berbasis Web",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom, M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami arsitektur web dan protokol HTTP/HTTPS, serta perbedaan antara frontend dan backend"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KK-03",
+      "deskripsi": "Mampu membuat halaman web dinamis menggunakan HTML5, CSS3, dan JavaScript dasar (DOM, event, AJAX)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-02, KK-08",
+      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server (PHP/Node.js) dan integrasi basis data pada aplikasi web"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-01, KK-04",
+      "deskripsi": "Mampu merancang dan mengkonsumsi RESTful API, serta memahami keamanan dasar aplikasi web (OWASP Top 10)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KK-03, KK-08",
+      "deskripsi": "Mampu membangun proyek aplikasi web berbasis sistem informasi secara berkelompok dengan menerapkan seluruh materi"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan arsitektur web (client-server, request-response) dan protokol HTTP/HTTPS",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membuat struktur HTML5 dan styling CSS3 (layout, flexbox, grid, responsif)",
+      "cpmk": "CPMK-2",
+      "minggu": "2–3",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menggunakan JavaScript untuk manipulasi DOM, event handling, dan AJAX/fetch",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server dengan PHP/Node.js (dasar routing, session)",
+      "cpmk": "CPMK-3",
+      "minggu": "6–7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengintegrasikan basis data (MySQL/MongoDB) ke aplikasi web menggunakan PDO atau ORM",
+      "cpmk": "CPMK-3",
+      "minggu": "8–9",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang RESTful API (endpoint, method, response) dan mengkonsumsi API dari frontend",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C4–P5"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan dan menerapkan keamanan dasar web (input validation, SQL injection, XSS, CSRF)",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menggunakan framework frontend sederhana (React/Vue dasar) untuk meningkatkan interaktivitas",
+      "cpmk": "CPMK-2, CPMK-4",
+      "minggu": "13",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mengembangkan proyek aplikasi web lengkap (frontend + backend + database) secara kelompok",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "cpl": "C5–P5"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan dan mendokumentasikan proyek web serta mengintegrasikan seluruh konsep",
+      "cpmk": "CPMK-5",
+      "minggu": "16",
+      "cpl": "C6–P6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Arsitektur web dan protokol HTTP/HTTPS",
+      "indikator": "Ketepatan menjelaskan client-server, request-response, metode HTTP (GET, POST, PUT, DELETE), dan status code",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: analisis paket HTTP dengan browser dev tools",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Arsitektur web; protokol HTTP/HTTPS; metode HTTP; header; cookie; session; URL",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2 : HTML5 dan CSS3 dasar",
+      "indikator": "Kemampuan membuat halaman web dengan elemen semantik HTML5 dan styling CSS (color, font, box model)",
+      "kriteria": "Tugas praktik (halaman profil sederhana)",
+      "tatap_muka": "Praktik HTML/CSS TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri dengan code editor; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "HTML5: struktur, elemen semantik, form, tabel; CSS3: selector, properti, box model, positioning",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : CSS layout (flexbox, grid) dan responsif",
+      "indikator": "Kemampuan membuat layout responsif menggunakan flexbox, grid, dan media query",
+      "kriteria": "Tugas praktik (landing page responsif)",
+      "tatap_muka": "Praktik CSS lanjutan TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Flexbox, CSS Grid, responsive design, mobile-first, framework CSS (Bootstrap/Tailwind pengantar)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : JavaScript dasar (variabel, fungsi, DOM)",
+      "indikator": "Kemampuan menulis kode JavaScript untuk memanipulasi DOM dan event handling",
+      "kriteria": "Kuis online; Tugas coding (interaksi sederhana)",
+      "tatap_muka": "Kuliah + praktik JS TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "JavaScript: tipe data, variabel, fungsi, event, DOM manipulation, debugging",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : JavaScript lanjutan (AJAX, fetch API, JSON)",
+      "indikator": "Kemampuan melakukan request asinkron ke API dan memproses data JSON",
+      "kriteria": "Tugas praktik (fetch data dari API publik)",
+      "tatap_muka": "Praktik AJAX/fetch TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "AJAX, fetch API, promise, async/await, JSON, manipulasi data, error handling",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Pemrograman sisi server (PHP/Node.js) dasar",
+      "indikator": "Kemampuan membuat server sederhana, routing, dan menangani request",
+      "kriteria": "Kuis online; Tugas coding (hello world server)",
+      "tatap_muka": "Kuliah + praktik server-side TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Pengenalan PHP/Node.js; instalasi; variabel server; request/response; session; cookie",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 4 : Routing dan template engine",
+      "indikator": "Kemampuan membuat routing dinamis dan menggunakan template engine (Blade/EJS)",
+      "kriteria": "Tugas kelompok (routing sederhana)",
+      "tatap_muka": "Praktik routing TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Routing parameter; middleware; template engine; layout; partials",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester (teori + praktik)",
+      "indikator": "Menjawab soal konsep dan membuat aplikasi web sederhana (HTML/CSS/JS + server dasar)",
+      "kriteria": "Ujian praktik online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50; Praktik: 1x170",
+      "daring": "Ujian daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 5 : Integrasi basis data (MySQL/MongoDB)",
+      "indikator": "Kemampuan menghubungkan aplikasi web ke database, melakukan CRUD",
+      "kriteria": "Tugas praktik (CRUD dengan database)",
+      "tatap_muka": "Kuliah + praktik DB TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Koneksi database (PDO, MySQLi, Mongoose); query CRUD; prepared statement; migration",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : RESTful API (perancangan dan implementasi)",
+      "indikator": "Kemampuan merancang endpoint RESTful dan mengimplementasikannya di server",
+      "kriteria": "Tugas kelompok (membuat API sederhana)",
+      "tatap_muka": "Praktik API TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Prinsip REST; endpoint design; method; response format (JSON); autentikasi dasar (API key)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 6 : Mengkonsumsi API dari frontend (fetch, axios)",
+      "indikator": "Kemampuan mengambil data dari API dan menampilkannya di halaman web",
+      "kriteria": "Tugas praktik (frontend + API eksternal)",
+      "tatap_muka": "Praktik konsumsi API TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Fetch API, axios, error handling, loading state, rendering data",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Keamanan aplikasi web (OWASP Top 10)",
+      "indikator": "Kemampuan menjelaskan dan mencegah SQL injection, XSS, CSRF, dan input validation",
+      "kriteria": "Kuis online; Studi kasus keamanan",
+      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi serangan sederhana",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "OWASP Top 10; SQL injection (prepared statement); XSS (escaping); CSRF (token); validasi input",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Pengantar framework frontend (React/Vue)",
+      "indikator": "Kemampuan membuat komponen sederhana dengan React/Vue",
+      "kriteria": "Tugas praktik (komponen interaktif)",
+      "tatap_muka": "Praktik framework TM: 3x50; Praktik: 1x170",
+      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Pengenalan React atau Vue; komponen; state; props; event handling; lifecycle",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Proyek aplikasi web (persiapan)",
+      "indikator": "Kemampuan merancang spesifikasi proyek, membagi tugas, dan memulai implementasi",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Spesifikasi proyek (studi kasus sistem informasi sederhana); perancangan database; wireframe",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Implementasi dan pengujian proyek",
+      "indikator": "Kemampuan menyelesaikan proyek web (frontend + backend + database) dan melakukan testing",
+      "kriteria": "Laporan proyek + demo",
+      "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: 1x170",
+      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
+      "materi": "Implementasi fitur; debugging; pengujian fungsional; dokumentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "Sub-CPMK 10 : UAS (Presentasi proyek + ujian integrasi)",
+      "indikator": "Kemampuan mempresentasikan proyek dan menjawab soal integratif tentang seluruh materi",
+      "kriteria": "Presentasi kelompok + ujian tertulis online",
+      "tatap_muka": "Presentasi + UAS TM: 3x50",
+      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
+      "materi": "Seluruh materi (HTML, CSS, JS, server-side, database, API, keamanan, framework) + proyek",
+      "bobot": "14%"
+    }
+  ],
+  "bahan_kajian": "1. Arsitektur web dan protokol HTTP/HTTPS\n2. HTML5 dan CSS3: struktur dan styling\n3. JavaScript dasar: DOM, event, dan AJAX\n4. Framework frontend modern (React/Vue dasar)\n5. Pemrograman sisi server (PHP/Node.js)\n6. Integrasi basis data pada aplikasi web\n7. RESTful API: perancangan dan konsumsi\n8. Keamanan aplikasi web (OWASP Top 10)\n9. Praktikum: membangun aplikasi web berbasis sistem informasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Duckett, J. (2014). *Web design with HTML, CSS, JavaScript and jQuery set*. John Wiley & Sons."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Nixon, R. (2021). *Learning PHP, MySQL & JavaScript* (6th ed.). O'Reilly Media."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Flanagan, D. (2020). *JavaScript: The definitive guide* (7th ed.). O'Reilly Media."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Suehring, S. (2018). *JavaScript for web developers*. Wiley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Mozilla Developer Network. (2025). *MDN Web Docs*. https://developer.mozilla.org/"
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan kemampuan merancang dan membangun aplikasi web dinamis berbasis sistem informasi. Materi meliputi arsitektur web dan protokol HTTP, HTML5 dan CSS3 untuk struktur dan styling, JavaScript untuk interaktivitas (DOM, event, AJAX), pemrograman sisi server (PHP/Node.js), integrasi basis data (MySQL/MongoDB), RESTful API, keamanan dasar web (OWASP Top 10), serta pengenalan framework frontend (React/Vue). Penekanan diberikan pada praktikum dan proyek kelompok untuk mengembangkan aplikasi web fungsional yang terintegrasi dengan basis data.",
+  "matakuliah_syarat": "TSI3106 (Pemrograman Dasar) – wajib"
+}

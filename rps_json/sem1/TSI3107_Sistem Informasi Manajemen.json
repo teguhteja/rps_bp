@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "kode_mk": "TSI3107",
+    "nama_mk": "Sistem Informasi Manajemen",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/septa.png",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "-",
+    "jabatan": "Lektor"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
+    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek sistem informasi"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dan peran sistem informasi dalam organisasi serta jenis-jenis sistem informasi manajemen (TPS, MIS, DSS, EIS)"},
+    {"kode": "CPMK-2", "cpl": "P-02, KK-04", "deskripsi": "Mampu menjelaskan infrastruktur teknologi informasi organisasi, manajemen data, dan basis pengetahuan"},
+    {"kode": "CPMK-3", "cpl": "P-01, KK-06", "deskripsi": "Mampu menjelaskan e-commerce, sistem informasi global, dan pengambilan keputusan berbasis informasi"},
+    {"kode": "CPMK-4", "cpl": "S-09, KU-01", "deskripsi": "Mampu memahami keamanan dan pengendalian sistem informasi serta isu etika dan privasi"},
+    {"kode": "CPMK-5", "cpl": "P-02, KK-06", "deskripsi": "Mampu melakukan studi kasus implementasi SIM pada suatu organisasi dan menyusun laporan sederhana"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep sistem informasi, komponen, dan perbedaannya dengan sistem transaksional", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan jenis-jenis SIM (TPS, MIS, DSS, EIS) dan contoh penerapannya", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan infrastruktur TI (hardware, software, jaringan, database) dalam organisasi", "cpmk": "CPMK-2", "minggu": "4–5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan manajemen data, data warehouse, dan basis pengetahuan", "cpmk": "CPMK-2", "minggu": "6", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan konsep e-commerce, tipe-tipe e-commerce, dan sistem informasi global", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C2"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan pengambilan keputusan berbasis informasi dan peran SIM dalam manajemen", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan keamanan sistem informasi, pengendalian, dan isu etika privasi", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C2"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu melakukan analisis studi kasus implementasi SIM pada perusahaan", "cpmk": "CPMK-5", "minggu": "12–14", "cpl": "C4–C5"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu mempresentasikan hasil studi kasus dan menyusun laporan", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C5–C6"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep sistem informasi", "indikator": "Ketepatan mendefinisikan sistem informasi, komponen (input, proses, output, umpan balik)", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi SI, data vs informasi, komponen SI, peran dalam organisasi", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Peran SIM dalam organisasi", "indikator": "Kemampuan menjelaskan bagaimana SIM mendukung strategi dan operasi", "kriteria": "Diskusi; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Peran SI di level strategis, manajerial, operasional; keunggulan kompetitif", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Jenis-jenis SIM", "indikator": "Kemampuan membedakan TPS, MIS, DSS, EIS, dan contohnya", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Transaction Processing System, Management Information System, Decision Support System, Executive Information System", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Infrastruktur TI", "indikator": "Kemampuan menjelaskan komponen hardware, software, jaringan, database", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Infrastruktur TI: server, storage, jaringan, sistem operasi, DBMS", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Tren infrastruktur (cloud, mobile, IoT)", "indikator": "Kemampuan menjelaskan cloud computing, mobile computing, dan IoT", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Kuliah + diskusi TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Cloud (IaaS, PaaS, SaaS), mobile apps, IoT devices", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Manajemen data dan data warehouse", "indikator": "Kemampuan menjelaskan konsep database, data warehouse, OLAP", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Database, data warehouse, data mining, business intelligence", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : E-commerce", "indikator": "Kemampuan menjelaskan tipe e-commerce (B2B, B2C, C2C, C2B) dan contoh", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "E-commerce models, payment systems, marketplace, keamanan e-commerce", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep SIM, jenis, infrastruktur, e-commerce", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 6 : Pengambilan keputusan berbasis informasi", "indikator": "Kemampuan menjelaskan proses keputusan dan peran SIM", "kriteria": "Kuis online; Diskusi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Model pengambilan keputusan (Simon), decision support, business analytics", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 7 : Keamanan sistem informasi", "indikator": "Kemampuan menjelaskan ancaman keamanan dan pengendalian", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Ancaman (malware, hacking), kontrol (akses, enkripsi, backup), kebijakan keamanan", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 7 : Etika dan privasi dalam SIM", "indikator": "Kemampuan menjelaskan isu etika, privasi data, dan regulasi", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Etika informasi, privasi, UU PDP, HAKI, tanggung jawab sosial", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 8 : Studi kasus implementasi SIM (persiapan)", "indikator": "Kemampuan memilih perusahaan dan mengidentifikasi SIM yang digunakan", "kriteria": "Proposal studi kasus", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Pemilihan studi kasus (perusahaan manufaktur, ritel, jasa)", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Analisis studi kasus", "indikator": "Kemampuan menganalisis kelebihan/kekurangan SIM perusahaan", "kriteria": "Draft laporan", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Analisis SIM perusahaan, identifikasi masalah, rekomendasi", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 9 : Penyusunan laporan", "indikator": "Kemampuan menyusun laporan sistematis", "kriteria": "Laporan studi kasus", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Struktur laporan, lampiran, daftar pustaka", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 9 : Presentasi studi kasus", "indikator": "Kemampuan mempresentasikan hasil analisis", "kriteria": "Presentasi kelompok + tanya jawab", "tatap_muka": "Presentasi TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi hasil studi kasus", "bobot": "7%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester + Refleksi", "indikator": "Menjawab soal integratif tentang implementasi SIM", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Seluruh materi (keamanan, etika, studi kasus)", "bobot": "17%"}
+  ],
+  "bahan_kajian": "1. Konsep dan peran sistem informasi dalam organisasi\n2. Jenis-jenis sistem informasi manajemen (TPS, MIS, DSS, EIS)\n3. Infrastruktur teknologi informasi organisasi\n4. Manajemen data dan basis pengetahuan\n5. E-commerce dan sistem informasi global\n6. Pengambilan keputusan berbasis informasi\n7. Keamanan dan pengendalian sistem informasi\n8. Etika, privasi, dan isu sosial dalam sistem informasi",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Laudon, K. C., & Laudon, J. P. (2020). *Management information systems: Managing the digital firm* (16th ed.). Pearson."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "O'Brien, J. A., & Marakas, G. M. (2017). *Management information systems* (10th ed.). McGraw-Hill."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Turban, E., Pollard, C., & Wood, G. (2018). *Information technology for management* (11th ed.). Wiley."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Stair, R. M., & Reynolds, G. W. (2018). *Principles of information systems* (13th ed.). Cengage Learning."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "McLeod, R., & Schell, G. P. (2014). *Management information systems* (12th ed.). Pearson."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang peran sistem informasi dalam mendukung manajemen organisasi. Materi meliputi konsep sistem informasi, jenis-jenis SIM (TPS, MIS, DSS, EIS), infrastruktur TI, manajemen data, e-commerce, sistem informasi global, pengambilan keputusan berbasis informasi, keamanan dan pengendalian sistem informasi, serta isu etika dan privasi. Penekanan diberikan pada studi kasus implementasi SIM pada perusahaan nyata untuk menganalisis efektivitas dan rekomendasi perbaikan.",
+  "matakuliah_syarat": "-"
+}

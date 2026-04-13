@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "kode_mk": "TSI3431",
+    "nama_mk": "Sistem Pendukung Keputusan",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 4,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/edwin.png",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi menggunakan kaidah rekayasa perangkat lunak dan tools yang relevan"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep, kerangka, dan komponen Sistem Pendukung Keputusan (SPK) serta perbedaannya dengan sistem transaksional"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-06",
+      "deskripsi": "Mampu menerapkan metode pengambilan keputusan (AHP, TOPSIS, SAW) dalam menyelesaikan masalah multi-kriteria"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KK-03",
+      "deskripsi": "Mampu merancang dan mengimplementasikan SPK berbasis data (OLAP, dashboard, scorecard) dengan tools sederhana"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-02, KK-04",
+      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan integrasi AI dalam SPK"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-04, KK-08",
+      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi dan menyusun laporan hasil analisis"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar SPK, komponen (data, model, dialog), dan perbedaan dengan MIS/OLTP",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu mengidentifikasi jenis-jenis masalah keputusan (terstruktur, semi-terstruktur, tidak terstruktur)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan metode AHP (Analytical Hierarchy Process) untuk pembobotan kriteria dan perankingan alternatif",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan metode TOPSIS dan SAW (Simple Additive Weighting) dalam pengambilan keputusan",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan konsep OLAP (Online Analytical Processing) dan membuat dashboard sederhana",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang dan mengimplementasikan SPK dengan spreadsheet (Excel) atau tools BI (Power BI/Tableau) sederhana",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan mesin inferensi",
+      "cpmk": "CPMK-4",
+      "minggu": "11–12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi (persiapan dan analisis)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun laporan dan mempresentasikan hasil perancangan SPK",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar SPK",
+      "indikator": "Ketepatan mendefinisikan SPK, membedakan dengan MIS dan OLTP, serta menjelaskan komponen SPK",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Definisi SPK; karakteristik; komponen (data management, model management, dialogue); perbandingan dengan sistem transaksional",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Kerangka dan arsitektur SPK",
+      "indikator": "Kemampuan menjelaskan arsitektur SPK (Sprague, Carlson, Turban) dan siklus pengambilan keputusan",
+      "kriteria": "Studi kasus; Forum diskusi",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Arsitektur SPK; siklus Simon (intelligence, design, choice, implementation); contoh SPK sederhana",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Jenis masalah keputusan",
+      "indikator": "Ketepatan mengidentifikasi masalah terstruktur, semi-terstruktur, tidak terstruktur dengan contoh",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Klasifikasi masalah; decision matrix; contoh pada bisnis (pemilihan supplier, lokasi gudang, dll)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Metode AHP (Analytical Hierarchy Process)",
+      "indikator": "Kemampuan membuat struktur hierarki kriteria, matriks perbandingan berpasangan, dan menghitung bobot",
+      "kriteria": "Kuis online; Tugas hitungan AHP",
+      "tatap_muka": "Kuliah interaktif + praktik TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "AHP: prinsip, langkah, matriks perbandingan, normalisasi, eigenvector, konsistensi rasio",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Implementasi AHP dengan tools (Excel, SuperDecisions)",
+      "indikator": "Kemampuan menggunakan Excel atau tools untuk perhitungan AHP",
+      "kriteria": "Tugas praktik (studi kasus AHP)",
+      "tatap_muka": "Praktik AHP TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Implementasi AHP di Excel; penggunaan SuperDecisions; studi kasus pemilihan vendor",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Metode TOPSIS dan SAW",
+      "indikator": "Kemampuan menghitung normalisasi matriks, bobot, dan perankingan dengan TOPSIS dan SAW",
+      "kriteria": "Tugas hitungan TOPSIS/SAW",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "SAW: normalisasi linear, penjumlahan terbobot; TOPSIS: ideal positif, ideal negatif, jarak Euclidean",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : OLAP dan dashboard",
+      "indikator": "Ketepatan menjelaskan operasi OLAP (slice, dice, drill-down, roll-up, pivot) dan membuat dashboard sederhana",
+      "kriteria": "Kuis online; Tugas praktik (Excel PivotTable)",
+      "tatap_muka": "Praktik OLAP TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "OLAP: kubus data; operasi; dashboard; scorecard; contoh dengan PivotTable atau Power BI",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep SPK, AHP, TOPSIS, SAW, OLAP",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Perancangan SPK dengan spreadsheet (studi kasus sederhana)",
+      "indikator": "Kemampuan membuat model keputusan dengan Excel (input, proses, output)",
+      "kriteria": "Tugas kelompok (prototype SPK)",
+      "tatap_muka": "Praktik Excel TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Membangun SPK sederhana: input data, perhitungan bobot, perankingan, dashboard; studi kasus penerimaan beasiswa",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : SPK dengan tools BI (Power BI/Tableau)",
+      "indikator": "Kemampuan membuat dashboard interaktif dan scorecard menggunakan Power BI",
+      "kriteria": "Tugas praktik (dashboard BI)",
+      "tatap_muka": "Praktik BI TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pengenalan Power BI; koneksi data; visualisasi; filter; scorecard; studi kasus penjualan",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Sistem pakar dan basis pengetahuan",
+      "indikator": "Ketepatan menjelaskan komponen sistem pakar (basis pengetahuan, mesin inferensi, antarmuka) dan forward/backward chaining",
+      "kriteria": "Kuis online; Studi kasus sistem pakar",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Sistem pakar: definisi, arsitektur, akuisisi pengetahuan, inferensi, certainty factor; contoh",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Integrasi AI dalam SPK (machine learning, data mining)",
+      "indikator": "Kemampuan menjelaskan peran AI dalam SPK (prediksi, clustering, rekomendasi)",
+      "kriteria": "Forum diskusi; Tugas analisis",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "AI untuk SPK: decision tree, neural network, fuzzy logic; contoh rekomendasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Studi kasus perancangan SPK (persiapan)",
+      "indikator": "Kemampuan memilih organisasi/kasus, mengidentifikasi masalah, dan merumuskan kriteria",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pemilihan kasus (pemilihan supplier, lokasi, karyawan terbaik, dll); identifikasi kriteria dan alternatif",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 8 : Implementasi dan analisis SPK",
+      "indikator": "Kemampuan mengimplementasikan metode (AHP/TOPSIS/SAW) dan membuat dashboard",
+      "kriteria": "Laporan proyek (draft)",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Implementasi perhitungan; visualisasi hasil; analisis sensitivitas; dokumentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan dan presentasi (persiapan)",
+      "indikator": "Kemampuan menyusun laporan sistematis dan slide presentasi",
+      "kriteria": "Laporan final (draft akhir)",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur laporan; kesimpulan dan rekomendasi; persiapan presentasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
+      "indikator": "Kemampuan mempresentasikan hasil SPK dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis online",
+      "tatap_muka": "Presentasi + UAS TM: 2x50",
+      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
+      "materi": "Seluruh materi (SPK, AHP, TOPSIS, SAW, OLAP, dashboard, sistem pakar, AI) + proyek",
+      "bobot": "16%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan kerangka sistem pendukung keputusan (SPK)\n2. Komponen SPK: model manajemen, data manajemen, dialog\n3. Metode pengambilan keputusan (AHP, TOPSIS, SAW)\n4. Business Intelligence dan analytics dalam SPK\n5. Sistem pakar dan basis pengetahuan\n6. Integrasi AI dalam sistem pendukung keputusan\n7. SPK berbasis data (OLAP, dashboard, scorecard)\n8. Perancangan dan implementasi SPK",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Turban, E., Sharda, R., & Delen, D. (2018). *Decision support and business intelligence systems* (10th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Power, D. J. (2016). *Decision support systems: Concepts and resources for managers*. Quorum Books."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Saaty, T. L. (2008). *Decision making for leaders: The analytic hierarchy process for decisions in a complex world*. RWS Publications."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Kusrini, (2017). *Konsep dan aplikasi sistem pendukung keputusan*. Penerbit Andi."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Hwang, C. L., & Yoon, K. (2012). *Multiple attribute decision making: Methods and applications*. Springer."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep, metode, dan implementasi Sistem Pendukung Keputusan (SPK) untuk membantu pengambilan keputusan dalam organisasi. Materi meliputi kerangka SPK, komponen (data, model, dialog), metode pengambilan keputusan multi-kriteria (AHP, TOPSIS, SAW), OLAP dan dashboard, sistem pakar dan basis pengetahuan, serta integrasi AI dalam SPK. Penekanan diberikan pada praktik perhitungan metode dan perancangan SPK sederhana menggunakan spreadsheet atau tools BI, serta studi kasus nyata.",
+  "matakuliah_syarat": "TSI3107 (Sistem Informasi Manajemen) atau TSI3213 (Statistika dan Probabilitas) – direkomendasikan"
+}

@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "kode_mk": "TSI3539",
+    "nama_mk": "Big Data",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 5,
+    "status": "Pilihan",
+    "kategori": "Mata Kuliah Penciri / Kekhasan Prodi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep Big Data (karakteristik 5V) dan ekosistem teknologi Big Data"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu mengimplementasikan pengumpulan dan penyimpanan data besar menggunakan Hadoop dan HDFS"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-05, KK-03",
+      "deskripsi": "Mampu melakukan pemrosesan data batch (MapReduce) dan real-time streaming (Spark Streaming)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-09, KK-11",
+      "deskripsi": "Mampu menerapkan analitik Big Data (analisis eksploratif, machine learning sederhana) dan visualisasi data besar"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KK-11",
+      "deskripsi": "Mampu mengelola keamanan, privasi, dan etika dalam pengelolaan Big Data serta menyusun laporan analisis"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan karakteristik Big Data (5V: Volume, Variety, Velocity, Veracity, Value) dan perbedaannya dengan data tradisional",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan ekosistem Hadoop (HDFS, YARN, MapReduce) dan teknologi pendukung",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu mengimplementasikan HDFS untuk penyimpanan data terdistribusi",
+      "cpmk": "CPMK-2",
+      "minggu": "3–4",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menulis program MapReduce sederhana untuk pengolahan data batch",
+      "cpmk": "CPMK-3",
+      "minggu": "5–6",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan konsep NoSQL database (key-value, document, column-family, graph) dan implementasi sederhana",
+      "cpmk": "CPMK-2",
+      "minggu": "7",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menggunakan Apache Spark untuk pemrosesan data batch dan streaming",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu melakukan analisis eksploratif data besar menggunakan tools seperti Python (pandas, PySpark)",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan visualisasi data besar menggunakan Tableau atau Python (Matplotlib, Seaborn)",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menjelaskan isu keamanan, privasi, dan etika dalam Big Data (anonimisasi, kepatuhan regulasi)",
+      "cpmk": "CPMK-5",
+      "minggu": "13",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyusun laporan analisis Big Data dan mempresentasikan hasil",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1: Konsep Big Data",
+      "indikator": "Ketepatan menjelaskan karakteristik 5V dan perbedaan dengan data tradisional",
+      "kriteria": "Kuis online; tanya jawab",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Definisi Big Data; evolusi data; 5V (Volume, Variety, Velocity, Veracity, Value); studi kasus Big Data di industri",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 2: Ekosistem Hadoop",
+      "indikator": "Kemampuan menjelaskan komponen Hadoop (HDFS, YARN, MapReduce)",
+      "kriteria": "Diskusi kelompok",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Arsitektur Hadoop; HDFS (NameNode, DataNode); YARN (ResourceManager, NodeManager); MapReduce",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 3: HDFS (Hadoop Distributed File System)",
+      "indikator": "Kemampuan menggunakan perintah HDFS untuk upload, download, manajemen file",
+      "kriteria": "Praktik HDFS (simulasi atau VM)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Instalasi Hadoop (single node); perintah HDFS (put, get, ls, mkdir, chmod); replikasi data",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3: Penyimpanan data terdistribusi",
+      "indikator": "Kemampuan mengkonfigurasi HDFS dan memahami fault tolerance",
+      "kriteria": "Tugas individu: mengelola file di HDFS",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Block size, replication factor, rack awareness; HDFS high availability",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4: MapReduce dasar",
+      "indikator": "Kemampuan menulis program MapReduce (WordCount) dalam Java/Python",
+      "kriteria": "Tugas individu: WordCount",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "MapReduce programming model: Mapper, Reducer, Driver; contoh WordCount",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4: MapReduce lanjut (join, sorting, combiner)",
+      "indikator": "Kemampuan mengimplementasikan operasi join dan combiner",
+      "kriteria": "Tugas kelompok: analisis data log dengan MapReduce",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Reduce-side join, map-side join, secondary sort, combiner untuk optimasi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5: NoSQL Database",
+      "indikator": "Kemampuan menjelaskan jenis NoSQL dan mengimplementasikan CRUD sederhana (MongoDB)",
+      "kriteria": "Kuis; praktik MongoDB",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Jenis NoSQL: key-value (Redis), document (MongoDB), column-family (Cassandra), graph (Neo4j); dasar MongoDB",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS: Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep Big Data, HDFS, MapReduce, NoSQL",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6: Pengenalan Apache Spark",
+      "indikator": "Kemampuan menjelaskan arsitektur Spark dan perbedaan dengan MapReduce",
+      "kriteria": "Diskusi; instalasi Spark",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Spark vs MapReduce; RDD (Resilient Distributed Dataset); SparkSession; operasi transformasi dan aksi",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6: Pemrosesan streaming dengan Spark Streaming",
+      "indikator": "Kemampuan membuat aplikasi streaming sederhana",
+      "kriteria": "Tugas individu: streaming data log",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "DStream; window operations; integrasi dengan Kafka",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7: Analitik Big Data dengan PySpark",
+      "indikator": "Kemampuan melakukan eksplorasi data dan statistik deskriptif menggunakan PySpark",
+      "kriteria": "Tugas kelompok: analisis dataset besar",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "PySpark DataFrame API; filtering, aggregation, join; SQL di Spark",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8: Visualisasi Big Data",
+      "indikator": "Kemampuan membuat visualisasi interaktif dari data besar",
+      "kriteria": "Tugas individu: dashboard sederhana",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Tools visualisasi: Tableau, Power BI, atau Python (Matplotlib, Seaborn, Plotly); best practices",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9: Keamanan, privasi, dan etika Big Data",
+      "indikator": "Kemampuan menjelaskan isu privasi (anonymization, GDPR, UU PDP) dan etika",
+      "kriteria": "Studi kasus; esai pendek",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Data anonymization, pseudonymization; regulasi (GDPR, UU PDP); ethical use of Big Data; bias dalam data",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10: Proyek Big Data – Persiapan dan analisis",
+      "indikator": "Kemampuan memilih dataset, melakukan preprocessing, dan analisis awal",
+      "kriteria": "Proposal proyek kelompok",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Kuliah daring sinkron; TM: 3x50",
+      "materi": "Pemilihan dataset (open data), data cleaning, eksplorasi, perumusan pertanyaan bisnis",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10: Finalisasi dan presentasi proyek",
+      "indikator": "Kemampuan menyelesaikan analisis, visualisasi, dan mempresentasikan hasil",
+      "kriteria": "Presentasi kelompok (15 menit)",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Presentasi daring sinkron; TM: 3x50",
+      "materi": "Presentasi laporan analisis, insight, rekomendasi",
+      "bobot": "8%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS: Ujian Akhir Semester",
+      "indikator": "Menjawab soal integratif tentang Spark, analitik Big Data, visualisasi, etika, dan studi kasus",
+      "kriteria": "Ujian tertulis online",
+      "tatap_muka": "Kuliah TM: 3x50",
+      "daring": "Ujian daring sinkron; TM: 3x50",
+      "materi": "Seluruh materi (minggu 1–15)",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep Big Data: karakteristik 5V (Volume, Variety, Velocity, Veracity, Value)\n2. Ekosistem dan teknologi Big Data (Hadoop, Spark)\n3. Pengumpulan dan penyimpanan data besar\n4. Pemrosesan data batch dan real-time streaming\n5. NoSQL database dalam konteks Big Data\n6. Analitik Big Data dan machine learning\n7. Visualisasi dan pelaporan data besar\n8. Keamanan, privasi, dan etika pengelolaan Big Data",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "White, T. (2015). *Hadoop: The Definitive Guide* (4th ed.). O'Reilly Media."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Zaharia, M., & Chambers, B. (2018). *Spark: The Definitive Guide: Big Data Processing Made Simple*. O'Reilly Media."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Marz, N., & Warren, J. (2015). *Big Data: Principles and Best Practices of Scalable Real-Time Data Systems*. Manning Publications."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Sadalage, P. J., & Fowler, M. (2012). *NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence*. Addison-Wesley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Kelleher, J. D., & Tierney, B. (2018). *Data Science*. MIT Press."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam mengelola dan menganalisis data berskala besar (Big Data). Materi meliputi karakteristik Big Data (5V), ekosistem Hadoop (HDFS, MapReduce, YARN), penyimpanan data terdistribusi, NoSQL database, pemrosesan batch dan real-time menggunakan Apache Spark, analitik Big Data dengan PySpark, visualisasi data besar, serta isu keamanan, privasi, dan etika. Mahasiswa akan mempraktikkan penggunaan tools Big Data melalui studi kasus dan proyek kelompok untuk mengolah dataset nyata, menghasilkan insight, dan menyajikan hasil analisis secara profesional.",
+  "matakuliah_syarat": "TSI3108 Sistem Basis Data, TSI3213 Statistika dan Probabilitas"
+}

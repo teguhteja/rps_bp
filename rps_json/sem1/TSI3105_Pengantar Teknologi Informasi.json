@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "kode_mk": "TSI3105",
+    "nama_mk": "Pengantar Teknologi Informasi",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Umum",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
+    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
+    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
+    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dasar teknologi informasi dan komunikasi serta sejarah perkembangan komputer"},
+    {"kode": "CPMK-2", "cpl": "P-01, S-09", "deskripsi": "Mampu menjelaskan komponen perangkat keras, perangkat lunak, dan sistem bilangan"},
+    {"kode": "CPMK-3", "cpl": "P-02, KK-01", "deskripsi": "Mampu memahami dasar-dasar jaringan komputer, internet, dan keamanan informasi dasar"},
+    {"kode": "CPMK-4", "cpl": "P-02, KK-06", "deskripsi": "Mampu menjelaskan pemanfaatan teknologi informasi dalam kehidupan dan bisnis"},
+    {"kode": "CPMK-5", "cpl": "KU-01, S-09", "deskripsi": "Mampu mengidentifikasi isu etika, sosial, dan hukum dalam TI serta penerapannya"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar TI, data, informasi, dan pengetahuan", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan sejarah dan perkembangan komputer dari generasi ke generasi", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan komponen perangkat keras komputer (input, proses, output, storage)", "cpmk": "CPMK-2", "minggu": "3–4", "cpl": "C2"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan perangkat lunak (sistem operasi, aplikasi, bahasa pemrograman)", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan sistem bilangan (biner, oktal, desimal, heksadesimal) dan representasi data", "cpmk": "CPMK-2", "minggu": "6", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan dasar-dasar jaringan komputer, internet, dan protokol", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C2"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan konsep keamanan informasi dasar (CIA Triad, ancaman, perlindungan)", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C2"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan pemanfaatan TI dalam kehidupan (e-commerce, e-learning, e-government, dll)", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan isu etika, sosial, dan hukum dalam TI (UU ITE, privasi, HAKI)", "cpmk": "CPMK-5", "minggu": "12–13", "cpl": "C2–C3"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun makalah/paper tentang perkembangan TI dan presentasi", "cpmk": "CPMK-4, CPMK-5", "minggu": "14–16", "cpl": "C4–C5"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep dasar TI", "indikator": "Ketepatan mendefinisikan data, informasi, pengetahuan, dan teknologi informasi", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Definisi TI, perbedaan data, informasi, pengetahuan", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2 : Sejarah dan perkembangan komputer", "indikator": "Kemampuan menjelaskan generasi komputer dan tokoh-tokoh penting", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Generasi 1-5, komputer modern, Moore's law", "bobot": "3%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3 : Perangkat keras (input, proses, output, storage)", "indikator": "Kemampuan mengidentifikasi dan menjelaskan fungsi perangkat keras", "kriteria": "Tugas kelompok (identifikasi PC)", "tatap_muka": "Kuliah + praktik (simulasi) TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "CPU, RAM, ROM, HDD/SSD, monitor, keyboard, mouse, printer, scanner", "bobot": "4%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Perangkat keras lanjutan (motherboard, bus, interface)", "indikator": "Kemampuan menjelaskan komponen internal komputer", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Motherboard, chipset, bus, port, ekspansi", "bobot": "4%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 4 : Perangkat lunak (sistem operasi, aplikasi, bahasa pemrograman)", "indikator": "Kemampuan membedakan jenis perangkat lunak dan contohnya", "kriteria": "Tugas individu (daftar software)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "OS (Windows, Linux, macOS), aplikasi (office, grafis), programming language", "bobot": "4%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 5 : Sistem bilangan dan representasi data", "indikator": "Kemampuan mengkonversi bilangan biner, oktal, desimal, heksadesimal", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Biner, desimal, oktal, heksadesimal, konversi, representasi teks (ASCII, Unicode)", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 6 : Dasar jaringan komputer dan internet", "indikator": "Kemampuan menjelaskan jenis jaringan, topologi, dan protokol dasar", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "LAN, MAN, WAN, topologi, TCP/IP, HTTP, DNS, IP address", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal tentang konsep TI, hardware, software, sistem bilangan, jaringan", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 7 : Keamanan informasi dasar", "indikator": "Kemampuan menjelaskan CIA Triad, ancaman (malware, phishing), dan perlindungan", "kriteria": "Kuis online; Diskusi", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Confidentiality, Integrity, Availability, enkripsi, firewall, antivirus", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 8 : Pemanfaatan TI dalam kehidupan (e-commerce, e-learning)", "indikator": "Kemampuan menjelaskan contoh aplikasi TI di berbagai bidang", "kriteria": "Tugas individu (esai singkat)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "E-commerce, e-learning, e-government, e-health, smart city", "bobot": "5%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 8 : TI dalam bisnis dan industri", "indikator": "Kemampuan menjelaskan peran TI dalam digitalisasi bisnis", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Diskusi interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "ERP, CRM, SCM, Big Data, AI, IoT", "bobot": "5%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 9 : Isu etika dalam TI", "indikator": "Kemampuan menjelaskan etika penggunaan TI, privasi, dan hak cipta", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Netiket, plagiarisme, hacking etis, whistleblowing", "bobot": "5%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 9 : Isu sosial dan hukum (UU ITE, HAKI)", "indikator": "Kemampuan menjelaskan UU ITE, UU PDP, dan HAKI di Indonesia", "kriteria": "Tugas individu (analisis kasus)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "UU ITE, UU PDP, perlindungan data pribadi, merek, paten", "bobot": "5%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10 : Persiapan makalah dan presentasi", "indikator": "Kemampuan menyusun makalah tentang tren TI terkini", "kriteria": "Proposal makalah", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Topik: AI, blockchain, cloud computing, cybersecurity, dll", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10 : Presentasi makalah", "indikator": "Kemampuan mempresentasikan dan diskusi", "kriteria": "Presentasi kelompok + tanya jawab", "tatap_muka": "Presentasi TM: 2x50", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi hasil makalah", "bobot": "8%"},
+    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester + Refleksi", "indikator": "Menjawab soal integratif tentang pemanfaatan TI dan etika", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Seluruh materi (keamanan, pemanfaatan, isu etika, presentasi)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Konsep dasar teknologi informasi dan komunikasi\n2. Sejarah dan perkembangan komputer\n3. Komponen perangkat keras dan perangkat lunak\n4. Sistem bilangan dan representasi data digital\n5. Dasar-dasar jaringan dan internet\n6. Keamanan informasi dasar\n7. Pemanfaatan teknologi informasi dalam kehidupan dan bisnis\n8. Isu etika, sosial, dan hukum dalam TI",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Williams, B. K., & Sawyer, S. C. (2015). *Using information technology: A practical introduction to computers & communications* (11th ed.). McGraw-Hill."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Stair, R. M., & Reynolds, G. W. (2018). *Principles of information systems* (13th ed.). Cengage Learning."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Kadir, A. (2019). *Pengantar teknologi informasi*. Penerbit Andi."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Shelly, G. B., & Vermaat, M. E. (2017). *Discovering computers: Digital technology, data, and devices*. Cengage Learning."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Undang-Undang ITE (UU No. 11 Tahun 2008 jo. UU No. 19 Tahun 2016)."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini memberikan fondasi dasar tentang teknologi informasi dan komunikasi bagi mahasiswa. Materi meliputi konsep dasar TI, sejarah dan perkembangan komputer, komponen perangkat keras dan perangkat lunak, sistem bilangan dan representasi data, dasar-dasar jaringan komputer dan internet, keamanan informasi dasar, pemanfaatan TI dalam berbagai bidang kehidupan dan bisnis, serta isu etika, sosial, dan hukum dalam pemanfaatan TI. Penekanan diberikan pada pemahaman konsep dan penerapannya dalam kehidupan sehari-hari serta persiapan untuk mata kuliah lanjutan di program studi sistem informasi.",
+  "matakuliah_syarat": "-"
+}

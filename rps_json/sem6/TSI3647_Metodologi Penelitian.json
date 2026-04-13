@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "kode_mk": "TSI3647",
+    "nama_mk": "Metodologi Penelitian",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 6,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.; Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "-"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-02",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep ilmu pengetahuan, penelitian ilmiah, dan paradigma penelitian (kualitatif, kuantitatif, mixed method, design science research)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KU-05",
+      "deskripsi": "Mampu merumuskan masalah penelitian, tujuan, hipotesis, dan melakukan tinjauan pustaka sistematis (SLR) menggunakan tools Mendeley/Zotero"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-01, KK-01",
+      "deskripsi": "Mampu memilih desain penelitian yang tepat, menentukan populasi, sampel, dan instrumen pengumpulan data"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-02, KK-02",
+      "deskripsi": "Mampu melakukan analisis data kuantitatif (statistik) dan kualitatif (coding, tematik), serta memahami etika penelitian dan pencegahan plagiarisme"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-04, KK-05",
+      "deskripsi": "Mampu menyusun proposal penelitian (Bab I, II, III) sesuai kaidah ilmiah dan mempresentasikannya dalam seminar proposal"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep ilmu pengetahuan, penelitian ilmiah, dan jenis penelitian",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membedakan paradigma penelitian (kualitatif, kuantitatif, mixed method, DSR)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu merumuskan masalah, tujuan, dan hipotesis penelitian",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu melakukan tinjauan pustaka sistematis (SLR) dan menggunakan manajer referensi (Mendeley/Zotero)",
+      "cpmk": "CPMK-2",
+      "minggu": "5–6",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menyusun kerangka teoritis dan konseptual penelitian",
+      "cpmk": "CPMK-2",
+      "minggu": "7",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang metodologi penelitian (desain, populasi, sampel, instrumen)",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan teknik analisis data (statistik deskriptif/inferensial, kualitatif)",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu memahami etika penelitian, plagiarisme, dan cara menghindarinya",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun proposal penelitian (Bab I, II, III) secara lengkap",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "cpl": "C5–P5"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan proposal penelitian dan merevisi berdasarkan masukan",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "cpl": "C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep ilmu pengetahuan dan penelitian ilmiah",
+      "indikator": "Ketepatan menjelaskan pengertian ilmu, pengetahuan, dan karakteristik penelitian ilmiah",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Ontologi, epistemologi, aksiologi; metode ilmiah; perbedaan penelitian dan laporan",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Jenis-jenis penelitian",
+      "indikator": "Kemampuan membedakan penelitian dasar vs terapan, eksperimen vs non-eksperimen, studi kasus, survei, dll",
+      "kriteria": "Studi kasus; Diskusi",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Jenis penelitian: berdasarkan tujuan, pendekatan, metode, dan bidang (sistem informasi)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Paradigma penelitian (kualitatif, kuantitatif, mixed method, DSR)",
+      "indikator": "Kemampuan menjelaskan karakteristik, kelebihan, dan kekurangan masing-masing paradigma",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Positivisme (kuantitatif), interpretivisme (kualitatif), pragmatisme (mixed), design science research (DSR) di SI",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Perumusan masalah, tujuan, dan hipotesis",
+      "indikator": "Kemampuan merumuskan masalah yang spesifik, terukur, relevan; serta hipotesis (jika kuantitatif)",
+      "kriteria": "Tugas individu (rumusan masalah)",
+      "tatap_muka": "Kuliah + workshop TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Kriteria masalah yang baik; variabel; hipotesis nol dan alternatif; pertanyaan penelitian",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 4 : Tinjauan pustaka sistematis (SLR)",
+      "indikator": "Kemampuan melakukan pencarian literatur, seleksi, dan sintesis",
+      "kriteria": "Tugas kelompok (draft tinjauan pustaka)",
+      "tatap_muka": "Kuliah + praktik TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "SLR: protocol, search string, inclusion/exclusion, PRISMA; tools: Google Scholar, Scopus",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Manajer referensi (Mendeley/Zotero)",
+      "indikator": "Kemampuan mengelola sitasi dan daftar pustaka secara otomatis",
+      "kriteria": "Tugas praktik (menggunakan Mendeley)",
+      "tatap_muka": "Praktik Mendeley TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Instalasi, import referensi, sitasi di Word, sinkronisasi, gaya sitasi (APA, IEEE)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Kerangka teoritis dan konseptual",
+      "indikator": "Kemampuan menyusun kerangka berpikir berdasarkan teori dan menghubungkan variabel",
+      "kriteria": "Tugas individu (kerangka konseptual)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Teori, model, kerangka konseptual; penelitian replikasi vs original",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep penelitian, paradigma, rumusan masalah, tinjauan pustaka, kerangka teoritis",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Desain penelitian dan populasi/sampel",
+      "indikator": "Kemampuan memilih desain (eksperimen, survei, studi kasus, grounded theory, DSR) dan menentukan sampel",
+      "kriteria": "Tugas kelompok (desain penelitian)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Desain penelitian; populasi, sampel, teknik sampling (random, purposive, convenience)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : Instrumen pengumpulan data",
+      "indikator": "Kemampuan merancang kuesioner, pedoman wawancara, observasi, atau studi dokumen",
+      "kriteria": "Tugas individu (instrumen)",
+      "tatap_muka": "Praktik pembuatan instrumen TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Kuesioner (skala Likert, Guttman), wawancara (terstruktur/semi), observasi, reliabilitas dan validitas",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Teknik analisis data",
+      "indikator": "Kemampuan menjelaskan analisis statistik (deskriptif, uji t, ANOVA, regresi, korelasi) dan analisis kualitatif (coding, tematik)",
+      "kriteria": "Kuis online; Tugas hitungan sederhana",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Statistik deskriptif, inferensial; uji normalitas; analisis kualitatif menggunakan NVivo atau manual",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8 : Etika penelitian dan plagiarisme",
+      "indikator": "Kemampuan menjelaskan informed consent, kerahasiaan, dan cara menghindari plagiarisme (paraphrase, sitasi)",
+      "kriteria": "Kuis online; Diskusi kasus",
+      "tatap_muka": "Diskusi interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Kode etik penelitian; plagiarisme (turnitin); sitasi yang benar; informed consent",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9 : Penyusunan proposal penelitian (Bab I, II, III)",
+      "indikator": "Kemampuan menulis proposal sesuai struktur ilmiah (pendahuluan, tinjauan pustaka, metodologi)",
+      "kriteria": "Draft proposal kelompok",
+      "tatap_muka": "Bimbingan penulisan TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur proposal; gaya penulisan; daftar pustaka; lampiran",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Finalisasi proposal",
+      "indikator": "Kemampuan merevisi proposal berdasarkan masukan dosen",
+      "kriteria": "Proposal final (siap seminar)",
+      "tatap_muka": "Bimbingan final TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Revisi proposal; pengecekan plagiarisme; persiapan presentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10 : Presentasi proposal (simulasi seminar)",
+      "indikator": "Kemampuan mempresentasikan proposal dan menjawab pertanyaan",
+      "kriteria": "Simulasi presentasi",
+      "tatap_muka": "Presentasi TM: 2x50",
+      "daring": "Presentasi daring; [TM: 2×50']",
+      "materi": "Teknik presentasi ilmiah; menjawab pertanyaan; menyiapkan slide",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Seminar proposal + Ujian Akhir Semester",
+      "indikator": "Kemampuan mempresentasikan proposal di depan dosen penguji dan menjawab soal integratif",
+      "kriteria": "Presentasi proposal + ujian tertulis",
+      "tatap_muka": "Seminar proposal + UAS TM: 2x50",
+      "daring": "Seminar daring + UAS online; [TM: 2×50']",
+      "materi": "Seluruh materi metodologi penelitian + proposal",
+      "bobot": "18%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep ilmu pengetahuan dan penelitian ilmiah\n2. Jenis dan desain penelitian (kualitatif, kuantitatif, mixed method)\n3. Perumusan masalah, tujuan, dan hipotesis penelitian\n4. Tinjauan pustaka dan kajian literatur sistematis\n5. Teknik pengumpulan data: survei, wawancara, observasi\n6. Analisis data kuantitatif dan kualitatif\n7. Penulisan proposal dan laporan ilmiah\n8. Etika penelitian dan pencegahan plagiarisme",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Creswell, J. W. (2014). *Research design: Qualitative, quantitative, and mixed methods approaches* (4th ed.). SAGE Publications."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Sekaran, U., & Bougie, R. (2016). *Research methods for business: A skill-building approach* (7th ed.). Wiley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Neuman, W. L. (2014). *Social research methods: Qualitative and quantitative approaches* (7th ed.). Pearson."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Hevner, A. R., & Chatterjee, S. (2010). *Design research in information systems*. Springer."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Pedoman Penulisan Skripsi/Tugas Akhir ITEKES Bintang Persada (2026)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam melakukan penelitian ilmiah di bidang sistem informasi, khususnya untuk menyusun proposal tugas akhir/skripsi. Materi meliputi konsep penelitian, paradigma (kualitatif, kuantitatif, mixed method, design science research), perumusan masalah dan hipotesis, tinjauan pustaka sistematis (SLR) dengan manajer referensi, desain penelitian, populasi dan sampel, instrumen pengumpulan data, teknik analisis data (statistik dan kualitatif), etika penelitian, pencegahan plagiarisme, serta penulisan proposal penelitian. Penekanan diberikan pada praktik penyusunan proposal (Bab I, II, III) dan presentasi dalam seminar proposal.",
+  "matakuliah_syarat": "TSI3213 (Statistika dan Probabilitas) – direkomendasikan"
+}

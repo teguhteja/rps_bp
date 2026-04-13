@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "kode_mk": "TSI1102",
+    "nama_mk": "Bahasa Indonesia",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Umum / Bela Negara / Pendidikan Umum (Kepribadian)",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {"kode": "S-02", "tipe": "Sikap", "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"},
+    {"kode": "S-03", "tipe": "Sikap", "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila"},
+    {"kode": "S-06", "tipe": "Sikap", "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"},
+    {"kode": "S-08", "tipe": "Sikap", "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"},
+    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
+    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
+    {"kode": "KU-04", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi"},
+    {"kode": "KK-02", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"}
+  ],
+  "cpmk": [
+    {"kode": "CPMK-1", "cpl": "S-02, KU-01", "deskripsi": "Mampu menjelaskan kedudukan, fungsi, dan ragam bahasa Indonesia sebagai bahasa negara dan bahasa ilmiah"},
+    {"kode": "CPMK-2", "cpl": "S-06, KU-02", "deskripsi": "Mampu menerapkan kaidah Ejaan Bahasa Indonesia (EBI) dan tanda baca secara tepat dalam penulisan akademik"},
+    {"kode": "CPMK-3", "cpl": "S-08, KU-04", "deskripsi": "Mampu menyusun paragraf ilmiah yang kohesif dan koheren serta mengorganisasikan gagasan secara sistematis"},
+    {"kode": "CPMK-4", "cpl": "KU-01, KK-02", "deskripsi": "Mampu menulis karya ilmiah (makalah, laporan, artikel) dengan memperhatikan kutipan, referensi, dan daftar pustaka sesuai standar"},
+    {"kode": "CPMK-5", "cpl": "S-03, KU-04", "deskripsi": "Mampu mempresentasikan gagasan ilmiah secara lisan dan tertulis dengan bahasa Indonesia yang efektif dan santun"}
+  ],
+  "sub_cpmk": [
+    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan sejarah, kedudukan, dan fungsi bahasa Indonesia", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
+    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mengidentifikasi ragam bahasa Indonesia (ilmiah, jurnalistik, bisnis) dan menggunakannya sesuai konteks", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C3"},
+    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menerapkan Ejaan Bahasa Indonesia (EBI) dan tanda baca dalam penulisan", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C3"},
+    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menyusun kalimat efektif dan paragraf yang kohesif", "cpmk": "CPMK-3", "minggu": "4", "cpl": "C3"},
+    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu mengembangkan penalaran ilmiah dalam bentuk argumen dan opini", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C4"},
+    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menulis karya ilmiah (makalah) dengan struktur yang benar", "cpmk": "CPMK-4", "minggu": "6-7", "cpl": "C4-P4"},
+    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menggunakan teknik kutipan (langsung dan tidak langsung) dan menyusun daftar pustaka", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C3"},
+    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menulis laporan teknis dan dokumentasi profesional sederhana", "cpmk": "CPMK-4", "minggu": "10-11", "cpl": "C4-P4"},
+    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu mempresentasikan hasil karya ilmiah dengan bahasa yang efektif", "cpmk": "CPMK-5", "minggu": "12-13", "cpl": "C5-P4"},
+    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyunting dan merevisi tulisan sendiri maupun orang lain", "cpmk": "CPMK-5", "minggu": "14-15", "cpl": "C5"}
+  ],
+  "detail": [
+    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Sejarah, kedudukan, dan fungsi bahasa Indonesia", "indikator": "Ketepatan menjelaskan peran bahasa Indonesia sebagai bahasa negara dan bahasa ilmiah", "kriteria": "Kuis online, diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Sejarah bahasa Indonesia, Sumpah Pemuda, fungsi bahasa nasional dan bahasa negara", "bobot": "3%"},
+    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Ragam bahasa Indonesia", "indikator": "Kemampuan membedakan ragam ilmiah, jurnalistik, dan bisnis", "kriteria": "Tugas individu: analisis ragam bahasa", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ragam lisan dan tulis, ragam formal dan nonformal, ciri ragam ilmiah", "bobot": "4%"},
+    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Ejaan Bahasa Indonesia (EBI) dan tanda baca", "indikator": "Ketepatan penggunaan huruf kapital, tanda baca, dan penulisan kata", "kriteria": "Kuis, latihan soal", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pedoman EBI, penggunaan huruf, penulisan kata, tanda baca (titik, koma, titik dua, dll)", "bobot": "5%"},
+    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Kalimat efektif dan paragraf", "indikator": "Kemampuan menyusun kalimat efektif dan paragraf kohesif-koheren", "kriteria": "Tugas individu: perbaikan kalimat", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ciri kalimat efektif (kesepadanan, kehematan, kelogisan), paragraf deduktif-induktif, transisi", "bobot": "5%"},
+    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Penalaran ilmiah dan argumentasi", "indikator": "Kemampuan menyusun argumen logis dan kritis", "kriteria": "Tugas kelompok: debat ilmiah mini", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Logika berpikir induktif-deduktif, fakta vs opini, koherensi argumen", "bobot": "5%"},
+    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Penulisan karya ilmiah (struktur makalah)", "indikator": "Kemampuan menyusun pendahuluan, isi, penutup makalah", "kriteria": "Tugas individu: draft makalah", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Struktur makalah: judul, abstrak, pendahuluan, pembahasan, kesimpulan, daftar pustaka", "bobot": "5%"},
+    {"minggu": 7, "deskripsi": "Sub-CPMK 6: Penulisan karya ilmiah (pengembangan isi)", "indikator": "Kemampuan mengembangkan topik dengan data dan referensi", "kriteria": "Tugas kelompok: makalah kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Teknik pengembangan paragraf, integrasi kutipan, penyajian data", "bobot": "5%"},
+    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep kebahasaan, ejaan, kalimat, paragraf, dan penalaran", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
+    {"minggu": 9, "deskripsi": "Sub-CPMK 7: Kutipan dan daftar pustaka", "indikator": "Kemampuan menulis kutipan langsung dan tidak langsung serta daftar pustaka sesuai gaya (APA/MLA)", "kriteria": "Tugas individu: latihan kutipan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Kutipan langsung (≤40 kata, >40 kata), kutipan tidak langsung, penulisan daftar pustaka (buku, jurnal, website)", "bobot": "5%"},
+    {"minggu": 10, "deskripsi": "Sub-CPMK 8: Penulisan laporan teknis", "indikator": "Kemampuan menulis laporan sederhana (observasi, praktikum)", "kriteria": "Tugas individu: laporan teknis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Struktur laporan: pendahuluan, metode, hasil, pembahasan, kesimpulan; bahasa laporan", "bobot": "6%"},
+    {"minggu": 11, "deskripsi": "Sub-CPMK 8: Dokumentasi profesional", "indikator": "Kemampuan menulis memo, notulen rapat, dan email profesional", "kriteria": "Tugas kelompok: simulasi dokumen", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Format memo, notulen rapat, email formal, etika komunikasi tertulis", "bobot": "6%"},
+    {"minggu": 12, "deskripsi": "Sub-CPMK 9: Presentasi ilmiah (persiapan)", "indikator": "Kemampuan menyusun slide presentasi yang efektif", "kriteria": "Tugas kelompok: draft presentasi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Prinsip presentasi, desain slide, bahasa lisan yang baik, manajemen waktu", "bobot": "6%"},
+    {"minggu": 13, "deskripsi": "Sub-CPMK 9: Simulasi presentasi", "indikator": "Kemampuan menyampaikan gagasan secara lisan dengan percaya diri", "kriteria": "Presentasi kelompok (10 menit)", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Latihan presentasi, intonasi, kontak mata, menjawab pertanyaan", "bobot": "6%"},
+    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Penyuntingan dan revisi", "indikator": "Kemampuan mengidentifikasi kesalahan ejaan, struktur, dan logika tulisan", "kriteria": "Tugas individu: suntingan naskah", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Teknik editing, proofreading, cek plagiarisme, penggunaan tools penyunting", "bobot": "6%"},
+    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Finalisasi karya ilmiah", "indikator": "Kemampuan menghasilkan makalah/laporan siap unggah", "kriteria": "Pengumpulan karya final", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Format penulisan akhir, pengecekan kelengkapan, unggah ke repository", "bobot": "6%"},
+    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang penulisan karya ilmiah, kutipan, daftar pustaka, dan presentasi", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "18%"}
+  ],
+  "bahan_kajian": "1. Pembinaan dan pengembangan Bahasa Indonesia\n2. Ejaan Bahasa Indonesia (EBI) yang disempurnakan\n3. Jenis-jenis paragraf dan pengorganisasian teks\n4. Penalaran ilmiah dan argumentasi\n5. Penulisan karya ilmiah dan laporan teknis\n6. Kutipan, rujukan, dan penulisan daftar pustaka\n7. Artikel ilmiah dan abstrak",
+  "pustaka_utama": [
+    {"kode": "P1", "jenis": "Utama", "referensi": "Kementerian Pendidikan dan Kebudayaan. (2016). *Pedoman Umum Ejaan Bahasa Indonesia (PUEBI)*. Badan Pengembangan dan Pembinaan Bahasa."},
+    {"kode": "P2", "jenis": "Utama", "referensi": "Dalman, H. (2019). *Keterampilan Menulis* (Edisi Revisi). Rajawali Pers."},
+    {"kode": "P3", "jenis": "Utama", "referensi": "Keraf, G. (2010). *Argumentasi dan Narasi*. Gramedia Pustaka Utama."}
+  ],
+  "pustaka_pendukung": [
+    {"kode": "P4", "jenis": "Pendukung", "referensi": "Chaer, A. (2015). *Tata Bahasa Praktis Bahasa Indonesia*. Rineka Cipta."},
+    {"kode": "P5", "jenis": "Pendukung", "referensi": "Widjono, H. S. (2018). *Bahasa Indonesia: Mata Kuliah Pengembangan Kepribadian di Perguruan Tinggi*. Grasindo."},
+    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan kemampuan berbahasa Indonesia yang baik dan benar dalam konteks akademik dan profesional. Materi meliputi sejarah dan fungsi bahasa Indonesia, ragam bahasa, Ejaan Bahasa Indonesia (EBI), kalimat efektif, paragraf kohesif-koheren, penalaran ilmiah, penulisan karya ilmiah (makalah, laporan teknis), teknik kutipan dan daftar pustaka, serta presentasi ilmiah. Mahasiswa akan berlatih menulis, menyunting, dan mempresentasikan gagasan secara lisan dan tertulis dengan memperhatikan etika akademik dan anti-plagiarisme.",
+  "matakuliah_syarat": "-"
+}

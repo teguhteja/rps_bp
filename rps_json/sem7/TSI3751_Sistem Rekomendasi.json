@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "kode_mk": "TSI3751",
+    "nama_mk": "Sistem Rekomendasi",
+    "sks_total": 3,
+    "sks_teori": 3,
+    "sks_praktik": 0,
+    "semester": 7,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan kaidah rekayasa perangkat lunak"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dan arsitektur sistem rekomendasi serta perannya dalam platform digital"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-03",
+      "deskripsi": "Mampu menerapkan metode collaborative filtering (user-based dan item-based) untuk membangun rekomendasi"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KK-11",
+      "deskripsi": "Mampu menerapkan metode content-based filtering dan hybrid recommendation systems"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-02, KK-04",
+      "deskripsi": "Mampu menggunakan matrix factorization dan deep learning untuk sistem rekomendasi"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-04, KK-01",
+      "deskripsi": "Mampu mengevaluasi sistem rekomendasi (Precision@K, Recall@K, NDCG) serta menangani cold start problem"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep sistem rekomendasi, jenis, dan arsitektur umum",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan matriks user-item, sparsity, dan similarity metrics (cosine, pearson)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "cpl": "C2–C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan user-based collaborative filtering",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan item-based collaborative filtering",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menerapkan content-based filtering dengan TF-IDF dan profile building",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "cpl": "C3–P4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang hybrid recommendation systems (weighted, switching, cascade)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menggunakan matrix factorization (SVD, FunkSVD) dan deep learning (autoencoder, neural CF)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan cold start problem dan solusinya (hybrid, popularity, demografi)",
+      "cpmk": "CPMK-5",
+      "minggu": "12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan evaluasi sistem rekomendasi dengan metrik (Precision, Recall, F1, NDCG, MAP)",
+      "cpmk": "CPMK-5",
+      "minggu": "13",
+      "cpl": "C4–P4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengimplementasikan sistem rekomendasi sederhana dan mempresentasikannya",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "14–16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Pengantar sistem rekomendasi",
+      "indikator": "Ketepatan mendefinisikan sistem rekomendasi, jenis (personalized, non-personalized), dan contoh aplikasi",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
+      "materi": "Definisi, manfaat, contoh (Netflix, Amazon, Spotify, YouTube), arsitektur umum",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Representasi data dan eksplorasi",
+      "indikator": "Kemampuan membangun matriks user-item dan mengidentifikasi sparsity",
+      "kriteria": "Tugas praktik (Python)",
+      "tatap_muka": "Praktik coding TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Matriks user-item, sparsity, implicit vs explicit feedback, one-hot encoding",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Similarity metrics",
+      "indikator": "Kemampuan menghitung cosine similarity, pearson correlation, dan jaccard",
+      "kriteria": "Kuis online; Tugas hitungan",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Cosine similarity, adjusted cosine, pearson, jaccard, euclidean",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : User-based collaborative filtering",
+      "indikator": "Kemampuan menghitung prediksi rating berdasarkan neighbor similarity",
+      "kriteria": "Tugas coding (user-based CF)",
+      "tatap_muka": "Praktik CF TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Algoritma user-based: mencari neighbor, weighted average, baseline",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Optimasi dan normalisasi user-based CF",
+      "indikator": "Kemampuan menerapkan mean-centering dan z-score normalization",
+      "kriteria": "Tugas coding lanjutan",
+      "tatap_muka": "Praktik normalisasi TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Mean-centering, z-score, selection of neighbors (k)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Item-based collaborative filtering",
+      "indikator": "Kemampuan menghitung similarity antar item dan memprediksi rating",
+      "kriteria": "Tugas coding (item-based CF)",
+      "tatap_muka": "Praktik item-based TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Item similarity, adjusted cosine, perbandingan dengan user-based",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Content-based filtering",
+      "indikator": "Kemampuan membangun profile pengguna berdasarkan fitur item (TF-IDF)",
+      "kriteria": "Tugas coding (content-based)",
+      "tatap_muka": "Praktik content-based TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "TF-IDF, vector space model, profile building, rekomendasi berdasarkan kesamaan konten",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep dan implementasi dasar CF dan content-based",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 3x50",
+      "daring": "Ujian daring sinkron; [TM: 3×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Hybrid recommendation systems",
+      "indikator": "Kemampuan merancang hybrid (weighted, switching, cascade, feature combination)",
+      "kriteria": "Tugas kelompok (desain hybrid)",
+      "tatap_muka": "Kuliah + diskusi TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Weighted hybrid, switching, cascade, meta-level, feature augmentation",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 7 : Matrix factorization (SVD)",
+      "indikator": "Kemampuan menjelaskan SVD untuk collaborative filtering dan implementasi dasar",
+      "kriteria": "Kuis online; Tugas coding (SVD)",
+      "tatap_muka": "Praktik SVD TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Faktorisasi matriks, SVD, FunkSVD (gradient descent), regularisasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Deep learning untuk rekomendasi",
+      "indikator": "Kemampuan menjelaskan autoencoder, neural collaborative filtering (NCF)",
+      "kriteria": "Tugas coding (autoencoder sederhana)",
+      "tatap_muka": "Praktik neural CF TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Autoencoder, NCF (GMF, MLP), wide & deep, embeddings",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 8 : Cold start problem dan solusinya",
+      "indikator": "Kemampuan menjelaskan cold start (user, item, system) dan solusi (popularity, demografi, hybrid, active learning)",
+      "kriteria": "Studi kasus; Diskusi",
+      "tatap_muka": "Kuliah interaktif TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Cold start: new user, new item, new system; solusi: popularity, demographic, hybrid",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 9 : Evaluasi sistem rekomendasi",
+      "indikator": "Kemampuan menghitung Precision@K, Recall@K, F1@K, NDCG, MAP, RMSE",
+      "kriteria": "Tugas hitungan dan coding",
+      "tatap_muka": "Praktik evaluasi TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Offline evaluation: hold-out, cross-validation; metrik (P@K, R@K, NDCG, MAP, MAE, RMSE)",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 10 : Proyek sistem rekomendasi (persiapan)",
+      "indikator": "Kemampuan merancang dan memulai implementasi sistem rekomendasi (studi kasus)",
+      "kriteria": "Proposal proyek",
+      "tatap_muka": "Bimbingan proyek TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Pemilihan dataset, metode, evaluasi, timeline",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 10 : Implementasi dan pengujian",
+      "indikator": "Kemampuan menyelesaikan kode sistem rekomendasi dan melakukan evaluasi",
+      "kriteria": "Laporan proyek (draft)",
+      "tatap_muka": "Bimbingan proyek TM: 3x50",
+      "daring": "Kuliah daring sinkron; [TM: 3×50']",
+      "materi": "Implementasi, debugging, evaluasi, dokumentasi",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
+      "indikator": "Kemampuan mempresentasikan sistem rekomendasi dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis",
+      "tatap_muka": "Presentasi + UAS TM: 3x50",
+      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
+      "materi": "Seluruh materi (CF, content-based, hybrid, matrix factorization, deep learning, cold start, evaluasi) + proyek",
+      "bobot": "20%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan arsitektur sistem rekomendasi\n2. Collaborative filtering (user-based dan item-based)\n3. Content-based filtering\n4. Hybrid recommendation systems\n5. Matrix factorization dan deep learning untuk rekomendasi\n6. Evaluasi sistem rekomendasi (Precision@K, Recall@K, NDCG)\n7. Cold start problem dan solusinya\n8. Implementasi sistem rekomendasi pada platform digital",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Aggarwal, C. C. (2016). *Recommender systems: The textbook*. Springer."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Jannach, D., Zanker, M., Felfernig, A., & Friedrich, G. (2011). *Recommender systems: An introduction*. Cambridge University Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Ricci, F., Rokach, L., & Shapira, B. (2015). *Recommender systems handbook* (2nd ed.). Springer."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. *IEEE Computer*, 42(8), 30-37."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. S. (2017). Neural collaborative filtering. *WWW 2017*, 173-182."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam merancang, mengimplementasikan, dan mengevaluasi sistem rekomendasi untuk platform digital. Materi meliputi konsep dan arsitektur sistem rekomendasi, collaborative filtering (user-based dan item-based), content-based filtering, hybrid recommendation systems, matrix factorization (SVD, FunkSVD), deep learning untuk rekomendasi (autoencoder, neural collaborative filtering), cold start problem, serta metrik evaluasi (Precision@K, Recall@K, NDCG, MAP, RMSE). Penekanan diberikan pada implementasi menggunakan Python (scikit-learn, surprise, tensorflow/pytorch) dan studi kasus pada dataset nyata (MovieLens, Amazon).",
+  "matakuliah_syarat": "TSI3749 (Machine Learning) – direkomendasikan"
+}

@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "kode_mk": "TSI3325",
+    "nama_mk": "Startup Digital",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 3,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Penciri Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+    "dosen_sign": "",
+    "nuptk": "0547768669130333",
+    "pangkat_golongan": "",
+    "jabatan": ""
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+    },
+    {
+      "kode": "P-04",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"
+    },
+    {
+      "kode": "P-05",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship) untuk mengidentifikasi dan mengembangkan peluang usaha di bidang sistem informasi"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+    },
+    {
+      "kode": "KK-09",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis"
+    },
+    {
+      "kode": "KK-10",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01, S-10",
+      "deskripsi": "Mampu memahami konsep startup digital, ekosistem teknologi startup di Indonesia, dan Lean Startup methodology"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-05, KK-10, S-10",
+      "deskripsi": "Mampu menerapkan Business Model Canvas (BMC) dan Value Proposition Design untuk merancang model bisnis startup"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-04, KK-01, KU-05",
+      "deskripsi": "Mampu melakukan pengembangan produk dengan pendekatan MVP, iterasi, dan product-market fit"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-02, KK-11",
+      "deskripsi": "Mampu merancang strategi digital marketing, growth hacking, dan customer acquisition untuk startup"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KK-09, KU-05",
+      "deskripsi": "Mampu memahami pembiayaan startup (bootstrapping, angel investor, venture capital), legal, regulasi, dan exit strategy"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep startup digital, perbedaan dengan bisnis tradisional, dan ekosistem startup di Indonesia",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "cpl": "C2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menerapkan Lean Startup methodology (Build-Measure-Learn cycle)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menyusun Business Model Canvas (BMC) untuk ide startup",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu merancang Value Proposition Canvas dan melakukan customer discovery",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "cpl": "C4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu merancang Minimum Viable Product (MVP) dan melakukan iterasi produk",
+      "cpmk": "CPMK-3",
+      "minggu": "7–8",
+      "cpl": "C4–C5"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan konsep digital marketing, growth hacking, dan customer acquisition",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "cpl": "C3–C4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan sumber pendanaan startup (bootstrapping, angel investor, venture capital)",
+      "cpmk": "CPMK-5",
+      "minggu": "11–12",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan legal, regulasi, HKI, dan exit strategy untuk startup digital",
+      "cpmk": "CPMK-5",
+      "minggu": "13",
+      "cpl": "C3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun rencana bisnis startup digital (business plan) dan mempresentasikannya",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "14–16",
+      "cpl": "C5–C6"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": 1,
+      "deskripsi": "Sub-CPMK 1 : Konsep startup digital dan ekosistem",
+      "indikator": "Ketepatan mendefinisikan startup digital, membedakan dengan bisnis tradisional, dan memetakan ekosistem",
+      "kriteria": "Kuis online; Tugas latihan soal",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
+      "materi": "Definisi startup; karakteristik (scalable, repeatable, uncertain); ekosistem: inkubator, akselerator, investor, komunitas",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 2,
+      "deskripsi": "Sub-CPMK 1 : Ekosistem startup di Indonesia dan studi kasus",
+      "indikator": "Ketepatan mengidentifikasi pemain utama (Gojek, Tokopedia, Traveloka) dan tantangan lokal",
+      "kriteria": "Forum diskusi; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Peta startup Indonesia; unicorn dan decacorn; kebijakan pemerintah (Gerakan 1000 Startup Digital)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": 3,
+      "deskripsi": "Sub-CPMK 2 : Lean Startup methodology",
+      "indikator": "Ketepatan menjelaskan Build-Measure-Learn cycle, pivoting, dan validasi pembelajaran",
+      "kriteria": "Kuis online; Studi kasus",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Lean Startup: siklus BML, MVP, pivoting, actionable metrics, validasi pembelajaran",
+      "bobot": "4%"
+    },
+    {
+      "minggu": 4,
+      "deskripsi": "Sub-CPMK 3 : Business Model Canvas (BMC)",
+      "indikator": "Kemampuan mengisi 9 blok BMC untuk ide startup",
+      "kriteria": "Tugas kelompok (BMC)",
+      "tatap_muka": "Kuliah interaktif + workshop TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "BMC: customer segments, value propositions, channels, customer relationships, revenue streams, key resources, key activities, key partnerships, cost structure",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 5,
+      "deskripsi": "Sub-CPMK 3 : Value Proposition Design",
+      "indikator": "Kemampuan membuat Value Proposition Canvas dan melakukan customer profiling",
+      "kriteria": "Tugas kelompok (Value Proposition)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Value Proposition Canvas: customer jobs, pains, gains; pain relievers, gain creators; fit problem-solution",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 6,
+      "deskripsi": "Sub-CPMK 4 : Customer discovery dan customer validation",
+      "indikator": "Kemampuan merancang wawancara pelanggan dan menguji hipotesis",
+      "kriteria": "Tugas individu (protokol wawancara)",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Customer development: discovery (uji masalah), validation (uji solusi); teknik wawancara pelanggan",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 7,
+      "deskripsi": "Sub-CPMK 5 : Minimum Viable Product (MVP)",
+      "indikator": "Kemampuan menentukan jenis MVP (landing page, video explainer, concierge, wizard of Oz)",
+      "kriteria": "Kuis online; Tugas desain MVP",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "MVP: definisi, jenis, contoh; metrik untuk MVP; iterasi berdasarkan feedback",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 8,
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "Menjawab soal konsep startup, Lean Startup, BMC, MVP",
+      "kriteria": "Ujian tertulis online (LMS)",
+      "tatap_muka": "Ujian TM: 2x50",
+      "daring": "Ujian daring sinkron; [TM: 2×50']",
+      "materi": "Materi Minggu 1–7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": 9,
+      "deskripsi": "Sub-CPMK 6 : Digital marketing untuk startup",
+      "indikator": "Ketepatan menjelaskan saluran digital (SEO, SEM, media sosial, email marketing, content marketing)",
+      "kriteria": "Kuis online; Tugas analisis saluran",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Digital marketing funnel; paid, owned, earned media; SEO, Google Ads, Facebook Ads, Instagram, TikTok",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 10,
+      "deskripsi": "Sub-CPMK 6 : Growth hacking dan customer acquisition",
+      "indikator": "Kemampuan menjelaskan teknik growth hacking (AARRR framework, viral loop, referral)",
+      "kriteria": "Studi kasus growth hacking; Tugas kelompok",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Growth hacking: AARRR (acquisition, activation, retention, referral, revenue); eksperimen; contoh Dropbox, Airbnb, Paytm",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 11,
+      "deskripsi": "Sub-CPMK 7 : Pembiayaan startup (bootstrapping, angel investor)",
+      "indikator": "Ketepatan menjelaskan kelebihan/kekurangan bootstrapping, angel investor, dan convertible note",
+      "kriteria": "Kuis online; Tugas individu",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Sumber pendanaan: bootstrapping, friends & family, angel investor; convertible note; valuasi awal",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 12,
+      "deskripsi": "Sub-CPMK 7 : Venture capital dan pendanaan lanjutan",
+      "indikator": "Ketepatan menjelaskan tahap pendanaan (seed, series A, B, C), term sheet, dan due diligence",
+      "kriteria": "Kuis online; Studi kasus pendanaan",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Venture capital: seed, series A/B/C; term sheet; equity crowdfunding; venture debt",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 13,
+      "deskripsi": "Sub-CPMK 8 : Legal, regulasi, HKI, dan exit strategy",
+      "indikator": "Ketepatan menjelaskan pendirian PT, perlindungan HKI, regulasi (UU ITE, pajak), dan opsi exit",
+      "kriteria": "Kuis online; Diskusi",
+      "tatap_muka": "Kuliah interaktif TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Legal: PT perorangan, PT biasa; HKI (merek, paten, hak cipta); regulasi e-commerce; exit: acquisition, IPO, MBO",
+      "bobot": "5%"
+    },
+    {
+      "minggu": 14,
+      "deskripsi": "Sub-CPMK 9 : Penyusunan rencana bisnis startup (business plan)",
+      "indikator": "Kemampuan menyusun business plan (eksekutif, analisis pasar, produk, pemasaran, keuangan, risiko)",
+      "kriteria": "Tugas proyek (draft business plan)",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Struktur business plan; proyeksi keuangan sederhana; analisis risiko; milestone",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 15,
+      "deskripsi": "Sub-CPMK 9 : Finalisasi business plan dan persiapan pitching",
+      "indikator": "Kemampuan menyempurnakan business plan dan membuat slide pitch deck",
+      "kriteria": "Laporan business plan final",
+      "tatap_muka": "Bimbingan proyek TM: 2x50",
+      "daring": "Kuliah daring sinkron; [TM: 2×50']",
+      "materi": "Pitch deck: problem, solution, market size, business model, traction, team, ask; tips pitching",
+      "bobot": "6%"
+    },
+    {
+      "minggu": 16,
+      "deskripsi": "UAS : Presentasi business plan + Ujian Akhir",
+      "indikator": "Kemampuan mempresentasikan business plan di depan kelas dan menjawab soal integratif",
+      "kriteria": "Presentasi kelompok + ujian tertulis",
+      "tatap_muka": "Presentasi + UAS TM: 2x50",
+      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
+      "materi": "Seluruh materi startup digital (ekosistem, BMC, MVP, growth hacking, pendanaan, legal, exit, business plan)",
+      "bobot": "18%"
+    }
+  ],
+  "bahan_kajian": "1. Konsep startup digital dan ekosistem teknologi startup di Indonesia\n2. Lean Startup methodology: Build-Measure-Learn cycle\n3. Business Model Canvas dan Value Proposition Design\n4. Product development: MVP, iterasi produk, dan product-market fit\n5. Digital marketing, growth hacking, dan customer acquisition\n6. Pembiayaan startup: bootstrapping, angel investor, venture capital\n7. Legal, regulasi, dan Hak Kekayaan Intelektual startup digital\n8. Scaling, exit strategy, dan studi kasus startup digital lokal dan global",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Ries, E. (2011). *The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses*. Crown Business."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Osterwalder, A., & Pigneur, Y. (2010). *Business model generation: A handbook for visionaries, game changers, and challengers*. John Wiley & Sons."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Maurya, A. (2012). *Running lean: Iterate from plan A to a plan that works*. O'Reilly Media."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Blank, S., & Dorf, B. (2012). *The startup owner's manual: The step-by-step guide for building a great company*. K&S Ranch."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Graham, P. (2019). *Startup: How to build a successful business*. (Kompilasi esai online)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep, metodologi, dan praktik membangun startup digital. Materi meliputi ekosistem startup di Indonesia, Lean Startup methodology (Build-Measure-Learn), Business Model Canvas (BMC), Value Proposition Design, pengembangan produk dengan MVP, digital marketing dan growth hacking, sumber pendanaan (bootstrapping, angel investor, venture capital), legal dan regulasi (termasuk HKI), exit strategy, serta penyusunan business plan dan pitching. Penekanan diberikan pada kemampuan merancang ide startup dan menyusun rencana bisnis yang viable.",
+  "matakuliah_syarat": "TSI3540 (Technopreneurship) – direkomendasikan (dapat diambil bersamaan atau setelah)"
+}
