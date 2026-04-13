@@ -22,3 +22,4 @@ output_*/
 
 # If you want to ignore all raw input JSONs but keep template structure, uncomment below
 # input*/
+sign/*
