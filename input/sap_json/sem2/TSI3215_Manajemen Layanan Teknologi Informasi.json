@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3215",
+    "nama_mk": "Manajemen Layanan Teknologi Informasi",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dan framework manajemen layanan TI (ITIL v4) serta perbedaannya dengan manajemen infrastruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Pengantar manajemen layanan TI",
+      "indikator_1": "Ketepatan mendefinisikan ITSM, perbedaan dengan IT governance dan IT technical management, serta manfaat framework",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi, ruang lingkup, dan manfaat manajemen layanan TI serta membedakannya dengan manajemen infrastruktur",
+      "pokok_bahasan": "Pengantar Manajemen Layanan TI",
+      "sub_pokok_bahasan_1": "Definisi ITSM dan nilai bisnis",
+      "sub_pokok_bahasan_2": "ITIL, ISO 20000, COBIT",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa pentingnya mengelola layanan TI?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi ITSM, perbedaan dengan manajemen teknis/governance, dan manfaat framework ITIL. Memberikan contoh implementasi sederhana.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi singkat",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi ITIL v4",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). ITIL Foundation: ITIL 4 Edition. Chapter 1",
+      "referensi_2": "van Bon, J. et al. (2018). ITIL 4: A Pocket Guide. Chapter 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dan framework manajemen layanan TI (ITIL v4) serta perbedaannya dengan manajemen infrastruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Framework ITIL v4",
+      "indikator_1": "Kemampuan menjelaskan sejarah ITIL, struktur sertifikasi, dan 7 prinsip guiding",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan sejarah ITIL, struktur sertifikasi, dan 7 prinsip guiding ITIL v4",
+      "pokok_bahasan": "Framework ITIL v4",
+      "sub_pokok_bahasan_1": "ITIL v4: 4 dimensi, 34 praktik",
+      "sub_pokok_bahasan_2": "7 prinsip guiding (focus on value, start where you are, dll)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Kapan ITIL mulai populer?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah ITIL (v1 – v4), struktur sertifikasi foundation, practitioner, master. Memaparkan 4 dimensi (organisasi, value streams, teknologi, partner) dan 7 prinsip guiding. Diskusi singkat relevansi prinsip.",
+          "mahasiswa": "Mencatat, berdiskusi, latihan mengidentifikasi prinsip dari studi kasus",
+          "media": "Slide, diagram dimensi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (membuat ringkasan 7 prinsip), menginformasikan materi service lifecycle",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 2-3",
+      "referensi_2": "van Bon, J. (2018). Chapter 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan service lifecycle (strategy, design, transition, operation, continual improvement) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Service lifecycle (gambaran umum)",
+      "indikator_1": "Kemampuan menjelaskan 5 fase (Strategy, Design, Transition, Operation, CSI) dan hubungannya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan 5 fase service lifecycle ITIL v4 dan keterkaitannya",
+      "pokok_bahasan": "Service Lifecycle ITIL v4",
+      "sub_pokok_bahasan_1": "5 fase lifecycle (Strategy, Design, Transition, Operation, CSI)",
+      "sub_pokok_bahasan_2": "Value chain activities",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa siklus hidup layanan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan setiap fase: Service Strategy, Service Design, Service Transition, Service Operation, Continual Service Improvement. Menunjukkan value chain activities. Diskusi kelompok kecil (breakout) tentang bagaimana fase saling terhubung.",
+          "mahasiswa": "Diskusi kelompok, mempresentasikan poin pemahaman",
+          "media": "Slide, diagram lifecycle"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (membuat peta konsep lifecycle), menginformasikan materi service strategy",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi; Tugas kelompok - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 4",
+      "referensi_2": "Watts, S. (2019). Chapter 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan service lifecycle (strategy, design, transition, operation, continual improvement) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Service strategy",
+      "indikator_1": "Kemampuan menjelaskan service portfolio, financial management, demand management, business case",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan komponen service strategy: portfolio, financial, demand, dan business case",
+      "pokok_bahasan": "Service Strategy",
+      "sub_pokok_bahasan_1": "Service portfolio dan value creation",
+      "sub_pokok_bahasan_2": "Financial management dan demand management",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana menentukan layanan TI yang layak diinvestasikan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan service portfolio (pipeline, catalog, retired), financial management (budgeting, accounting, charging), demand management (pola aktivitas, profil pengguna), dan business case. Contoh kasus penyusunan business case sederhana.",
+          "mahasiswa": "Mencatat, diskusi, latihan menyusun business case mini",
+          "media": "Slide, contoh dokumen"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (analisis business case), menginformasikan materi service design",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 5",
+      "referensi_2": "van Bon, J. (2018). Chapter 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan service lifecycle (strategy, design, transition, operation, continual improvement) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Service design",
+      "indikator_1": "Kemampuan menjelaskan service level management, capacity, availability, continuity, security, supplier management",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan komponen service design (SLM, capacity, availability, continuity, security, supplier)",
+      "pokok_bahasan": "Service Design",
+      "sub_pokok_bahasan_1": "Service level management (SLM)",
+      "sub_pokok_bahasan_2": "Capacity, availability, continuity, security, supplier management",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang perlu didesain untuk layanan TI baru?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan service design: konsep SLM, capacity management, availability management, IT service continuity management, information security management, supplier management. Contoh implementasi di perusahaan IT.",
+          "mahasiswa": "Mencatat, diskusi kelompok, latihan merancang requirement availability",
+          "media": "Slide, tabel contoh"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas kelompok (studi kasus perancangan service design sederhana), menginformasikan materi service transition",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas kelompok - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 6",
+      "referensi_2": "Watts, S. (2019). Chapter 5"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen insiden, masalah, perubahan, dan aset konfigurasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Service transition",
+      "indikator_1": "Kemampuan menjelaskan change management, release management, configuration management, knowledge management",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan proses service transition: change, release, configuration, knowledge management",
+      "pokok_bahasan": "Service Transition",
+      "sub_pokok_bahasan_1": "Change management, release & deployment management",
+      "sub_pokok_bahasan_2": "Configuration management (CMDB), knowledge management",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana mengelola perubahan layanan tanpa gangguan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan change management (RFC, jenis perubahan, CAB), release management, configuration management (CMDB), knowledge management. Studi kasus: proses perubahan di organisasi.",
+          "mahasiswa": "Mencatat, diskusi, latihan menganalisis contoh change request",
+          "media": "Slide, diagram alur"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas studi kasus (menganalisis perubahan layanan), menginformasikan materi service operation",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas studi kasus - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 7",
+      "referensi_2": "van Bon, J. (2018). Chapter 6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah + simulasi TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen insiden, masalah, perubahan, dan aset konfigurasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Service operation",
+      "indikator_1": "Kemampuan menjelaskan incident management, problem management, request fulfillment, access management",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan proses service operation (incident, problem, request, access) dan melakukan simulasi dasar",
+      "pokok_bahasan": "Service Operation",
+      "sub_pokok_bahasan_1": "Incident management, problem management",
+      "sub_pokok_bahasan_2": "Request fulfillment, access management, event management",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh insiden TI yang pernah dialami'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan incident management (tujuan, lifecycle, eskalasi), problem management (problem vs incident, root cause analysis), request fulfillment (service request), access management, dan event management. Simulasi role-play: handling incident via helpdesk.",
+          "mahasiswa": "Simulasi berpasangan (user & support), mencatat",
+          "media": "Slide, skenario role-play"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas simulasi (analisis insiden), menginformasikan UTS",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas simulasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 8",
+      "referensi_2": "Watts, S. (2019). Chapter 7"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep ITIL, service lifecycle, strategy, design, transition, operation",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap konsep ITSM, ITIL v4, dan service lifecycle",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasusITIL)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Continual service improvement (CSI)",
+      "indikator_1": "Kemampuan menjelaskan CSI model, deming cycle, KPI, SLI, SLO, maturity model",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep CSI, siklus PDCA, metrik (KPI, SLI, SLO), dan model kematangan",
+      "pokok_bahasan": "Continual Service Improvement (CSI)",
+      "sub_pokok_bahasan_1": "CSI model & PDCA cycle",
+      "sub_pokok_bahasan_2": "Metrik KPI, SLI, SLO, maturity model",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana meningkatkan layanan TI secara terus-menerus?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep CSI (tujuan, manfaat), siklus Deming (Plan-Do-Check-Act). Menjelaskan perbedaan KPI, SLI, SLO dengan contoh (uptime, response time). Model kematangan (CMMI). Diskusi contoh peningkatan layanan.",
+          "mahasiswa": "Mencatat, diskusi, latihan membedakan KPI/SLI/SLO",
+          "media": "Slide, tabel contoh"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (merancang dashboard KPI sederhana), menginformasikan materi SLA",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 9",
+      "referensi_2": "van Bon, J. (2018). Chapter 8"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah + praktik TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan service level management dan menyusun Service Level Agreement (SLA) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Service Level Agreement (SLA) dan manajemen vendor",
+      "indikator_1": "Kemampuan menyusun SLA sederhana, OLA, underpinning contract, dan mengelola vendor",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun SLA sederhana serta memahami OLA, underpinning contract, dan manajemen vendor",
+      "pokok_bahasan": "Service Level Agreement (SLA) dan Vendor Management",
+      "sub_pokok_bahasan_1": "SLA, OLA, underpinning contract (UC)",
+      "sub_pokok_bahasan_2": "Vendor management, service review",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa isi SLA dalam kontrak layanan IT?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi SLA, OLA, UC, komponen SLA (layanan, ketersediaan, metrik, penalti). Memberikan contoh SLA. Vendor management: seleksi, kontrak, evaluasi. Latihan menyusun draft SLA sederhana untuk layanan helpdesk.",
+          "mahasiswa": "Latihan menyusun SLA, diskusi vendor",
+          "media": "Slide, template SLA"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (draft SLA untuk layanan e-learning kampus), menginformasikan materi studi kasus",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (draft SLA) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Chapter 6 (SLM)",
+      "referensi_2": "Watts, S. (2019). Chapter 6"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Bimbingan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Studi kasus penerapan ITSM (persiapan)",
+      "indikator_1": "Kemampuan memilih organisasi dan mengidentifikasi proses ITSM yang diterapkan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih studi kasus organisasi dan mengidentifikasi proses ITSM yang relevan",
+      "pokok_bahasan": "Studi Kasus ITSM: Persiapan",
+      "sub_pokok_bahasan_1": "Pemilihan kasus (organisasi nyata atau hipotetis)",
+      "sub_pokok_bahasan_2": "Identifikasi proses ITSM, pengumpulan data awal",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa tugas studi kasus?'), menyampaikan tujuan dan kriteria proyek",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kerangka studi kasus: pilih organisasi (misal, perusahaan startup, kampus, bank). Identifikasi proses yang relevan (incident, change, SLA). Sarankan metode wawancara atau observasi. Bimbing per kelompok dalam memilih topik.",
+          "mahasiswa": "Berdiskusi kelompok, menentukan topik, mulai menyusun proposal",
+          "media": "Template proposal, LMS"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tenggat proposal, menginformasikan materi analisis studi kasus",
+          "mahasiswa": "Mencatat, melanjutkan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal studi kasus - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS. (2019). Case study appendix",
+      "referensi_2": "van Bon, J. (2018). Praktik"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Bimbingan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Analisis studi kasus",
+      "indikator_1": "Kemampuan menganalisis kematangan proses ITSM dan gap dengan best practice",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penerapan ITSM di organisasi studi kasus dan mengidentifikasi gap dengan ITIL",
+      "pokok_bahasan": "Analisis Studi Kasus ITSM",
+      "sub_pokok_bahasan_1": "Gap analysis",
+      "sub_pokok_bahasan_2": "Rekomendasi perbaikan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres proposal), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan teknik gap analysis: bandingkan praktik organisasi dengan ITIL. Contoh rekomendasi perbaikan (mengubah proses, pelatihan, tools). Bimbingan per kelompok untuk mengumpulkan data dan melakukan analisis.",
+          "mahasiswa": "Mengumpulkan data (wawancara/observasi), menyusun draft gap",
+          "media": "LMS, template gap analysis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tenggat draft laporan, menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Draft laporan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "AXELOS (2019). Chapter 10 (CSI)",
+      "referensi_2": "ISO/IEC 20000-1"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Bimbingan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Penyusunan laporan",
+      "indikator_1": "Kemampuan menulis laporan sistematis (studi kasus, temuan, rekomendasi)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan studi kasus ITSM yang sistematis dan berbasis bukti",
+      "pokok_bahasan": "Penyusunan Laporan Studi Kasus",
+      "sub_pokok_bahasan_1": "Struktur laporan (pendahuluan, metode, temuan, rekomendasi, kesimpulan)",
+      "sub_pokok_bahasan_2": "Lampiran, daftar pustaka",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana struktur laporan yang baik?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan template laporan (format IMRaD). Contoh penulisan temuan dan rekomendasi. Memberikan checklist kelengkapan. Bimbingan per kelompok finalisasi laporan.",
+          "mahasiswa": "Konsultasi, merevisi laporan, menyusun lampiran",
+          "media": "Template laporan, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat laporan, menginformasikan persiapan presentasi",
+          "mahasiswa": "Mencatat, menyelesaikan laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan studi kasus - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan penulisan",
+      "referensi_2": "van Bon, J. (2018). Lampiran"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Bimbingan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10 : Persiapan presentasi",
+      "indikator_1": "Kemampuan membuat slide dan menyiapkan presentasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat slide presentasi yang efektif untuk memaparkan hasil studi kasus",
+      "pokok_bahasan": "Persiapan Presentasi",
+      "sub_pokok_bahasan_1": "Desain slide (isi, visual, durasi)",
+      "sub_pokok_bahasan_2": "Teknik presentasi dan menjawab pertanyaan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Slide presentasi yang baik?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan contoh slide yang efektif (ringkas, visual, poin kunci). Tips presentasi jarak jauh (Zoom). Bimbingan per kelompok untuk mereview draft slide.",
+          "mahasiswa": "Menyusun slide, konsultasi",
+          "media": "Contoh slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan jadwal presentasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Draft slide - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Watts, S. (2019). Presentasi",
+      "referensi_2": "Panduan presentasi"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Presentasi TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10 : Presentasi studi kasus",
+      "indikator_1": "Kemampuan mempresentasikan hasil dan mempertahankan argumen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil studi kasus dengan jelas dan menjawab pertanyaan",
+      "pokok_bahasan": "Presentasi Studi Kasus",
+      "sub_pokok_bahasan_1": "Paparan 10 menit per kelompok",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan (10 menit presentasi + 5 menit tanya jawab), urutan",
+          "mahasiswa": "Mempersiapkan slide, berdoa",
+          "media": "Zoom, slide"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok, memberikan pertanyaan, memberi feedback",
+          "mahasiswa": "Mempresentasikan (latar belakang, metode, temuan, rekomendasi), menjawab pertanyaan",
+          "media": "Slide, poster virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat feedback",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok + tanya jawab - Bobot 7%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi studi kasus",
+      "referensi_2": "ITIL best practice"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang penerapan ITSM, SLA, CSI, dan studi kasus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang SLA, CSI, penerapan ITSM dan analisis kasus",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15 (SLA, CSI, studi kasus, service operation)",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan (buka catatan, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus penerapan ITSM, penyusunan SLA, rekomendasi CSI)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 18%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "AXELOS, van Bon"
+    }
+  ]
+}

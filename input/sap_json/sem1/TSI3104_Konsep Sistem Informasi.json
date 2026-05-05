@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3104",
+    "nama_mk": "Konsep Sistem Informasi",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Mampu menerapkan pemikiran logis, kritis, keterampilan sistematis, dan umum inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan dan menerapkan nilai humaniora yang sesuai dengan bidang sistem informasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami pengertian informasi yang valid untuk membangun Sistem Informasi secara umum (CPMK 1)",
+      "indikator_1": "Mahasiswa mengerti definisi dari data, informasi dan sistem informasi",
+      "indikator_2": "Mahasiswa mengetahui proses data menjadi sistem informasi",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami pengertian data, informasi, dan sistem informasi serta proses pengolahan data menjadi informasi yang valid",
+      "pokok_bahasan": "Konsep dasar Sistem Informasi",
+      "sub_pokok_bahasan_1": "Definisi sistem, klasifikasi sistem, definisi informasi, definisi sistem informasi",
+      "sub_pokok_bahasan_2": "Proses data menjadi informasi; karakteristik informasi yang berkualitas",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan contoh sistem informasi yang sering digunakan), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi sistem (karakteristik, klasifikasi), definisi data vs informasi, definisi sistem informasi. Memberikan contoh sistem informasi sederhana (sistem perpustakaan, sistem akademik). Demonstrasi instalasi dan pengenalan lingkungan belajar online (Moodle/Zoom)",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual, Moodle"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, memberikan tugas mandiri, menginformasikan materi pertemuan berikutnya (jenis-jenis sistem informasi)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, kuis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. PT Penamuda Media. Bab 1",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. PT Inovasi Pratama Internasional. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Mampu menerapkan pemikiran logis, kritis, keterampilan sistematis, dan umum inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan dan menerapkan nilai humaniora yang sesuai dengan bidang sistem informasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami pengertian informasi yang valid untuk membangun Sistem Informasi secara umum (CPMK 1)",
+      "indikator_1": "Mahasiswa mengerti macam-macam Sistem informasi dan contoh dalam organisasi/perusahaan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi berbagai jenis sistem informasi beserta contoh penerapannya dalam organisasi/perusahaan",
+      "pokok_bahasan": "Jenis-jenis Sistem Informasi",
+      "sub_pokok_bahasan_1": "Jenis-jenis Sistem Informasi (TPS, MIS, DSS, ESS)",
+      "sub_pokok_bahasan_2": "Contoh penerapan sistem informasi dalam berbagai organisasi (pendidikan, kesehatan, bisnis)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Sebutkan sistem informasi yang ada di kampus?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan berbagai jenis sistem informasi berdasarkan level manajemen: Transaction Processing Systems (TPS), Management Information Systems (MIS), Decision Support Systems (DSS), Executive Support Systems (ESS). Memberikan contoh nyata dari setiap jenis. Diskusi tentang penerapan di dunia nyata",
+          "mahasiswa": "Mencatat, diskusi, membuat peta konsep jenis SI",
+          "media": "Slide, video pendek contoh SI"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas individu (menemukan contoh SI di sekitar), menginformasikan materi komponen SIM",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 2",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu Mendiskripsikan pengertian Sistem informasi dan fungsi dari masing-masing jenis Sistem Informasi hingga proses informasi menjadi Sistem Informasi Manajemen sehingga dapat mendukung keputusan manajemen (CPMK 2)",
+      "indikator_1": "Mahasiswa memahami proses pengolahan dari data menjadi Sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendeskripsikan sistem informasi manajemen (SIM) dan fungsinya dalam mendukung pengambilan keputusan manajemen",
+      "pokok_bahasan": "Sistem Informasi Manajemen (SIM)",
+      "sub_pokok_bahasan_1": "Definisi SIM, tujuan, peran SIM dalam organisasi",
+      "sub_pokok_bahasan_2": "Proses informasi menjadi SIM; dukungan SIM terhadap keputusan manajemen",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa bedanya SIM dengan SI?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi Sistem Informasi Manajemen (SIM), tujuan SIM, peran strategis SIM dalam organisasi. Menjelaskan bagaimana data diolah menjadi laporan yang mendukung keputusan manajerial. Memberikan contoh laporan SIM (laporan penjualan, laporan keuangan). Tugas: mahasiswa menyelesaikan tugas 1 (analisis SIM sederhana)",
+          "mahasiswa": "Mencatat, diskusi, mengerjakan tugas",
+          "media": "Slide, contoh laporan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis, menginformasikan materi komponen SIM",
+          "mahasiswa": "Mengerjakan kuis, mengumpulkan tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, tugas 1 - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 2",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Mampu melakukan analisis & desain dengan menggunakan kaidah rekayasa software dan hardware serta algoritma dengan cara menggunakan tools dan dapat menunjukkan hasil dan kondisi yang maksimal untuk aplikasi bisnis dan pariwisata (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu menentukan komponen-komponen SIM dan menganalisa kebutuhan SIM dalam perusahaan (CPMK 3)",
+      "indikator_1": "Mahasiswa mampu menentukan komponen-komponen dalam sebuah perusahaan atau bisnis berdasarkan type perusahaan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menentukan komponen-komponen sistem informasi (hardware, software, brainware, database, prosedur) dan menganalisis kebutuhan SIM berdasarkan tipe perusahaan",
+      "pokok_bahasan": "Komponen Sistem Informasi",
+      "sub_pokok_bahasan_1": "Komponen utama sistem informasi: hardware, software, brainware, database, prosedur",
+      "sub_pokok_bahasan_2": "Analisis kebutuhan SIM berdasarkan tipe perusahaan (manufaktur, jasa, ritel); studi kasus",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa saja yang dibutuhkan untuk membuat sistem informasi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan lima komponen utama sistem informasi (hardware, software, data, prosedur, manusia/brainware). Menjelaskan peran bahasa sistem (formal dan informal) dalam pengembangan SI. Studi kasus: menentukan komponen SI untuk perusahaan ritel vs perusahaan manufaktur. Diskusi kelompok",
+          "mahasiswa": "Mencatat, diskusi, latihan menentukan komponen SI untuk kasus sederhana",
+          "media": "Slide, studi kasus tertulis"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis, menginformasikan materi basis data",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, kuis - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 3-4",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu memahami mengenai basis data, macam-macam dan karakter hingga kelebihan dan kekurangan dari DBMS (CPMK 4)",
+      "indikator_1": "Mahasiswa memahami basis data dan database",
+      "indikator_2": "Mahasiswa memahami kelebihan dan kekurangan macam-macam DBMS",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami konsep basis data, komponen DBMS, serta membandingkan berbagai jenis DBMS (MySQL, PostgreSQL, MongoDB, Oracle) beserta kelebihan dan kekurangannya",
+      "pokok_bahasan": "Konsep Basis Data dan DBMS",
+      "sub_pokok_bahasan_1": "Konsep basis data; sistem berbasis file vs berbasis database; komponen sistem basis data",
+      "sub_pokok_bahasan_2": "DBMS: definisi, fitur, komponen, jenis-jenis DBMS (RDBMS, NoSQL), kelebihan dan kekurangan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu database? Contoh database yang sering digunakan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep basis data, perbedaan sistem berbasis file dengan database. Menjelaskan komponen sistem basis data (hardware, software, data, user, prosedur). Menjelaskan DBMS: fungsi, keuntungan, kerugian. Memperkenalkan berbagai DBMS (MySQL, PostgreSQL, Oracle, MongoDB) dan perbandingannya. Mahasiswa diminta mempresentasikan masing-masing jenis DBMS secara berkelompok",
+          "mahasiswa": "Mencatat, presentasi kelompok tentang satu jenis DBMS, diskusi",
+          "media": "Slide, contoh DBMS"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas presentasi kelompok, menginformasikan materi pemodelan database",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 5",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 5"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu membuat pemodelan database dan mampu melakukan normalisasi database hingga 3NF (CPMK 4)",
+      "indikator_1": "Mahasiswa mampu membuat pemodelan database",
+      "indikator_2": "Mahasiswa mampu membuat normalisasi database hingga 3NF",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat pemodelan database konseptual, logis, dan fisik serta melakukan normalisasi database hingga bentuk normal ketiga (3NF)",
+      "pokok_bahasan": "Pemodelan Database dan Normalisasi",
+      "sub_pokok_bahasan_1": "Model data: konseptual, logis, fisik; tahapan pemodelan data; siklus data",
+      "sub_pokok_bahasan_2": "Normalisasi database: tahapan 1NF, 2NF, 3NF; contoh normalisasi (order makanan, minimarket)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa database perlu dinormalisasi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan tiga level pemodelan data (konseptual, logis, fisik). Menjelaskan tahapan normalisasi: 1NF (eliminasi repeating group), 2NF (eliminasi ketergantungan parsial), 3NF (eliminasi ketergantungan transitif). Memberikan contoh kasus (order makanan, minimarket) dan melakukan normalisasi bersama mahasiswa. Latihan normalisasi",
+          "mahasiswa": "Mencatat, latihan normalisasi dengan studi kasus, bertanya",
+          "media": "Slide, papan tulis virtual, contoh tabel"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas pemodelan database dan normalisasi, menginformasikan materi data warehouse",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, tugas - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 6",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Mampu melakukan analisis & desain dengan menggunakan kaidah rekayasa software dan hardware serta algoritma dengan cara menggunakan tools dan dapat menunjukkan hasil dan kondisi yang maksimal untuk aplikasi bisnis dan pariwisata (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mampu memahami mengenai Data Warehouse dengan karakter-karakternya dan proses pembuatan data warehouse menggunakan metode Kimballs nine step (CPMK 3)",
+      "indikator_1": "Mahasiswa mampu memahami tentang data warehouse",
+      "indikator_2": "Mahasiswa memahami penerapan data warehouse pada nilai mahasiswa dengan metode Kimballs nine step",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami konsep data warehouse, karakteristiknya, dan proses pembuatan data warehouse menggunakan metode Kimball's nine-step",
+      "pokok_bahasan": "Data Warehouse",
+      "sub_pokok_bahasan_1": "Definisi data warehouse, komponen utama, konsep, tahapan, model (star schema, snowflake)",
+      "sub_pokok_bahasan_2": "Metode Kimball's nine-step: langkah-langkah pembuatan data warehouse; contoh penerapan pada data nilai mahasiswa",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan database operasional dan data warehouse?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi data warehouse, karakteristik (subject-oriented, integrated, time-variant, non-volatile). Menjelaskan komponen utama data warehouse. Menjelaskan metode Kimball's nine-step: memilih proses, menentukan grain, memilih dimensi dan fakta, dll. Studi kasus: penerapan pada data nilai mahasiswa (dimensi mahasiswa, mata kuliah, waktu; fakta nilai). Diskusi",
+          "mahasiswa": "Mencatat, diskusi, latihan menentukan dimensi dan fakta untuk kasus sederhana",
+          "media": "Slide, contoh skema bintang"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas (pemodelan database konsep/logis/fisik), menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas, mulai mengerjakan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, tugas pemodelan - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 7",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 7"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UTS / Evaluasi Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep sistem informasi, komponen SIM, basis data, DBMS, normalisasi, data warehouse",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep SI, jenis SI, SIM, komponen SI, basis data, DBMS, normalisasi, data warehouse)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: konsep SI, jenis SI, SIM, komponen SIM, basis data dan DBMS, normalisasi 1NF-3NF, data warehouse",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan essay)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 20 soal, essay 2 soal: studi kasus normalisasi dan data warehouse)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu membuat pemodelan perangkat lunak dengan metode di SDLC, juga mampu menggunakan UML dalam penerapan sistem sehari-hari (CPMK 4)",
+      "indikator_1": "Mahasiswa mampu membuat model UML",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami SDLC (System Development Life Cycle) dan membuat pemodelan perangkat lunak menggunakan UML (Unified Modeling Language)",
+      "pokok_bahasan": "SDLC dan Pemodelan UML",
+      "sub_pokok_bahasan_1": "Siklus pengembangan perangkat lunak (SDLC): waterfall, agile, prototyping",
+      "sub_pokok_bahasan_2": "UML: use case diagram, class diagram, sequence diagram; contoh penerapan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Tahapan membuat software?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan SDLC: fase-fase (analisis, desain, implementasi, testing, maintenance). Metodologi waterfall, agile, prototyping. Memperkenalkan UML sebagai bahasa pemodelan visual. Menjelaskan use case diagram (aktor, use case, relasi), class diagram (kelas, atribut, method, relasi), sequence diagram (lifeline, message). Contoh kasus: sistem reservasi hotel",
+          "mahasiswa": "Mencatat, latihan membuat use case diagram sederhana, bertanya",
+          "media": "Slide, draw.io/StarUML, contoh diagram"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas (membuat UML untuk reservasi hotel/pembelian online), menginformasikan materi pengembangan aplikasi web dan android",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, tugas UML - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 8-9",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 8"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu memahami cara pengembangan dan maintenance Aplikasi berbasis Web dan Android (CPMK 4)",
+      "indikator_1": "Mahasiswa memahami keamanan aplikasi berbasis web",
+      "indikator_2": "Mahasiswa mengerti proses kerja aplikasi berbasis Android",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami cara pengembangan aplikasi berbasis web (termasuk keamanan) dan aplikasi berbasis Android (proses kerja, arsitektur)",
+      "pokok_bahasan": "Pengembangan Aplikasi Web dan Android",
+      "sub_pokok_bahasan_1": "Pengembangan aplikasi web: frontend, backend, database, keamanan web (SQL injection, XSS, CSRF)",
+      "sub_pokok_bahasan_2": "Pengembangan aplikasi Android: arsitektur, SDK, proses kerja (activity, intent, layout), maintenance",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Aplikasi web dan Android apa yang sering Anda gunakan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan arsitektur web (client-server, HTTP, database). Menjelaskan ancaman keamanan umum pada web (SQL injection, XSS, CSRF) dan cara pencegahannya. Menjelaskan pengembangan Android: Android Studio, SDK, arsitektur MVVM, activity lifecycle, intent, layout. Memberikan contoh sederhana. Diskusi tentang maintenance aplikasi",
+          "mahasiswa": "Mencatat, diskusi, latihan identifikasi ancaman keamanan web",
+          "media": "Slide, demo Android Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas (membuat UML untuk top OVO/reservasi hotel), menginformasikan materi etika SI",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 10-11",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 9"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Lanjutan - Etika dalam Sistem Informasi dan Pengetahuan Manajemen (CPMK 4)",
+      "indikator_1": "Mahasiswa memahami etika dalam sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami etika yang berlaku dalam sistem informasi (privasi, keamanan, hak cipta, tanggung jawab sosial) serta konsep knowledge management",
+      "pokok_bahasan": "Etika Sistem Informasi dan Knowledge Management",
+      "sub_pokok_bahasan_1": "Etika dalam SI: privasi data, keamanan informasi, hak kekayaan intelektual, tanggung jawab sosial",
+      "sub_pokok_bahasan_2": "Knowledge Management: definisi, komponen, sistem knowledge management (KMS), manfaat",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah mendengar kasus kebocoran data?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan isu etika dalam SI: privasi (data pribadi), keamanan (hacking, malware), hak cipta (software bajakan), tanggung jawab sosial. Menjelaskan knowledge management: data, informasi, knowledge, wisdom. Komponen KMS, manfaat KMS bagi organisasi. Studi kasus: pelanggaran etika di perusahaan teknologi",
+          "mahasiswa": "Mencatat, diskusi kasus etika, latihan identifikasi masalah etika",
+          "media": "Slide, berita kasus etika"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis, menginformasikan materi lanjutan pengembangan aplikasi",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, kuis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 12",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 10"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Studi Kasus Pemodelan UML (Reservasi Hotel, Pembelian Online, Top OVO)",
+      "indikator_1": "Mahasiswa mampu membuat UML pada reservasi hotel, pembelian secara online dan top OVO",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan pemodelan UML (use case, class, sequence diagram) untuk studi kasus sistem reservasi hotel, pembelian online, dan top up OVO",
+      "pokok_bahasan": "Praktik Pemodelan UML untuk Studi Kasus",
+      "sub_pokok_bahasan_1": "Studi kasus 1: sistem reservasi hotel (use case, class, sequence)",
+      "sub_pokok_bahasan_2": "Studi kasus 2: sistem pembelian online dan top up OVO",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres tugas UML), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, melaporkan progres",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan tiga studi kasus: reservasi hotel, pembelian online, top up OVO. Membimbing mahasiswa untuk membuat use case diagram, class diagram, dan sequence diagram untuk masing-masing kasus. Mahasiswa mengerjakan secara berkelompok, dosen memberikan bimbingan. Diskusi hasil pemodelan",
+          "mahasiswa": "Mengerjakan pemodelan UML, konsultasi dengan dosen, presentasi singkat hasil",
+          "media": "Slide, draw.io/StarUML, template UML"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan hasil praktikum, memberikan umpan balik, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, melanjutkan penyelesaian tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, tugas mandiri UML - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 9",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 8"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Knowledge Management System (KMS) dan Reviu Perkuliahan",
+      "indikator_1": "Mahasiswa memahami komponen KMS dan manfaat KMS",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan komponen Knowledge Management System (KMS) dan manfaatnya bagi organisasi, serta melakukan reviu materi perkuliahan",
+      "pokok_bahasan": "Knowledge Management System (KMS) dan Reviu",
+      "sub_pokok_bahasan_1": "Komponen KMS (people, process, technology), manfaat KMS",
+      "sub_pokok_bahasan_2": "Reviu seluruh materi (konsep SI, basis data, normalisasi, data warehouse, SDLC, UML, aplikasi web/android, etika)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu knowledge management?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan komponen KMS: people (budaya berbagi), process (tata kelola), technology (sistem pendukung). Manfaat KMS: retensi pengetahuan, inovasi, efisiensi. Memberikan contoh KMS (Wikipedia, portal knowledge perusahaan). Melakukan reviu interaktif seluruh materi perkuliahan: tanya jawab, latihan soal, pembahasan kasus",
+          "mahasiswa": "Mencatat, diskusi, mengerjakan latihan soal, bertanya tentang materi yang belum dipahami",
+          "media": "Slide, latihan soal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi KMS dan reviu, memberikan motivasi persiapan UAS, menginformasikan jadwal UAS",
+          "mahasiswa": "Mencatat, mempersiapkan diri untuk UAS",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi kinerja langsung, partisipasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 8",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 4"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Tugas Akhir dan Konsultasi Proyek",
+      "indikator_1": "Mahasiswa mampu mengerjakan tugas akhir pemodelan sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyelesaikan tugas akhir (studi kasus terintegrasi) dan berkonsultasi dengan dosen",
+      "pokok_bahasan": "Tugas Akhir: Studi Kasus Terintegrasi",
+      "sub_pokok_bahasan_1": "Studi kasus sistem informasi untuk bisnis (analisis kebutuhan, basis data, UML, etika)",
+      "sub_pokok_bahasan_2": "Konsultasi tugas akhir; pembahasan komponen penilaian",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres tugas akhir), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, melaporkan progres",
+          "media": "Slide, LMS, Zoom breakout room"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan arahan final tugas akhir: studi kasus sistem informasi untuk perusahaan fiktif (misal: sistem manajemen inventaris, sistem pemesanan). Mahasiswa diminta mengerjakan analisis kebutuhan, ERD, normalisasi, UML (use case, class, sequence), serta mempertimbangkan aspek etika dan keamanan. Konsultasi intensif per kelompok/individu melalui breakout room",
+          "mahasiswa": "Mengerjakan tugas akhir, berkonsultasi dengan dosen, memfinalisasi laporan",
+          "media": "Zoom breakout room, template laporan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan deadline pengumpulan tugas akhir, menginformasikan persiapan presentasi (jika ada)",
+          "mahasiswa": "Mencatat deadline, melanjutkan pengerjaan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas akhir (laporan) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh pustaka utama bab 1-12",
+      "referensi_2": "Fithrie Soufitri, S.Kom.,MMSI. (2023). Konsep Sistem Informasi. Bab 1-10"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah umum secara online",
+      "detail_cpmk": "Memiliki kemampuan untuk menjadi tenaga profesional untuk pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, komputer grafis, dan aplikasi multimedia serta memiliki kemampuan menulis laporan penelitian dengan baik serta mengelola proyek Sistem Informasi, mempresentasikan karya tersebut (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Presentasi Tugas Akhir",
+      "indikator_1": "Mahasiswa mampu mempresentasikan hasil tugas akhir",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil tugas akhir (studi kasus sistem informasi) dengan baik dan menjawab pertanyaan",
+      "pokok_bahasan": "Presentasi Tugas Akhir",
+      "sub_pokok_bahasan_1": "Presentasi studi kasus (analisis, perancangan, UML, basis data, etika)",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan umpan balik",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (5-7 menit per kelompok), urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide, laporan akhir",
+          "media": "Slide, Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik, menilai kualitas pemodelan dan presentasi",
+          "mahasiswa": "Mempresentasikan tugas akhir (latar belakang, ERD, normalisasi, UML, etika), menjawab pertanyaan, memberi feedback ke kelompok lain",
+          "media": "Slide presentasi, laporan, rubric penilaian"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan capaian, memberikan apresiasi, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, memberikan feedback",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi",
+      "referensi_2": "Panduan presentasi ilmiah"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UAS / Evaluasi Akhir Semester",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang seluruh materi konsep sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap seluruh materi (konsep SI, basis data, normalisasi, data warehouse, SDLC, UML, pengembangan web/android, etika SI, KMS) serta kemampuan analisis studi kasus",
+      "pokok_bahasan": "Ujian Akhir Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-15",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal esai studi kasus terintegrasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal UAS (esai: studi kasus perancangan sistem informasi sederhana mulai dari analisis kebutuhan, ERD, normalisasi, UML, hingga pertimbangan etika)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (UAS) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "Arif Rizki Marsa, dkk. (2023). Konsep Sistem Informasi. Bab 1-12"
+    }
+  ]
+}

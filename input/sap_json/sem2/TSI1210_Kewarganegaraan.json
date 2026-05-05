@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1210",
+    "nama_mk": "Kewarganegaraan",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Konsep dan urgensi Pendidikan Kewarganegaraan",
+      "indikator_1": "Ketepatan menjelaskan tujuan dan ruang lingkup MKWU Kewarganegaraan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan pengertian, landasan hukum, tujuan pendidikan kewarganegaraan di perguruan tinggi, serta hubungannya dengan profil lulusan",
+      "pokok_bahasan": "Konsep Dasar Pendidikan Kewarganegaraan",
+      "sub_pokok_bahasan_1": "Pengertian dan landasan hukum PKn di PT",
+      "sub_pokok_bahasan_2": "Tujuan PKn dan hubungan dengan profil lulusan SI",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pemahaman awal tentang kewarganegaraan), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi PKn, landasan hukum (UU No. 20/2003, UU No. 12/2012), tujuan PKn di PT, dan kaitannya dengan profil lulusan Sistem Informasi. Diskusi singkat",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual, contoh dokumen undang-undang"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi pertemuan berikutnya (identitas nasional)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "Google Classroom, LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online, tanya jawab - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan untuk Perguruan Tinggi. Paradigma. Bab 1",
+      "referensi_2": "Winarno, S.H. (2019). Paradigma Baru Pendidikan Kewarganegaraan. Bumi Aksara. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Identitas nasional dan integrasi nasional",
+      "indikator_1": "Kemampuan menguraikan unsur-unsur identitas nasional",
+      "indikator_2": "Kemampuan menjelaskan faktor pendorong dan penghambat integrasi nasional",
+      "tujuan_pembelajaran": "Mahasiswa mampu menguraikan unsur-unsur identitas nasional dan menganalisis faktor-faktor yang mempengaruhi integrasi nasional",
+      "pokok_bahasan": "Identitas Nasional dan Integrasi Nasional",
+      "sub_pokok_bahasan_1": "Unsur-unsur identitas nasional (bahasa, budaya, sejarah, simbol negara)",
+      "sub_pokok_bahasan_2": "Integrasi nasional: pengertian, faktor pendorong, dan tantangan disintegrasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang membuat kita merasa sebagai bangsa Indonesia?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab pertanyaan",
+          "media": "Slide, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan identitas nasional (bahasa Indonesia, budaya, sejarah perjuangan, simbol seperti bendera, lagu kebangsaan, lambang negara), konsep integrasi nasional, faktor pendorong (sejarah, keinginan bersatu, dll), tantangan (SARA, radikalisme, ketimpangan). Diskusi kelompok kecil via breakout room",
+          "mahasiswa": "Berdiskusi dalam kelompok, mempresentasikan hasil diskusi",
+          "media": "Slide, papan tulis, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (mencari contoh kasus disintegrasi dan solusinya), menginformasikan materi konstitusi",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi kelompok - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 2",
+      "referensi_2": "Winarno, S.H. (2019). Paradigma Baru PKn. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Konstitusi dan UUD NRI 1945",
+      "indikator_1": "Kemampuan menjelaskan sejarah dan isi UUD 1945",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan sejarah konstitusi di Indonesia, isi UUD NRI 1945, dan maknanya",
+      "pokok_bahasan": "Konstitusi dan UUD NRI 1945",
+      "sub_pokok_bahasan_1": "Sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen)",
+      "sub_pokok_bahasan_2": "Isi pokok UUD NRI 1945",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu konstitusi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah konstitusi Indonesia, perbandingan UUD 1945 asli, RIS, UUDS 1950, Dekrit Presiden 1959, amandemen UUD 1945 (1-4). Menjelaskan struktur dan isi pokok UUD NRI 1945 (Pembukaan, Batang Tubuh pasal-pasal, Aturan Peralihan, Aturan Tambahan). Menekankan pentingnya konstitusi sebagai hukum tertinggi",
+          "mahasiswa": "Mencatat, bertanya, latihan membaca pasal-pasal tertentu",
+          "media": "Slide, dokumen UUD 1945"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis singkat, menginformasikan materi sistem ketatanegaraan",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 3",
+      "referensi_2": "UUD NRI 1945 (Lampiran)"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Sistem ketatanegaraan Indonesia",
+      "indikator_1": "Kemampuan menganalisis lembaga negara dan mekanisme checks and balances",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis lembaga-lembaga negara dan mekanisme checks and balances berdasarkan UUD 1945",
+      "pokok_bahasan": "Sistem Ketatanegaraan Indonesia",
+      "sub_pokok_bahasan_1": "Lembaga-lembaga negara: MPR, DPR, DPD, Presiden, MA, MK, BPK",
+      "sub_pokok_bahasan_2": "Pembagian kekuasaan dan mekanisme checks and balances",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Sebutkan lembaga negara yang Anda ketahui'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kedudukan, fungsi, dan wewenang masing-masing lembaga negara menurut UUD 1945 setelah amandemen. Menjelaskan hubungan antar lembaga (checks and balances), sistem presidensial, dan peran BPK. Memberikan contoh kasus seperti impeachment, pengujian undang-undang oleh MK",
+          "mahasiswa": "Mencatat, diskusi, membuat peta konsep",
+          "media": "Slide, bagan lembaga negara"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (peta konsep lembaga negara), menginformasikan materi hak dan kewajiban warga negara",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: peta konsep - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 4",
+      "referensi_2": "UUD NRI 1945 Pasal 1-34"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Hak dan kewajiban warga negara",
+      "indikator_1": "Kemampuan mengidentifikasi hak asasi dan kewajiban berdasarkan UUD 1945",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi hak dan kewajiban warga negara yang diatur dalam UUD 1945 serta implementasinya",
+      "pokok_bahasan": "Hak dan Kewajiban Warga Negara",
+      "sub_pokok_bahasan_1": "Hak warga negara (pasal 27-34 UUD 1945)",
+      "sub_pokok_bahasan_2": "Kewajiban warga negara (membayar pajak, bela negara, menghormati hukum)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Hak apa saja yang Anda rasakan sebagai mahasiswa?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan hak warga negara (hak atas pendidikan, pekerjaan, kesejahteraan sosial, dll) dan kewajiban (membayar pajak, ikut serta dalam bela negara, menaati hukum, menghormati hak orang lain). Diskusi studi kasus: pelanggaran hak atau pengabaian kewajiban",
+          "mahasiswa": "Mencatat, diskusi kasus",
+          "media": "Slide, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan studi kasus (tugas individu analisis kasus pelanggaran hak), menginformasikan materi demokrasi Pancasila",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 5",
+      "referensi_2": "UUD NRI 1945 Pasal 27-34"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Demokrasi Pancasila dan negara hukum",
+      "indikator_1": "Kemampuan menjelaskan prinsip demokrasi Pancasila dan rule of law",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan prinsip-prinsip demokrasi Pancasila dan konsep negara hukum Indonesia",
+      "pokok_bahasan": "Demokrasi Pancasila dan Negara Hukum",
+      "sub_pokok_bahasan_1": "Demokrasi Pancasila (kerakyatan, musyawarah, kedaulatan rakyat)",
+      "sub_pokok_bahasan_2": "Negara hukum (rechtstaat), supremasi hukum, dan peradilan yang bebas",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa bedanya demokrasi Pancasila dengan demokrasi liberal?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan demokrasi Pancasila: sila ke-4, ciri-ciri (musyawarah mufakat, kekeluargaan, kedaulatan rakyat). Menjelaskan negara hukum: Pasal 1 ayat 3 UUD 1945, asas legalitas, supremasi hukum, peradilan yang bebas, dan perlindungan HAM. Diskusi tentang praktik demokrasi di Indonesia",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi wawasan nusantara",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 6",
+      "referensi_2": "Winarno, S.H. (2019). Paradigma Baru PKn. Bab 4"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Wawasan nusantara",
+      "indikator_1": "Kemampuan menjelaskan konsep geopolitik Indonesia",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan wawasan nusantara sebagai geopolitik Indonesia dan implementasinya",
+      "pokok_bahasan": "Wawasan Nusantara",
+      "sub_pokok_bahasan_1": "Konsep wawasan nusantara sebagai cara pandang",
+      "sub_pokok_bahasan_2": "Asas-asas wawasan nusantara (kepulauan, archipelago, persatuan) dan implementasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana cara pandang bangsa Indonesia terhadap wilayahnya?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan wawasan nusantara sebagai geopolitik Indonesia: pengertian, latar belakang (Deklarasi Djuanda 1957, UNCLOS 1982), asas-asas (kepulauan, archipelago, persatuan, keadilan, kejujuran). Implementasi dalam kehidupan berbangsa dan bernegara (pembangunan, pertahanan, politik). Contoh konkret: tol laut, poros maritim",
+          "mahasiswa": "Mencatat, bertanya",
+          "media": "Slide, peta Indonesia"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu esai (penerapan wawasan nusantara di era digital), menginformasikan materi ketahanan nasional",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: esai - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 7",
+      "referensi_2": "Winarno, S.H. (2019). Bab 5"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep identitas nasional, konstitusi, demokrasi, wawasan nusantara",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (menggunakan kamera jika perlu), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda & esai)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Ketahanan nasional dan bela negara",
+      "indikator_1": "Kemampuan menganalisis konsep ketahanan nasional dan bentuk bela negara",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis konsep ketahanan nasional (astagatra) dan bentuk-bentuk bela negara",
+      "pokok_bahasan": "Ketahanan Nasional dan Bela Negara",
+      "sub_pokok_bahasan_1": "Ketahanan nasional (astagatra: trilogi gatra, panca gatra)",
+      "sub_pokok_bahasan_2": "Bela negara (fisik dan nonfisik), peran mahasiswa",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang dimaksud dengan ketahanan nasional?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ketahanan nasional: konsep, astagatra (8 gatra: ideologi, politik, ekonomi, sosial budaya, pertahanan keamanan, dll). Menjelaskan bela negara: pengertian, landasan hukum (UU No. 3/2002), bentuk fisik (militer) dan nonfisik (pendidikan, pengabdian profesi, partisipasi aktif). Contoh peran mahasiswa dalam bela negara (KKN, penanggulangan bencana, literasi digital, anti hoaks). Diskusi kelompok",
+          "mahasiswa": "Diskusi kelompok, merumuskan contoh konkret bela negara di era digital",
+          "media": "Slide, video pendek"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok analisis (tema: 'Implementasi bela negara di lingkungan kampus'), menginformasikan materi anti korupsi",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: analisis - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan, M.S. (2016). Pendidikan Kewarganegaraan. Bab 7-8",
+      "referensi_2": "UU No. 3 Tahun 2002 tentang Pertahanan Negara"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Nilai-nilai anti korupsi (bagian 1)",
+      "indikator_1": "Kemampuan menjelaskan definisi, jenis, dan dampak korupsi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi, jenis, dan dampak korupsi serta upaya pencegahannya",
+      "pokok_bahasan": "Pendidikan Anti Korupsi - Landasan dan Dampak",
+      "sub_pokok_bahasan_1": "Definisi korupsi (UU 31/1999) dan jenis-jenis korupsi",
+      "sub_pokok_bahasan_2": "Dampak korupsi (ekonomi, sosial, politik)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa contoh korupsi yang sering Anda dengar?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi korupsi menurut UU 31/1999 (setiap orang yang melawan hukum memperkaya diri sendiri atau orang lain yang merugikan negara). Menjelaskan jenis-jenis: suap, gratifikasi, pemerasan, penggelapan, fraud. Dampak korupsi: ekonomi (kerugian negara, biaya tinggi), sosial (ketidakadilan, kemiskinan), politik (demokrasi terdistorsi). Studi kasus singkat (misal kasus e-KTP)",
+          "mahasiswa": "Mencatat, bertanya, diskusi",
+          "media": "Slide, berita kasus korupsi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan studi kasus (analisis dampak korupsi pada sektor TI), menginformasikan materi nilai anti korupsi lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "KPK. (2019). Modul Pendidikan Anti Korupsi untuk Perguruan Tinggi. Bab 1-2",
+      "referensi_2": "UU No. 31 Tahun 1999 jo. UU 20/2001 tentang Pemberantasan Korupsi"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Pendidikan anti korupsi dan integritas",
+      "indikator_1": "Kemampuan menginternalisasi 9 nilai anti korupsi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menginternalisasi dan menerapkan 9 nilai anti korupsi dalam kehidupan sehari-hari dan profesi",
+      "pokok_bahasan": "Nilai-Nilai Anti Korupsi",
+      "sub_pokok_bahasan_1": "9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)",
+      "sub_pokok_bahasan_2": "Implementasi nilai dalam kampus dan dunia IT",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Nilai apa yang paling penting untuk mencegah korupsi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 9 nilai anti korupsi satu per satu, disertai contoh penerapan di lingkungan kampus (tidak menyontek, tidak memanipulasi data, bertanggung jawab atas tugas, hemat, mandiri mengerjakan proyek, disiplin waktu, kerja keras, peduli terhadap sesama mahasiswa). Diskusi kasus dilema etika di IT (misal: menerima gratifikasi proyek, membocorkan data user)",
+          "mahasiswa": "Diskusi, refleksi diri, latihan studi kasus",
+          "media": "Slide, kuesioner nilai"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis refleksi (nilai anti korupsi), menginformasikan materi proyek kebangsaan (perencanaan)",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, refleksi - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "KPK. (2019). Modul Pendidikan Anti Korupsi. Bab 3",
+      "referensi_2": "Buku Kurikulum Prodi SI – Bab Pendidikan Karakter"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Proyek kebangsaan – perencanaan",
+      "indikator_1": "Kemampuan memilih isu kebangsaan atau anti korupsi untuk kajian",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih isu kebangsaan/anti korupsi, merencanakan proyek, dan menyusun proposal",
+      "pokok_bahasan": "Proyek Kebangsaan: Perencanaan",
+      "sub_pokok_bahasan_1": "Pemilihan topik (korupsi di lingkungan kampus, nasionalisme generasi milenial, literasi anti korupsi)",
+      "sub_pokok_bahasan_2": "Penyusunan proposal proyek",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas proyek), menyampaikan tujuan, membagi kelompok",
+          "mahasiswa": "Membentuk kelompok, menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kriteria proyek: isu kebangsaan atau anti korupsi yang relevan dengan mahasiswa SI, bentuk output (poster, video pendek, kampanye media sosial, atau laporan). Memberikan contoh topik: 'Pengaruh hoaks terhadap nasionalisme', 'Pencegahan korupsi melalui transparansi data', 'Kampanye 9 nilai anti korupsi di kampus'. Membimbing kelompok dalam menentukan topik dan menyusun proposal (latar belakang, tujuan, metode, jadwal)",
+          "mahasiswa": "Berdiskusi kelompok, memilih topik, mulai menyusun proposal",
+          "media": "Slide, contoh proposal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan tenggat proposal (1 minggu), menginformasikan materi pengumpulan data",
+          "mahasiswa": "Mencatat target, melanjutkan diskusi kelompok di luar kelas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal proyek kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "KPK. (2019). Modul Pendidikan Anti Korupsi. Bab 4",
+      "referensi_2": "Buku Kurikulum Prodi SI – Proyek Kebangsaan"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Pengumpulan data dan analisis",
+      "indikator_1": "Kemampuan mengumpulkan data/informasi dan menganalisis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengumpulkan data (kuesioner, wawancara, studi literatur) dan menganalisis untuk proyek kebangsaan",
+      "pokok_bahasan": "Pengumpulan Data dan Analisis",
+      "sub_pokok_bahasan_1": "Metode pengumpulan data (kuesioner, wawancara, observasi)",
+      "sub_pokok_bahasan_2": "Teknik analisis sederhana (deskriptif, persentase)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres proposal), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres singkat",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara menyusun kuesioner (Google Form), teknik wawancara sederhana, dan studi literatur. Memberikan contoh analisis data (misal: persentase tingkat pemahaman nilai anti korupsi). Membimbing kelompok dalam merancang instrumen pengumpulan data",
+          "mahasiswa": "Merancang kuesioner/wawancara, mulai mengumpulkan data",
+          "media": "Google Form, contoh kuesioner"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan waktu konsultasi kelompok, menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Konsultasi, melanjutkan pengumpulan data",
+          "media": "LMS, breakout room"
+        }
+      },
+      "evaluasi_1": "Progress report - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "KPK. (2019). Modul Pendidikan Anti Korupsi. Bab 5",
+      "referensi_2": "Panduan penyusunan proyek ilmiah"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Penyusunan laporan dan poster",
+      "indikator_1": "Kemampuan menyusun laporan",
+      "indikator_2": "Kemampuan desain poster kampanye",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan proyek dan membuat poster kampanye anti korupsi/nasionalisme",
+      "pokok_bahasan": "Penyusunan Laporan dan Poster",
+      "sub_pokok_bahasan_1": "Struktur laporan (pendahuluan, metode, hasil, diskusi, kesimpulan)",
+      "sub_pokok_bahasan_2": "Desain poster dan pesan kampanye",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang sudah dikumpulkan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan (pendahuluan, tinjauan pustaka, metode, hasil dan pembahasan, kesimpulan, saran). Memberikan template poster (ukuran A3, judul menarik, visual, kesimpulan, ajakan). Memberikan contoh poster kampanye anti korupsi sederhana. Bimbingan per kelompok",
+          "mahasiswa": "Menyusun laporan, mulai mendesain poster",
+          "media": "Template laporan, contoh poster, Canva"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat laporan dan poster, menginformasikan presentasi akhir",
+          "mahasiswa": "Mencatat, melanjutkan penyusunan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: laporan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan penulisan laporan proyek",
+      "referensi_2": "Contoh poster kampanye KPK"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Presentasi proyek",
+      "indikator_1": "Kemampuan mempresentasikan hasil proyek kebangsaan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan laporan dan poster proyek kebangsaan secara efektif",
+      "pokok_bahasan": "Presentasi Hasil Proyek",
+      "sub_pokok_bahasan_1": "Teknik presentasi (slide, intonasi, bahasa tubuh)",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (waktu 10 menit/kelompok), urutan",
+          "mahasiswa": "Mempersiapkan diri, menyiapkan slide",
+          "media": "Slide, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik",
+          "mahasiswa": "Mempresentasikan proyek (latar belakang, metode, hasil, poster), menjawab pertanyaan",
+          "media": "Slide presentasi, poster virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan keseluruhan proyek, memberikan apresiasi, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, memberikan feedback antar kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok (10 menit) - Bobot 8%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan presentasi ilmiah",
+      "referensi_2": "Contoh presentasi proyek"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15, plus integrasi)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang ketahanan nasional, bela negara, anti korupsi, dan studi kasus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 9-15 serta kemampuan analisis kasus",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Ketahanan nasional, bela negara, nilai anti korupsi, proyek kebangsaan",
+      "sub_pokok_bahasan_2": "Studi kasus integrasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan (soal integratif, boleh buka buku, batas waktu)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (esai dan studi kasus, misal: analisis penerapan 9 nilai anti korupsi di sebuah perusahaan IT)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 9-15",
+      "referensi_2": "Modul anti korupsi, UU Bela Negara"
+    }
+  ]
+}

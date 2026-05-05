@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3213",
+    "nama_mk": "Statistika dan Probabilitas",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Pengertian statistika, data, dan skala pengukuran",
+      "indikator_1": "Ketepatan membedakan statistika deskriptif dan inferensial, data kualitatif/kuantitatif, skala nominal, ordinal, interval, rasio",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan statistika deskriptif dan inferensial, jenis data, serta skala pengukuran",
+      "pokok_bahasan": "Konsep Dasar Statistika dan Data",
+      "sub_pokok_bahasan_1": "Statistika deskriptif vs inferensial",
+      "sub_pokok_bahasan_2": "Jenis data dan skala pengukuran (nominal, ordinal, interval, rasio)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu statistika? Contoh dalam kehidupan sehari-hari'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan perbedaan statistika deskriptif dan inferensial, jenis data (kualitatif/kuantitatif), dan skala pengukuran. Memberikan contoh-contoh. Latihan mengklasifikasikan data",
+          "mahasiswa": "Mendengarkan, mencatat, latihan mengidentifikasi jenis data dan skala",
+          "media": "Slide, papan tulis virtual, contoh data"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi penyajian data",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Probability and statistics for engineers and scientists (9th ed.). Pearson. Bab 1",
+      "referensi_2": "Triola, M.F. (2018). Elementary statistics (13th ed.). Pearson. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah + praktik TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Penyajian data (tabel, grafik, diagram)",
+      "indikator_1": "Kemampuan membuat tabel frekuensi, histogram, poligon, ogive, diagram batang, lingkaran",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyajikan data dalam bentuk tabel frekuensi dan berbagai grafik/ diagram",
+      "pokok_bahasan": "Penyajian Data",
+      "sub_pokok_bahasan_1": "Distribusi frekuensi (tabel, interval kelas)",
+      "sub_pokok_bahasan_2": "Histogram, poligon frekuensi, ogive, diagram batang & lingkaran",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Data nilai mahasiswa, bagaimana menyajikannya?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara membuat tabel distribusi frekuensi, menentukan jumlah kelas dan interval. Mempraktikkan pembuatan histogram, poligon, ogive menggunakan Excel atau manual. Latihan membuat diagram batang dan lingkaran",
+          "mahasiswa": "Mencatat, praktik membuat tabel dan grafik (Excel/ manual), tanya jawab",
+          "media": "Slide, aplikasi spreadsheet, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (menyajikan data nilai dengan tabel dan grafik), menginformasikan materi ukuran pemusatan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (penyajian data) - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 2",
+      "referensi_2": "Triola, M.F. (2018). Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Ukuran pemusatan (mean, median, modus)",
+      "indikator_1": "Kemampuan menghitung mean, median, modus untuk data tunggal dan kelompok",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung dan menginterpretasikan mean, median, modus untuk data tunggal dan berkelompok",
+      "pokok_bahasan": "Ukuran Pemusatan Data",
+      "sub_pokok_bahasan_1": "Mean (rata-rata) data tunggal dan kelompok",
+      "sub_pokok_bahasan_2": "Median dan modus, interpretasi dalam konteks",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana menentukan nilai rata-rata kelas?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan rumus mean, median, modus untuk data tunggal dan kelompok. Memberikan contoh perhitungan. Latihan soal hitungan secara mandiri dan kelompok",
+          "mahasiswa": "Mencatat, mengerjakan latihan, diskusi interpretasi",
+          "media": "Slide, papan tulis, kalkulator"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas hitungan, menginformasikan materi ukuran penyebaran",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas hitungan - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 2",
+      "referensi_2": "Montgomery, D.C. (2018). Bab 1"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Ukuran penyebaran (range, varians, standar deviasi)",
+      "indikator_1": "Kemampuan menghitung range, varians, standar deviasi, koefisien variasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung dan menginterpretasikan ukuran penyebaran data (range, varians, standar deviasi, koefisien variasi)",
+      "pokok_bahasan": "Ukuran Penyebaran Data",
+      "sub_pokok_bahasan_1": "Range, varians, standar deviasi data tunggal dan kelompok",
+      "sub_pokok_bahasan_2": "Koefisien variasi dan interpretasi sebaran",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa perlu ukuran penyebaran selain rata-rata?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep variabilitas: range, varians (populasi dan sampel), standar deviasi, koefisien variasi. Memberikan contoh perhitungan. Latihan soal hitungan dan interpretasi",
+          "mahasiswa": "Mencatat, latihan menghitung, diskusi kapan menggunakan ukuran tertentu",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas hitungan, menginformasikan materi probabilitas",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas hitungan - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 2",
+      "referensi_2": "Triola, M.F. (2018). Bab 3"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan teori probabilitas, aturan peluang, dan distribusi probabilitas (diskret dan kontinu) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Konsep probabilitas",
+      "indikator_1": "Ketepatan menjelaskan ruang sampel, kejadian, aturan penjumlahan, aturan perkalian, probabilitas bersyarat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep probabilitas dasar, aturan penjumlahan dan perkalian, serta probabilitas bersyarat",
+      "pokok_bahasan": "Dasar-dasar Probabilitas",
+      "sub_pokok_bahasan_1": "Ruang sampel, kejadian, definisi probabilitas",
+      "sub_pokok_bahasan_2": "Aturan penjumlahan, perkalian, kejadian saling lepas, bebas, bersyarat",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Peluang muncul angka pada dadu?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ruang sampel, kejadian, aksioma probabilitas. Memberikan contoh aturan penjumlahan untuk kejadian saling lepas dan tidak saling lepas. Aturan perkalian dan probabilitas bersyarat. Latihan soal",
+          "mahasiswa": "Mencatat, latihan soal, diskusi",
+          "media": "Slide, papan tulis, dadu/koin virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas latihan, menginformasikan materi distribusi probabilitas",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 3",
+      "referensi_2": "Montgomery, D.C. (2018). Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan teori probabilitas, aturan peluang, dan distribusi probabilitas (diskret dan kontinu) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Distribusi probabilitas diskret dan kontinu",
+      "indikator_1": "Kemampuan menggunakan distribusi Binomial, Poisson, dan Normal (tabel z)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan distribusi probabilitas diskret (Binomial, Poisson) dan kontinu (Normal) untuk menghitung peluang",
+      "pokok_bahasan": "Distribusi Probabilitas",
+      "sub_pokok_bahasan_1": "Distribusi Binomial dan Poisson (rumus, tabel, aplikasi)",
+      "sub_pokok_bahasan_2": "Distribusi Normal (kurva, tabel z, pendekatan normal)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Distribusi apa yang sering dipakai?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan distribusi Binomial (syarat, rumus, contoh), Poisson (circumstances, contoh), dan Normal (kurva, standarisasi, tabel z). Latihan menghitung peluang dengan tabel z. Pendekatan Binomial ke Normal",
+          "mahasiswa": "Mencatat, latihan hitungan, membaca tabel z",
+          "media": "Slide, tabel distribusi, kalkulator"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan distribusi (Binomial, Poisson, Normal), menginformasikan materi sampling",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan distribusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 4,5,6",
+      "referensi_2": "Triola, M.F. (2018). Bab 5,6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami sampling, distribusi sampling, estimasi, dan interval kepercayaan (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Sampling dan distribusi sampling",
+      "indikator_1": "Kemampuan menjelaskan teknik sampling, distribusi sampling rata-rata, dan teorema limit pusat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep sampling, distribusi sampling, dan teorema limit pusat",
+      "pokok_bahasan": "Sampling dan Distribusi Sampling",
+      "sub_pokok_bahasan_1": "Populasi, sampel, teknik sampling random",
+      "sub_pokok_bahasan_2": "Distribusi sampling rata-rata, teorema limit pusat (CLT)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa menggunakan sampel?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan populasi vs sampel, metode sampling (simple random, stratified, etc). Distribusi sampling rata-rata: mean dan standar error. Teorema limit pusat: pentingnya untuk ukuran sampel besar. Simulasi sederhana dengan Excel",
+          "mahasiswa": "Mencatat, diskusi, latihan menentukan distribusi sampling",
+          "media": "Slide, animasi CLT, Excel"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, diskusi, menginformasikan materi estimasi interval",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Diskusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 7",
+      "referensi_2": "Montgomery, D.C. (2018). Bab 5"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal statistika deskriptif, probabilitas, distribusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap statistika deskriptif, probabilitas, dan distribusi probabilitas",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal pilihan ganda, esai, dan hitungan (penyajian data, mean, median, probabilitas, distribusi)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu memahami sampling, distribusi sampling, estimasi, dan interval kepercayaan (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Estimasi dan interval kepercayaan",
+      "indikator_1": "Kemampuan menghitung interval kepercayaan untuk rata-rata (σ diketahui/tidak) dan proporsi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung interval kepercayaan untuk rata-rata dan proporsi serta menginterpretasikannya",
+      "pokok_bahasan": "Estimasi dan Interval Kepercayaan",
+      "sub_pokok_bahasan_1": "Estimasi titik dan interval, margin of error",
+      "sub_pokok_bahasan_2": "Interval kepercayaan untuk rata-rata (σ diketahui dan tidak diketahui) dan proporsi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana menaksir rata-rata populasi dari sampel?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan estimasi titik (point estimate) dan interval kepercayaan. Rumus interval untuk rata-rata jika σ diketahui (z) dan tidak diketahui (t). Interval untuk proporsi (z). Latihan soal hitungan. Interpretasi interval",
+          "mahasiswa": "Mencatat, latihan hitungan, diskusi interpretasi",
+          "media": "Slide, tabel t, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan (interval kepercayaan), menginformasikan materi uji hipotesis satu sampel",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 8",
+      "referensi_2": "Triola, M.F. (2018). Bab 7"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengujian hipotesis (satu sampel, dua sampel) dan menginterpretasikan hasil (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Uji hipotesis satu sampel (rata-rata, proporsi)",
+      "indikator_1": "Kemampuan melakukan uji z, uji t satu sampel, dan menginterpretasikan p-value",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan uji hipotesis satu sampel untuk rata-rata dan proporsi, serta menginterpretasikan hasil",
+      "pokok_bahasan": "Uji Hipotesis Satu Sampel",
+      "sub_pokok_bahasan_1": "Hipotesis nol dan alternatif, taraf signifikansi, statistik uji",
+      "sub_pokok_bahasan_2": "Uji z dan uji t satu sampel, daerah kritis, p-value",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apakah rata-rata nilai mahasiswa > 70? Bagaimana menguji?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan langkah-langkah uji hipotesis (formulasi H0 dan H1, pilih α, hitung statistik uji, bandingkan dengan daerah kritis atau p-value, kesimpulan). Contoh uji z untuk rata-rata dengan σ diketahui, uji t untuk σ tidak diketahui. Uji proporsi satu sampel (z). Latihan soal",
+          "mahasiswa": "Mencatat, latihan soal, diskusi kasus",
+          "media": "Slide, tabel z dan t"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan + interpretasi, menginformasikan materi uji dua sampel",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan + interpretasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 9-10",
+      "referensi_2": "Montgomery, D.C. (2018). Bab 4"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu melakukan pengujian hipotesis (satu sampel, dua sampel) dan menginterpretasikan hasil (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Uji hipotesis dua sampel (independen dan berpasangan)",
+      "indikator_1": "Kemampuan melakukan uji t dua sampel independen dan paired t-test",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan uji hipotesis dua sampel independen dan berpasangan (paired t-test) serta menginterpretasi",
+      "pokok_bahasan": "Uji Hipotesis Dua Sampel",
+      "sub_pokok_bahasan_1": "Uji perbedaan dua rata-rata (independen) dengan varians sama dan berbeda",
+      "sub_pokok_bahasan_2": "Uji t berpasangan (paired t-test), asumsi dan contoh",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Membandingkan dua metode belajar, apakah berbeda?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan uji dua sampel independen (pooled variance dan Welch), contoh kasus. Uji t berpasangan untuk data sebelum-sesudah. Latihan soal hitungan dan interpretasi menggunakan tabel t. Diskusi asumsi normalitas",
+          "mahasiswa": "Mencatat, latihan hitungan, diskusi kasus (misal: perbandingan dua kelompok perlakuan)",
+          "media": "Slide, tabel t, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (studi kasus uji dua sampel), menginformasikan materi korelasi",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (studi kasus) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 10",
+      "referensi_2": "Triola, M.F. (2018). Bab 9"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10 : Analisis korelasi",
+      "indikator_1": "Kemampuan menghitung dan menginterpretasikan koefisien korelasi Pearson",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung dan menginterpretasi koefisien korelasi Pearson serta melakukan uji signifikansi korelasi",
+      "pokok_bahasan": "Analisis Korelasi",
+      "sub_pokok_bahasan_1": "Koefisien korelasi Pearson (r), interpretasi kekuatan dan arah",
+      "sub_pokok_bahasan_2": "Uji signifikansi korelasi, korelasi rank (Spearman) sekilas",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Hubungan antara jam belajar dan nilai?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kovarians dan korelasi Pearson, rumus hitung, interpretasi nilai r (kuat, sedang, lemah, positif/negatif). Uji signifikansi korelasi (uji t). Latihan hitung korelasi manual dan dengan Excel. Sekilas korelasi rank Spearman",
+          "mahasiswa": "Mencatat, latihan menghitung korelasi, diskusi interpretasi",
+          "media": "Slide, Excel, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas hitungan, menginformasikan materi regresi linier",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas hitungan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 11",
+      "referensi_2": "Montgomery, D.C. (2018). Bab 7"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah + latihan TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10 : Regresi linier sederhana",
+      "indikator_1": "Kemampuan menentukan persamaan regresi, koefisien determinasi, dan uji signifikansi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat model regresi linier sederhana, menghitung koefisien determinasi, dan melakukan uji signifikansi",
+      "pokok_bahasan": "Regresi Linier Sederhana",
+      "sub_pokok_bahasan_1": "Model regresi: estimasi parameter (slope, intercept)",
+      "sub_pokok_bahasan_2": "Koefisien determinasi (R-squared), uji F dan uji t untuk signifikansi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Memprediksi nilai berdasarkan jam belajar?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan model regresi linier sederhana Y = a + bX, cara menghitung a dan b (rumus atau metode kuadrat terkecil). Interpretasi slope dan intercept. Koefisien determinasi R-squared. Uji signifikansi regresi (ANOVA, uji t). Latihan soal hitung manual dan pakai Excel",
+          "mahasiswa": "Mencatat, latihan hitung regresi, diskusi interpretasi output",
+          "media": "Slide, Excel, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan + interpretasi, menginformasikan materi penggunaan software statistik",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan + interpretasi - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Walpole, R.E. (2016). Bab 11",
+      "referensi_2": "Triola, M.F. (2018). Bab 10"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Praktik software TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 11 : Studi kasus analisis statistik dengan tools (Excel/SPSS)",
+      "indikator_1": "Kemampuan menggunakan software untuk analisis data dan menginterpretasikan output",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan Excel atau SPSS untuk melakukan analisis deskriptif, uji hipotesis, korelasi, dan regresi, serta menginterpretasi output",
+      "pokok_bahasan": "Praktik Analisis Statistik dengan Software",
+      "sub_pokok_bahasan_1": "Penggunaan Excel: menu data analysis, fungsi statistik",
+      "sub_pokok_bahasan_2": "Interpretasi output: mean, standar deviasi, t-test, korelasi, regresi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Siapa yang sudah menggunakan Excel untuk statistik?'), menyampaikan tujuan praktik",
+          "mahasiswa": "Menyimak",
+          "media": "Laptop, Excel, Zoom share screen"
+        },
+        "penyajian": {
+          "pengajar": "Demonstrasi penggunaan Excel (Add-in Analysis ToolPak) untuk statistik deskriptif, uji t satu sampel, uji t dua sampel, korelasi, regresi. Memberikan dataset contoh. Mahasiswa mengikuti dan mempraktikkan. Dosen membimbing",
+          "mahasiswa": "Mempraktikkan di Excel, mengikuti demonstrasi, mencoba dataset sendiri",
+          "media": "Excel, dataset, LMS untuk file"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik (analisis dataset dengan Excel/SPSS dan menulis laporan singkat), menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik (analisis dataset) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Nugroho, B.A. (2016). Strategi jitu memilih metode statistik dengan SPSS",
+      "referensi_2": "Walpole, R.E. (2016). Panduan Praktis"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Bimbingan laporan TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 11 : Penyusunan laporan analisis statistik",
+      "indikator_1": "Kemampuan menulis laporan sistematis dan menyajikan hasil analisis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan analisis statistik yang sistematis (pendahuluan, metode, hasil, kesimpulan) dan menyajikan tabel/grafik",
+      "pokok_bahasan": "Penyusunan Laporan Statistik",
+      "sub_pokok_bahasan_1": "Struktur laporan: pendahuluan, metode, hasil, diskusi, kesimpulan",
+      "sub_pokok_bahasan_2": "Penyajian tabel, grafik, dan interpretasi hasil",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres laporan), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan statistik (format IMRaD). Memberikan template laporan. Contoh penyajian tabel dan grafik yang baik. Bimbingan per kelompok untuk finalisasi laporan, diskusi kesimpulan",
+          "mahasiswa": "Konsultasi, merevisi laporan, merapikan tabel/grafik",
+          "media": "Template laporan, LMS, Google Docs"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat pengumpulan laporan dan persiapan presentasi, menginformasikan presentasi UAS",
+          "mahasiswa": "Mencatat, menyelesaikan laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan penulisan laporan statistik",
+      "referensi_2": "Triola, M.F. (2018). Bab 12"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Presentasi + UAS TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS : Presentasi + Ujian Akhir Semester",
+      "indikator_1": "Kemampuan mempresentasikan hasil analisis dan menjawab soal integratif",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur kemampuan mahasiswa dalam mempresentasikan laporan statistik dan menjawab soal integratif estimasi, uji hipotesis, regresi",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Presentasi laporan kelompok (10 menit)",
+      "sub_pokok_bahasan_2": "Ujian tertulis: estimasi, uji hipotesis, korelasi, regresi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, mengatur urutan presentasi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan slide, mengisi presensi",
+          "media": "Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok (masing-masing 10 menit + tanya jawab). Setelah presentasi, membuka akses ujian tertulis online di LMS",
+          "mahasiswa": "Mempresentasikan laporan, menjawab pertanyaan. Kemudian mengerjakan soal ujian (integratif: interval, hipotesis, regresi)",
+          "media": "Slide presentasi, LMS (Google Form)"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, menutup akses ujian, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok + ujian tertulis - Bobot 18%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Walpole, Triola, Montgomery"
+    }
+  ]
+}

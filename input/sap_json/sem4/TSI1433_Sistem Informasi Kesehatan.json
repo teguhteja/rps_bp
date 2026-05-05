@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1433",
+    "nama_mk": "Sistem Informasi Kesehatan",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dasar sistem informasi kesehatan, ekosistem layanan kesehatan di Indonesia, serta peran teknologi informasi dalam transformasi layanan kesehatan (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Konsep dasar sistem informasi kesehatan",
+      "indikator_1": "Ketepatan mendefinisikan SI Kesehatan, komponen, dan peran dalam layanan kesehatan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi, komponen, dan peran sistem informasi dalam layanan kesehatan",
+      "pokok_bahasan": "Konsep Dasar SI Kesehatan",
+      "sub_pokok_bahasan_1": "Definisi SI Kesehatan dan komponen (data, informasi, teknologi, manusia, proses)",
+      "sub_pokok_bahasan_2": "Peran SI dalam peningkatan mutu layanan kesehatan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh teknologi informasi di rumah sakit), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi SI Kesehatan, komponen utama (data, informasi, teknologi, manusia, proses), serta peran pentingnya dalam meningkatkan mutu, efisiensi, dan keselamatan pasien. Memberikan contoh SIMRS sederhana.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi singkat",
+          "media": "Slide, papan tulis virtual, diagram komponen"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi ekosistem layanan kesehatan Indonesia",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Tan, J. (2020). Healthcare information systems. Bab 1",
+      "referensi_2": "Wager, K.A. et al. (2021). Health care information systems. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Diskusi interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dasar sistem informasi kesehatan, ekosistem layanan kesehatan di Indonesia, serta peran teknologi informasi dalam transformasi layanan kesehatan (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Ekosistem layanan kesehatan Indonesia",
+      "indikator_1": "Kemampuan memetakan fasilitas kesehatan (rumah sakit, puskesmas, klinik, laboratorium) dan alur rujukan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memetakan ekosistem layanan kesehatan Indonesia, termasuk fasilitas, alur rujukan, dan peran BPJS Kesehatan",
+      "pokok_bahasan": "Ekosistem Layanan Kesehatan Indonesia",
+      "sub_pokok_bahasan_1": "Fasilitas kesehatan: FKTP (puskesmas, klinik) dan FKRTL (rumah sakit), laboratorium",
+      "sub_pokok_bahasan_2": "Alur rujukan, JKN, BPJS Kesehatan, peran Dinas Kesehatan dan Kemenkes",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah berobat ke puskesmas/rumah sakit? alurnya?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ekosistem kesehatan Indonesia: FKTP (puskesmas, klinik), FKRTL (rumah sakit), laboratorium, alur rujukan berjenjang, peran BPJS, Dinkes, Kemenkes. Diskusi kelompok kecil tentang tantangan interoperabilitas antar fasilitas.",
+          "mahasiswa": "Diskusi kelompok, membuat peta ekosistem sederhana",
+          "media": "Slide, diagram ekosistem"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (analisis alur rujukan di daerah masing-masing), menginformasikan materi standar data kesehatan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Forum diskusi; Tugas individu - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Wager, K.A. (2021). Bab 2",
+      "referensi_2": "Kemenkes. Pedoman SIMRS (2023). Pendahuluan"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan standar data kesehatan (ICD-10, HL7, FHIR) dan rekam medis elektronik (RME) serta interoperabilitas sistem informasi kesehatan (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Standar data kesehatan (ICD-10, ICD-9-CM)",
+      "indikator_1": "Ketepatan menjelaskan kodefikasi diagnosis dan tindakan medis; kemampuan menggunakan kode ICD sederhana",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan standar ICD-10 dan ICD-9-CM serta melakukan kodefikasi diagnosis/tindakan sederhana",
+      "pokok_bahasan": "Standar Data Kesehatan: ICD-10, ICD-9-CM",
+      "sub_pokok_bahasan_1": "ICD-10 (klasifikasi penyakit), struktur kode, contoh penggunaan",
+      "sub_pokok_bahasan_2": "ICD-9-CM (klasifikasi tindakan medis) untuk klaim BPJS",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana BPJS menentukan tarif?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ICD-10: sejarah, struktur kode (alfanumerik), bab penyakit, contoh kode untuk diagnosis umum (A00-Z99). ICD-9-CM untuk tindakan. Praktik sederhana mengkodekan diagnosis dari kasus hipotetis (misal: hipertensi, diabetes). Latihan menggunakan buku ICD-10 sederhana (digital).",
+          "mahasiswa": "Mencatat, latihan kodefikasi, diskusi",
+          "media": "Slide, contoh kode ICD, buku digital"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas praktik kodefikasi (5 kasus), menginformasikan materi HL7 & FHIR",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas praktik kodefikasi - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Wager, K.A. (2021). Bab 6 (klasifikasi data)",
+      "referensi_2": "Kemenkes. Pedoman ICD-10"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan standar data kesehatan (ICD-10, HL7, FHIR) dan rekam medis elektronik (RME) serta interoperabilitas sistem informasi kesehatan (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : HL7, FHIR, dan rekam medis elektronik (RME)",
+      "indikator_1": "Ketepatan menjelaskan interoperabilitas, format pesan HL7, sumber daya FHIR, dan komponen RME",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan standar HL7, FHIR, dan komponen rekam medis elektronik serta manfaatnya",
+      "pokok_bahasan": "HL7, FHIR, dan Rekam Medis Elektronik",
+      "sub_pokok_bahasan_1": "HL7 (standar pertukaran data), format pesan, contoh",
+      "sub_pokok_bahasan_2": "FHIR (API modern) dan RME (definisi, komponen, manfaat, tantangan)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana dua sistem rumah sakit saling tukar data?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan HL7: sejarah, format pesan (segmen, field). FHIR: berbasis RESTful, sumber daya, contoh request. Rekam medis elektronik (RME): komponen (data demografi, riwayat penyakit, obat, hasil lab), manfaat (akses cepat, keamanan), tantangan (standarisasi, adopsi). Diskusi implementasi RME di Indonesia.",
+          "mahasiswa": "Mencatat, diskusi, analisis studi kasus RME",
+          "media": "Slide, contoh pesan HL7"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (mencari contoh implementasi RME di fasilitas kesehatan), menginformasikan materi SIMRS",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Tan, J. (2020). Bab 4 (interoperabilitas)",
+      "referensi_2": "Wager, K.A. (2021). Bab 7 (RME)"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis arsitektur, modul, dan integrasi Sistem Informasi Rumah Sakit (SIMRS) serta Sistem Informasi Puskesmas (FKTP) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Arsitektur dan modul SIMRS",
+      "indikator_1": "Kemampuan mengidentifikasi modul-modul SIMRS (pendaftaran, rawat jalan, rawat inap, farmasi, laboratorium, radiologi, keuangan, rekam medis)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi dan menjelaskan modul-modul fungsional SIMRS serta arsitektur dasarnya",
+      "pokok_bahasan": "Arsitektur dan Modul SIMRS",
+      "sub_pokok_bahasan_1": "Arsitektur SIMRS (client-server, web-based, cloud)",
+      "sub_pokok_bahasan_2": "Modul fungsional: pendaftaran, rawat jalan, rawat inap, farmasi, laboratorium, radiologi, keuangan, rekam medis",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: alur pasien dari pendaftaran hingga pulang, sistem apa yang terlibat?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan arsitektur SIMRS (termasuk cloud). Memaparkan modul-modul secara berurutan sesuai alur pasien: pendaftaran, rawat jalan, rawat inap, farmasi, laboratorium, radiologi, keuangan, dan rekam medis. Menunjukkan contoh antarmuka sederhana. Tugas kelompok: membuat peta modul SIMRS sebuah rumah sakit hipotetis.",
+          "mahasiswa": "Mencatat, diskusi kelompok, membuat diagram modul",
+          "media": "Slide, contoh screenshot SIMRS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas kelompok (analisis modul SIMRS), menginformasikan materi integrasi SIMRS",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas kelompok (analisis modul SIMRS) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kemenkes. Pedoman SIMRS (2023). Bab 3",
+      "referensi_2": "Wager, K.A. (2021). Bab 8 (SIMRS)"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Diskusi interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis arsitektur, modul, dan integrasi Sistem Informasi Rumah Sakit (SIMRS) serta Sistem Informasi Puskesmas (FKTP) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Integrasi SIMRS dengan sistem lain (BPJS, laboratorium, farmasi)",
+      "indikator_1": "Ketepatan menjelaskan mekanisme integrasi (API, HL7, web service) dan tantangan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan mekanisme integrasi SIMRS dengan BPJS, LIS, sistem farmasi, dan e-Puskesmas serta tantangannya",
+      "pokok_bahasan": "Integrasi SIMRS dengan Sistem Eksternal",
+      "sub_pokok_bahasan_1": "Integrasi dengan BPJS (VClaim, INA-CBG)",
+      "sub_pokok_bahasan_2": "Integrasi dengan LIS, sistem farmasi, e-Puskesmas; mekanisme API, HL7, ETL",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa yang terjadi jika SIMRS tidak terintegrasi dengan BPJS?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan integrasi dengan BPJS: VClaim (klaim online), INA-CBG (tarif). Integrasi dengan laboratorium (LIS): penggunaan HL7. Integrasi farmasi: stok obat otomatis. E-Puskesmas ke Dinkes. Teknologi: API, web service, ETL. Diskusi tantangan (standar, biaya, keamanan). Studi kasus: integrasi SIMRS rumah sakit X dengan BPJS.",
+          "mahasiswa": "Mencatat, diskusi, analisis studi kasus",
+          "media": "Slide, contoh skema integrasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas analisis studi kasus integrasi, menginformasikan materi e-Puskesmas",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas analisis studi kasus integrasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Wager, K.A. (2021). Bab 9 (integrasi)",
+      "referensi_2": "Kemenkes. Pedoman SIMRS. Bab 4"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis arsitektur, modul, dan integrasi Sistem Informasi Rumah Sakit (SIMRS) serta Sistem Informasi Puskesmas (FKTP) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Sistem informasi puskesmas (FKTP)",
+      "indikator_1": "Ketepatan menjelaskan modul e-Puskesmas dan integrasinya dengan SIMRS dan BPJS",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan modul e-Puskesmas dan integrasinya dengan SIMRS serta BPJS",
+      "pokok_bahasan": "Sistem Informasi Puskesmas (e-Puskesmas)",
+      "sub_pokok_bahasan_1": "Modul e-Puskesmas: data kunjungan, kohort, obat, surveilans, PIS-PK",
+      "sub_pokok_bahasan_2": "Pelaporan ke Dinas Kesehatan dan integrasi dengan SIMRS/BPJS",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah ke puskesmas? data apa yang dicatat?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan e-Puskesmas: definisi, modul (kunjungan, kohort ibu hamil, penyakit, obat, surveilans, PIS-PK). Alur data dari puskesmas ke Dinkes. Integrasi dengan SIMRS (rujukan) dan BPJS (kapitasi). Contoh kasus integrasi e-Puskesmas dengan SIMRS rumah sakit rujukan.",
+          "mahasiswa": "Mencatat, diskusi, latihan mengisi data e-Puskesmas sederhana",
+          "media": "Slide, demo aplikasi e-Puskesmas (jika ada)"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (membandingkan e-Puskesmas dengan SIMRS dalam hal modul), menginformasikan UTS",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kemenkes. Pedoman e-Puskesmas (2023). Bab 1-2",
+      "referensi_2": "Wager, K.A. (2021). Bab 10"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep SI Kesehatan, standar data, SIMRS, e-Puskesmas",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap konsep dasar SI Kesehatan, standar data, SIMRS, dan e-Puskesmas",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasus alur integrasi)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Diskusi interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen data pasien, privasi, keamanan data kesehatan, dan regulasi terkait (UU Kesehatan No. 17 Tahun 2023, UU PDP) (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Manajemen data pasien, privasi, dan keamanan data kesehatan",
+      "indikator_1": "Ketepatan menjelaskan prinsip keamanan data kesehatan (CIA Triad) dan regulasi (UU Kesehatan, UU PDP)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan prinsip-prinsip keamanan data kesehatan (CIA Triad) serta regulasi terkait di Indonesia",
+      "pokok_bahasan": "Manajemen Data, Privasi, dan Keamanan Data Kesehatan",
+      "sub_pokok_bahasan_1": "Prinsip keamanan (kerahasiaan, integritas, ketersediaan)",
+      "sub_pokok_bahasan_2": "Regulasi: UU Kesehatan No. 17/2023 (rahasia medis), UU PDP No. 27/2022 (hak pasien)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: data kesehatan pasien harus dijaga kerahasiaannya, mengapa?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep CIA Triad (confidentiality, integrity, availability) dalam konteks data kesehatan. UU Kesehatan: rahasia medis, sanksi. UU PDP: hak data pribadi, pidana. Diskusi studi kasus kebocoran data rumah sakit. Latihan mengidentifikasi pelanggaran privasi.",
+          "mahasiswa": "Mencatat, diskusi, analisis kasus",
+          "media": "Slide, berita kebocoran data"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, forum diskusi (implementasi UU PDP di rumah sakit), menginformasikan materi telemedicine",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Forum diskusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Undang-Undang No. 17 Tahun 2023 (Kesehatan)",
+      "referensi_2": "Undang-Undang No. 27 Tahun 2022 (PDP)"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Telemedicine dan e-Health",
+      "indikator_1": "Ketepatan menjelaskan jenis layanan telemedicine (konsultasi jarak jauh, remote monitoring, store-and-forward)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan jenis-jenis telemedicine, platform e-Health di Indonesia, serta manfaat dan tantangan",
+      "pokok_bahasan": "Telemedicine dan e-Health",
+      "sub_pokok_bahasan_1": "Telemedicine: definisi, jenis (real-time, store-and-forward, remote monitoring)",
+      "sub_pokok_bahasan_2": "Platform telemedicine di Indonesia (Halodoc, Alodokter) dan e-Health (SISRUTE, aplikasi kesehatan masyarakat)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah konsultasi online dengan dokter?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan telemedicine: definisi, regulasi (Permenkes), jenis layanan (konsultasi, monitoring, store-and-forward). Platform Indonesia: Halodoc, Alodokter. e-Health: SISRUTE (sistem rujukan), aplikasi kesehatan ibu anak (Asi), dll. Diskusi dampak pandemi terhadap telemedicine.",
+          "mahasiswa": "Mencatat, diskusi, tugas kelompok (analisis platform telemedicine)",
+          "media": "Slide, screenshot aplikasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas kelompok (analisis platform telemedicine), menginformasikan materi interoperabilitas",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas kelompok (analisis platform telemedicine) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tan, J. (2020). Bab 7 (telehealth)",
+      "referensi_2": "Wager, K.A. (2021). Bab 12"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Interoperabilitas sistem informasi kesehatan",
+      "indikator_1": "Ketepatan menjelaskan tingkat interoperabilitas (fundamental, struktural, semantik) dan arsitektur SISRUTE",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan tingkat interoperabilitas, standar yang digunakan, dan arsitektur SISRUTE",
+      "pokok_bahasan": "Interoperabilitas SI Kesehatan",
+      "sub_pokok_bahasan_1": "Tingkat interoperabilitas (fundamental, struktural, semantik)",
+      "sub_pokok_bahasan_2": "SISRUTE (Sistem Informasi Rumah Sakit Terintegrasi) dan arsitektur nasional",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: mengapa rumah sakit dan puskesmas perlu saling terhubung?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi interoperabilitas, tingkat (fundamental: koneksi; struktural: format data; semantik: makna data). Standar: HL7, FHIR, DICOM. SISRUTE: arsitektur nasional untuk menghubungkan rumah sakit, puskesmas, BPJS, dan Dinkes. Contoh diagram arsitektur.",
+          "mahasiswa": "Mencatat, diskusi, latihan menentukan tingkat interoperabilitas dari studi kasus",
+          "media": "Slide, diagram SISRUTE"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (membuat esai tentang tantangan interoperabilitas di Indonesia), menginformasikan materi regulasi",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tan, J. (2020). Bab 5 (interoperabilitas)",
+      "referensi_2": "Kemenkes. Pedoman SISRUTE (2023)"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen data pasien, privasi, keamanan data kesehatan, dan regulasi terkait (UU Kesehatan No. 17 Tahun 2023, UU PDP) (CPMK-4) serta menganalisis regulasi dan kebijakan SI Kesehatan di Indonesia (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Regulasi dan kebijakan SI Kesehatan di Indonesia (Kemenkes)",
+      "indikator_1": "Ketepatan menjelaskan peraturan Kemenkes tentang SIMRS, telemedicine, rekam medis elektronik",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peraturan perundangan dan kebijakan Kemenkes terkait SI Kesehatan di Indonesia",
+      "pokok_bahasan": "Regulasi dan Kebijakan SI Kesehatan",
+      "sub_pokok_bahasan_1": "Permenkes tentang SIMRS, rekam medis elektronik, telemedicine",
+      "sub_pokok_bahasan_2": "Kebijakan transformasi digital kesehatan (SISRUTE, SATUSEHAT)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apakah ada peraturan khusus tentang SIMRS?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Permenkes tentang SIMRS (wajib di rumah sakit), rekam medis elektronik (wajib 2024?), telemedicine. Kebijakan transformasi digital: SISRUTE, platform SATUSEHAT (integrasi data kesehatan nasional). Diskusi dampak kebijakan terhadap implementasi SI di fasilitas kesehatan.",
+          "mahasiswa": "Mencatat, diskusi, tugas analisis regulasi (membaca satu Permenkes dan mereview)",
+          "media": "Slide, dokumen Permenkes"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas analisis regulasi, menginformasikan persiapan studi kasus",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas analisis regulasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Permenkes RI Nomor 82 Tahun 2013 (SIMRS)",
+      "referensi_2": "Permenkes Nomor 20 Tahun 2019 (Telemedicine)"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Bimbingan proyek TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Studi kasus implementasi SI Kesehatan (persiapan)",
+      "indikator_1": "Kemampuan memilih fasilitas kesehatan (rumah sakit/puskesmas) dan mengidentifikasi permasalahan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih studi kasus fasilitas kesehatan dan mengidentifikasi masalah serta kebutuhan SI",
+      "pokok_bahasan": "Studi Kasus Implementasi SI Kesehatan: Persiapan",
+      "sub_pokok_bahasan_1": "Pemilihan kasus (rumah sakit/puskesmas nyata atau hipotetis)",
+      "sub_pokok_bahasan_2": "Identifikasi masalah (manual, tidak terintegrasi, pelaporan lambat), analisis kebutuhan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: proyek akhir semester), menyampaikan kriteria dan tujuan proyek",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kerangka proyek: pilih fasilitas kesehatan (bisa fiktif atau nyata), identifikasi permasalahan (manual, tidak terintegrasi, pelaporan), analisis kebutuhan sistem. Memberikan contoh proposal. Bimbingan per kelompok dalam memilih topik.",
+          "mahasiswa": "Berdiskusi kelompok, menentukan topik, mulai menyusun proposal",
+          "media": "Template proposal, LMS"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tenggat proposal (1 minggu), menginformasikan materi analisis rekomendasi",
+          "mahasiswa": "Mencatat tugas, mulai diskusi kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal proyek kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Wager, K.A. (2021). Bab 13 (studi kasus)",
+      "referensi_2": "Kemenkes. Pedoman SIMRS (2023)"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Bimbingan proyek TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Analisis dan rekomendasi solusi",
+      "indikator_1": "Kemampuan menyusun rekomendasi (arsitektur, modul, standar, keamanan, interoperabilitas)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun rekomendasi solusi SI Kesehatan yang meliputi arsitektur, modul, standar data, keamanan, dan interoperabilitas",
+      "pokok_bahasan": "Analisis dan Rekomendasi Solusi",
+      "sub_pokok_bahasan_1": "Perancangan arsitektur, modul, standar data (ICD, HL7, FHIR)",
+      "sub_pokok_bahasan_2": "Keamanan data, interoperabilitas, dan integrasi dengan sistem eksternal",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres proposal), menyampaikan materi rekomendasi",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan panduan penyusunan rekomendasi: usulan arsitektur (client-server atau cloud), modul yang diperlukan, standar data (gunakan ICD-10, HL7), keamanan (enkripsi, akses kontrol), interoperabilitas (API, FHIR). Bimbingan per kelompok untuk mengembangkan draft rekomendasi.",
+          "mahasiswa": "Menyusun rekomendasi, konsultasi",
+          "media": "Template laporan, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tenggat draft laporan, menginformasikan finalisasi laporan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan proyek (draft) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Wager, K.A. (2021). Bab 14",
+      "referensi_2": "Tan, J. (2020). Bab 8"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Bimbingan proyek TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis penerapan telemedicine, e-Health, dan transformasi digital layanan kesehatan serta menyusun studi kasus implementasi SI Kesehatan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Finalisasi laporan dan presentasi",
+      "indikator_1": "Kemampuan menyusun laporan sistematis dan slide presentasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu finalisasi laporan dan menyiapkan slide presentasi yang efektif",
+      "pokok_bahasan": "Finalisasi Laporan dan Persiapan Presentasi",
+      "sub_pokok_bahasan_1": "Struktur laporan: pendahuluan, analisis, rekomendasi, kesimpulan",
+      "sub_pokok_bahasan_2": "Desain slide presentasi (ringkas, visual, poin utama)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres), menyampaikan kriteria laporan akhir",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan checklist laporan (format IMRaD) dan contoh slide presentasi yang baik. Bimbingan per kelompok finalisasi laporan dan desain slide.",
+          "mahasiswa": "Menyelesaikan laporan, membuat slide, konsultasi",
+          "media": "Template laporan, contoh slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat pengumpulan laporan dan presentasi pekan depan, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan final (draft akhir) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan penulisan laporan",
+      "referensi_2": "Wager, K.A. (2021). Lampiran"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Presentasi + UAS TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 1-15)",
+      "detail_sub_cpmk": "UAS : Presentasi proyek + Ujian Akhir Semester",
+      "indikator_1": "Kemampuan mempresentasikan hasil studi kasus dan menjawab soal integratif",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur kemampuan presentasi proyek dan pemahaman integratif konsep SI Kesehatan",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Presentasi proyek (10 menit/kelompok)",
+      "sub_pokok_bahasan_2": "Ujian tertulis integratif: konsep, standar, SIMRS, telemedicine, interoperabilitas",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis presentasi online, doa, presensi, urutan kelompok, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan slide, mengisi presensi",
+          "media": "Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok (masing-masing 10 menit + tanya jawab). Setelah presentasi, membuka akses ujian tertulis (soal esai integratif, studi kasus).",
+          "mahasiswa": "Mempresentasikan proyek, menjawab pertanyaan. Setelah itu mengerjakan ujian tertulis.",
+          "media": "Slide presentasi, LMS (Google Form)"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, menutup akses ujian, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok + ujian tertulis online - Bobot 18%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Proyek kelompok"
+    }
+  ]
+}

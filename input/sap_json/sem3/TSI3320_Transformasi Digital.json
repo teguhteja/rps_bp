@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3320",
+    "nama_mk": "Transformasi Digital",
+    "sks_total": "3",
+    "template_sap": "SAP_MK_TSI3320.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dasar transformasi digital, kerangka kerja, serta teknologi penggerak (AI, IoT, Cloud, Big Data) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Konsep dan framework transformasi digital",
+      "indikator_1": "Ketepatan mendefinisikan transformasi digital dan membedakannya dengan digitalisasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan transformasi digital, membedakannya dengan digitalisasi, serta menjelaskan framework dasar transformasi digital",
+      "pokok_bahasan": "Konsep dasar transformasi digital",
+      "sub_pokok_bahasan_1": "Definisi transformasi digital; perbedaan digitalisasi, digitalisasi proses, transformasi digital",
+      "sub_pokok_bahasan_2": "Framework Westerman, MIT, McKinsey",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan contoh perusahaan yang sukses berkat teknologi digital), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep transformasi digital vs digitalisasi, memperkenalkan framework Westerman (customer experience, operational process, business model), MIT (digital maturity), dan McKinsey (5 domains). Diskusi interaktif",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual, video pendek"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, memberikan tugas latihan soal, menginformasikan materi pertemuan berikutnya (dimensi dan tahapan transformasi digital)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital: Turning technology into business transformation. Bab 1",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dasar transformasi digital, kerangka kerja, serta teknologi penggerak (AI, IoT, Cloud, Big Data) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Lanjutan - Dimensi dan tahapan transformasi digital",
+      "indikator_1": "Ketepatan menjelaskan dimensi (strategi, budaya, teknologi, operasi) dan tahapan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan dimensi strategi, budaya, teknologi, operasi serta tahapan dan model kematangan digital",
+      "pokok_bahasan": "Dimensi dan tahapan transformasi digital",
+      "sub_pokok_bahasan_1": "Dimensi transformasi digital; model kematangan digital",
+      "sub_pokok_bahasan_2": "Studi kasus awal (Netflix, Uber, Gojek)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pengalaman menggunakan layanan Gojek/Uber), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon, menjawab apersepsi",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 4 dimensi transformasi digital (strategi, budaya, teknologi, operasi), model kematangan digital (digital maturity model). Analisis studi kasus Netflix (dari DVD ke streaming), Uber (disrupsi taksi), Gojek (super app)",
+          "mahasiswa": "Mencatat, menganalisis studi kasus dalam kelompok kecil, mempresentasikan hasil diskusi",
+          "media": "Slide, video studi kasus, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas kelompok kecil, menginformasikan materi AI dan IoT",
+          "mahasiswa": "Mengerjakan kuis, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas kelompok kecil - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 2-3",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dasar transformasi digital, kerangka kerja, serta teknologi penggerak (AI, IoT, Cloud, Big Data) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Teknologi penggerak - AI dan IoT",
+      "indikator_1": "Ketepatan menjelaskan aplikasi AI dan IoT dalam transformasi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan aplikasi Artificial Intelligence (AI) dan Internet of Things (IoT) dalam transformasi bisnis",
+      "pokok_bahasan": "AI dan IoT dalam transformasi digital",
+      "sub_pokok_bahasan_1": "Artificial Intelligence (AI): predictive analytics, chatbots, personalisasi",
+      "sub_pokok_bahasan_2": "Internet of Things (IoT): sensor, data real-time, smart manufacturing",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah berinteraksi dengan chatbot?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan AI (machine learning, predictive analytics, NLP, chatbot, personalisasi rekomendasi), IoT (sensor, konektivitas, data real-time, contoh smart home, smart manufacturing). Studi kasus: Amazon recommendation engine, Tesla autopilot, smart factory Siemens",
+          "mahasiswa": "Mencatat, berdiskusi, mencari contoh implementasi AI/IoT di Indonesia",
+          "media": "Slide, video demonstrasi AI/IoT"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis implementasi AI/IoT, menginformasikan materi Cloud dan Big Data",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas analisis implementasi AI/IoT - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Schwab, K. (2017). The fourth industrial revolution. Bab 2-3",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 4"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dasar transformasi digital, kerangka kerja, serta teknologi penggerak (AI, IoT, Cloud, Big Data) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Teknologi penggerak - Cloud Computing dan Big Data",
+      "indikator_1": "Ketepatan menjelaskan model cloud (IaaS, PaaS, SaaS) dan peran Big Data",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan model layanan cloud computing (IaaS, PaaS, SaaS) serta karakteristik dan peran Big Data dalam pengambilan keputusan",
+      "pokok_bahasan": "Cloud Computing dan Big Data",
+      "sub_pokok_bahasan_1": "Cloud Computing: manfaat, model layanan IaaS/PaaS/SaaS, provider (AWS, Azure, GCP)",
+      "sub_pokok_bahasan_2": "Big Data: karakteristik 5V, data-driven decision making",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu cloud? Pernah pakai Google Drive?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cloud computing (IaaS, PaaS, SaaS, contoh AWS EC2, Google App Engine, Gmail), manfaat skalabilitas dan efisiensi biaya. Menjelaskan Big Data (volume, velocity, variety, veracity, value), data-driven decision making, contoh penggunaan di e-commerce (rekomendasi, analisis sentimen)",
+          "mahasiswa": "Mencatat, diskusi perbandingan cloud provider, latihan identifikasi karakteristik 5V pada dataset sederhana",
+          "media": "Slide, video cloud computing, contoh dashboard Big Data"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas individu (analisis kasus Big Data), menginformasikan materi transformasi proses bisnis",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Schwab, K. (2017). The fourth industrial revolution. Bab 4",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 5"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menganalisis transformasi proses bisnis berbasis digital dan menyusun digital strategy & roadmap (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Transformasi proses bisnis berbasis digital",
+      "indikator_1": "Ketepatan memetakan proses bisnis tradisional menjadi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memetakan proses bisnis tradisional menjadi digital serta menjelaskan otomatisasi proses dan integrasi sistem",
+      "pokok_bahasan": "Transformasi proses bisnis berbasis digital",
+      "sub_pokok_bahasan_1": "Redesain proses bisnis digital; otomatisasi proses (RPA)",
+      "sub_pokok_bahasan_2": "Integrasi sistem; studi kasus: customer service, supply chain",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Proses apa yang bisa diotomatisasi di kampus?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan redesain proses bisnis (BPR), Robotic Process Automation (RPA), integrasi sistem (ERP, CRM, API). Studi kasus: transformasi customer service (chatbot, omnichannel), supply chain digital (real-time tracking, demand forecasting). Latihan pemetaan BPMN sederhana",
+          "mahasiswa": "Mencatat, latihan membuat diagram BPMN untuk proses sederhana (misal: pemesanan tiket)",
+          "media": "Slide, alat BPMN online (draw.io)"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas pemetaan BPMN, menginformasikan materi digital strategy",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas pemetaan BPMN sederhana - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 5",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah interaktif; workshop TM: 3x50",
+      "detail_cpmk": "Mampu menganalisis transformasi proses bisnis berbasis digital dan menyusun digital strategy & roadmap (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Digital strategy dan roadmap transformasi",
+      "indikator_1": "Ketepatan menyusun digital strategy framework (Visi, tujuan, inisiatif, timeline)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun digital strategy framework (visi, tujuan, inisiatif, timeline) dan roadmap transformasi sederhana",
+      "pokok_bahasan": "Digital strategy dan roadmap",
+      "sub_pokok_bahasan_1": "Digital strategy: perumusan visi digital, analisis gap, prioritas inisiatif",
+      "sub_pokok_bahasan_2": "Roadmap transformasi; balanced scorecard digital",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang harus ada dalam rencana digital perusahaan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan komponen digital strategy (visi digital, analisis gap, prioritas inisiatif, sumber daya). Menjelaskan roadmap transformasi (timeline, milestones, KPI), balanced scorecard digital. Workshop kelompok: menyusun roadmap sederhana untuk kasus fiktif (misal: toko retail ingin digitalisasi)",
+          "mahasiswa": "Mencatat, workshop kelompok, menyusun roadmap di template yang disediakan",
+          "media": "Slide, template roadmap, papan tulis virtual (Miro)"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (rancangan roadmap), menginformasikan materi manajemen perubahan",
+          "mahasiswa": "Mencatat tugas, melanjutkan diskusi kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (rancangan roadmap sederhana) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Rogers, D. L. (2016). The digital transformation playbook. Bab 6-7",
+      "referensi_2": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen perubahan dalam transformasi digital serta tata kelola dan keamanan di era digital (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Manajemen perubahan dalam transformasi digital",
+      "indikator_1": "Ketepatan menjelaskan model manajemen perubahan (Kotter, ADKAR) dan tantangan budaya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan model manajemen perubahan (Kotter, ADKAR) serta tantangan budaya dan resistensi dalam transformasi digital",
+      "pokok_bahasan": "Manajemen perubahan",
+      "sub_pokok_bahasan_1": "Manajemen perubahan: resistensi, komunikasi, pelatihan, kepemimpinan",
+      "sub_pokok_bahasan_2": "Model Kotter 8 langkah; ADKAR; studi kasus kegagalan transformasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa karyawan sering menolak perubahan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan faktor kegagalan transformasi (budaya, resistensi, kurangnya komunikasi). Model Kotter 8 langkah (create urgency, build coalition, dll). Model ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement). Studi kasus: kegagalan transformasi Kodak, Blockbuster vs keberhasilan Microsoft",
+          "mahasiswa": "Mencatat, diskusi kelompok, menganalisis studi kasus kegagalan perubahan",
+          "media": "Slide, video singkat tentang Kotter"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis studi kasus perubahan, menginformasikan persiapan UTS",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas analisis studi kasus perubahan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kotter, J. P. (2012). Leading change. Bab 1-5 (Pustaka Pendukung)",
+      "referensi_2": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 7"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep, analisis studi kasus, dan pemetaan strategi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep transformasi digital, teknologi penggerak, transformasi proses bisnis, digital strategy, manajemen perubahan)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: konsep, framework, AI, IoT, Cloud, Big Data, transformasi proses bisnis, digital strategy, manajemen perubahan",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan esai studi kasus)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 25 soal, essay 2 soal analisis studi kasus)",
+          "media": "LMS (Google Form/Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (LMS) - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen perubahan dalam transformasi digital serta tata kelola dan keamanan di era digital (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Ekosistem digital dan platform economy",
+      "indikator_1": "Ketepatan menjelaskan karakteristik platform digital dan network effects",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan ekosistem digital, karakteristik platform digital, network effects, dan multi-sided platform",
+      "pokok_bahasan": "Ekosistem digital dan platform economy",
+      "sub_pokok_bahasan_1": "Ekosistem digital: value chain digital, kolaborasi platform",
+      "sub_pokok_bahasan_2": "Platform economy: marketplace, sharing economy; network effects, multi-sided platform",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan Tokopedia dengan toko biasa?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ekosistem digital (pemasok, pelanggan, pengembang, platform). Platform economy: marketplace (Tokopedia, Shopee), sharing economy (Airbnb, Gojek). Konsep network effects (semakin banyak pengguna semakin bernilai), multi-sided platform (menghubungkan dua kelompok pengguna). Studi kasus: Gojek ecosystem",
+          "mahasiswa": "Mencatat, diskusi, menganalisis contoh platform digital di Indonesia",
+          "media": "Slide, video platform economy"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas individu, menginformasikan materi keamanan dan tata kelola",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Rogers, D. L. (2016). The digital transformation playbook. Bab 8",
+      "referensi_2": "Schwab, K. (2017). The fourth industrial revolution. Bab 5"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen perubahan dalam transformasi digital serta tata kelola dan keamanan di era digital (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Keamanan dan tata kelola dalam era digital",
+      "indikator_1": "Ketepatan menjelaskan risiko keamanan digital dan framework tata kelola",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan risiko keamanan digital, manajemen risiko, kepatuhan (GDPR, UU PDP), serta tata kelola digital",
+      "pokok_bahasan": "Keamanan dan tata kelola digital",
+      "sub_pokok_bahasan_1": "Keamanan digital: ancaman siber, manajemen risiko, kepatuhan (GDPR, UU PDP)",
+      "sub_pokok_bahasan_2": "Tata kelola digital: peran pimpinan, kebijakan, audit",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah mendengar kebocoran data?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ancaman siber (malware, phishing, ransomware), manajemen risiko (identifikasi, mitigasi), kepatuhan GDPR (Eropa) dan UU Perlindungan Data Pribadi Indonesia. Menjelaskan tata kelola digital (peran dewan direksi, kebijakan keamanan, audit rutin). Studi kasus: kebocoran data Tokopedia, Facebook-Cambridge Analytica",
+          "mahasiswa": "Mencatat, diskusi kasus, latihan identifikasi risiko sederhana",
+          "media": "Slide, berita kasus kebocoran data"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis kasus keamanan data, menginformasikan materi studi kasus sektor manufaktur dan ritel",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (LMS); Tugas analisis kasus keamanan data - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 8",
+      "referensi_2": "Vial, G. (2019). Understanding digital transformation. Journal Article"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah interaktif; diskusi kasus TM: 3x50",
+      "detail_cpmk": "Mampu memahami ekosistem digital, platform economy, dan melakukan studi kasus transformasi digital di berbagai sektor (termasuk kesehatan) (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Studi kasus transformasi digital di sektor manufaktur dan ritel",
+      "indikator_1": "Kemampuan menganalisis penerapan Industry 4.0 dan omnichannel",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penerapan Industry 4.0 (smart factory, digital twin, predictive maintenance) dan omnichannel di sektor ritel",
+      "pokok_bahasan": "Transformasi digital manufaktur dan ritel",
+      "sub_pokok_bahasan_1": "Manufaktur: smart factory, digital twin, predictive maintenance",
+      "sub_pokok_bahasan_2": "Ritel: omnichannel, personalisasi, RFID; studi kasus: Nike, Amazon",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu pabrik pintar?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Industry 4.0: smart factory (koneksi mesin), digital twin (simulasi), predictive maintenance (mencegah kerusakan). Ritel digital: omnichannel (integrasi online-offline), personalisasi (rekomendasi produk), RFID (inventaris real-time). Studi kasus: Nike (kustomisasi, aplikasi), Amazon (Go store, rekomendasi AI)",
+          "mahasiswa": "Mencatat, diskusi kelompok, mencari contoh perusahaan manufaktur di Indonesia yang sudah menerapkan Industry 4.0",
+          "media": "Slide, video smart factory"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis studi kasus), menginformasikan materi studi kasus sektor kesehatan, UMKM, pemerintahan",
+          "mahasiswa": "Mencatat tugas, mulai diskusi kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (analisis studi kasus) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Schwab, K. (2017). The fourth industrial revolution. Bab 6",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 4-5"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah interaktif; presentasi kelompok TM: 3x50",
+      "detail_cpmk": "Mampu memahami ekosistem digital, platform economy, dan melakukan studi kasus transformasi digital di berbagai sektor (termasuk kesehatan) (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Studi kasus transformasi digital di sektor kesehatan, UMKM, pemerintahan",
+      "indikator_1": "Kemampuan mengidentifikasi peluang dan tantangan di sektor spesifik",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi peluang dan tantangan transformasi digital di sektor kesehatan, UMKM, dan pemerintahan",
+      "pokok_bahasan": "Transformasi digital kesehatan, UMKM, pemerintahan",
+      "sub_pokok_bahasan_1": "Telemedicine, e-Health; digitalisasi UMKM (marketplace, fintech)",
+      "sub_pokok_bahasan_2": "E-government, smart city; studi kasus: Halodoc, Gojek, Jakarta Smart City",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apakah pernah konsultasi dokter online?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan telemedicine, rekam medis elektronik, IoT kesehatan. Digitalisasi UMKM melalui marketplace, fintech (pinjaman online, QRIS). E-government (e-KTP, e-budgeting), smart city (aplikasi JAKI, Command Center). Presentasi kelompok: setiap kelompok mempresentasikan analisis studi kasus yang sudah ditugaskan (misal: Halodoc, Gojek, atau e-government daerah)",
+          "mahasiswa": "Mencatat, presentasi kelompok, memberi tanggapan antar kelompok",
+          "media": "Slide, Zoom breakout room, panduan presentasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan dan umpan balik presentasi, memberikan materi persiapan proyek analisis, menginformasikan tugas proposal proyek",
+          "mahasiswa": "Mencatat umpan balik, mulai memilih organisasi untuk proyek",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (presentasi studi kasus) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Vial, G. (2019). Understanding digital transformation. Journal Article",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 6"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Bimbingan proyek; konsultasi TM: 3x50",
+      "detail_cpmk": "Mampu mengintegrasikan konsep transformasi digital dalam menyusun rekomendasi strategis untuk organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Persiapan proyek analisis transformasi digital pada organisasi nyata",
+      "indikator_1": "Kemampuan memilih organisasi dan merumuskan masalah",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih organisasi nyata, mengumpulkan data sekunder, dan merumuskan kerangka analisis transformasi digital",
+      "pokok_bahasan": "Persiapan proyek analisis",
+      "sub_pokok_bahasan_1": "Pemilihan studi kasus (perusahaan, UKM, instansi pemerintah)",
+      "sub_pokok_bahasan_2": "Pengumpulan data sekunder; penyusunan kerangka analisis (kerangka transformasi digital)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas proyek), menyampaikan tujuan, membagi kelompok",
+          "mahasiswa": "Membentuk kelompok, menyimak",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kriteria pemilihan organisasi (publik, akses data, relevansi), cara pengumpulan data sekunder (website, laporan tahunan, berita, wawancara jika memungkinkan). Memberikan template proposal proyek (latar belakang, rumusan masalah, kerangka analisis menggunakan framework Westerman atau Rogers). Bimbingan kelompok: konsultasi topik",
+          "mahasiswa": "Berdiskusi kelompok, menentukan organisasi, mulai menyusun proposal",
+          "media": "Slide, template proposal, contoh proposal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan tenggat proposal (1 minggu), menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Mencatat target, melanjutkan diskusi kelompok di luar kelas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal proyek (kelompok) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 9",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 9"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Bimbingan proyek; workshop TM: 3x50",
+      "detail_cpmk": "Mampu mengintegrasikan konsep transformasi digital dalam menyusun rekomendasi strategis untuk organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Analisis dan penyusunan laporan proyek",
+      "indikator_1": "Kemampuan melakukan analisis gap dan menyusun rekomendasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan analisis kondisi as-is dan to-be, mengidentifikasi gap, serta menyusun rekomendasi strategi digital dan roadmap implementasi",
+      "pokok_bahasan": "Analisis dan penyusunan laporan",
+      "sub_pokok_bahasan_1": "Analisis kondisi as-is dan to-be; identifikasi gap",
+      "sub_pokok_bahasan_2": "Rekomendasi strategi digital; roadmap implementasi; penyusunan laporan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres analisis), menyampaikan tujuan workshop",
+          "mahasiswa": "Melaporkan progres singkat",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara melakukan analisis gap (membandingkan kondisi eksisting dengan best practice digital). Memberikan contoh rekomendasi strategi (misal: adopsi cloud, digitalisasi layanan pelanggan). Workshop: setiap kelompok mengerjakan analisis gap dan merumuskan rekomendasi, dosen memberikan bimbingan intensif per kelompok di breakout room",
+          "mahasiswa": "Menganalisis data, mengisi template laporan, berkonsultasi dengan dosen",
+          "media": "Slide, template laporan, breakout room Zoom, Miro"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progress, memberikan tenggat laporan final (seminggu sebelum presentasi), menginformasikan persiapan presentasi",
+          "mahasiswa": "Mencatat target, melanjutkan penyusunan laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan proyek (kelompok) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 10",
+      "referensi_2": "Rogers, D. L. (2016). The digital transformation playbook. Bab 10"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Presentasi proyek TM: 3x50",
+      "detail_cpmk": "Mampu mengintegrasikan konsep transformasi digital dalam menyusun rekomendasi strategis untuk organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Presentasi proyek dan diskusi kelas",
+      "indikator_1": "Kemampuan mempresentasikan dan mempertahankan rekomendasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil analisis, rekomendasi strategi transformasi digital, dan roadmap implementasi secara efektif serta menjawab pertanyaan",
+      "pokok_bahasan": "Presentasi proyek",
+      "sub_pokok_bahasan_1": "Presentasi hasil analisis, rekomendasi strategi, dan roadmap",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab; peer review",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (10-12 menit per kelompok, 5 menit tanya jawab), urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide, menyiapkan laporan",
+          "media": "Slide, Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik, mengarahkan peer review antar kelompok",
+          "mahasiswa": "Mempresentasikan proyek (latar belakang, metode, hasil analisis gap, rekomendasi strategi, roadmap), menjawab pertanyaan, memberikan penilaian antar kelompok",
+          "media": "Slide presentasi, laporan proyek, rubric penilaian"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan presentasi, memberikan apresiasi, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, memberikan feedback, menyelesaikan peer review",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan presentasi ilmiah",
+      "referensi_2": "Contoh presentasi transformasi digital"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Akhir Semester",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal analisis kasus, rekomendasi strategi, dan integrasi konsep",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 9-15 (ekosistem digital, keamanan & tata kelola, studi kasus, proyek analisis) serta kemampuan analisis kasus integratif",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15: ekosistem digital, platform economy, keamanan & tata kelola, studi kasus berbagai sektor, konsep proyek analisis",
+      "sub_pokok_bahasan_2": "Studi kasus integratif (analisis kesiapan transformasi digital sebuah organisasi dan rekomendasi strategis)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (open book, durasi 90 menit, soal esai analisis kasus)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (2-3 soal esai analisis kasus, misal: analisis transformasi digital perusahaan ritel dan rekomendasi roadmap)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (LMS) - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital. Bab 11"
+    }
+  ]
+}

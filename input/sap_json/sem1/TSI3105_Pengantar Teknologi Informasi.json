@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3105",
+    "nama_mk": "Pengantar Teknologi Informasi",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dasar teknologi informasi, komputer, dan perkembangannya sebagai fondasi pembelajaran informatika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami konsep dasar teknologi informasi, komputer, dan perkembangan generasi komputer (Minggu 1 - konsep dasar TI)",
+      "indikator_1": "Ketepatan menjelaskan definisi dan fungsi teknologi informasi serta sistem komputer",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan perlunya TI, fungsi dan keuntungan TI, definisi komputer, siklus pengolahan data, dan komponen sistem komputer",
+      "pokok_bahasan": "Konsep Dasar Teknologi Informasi",
+      "sub_pokok_bahasan_1": "Perlunya TI, fungsi TI, keuntungan TI, definisi komputer, siklus pengolahan data, sistem komputer",
+      "sub_pokok_bahasan_2": "Review perkembangan perangkat keras dan lunak (gambaran umum)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu teknologi informasi?), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi TI, fungsi dan keuntungan TI, definisi komputer, siklus pengolahan data, komponen sistem komputer. Memberikan contoh nyata. Diskusi interaktif.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual, video pendek"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online (quiz), menginformasikan materi perkembangan komputer generasi 1-6",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis tertulis, tugas mandiri - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Pengantar Teknologi Informasi. Bab 1",
+      "referensi_2": "Laudon & Laudon (2020). Management Information Systems. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dasar teknologi informasi, komputer, dan perkembangannya (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami konsep dasar TI, komputer, dan perkembangan generasi komputer (Minggu 2 - perkembangan komputer)",
+      "indikator_1": "Kemampuan mengidentifikasi perkembangan komputer dari generasi pertama hingga keenam, pemahaman evolusi perangkat keras dan lunak",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan perkembangan perangkat keras, komputer generasi 1-6, evolusi perangkat lunak, dan klasifikasi komputer",
+      "pokok_bahasan": "Perkembangan Komputer dan Klasifikasinya",
+      "sub_pokok_bahasan_1": "Perkembangan perangkat keras (generasi 1-6)",
+      "sub_pokok_bahasan_2": "Perkembangan perangkat lunak dan klasifikasi komputer",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: komputer generasi pertama seperti apa?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah komputer generasi 1-6 (ciri, tahun, teknologi). Perkembangan perangkat lunak (sistem operasi, bahasa pemrograman). Klasifikasi komputer (superkomputer, mainframe, PC, mobile). Diskusi kelompok, presentasi singkat.",
+          "mahasiswa": "Mencatat, diskusi, presentasi kelompok",
+          "media": "Slide, video animasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas (timeline perkembangan komputer), menginformasikan materi eksistensi TI di era modern",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok, tugas mandiri - Bobot 5% (bersama minggu 1)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 1",
+      "referensi_2": "O'Brien & Marakas (2011). Bab 1"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi teknologi informasi di berbagai bidang kehidupan dan industri (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu menganalisis eksistensi dan peran teknologi informasi di era modern",
+      "indikator_1": "Pemahaman konsep TI modern, kemampuan mengidentifikasi peran TI, analisis tantangan TI, prediksi tren masa depan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peran TI dalam kehidupan, tantangan, eksistensi saat ini dan esok, serta tren teknologi emerging",
+      "pokok_bahasan": "Eksistensi dan Peran TI di Era Modern",
+      "sub_pokok_bahasan_1": "Definisi ulang TI, peran TI dalam kehidupan (pendidikan, bisnis, sosial)",
+      "sub_pokok_bahasan_2": "Tantangan TI (keamanan, etika, kecepatan perubahan), eksistensi terkini dan prediksi masa depan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: peran TI apa yang paling terasa di masa pandemi?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan peran TI di berbagai sektor (pendidikan, kesehatan, bisnis, pemerintahan). Diskusi tentang tantangan (cyber crime, digital divide, etika AI). Membahas tren (IoT, blockchain, AI, cloud computing). Latihan: analisis studi kasus perusahaan yang berhasil memanfaatkan TI.",
+          "mahasiswa": "Mencatat, diskusi, presentasi analisis kasus",
+          "media": "Slide, video dokumenter"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas essay (prediksi masa depan TI), menginformasikan materi TI di bidang kesehatan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Essay analisis, diskusi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 2",
+      "referensi_2": "Laudon & Laudon (2020). Bab 2"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu memahami penerapan teknologi informasi pada bidang kesehatan",
+      "indikator_1": "Pemahaman Era Industri 4.0 di kesehatan, pengetahuan sistem informasi kesehatan, pemahaman EHR dan IoT medis, kemampuan analisis implementasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peranan TI di bidang kesehatan, sistem informasi kesehatan, Electronic Health Records (EHR), monitoring pasien berbasis IoT, telemedicine",
+      "pokok_bahasan": "Teknologi Informasi pada Bidang Kesehatan",
+      "sub_pokok_bahasan_1": "Era Industri 4.0 di kesehatan, peranan TI, sistem informasi kesehatan, EHR",
+      "sub_pokok_bahasan_2": "Monitoring IoT, telemedicine, e-Health",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pengalaman menggunakan aplikasi kesehatan online?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan contoh implementasi: rekam medis elektronik, IoT untuk monitoring pasien (detak jantung, tekanan darah), telemedicine (Halodoc, Alodokter). Studi kasus: rumah sakit digital. Diskusi tentang tantangan privasi data kesehatan.",
+          "mahasiswa": "Mencatat, diskusi, presentasi studi kasus",
+          "media": "Slide, video demo aplikasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, tugas analisis sistem informasi rumah sakit, menginformasikan materi TI lingkungan",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, studi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 3",
+      "referensi_2": "Turban et al. (2018). Bab 7"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu memahami peran teknologi informasi dalam pengelolaan lingkungan",
+      "indikator_1": "Pemahaman masalah lingkungan, pengetahuan aspek lingkungan, kemampuan mengidentifikasi peran TI, analisis strategi pengendalian lingkungan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis peran TI dalam pengelolaan dan pelestarian lingkungan, termasuk green computing",
+      "pokok_bahasan": "Teknologi Informasi pada Bidang Lingkungan",
+      "sub_pokok_bahasan_1": "Pengertian lingkungan, kondisi dan masalah lingkungan, pencemaran, aspek lingkungan",
+      "sub_pokok_bahasan_2": "Strategi pengendalian lingkungan, peran TI dalam pengelolaan lingkungan, green computing",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana teknologi bisa membantu lingkungan?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep green computing (efisiensi energi, daur ulang perangkat, virtualisasi). Studi kasus: pusat data ramah lingkungan, IoT untuk monitoring polusi. Diskusi: bagaimana TI dapat mengurangi jejak karbon.",
+          "mahasiswa": "Mencatat, diskusi, mini project (ide green IT)",
+          "media": "Slide, video green IT"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas (proposal solusi green IT sederhana), menginformasikan materi TI pemasaran & keuangan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis, mini project - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 4",
+      "referensi_2": "Laudon & Laudon (2020). Bab 4"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu memahami implementasi teknologi informasi pada bidang pemasaran dan keuangan",
+      "indikator_1": "Pemahaman sistem informasi pemasaran, database marketing, AI/ML dalam pemasaran, pengetahuan TI dalam bidang keuangan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan penerapan TI dalam sistem informasi pemasaran (digital marketing, AI, long tail) dan bidang keuangan (fintech, digital payment)",
+      "pokok_bahasan": "TI pada Bidang Pemasaran dan Keuangan",
+      "sub_pokok_bahasan_1": "Sistem informasi pemasaran, database marketing, precision marketing, long tail, AI/ML/DL dalam pemasaran",
+      "sub_pokok_bahasan_2": "Peran TI dalam keuangan, fintech, digital payment, cryptocurrency, blockchain",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh iklan online yang sesuai minat?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan database marketing, real-time bidding, AI untuk rekomendasi produk. Fintech: e-wallet, P2P lending, blockchain. Demo aplikasi (Midtrans, GoPay). Studi kasus: strategi pemasaran digital Tokopedia.",
+          "mahasiswa": "Mencatat, diskusi, review aplikasi fintech",
+          "media": "Slide, demo aplikasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, tugas review fintech app, menginformasikan materi TI manajemen & SDM",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, studi kasus, review aplikasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 5 & 6",
+      "referensi_2": "Turban et al. (2018). Bab 5"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mampu memahami peran teknologi informasi dalam manajemen dan sumber daya manusia",
+      "indikator_1": "Pemahaman pengelolaan TI, pengetahuan peran TI dalam manajemen, pemahaman HRIS, analisis manajemen rantai pasokan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penerapan TI dalam manajemen organisasi, supply chain, dan sistem informasi SDM (HRIS, ERP)",
+      "pokok_bahasan": "TI pada Bidang Manajemen dan SDM",
+      "sub_pokok_bahasan_1": "Konsep manajemen, pengelolaan TI, peran TI dalam manajemen, TI pada manajemen rantai pasokan",
+      "sub_pokok_bahasan_2": "Hubungan MSDM dan TIK, HRIS, ERP, studi kasus implementasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: software apa yang digunakan HRD?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ERP (SAP, Odoo), HRIS (absensi online, payroll). Studi kasus: supply chain management dengan IoT dan RFID. Diskusi tentang manfaat dan tantangan implementasi ERP di perusahaan menengah.",
+          "mahasiswa": "Mencatat, diskusi, presentasi kelompok (analisis ERP)",
+          "media": "Slide, demo software HRIS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas analisis sistem ERP/HRIS, menginformasikan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis, presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 7",
+      "referensi_2": "Laudon & Laudon (2020). Bab 9"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep dasar TI, perkembangan komputer, peran TI di kesehatan, lingkungan, pemasaran, keuangan, manajemen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang konsep dasar TI, perkembangan komputer, implementasi TI di berbagai bidang",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasus singkat)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu memahami penerapan teknologi informasi pada bidang perbankan dan sistem keuangan",
+      "indikator_1": "Pemahaman sistem keuangan perbankan, pengetahuan proses bisnis digital banking, pemahaman uang elektronik, analisis fintech dan tantangannya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis implementasi TI dalam perbankan (digital banking, uang elektronik, fintech, mobile banking)",
+      "pokok_bahasan": "TI pada Bidang Perbankan",
+      "sub_pokok_bahasan_1": "Proses bisnis berbasis teknologi, eksistensi sistem keuangan perbankan, uang elektronik (e-money, e-wallet)",
+      "sub_pokok_bahasan_2": "Tantangan dan peluang teknologi finansial, pemanfaatan TI dalam akuntansi perbankan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: mobile banking yang biasa dipakai?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan digital banking (BCA mobile, Livin' Mandiri), e-wallet (OVO, GoPay). Fintech lending. Demo fitur mobile banking. Diskusi tentang keamanan dan literasi digital.",
+          "mahasiswa": "Mencatat, diskusi, review aplikasi mobile banking/e-wallet",
+          "media": "Slide, demo aplikasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, tugas analisis layanan mobile banking, menginformasikan materi ekonomi digital",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, tugas analisis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 8",
+      "referensi_2": "Turban et al. (2018). Bab 6"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Mampu memahami peran teknologi informasi dalam ekonomi dan bisnis digital",
+      "indikator_1": "Pemahaman revolusi industri, pengetahuan era Industri 1.0-4.0, pemahaman ekonomi digital, analisis model bisnis digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis perkembangan ekonomi digital, model bisnis Industri 4.0, dan transformasi digital",
+      "pokok_bahasan": "TI dalam Ekonomi dan Bisnis Digital",
+      "sub_pokok_bahasan_1": "Perkembangan revolusi industri (1.0-4.0), tahapan era industri, perkembangan ekonomi digital",
+      "sub_pokok_bahasan_2": "Model bisnis Industri 4.0, digital transformation, platform economy",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh platform digital?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan revolusi industri 4.0, ciri-ciri (IoT, AI, big data). Ekonomi digital: gig economy, sharing economy. Model bisnis platform (Gojek, Grab, Shopee). Studi kasus transformasi digital di perusahaan tradisional.",
+          "mahasiswa": "Mencatat, diskusi, analisis model bisnis platform",
+          "media": "Slide, video"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis disruptif teknologi pada suatu industri), menginformasikan materi TI bisnis UMKM",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Essay analisis, tugas kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 9",
+      "referensi_2": "Laudon & Laudon (2020). Bab 3"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Mampu memahami implementasi teknologi informasi pada bidang bisnis dan UMKM",
+      "indikator_1": "Pemahaman potensi TI dalam bisnis, pengetahuan marketplace, pemahaman TI pada UMKM, analisis hambatan dan solusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penerapan TI dalam bisnis digital, marketplace, dan pemberdayaan UMKM",
+      "pokok_bahasan": "TI pada Bisnis dan UMKM",
+      "sub_pokok_bahasan_1": "Potensi penerapan TI pada bisnis, perkembangan bisnis digital, marketplace, hubungan teknologi dan bisnis",
+      "sub_pokok_bahasan_2": "TI pada UMKM, dampak positif, faktor penghambat, peran pemerintah",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: UMKM digital yang sukses?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan marketplace (Tokopedia, Shopee, Bukalapak), strategi digitalisasi UMKM. Studi kasus: konveksi online yang naik kelas. Diskusi hambatan (SDM, infrastruktur, modal) dan solusi.",
+          "mahasiswa": "Mencatat, diskusi, mini project (proposal digitalisasi UMKM)",
+          "media": "Slide, video entrepreneur"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas (proposal digitalisasi UMKM), menginformasikan materi TI akuntansi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis, mini project - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 10",
+      "referensi_2": "O'Brien & Marakas (2011). Bab 8"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Mampu memahami pemanfaatan teknologi informasi dalam sistem akuntansi",
+      "indikator_1": "Pemahaman konsep akuntansi, pengetahuan sistem akuntansi, standar akuntansi, analisis pemanfaatan TI dalam akuntansi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan pemanfaatan TI dalam sistem akuntansi, software akuntansi, dan cloud accounting",
+      "pokok_bahasan": "TI dalam Sistem Akuntansi",
+      "sub_pokok_bahasan_1": "Konsep TI, akuntansi, sistem akuntansi, standar akuntansi keuangan (SAK)",
+      "sub_pokok_bahasan_2": "Pemanfaatan TI dalam akuntansi, software akuntansi (Jurnal, Accurate, Zahir), cloud accounting, blockchain dalam akuntansi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: software akuntansi yang dikenal?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan software akuntansi, demo singkat. Pemanfaatan TI untuk efisiensi pembukuan. Studi kasus: perusahaan kecil beralih ke software akuntansi cloud. Diskusi tentang akuntansi berbasis blockchain.",
+          "mahasiswa": "Mencatat, diskusi, review software akuntansi (tugas)",
+          "media": "Slide, demo software"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, tugas review software akuntansi, menginformasikan materi e-government",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, review software - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 11",
+      "referensi_2": "Laudon & Laudon (2020). Bab 10"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 11: Mampu memahami konsep dan implementasi e-government dalam pemerintahan",
+      "indikator_1": "Pemahaman konsep e-government, pengetahuan good governance, pemahaman aplikasi e-government, analisis implementasi di Indonesia",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis konsep e-government, good governance, dan implementasi e-government di Indonesia (smart city, layanan publik digital)",
+      "pokok_bahasan": "E-Government dan Good Governance",
+      "sub_pokok_bahasan_1": "Konsep e-government, manfaat, tantangan, good governance",
+      "sub_pokok_bahasan_2": "Aplikasi e-government di Indonesia (SINTA, SISMIOP, layanan adminduk online), smart city, digital government services",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah mengurus dokumen kependudukan online?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan implementasi e-government di Indonesia (contoh: aplikasi JAKI, Surabaya Single Window). Diskusi tentang kesenjangan digital dan manfaat e-government. Studi kasus: smart city di beberapa daerah.",
+          "mahasiswa": "Mencatat, diskusi, review portal e-government",
+          "media": "Slide, portal demo"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas analisis e-government daerah, menginformasikan materi TI pembelajaran",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis, presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 12",
+      "referensi_2": "Laudon & Laudon (2020). Bab 11"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis peran dan implementasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 12: Mampu memahami peran teknologi informasi dalam pembelajaran dan e-learning",
+      "indikator_1": "Pemahaman TI dalam pembelajaran, pengetahuan jenis-jenis TI pembelajaran, pemahaman e-learning, analisis pemanfaatan platform",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penggunaan TI dalam pembelajaran, e-learning, dan platform LMS",
+      "pokok_bahasan": "TI dalam Pembelajaran dan E-Learning",
+      "sub_pokok_bahasan_1": "Penggunaan TI dalam pembelajaran, aturan pemerintah, jenis-jenis TI pembelajaran (multimedia, simulasi, gamifikasi)",
+      "sub_pokok_bahasan_2": "Pembelajaran berbasis e-learning, peran TI, hal-hal yang harus ada dalam e-learning, pemanfaatan TI dalam e-learning",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pengalaman menggunakan Moodle/Google Classroom?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan platform e-learning (Moodle, Coursera, Ruangguru). Praktik singkat menggunakan LMS. Diskusi tentang efektivitas e-learning hybrid. Studi kasus: pembelajaran jarak jauh di masa pandemi.",
+          "mahasiswa": "Mencatat, hands-on LMS, diskusi",
+          "media": "LMS demo, slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas review platform e-learning, menginformasikan materi integrasi proposal",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, review platform, mini project - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Bab 13",
+      "referensi_2": "Turban et al. (2018). Bab 4"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu merancang proposal implementasi teknologi informasi untuk memecahkan masalah di bidang tertentu (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 13: Mampu mengintegrasikan pemahaman TI di berbagai bidang dan menyusun proposal implementasi",
+      "indikator_1": "Kualitas proposal, kelayakan implementasi, analisis cost-benefit, kreativitas solusi, kemampuan presentasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang dan mempresentasikan proposal implementasi TI untuk menyelesaikan masalah nyata di suatu bidang",
+      "pokok_bahasan": "Proposal Implementasi TI",
+      "sub_pokok_bahasan_1": "Review komprehensif TI di berbagai bidang, identifikasi masalah dan peluang, design thinking",
+      "sub_pokok_bahasan_2": "Penyusunan proposal (latar belakang, solusi, analisis kelayakan, rencana implementasi), presentasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas akhir), menyampaikan kriteria proposal",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Setiap kelompok mempresentasikan proposal implementasi TI (10 menit). Dosen dan mahasiswa lain memberi umpan balik.",
+          "mahasiswa": "Presentasi, tanya jawab, peer review",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan revisi proposal final, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal final, presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Penulis (2024). Semua Bab",
+      "referensi_2": "Laudon & Laudon (2020). Bab 14"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang implementasi TI di berbagai bidang (kesehatan, lingkungan, bisnis, keuangan, e-government, e-learning) serta proposal implementasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang implementasi TI di bidang kesehatan, lingkungan, bisnis, keuangan, perbankan, e-government, e-learning, dan kemampuan merancang solusi TI",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15 (TI kesehatan, lingkungan, pemasaran, keuangan, manajemen, perbankan, ekonomi digital, UMKM, akuntansi, e-government, e-learning, proposal)",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (boleh buka catatan, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif dan studi kasus), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus implementasi TI di suatu sektor, usulan solusi)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Tim Penulis (2024) & Laudon"
+    }
+  ]
+}

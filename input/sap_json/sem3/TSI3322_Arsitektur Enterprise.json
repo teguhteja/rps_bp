@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3322",
+    "nama_mk": "Arsitektur Enterprise",
+    "sks_total": "3",
+    "template_sap": "SAP_MK_TSI3322.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan konsep, tujuan, dan manfaat arsitektur enterprise (EA) dalam organisasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Konsep dasar arsitektur enterprise",
+      "indikator_1": "Ketepatan menjelaskan definisi, komponen (business, data, application, technology), dan manfaat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi arsitektur enterprise, komponen-komponennya (business, data, application, technology), dan manfaat EA bagi organisasi",
+      "pokok_bahasan": "Definisi EA, nilai bisnis, hubungan dengan strategi IT",
+      "sub_pokok_bahasan_1": "Definisi EA; komponen EA (business, data, application, technology)",
+      "sub_pokok_bahasan_2": "Nilai bisnis EA; hubungan dengan strategi IT; contoh kasus",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan kesulitan menyelaraskan bisnis dan IT di perusahaan), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi EA, empat domain arsitektur (business, data, application, technology). Menjelaskan manfaat EA: visibilitas, keselarasan, pengurangan risiko, efisiensi biaya. Memberikan contoh kasus nyata (misal: perusahaan yang berhasil menerapkan EA). Diskusi interaktif",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, memberikan tugas latihan soal, menginformasikan materi pertemuan berikutnya (sejarah dan evolusi EA)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online, tanya jawab - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture (3rd ed.). Bab 1",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work (4th ed.). Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan konsep, tujuan, dan manfaat arsitektur enterprise (EA) dalam organisasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Sejarah dan evolusi EA",
+      "indikator_1": "Kemampuan menjelaskan perkembangan EA dari John Zachman hingga saat ini",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan sejarah dan evolusi arsitektur enterprise, termasuk peran EA dalam menyelaraskan bisnis dan TI",
+      "pokok_bahasan": "Sejarah EA, peran dalam menyelaraskan bisnis dan TI",
+      "sub_pokok_bahasan_1": "Sejarah EA: dari John Zachman hingga saat ini",
+      "sub_pokok_bahasan_2": "Peran EA dalam menyelaraskan bisnis dan TI; tantangan implementasi EA",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa EA mulai berkembang pesat tahun 1990-an?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, menjawab apersepsi",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah EA: dimulai dari Zachman Framework (1987), perkembangan TOGAF, FEAF. Menjelaskan peran EA sebagai jembatan antara strategi bisnis dan implementasi TI. Diskusi tentang tantangan implementasi EA di perusahaan (budaya, kompleksitas, biaya)",
+          "mahasiswa": "Mendengarkan, mencatat, berdiskusi, membuat timeline sejarah EA",
+          "media": "Slide, infografis timeline EA"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (esai singkat tentang tantangan EA), menginformasikan materi Zachman Framework",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture. Bab 2",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Framework EA – Zachman Framework",
+      "indikator_1": "Kemampuan menjelaskan matriks Zachman (6 baris, 6 kolom)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan Zachman Framework, termasuk matriks 6x6 (perspektif dan artefak)",
+      "pokok_bahasan": "Zachman Framework: perspektif (planner, owner, designer, builder, subcontractor, enterprise)",
+      "sub_pokok_bahasan_1": "6 perspektif Zachman (planner, owner, designer, builder, subcontractor, enterprise)",
+      "sub_pokok_bahasan_2": "6 kolom pertanyaan (what, how, where, who, when, why); sel-sel matriks",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Framework EA pertama adalah?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Zachman Framework: 6 baris (perspektif stakeholder), 6 kolom (pertanyaan dasar). Menjelaskan isi setiap sel matriks dengan contoh artefak. Membandingkan pendekatan Zachman dengan framework lainnya. Praktik: mengisi matriks sederhana untuk studi kasus",
+          "mahasiswa": "Mencatat, latihan mengisi matriks Zachman untuk kasus sederhana (misal: sistem perpustakaan)",
+          "media": "Slide, template matriks Zachman"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu analisis (mengisi matriks Zachman untuk kasus toko online), menginformasikan materi TOGAF dan FEAF",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: analisis - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 1",
+      "referensi_2": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture. Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Framework EA – TOGAF dan FEAF",
+      "indikator_1": "Kemampuan membandingkan TOGAF, FEAF, dan Gartner",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membandingkan framework TOGAF, FEAF, dan Gartner serta memilih framework yang sesuai untuk suatu organisasi",
+      "pokok_bahasan": "TOGAF (ADM, repository), FEAF (segmented architecture), Gartner (operating model)",
+      "sub_pokok_bahasan_1": "TOGAF: Architecture Development Method (ADM), Architecture Repository",
+      "sub_pokok_bahasan_2": "FEAF: segmented architecture; Gartner: operating model, maturity model",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Framework EA paling populer saat ini?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan TOGAF (The Open Group Architecture Framework) sebagai standar de facto. Menjelaskan FEAF (Federal Enterprise Architecture Framework) yang digunakan di pemerintahan AS. Menjelaskan pendekatan Gartner (operating model, maturity model). Perbandingan kelebihan dan kekurangan setiap framework. Diskusi: framework mana yang cocok untuk perusahaan rintisan vs pemerintahan",
+          "mahasiswa": "Mencatat, diskusi kelompok kecil, membuat tabel perbandingan framework",
+          "media": "Slide, tabel perbandingan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi ADM TOGAF",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 2-3",
+      "referensi_2": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture. Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Architecture Development Method (ADM) TOGAF",
+      "indikator_1": "Kemampuan menjelaskan fase-fase ADM (Preliminary, A-H, Requirements Management)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan fase-fase Architecture Development Method (ADM) TOGAF dan input-output setiap fase",
+      "pokok_bahasan": "ADM cycle, input-output setiap fase, iterasi, governance",
+      "sub_pokok_bahasan_1": "Fase Preliminary dan A (Architecture Vision); fase B (Business Architecture), C (Information Systems Architecture)",
+      "sub_pokok_bahasan_2": "Fase D (Technology), E (Opportunities), F (Migration), G (Governance), H (Change Management); Requirements Management",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Siklus pengembangan EA disebut?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan siklus ADM: Preliminary (persiapan), A (Architecture Vision), B (Business), C (Information Systems: data & application), D (Technology), E (Opportunities & Solutions), F (Migration Planning), G (Implementation Governance), H (Architecture Change Management). Menjelaskan Requirements Management sebagai proses sentral. Memberikan contoh input-output setiap fase. Praktik: membuat diagram siklus ADM",
+          "mahasiswa": "Mencatat, menggambar diagram ADM, latihan mengidentifikasi fase dari skenario",
+          "media": "Slide, diagram ADM, template"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (membuat diagram fase ADM dan penjelasan), menginformasikan materi business architecture",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: diagram fase - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 5",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang business architecture dan information/data architecture (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Business architecture",
+      "indikator_1": "Kemampuan merancang value stream, capabilities, dan proses bisnis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang business architecture meliputi value stream map, business capability map, dan organization map",
+      "pokok_bahasan": "Business architecture: value stream map, business capability map",
+      "sub_pokok_bahasan_1": "Value stream mapping; business capability map",
+      "sub_pokok_bahasan_2": "Organization map; process modeling (BPMN)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan value stream dan business capability?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan business architecture: value stream (aliran nilai ke pelanggan), business capability (apa yang dilakukan organisasi), organization map (struktur organisasi). Memberikan contoh dari berbagai industri. Praktik: membuat business capability map untuk studi kasus (misal: perusahaan ritel)",
+          "mahasiswa": "Mencatat, latihan membuat business capability map, diskusi kelompok",
+          "media": "Slide, template capability map, draw.io"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (business architecture untuk kasus yang ditentukan), menginformasikan materi lanjutan business architecture",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: business architecture - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 7",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 4"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang business architecture dan information/data architecture (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Studi kasus business architecture",
+      "indikator_1": "Kemampuan menganalisis kasus (misal: perusahaan ritel) dan menyusun business architecture",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis studi kasus dan menyusun business architecture (strategi, value stream, capability map) untuk sebuah organisasi",
+      "pokok_bahasan": "Studi kasus: identifikasi strategi, value stream, capability map",
+      "sub_pokok_bahasan_1": "Analisis strategi bisnis organisasi (visi, misi, tujuan)",
+      "sub_pokok_bahasan_2": "Identifikasi value stream; pemetaan business capability",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres tugas kelompok), menyampaikan tujuan praktikum",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan studi kasus perusahaan (misal: toko ritel yang ingin bertransformasi digital). Membimbing mahasiswa dalam menganalisis strategi bisnis, mengidentifikasi value stream (order-to-cash, procure-to-pay), dan menyusun business capability map. Workshop kelompok dengan bimbingan dosen",
+          "mahasiswa": "Mengerjakan analisis studi kasus, membuat business capability map, berkonsultasi dengan dosen",
+          "media": "Slide, template capability map, studi kasus tertulis"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan hasil workshop, memberikan tugas kelompok laporan business architecture, menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas, melanjutkan pengerjaan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: laporan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 7",
+      "referensi_2": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture. Bab 5"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "UTS: Ujian Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep EA, framework, ADM, business architecture",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep EA, sejarah, framework Zachman/TOGAF/FEAF/Gartner, ADM, business architecture)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: konsep EA, sejarah, Zachman, TOGAF, FEAF, ADM, business architecture",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan essay studi kasus)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 25 soal, essay 2 soal studi kasus business architecture)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang business architecture dan information/data architecture (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Information / Data architecture",
+      "indikator_1": "Kemampuan merancang model data enterprise (ERD, data dictionary, master data management)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang information/data architecture, termasuk model data enterprise, data governance, dan master data management",
+      "pokok_bahasan": "Data architecture: conceptual, logical, physical models",
+      "sub_pokok_bahasan_1": "Model data enterprise (conceptual, logical, physical); data dictionary",
+      "sub_pokok_bahasan_2": "Data governance; master data management (MDM)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan data architecture dengan database design?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan data architecture dalam EA: conceptual data model (high-level), logical data model (entitas dan relasi), physical data model (implementasi). Data dictionary (metadata). Data governance (kebijakan, kepatuhan). MDM (master data seperti customer, product). Praktik: merancang conceptual data model untuk studi kasus",
+          "mahasiswa": "Mencatat, latihan membuat conceptual ERD, diskusi data governance",
+          "media": "Slide, draw.io/MySQL Workbench"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (data architecture untuk kasus tertentu), menginformasikan materi application architecture",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: data architecture - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 8",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 5"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang application architecture dan technology architecture (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Application architecture",
+      "indikator_1": "Kemampuan membuat application portfolio dan diagram integrasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat application portfolio, peta aplikasi, dan diagram integrasi (ESB, API, microservices)",
+      "pokok_bahasan": "Application portfolio, peta aplikasi, integrasi (ESB, API), microservices",
+      "sub_pokok_bahasan_1": "Application portfolio management; peta aplikasi (application landscape diagram)",
+      "sub_pokok_bahasan_2": "Integrasi: ESB (Enterprise Service Bus), API, microservices",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu application portfolio?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan application architecture: daftar aplikasi yang dimiliki organisasi (portfolio), peta aplikasi (application landscape diagram) menunjukkan relasi antar aplikasi. Pendekatan integrasi: legacy integration, ESB (middleware), API (REST, SOAP), microservices. Praktik: membuat application landscape diagram untuk studi kasus",
+          "mahasiswa": "Mencatat, latihan membuat application landscape diagram, diskusi pemilihan strategi integrasi",
+          "media": "Slide, draw.io, contoh application landscape"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (application map untuk kasus yang sama), menginformasikan materi studi kasus application architecture",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: application map - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 9",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 6"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang application architecture dan technology architecture (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Studi kasus application architecture",
+      "indikator_1": "Kemampuan menganalisis aplikasi yang ada dan usulan perbaikan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis aplikasi yang ada (legacy system) dan memberikan usulan perbaikan (rationalisasi, modernisasi)",
+      "pokok_bahasan": "Analisis legacy system, rationalisasi aplikasi, roadmap aplikasi",
+      "sub_pokok_bahasan_1": "Analisis legacy system (kelemahan, ketergantungan)",
+      "sub_pokok_bahasan_2": "Rationalisasi aplikasi (retain, replace, retire, rehost); roadmap aplikasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang dilakukan jika ada aplikasi lama yang sulit diubah?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan studi kasus perusahaan dengan banyak aplikasi legacy yang tumpang tindih. Menjelaskan strategi rationalisasi aplikasi: retain (pertahankan), replace (ganti), retire (hapus), rehost (pindah cloud). Membimbing mahasiswa membuat usulan roadmap aplikasi (tahapan modernisasi). Diskusi kelompok",
+          "mahasiswa": "Menganalisis kasus, menentukan strategi rationalisasi, menyusun roadmap aplikasi, presentasi singkat",
+          "media": "Slide, studi kasus tertulis, template roadmap"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis dan usulan perbaikan aplikasi), menginformasikan materi technology architecture",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 9",
+      "referensi_2": "Ross, J. W., Weill, P., & Robertson, D. C. (2006). Enterprise Architecture as Strategy. Bab 4"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu merancang application architecture dan technology architecture (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Technology architecture",
+      "indikator_1": "Kemampuan merancang infrastruktur (server, cloud, network, security)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang technology architecture meliputi infrastruktur, platform (cloud/on-premise), network diagram, dan security architecture",
+      "pokok_bahasan": "Infrastructure, platform (cloud, on-premise), network diagram, security architecture",
+      "sub_pokok_bahasan_1": "Infrastructure (server, storage, database); platform (on-premise, cloud, hybrid)",
+      "sub_pokok_bahasan_2": "Network diagram; security architecture (firewall, IDS/IPS, authentication)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa saja komponen infrastruktur TI?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan technology architecture: komponen infrastruktur (server, storage, database), platform (on-premise, cloud, hybrid), network diagram (topologi, firewall, load balancer), security architecture. Memberikan contoh diagram teknologi. Praktik: merancang technology architecture sederhana untuk studi kasus (misal: perusahaan dengan 100 karyawan)",
+          "mahasiswa": "Mencatat, latihan membuat network diagram sederhana, memilih platform yang sesuai",
+          "media": "Slide, draw.io, contoh network diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (technology architecture untuk kasus, menginformasikan materi roadmap EA",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: tech architecture - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 10",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 7"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Roadmap arsitektur enterprise",
+      "indikator_1": "Kemampuan menyusun rencana implementasi bertahap (transition architecture)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun roadmap implementasi EA, termasuk gap analysis, project portfolio, prioritization, dan transition architecture",
+      "pokok_bahasan": "Gap analysis, project portfolio, prioritization, transition architecture, work packages",
+      "sub_pokok_bahasan_1": "Gap analysis (baseline vs target); project portfolio",
+      "sub_pokok_bahasan_2": "Prioritization (value, effort, risk); transition architecture; work packages",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Setelah merancang EA, langkah selanjutnya?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan gap analysis: membandingkan baseline architecture (kondisi saat ini) dengan target architecture. Menyusun project portfolio (proyek-proyek untuk menutup gap). Prioritas proyek berdasarkan value, effort, risk. Transition architecture: tahapan implementasi (fase 1,2,3). Work packages: rincian tugas, sumber daya, timeline. Praktik: menyusun roadmap sederhana untuk studi kasus",
+          "mahasiswa": "Mencatat, latihan membuat gap analysis table, menyusun roadmap timeline",
+          "media": "Slide, template gap analysis, template roadmap"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (roadmap EA), menginformasikan materi EA dan transformasi digital",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: roadmap - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 11",
+      "referensi_2": "Bernard, S. A. (2012). An Introduction to Enterprise Architecture. Bab 6"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: EA dan transformasi digital",
+      "indikator_1": "Kemampuan menjelaskan peran EA dalam mendukung transformasi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peran EA dalam mendukung transformasi digital, termasuk untuk cloud migration, agile EA, dan DevOps",
+      "pokok_bahasan": "Digital strategy, EA untuk cloud migration, agile EA, DevOps",
+      "sub_pokok_bahasan_1": "Peran EA dalam digital strategy; cloud migration planning",
+      "sub_pokok_bahasan_2": "Agile EA; DevOps dan EA",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana EA membantu transformasi digital?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan hubungan EA dengan transformasi digital: EA menyediakan blueprint untuk transformasi. Studi kasus: perusahaan yang melakukan cloud migration dengan pendekatan EA (analisis aplikasi, data, infrastruktur). Agile EA: iterasi cepat, adaptif. DevOps: integrasi development dan operations dalam kerangka EA. Diskusi: tantangan menggunakan EA di era digital yang bergerak cepat",
+          "mahasiswa": "Mencatat, diskusi kelompok, menganalisis studi kasus cloud migration",
+          "media": "Slide, studi kasus (Netflix, Amazon)"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas studi kasus (analisis peran EA dalam transformasi digital perusahaan), menginformasikan persiapan presentasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Ross, J. W., Weill, P., & Robertson, D. C. (2006). Enterprise Architecture as Strategy. Bab 7",
+      "referensi_2": "Lankhorst, M. (2017). Enterprise Architecture at Work. Bab 10"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Presentasi studi kasus EA",
+      "indikator_1": "Kemampuan mempresentasikan hasil rancangan EA untuk organisasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil rancangan EA (business, data, application, technology architecture, dan roadmap) untuk organisasi nyata",
+      "pokok_bahasan": "Presentasi business, data, application, technology architecture, dan roadmap",
+      "sub_pokok_bahasan_1": "Penyusunan slide presentasi EA",
+      "sub_pokok_bahasan_2": "Teknik presentasi dan tanya jawab",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (12-15 menit per kelompok, 5 menit tanya jawab), urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide, laporan final",
+          "media": "Slide, Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik. Menilai kelengkapan arsitektur (business, data, application, technology, roadmap)",
+          "mahasiswa": "Mempresentasikan proyek EA (latar belakang organisasi, business architecture, data architecture, application architecture, technology architecture, roadmap), menjawab pertanyaan",
+          "media": "Slide presentasi, laporan proyek, rubric penilaian"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan presentasi, memberikan apresiasi, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, memberikan feedback antar kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok (15 menit) - Bobot 8%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan presentasi ilmiah",
+      "referensi_2": "Contoh presentasi EA (studi kasus)"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "UAS: Ujian Akhir Semester",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang perancangan EA, studi kasus, dan transformasi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap seluruh materi (konsep EA, framework, business/data/application/technology architecture, roadmap, dan transformasi digital) serta kemampuan analisis studi kasus",
+      "pokok_bahasan": "Ujian Akhir Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-15: konsep EA, Zachman, TOGAF, FEAF, ADM, business architecture, data architecture, application architecture, technology architecture, roadmap, EA dan transformasi digital",
+      "sub_pokok_bahasan_2": "Studi kasus integratif perancangan EA",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (open book, durasi 90 menit, soal esai studi kasus)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (2-3 soal esai analisis kasus, misal: merancang business architecture untuk perusahaan fiktif, memilih framework EA yang tepat, atau menyusun roadmap)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 20%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "The Open Group. (2018). TOGAF Standard Version 9.2. Bab 1-11"
+    }
+  ]
+}

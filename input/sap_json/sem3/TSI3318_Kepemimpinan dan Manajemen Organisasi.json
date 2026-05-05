@@ -1,0 +1,538 @@
+{
+    "meta": {
+    "kode_mk": "TSI3318",
+    "nama_mk": "Kepemimpinan dan Manajemen Organisasi",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+    },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dan teori kepemimpinan modern serta gaya kepemimpinan yang sesuai dengan konteks organisasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Konsep dasar kepemimpinan",
+      "indikator_1": "Ketepatan mendefinisikan kepemimpinan, membedakan dengan manajemen, serta menjelaskan peran pemimpin",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan kepemimpinan, membedakannya dengan manajemen, serta menjelaskan peran pemimpin dalam organisasi",
+      "pokok_bahasan": "Konsep Dasar Kepemimpinan",
+      "sub_pokok_bahasan_1": "Definisi kepemimpinan vs manajemen",
+      "sub_pokok_bahasan_2": "Teori sifat dan teori perilaku; peran pemimpin",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pemahaman awal tentang kepemimpinan), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi kepemimpinan, perbedaan dengan manajemen, teori sifat dan perilaku, serta peran pemimpin. Diskusi interaktif",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi pertemuan berikutnya (teori kepemimpinan modern)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice (9th ed.). SAGE Publications. Bab 1",
+      "referensi_2": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior (18th ed.). Pearson. Bab 12"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dan teori kepemimpinan modern serta gaya kepemimpinan yang sesuai dengan konteks organisasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Teori kepemimpinan modern",
+      "indikator_1": "Ketepatan menjelaskan teori kontingensi, transformasional, servant leadership",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan teori kontingensi Fiedler, teori situasional Hersey-Blanchard, path-goal theory, dan transformational leadership",
+      "pokok_bahasan": "Teori Kepemimpinan Modern",
+      "sub_pokok_bahasan_1": "Teori kontingensi Fiedler; teori situasional Hersey-Blanchard",
+      "sub_pokok_bahasan_2": "Path-goal theory; transformational leadership",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa saja teori kepemimpinan yang sudah dikenal?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab pertanyaan",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan teori kontingensi Fiedler, teori situasional Hersey-Blanchard, path-goal theory, dan transformational leadership. Diskusi perbandingan",
+          "mahasiswa": "Mencatat, bertanya, diskusi kelompok kecil",
+          "media": "Slide, papan tulis, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (ringkasan satu teori), menginformasikan materi gaya kepemimpinan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 5-6",
+      "referensi_2": "Daft, R. L. (2015). The leadership experience (6th ed.). Cengage Learning. Bab 4"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami konsep dan teori kepemimpinan modern serta gaya kepemimpinan yang sesuai dengan konteks organisasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Gaya kepemimpinan",
+      "indikator_1": "Ketepatan mengidentifikasi gaya kepemimpinan dan kapan menggunakannya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi gaya kepemimpinan otoriter, demokratis, laissez-faire, situasional, dan digital, serta kapan menggunakannya",
+      "pokok_bahasan": "Gaya Kepemimpinan",
+      "sub_pokok_bahasan_1": "Gaya otoriter, demokratis, laissez-faire",
+      "sub_pokok_bahasan_2": "Gaya situasional; gaya kepemimpinan digital",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh pemimpin dengan gaya otoriter?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan gaya otoriter, demokratis, laissez-faire, gaya situasional, dan gaya kepemimpinan digital. Studi kasus singkat (misal: Steve Jobs, Elon Musk)",
+          "mahasiswa": "Mencatat, analisis studi kasus, diskusi",
+          "media": "Slide, video pendek"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi struktur organisasi",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 4",
+      "referensi_2": "Daft, R. L. (2015). The leadership experience. Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan struktur organisasi, budaya organisasi, dan perilaku individu dalam kelompok kerja (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Struktur organisasi",
+      "indikator_1": "Ketepatan menjelaskan tipe struktur organisasi (fungsional, divisional, matriks, flat)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan tipe struktur organisasi, bagan organisasi, sentralisasi vs desentralisasi, dan rentang kendali",
+      "pokok_bahasan": "Struktur Organisasi",
+      "sub_pokok_bahasan_1": "Tipe struktur: fungsional, divisional, matriks, flat",
+      "sub_pokok_bahasan_2": "Sentralisasi vs desentralisasi; rentang kendali",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Struktur organisasi yang dikenal?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan berbagai tipe struktur organisasi, kelebihan dan kekurangan, serta contoh. Diskusi perbandingan struktur pada perusahaan startup vs perusahaan besar",
+          "mahasiswa": "Mencatat, diskusi kelompok, membuat bagan sederhana",
+          "media": "Slide, contoh bagan organisasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis struktur organisasi perusahaan tertentu), menginformasikan materi budaya organisasi",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 15",
+      "referensi_2": "Daft, R. L. (2015). The leadership experience. Bab 10"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan struktur organisasi, budaya organisasi, dan perilaku individu dalam kelompok kerja (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Budaya organisasi dan perilaku",
+      "indikator_1": "Ketepatan menjelaskan budaya organisasi dan pengaruhnya terhadap kinerja",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan budaya organisasi menurut Handy dan Schein, serta pengaruhnya terhadap kinerja, motivasi, dan kepuasan kerja",
+      "pokok_bahasan": "Budaya Organisasi dan Perilaku Individu",
+      "sub_pokok_bahasan_1": "Budaya organisasi (Handy, Schein)",
+      "sub_pokok_bahasan_2": "Perilaku individu dan kelompok; motivasi; kepuasan kerja",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu budaya kerja?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan model budaya organisasi, teori motivasi (Maslow, Herzberg), dan pengaruh budaya terhadap kinerja. Studi kasus budaya organisasi perusahaan terkenal (Google, Netflix)",
+          "mahasiswa": "Mencatat, analisis studi kasus, diskusi",
+          "media": "Slide, video"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas analisis budaya organisasi (individu), menginformasikan materi manajemen tim",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis budaya organisasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 16-17",
+      "referensi_2": "Schein, E. H. (2010). Organizational culture and leadership. Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Manajemen tim dan kerja kelompok",
+      "indikator_1": "Ketepatan menjelaskan tahapan pembentukan tim (Tuckman) dan peran dalam tim",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan tahapan forming, storming, norming, performing, peran tim (Belbin), dan kolaborasi tim virtual",
+      "pokok_bahasan": "Manajemen Tim dan Kerja Kelompok",
+      "sub_pokok_bahasan_1": "Tahapan Tuckman (forming, storming, norming, performing)",
+      "sub_pokok_bahasan_2": "Peran tim (Belbin); kolaborasi tim virtual",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya pengalaman kerja kelompok), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, berbagi pengalaman",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan tahapan pembentukan tim, peran tim menurut Belbin, dan tantangan kolaborasi virtual. Simulasi peran tim dalam breakout room",
+          "mahasiswa": "Simulasi peran, diskusi kelompok",
+          "media": "Slide, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi manajemen tim proyek TI",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 9-10",
+      "referensi_2": "Belbin, R. M. (2012). Team roles at work. Bab 3"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Manajemen tim proyek TI",
+      "indikator_1": "Ketepatan mengidentifikasi tantangan tim proyek TI dan solusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi tantangan tim proyek TI (agile vs waterfall, peran Scrum Master, Product Owner) dan memberikan solusi",
+      "pokok_bahasan": "Manajemen Tim Proyek TI",
+      "sub_pokok_bahasan_1": "Tim proyek agile vs waterfall",
+      "sub_pokok_bahasan_2": "Peran Scrum Master, Product Owner; komunikasi tim",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Metodologi proyek yang dikenal?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan perbedaan tim agile dan waterfall, peran Scrum Master dan Product Owner, serta strategi komunikasi efektif dalam tim TI. Studi kasus tim proyek TI yang gagal",
+          "mahasiswa": "Mencatat, diskusi kasus, simulasi singkat",
+          "media": "Slide, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (studi kasus tim proyek TI), menginformasikan materi pengambilan keputusan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Schwalbe, K. (2018). Information technology project management. Bab 4-5",
+      "referensi_2": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 10"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Pengambilan keputusan manajerial",
+      "indikator_1": "Ketepatan menjelaskan model pengambilan keputusan (rasional, bounded rationality, intuitive)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan proses pengambilan keputusan, model rasional, bounded rationality, intuitive, serta teknik brainstorming, Delphi, SWOT",
+      "pokok_bahasan": "Pengambilan Keputusan Manajerial",
+      "sub_pokok_bahasan_1": "Model keputusan: rasional, bounded rationality, intuitive",
+      "sub_pokok_bahasan_2": "Teknik: brainstorming, Delphi, SWOT; keputusan kelompok",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh keputusan sulit yang pernah diambil'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan model pengambilan keputusan, proses, teknik kelompok (brainstorming, Delphi, SWOT). Latihan studi kasus keputusan dalam proyek TI",
+          "mahasiswa": "Mencatat, latihan analisis keputusan",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi manajemen konflik",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 7",
+      "referensi_2": "Daft, R. L. (2015). The leadership experience. Bab 8"
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Manajemen konflik dan negosiasi",
+      "indikator_1": "Ketepatan mengidentifikasi sumber konflik dan strategi penyelesaian",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi sumber konflik, strategi penyelesaian (kompetisi, kolaborasi, kompromi, menghindar, akomodasi), serta teknik negosiasi",
+      "pokok_bahasan": "Manajemen Konflik dan Negosiasi",
+      "sub_pokok_bahasan_1": "Sumber konflik; strategi penyelesaian",
+      "sub_pokok_bahasan_2": "Teknik negosiasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah mengalami konflik tim?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sumber konflik, lima strategi penyelesaian (Thomas-Kilmann), dan teknik negosiasi. Simulasi negosiasi dalam tim proyek TI",
+          "mahasiswa": "Simulasi negosiasi, diskusi",
+          "media": "Slide, breakout room"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan persiapan UTS",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 14",
+      "referensi_2": "Fisher, R., & Ury, W. (2011). Getting to yes. Bab 1-3"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-9)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep dan studi kasus kepemimpinan & organisasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-9",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-9: teori kepemimpinan, gaya kepemimpinan, struktur organisasi, budaya organisasi, manajemen tim, pengambilan keputusan, manajemen konflik",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (menggunakan kamera jika perlu), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda & esai/studi kasus)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-9",
+      "referensi_2": ""
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership serta etika kepemimpinan (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Kepemimpinan transformasional",
+      "indikator_1": "Ketepatan menjelaskan komponen kepemimpinan transformasional (idealized influence, inspirational motivation, intellectual stimulation, individualized consideration)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan komponen kepemimpinan transformasional dan perbedaannya dengan kepemimpinan transaksional",
+      "pokok_bahasan": "Kepemimpinan Transformasional",
+      "sub_pokok_bahasan_1": "Komponen kepemimpinan transformasional",
+      "sub_pokok_bahasan_2": "Perbedaan transformasional vs transaksional; contoh pemimpin",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu pemimpin visioner?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan keempat komponen kepemimpinan transformasional, membandingkan dengan transaksional, dan memberikan contoh tokoh (misal: Steve Jobs, Nelson Mandela). Diskusi kelompok",
+          "mahasiswa": "Mencatat, diskusi, analisis studi kasus pemimpin",
+          "media": "Slide, video"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi digital leadership",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 8",
+      "referensi_2": "Bass, B. M., & Riggio, R. E. (2006). Transformational leadership. Bab 2"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership serta etika kepemimpinan (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Digital leadership",
+      "indikator_1": "Ketepatan menjelaskan kompetensi pemimpin di era digital (agile, data-driven, tech-savvy)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan karakteristik, tantangan digital leadership, serta peran CIO/CTO dalam transformasi digital",
+      "pokok_bahasan": "Digital Leadership",
+      "sub_pokok_bahasan_1": "Karakteristik dan tantangan digital leadership",
+      "sub_pokok_bahasan_2": "Peran CIO, CTO; kepemimpinan dalam transformasi digital",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan pemimpin di era digital?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kompetensi digital leader (agile, data-driven, tech-savvy), tantangan (perubahan cepat, keamanan data), dan studi kasus CEO perusahaan teknologi. Diskusi",
+          "mahasiswa": "Mencatat, diskusi, analisis studi kasus",
+          "media": "Slide, artikel"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (studi kasus pemimpin digital), menginformasikan materi etika kepemimpinan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus pemimpin digital - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 14",
+      "referensi_2": "Daft, R. L. (2015). The leadership experience. Bab 12"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership serta etika kepemimpinan (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Etika kepemimpinan dan tanggung jawab sosial",
+      "indikator_1": "Ketepatan menjelaskan prinsip etika kepemimpinan dan CSR",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan prinsip etika kepemimpinan, dilema etis, CSR, dan kepemimpinan berkelanjutan",
+      "pokok_bahasan": "Etika Kepemimpinan dan Tanggung Jawab Sosial",
+      "sub_pokok_bahasan_1": "Prinsip etika kepemimpinan; dilema etis",
+      "sub_pokok_bahasan_2": "Corporate social responsibility; kepemimpinan berkelanjutan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh perilaku tidak etis pemimpin?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan prinsip etika kepemimpinan, dilema etis dalam proyek TI, CSR, dan kepemimpinan berkelanjutan. Diskusi kasus etika (misal: kebocoran data)",
+          "mahasiswa": "Mencatat, diskusi, analisis kasus etika",
+          "media": "Slide, berita kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi persiapan studi kasus",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 13",
+      "referensi_2": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 5"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi pada perusahaan/organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Analisis studi kasus (persiapan)",
+      "indikator_1": "Kemampuan memilih organisasi, mengumpulkan data, dan merumuskan masalah",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih organisasi nyata, mengumpulkan data awal, dan merumuskan isu kepemimpinan/manajemen",
+      "pokok_bahasan": "Analisis Studi Kasus - Persiapan",
+      "sub_pokok_bahasan_1": "Pemilihan studi kasus (perusahaan, startup, organisasi nirlaba)",
+      "sub_pokok_bahasan_2": "Identifikasi isu kepemimpinan/manajemen",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas proyek), menyampaikan tujuan, membagi kelompok",
+          "mahasiswa": "Membentuk kelompok, menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kriteria pemilihan studi kasus, cara mengumpulkan data (wawancara, observasi, literatur), dan merumuskan masalah. Bimbingan kelompok",
+          "mahasiswa": "Berdiskusi kelompok, memilih topik, merumuskan masalah",
+          "media": "Slide, contoh proposal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan tenggat proposal (1 minggu), menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Mencatat target, melanjutkan diskusi kelompok di luar kelas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal proyek (kelompok) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Yin, R. K. (2018). Case study research and applications. Bab 2",
+      "referensi_2": "Northouse, P. G. (2021). Leadership: Theory and practice. Bab 1-14"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi pada perusahaan/organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Penyusunan laporan analisis",
+      "indikator_1": "Kemampuan menyusun laporan sistematis (analisis SWOT, rekomendasi)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan analisis studi kasus dengan struktur yang sistematis, mencakup analisis SWOT dan rekomendasi",
+      "pokok_bahasan": "Penyusunan Laporan Analisis",
+      "sub_pokok_bahasan_1": "Struktur laporan (pendahuluan, tinjauan teori, metode, analisis, rekomendasi)",
+      "sub_pokok_bahasan_2": "Analisis gaya kepemimpinan, evaluasi budaya organisasi, rekomendasi perbaikan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres laporan), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres singkat",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan, teknik analisis (SWOT, analisis gaya kepemimpinan), dan cara merumuskan rekomendasi. Workshop bimbingan kelompok",
+          "mahasiswa": "Menyusun laporan, berkonsultasi dengan dosen",
+          "media": "Template laporan, contoh analisis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan waktu konsultasi, menginformasikan persiapan presentasi",
+          "mahasiswa": "Konsultasi, melanjutkan penyusunan laporan",
+          "media": "LMS, breakout room"
+        }
+      },
+      "evaluasi_1": "Laporan proyek (kelompok) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan penulisan laporan studi kasus",
+      "referensi_2": "Robbins, S. P., & Judge, T. A. (2019). Organizational behavior. Bab 17"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi pada perusahaan/organisasi nyata (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Presentasi studi kasus",
+      "indikator_1": "Kemampuan mempresentasikan dan mempertahankan rekomendasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil analisis studi kasus, memberikan rekomendasi perbaikan, dan menjawab pertanyaan",
+      "pokok_bahasan": "Presentasi Hasil Studi Kasus",
+      "sub_pokok_bahasan_1": "Teknik presentasi (slide, intonasi, bahasa tubuh)",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan rekomendasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (waktu 10-15 menit/kelompok), urutan",
+          "mahasiswa": "Mempersiapkan diri, menyiapkan slide",
+          "media": "Slide, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik",
+          "mahasiswa": "Mempresentasikan proyek (latar belakang, analisis, rekomendasi, poster), menjawab pertanyaan",
+          "media": "Slide presentasi, laporan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan keseluruhan proyek, memberikan apresiasi, menginformasikan nilai akhir dan evaluasi",
+          "mahasiswa": "Mencatat, memberikan feedback antar kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok - Bobot 14%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan presentasi ilmiah",
+      "referensi_2": "Contoh presentasi studi kasus kepemimpinan"
+    }
+  ]
+}

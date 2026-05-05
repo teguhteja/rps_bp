@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3319",
+    "nama_mk": "Jaringan Komputer",
+    "sks_total": "4",
+    "template_sap": "SAP_MK_TSI3319.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: pengenalan perangkat jaringan",
+      "detail_cpmk": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Konsep dasar jaringan komputer",
+      "indikator_1": "Ketepatan mendefinisikan jaringan, manfaat, dan jenis (LAN, MAN, WAN, WLAN)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan jaringan komputer, menjelaskan manfaatnya, serta mengklasifikasikan jenis-jenis jaringan berdasarkan cakupan geografis",
+      "pokok_bahasan": "Definisi jaringan dan topologi",
+      "sub_pokok_bahasan_1": "Definisi jaringan; manfaat jaringan komputer",
+      "sub_pokok_bahasan_2": "Topologi jaringan; perangkat (switch, router, access point); media transmisi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pengalaman mahasiswa tentang jaringan internet), menyampaikan tujuan pembelajaran dan cakupan praktikum",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab pertanyaan apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet, Cisco Packet Tracer"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi jaringan komputer, manfaat jaringan dalam kehidupan sehari-hari. Memperkenalkan topologi bus, star, ring, mesh. Menjelaskan fungsi switch, router, access point. Demonstrasi pengenalan antarmuka Packet Tracer",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, mencoba menjalankan Packet Tracer dan mengidentifikasi perangkat",
+          "media": "Slide, Cisco Packet Tracer, papan tulis virtual, video demonstrasi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, memberikan tugas latihan soal, menginformasikan materi pertemuan berikutnya (arsitektur jaringan)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis, mencatat tugas",
+          "media": "LMS, Google Forms, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 3%",
+      "evaluasi_2": "Tugas latihan soal - Bobot 3%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach (7th ed.). Pearson. Bab 1",
+      "referensi_2": "Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer networks (5th ed.). Pearson. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: instalasi simulator",
+      "detail_cpmk": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Klasifikasi dan arsitektur jaringan",
+      "indikator_1": "Ketepatan membedakan client-server, peer-to-peer, dan arsitektur hybrid",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan arsitektur client-server, peer-to-peer, dan hybrid beserta contoh implementasinya",
+      "pokok_bahasan": "Arsitektur jaringan",
+      "sub_pokok_bahasan_1": "Arsitektur client-server dan peer-to-peer",
+      "sub_pokok_bahasan_2": "Jaringan hybrid; contoh implementasi di dunia nyata",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan perbedaan server dan PC biasa), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan arsitektur client-server (server melayani banyak client), peer-to-peer (setiap komputer bisa menjadi client dan server), hybrid (gabungan). Memberikan contoh: web server (client-server), file sharing P2P (BitTorrent), aplikasi modern hybrid. Praktik instalasi Packet Tracer dan verifikasi",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, menginstal Packet Tracer, membuat topologi sederhana dengan 2 PC",
+          "media": "Slide, Cisco Packet Tracer, video tutorial instalasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi model OSI pada pertemuan berikutnya",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 3%",
+      "evaluasi_2": "Tugas individu: identifikasi arsitektur jaringan - Bobot 3%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 2",
+      "referensi_2": "Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer networks. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: analisis header frame",
+      "detail_cpmk": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Model OSI (7 layer)",
+      "indikator_1": "Ketepatan menjelaskan fungsi setiap layer OSI dan contoh protokol",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan fungsi 7 layer OSI beserta contoh protokol dan unit data di setiap layer",
+      "pokok_bahasan": "Model OSI 7 Layer",
+      "sub_pokok_bahasan_1": "Physical, data link, network, transport layer",
+      "sub_pokok_bahasan_2": "Session, presentation, application layer; contoh protokol setiap layer",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang terjadi saat Anda mengirim pesan WhatsApp?'), menyampaikan tujuan pembelajaran OSI",
+          "mahasiswa": "Menyimak, merespon, menjawab apersepsi",
+          "media": "Slide presentasi, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 7 layer OSI dari physical hingga application, fungsi setiap layer, PDU (bit, frame, packet, segment, data). Praktik: menganalisis header frame Ethernet menggunakan Wireshark (capture paket sederhana)",
+          "mahasiswa": "Mendengarkan, mencatat, membuat tabel layer OSI, praktik capture paket Wireshark",
+          "media": "Slide, Wireshark, contoh frame capture"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas kelompok (poster layer OSI), menginformasikan materi TCP/IP",
+          "mahasiswa": "Mencatat, mengerjakan kuis, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 4%",
+      "evaluasi_2": "Tugas kelompok: poster layer OSI - Bobot 4%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 1",
+      "referensi_2": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 2"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: capture paket dengan Wireshark",
+      "detail_cpmk": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Model TCP/IP",
+      "indikator_1": "Ketepatan membandingkan OSI dan TCP/IP, serta protokol di setiap layer",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membandingkan model OSI dengan TCP/IP serta menjelaskan protokol utama di setiap layer TCP/IP",
+      "pokok_bahasan": "Model TCP/IP",
+      "sub_pokok_bahasan_1": "TCP/IP: application, transport, internet, network access",
+      "sub_pokok_bahasan_2": "Perbandingan dengan OSI; protokol (HTTP, TCP, IP, Ethernet)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa internet menggunakan TCP/IP bukan OSI?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, merespon, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 4 layer TCP/IP, protokol di setiap layer, perbedaan dengan OSI (jumlah layer, pendekatan). Praktik: capture paket HTTP dan TCP dengan Wireshark, identifikasi header TCP dan IP",
+          "mahasiswa": "Mendengarkan, mencatat, membuat tabel perbandingan, praktik capture paket",
+          "media": "Slide, Wireshark, browser"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis paket (individu), menginformasikan materi subnetting",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 4%",
+      "evaluasi_2": "Tugas analisis paket Wireshark - Bobot 4%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 1-3",
+      "referensi_2": "Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer networks. Bab 1"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: subnetting manual",
+      "detail_cpmk": "Mampu melakukan pengalamatan IP, subnetting, dan konfigurasi perangkat jaringan dasar (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Pengalamatan IP (IPv4)",
+      "indikator_1": "Ketepatan membedakan kelas IP, subnet mask, dan perhitungan subnet",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan kelas IP, menghitung subnet, host, dan broadcast, serta memahami CIDR",
+      "pokok_bahasan": "IPv4 dan Subnetting",
+      "sub_pokok_bahasan_1": "IPv4: struktur 32-bit, kelas A,B,C,D,E",
+      "sub_pokok_bahasan_2": "Subnet mask; CIDR; perhitungan subnet, host, broadcast",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa IP address perlu di-subnet?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur IPv4 32-bit, kelas-kelas IP, subnet mask default. Mengajarkan perhitungan subnetting (jumlah subnet, host per subnet, alamat network, broadcast). Latihan soal perhitungan subnetting bersama mahasiswa. Praktik: menghitung subnet secara manual",
+          "mahasiswa": "Mencatat, mengerjakan latihan soal, praktik perhitungan",
+          "media": "Slide, papan tulis virtual, kalkulator subnet online"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan rumus subnetting, memberikan kuis online, memberikan tugas latihan subnetting, menginformasikan materi IPv6",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas latihan subnetting - Bobot 5%",
+      "referensi_1": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 8-9",
+      "referensi_2": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 4"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: konfigurasi IPv6 di simulator",
+      "detail_cpmk": "Mampu melakukan pengalamatan IP, subnetting, dan konfigurasi perangkat jaringan dasar (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : IPv6 dan subnetting lanjutan",
+      "indikator_1": "Ketepatan menjelaskan kelebihan IPv6 dan format alamat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan kelebihan IPv6, format alamat 128-bit, tipe alamat, dan melakukan subnetting IPv6 sederhana",
+      "pokok_bahasan": "IPv6 dan Subnetting Lanjutan",
+      "sub_pokok_bahasan_1": "IPv6: 128-bit, notasi heksadesimal",
+      "sub_pokok_bahasan_2": "Tipe alamat (unicast, multicast, anycast); subnetting IPv6",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa IPv6 diperlukan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan keterbatasan IPv4 (habisnya alamat), kelebihan IPv6 (alamat lebih banyak, keamanan, autoconfiguration). Menjelaskan format heksadesimal, penyederhanaan notasi, tipe alamat. Praktik: konfigurasi IPv6 statis pada router di Packet Tracer",
+          "mahasiswa": "Mencatat, berlatih menyingkat alamat IPv6, praktik konfigurasi IPv6 di simulator",
+          "media": "Slide, Cisco Packet Tracer"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas desain subnet IPv6, menginformasikan materi konfigurasi perangkat",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas desain subnet IPv6 - Bobot 5%",
+      "referensi_1": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 24",
+      "referensi_2": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 4"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Praktikum laboratorium virtual TM: 3x50; Praktik: 1x170",
+      "detail_cpmk": "Mampu melakukan pengalamatan IP, subnetting, dan konfigurasi perangkat jaringan dasar (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Konfigurasi perangkat jaringan (switch, router)",
+      "indikator_1": "Kemampuan mengkonfigurasi VLAN, trunking, dan routing antar VLAN",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengkonfigurasi perangkat switch (VLAN, trunking) dan router (antarmuka, IP routing) menggunakan Cisco Packet Tracer",
+      "pokok_bahasan": "Konfigurasi Switch dan Router",
+      "sub_pokok_bahasan_1": "Konfigurasi dasar switch (hostname, password, VLAN)",
+      "sub_pokok_bahasan_2": "Konfigurasi router (interface, IP routing, routing antar VLAN)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu VLAN?'), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, merespon",
+          "media": "Slide, LMS, Cisco Packet Tracer"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep VLAN (memisahkan jaringan secara logis), trunking (membawa banyak VLAN), router-on-a-stick. Demonstrasi konfigurasi: membuat VLAN 10 dan 20 di switch, menetapkan port access, konfigurasi trunk, konfigurasi subinterface router. Mahasiswa mengikuti langkah-langkah di Packet Tracer",
+          "mahasiswa": "Mencatat langkah, praktik konfigurasi switch dan router di Packet Tracer, menguji koneksi antar VLAN",
+          "media": "Cisco Packet Tracer, panduan praktikum, slide"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan konfigurasi, memeriksa hasil pekerjaan mahasiswa, memberikan tugas praktik (laporan konfigurasi VLAN dan trunking), menginformasikan materi protokol aplikasi",
+          "mahasiswa": "Menyelesaikan konfigurasi, mengirim laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik: laporan konfigurasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 10, 14",
+      "referensi_2": "Cisco Networking Academy. (2020). Introduction to Networks v7.0 (ITN). Bab 3-4"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi Minggu 1–9)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep, subnetting, dan protokol",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep dasar, OSI/TCP/IP, subnetting, konfigurasi perangkat)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Konsep dan arsitektur jaringan, model OSI/TCP/IP",
+      "sub_pokok_bahasan_2": "Subnetting IPv4, konfigurasi switch dan router",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan essay)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS (Google Form/Moodle), Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 30 soal, essay 2 soal studi kasus subnetting)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu (15 menit), menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: capture HTTP dan DNS",
+      "detail_cpmk": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Protokol lapisan aplikasi (HTTP, DNS)",
+      "indikator_1": "Ketepatan menjelaskan cara kerja HTTP request/response dan DNS resolution",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan cara kerja HTTP (request/response, metode, status code) dan DNS (hirarki, recursive/iterative query)",
+      "pokok_bahasan": "HTTP dan DNS",
+      "sub_pokok_bahasan_1": "HTTP: metode GET/POST, status code, header",
+      "sub_pokok_bahasan_2": "DNS: hierarki domain, recursive/iterative query, resolver",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang terjadi saat Anda mengetik google.com?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, merespon",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan protokol HTTP: client-server, request (GET, POST), response (status code 200, 404, 500). Menjelaskan DNS: domain name system, resolver, root server, TLD, authoritative. Praktik: capture paket HTTP saat mengakses website dan paket DNS menggunakan Wireshark (nslookup)",
+          "mahasiswa": "Mencatat, melakukan capture HTTP dan DNS dengan Wireshark, menganalisis isi paket",
+          "media": "Slide, Wireshark, browser, command prompt (nslookup)"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis paket HTTP dan DNS, menginformasikan materi FTP dan DHCP",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas analisis paket HTTP/DNS - Bobot 5%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 2",
+      "referensi_2": "Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer networks. Bab 7"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: simulasi FTP dan DHCP",
+      "detail_cpmk": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Protokol FTP, DHCP, dan SMTP",
+      "indikator_1": "Ketepatan menjelaskan proses FTP, DHCP (DORA), dan email",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan proses FTP (active/passive), DHCP (DORA), serta protokol email (SMTP, POP3, IMAP)",
+      "pokok_bahasan": "FTP, DHCP, dan Email",
+      "sub_pokok_bahasan_1": "FTP (active/passive), DHCP (discover, offer, request, ack)",
+      "sub_pokok_bahasan_2": "SMTP, POP3, IMAP; perbedaan POP3 dan IMAP",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana komputer mendapatkan IP secara otomatis?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan FTP (koneksi kontrol dan data, mode active/passive), DHCP (proses DORA: Discover, Offer, Request, Acknowledge), protokol email (SMTP untuk kirim, POP3/IMAP untuk terima, perbedaan POP3 dan IMAP). Praktik: simulasi server FTP dan DHCP di Packet Tracer, konfigurasi client dan verifikasi",
+          "mahasiswa": "Mencatat, praktik membuat topologi dengan server FTP dan DHCP di Packet Tracer",
+          "media": "Slide, Cisco Packet Tracer"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas kelompok (analisis protokol DHCP), menginformasikan materi routing statis",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas kelompok: analisis DHCP - Bobot 5%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 2",
+      "referensi_2": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 7"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Praktikum routing statis TM: 3x50; Praktik: 1x170",
+      "detail_cpmk": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Routing statis",
+      "indikator_1": "Kemampuan mengkonfigurasi routing statis di simulator",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengkonfigurasi routing statis, default route, dan memahami perhitungan metric pada router",
+      "pokok_bahasan": "Routing Statis",
+      "sub_pokok_bahasan_1": "Konsep routing statis; default route",
+      "sub_pokok_bahasan_2": "Konfigurasi routing statis; perhitungan metric",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Perbedaan routing statis dan dinamis?'), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Cisco Packet Tracer"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan routing statis (administrator memasukkan rute secara manual), default route (gateway terakhir), metric (hop count). Demonstrasi konfigurasi: topologi 3 router, konfigurasi IP di setiap antarmuka, menambahkan rute statis (ip route), verifikasi dengan show ip route dan ping. Mahasiswa mengikuti langkah-langkah di Packet Tracer",
+          "mahasiswa": "Praktik membuat topologi 3 router, konfigurasi IP, menambahkan rute statis, menguji koneksi",
+          "media": "Cisco Packet Tracer, panduan praktikum"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan konfigurasi routing statis, memberikan tugas praktik (laporan routing statis), menginformasikan materi routing dinamis",
+          "mahasiswa": "Menyelesaikan konfigurasi, mengirim laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik: laporan routing statis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 11",
+      "referensi_2": "Cisco Networking Academy. (2020). Introduction to Networks v7.0 (ITN). Bab 6"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Praktikum routing dinamis TM: 3x50; Praktik: 1x170",
+      "detail_cpmk": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Routing dinamis (RIP, OSPF)",
+      "indikator_1": "Kemampuan mengkonfigurasi RIP dan OSPF serta membandingkan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengkonfigurasi routing dinamis RIP dan OSPF, serta membandingkan kelebihan dan kekurangannya",
+      "pokok_bahasan": "Routing Dinamis RIP dan OSPF",
+      "sub_pokok_bahasan_1": "RIP (distance vector), konfigurasi, kelemahan",
+      "sub_pokok_bahasan_2": "OSPF (link state), konfigurasi area, kelebihan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa perusahaan menggunakan OSPF?'), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, merespon",
+          "media": "Slide, LMS, Cisco Packet Tracer"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan routing dinamis: keuntungan (otomatis) vs statis. RIP: distance vector, hop count maks 15, konfigurasi (router rip, network). OSPF: link state, metric cost, konfigurasi (router ospf, network area). Demonstrasi konfigurasi RIP, lalu OSPF pada topologi yang sama. Mahasiswa membandingkan tabel routing",
+          "mahasiswa": "Praktik konfigurasi RIP, hapus RIP, konfigurasi OSPF, membandingkan hasil, menguji failover",
+          "media": "Cisco Packet Tracer"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan perbedaan RIP dan OSPF, memberikan kuis online, memberikan tugas praktik perbandingan routing, menginformasikan materi keamanan jaringan",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas praktik: laporan perbandingan RIP dan OSPF - Bobot 5%",
+      "referensi_1": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 12-13",
+      "referensi_2": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 4"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: konfigurasi firewall sederhana",
+      "detail_cpmk": "Mampu menjelaskan keamanan jaringan dasar dan mengkonfigurasi firewall sederhana (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Keamanan jaringan dasar",
+      "indikator_1": "Ketepatan menjelaskan ancaman (sniffing, spoofing, DoS) dan solusi (firewall, VPN)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan ancaman keamanan jaringan (sniffing, spoofing, DoS) serta solusi seperti firewall, VPN, IDS/IPS",
+      "pokok_bahasan": "Keamanan Jaringan Dasar",
+      "sub_pokok_bahasan_1": "Ancaman: sniffing, spoofing, DoS, DDoS",
+      "sub_pokok_bahasan_2": "Solusi: firewall (ACL, stateful), VPN (IPsec, SSL), IDS/IPS",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah mendengar serangan DDoS?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ancaman: sniffing (penyadapan), spoofing (pemalsuan identitas), DoS (layanan terganggu), DDoS. Solusi: firewall (packet filtering, stateful, application), VPN (tunnel, enkripsi), IDS (deteksi) vs IPS (pencegahan). Praktik: konfigurasi ACL sederhana di router Packet Tracer untuk memblokir akses",
+          "mahasiswa": "Mencatat, berdiskusi, praktik konfigurasi ACL di Packet Tracer",
+          "media": "Slide, Cisco Packet Tracer"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis kasus keamanan, menginformasikan materi troubleshooting",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "Tugas analisis kasus keamanan - Bobot 5%",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 8",
+      "referensi_2": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 17"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Praktikum troubleshooting TM: 3x50; Praktik: 1x170",
+      "detail_cpmk": "Mampu melakukan troubleshooting jaringan dan menganalisis lalu lintas jaringan menggunakan simulator (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Troubleshooting jaringan",
+      "indikator_1": "Kemampuan menggunakan perintah ping, traceroute, netstat, dan menganalisis hasil",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan perintah ping, traceroute, netstat, ipconfig/ifconfig, nslookup untuk melakukan troubleshooting dan menganalisis hasilnya",
+      "pokok_bahasan": "Troubleshooting Jaringan",
+      "sub_pokok_bahasan_1": "Perintah: ping, traceroute, ipconfig/ifconfig",
+      "sub_pokok_bahasan_2": "Perintah: netstat, nslookup; analisis log",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang Anda lakukan jika internet lemot?'), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Packet Tracer, command line"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan alat troubleshooting: ping (uji konektivitas, RTT), traceroute (jalur paket), ipconfig/ifconfig (informasi IP), netstat (koneksi aktif), nslookup (query DNS). Demonstrasi di command prompt/terminal. Praktik: membuat skenario jaringan bermasalah di Packet Tracer (misal: IP salah, routing rusak), mahasiswa mendiagnosis dan memperbaiki",
+          "mahasiswa": "Praktik menggunakan perintah di command line, menyelesaikan skenario troubleshooting di Packet Tracer",
+          "media": "Packet Tracer, command prompt, terminal Linux"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan teknik troubleshooting, memberikan tugas praktik troubleshooting (laporan), menginformasikan materi analisis Wireshark",
+          "mahasiswa": "Mencatat tugas, menyelesaikan praktikum",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik troubleshooting - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 1-5",
+      "referensi_2": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 15"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Praktikum Wireshark TM: 3x50; Praktik: 1x170",
+      "detail_cpmk": "Mampu melakukan troubleshooting jaringan dan menganalisis lalu lintas jaringan menggunakan simulator (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Analisis lalu lintas dengan Wireshark",
+      "indikator_1": "Kemampuan menangkap dan menganalisis paket (filter, follow stream, statistik)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menangkap lalu lintas jaringan menggunakan Wireshark, menerapkan filter, mengikuti stream, dan melihat statistik protokol",
+      "pokok_bahasan": "Analisis Lalu Lintas dengan Wireshark",
+      "sub_pokok_bahasan_1": "Capture filter dan display filter",
+      "sub_pokok_bahasan_2": "Follow TCP stream, IO graph, protocol hierarchy",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana cara melihat paket yang lewat di jaringan?'), menyampaikan tujuan praktikum",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Wireshark"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Wireshark: capture live traffic, capture filter (host, port), display filter (ip.src, tcp.port), follow TCP stream (rekonstruksi percakapan), statistik (protocol hierarchy, endpoint). Demonstrasi: menangkap paket HTTP, menerapkan filter, mengikuti stream. Mahasiswa praktik: menangkap lalu lintas dari browser, menganalisis protokol yang muncul",
+          "mahasiswa": "Praktik capture paket (HTTP, DNS, TCP), membuat filter, menampilkan statistik",
+          "media": "Wireshark, browser, command prompt"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan fitur Wireshark, memberikan tugas praktik laporan analisis Wireshark, menginformasikan persiapan proyek akhir dan UAS",
+          "mahasiswa": "Mencatat tugas, menyelesaikan analisis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik: laporan analisis Wireshark - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Kurose, J. F., & Ross, K. W. (2017). Computer networking: A top-down approach. Bab 2-4 (Wireshark labs)",
+      "referensi_2": "Odom, W. (2016). CCNA Routing and Switching ICND1 100-105 Official Cert Guide. Bab 15"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Presentasi proyek + UAS TM: 3x50",
+      "detail_cpmk": "Mampu melakukan troubleshooting jaringan dan menganalisis lalu lintas jaringan menggunakan simulator (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Proyek desain jaringan skala kecil",
+      "indikator_1": "Kemampuan merancang topologi, subnetting, routing, dan keamanan; presentasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang topologi jaringan skala kecil (20 komputer, server, akses internet), melakukan subnetting, konfigurasi routing, dan menerapkan keamanan dasar, serta mempresentasikan hasilnya",
+      "pokok_bahasan": "Proyek Desain Jaringan + UAS",
+      "sub_pokok_bahasan_1": "Desain topologi, subnetting, routing, firewall",
+      "sub_pokok_bahasan_2": "Presentasi dan ujian akhir mencakup seluruh materi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (10-12 menit per kelompok) dan teknis UAS (soal integratif, durasi 60 menit setelah presentasi)",
+          "mahasiswa": "Mempersiapkan slide presentasi, membuka laporan proyek",
+          "media": "Slide, Zoom, LMS, Cisco Packet Tracer"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi proyek kelompok satu per satu, memberikan pertanyaan dan umpan balik. Setelah semua presentasi, membuka akses UAS di LMS",
+          "mahasiswa": "Mempresentasikan proyek (topologi, subnetting, konfigurasi routing, firewall, hasil pengujian), menjawab pertanyaan. Kemudian mengerjakan soal UAS (esai integratif, studi kasus desain dan troubleshooting)",
+          "media": "LMS (Google Form/Moodle), Zoom"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan keseluruhan mata kuliah, memberikan apresiasi, mengumumkan nilai akhir akan diumumkan di LMS, menutup perkuliahan",
+          "mahasiswa": "Mencatat, memberikan feedback, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan proyek + presentasi - Bobot 14%",
+      "evaluasi_2": "UAS (ujian tertulis online) - Bobot 14%",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "Cisco Networking Academy. (2020). Introduction to Networks v7.0 (ITN). Bab 1-17"
+    }
+  ]
+}

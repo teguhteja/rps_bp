@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3108",
+    "nama_mk": "Konsep Basis Data",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu menjelaskan konsep dasar sistem basis data dan model data (C2, A3)",
+      "indikator_1": "Ketepatan menjelaskan konsep dasar sistem basis data",
+      "indikator_2": "Ketepatan mengidentifikasi jenis-jenis DBMS",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep dasar sistem basis data, komponen, arsitektur, serta jenis-jenis DBMS",
+      "pokok_bahasan": "Konsep Dasar Sistem Basis Data",
+      "sub_pokok_bahasan_1": "Definisi basis data dan sistem basis data; komponen basis data",
+      "sub_pokok_bahasan_2": "Arsitektur basis data (eksternal, konseptual, internal); keuntungan dan kerugian basis data",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan contoh penggunaan basis data dalam kehidupan sehari-hari), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi basis data dan sistem basis data, perbedaan dengan sistem berbasis file. Menjelaskan komponen basis data (hardware, software, data, user, prosedur). Menjelaskan arsitektur tiga level. Diskusi dan tanya jawab",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas 1 (meringkas konsep dasar basis data dan membuat peta konsep model data), menginformasikan materi pertemuan berikutnya (model data dan DBMS)",
+          "mahasiswa": "Mencatat kesimpulan, mencatat tugas",
+          "media": "LMS, Google Classroom"
+        }
+      },
+      "evaluasi_1": "Tugas 1 (meringkas + peta konsep) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts (8th ed.). McGraw-Hill. Bab 1",
+      "referensi_2": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems (8th ed.). Pearson. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu menjelaskan konsep dasar sistem basis data dan model data (C2, A3)",
+      "indikator_1": "Kesesuaian dalam menjelaskan arsitektur basis data",
+      "indikator_2": "Ketepatan menjelaskan berbagai model data",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan arsitektur basis data dan berbagai model data (hirarkis, jaringan, relasional, object-oriented)",
+      "pokok_bahasan": "Model Data dan Arsitektur Basis Data",
+      "sub_pokok_bahasan_1": "Model data: hirarkis, jaringan, relasional, object-oriented, NoSQL",
+      "sub_pokok_bahasan_2": "Sistem Manajemen Basis Data (DBMS): fungsi, komponen, contoh DBMS",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan antara basis data dan DBMS?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan berbagai model data (hirarkis, jaringan, relasional, object-oriented, NoSQL). Menjelaskan fungsi DBMS: data definition, data manipulation, data security, backup & recovery. Memperkenalkan contoh DBMS (MySQL, PostgreSQL, Oracle, MongoDB). Diskusi perbandingan model data",
+          "mahasiswa": "Mencatat, diskusi, membuat tabel perbandingan model data",
+          "media": "Slide, video singkat"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, menginformasikan materi ERD",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 1-2",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems (6th ed.). Bab 1-2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu merancang basis data menggunakan model Entity-Relationship Diagram (ERD) dan normalisasi (C6, A3)",
+      "indikator_1": "Ketepatan mengidentifikasi kebutuhan data untuk pembuatan ERD",
+      "indikator_2": "Ketepatan menggambar ERD sesuai notasi yang standar",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi kebutuhan data dan menggambar Entity-Relationship Diagram (ERD) dengan notasi standar",
+      "pokok_bahasan": "Pemodelan Data Konseptual dan ERD",
+      "sub_pokok_bahasan_1": "Komponen ERD: entitas, atribut, relasi, identifier",
+      "sub_pokok_bahasan_2": "Kardinalitas dan partisipasi (one-to-one, one-to-many, many-to-many, partial/total)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana memodelkan data sebelum membuat basis data?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan pemodelan data konseptual, komponen ERD (entitas kuat/lemah, atribut sederhana/komposit, identifier). Menjelaskan kardinalitas dan partisipasi dengan contoh. Memberikan contoh ERD untuk sistem sederhana (misal: sistem dosen-mahasiswa). Latihan: identifikasi entitas dan relasi dari deskripsi kasus",
+          "mahasiswa": "Mencatat, latihan mengidentifikasi komponen ERD, bertanya",
+          "media": "Slide, draw.io, contoh ERD"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas 2 (membuat ERD untuk sistem informasi perpustakaan), menginformasikan materi lanjutan ERD",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 2 (ERD perpustakaan) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 3-4",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 4"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu merancang basis data menggunakan model Entity-Relationship Diagram (ERD) dan normalisasi (C6, A3)",
+      "indikator_1": "Kesesuaian dalam menentukan kardinalitas dan partisipasi relasi",
+      "indikator_2": "Ketepatan dalam melakukan validasi ERD",
+      "tujuan_pembelajaran": "Mahasiswa mampu menentukan kardinalitas, partisipasi, dan melakukan validasi ERD terhadap kebutuhan sistem",
+      "pokok_bahasan": "Validasi dan Optimasi ERD",
+      "sub_pokok_bahasan_1": "Teknik validasi ERD (studi kasus, walkthrough, mapping ke skema relasional)",
+      "sub_pokok_bahasan_2": "Optimasi ERD (menghilangkan redundancy, menangani generalization/specialization)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review tugas ERD), menyampaikan tujuan validasi",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Membahas tugas ERD, memberikan umpan balik. Menjelaskan teknik validasi ERD: apakah sudah mencakup semua kebutuhan? Menjelaskan mapping ERD ke skema relasional. Menjelaskan konsep generalisasi/spesialisasi. Studi kasus perancangan ERD untuk sistem yang lebih kompleks (misal: sistem pemesanan)",
+          "mahasiswa": "Mencatat, diskusi kelompok, melakukan validasi ERD tugas",
+          "media": "Slide, studi kasus"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas (revisi ERD berdasarkan umpan balik), menginformasikan materi SQL",
+          "mahasiswa": "Mencatat, merevisi ERD",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas revisi ERD - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 4",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu mengimplementasikan basis data menggunakan Structured Query Language (SQL) (C3, A3)",
+      "indikator_1": "Ketepatan dalam membuat struktur basis data menggunakan DDL",
+      "indikator_2": "Ketepatan dalam memanipulasi data menggunakan DML",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat struktur basis data (CREATE, ALTER, DROP) dan memanipulasi data (INSERT, UPDATE, DELETE) menggunakan SQL",
+      "pokok_bahasan": "Pengenalan SQL: DDL dan DML Dasar",
+      "sub_pokok_bahasan_1": "Data Definition Language (DDL): CREATE TABLE, ALTER TABLE, DROP TABLE, CONSTRAINT (PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE)",
+      "sub_pokok_bahasan_2": "Data Manipulation Language (DML): INSERT, UPDATE, DELETE, SELECT sederhana",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu SQL?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah SQL, peran SQL dalam basis data relasional. Demonstrasi DDL: membuat database, membuat tabel dengan tipe data (INT, VARCHAR, DATE, DECIMAL), menambahkan constraint. Demonstrasi DML: INSERT data, UPDATE, DELETE. Praktikum: mahasiswa membuat database dan tabel sederhana serta melakukan manipulasi data di DBMS",
+          "mahasiswa": "Mencatat, praktik DDL dan DML di MySQL Workbench, bertanya",
+          "media": "Slide, MySQL Workbench/XAMPP, contoh script SQL"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis online, memberikan tugas 3 (implementasi basis data dari ERD dengan DDL dan DML minimal 10 query), menginformasikan materi query kompleks",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 3-5",
+      "referensi_2": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 6"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu mengimplementasikan basis data menggunakan Structured Query Language (SQL) (C3, A3)",
+      "indikator_1": "Ketepatan dalam membuat query untuk pengambilan data",
+      "indikator_2": "Kesesuaian dalam menerapkan constraint dan foreign key",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat query SELECT dengan klausa WHERE, ORDER BY, GROUP BY, HAVING, serta menerapkan JOIN dan Subquery",
+      "pokok_bahasan": "Query Lanjutan dalam SQL",
+      "sub_pokok_bahasan_1": "SELECT lanjutan: WHERE (AND/OR, LIKE, BETWEEN, IN), ORDER BY, GROUP BY, HAVING, fungsi agregat (COUNT, SUM, AVG, MIN, MAX)",
+      "sub_pokok_bahasan_2": "JOIN (INNER, LEFT, RIGHT, FULL), UNION, Subquery (scalar, row, table)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana mengambil data dari dua tabel?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan fungsi agregat dan GROUP BY. Menjelaskan berbagai jenis JOIN dengan contoh visual. Menjelaskan subquery (scalar, row, table) dan kapan menggunakannya. Praktikum: mahasiswa membuat query kompleks dengan JOIN dan subquery pada database yang sudah dibuat",
+          "mahasiswa": "Mencatat, praktik query JOIN dan subquery, bertanya",
+          "media": "Slide, MySQL Workbench, contoh database"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis, memberikan tugas 3 lanjutan (query kompleks), menginformasikan materi DCL dan TCL",
+          "mahasiswa": "Mengerjakan kuis, melanjutkan tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 3-4",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 5-6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Lanjutan - Data Control Language (DCL) dan Transaction Control Language (TCL)",
+      "indikator_1": "Ketepatan dalam menerapkan hak akses menggunakan DCL",
+      "indikator_2": "Ketepatan dalam membuat query menggunakan TCL",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan Data Control Language (GRANT, REVOKE) dan Transaction Control Language (COMMIT, ROLLBACK, SAVEPOINT)",
+      "pokok_bahasan": "DCL dan TCL",
+      "sub_pokok_bahasan_1": "Data Control Language: GRANT dan REVOKE untuk manajemen hak akses user",
+      "sub_pokok_bahasan_2": "Transaction Control Language: COMMIT, ROLLBACK, SAVEPOINT; konsep ACID",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana mengatur siapa yang bisa mengakses data?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan DCL: membuat user, GRANT (SELECT, INSERT, UPDATE, DELETE, ALL PRIVILEGES), REVOKE. Menjelaskan TCL: transaksi, COMMIT (menyimpan permanen), ROLLBACK (membatalkan), SAVEPOINT (checkpoint). Menjelaskan sifat ACID (Atomicity, Consistency, Isolation, Durability). Praktikum: mahasiswa mempraktikkan GRANT/REVOKE dan transaksi",
+          "mahasiswa": "Mencatat, praktik DCL dan TCL, bertanya",
+          "media": "Slide, MySQL Workbench"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas (mengimplementasikan DCL pada database), menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 3 final (SQL lengkap) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 5, 15",
+      "referensi_2": "Ramakrishnan, R., & Gehrke, J. (2003). Database Management Systems. Bab 17"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UTS / Evaluasi Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep basis data, ERD, SQL DDL/DML, JOIN, subquery",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep basis data, ERD, SQL DDL/DML, query JOIN/subquery, DCL, TCL)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: konsep basis data, ERD, SQL (DDL, DML, JOIN, subquery, DCL, TCL)",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal teori dan praktik SQL)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 20 soal, essay 2 soal: menggambar ERD dari kasus dan menulis query SQL dari skenario)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu merancang basis data menggunakan normalisasi (C6, A3)",
+      "indikator_1": "Ketepatan dalam mengidentifikasi anomali pada struktur data",
+      "indikator_2": "Ketepatan dalam menentukan ketergantungan fungsional",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi anomali data dan menentukan ketergantungan fungsional dalam suatu struktur tabel",
+      "pokok_bahasan": "Konsep Dasar Normalisasi dan Ketergantungan Fungsional",
+      "sub_pokok_bahasan_1": "Anomali data (insert, update, delete); ketergantungan fungsional (FD - Functional Dependency)",
+      "sub_pokok_bahasan_2": "Aturan inferensi Armstrong (refleksif, augmentasi, transitif); closure",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa masalah jika tabel memiliki data berulang?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan anomali data (insertion, deletion, update anomaly) dengan contoh tabel yang tidak dinormalisasi. Menjelaskan definisi ketergantungan fungsional (X -> Y). Menjelaskan aturan inferensi Armstrong. Latihan: menentukan ketergantungan fungsional dari suatu tabel",
+          "mahasiswa": "Mencatat, latihan menentukan FD, bertanya",
+          "media": "Slide, contoh tabel"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis, memberikan tugas 4 (normalisasi dataset hingga 3NF), menginformasikan materi 1NF dan 2NF",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 14-15",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 14"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Normalisasi - 1NF dan 2NF",
+      "indikator_1": "Kesesuaian dalam menerapkan aturan bentuk normal pertama (1NF)",
+      "indikator_2": "Kesesuaian dalam menerapkan aturan bentuk normal kedua (2NF)",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan normalisasi hingga bentuk normal kedua (2NF) dengan benar",
+      "pokok_bahasan": "First Normal Form (1NF) dan Second Normal Form (2NF)",
+      "sub_pokok_bahasan_1": "1NF: menghilangkan repeating group, atomic value",
+      "sub_pokok_bahasan_2": "2NF: menghilangkan ketergantungan parsial (partial dependency)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review FD), menyampaikan tujuan normalisasi",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 1NF: setiap atribut harus atomic (tidak boleh ada nilai berulang atau array). Memberikan contoh tabel yang melanggar 1NF dan perbaikannya. Menjelaskan 2NF: harus sudah 1NF dan tidak boleh ada partial dependency (atribut non-key bergantung pada sebagian primary key). Contoh tabel dengan composite key dan partial dependency. Latihan: mengubah tabel ke 1NF dan 2NF",
+          "mahasiswa": "Mencatat, latihan normalisasi 1NF dan 2NF, bertanya",
+          "media": "Slide, contoh tabel"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan latihan soal, menginformasikan materi 3NF",
+          "mahasiswa": "Mencatat latihan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Latihan soal normalisasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 14",
+      "referensi_2": "Fathansyah. (2018). Basis Data. Informatika. Bab 5"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Menguasai konsep dan prinsip perancangan basis data relasional serta sistem manajemen basis data (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Normalisasi - 3NF dan Bentuk Normal Lanjutan",
+      "indikator_1": "Kesesuaian dalam menerapkan aturan bentuk normal ketiga (3NF)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan normalisasi hingga bentuk normal ketiga (3NF) dan memahami bentuk normal lanjutan (BCNF, 4NF)",
+      "pokok_bahasan": "Third Normal Form (3NF) dan BCNF",
+      "sub_pokok_bahasan_1": "3NF: menghilangkan transitive dependency (atribut non-key bergantung pada atribut non-key lainnya)",
+      "sub_pokok_bahasan_2": "BCNF (Boyce-Codd Normal Form), 4NF (multivalued dependency), studi kasus normalisasi lengkap",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review 2NF), menyampaikan tujuan 3NF",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 3NF: harus sudah 2NF dan tidak boleh ada transitive dependency (A -> B, B -> C, maka A -> C adalah transitif). Contoh tabel yang melanggar 3NF. Menjelaskan BCNF (kasus ketika ada lebih dari satu candidate key). Studi kasus normalisasi dari tabel tidak normal hingga 3NF (misal: tabel penjualan, tabel nilai mahasiswa). Praktik normalisasi kelompok",
+          "mahasiswa": "Mencatat, latihan normalisasi hingga 3NF, diskusi kelompok",
+          "media": "Slide, dataset studi kasus"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas 4 final (normalisasi dataset hingga 3NF dan implementasi tabel), menginformasikan materi keamanan basis data",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 4 (normalisasi) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 14-15",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 14"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu mengelola keamanan basis data (C4, A3)",
+      "indikator_1": "Ketepatan dalam menerapkan manajemen user dan role",
+      "indikator_2": "Ketepatan dalam mengatur hak akses menggunakan DCL",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan manajemen user, role, dan hak akses (DCL) pada DBMS",
+      "pokok_bahasan": "Keamanan Basis Data: Manajemen Pengguna dan Hak Akses",
+      "sub_pokok_bahasan_1": "Manajemen user dan role (CREATE USER, CREATE ROLE, ALTER USER)",
+      "sub_pokok_bahasan_2": "Pengaturan hak akses dengan GRANT dan REVOKE; best practice keamanan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa keamanan basis data penting?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep keamanan basis data: otentikasi, otorisasi, enkripsi. Demonstrasi membuat user, role, memberikan hak akses (GRANT SELECT, INSERT, UPDATE), mencabut hak (REVOKE). Menjelaskan privilege levels (global, database, table, column). Praktikum: mahasiswa mempraktikkan manajemen user dan hak akses di MySQL",
+          "mahasiswa": "Mencatat, praktik GRANT/REVOKE, bertanya",
+          "media": "Slide, MySQL Workbench"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis, menginformasikan materi backup recovery dan enkripsi",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 15",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 20"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Lanjutan - Backup, Recovery, dan Enkripsi",
+      "indikator_1": "Kesesuaian dalam menerapkan mekanisme backup dan recovery",
+      "indikator_2": "Ketepatan dalam mengimplementasikan enkripsi data",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan strategi backup dan recovery serta memahami enkripsi data pada basis data",
+      "pokok_bahasan": "Backup, Recovery, dan Enkripsi Data",
+      "sub_pokok_bahasan_1": "Backup (full, incremental, differential), recovery (point-in-time recovery), tools backup (mysqldump, pg_dump)",
+      "sub_pokok_bahasan_2": "Enkripsi data (transparent data encryption, column-level encryption), audit trail dan logging",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana memulihkan data jika server rusak?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, command line"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan strategi backup: full backup, incremental, differential. Demonstrasi backup dengan mysqldump dan restore. Menjelaskan point-in-time recovery menggunakan binary log. Menjelaskan enkripsi data (TDE, enkripsi kolom). Menjelaskan audit trail untuk logging aktivitas. Studi kasus: merancang strategi backup untuk perusahaan",
+          "mahasiswa": "Mencatat, diskusi, praktik backup restore sederhana",
+          "media": "Slide, command line, MySQL"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas 5 (dokumentasi rencana keamanan basis data), menginformasikan materi optimasi query",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 5 (rencana keamanan) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 16",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 21"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu mengoptimasi basis data untuk kebutuhan sistem informasi (C4, A3)",
+      "indikator_1": "Ketepatan dalam mengidentifikasi masalah performa basis data",
+      "indikator_2": "Ketepatan dalam menerapkan indexing untuk optimasi query",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi masalah performa basis data dan menerapkan indexing untuk optimasi query",
+      "pokok_bahasan": "Optimasi Query: Index",
+      "sub_pokok_bahasan_1": "Identifikasi masalah performa (query lambat, full table scan); penggunaan EXPLAIN",
+      "sub_pokok_bahasan_2": "Index: tipe (B-tree, hash, full-text), membuat index (CREATE INDEX), kapan menggunakan index, trade-off",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang dilakukan jika query lambat?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara mengidentifikasi query lambat menggunakan slow query log dan EXPLAIN. Menjelaskan index: struktur B-tree, cara kerja, jenis index (PRIMARY, UNIQUE, composite). Demonstrasi membuat index dan melihat perbedaan waktu eksekusi query dengan dan tanpa index. Praktikum: mahasiswa menganalisis query lambat dan menambahkan index",
+          "mahasiswa": "Mencatat, praktik EXPLAIN dan membuat index, bertanya",
+          "media": "Slide, MySQL Workbench"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis, menginformasikan materi query tuning dan caching",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2024). Database System Concepts. Bab 12",
+      "referensi_2": "Ramakrishnan, R., & Gehrke, J. (2003). Database Management Systems. Bab 14"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan dan mengelola basis data untuk menyelesaikan permasalahan dalam lingkup sistem informasi (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Lanjutan - Query Tuning, Caching, dan Partisi Data",
+      "indikator_1": "Kesesuaian dalam melakukan query tuning dan rewriting",
+      "indikator_2": "Ketepatan dalam menganalisis execution plan",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan query tuning, menganalisis execution plan, serta menerapkan caching dan partisi data",
+      "pokok_bahasan": "Query Tuning, Execution Plan, Caching, Partisi",
+      "sub_pokok_bahasan_1": "Execution plan analysis (EXPLAIN ANALYZE), query rewriting (subquery vs JOIN, indexing strategy)",
+      "sub_pokok_bahasan_2": "Caching (query cache, application-level caching), partisi data (horizontal/vertical partitioning)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review index), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, MySQL Workbench"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara membaca execution plan (type, possible_keys, key, rows, Extra). Memberikan contoh query yang tidak efisien dan perbaikannya (misal: menggunakan JOIN daripada subquery, memanfaatkan index). Menjelaskan caching di database (query cache di MySQL, Redis untuk application cache). Menjelaskan partisi data (range, list, hash). Studi kasus optimasi database untuk e-commerce. Review seluruh materi",
+          "mahasiswa": "Mencatat, latihan menganalisis execution plan, diskusi",
+          "media": "Slide, MySQL Workbench, studi kasus"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan soal review UAS, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, mengerjakan soal review",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Partisipasi dan latihan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 18",
+      "referensi_2": "Connolly, T., & Begg, C. (2015). Database Systems. Bab 18"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UAS / Evaluasi Akhir Semester",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang normalisasi, keamanan, optimasi, dan studi kasus basis data",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap seluruh materi (normalisasi, keamanan, backup recovery, optimasi query, index) serta kemampuan analisis studi kasus basis data",
+      "pokok_bahasan": "Ujian Akhir Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 9-15: normalisasi (1NF-3NF), keamanan basis data, backup recovery, enkripsi, optimasi query (index, execution plan, query tuning)",
+      "sub_pokok_bahasan_2": "Studi kasus terintegrasi perancangan basis data",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal teori dan studi kasus normalisasi+SQL),",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal UAS (pilihan ganda 15 soal, essay 2-3 soal: normalisasi tabel hingga 3NF, menulis query SQL untuk kasus, menjelaskan strategi keamanan/optimasi)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (UAS) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 9-15",
+      "referensi_2": "Elmasri, R., & Navathe, S. B. (2023). Fundamentals of Database Systems. Bab 14-18"
+    }
+  ]
+}

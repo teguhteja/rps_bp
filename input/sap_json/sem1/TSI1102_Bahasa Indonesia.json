@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1108",
+    "nama_mk": "Bahasa Indonesia",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI1108.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menunjukkan rasa bangga dan cinta tanah air, nasionalisme, serta tanggung jawab kebangsaan melalui penggunaan Bahasa Indonesia yang santun, tepat, dan beretika dalam konteks akademik maupun profesional (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mahasiswa mampu menjelaskan kedudukan, fungsi, dan peran bahasa Indonesia dalam konteks akademik serta kaitannya dengan jati diri bangsa.",
+      "indikator_1": "Mengingat hakikat Bahasa Indonesia (C1)",
+      "indikator_2": "Menjelaskan hakikat dan fungsi bahasa Indonesia (C2)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan kedudukan, fungsi, dan peran bahasa Indonesia dalam konteks akademik serta kaitannya dengan jati diri bangsa",
+      "pokok_bahasan": "Kedudukan dan fungsi bahasa Indonesia",
+      "sub_pokok_bahasan_1": "Kedudukan bahasa Indonesia sebagai bahasa nasional dan bahasa negara",
+      "sub_pokok_bahasan_2": "Fungsi bahasa Indonesia dalam konteks akademik dan hubungannya dengan bidang teknologi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pemahaman awal tentang pentingnya bahasa Indonesia), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kedudukan bahasa Indonesia sebagai bahasa nasional dan bahasa negara. Menjelaskan fungsi bahasa Indonesia (lambang kebanggaan, identitas, pemersatu, komunikasi). Diskusi tentang peran bahasa Indonesia dalam dunia teknologi informasi. Memberikan contoh penggunaan bahasa Indonesia di media sosial dan lingkungan kampus",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, berdiskusi",
+          "media": "Slide, papan tulis virtual, video pendek"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, memberikan tugas mandiri baca referensi, menginformasikan materi pertemuan berikutnya (ragam bahasa dan EYD)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia di Politeknik Kesehatan Kementrian Kesehatan RI. Bab 1",
+      "referensi_2": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia Berbasis Karya Tulis Ilmiah. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menunjukkan rasa bangga dan cinta tanah air, nasionalisme, serta tanggung jawab kebangsaan melalui penggunaan Bahasa Indonesia yang santun, tepat, dan beretika dalam konteks akademik maupun profesional (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mahasiswa mampu menjelaskan kedudukan, fungsi, dan peran bahasa Indonesia dalam konteks akademik serta kaitannya dengan jati diri bangsa.",
+      "indikator_1": "Mengingat hakikat Bahasa Indonesia (C1)",
+      "indikator_2": "Menjelaskan hakikat dan fungsi bahasa Indonesia (C2)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan kedudukan, fungsi, dan peran bahasa Indonesia serta mengaplikasikannya dalam pembelajaran mandiri",
+      "pokok_bahasan": "Peran bahasa Indonesia dalam dunia akademik dan teknologi",
+      "sub_pokok_bahasan_1": "Peran bahasa Indonesia dalam komunikasi akademik",
+      "sub_pokok_bahasan_2": "Hubungan bahasa Indonesia dengan bidang teknologi informasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pentingnya bahasa Indonesia di dunia kerja IT), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, menjawab apersepsi",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memperdalam materi peran bahasa Indonesia dalam komunikasi akademik dan profesional. Membahas studi kasus penggunaan bahasa Indonesia yang tidak baku di lingkungan mahasiswa. Memberikan tugas mandiri melalui Google Classroom (analisis artikel tentang bahasa Indonesia dan teknologi). Diskusi online",
+          "mahasiswa": "Mendengarkan, mencatat, mengerjakan tugas mandiri, mengunggah hasil analisis ke LMS",
+          "media": "Slide, Google Classroom, artikel online"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan umpan balik tugas mandiri, menginformasikan materi pertemuan berikutnya (ragam bahasa dan EYD)",
+          "mahasiswa": "Mencatat, mengumpulkan tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas mandiri (Google Classroom) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia. Bab 1-2",
+      "referensi_2": "https://ejaan.kemdikbud.go.id/"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menguasai konsep teoretis tentang kedudukan dan fungsi bahasa Indonesia, ragam bahasa, ejaan, serta aturan penulisan ilmiah sebagai dasar komunikasi akademik (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mahasiswa mampu menggunakan ragam bahasa Indonesia yang sesuai dan menerapkan kaidah Ejaan yang Disempurnakan (EYD) secara benar dalam penulisan akademik.",
+      "indikator_1": "Memahami kaidah EYD (C2)",
+      "indikator_2": "Menulis kalimat efektif dan paragraf akademik (C3)",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami kaidah EYD dan menulis kalimat efektif serta paragraf akademik yang baik dan benar",
+      "pokok_bahasan": "Ragam bahasa dan Ejaan Bahasa Indonesia",
+      "sub_pokok_bahasan_1": "Ragam bahasa Indonesia (ragam lisan dan ragam tulis, ragam baku dan tidak baku)",
+      "sub_pokok_bahasan_2": "Ejaan yang Disempurnakan (EYD): penggunaan huruf kapital, huruf miring, tanda baca (titik, koma, titik dua, titik koma)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan ragam bahasa lisan dan tulis?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ragam bahasa Indonesia (ragam lisan/tulis, baku/tidak baku). Menjelaskan kaidah EYD (EYD edisi V): penggunaan huruf kapital, huruf miring, tanda baca. Memberikan contoh kesalahan umum dalam penulisan akademik. Latihan: mengoreksi kalimat yang salah sesuai EYD",
+          "mahasiswa": "Mencatat, latihan mengoreksi kalimat, bertanya",
+          "media": "Slide, papan tulis virtual, lembar latihan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, menginformasikan materi pertemuan berikutnya (penulisan kata, singkatan, akronim)",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia. Bab 2",
+      "referensi_2": "https://ejaan.kemdikbud.go.id/"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menguasai konsep teoretis tentang kedudukan dan fungsi bahasa Indonesia, ragam bahasa, ejaan, serta aturan penulisan ilmiah sebagai dasar komunikasi akademik (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mahasiswa mampu menggunakan ragam bahasa Indonesia yang sesuai dan menerapkan kaidah Ejaan yang Disempurnakan (EYD) secara benar dalam penulisan akademik.",
+      "indikator_1": "Memahami kaidah EYD (C2)",
+      "indikator_2": "Menganalisis teks ilmiah untuk menemukan kesalahan bahasa (C4)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menulis kata, singkatan, akronim dengan benar sesuai EYD serta menganalisis kesalahan bahasa dalam teks ilmiah",
+      "pokok_bahasan": "Penulisan kata, singkatan, akronim, dan analisis kesalahan bahasa",
+      "sub_pokok_bahasan_1": "Penulisan kata, jenis-jenis kata; penulisan singkatan dan akronim",
+      "sub_pokok_bahasan_2": "Penggunaan kata sandang; analisis kesalahan bahasa dalam teks ilmiah",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh singkatan yang sering salah penulisannya?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan aturan penulisan kata (kata dasar, kata turunan, kata ulang). Menjelaskan penulisan singkatan dan akronim (perbedaan, cara membentuk). Menjelaskan penggunaan kata sandang (si, sang, para). Memberikan teks ilmiah pendek yang mengandung kesalahan, mahasiswa menganalisis dan memperbaiki. Tugas mandiri via Google Classroom",
+          "mahasiswa": "Mencatat, latihan menganalisis teks, mengerjakan tugas mandiri",
+          "media": "Slide, Google Classroom, contoh teks ilmiah"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan umpan balik, menginformasikan materi kutipan dan parafrase",
+          "mahasiswa": "Mencatat, mengumpulkan tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas mandiri (Google Classroom) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia. Bab 2",
+      "referensi_2": "https://ejaan.kemdikbud.go.id/"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam menyusun kutipan, parafrase, daftar pustaka, serta proposal ilmiah maupun non-ilmiah sesuai kaidah akademik (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mahasiswa mampu membuat kutipan langsung, kutipan tidak langsung, parafrase, dan daftar pustaka secara tepat sesuai standar penulisan ilmiah.",
+      "indikator_1": "Menjelaskan jenis-jenis daftar pustaka (C2)",
+      "indikator_2": "Membuat kutipan, parafrasa, dan daftar Pustaka (C3)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan jenis-jenis daftar pustaka, membuat kutipan langsung/tidak langsung, parafrase, dan daftar pustaka sesuai standar",
+      "pokok_bahasan": "Kutipan, parafrase, dan daftar pustaka",
+      "sub_pokok_bahasan_1": "Jenis-jenis kutipan (langsung dan tidak langsung); teknik parafrase",
+      "sub_pokok_bahasan_2": "Cara membuat daftar pustaka (buku, jurnal, website); pengenalan aplikasi manajemen referensi (Mendeley, Zotero)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa harus mencantumkan sumber kutipan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan etika penulisan dan pentingnya menghindari plagiarisme. Menjelaskan jenis kutipan (langsung, tidak langsung), cara menulis kutipan (body note). Teknik parafrase (mengubah kalimat tanpa mengubah makna). Menjelaskan format daftar pustaka (APA/Chicago) untuk berbagai sumber. Pengenalan Mendeley/Zotero. Latihan membuat kutipan dan parafrase",
+          "mahasiswa": "Mencatat, latihan membuat kutipan, latihan parafrase, mencoba Mendeley",
+          "media": "Slide, Mendeley/Zotero demo, contoh kutipan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, menginformasikan materi lanjutan (aplikasi daftar pustaka)",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia. Bab 3",
+      "referensi_2": "Kuntarto, E. 2018. Modul Bahasa Indonesia untuk Perguruan Tinggi. Bab 4"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam menyusun kutipan, parafrase, daftar pustaka, serta proposal ilmiah maupun non-ilmiah sesuai kaidah akademik (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mahasiswa mampu membuat kutipan langsung, kutipan tidak langsung, parafrase, dan daftar pustaka secara tepat sesuai standar penulisan ilmiah.",
+      "indikator_1": "Menjelaskan jenis-jenis daftar pustaka (C2)",
+      "indikator_2": "Mengenal aplikasi penulisan daftar pustaka",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan aplikasi manajemen referensi (Mendeley/Zotero) untuk menyusun daftar pustaka secara otomatis",
+      "pokok_bahasan": "Aplikasi penulisan daftar pustaka",
+      "sub_pokok_bahasan_1": "Pengenalan Mendeley: instalasi, import referensi, sitasi di Word",
+      "sub_pokok_bahasan_2": "Pengenalan Zotero; perbandingan Mendeley dan Zotero",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah menggunakan Mendeley?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Demonstrasi instalasi Mendeley Desktop dan Mendeley Web Importer. Cara menambah referensi dari Google Scholar, DOI, atau manual. Cara menyisipkan sitasi di Microsoft Word (Citation Plugin). Cara membuat daftar pustaka otomatis. Tugas mandiri: mahasiswa membuat 5 daftar pustaka dari jurnal dan buku menggunakan Mendeley, mengunggah file Word ke Google Classroom",
+          "mahasiswa": "Mencatat, praktik instalasi Mendeley, latihan membuat sitasi dan daftar pustaka",
+          "media": "Slide, Mendeley, Word, YouTube tutorial"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan umpan balik tugas, menginformasikan materi proposal karya tulis ilmiah",
+          "mahasiswa": "Mengumpulkan tugas, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas mandiri (daftar pustaka dengan Mendeley) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kuntarto, E. 2018. Modul Bahasa Indonesia untuk Perguruan Tinggi. Bab 4",
+      "referensi_2": "https://www.youtube.com/watch?v=dQgdiZDw-tU"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu mengidentifikasi dan merumuskan permasalahan di lingkungan sekitar, memformulasikan solusi, dan mengambil keputusan yang tepat melalui penyusunan proposal kegiatan berbasis kebutuhan nyata (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mahasiswa mampu menyusun proposal karya tulis ilmiah dan non-ilmiah yang sistematis berdasarkan analisis kebutuhan atau isu akademik.",
+      "indikator_1": "Menjelaskan substansi isi dari proposal ilmiah dan non-ilmiah (C2)",
+      "indikator_2": "Menyusun proposal ilmiah sesuai kaidah penulisan ilmiah (C3)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan perbedaan proposal ilmiah dan non-ilmiah serta menyusun proposal ilmiah sederhana",
+      "pokok_bahasan": "Proposal karya tulis ilmiah dan non-ilmiah",
+      "sub_pokok_bahasan_1": "Perbedaan proposal ilmiah (skripsi, penelitian) dan non-ilmiah (kegiatan, pengabdian)",
+      "sub_pokok_bahasan_2": "Struktur proposal ilmiah: pendahuluan (latar belakang, rumusan masalah, tujuan), tinjauan pustaka, metodologi, daftar pustaka",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu proposal?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi proposal, fungsi proposal, perbedaan proposal ilmiah dan non-ilmiah. Menjelaskan struktur proposal ilmiah secara detail (latar belakang, rumusan masalah, tujuan, tinjauan pustaka, metodologi, jadwal, daftar pustaka). Memberikan contoh proposal ilmiah sederhana. Diskusi tentang komponen-komponen proposal",
+          "mahasiswa": "Mencatat, diskusi, menganalisis contoh proposal",
+          "media": "Slide, contoh proposal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas (membuat outline proposal ilmiah), menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas: outline proposal ilmiah - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia. Bab 4",
+      "referensi_2": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia. Bab 3"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UTS / Evaluasi Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal kedudukan/fungsi bahasa Indonesia, EYD, kutipan/parafrase, daftar pustaka, proposal",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (kedudukan bahasa, ragam bahasa, EYD, kutipan/parafrase/daftar pustaka, proposal)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: kedudukan/fungsi bahasa, ragam bahasa dan EYD, kutipan/parafrase/daftar pustaka, proposal",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan esai)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 20 soal, esai 2 soal: mengoreksi kalimat sesuai EYD dan membuat kutipan/daftar pustaka)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu mengidentifikasi dan merumuskan permasalahan di lingkungan sekitar, memformulasikan solusi, dan mengambil keputusan yang tepat melalui penyusunan proposal kegiatan berbasis kebutuhan nyata (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mahasiswa mampu menemukan dan merumuskan ide/permasalahan aktual di lingkungan sekitar secara logis dan sistematis.",
+      "indikator_1": "Mengidentifikasi isu kesehatan/farmasi yang relevan (C4)",
+      "indikator_2": "Menilai kelayakan rancangan proyek",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi isu atau permasalahan aktual di lingkungan sekitar (kesehatan, teknologi, sosial) untuk dijadikan proyek edukatif",
+      "pokok_bahasan": "Menemukan ide/permasalahan di sekitar untuk proyek edukatif",
+      "sub_pokok_bahasan_1": "Teknik identifikasi masalah (observasi, wawancara, studi literatur)",
+      "sub_pokok_bahasan_2": "Kriteria kelayakan proyek (relevansi, urgensi, keterjangkauan)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa masalah kesehatan atau teknologi di sekitar Anda?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan teknik menemukan ide/proyek: observasi lingkungan, wawancara dengan masyarakat, studi literatur berita terkini. Memberikan contoh isu (misal: kurangnya literasi kesehatan, hoaks di media sosial, sampah elektronik). Diskusi kelompok: mahasiswa diminta mengidentifikasi masalah di lingkungan masing-masing dan menilai kelayakannya",
+          "mahasiswa": "Diskusi kelompok, mempresentasikan ide proyek, menerima umpan balik",
+          "media": "Slide, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas kelompok (menentukan topik proyek edukatif), menginformasikan materi penyusunan proposal kegiatan",
+          "mahasiswa": "Mencatat tugas, membentuk kelompok, mulai diskusi topik",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia. Bab 4",
+      "referensi_2": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia. Bab 5"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu mengidentifikasi dan merumuskan permasalahan di lingkungan sekitar, memformulasikan solusi, dan mengambil keputusan yang tepat melalui penyusunan proposal kegiatan berbasis kebutuhan nyata (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mahasiswa mampu merancang dan menyusun proposal kegiatan sebagai bentuk solusi terhadap permasalahan yang telah diidentifikasi.",
+      "indikator_1": "Menyusun proposal proyek kolaboratif (C6)",
+      "indikator_2": "Merancang video edukatif sebagai jawaban dari isu yang ada (C3)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun proposal proyek kolaboratif dan merancang video edukatif sebagai solusi dari permasalahan yang diidentifikasi",
+      "pokok_bahasan": "Penyusunan proposal proyek kolaboratif",
+      "sub_pokok_bahasan_1": "Struktur proposal kegiatan: latar belakang, tujuan, sasaran, metode pelaksanaan, jadwal, anggaran, luaran",
+      "sub_pokok_bahasan_2": "Perancangan video edukatif (konsep, naskah, storyboard, durasi, platform publikasi)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres topik proyek), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, melaporkan topik kelompok",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur proposal kegiatan (non-ilmiah) dengan format yang umum digunakan (latar belakang masalah, tujuan, sasaran, metode pelaksanaan, jadwal, anggaran, luaran). Menjelaskan konsep pembuatan video edukatif: menentukan audiens, pesan kunci, naskah, storyboard, durasi, alat rekam/edit, platform publikasi (YouTube, Instagram, TikTok). Workshop: mulai menulis proposal dan membuat storyboard sederhana",
+          "mahasiswa": "Mencatat, mulai menulis proposal kelompok, membuat storyboard, berkonsultasi dengan dosen",
+          "media": "Slide, template proposal, template storyboard"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan tugas kelompok (menyelesaikan draft proposal), menginformasikan materi produksi video",
+          "mahasiswa": "Mencatat target, melanjutkan pengerjaan proposal",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (draft proposal) - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Kuntarto, E. 2018. Modul Bahasa Indonesia untuk Perguruan Tinggi. Bab 5",
+      "referensi_2": "Panduan pembuatan video edukatif (daring)"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu mengidentifikasi dan merumuskan permasalahan di lingkungan sekitar, memformulasikan solusi, dan mengambil keputusan yang tepat melalui penyusunan proposal kegiatan berbasis kebutuhan nyata (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mahasiswa mampu merancang dan menyusun proposal kegiatan sebagai bentuk solusi terhadap permasalahan yang telah diidentifikasi.",
+      "indikator_1": "Menyusun proposal proyek kolaboratif (C6)",
+      "indikator_2": "Merancang video edukatif sebagai jawaban dari isu yang ada (C3)",
+      "tujuan_pembelajaran": "Mahasiswa melanjutkan penyusunan proposal proyek dan perancangan video edukatif dengan bimbingan dosen",
+      "pokok_bahasan": "Finalisasi proposal dan persiapan produksi video",
+      "sub_pokok_bahasan_1": "Revisi proposal berdasarkan umpan balik; finalisasi anggaran dan jadwal",
+      "sub_pokok_bahasan_2": "Persiapan produksi: pembagian tugas dalam kelompok, pengumpulan materi, alat yang diperlukan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres proposal dan storyboard), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, melaporkan progres",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan umpan balik terhadap draft proposal setiap kelompok. Membimbing revisi (latar belakang yang tajam, metode yang realistis, anggaran yang wajar). Membahas teknis produksi video: alat rekam (HP), aplikasi edit (CapCut, KineMaster), tips pengambilan gambar, audio yang jelas, penggunaan bahasa Indonesia yang baik. Konsultasi intensif per kelompok",
+          "mahasiswa": "Revisi proposal, konsultasi dengan dosen, membagi tugas produksi",
+          "media": "Slide, Zoom breakout room, template revisi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan tenggat final proposal dan mulai produksi video, menginformasikan materi produksi video lanjutan",
+          "mahasiswa": "Mencatat target, melanjutkan pengerjaan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal final kelompok - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Sukawati, Sary dan Sri Ramadaniati. 2020. Modul Bahasa Indonesia. Bab 5",
+      "referensi_2": "Laba, I Nengah dan Ni Made Rinayanthi. 2018. Buku Ajar Bahasa Indonesia. Bab 6"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu melakukan evaluasi diri dalam proses kerja kelompok, mengelola pembelajaran secara mandiri, serta menghasilkan produk komunikasi edukatif (misalnya video edukatif) yang relevan dengan konteks keilmuan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mahasiswa mampu memproduksi video edukatif sebagai media komunikasi ilmiah dengan melakukan evaluasi diri terhadap proses pembelajaran.",
+      "indikator_1": "Menghasilkan video edukatif dengan bahasa Indonesia yang komunikatif (C6)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mulai memproduksi video edukatif berdasarkan proposal dan storyboard yang telah disetujui",
+      "pokok_bahasan": "Produksi video edukatif",
+      "sub_pokok_bahasan_1": "Teknis pengambilan gambar (pencahayaan, sudut, audio)",
+      "sub_pokok_bahasan_2": "Penyusunan naskah final dan pengambilan footage",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya kesiapan produksi), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, grup WhatsApp"
+        },
+        "penyajian": {
+          "pengajar": "Mengingatkan teknis produksi: pastikan pencahayaan cukup, suara jelas, penggunaan bahasa Indonesia baku dan komunikatif. Hindari latar belakang berisik. Memberikan contoh video edukatif yang baik. Mahasiswa bekerja secara mandiri dalam kelompok masing-masing untuk produksi (syuting, pengambilan gambar). Dosen tersedia untuk konsultasi via online",
+          "mahasiswa": "Melakukan syuting video edukatif sesuai storyboard, mengumpulkan footage, berkonsultasi jika ada kendala",
+          "media": "HP/kamera, aplikasi editing, Zoom konsultasi"
+        },
+        "penutup": {
+          "pengajar": "Memonitor progres produksi, memberikan tips mengatasi kendala, menginformasikan deadline pengumpulan video mentah",
+          "mahasiswa": "Melanjutkan produksi, mengirim progres",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Monitoring progres produksi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "https://www.youtube.com/watch?v=dQgdiZDw-tU",
+      "referensi_2": "Panduan pembuatan video edukatif (daring)"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu melakukan evaluasi diri dalam proses kerja kelompok, mengelola pembelajaran secara mandiri, serta menghasilkan produk komunikasi edukatif (misalnya video edukatif) yang relevan dengan konteks keilmuan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mahasiswa mampu memproduksi video edukatif sebagai media komunikasi ilmiah dengan melakukan evaluasi diri terhadap proses pembelajaran.",
+      "indikator_1": "Menghasilkan video edukatif dengan bahasa Indonesia yang komunikatif (C6)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa melakukan editing video final dan menyelesaikan produk video edukatif",
+      "pokok_bahasan": "Editing video dan finalisasi produk",
+      "sub_pokok_bahasan_1": "Teknik editing video (cut, transisi, teks, musik latar)",
+      "sub_pokok_bahasan_2": "Penambahan subtitle, koreksi audio, ekspor video",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres editing), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan panduan editing video sederhana menggunakan aplikasi (CapCut, KineMaster, atau Adobe Premiere). Tips: gunakan transisi yang tidak berlebihan, tambahkan teks/ subtitle untuk memperjelas, pilih musik latar yang tidak mengganggu audio narasi, pastikan bahasa Indonesia yang digunakan sesuai EYD dan komunikatif. Mahasiswa melanjutkan editing dan finalisasi video",
+          "mahasiswa": "Melakukan editing video, menambahkan subtitle, memilih musik, mengekspor video final",
+          "media": "Aplikasi editing video, tutorial YouTube"
+        },
+        "penutup": {
+          "pengajar": "Memonitor progres, mengingatkan deadline pengumpulan video final, menginformasikan persiapan presentasi dan refleksi",
+          "mahasiswa": "Menyelesaikan video, mengunggah ke platform (YouTube, Google Drive), menyiapkan link presentasi",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Monitoring progres editing - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan editing video (daring)",
+      "referensi_2": "https://www.youtube.com/watch?v=dQgdiZDw-tU"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu melakukan evaluasi diri dalam proses kerja kelompok, mengelola pembelajaran secara mandiri, serta menghasilkan produk komunikasi edukatif (misalnya video edukatif) yang relevan dengan konteks keilmuan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mahasiswa mampu memproduksi video edukatif sebagai media komunikasi ilmiah dengan melakukan evaluasi diri terhadap proses pembelajaran.",
+      "indikator_1": "Menghasilkan video edukatif dengan bahasa Indonesia yang komunikatif (C6)",
+      "indikator_2": "Mahasiswa menyebarluaskan video edukatif yang telah dirancang",
+      "tujuan_pembelajaran": "Mahasiswa menyebarluaskan video edukatif yang telah dibuat dan melakukan evaluasi diri terhadap proses kerja kelompok",
+      "pokok_bahasan": "Publikasi video dan evaluasi diri",
+      "sub_pokok_bahasan_1": "Publikasi video di YouTube/Instagram/TikTok; strategi penyebarluasan",
+      "sub_pokok_bahasan_2": "Evaluasi diri: refleksi tantangan, pembelajaran, dan kontribusi anggota kelompok",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya kesiapan publikasi), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara mempublikasikan video edukatif di YouTube (judul menarik, deskripsi, tag, thumbnail). Alternatif platform: Instagram Reels, TikTok. Pentingnya menyertakan sumber rujukan dan etika publikasi. Mahasiswa diminta mengunggah video dan membagikan link. Setiap kelompok menulis refleksi singkat (tantangan, pembelajaran, kontribusi masing-masing anggota, perbaikan ke depan)",
+          "mahasiswa": "Mengunggah video, membagikan link ke LMS, menulis refleksi kelompok, melakukan evaluasi diri",
+          "media": "YouTube, LMS, Google Docs refleksi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan umpan balik awal, menginformasikan persiapan presentasi (minggu 15) dan UAS",
+          "mahasiswa": "Mencatat, menyiapkan slide presentasi",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Video edukatif final + publikasi - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan publikasi video di YouTube",
+      "referensi_2": "Contoh video edukatif (daring)"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu melakukan evaluasi diri dalam proses kerja kelompok, mengelola pembelajaran secara mandiri, serta menghasilkan produk komunikasi edukatif (misalnya video edukatif) yang relevan dengan konteks keilmuan (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mahasiswa mampu memproduksi video edukatif sebagai media komunikasi ilmiah dengan melakukan evaluasi diri terhadap proses pembelajaran.",
+      "indikator_1": "Menghasilkan video edukatif dengan bahasa Indonesia yang komunikatif (C6)",
+      "indikator_2": "Mahasiswa menyebarluaskan video edukatif yang telah dirancang",
+      "tujuan_pembelajaran": "Mahasiswa mempresentasikan proyek video edukatif dan memberikan refleksi proses pembelajaran",
+      "pokok_bahasan": "Presentasi proyek video edukatif",
+      "sub_pokok_bahasan_1": "Presentasi kelompok (5-7 menit): latar belakang, proses pembuatan, hasil video, evaluasi diri",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan umpan balik antar kelompok",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (5-7 menit per kelompok, 3 menit tanya jawab), urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide, link video",
+          "media": "Slide, Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok satu per satu, memberikan pertanyaan dan umpan balik, menilai kualitas video (kesesuaian isu, penggunaan bahasa Indonesia, kreativitas, kejelasan pesan)",
+          "mahasiswa": "Mempresentasikan proyek (masalah yang diangkat, proses pembuatan, video final, refleksi), memutar video, menjawab pertanyaan, memberi feedback ke kelompok lain",
+          "media": "Slide presentasi, video, rubric penilaian"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan capaian proyek, memberikan apresiasi untuk kelompok terbaik, menginformasikan persiapan UAS",
+          "mahasiswa": "Mencatat, memberikan feedback",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Panduan presentasi ilmiah",
+      "referensi_2": "Contoh presentasi proyek video"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "UAS: Refleksi dan Pemberian Penghargaan Proyek Terbaik",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang seluruh materi dan proyek video edukatif",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap seluruh materi (ragam bahasa, EYD, kutipan/daftar pustaka, proposal, produksi video edukatif) serta kemampuan refleksi",
+      "pokok_bahasan": "Ujian Akhir Semester dan Refleksi",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-15: kedudukan bahasa, EYD, kutipan/parafrase/daftar pustaka, proposal, proyek video edukatif",
+      "sub_pokok_bahasan_2": "Soal integratif (studi kasus penulisan proposal atau analisis video edukatif)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (open book, durasi 90 menit, soal esai analisis kasus), memberikan pengumuman kelompok terbaik",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan penghargaan kepada kelompok dengan video edukatif terbaik (berdasarkan penilaian dosen dan peer review). Membuka akses ujian di LMS, mengawasi jalannya ujian",
+          "mahasiswa": "Menerima penghargaan, mengerjakan soal UAS (esai: misal menganalisis proposal fiktif, mengoreksi naskah video, atau merancang kerangka proposal kegiatan)",
+          "media": "LMS, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Menutup akses ujian, memberikan kesimpulan akhir mata kuliah, motivasi untuk terus menggunakan bahasa Indonesia yang baik dan benar, menutup perkuliahan",
+          "mahasiswa": "Mengumpulkan jawaban, memberikan feedback akhir, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (UAS) - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "https://ejaan.kemdikbud.go.id/"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Kewarganegaraan",
+  "semester": "II",
+  "sks_total": "2",
+  "jenis_mk": "Mata Kuliah Wajib Umum",
+  "kelas": "A",
+  "prasyarat": "-",
+  "hari_jam": "Selasa, 14:00 - 15:40",
+  "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional"
+    }
+  ],
+  "jumlah_kuis_mingguan": "1",
+  "jumlah_tugas_terstruktur": "8",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "10",
+  "bobot_proyek": "20",
+  "bobot_tugas": "10",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "30",
+  "materi_minggu_1": "Pengertian, landasan hukum, tujuan pendidikan kewarganegaraan di PT, hubungan dengan profil lulusan",
+  "materi_minggu_2": "Identitas nasional (bahasa, budaya, sejarah, simbol negara), integrasi nasional, tantangan disintegrasi",
+  "materi_minggu_3": "Sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen), isi UUD NRI 1945",
+  "materi_minggu_4": "MPR, DPR, DPD, Presiden, MA, MK, BPK; pembagian kekuasaan eksekutif, legislatif, yudikatif",
+  "materi_minggu_5": "Hak warga negara (pasal 27-34), kewajiban (membayar pajak, bela negara, menghormati hukum)",
+  "materi_minggu_6": "Demokrasi Pancasila (kerakyatan, musyawarah), negara hukum (rechtstaat), supremasi hukum",
+  "materi_minggu_7": "Wawasan nusantara sebagai cara pandang, asas (kepulauan, archipelago), implementasi",
+  "materi_minggu_9": "Ketahanan nasional (astagatra), bela negara (fisik dan nonfisik), peran mahasiswa",
+  "materi_minggu_10": "Definisi korupsi (UU 31/1999), jenis (suap, gratifikasi, penggelapan), dampak ekonomi dan sosial",
+  "materi_minggu_11": "9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)",
+  "materi_minggu_12": "Pemilihan topik (korupsi di lingkungan kampus, nasionalisme generasi milenial, dll)",
+  "materi_minggu_13": "Metode pengumpulan data, wawancara, kuesioner, studi literatur",
+  "materi_minggu_14": "Penulisan laporan, desain poster, pesan kampanye",
+  "materi_minggu_15": "Presentasi laporan, poster, tanya jawab",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "mahasiswa_sign": "sign/aldi.png",
+  "dosen_sign": "sign/venny.png",
+  "nuptk": "0633771672230302"
+}

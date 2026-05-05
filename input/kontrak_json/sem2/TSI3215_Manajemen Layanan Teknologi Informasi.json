@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Manajemen Layanan Teknologi Informasi",
+  "semester": "II",
+  "sks_total": "2",
+  "jenis_mk": "Mata Kuliah Penciri Prodi",
+  "kelas": "A",
+  "prasyarat": "TSI3107 (Sistem Informasi Manajemen) – direkomendasikan",
+  "hari_jam": "Jumat, 18:10 - 19:50 (Online)",
+  "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu memahami konsep dan framework manajemen layanan TI (ITIL v4) serta perbedaannya dengan manajemen infrastruktur"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menjelaskan service lifecycle (strategy, design, transition, operation, continual improvement)"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu menerapkan service level management dan menyusun Service Level Agreement (SLA)"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu menjelaskan manajemen insiden, masalah, perubahan, dan aset konfigurasi"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu melakukan pengukuran dan pelaporan kinerja layanan TI serta tata kelola layanan TI"
+    }
+  ],
+  "jumlah_kuis_mingguan": "6",
+  "jumlah_tugas_terstruktur": "6",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "5",
+  "bobot_proyek": "15",
+  "bobot_tugas": "15",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "35",
+  "materi_minggu_1": "Definisi ITSM, nilai bisnis, ITIL, ISO 20000, COBIT",
+  "materi_minggu_2": "ITIL v4, 4 dimensi, 34 praktik, prinsip guiding",
+  "materi_minggu_3": "Service lifecycle overview, value chain activities",
+  "materi_minggu_4": "Service strategy, value creation, service portfolio",
+  "materi_minggu_5": "Service design, SLM, capacity, availability, ITSCM, security, supplier",
+  "materi_minggu_6": "Change management, release, deployment, configuration management (CMDB)",
+  "materi_minggu_7": "Incident, problem, request, access management, event management",
+  "materi_minggu_9": "CSI, PDCA, metrics, dashboard, improvement",
+  "materi_minggu_10": "SLA, OLA, UC, vendor management, service review",
+  "materi_minggu_11": "Pemilihan kasus, identifikasi proses, pengumpulan data (studi kasus)",
+  "materi_minggu_12": "Gap analysis, rekomendasi perbaikan (analisis studi kasus)",
+  "materi_minggu_13": "Struktur laporan, lampiran, daftar pustaka (penyusunan laporan)",
+  "materi_minggu_14": "Slide presentasi, demo, Q&A (persiapan presentasi)",
+  "materi_minggu_15": "Presentasi hasil studi kasus",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "mahasiswa_sign": "sign/aldi.png",
+  "dosen_sign": "sign/edwin.png",
+  "nuptk": "0547768669130333"
+}

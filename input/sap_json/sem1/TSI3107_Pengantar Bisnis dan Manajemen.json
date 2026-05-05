@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3107",
+    "nama_mk": "Pengantar Bisnis dan Manajemen",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menjelaskan konsep dasar bisnis dan manajemen (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu menjelaskan pengantar bisnis dan manajemen",
+      "indikator_1": "Ketepatan menjabarkan definisi bisnis",
+      "indikator_2": "Ketepatan menjabarkan tujuan bisnis dan fungsi bisnis",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi, tujuan, dan fungsi bisnis serta peran manajemen dalam bisnis berbasis TI",
+      "pokok_bahasan": "Konsep Dasar Bisnis dan Manajemen TI",
+      "sub_pokok_bahasan_1": "Definisi bisnis, tujuan bisnis, fungsi bisnis",
+      "sub_pokok_bahasan_2": "Peran manajemen dalam bisnis TI, hubungan sinergis strategi bisnis dan TI",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa perbedaan bisnis dan manajemen?), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi bisnis, tujuan bisnis, fungsi-fungsi bisnis, serta hubungan sinergis antara strategi bisnis dan strategi TI. Diskusi interaktif.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas 1 (ringkasan bisnis dan manajemen TI), menginformasikan materi jenis-jenis bisnis dan organisasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 1: Ringkasan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Laudon & Laudon (2020). MIS. Bab 1, hal 43-50",
+      "referensi_2": "Stair & Reynolds (2019). Principles of IS. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menjelaskan konsep dasar bisnis dan manajemen (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu mengidentifikasi jenis-jenis bisnis dan bentuk organisasi (bagian 1)",
+      "indikator_1": "Ketepatan membedakan berbagai bentuk organisasi bisnis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan bentuk-bentuk organisasi bisnis (sole proprietorship, partnership, corporation, koperasi) beserta kelebihan dan kekurangannya",
+      "pokok_bahasan": "Bentuk Organisasi Bisnis",
+      "sub_pokok_bahasan_1": "Bentuk usaha: perorangan, firma, CV, PT, koperasi",
+      "sub_pokok_bahasan_2": "Kelebihan dan kekurangan masing-masing bentuk",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh PT, CV, firma), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan bentuk-bentuk organisasi bisnis, karakteristik, contoh perusahaan. Diskusi kelompok kecil membandingkan bentuk organisasi.",
+          "mahasiswa": "Mencatat, diskusi, presentasi singkat",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas 2 (ringkasan lingkungan bisnis TI), menginformasikan lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 2 - Bobot (digabung dengan minggu 3) 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Siregar (2019). Manajemen Bisnis Digital. Bab 2",
+      "referensi_2": "Kertahadi (2014). Pengantar Bisnis. Bab 3"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan konsep dasar bisnis dan manajemen (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu mengidentifikasi jenis-jenis bisnis dan bentuk organisasi (bagian 2 - lingkungan bisnis)",
+      "indikator_1": "Ketepatan menganalisis faktor-faktor PESTEL",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis lingkungan bisnis internal dan eksternal dengan kerangka PESTEL serta memahami isu etika dan CSR",
+      "pokok_bahasan": "Lingkungan Bisnis Digital dan Etika",
+      "sub_pokok_bahasan_1": "Lingkungan internal dan eksternal bisnis TI, analisis PESTEL",
+      "sub_pokok_bahasan_2": "Isu etika dalam bisnis digital (privasi, keamanan, hak cipta), CSR berbasis TI",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: faktor politik mempengaruhi bisnis TI?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan analisis PESTEL (politik, ekonomi, sosial, teknologi, lingkungan, hukum). Diskusi tentang dampak regulasi (GDPR, UU ITE) pada bisnis TI. Studi kasus perusahaan yang menerapkan CSR.",
+          "mahasiswa": "Mencatat, diskusi, kuis 1 (online)",
+          "media": "Slide, kuis LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan telaah video link, menginformasikan materi fungsi manajemen",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis 1, Telaah video - Bobot (bersama minggu 2) 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Turban et al. (2018). IT for Management. Bab 2",
+      "referensi_2": "Laudon & Laudon (2020). Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menganalisis fungsi-fungsi manajemen dalam organisasi TI (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu menjelaskan lingkungan bisnis (internal & eksternal) - fokus fungsi manajemen",
+      "indikator_1": "Ketepatan menjabarkan definisi perencanaan manajemen",
+      "indikator_2": "Ketepatan menjabarkan definisi pengorganisasian dan pengendalian manajemen",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan fungsi-fungsi manajemen (planning, organizing, actuating, controlling) dalam konteks bisnis TI",
+      "pokok_bahasan": "Fungsi Manajemen dalam Bisnis TI",
+      "sub_pokok_bahasan_1": "Perencanaan (strategis, taktis, operasional)",
+      "sub_pokok_bahasan_2": "Pengorganisasian, pengarahan, pengendalian, serta manajemen SDM, pemasaran, keuangan, operasi TI",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: fungsi manajemen apa saja?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 4 fungsi manajemen (POAC), kemudian diterapkan pada bisnis TI (contoh: perencanaan proyek pengembangan aplikasi, struktur tim IT, pengendalian kualitas). Tugas 4: telaah jurnal manajemen dalam bisnis TI.",
+          "mahasiswa": "Mencatat, diskusi, telaah jurnal",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas 4, menginformasikan materi e-commerce, fintech, dll",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 4 (telaah jurnal) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Stair & Reynolds (2019). Bab 3",
+      "referensi_2": "Siregar (2019). Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mahasiswa mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu menjelaskan e-commerce, fintech, edutech, healthtech (bagian 1 - pengenalan)",
+      "indikator_1": "Ketepatan menjabarkan model bisnis e-commerce, fintech, edutech, healthtech",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep start-up digital, platform economy, serta model-model bisnis digital",
+      "pokok_bahasan": "Bisnis Digital dan Platform Economy",
+      "sub_pokok_bahasan_1": "Start-up digital, e-commerce, fintech, edutech, healthtech",
+      "sub_pokok_bahasan_2": "Platform economy, sharing economy, model pendapatan digital (subscription, ads, freemium, SaaS)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh platform digital yang sering digunakan), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan berbagai model bisnis digital: e-commerce (B2B, B2C, C2C), fintech (payment, lending), edutech (online course), healthtech (telemedicine). Contoh: Gojek, Tokopedia, Halodoc. Model revenue: freemium (Spotify), subscription (Netflix), ads-based (Google).",
+          "mahasiswa": "Mencatat, diskusi, studikasus",
+          "media": "Slide, video"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok presentasi studi kasus (minggu ke-7), menginformasikan lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot (minggu 5-7) 25% - bagian 1",
+      "evaluasi_2": "",
+      "referensi_1": "Turban et al. (2018). Bab 4",
+      "referensi_2": "Laudon & Laudon (2020). Bab 10"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu menjelaskan e-commerce, fintech, edutech, healthtech (bagian 2 - analisis kasus)",
+      "indikator_1": "Kemampuan menganalisis studi kasus bisnis TI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis studi kasus start-up digital atau platform bisnis digital",
+      "pokok_bahasan": "Studi Kasus Bisnis Digital",
+      "sub_pokok_bahasan_1": "Analisis model bisnis Gojek, Tokopedia, Traveloka",
+      "sub_pokok_bahasan_2": "Faktor keberhasilan dan tantangan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Mahasiswa mempresentasikan proposal studi kasus (draft). Dosen memberikan umpan balik. Diskusi tentang competitive landscape dalam ekonomi digital.",
+          "mahasiswa": "Presentasi, diskusi",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, melanjutkan persiapan presentasi final",
+          "mahasiswa": "Mencatat masukan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot bagian 2",
+      "evaluasi_2": "",
+      "referensi_1": "Turban et al. (2018). Bab 5",
+      "referensi_2": "Siregar (2019). Bab 6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3) dan merancang model bisnis digital (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu menjelaskan dan merancang studi kasus bisnis TI (bagian 3 - presentasi final)",
+      "indikator_1": "Ketepatan dalam menganalisis dan merancang studi kasus bisnis TI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil studi kasus perancangan model bisnis digital secara komprehensif",
+      "pokok_bahasan": "Presentasi Studi Kasus Bisnis Digital",
+      "sub_pokok_bahasan_1": "Presentasi kelompok (15 menit) tentang model bisnis start-up digital",
+      "sub_pokok_bahasan_2": "Tanya jawab dan peer feedback",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi, urutan",
+          "mahasiswa": "Mempersiapkan slide",
+          "media": "Zoom, slide"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok, memberikan penilaian dan umpan balik",
+          "mahasiswa": "Mempresentasikan hasil, menjawab pertanyaan",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis 2, menginformasikan UTS",
+          "mahasiswa": "Mengerjakan kuis 2",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi, kuis 2 - Bobot 25%",
+      "evaluasi_2": "",
+      "referensi_1": "Laudon & Laudon (2020). Bab 11",
+      "referensi_2": "Stair & Reynolds (2019). Bab 10"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep dasar bisnis, jenis organisasi, lingkungan bisnis, fungsi manajemen, model bisnis digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang konsep dasar bisnis, manajemen, dan model bisnis digital",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasus singkat)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "UTS (tidak ada bobot terpisah dalam RPS, hanya validasi)",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu menjelaskan strategi operasi dan manajemen proyek TI (bagian 1 - sistem informasi dan pengambilan keputusan)",
+      "indikator_1": "Ketepatan dalam menyelaraskan strategi TI dan strategi bisnis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peran sistem informasi dalam mendukung pengambilan keputusan manajemen, serta konsep Business Intelligence dan Big Data",
+      "pokok_bahasan": "Sistem Informasi dan Pengambilan Keputusan",
+      "sub_pokok_bahasan_1": "Peran sistem informasi dalam manajemen (TPS, MIS, DSS, ESS)",
+      "sub_pokok_bahasan_2": "Business Intelligence (BI), Big Data Analytics, Enterprise Resource Planning (ERP)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana manajer menggunakan data untuk keputusan?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan hierarki sistem informasi, contoh dashboard BI, studi kasus penggunaan big data di e-commerce. Tugas 6: membuat deskripsi sistem informasi dan pengambilan keputusan.",
+          "mahasiswa": "Mencatat, diskusi, latihan",
+          "media": "Slide, demo BI"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas 6, menginformasikan manajemen proyek TI",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot (minggu 9-11) 15% - bagian 1",
+      "evaluasi_2": "",
+      "referensi_1": "Laudon & Laudon (2020). Bab 6,7",
+      "referensi_2": "Turban et al. (2018). Bab 8"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu menjelaskan strategi operasi dan manajemen proyek TI (bagian 2 - siklus hidup proyek)",
+      "indikator_1": "Ketepatan dalam memahami siklus hidup proyek TI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan siklus hidup proyek TI (SDLC) dan metodologi manajemen proyek",
+      "pokok_bahasan": "Manajemen Proyek TI",
+      "sub_pokok_bahasan_1": "Siklus hidup proyek (initiation, planning, execution, monitoring, closure)",
+      "sub_pokok_bahasan_2": "Metodologi Agile, Waterfall, Scrumban, tools manajemen proyek (Jira, Trello)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah mengerjakan proyek TI?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan tahapan SDLC, perbedaan metodologi. Demo Jira/Trello. Studi kasus proyek gagal dan sukses. Latihan membuat Gantt chart sederhana.",
+          "mahasiswa": "Mencatat, latihan, diskusi",
+          "media": "Slide, demo software"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas lanjutan, menginformasikan kuis 3",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot bagian 2",
+      "evaluasi_2": "",
+      "referensi_1": "Stair & Reynolds (2019). Bab 12",
+      "referensi_2": "Laudon & Laudon (2020). Bab 14"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu menjelaskan strategi operasi dan manajemen proyek TI (bagian 3 - kuis dan review)",
+      "indikator_1": "Kemampuan menerapkan konsep dalam studi kasus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengintegrasikan sistem informasi dan manajemen proyek dalam studi kasus",
+      "pokok_bahasan": "Integrasi dan Kuis",
+      "sub_pokok_bahasan_1": "Review studi kasus integrasi ERP",
+      "sub_pokok_bahasan_2": "Kuis 3 (online)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review materi), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Diskusi kasus implementasi ERP di perusahaan. Kemudian kuis 3 via LMS tentang sistem informasi dan manajemen proyek.",
+          "mahasiswa": "Diskusi, mengerjakan kuis",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas 7 (telaah jurnal kewirausahaan berbasis TI), menginformasikan materi BMC",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis 3, Tugas 7 - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Turban et al. (2018). Bab 9",
+      "referensi_2": "Siregar (2019). Bab 7"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Small Group Discussion TM: 2x50",
+      "detail_cpmk": "Mampu merancang model bisnis digital sederhana berbasis TI (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mampu merancang model bisnis digital sederhana",
+      "indikator_1": "Ketepatan dalam membuat Business Model Canvas (BMC)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun Business Model Canvas untuk ide bisnis digital",
+      "pokok_bahasan": "Kewirausahaan Berbasis TI dan Business Model Canvas",
+      "sub_pokok_bahasan_1": "Konsep wirausaha digital, identifikasi peluang",
+      "sub_pokok_bahasan_2": "9 blok BMC (value proposition, customer segments, channels, revenue streams, cost structure, dll)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu BMC?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan BMC dengan contoh (Gojek, Tokopedia). Mahasiswa berlatih membuat BMC untuk ide bisnis digital secara berkelompok. Tugas 7: telaah jurnal kewirausahaan berbasis TI.",
+          "mahasiswa": "Mencatat, latihan BMC, diskusi",
+          "media": "Slide, template BMC"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis 4, menginformasikan materi transformasi digital",
+          "mahasiswa": "Mengerjakan kuis 4",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis 4, Tugas 7 - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Siregar (2019). Bab 8",
+      "referensi_2": "Osterwalder (BMC reference)"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Responsi, Role-Play TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3) serta bekerja sama dan berkomunikasi efektif (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu menjelaskan transformasi digital dan model bisnis digital (bagian 1 - konsep)",
+      "indikator_1": "Ketepatan dalam membedakan berbagai model ekonomi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep transformasi digital, digitalisasi proses bisnis, dan strategi adaptasi global melalui TI",
+      "pokok_bahasan": "Transformasi Digital dan Bisnis TI",
+      "sub_pokok_bahasan_1": "Transformasi digital: definisi, manfaat, tahapan",
+      "sub_pokok_bahasan_2": "Digitalisasi proses bisnis, studi kasus industri 4.0 (AI, IoT, blockchain)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu transformasi digital?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep transformasi digital, contoh perusahaan yang bertransformasi (Bank digital, ritel online). Diskusi tentang dampak AI, IoT, blockchain pada manajemen bisnis.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide, video"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas 8 (presentasi transformasi digital), menginformasikan lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot (minggu 13-15) 30% - bagian 1",
+      "evaluasi_2": "",
+      "referensi_1": "Laudon & Laudon (2020). Bab 15",
+      "referensi_2": "Turban et al. (2018). Bab 12"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Role-Play, Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan peran dan strategi TI dalam bisnis (CPMK-3) dan bekerja sama (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu menjelaskan transformasi digital (bagian 2 - model digital dan studi kasus)",
+      "indikator_1": "Mampu memberi contoh model digital (SaaS, freemium, dll)",
+      "indikator_2": "Ketepatan dalam mempresentasikan solusi bisnis TI",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan model bisnis digital (SaaS, freemium, subscription, transaction fee) dan memberikan contoh implementasi",
+      "pokok_bahasan": "Model Bisnis Digital Lanjutan",
+      "sub_pokok_bahasan_1": "Model SaaS (Software as a Service), PaaS, IaaS",
+      "sub_pokok_bahasan_2": "Model freemium, subscription, advertising, transaction fee, affiliate",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: model pendapatan Netflix? Spotify?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan berbagai model pendapatan digital dengan contoh perusahaan (Salesforce sebagai SaaS, Canva freemium, Airbnb transaction fee). Diskusi kelompok: identifikasi model dari start-up terkenal.",
+          "mahasiswa": "Mencatat, diskusi, latihan identifikasi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, melanjutkan persiapan presentasi akhir",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot bagian 2",
+      "evaluasi_2": "",
+      "referensi_1": "Laudon & Laudon (2020). Bab 10",
+      "referensi_2": "Turban et al. (2018). Bab 11"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Presentasi Kelompok TM: 2x50",
+      "detail_cpmk": "Mampu merancang model bisnis digital (CPMK-4) serta bekerja sama dan berkomunikasi efektif (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu menjelaskan transformasi digital dan model bisnis digital (bagian 3 - presentasi final)",
+      "indikator_1": "Ketepatan dalam mempresentasikan solusi bisnis dan manajemen TI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil analisis transformasi digital atau model bisnis digital secara kelompok",
+      "pokok_bahasan": "Presentasi Proyek Transformasi Digital",
+      "sub_pokok_bahasan_1": "Presentasi kelompok tentang strategi transformasi digital untuk perusahaan tertentu",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan umpan balik",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi, urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide",
+          "media": "Zoom, slide"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok (10-15 menit), memberikan penilaian berdasarkan rubrik",
+          "mahasiswa": "Mempresentasikan, menjawab pertanyaan",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi final - Bobot 30% (minggu 13-15)",
+      "evaluasi_2": "",
+      "referensi_1": "Semua pustaka",
+      "referensi_2": ""
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang sistem informasi, manajemen proyek, BMC, transformasi digital, model bisnis digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang sistem informasi, manajemen proyek, kewirausahaan TI, dan transformasi digital",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif, studi kasus transformasi digital), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "UAS (tidak ada bobot terpisah dalam RPS, hanya validasi kelulusan)",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Laudon, Turban, Stair"
+    }
+  ]
+}

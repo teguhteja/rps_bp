@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1214",
+    "nama_mk": "Bahasa Inggris",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami dan menganalisis teks bacaan (reading comprehension) bidang teknologi informasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Reading comprehension – skimming dan scanning",
+      "indikator_1": "Kemampuan menemukan ide pokok dalam teks pendek",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan teknik skimming dan scanning untuk menemukan ide pokok dan informasi spesifik dalam teks bahasa Inggris",
+      "pokok_bahasan": "Reading Comprehension: Skimming dan Scanning",
+      "sub_pokok_bahasan_1": "Teknik membaca cepat (skimming)",
+      "sub_pokok_bahasan_2": "Teknik mencari informasi spesifik (scanning)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana cara cepat memahami isi teks?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan perbedaan skimming (mencari main idea) dan scanning (mencari detail). Memberikan contoh teks pendek, latihan menemukan ide pokok dan kata kunci. Membahas jawaban",
+          "mahasiswa": "Mencatat, latihan membaca teks, menjawab pertanyaan",
+          "media": "Slide, teks contoh (digital), papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis singkat via LMS, menginformasikan materi berikutnya (membaca teks teknis TI)",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, latihan - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Murphy, R. (2019). English Grammar in Use. Cambridge. Bab 1",
+      "referensi_2": "Powell, M. (2011). Presenting in English. Cengage. Bab 2"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu memahami dan menganalisis teks bacaan (reading comprehension) bidang teknologi informasi (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Membaca teks teknis bidang TI",
+      "indikator_1": "Kemampuan memahami artikel tentang konsep sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membaca dan memahami artikel teknis TI dari IEEE/ACM, mengidentifikasi kosakata teknis",
+      "pokok_bahasan": "Membaca Teks Teknis TI",
+      "sub_pokok_bahasan_1": "Identifikasi kosakata teknis (hardware, software, database, network)",
+      "sub_pokok_bahasan_2": "Memahami struktur artikel ilmiah populer",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Pernah membaca artikel teknologi berbahasa Inggris?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan teks pendek dari IEEE atau website teknologi (misal: tentang cloud computing). Membimbing mahasiswa membaca, mengidentifikasi main idea, kosakata teknis, dan supporting details. Diskusi bersama",
+          "mahasiswa": "Membaca teks, mencatat kosakata baru, menjawab pertanyaan pemahaman",
+          "media": "Teks digital (PDF), slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (meringkas teks yang sama), menginformasikan materi tenses dan passive voice",
+          "mahasiswa": "Mencatat tugas, mengumpulkan via LMS",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: ringkasan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Murphy, R. (2019). English Grammar in Use. Bab 2",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 1"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Tenses dan passive voice",
+      "indikator_1": "Kemampuan menggunakan simple present, past, future, present perfect",
+      "indikator_2": "Kemampuan menggunakan passive voice dalam konteks teknologi",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan tenses yang tepat (simple present, past, future, present perfect) dan passive voice dalam kalimat berbahasa Inggris",
+      "pokok_bahasan": "Tenses dan Passive Voice",
+      "sub_pokok_bahasan_1": "Review simple present, past, future, present perfect",
+      "sub_pokok_bahasan_2": "Passive voice dalam konteks teknologi (contoh: 'The data is processed')",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan active dan passive?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan penggunaan masing-masing tense, memberikan tabel, latihan mengisi kalimat. Menjelaskan passive voice (rumus, kapan digunakan, contoh kalimat teknis). Latihan mengubah active ke passive",
+          "mahasiswa": "Mencatat, mengerjakan latihan soal, diskusi",
+          "media": "Slide, papan tulis virtual, contoh kalimat teknis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis (identifikasi tenses), menginformasikan materi modal verbs dan conditional",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, latihan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Murphy, R. (2019). English Grammar in Use. Bab 3-4",
+      "referensi_2": "Swan, M. (2016). Practical English Usage. Bab 5"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Modal verbs dan conditional",
+      "indikator_1": "Kemampuan menggunakan modal (can, must, should)",
+      "indikator_2": "Kemampuan menggunakan conditional sentences tipe 1 dan 2",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan modal verbs dan conditional sentences tipe 1 dan 2 dalam kalimat bahasa Inggris",
+      "pokok_bahasan": "Modal Verbs dan Conditional Sentences",
+      "sub_pokok_bahasan_1": "Modal untuk kemungkinan, keharusan (can, may, must, should)",
+      "sub_pokok_bahasan_2": "Conditional tipe 1 (real) dan tipe 2 (unreal) untuk hipotesis",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Kalimat pengandaian dalam Inggris?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan fungsi modal verbs (ability, permission, obligation, suggestion) dengan contoh dalam konteks IT (misal: 'You must back up your data'). Menjelaskan conditional tipe 1 (if + present, will) dan tipe 2 (if + past, would). Latihan membuat kalimat",
+          "mahasiswa": "Mencatat, latihan membuat kalimat modal dan conditional",
+          "media": "Slide, papan tulis, contoh kalimat"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (10 kalimat menggunakan modal dan conditional), menginformasikan materi technical vocabulary",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: kalimat - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Murphy, R. (2019). English Grammar in Use. Bab 5-6",
+      "referensi_2": "Swan, M. (2016). Practical English Usage. Bab 7"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menguasai technical vocabulary dan istilah dalam bidang sistem informasi (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Technical vocabulary",
+      "indikator_1": "Kemampuan menjelaskan istilah: hardware, software, database, network, cloud, AI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan dan menggunakan istilah teknis bidang SI dalam kalimat bahasa Inggris",
+      "pokok_bahasan": "Technical Vocabulary",
+      "sub_pokok_bahasan_1": "Daftar istilah: hardware, software, database, network, cloud, AI, cybersecurity",
+      "sub_pokok_bahasan_2": "Penggunaan istilah dalam kalimat dan konteks",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Istilah TI dalam Inggris yang sering didengar?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menyajikan daftar istilah teknis beserta definisi dan contoh kalimat. Menggunakan gambar/ilustrasi untuk membantu pemahaman. Latihan mencocokkan istilah dengan definisi, membuat kalimat sendiri",
+          "mahasiswa": "Mencatat, latihan mencocokkan, membuat kalimat",
+          "media": "Slide dengan gambar, kuis interaktif"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis vocabulary (multiple choice), menginformasikan materi menulis ringkasan artikel",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis vocabulary - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "McCarthy, M., & O'Dell, F. (2017). Academic Vocabulary in Use. Bab 2",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Menulis ringkasan artikel",
+      "indikator_1": "Kemampuan meringkas artikel 1-2 halaman",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menulis ringkasan (summary) artikel bahasa Inggris dengan teknik paraphrasing dan menghindari plagiarisme",
+      "pokok_bahasan": "Menulis Ringkasan Artikel",
+      "sub_pokok_bahasan_1": "Teknik paraphrasing (mengubah kata, struktur kalimat)",
+      "sub_pokok_bahasan_2": "Struktur summary: main idea, supporting points, kesimpulan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu plagiarisme?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara membuat ringkasan: membaca, menandai ide pokok, menulis ulang dengan kata sendiri (paraphrasing). Memberikan contoh artikel pendek dan contoh summary. Latihan membuat summary dari artikel sederhana",
+          "mahasiswa": "Membaca artikel singkat, menulis summary, presentasi singkat",
+          "media": "Artikel contoh, papan tulis, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (meringkas artikel yang ditentukan), menginformasikan materi menulis abstrak",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: ringkasan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Emmerson, P. (2013). Email English. Bab 4",
+      "referensi_2": "McCarthy, M., & O'Dell, F. (2017). Academic Vocabulary. Bab 3"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Menulis abstrak",
+      "indikator_1": "Kemampuan menulis abstrak untuk paper sederhana",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menulis abstrak dengan struktur yang benar (background, methods, results, conclusion)",
+      "pokok_bahasan": "Menulis Abstrak",
+      "sub_pokok_bahasan_1": "Struktur abstrak (background, methods, results, conclusion)",
+      "sub_pokok_bahasan_2": "Gaya bahasa yang digunakan (impersonal, past tense)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa fungsi abstrak?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur abstrak (IMRaD). Memberikan contoh abstrak dari jurnal. Membedah setiap bagian. Latihan menulis abstrak pendek berdasarkan data hipotetis",
+          "mahasiswa": "Mencatat, latihan menulis abstrak, peer review",
+          "media": "Slide, contoh abstrak"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (menulis abstrak dari paper sederhana), menginformasikan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: abstrak - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Murphy, R. (2019). English Grammar in Use. Bab 7",
+      "referensi_2": "Powell, M. (2011). Presenting in English. Bab 3"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal reading comprehension, grammar, vocabulary, writing summary",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap reading comprehension, grammar, vocabulary, dan penulisan summary",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal: reading comprehension, grammar, vocabulary, menulis summary singkat",
+          "media": "LMS (Google Form)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis email bisnis dan korespondensi profesional dalam bahasa Inggris (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Email bisnis dan surat formal",
+      "indikator_1": "Kemampuan menulis email profesional (inquiry, response, complaint)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menulis email bisnis dengan struktur dan bahasa formal yang tepat",
+      "pokok_bahasan": "Email Bisnis dan Korespondensi",
+      "sub_pokok_bahasan_1": "Struktur email (subject, salutation, body, closing)",
+      "sub_pokok_bahasan_2": "Bahasa formal, etika, dan contoh (inquiry, response, complaint)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Email apa saja yang pernah Anda kirim?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan bagian-bagian email profesional, perbedaan formal dan informal. Memberikan template untuk inquiry, response, complaint. Latihan menulis email berdasarkan skenario (misal: meminta informasi produk, mengeluh layanan). Review bersama",
+          "mahasiswa": "Menulis email, saling mengevaluasi",
+          "media": "Slide, template, contoh email"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (menulis email balasan dari skenario), menginformasikan materi membuat slide presentasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: email - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Emmerson, P. (2013). Email English. Bab 5-6",
+      "referensi_2": "Powell, M. (2011). Presenting in English. Bab 4"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Membuat slide presentasi",
+      "indikator_1": "Kemampuan merancang slide dengan bahasa Inggris yang efektif",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat slide presentasi dengan bahasa Inggris yang jelas, ringkas, dan profesional",
+      "pokok_bahasan": "Membuat Slide Presentasi",
+      "sub_pokok_bahasan_1": "Desain slide (bullet points, visual, warna)",
+      "sub_pokok_bahasan_2": "Kata kunci dan kalimat pendek, bahasa yang digunakan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Slide presentasi yang baik?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan prinsip desain slide: minimalis, gunakan bullet points, hindari teks panjang, gunakan visual. Memberikan contoh slide baik dan buruk. Mahasiswa membuat slide tentang topik TI sederhana (misal: 'Introduction to AI') dalam kelompok kecil",
+          "mahasiswa": "Berdiskusi, membuat slide, presentasi singkat di kelompok",
+          "media": "PowerPoint/Google Slides, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (finalisasi slide untuk presentasi minggu depan), menginformasikan materi simulasi presentasi",
+          "mahasiswa": "Mencatat tugas, melanjutkan kerja kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: slide - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Powell, M. (2011). Presenting in English. Bab 5",
+      "referensi_2": "Murphy, R. (2019). English Grammar in Use. Bab 8"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Simulasi presentasi",
+      "indikator_1": "Kemampuan menyampaikan presentasi singkat (3-5 menit)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyampaikan presentasi singkat dalam bahasa Inggris dengan intonasi, bahasa tubuh, dan manajemen tanya jawab yang baik",
+      "pokok_bahasan": "Simulasi Presentasi",
+      "sub_pokok_bahasan_1": "Teknik penyampaian (intonasi, eye contact, gesture)",
+      "sub_pokok_bahasan_2": "Menangani pertanyaan audiens",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang membuat presentasi menarik?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan tips presentasi: latihan, intonasi, kontak mata, tidak membaca teks. Setiap mahasiswa mempresentasikan slide yang sudah dibuat (3-5 menit). Memberikan umpan balik",
+          "mahasiswa": "Presentasi individu di depan kelas (online), menerima feedback",
+          "media": "Zoom/Google Meet, slide presentasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan materi diskusi kelompok (role-play)",
+          "mahasiswa": "Mencatat umpan balik untuk perbaikan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi individu - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Powell, M. (2011). Presenting in English. Bab 6",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 7"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Diskusi kelompok (role-play)",
+      "indikator_1": "Kemampuan berpartisipasi dalam diskusi topik TI",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu berpartisipasi aktif dalam diskusi kelompok dalam bahasa Inggris dengan menggunakan ekspresi setuju/tidak setuju dan memberi pendapat",
+      "pokok_bahasan": "Diskusi Kelompok (Role-Play)",
+      "sub_pokok_bahasan_1": "Topik: 'Impact of AI on Jobs', 'Cloud vs On-premise'",
+      "sub_pokok_bahasan_2": "Ekspresi yang digunakan (agreeing, disagreeing, giving opinion, asking for clarification)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana cara memberi pendapat dalam Inggris?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ekspresi-ekspresi diskusi: 'I think...', 'In my opinion...', 'I agree because...', 'I disagree because...', 'Could you clarify?'. Membagi kelompok breakout room, memberikan topik diskusi. Memantau dan memberikan feedback",
+          "mahasiswa": "Berdiskusi dalam kelompok kecil (3-4 orang) menggunakan bahasa Inggris, mencatat poin diskusi",
+          "media": "Zoom breakout rooms, slide panduan ekspresi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan hasil diskusi, memberikan kuis (listening ekspresi), menginformasikan materi laporan teknis",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi partisipasi - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Powell, M. (2011). Presenting in English. Bab 7",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 8"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Menulis laporan teknis sederhana (struktur)",
+      "indikator_1": "Kemampuan menyusun laporan dengan bagian pendahuluan, metode, hasil",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan teknis sederhana dalam bahasa Inggris dengan struktur yang benar (pendahuluan, metode, hasil, kesimpulan)",
+      "pokok_bahasan": "Menulis Laporan Teknis (Struktur)",
+      "sub_pokok_bahasan_1": "Bagian pendahuluan (background, tujuan)",
+      "sub_pokok_bahasan_2": "Metode, hasil, dan kesimpulan (bahasa impersonal)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Laporan teknis apa yang pernah baca?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan teknis (IMRaD: Introduction, Methods, Results, Discussion, Conclusion). Memberikan contoh laporan pendek. Latihan membuat draft pendahuluan dan metode untuk sebuah proyek sederhana (misal: 'Analyzing internet usage among students')",
+          "mahasiswa": "Menyusun draft bagian pendahuluan dan metode secara kelompok",
+          "media": "Slide, contoh laporan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (melanjutkan draft laporan), menginformasikan materi finalisasi laporan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: draft laporan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "McCarthy, M., & O'Dell, F. (2017). Academic Vocabulary. Bab 4",
+      "referensi_2": "Murphy, R. (2019). English Grammar in Use. Bab 9"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Finalisasi laporan teknis",
+      "indikator_1": "Laporan selesai dengan tata bahasa dan kosakata yang tepat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyelesaikan laporan teknis dengan proofreading dan revisi tata bahasa",
+      "pokok_bahasan": "Finalisasi Laporan Teknis",
+      "sub_pokok_bahasan_1": "Revisi, proofreading, pengecekan grammar",
+      "sub_pokok_bahasan_2": "Penyusunan daftar pustaka dan format",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres laporan), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan checklist proofreading: spelling, grammar (tenses, subject-verb agreement), punctuation. Membahas cara menyusun daftar pustaka (APA style). Bimbingan per kelompok untuk finalisasi laporan",
+          "mahasiswa": "Merevisi laporan, berkonsultasi dengan dosen",
+          "media": "Template laporan, Google Docs, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat pengumpulan laporan, menginformasikan materi simulasi wawancara kerja",
+          "mahasiswa": "Menyelesaikan laporan, mengumpulkan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: laporan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Swan, M. (2016). Practical English Usage. Bab 10",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 9"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Simulasi wawancara kerja",
+      "indikator_1": "Kemampuan menjawab pertanyaan wawancara dalam bahasa Inggris",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjawab pertanyaan-pertanyaan umum dalam wawancara kerja dalam bahasa Inggris dengan percaya diri",
+      "pokok_bahasan": "Simulasi Wawancara Kerja",
+      "sub_pokok_bahasan_1": "Pertanyaan umum (introduction, experience, skill, future plan)",
+      "sub_pokok_bahasan_2": "Tips wawancara (body language, menjawab dengan jujur, menunjukkan antusiasme)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang ditanyakan saat wawancara kerja?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan daftar pertanyaan umum: 'Tell me about yourself', 'What are your strengths/weaknesses?', 'Why do you want this job?', 'Where do you see yourself in 5 years?'. Memberikan contoh jawaban. Mahasiswa berpasangan melakukan role-play: satu sebagai pewawancara, satu sebagai pelamar. Bergantian",
+          "mahasiswa": "Berpasangan, melakukan simulasi wawancara, memberikan feedback",
+          "media": "Zoom breakout rooms, panduan pertanyaan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis (listening tips wawancara), menginformasikan materi UAS",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Role-play berpasangan - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Powell, M. (2011). Presenting in English. Bab 8",
+      "referensi_2": "Emmerson, P. (2013). Email English. Bab 10"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang writing (email, laporan), presentasi, dan diskusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur kemampuan mahasiswa dalam menulis email, laporan, serta pemahaman presentasi dan diskusi",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Penulisan email bisnis, laporan teknis",
+      "sub_pokok_bahasan_2": "Listening comprehension tentang presentasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan (soal integratif, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian: soal menulis email, menulis ringkasan laporan, dan listening singkat (audio tentang presentasi). Mengawasi",
+          "mahasiswa": "Mengerjakan ujian: menulis email, menulis ringkasan, menjawab pertanyaan listening",
+          "media": "LMS (Google Form), audio file"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis + presentasi singkat - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 9-15",
+      "referensi_2": "Buku pendukung"
+    }
+  ]
+}

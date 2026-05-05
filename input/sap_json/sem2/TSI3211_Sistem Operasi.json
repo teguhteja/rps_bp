@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3211",
+    "nama_mk": "Sistem Operasi",
+    "sks_total": "3",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Pengertian, fungsi, dan arsitektur sistem operasi",
+      "indikator_1": "Ketepatan menjelaskan definisi, tujuan, komponen, dan mode user/kernel",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan pengertian, fungsi, dan arsitektur dasar sistem operasi serta perbedaan mode user dan kernel",
+      "pokok_bahasan": "Konsep Dasar dan Arsitektur Sistem Operasi",
+      "sub_pokok_bahasan_1": "Definisi OS dan fungsi sebagai resource manager dan extended machine",
+      "sub_pokok_bahasan_2": "Kernel, system call, dan mode user/kernel",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu sistem operasi? Contohnya?'), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi OS, fungsi (resource manager dan extended machine), perbedaan kernel dan user mode, system call. Memberikan contoh (Windows, Linux). Latihan soal singkat",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, mengerjakan latihan",
+          "media": "Slide, papan tulis virtual, contoh diagram"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi struktur OS",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Operating System Concepts (10th ed.). Wiley. Bab 1-2",
+      "referensi_2": "Tanenbaum, A.S. (2015). Modern Operating Systems (4th ed.). Pearson. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Struktur dan layanan sistem operasi",
+      "indikator_1": "Kemampuan menjelaskan struktur (monolitik, layered, microkernel) dan layanan (process, file, I/O, komunikasi)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan berbagai struktur OS dan layanan yang disediakan OS",
+      "pokok_bahasan": "Struktur dan Layanan Sistem Operasi",
+      "sub_pokok_bahasan_1": "Struktur OS: monolitik, layered, microkernel, hybrid",
+      "sub_pokok_bahasan_2": "Layanan OS: process, file, I/O, komunikasi, proteksi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan Linux dan Windows?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur monolitik (Linux), layered, microkernel (QNX), dan hybrid (Windows). Menjelaskan layanan OS: manajemen proses, file, I/O, komunikasi antar proses, proteksi. Diskusi perbandingan",
+          "mahasiswa": "Mencatat, diskusi, latihan mengidentifikasi struktur",
+          "media": "Slide, diagram struktur"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (perbandingan struktur OS), menginformasikan materi evolusi OS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 2-3",
+      "referensi_2": "Stallings, W. (2017). Operating Systems. Bab 3"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel) (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Evolusi sistem operasi",
+      "indikator_1": "Kemampuan menjelaskan generasi OS (batch, multiprogramming, time-sharing, real-time, distributed)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan evolusi sistem operasi dari batch hingga sistem terdistribusi dan real-time",
+      "pokok_bahasan": "Evolusi Sistem Operasi",
+      "sub_pokok_bahasan_1": "Generasi OS: batch, multiprogramming, time-sharing",
+      "sub_pokok_bahasan_2": "Real-time, distributed, dan contoh OS setiap era",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana OS berevolusi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah OS: single-stream batch (1950-an), multiprogramming (1960-an), time-sharing (1970-an), PC (1980-an), real-time/distributed (1990-an hingga sekarang). Memberikan contoh OS di setiap era (IBM OS/360, UNIX, MS-DOS, Windows, Linux, RTOS). Diskusi kelompok (breakout room) tentang faktor pendorong evolusi",
+          "mahasiswa": "Mencatat, diskusi kelompok, mempresentasikan poin diskusi",
+          "media": "Slide, timeline, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (mencari satu OS modern dan karakteristiknya), menginformasikan materi manajemen proses",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi; Tugas kelompok - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Tanenbaum, A.S. (2015). Bab 1",
+      "referensi_2": "Silberschatz, A. (2018). Bab 1"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Manajemen proses dan thread",
+      "indikator_1": "Kemampuan menjelaskan proses, PCB, state diagram, context switch, multithreading",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep proses, thread, state diagram, context switch, dan multithreading",
+      "pokok_bahasan": "Manajemen Proses dan Thread",
+      "sub_pokok_bahasan_1": "Proses, PCB, dan state diagram (new, ready, running, waiting, terminated)",
+      "sub_pokok_bahasan_2": "Context switch, thread, perbedaan proses dan thread, multithreading",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu proses dalam komputer?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi proses, PCB, state diagram, context switch, thread (user-level dan kernel-level), keuntungan multithreading. Memberikan contoh proses pada OS (melihat task manager). Latihan menggambar state diagram dan menghitung waktu context switch",
+          "mahasiswa": "Mencatat, latihan soal, diskusi",
+          "media": "Slide, diagram state, contoh praktik"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, menginformasikan materi penjadwalan CPU",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 3-4",
+      "referensi_2": "Stallings, W. (2017). Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah + latihan TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Algoritma penjadwalan CPU (FCFS, SJF, Priority)",
+      "indikator_1": "Kemampuan menghitung waiting time, turnaround time, dan membuat Gantt chart",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung waiting time dan turnaround time untuk algoritma FCFS, SJF, dan Priority serta membuat Gantt chart",
+      "pokok_bahasan": "Penjadwalan CPU: FCFS, SJF, Priority",
+      "sub_pokok_bahasan_1": "First-Come First-Served (FCFS) non-preemptive",
+      "sub_pokok_bahasan_2": "Shortest Job First (SJF) dan Priority (non-preemptive & preemptive)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana OS memilih proses yang akan dijalankan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan algoritma FCFS, SJF (non-preemptive dan preemptive), Priority (non-preemptive dan preemptive). Memberikan contoh soal dan penyelesaian Gantt chart. Latihan soal hitungan secara interaktif",
+          "mahasiswa": "Mencatat, mengerjakan latihan soal, membahas jawaban",
+          "media": "Slide, papan tulis virtual, kalkulator"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan (3 soal FCFS, SJF, Priority), menginformasikan materi Round Robin",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 5",
+      "referensi_2": "Tanenbaum, A.S. (2015). Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah + latihan TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Algoritma penjadwalan Round Robin dan multilevel queue",
+      "indikator_1": "Kemampuan menghitung dan membandingkan RR dengan quantum berbeda",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menghitung waiting time untuk Round Robin dengan quantum tertentu serta memahami multilevel queue dan multilevel feedback queue",
+      "pokok_bahasan": "Penjadwalan Round Robin dan Multilevel Queue",
+      "sub_pokok_bahasan_1": "Round Robin (RR) dengan quantum time",
+      "sub_pokok_bahasan_2": "Multilevel queue dan multilevel feedback queue",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi review singkat, menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan algoritma Round Robin, cara menghitung waiting time, pengaruh quantum. Latihan soal RR dengan quantum berbeda. Menjelaskan konsep multilevel queue (foreground/background) dan multilevel feedback queue (MFQ). Memberikan contoh MFQ",
+          "mahasiswa": "Mencatat, latihan menghitung RR, diskusi tentang kelebihan/kekurangan",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan + analisis (membandingkan RR dengan FCFS), menginformasikan materi sinkronisasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan + analisis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 5",
+      "referensi_2": "Stallings, W. (2017). Bab 5"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan sinkronisasi proses, deadlock, dan mekanisme penanganannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Sinkronisasi proses",
+      "indikator_1": "Kemampuan menjelaskan critical section, race condition, semaphore, mutex, dan classical problem (producer-consumer)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan masalah sinkronisasi proses dan solusi dengan semaphore serta mutex",
+      "pokok_bahasan": "Sinkronisasi Proses",
+      "sub_pokok_bahasan_1": "Critical section, race condition, Peterson solution",
+      "sub_pokok_bahasan_2": "Semaphore, mutex, monitor, dan classical problem (producer-consumer)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Jika dua proses mengakses data yang sama, apa yang terjadi?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan critical section, race condition, syarat solusi (mutual exclusion, progress, bounded waiting). Menjelaskan Peterson solution, semaphore (binary & counting), mutex, monitor. Memberikan contoh producer-consumer dengan semaphore. Diskusi tentang deadlock potential",
+          "mahasiswa": "Mencatat, latihan soal sederhana, diskusi",
+          "media": "Slide, animasi producer-consumer"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas studi kasus (producer-consumer dengan semaphore), menginformasikan materi deadlock",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas studi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 6",
+      "referensi_2": "Tanenbaum, A.S. (2015). Bab 2"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep OS, proses, penjadwalan, sinkronisasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap konsep OS, proses, penjadwalan CPU, dan sinkronisasi proses",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7 (definisi OS, struktur, evolusi, proses & thread, penjadwalan CPU, sinkronisasi)",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (buka tutup buku, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, dan hitungan penjadwalan)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan sinkronisasi proses, deadlock, dan mekanisme penanganannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Deadlock",
+      "indikator_1": "Kemampuan menjelaskan 4 kondisi deadlock, metode deteksi, pencegahan, penghindaran (banker's algorithm), dan recovery",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan deadlock, kondisi terjadinya, serta metode penanganan (pencegahan, penghindaran, deteksi, recovery)",
+      "pokok_bahasan": "Deadlock",
+      "sub_pokok_bahasan_1": "4 kondisi deadlock (mutual exclusion, hold and wait, no preemption, circular wait)",
+      "sub_pokok_bahasan_2": "Resource Allocation Graph (RAG), metode pencegahan, penghindaran (banker's algorithm), deteksi, recovery",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu deadlock? Beri contoh sederhana'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 4 kondisi deadlock, Resource Allocation Graph (RAG) dan wait-for graph. Menjelaskan metode pencegahan (menghilangkan salah satu kondisi), penghindaran (banker's algorithm), deteksi (dengan RAG), dan recovery (abort, rollback). Latihan soal banker's algorithm",
+          "mahasiswa": "Mencatat, latihan menggambar RAG, latihan banker's algorithm",
+          "media": "Slide, papan tulis, contoh soal"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas analisis (banker's algorithm), menginformasikan materi manajemen memori",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas analisis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 7",
+      "referensi_2": "Stallings, W. (2017). Bab 6"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah + latihan TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Manajemen memori (alokasi kontigu, paging)",
+      "indikator_1": "Kemampuan menjelaskan skema alokasi (single partition, multiple partition), fragmentasi, paging (address translation)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan alokasi memori kontigu, fragmentasi, dan mekanisme paging",
+      "pokok_bahasan": "Manajemen Memori: Alokasi Kontigu dan Paging",
+      "sub_pokok_bahasan_1": "Alokasi kontigu (single partition, multiple partition), fragmentasi internal dan eksternal",
+      "sub_pokok_bahasan_2": "Paging, address translation, page table, TLB",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana OS mengelola memori?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan alokasi kontigu (single-user, multiple partition), fragmentasi internal/eksternal, swapping. Menjelaskan paging: konsep page, frame, address translation (logical ke physical), page table, TLB. Latihan menghitung alamat dengan paging",
+          "mahasiswa": "Mencatat, latihan hitungan alamat, diskusi kelebihan/kekurangan",
+          "media": "Slide, contoh address translation"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas hitungan paging, menginformasikan materi segmentation",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas hitungan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 8",
+      "referensi_2": "Tanenbaum, A.S. (2015). Bab 3"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Segmentation dan kombinasi",
+      "indikator_1": "Kemampuan menjelaskan segmentation dan segmentasi dengan paging",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan segmentation, kelebihan dibanding paging, serta kombinasi segmentation dengan paging",
+      "pokok_bahasan": "Segmentation dan Kombinasi dengan Paging",
+      "sub_pokok_bahasan_1": "Segmentation: segmen, segment table, address translation",
+      "sub_pokok_bahasan_2": "Kombinasi segmentation dan paging (contoh Intel 80386)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa kekurangan paging yang diatasi segmentation?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan segmentation: pembagian memori menjadi segmen (code, data, stack), segment table, address translation (segment number + offset). Membahas kelebihan (sharing, proteksi) dan kekurangan (fragmentasi eksternal). Menjelaskan kombinasi segmentation + paging pada Intel 80386 (logical → linear → physical). Contoh perhitungan sederhana",
+          "mahasiswa": "Mencatat, latihan perhitungan segmentasi, diskusi implementasi modern",
+          "media": "Slide, diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (perbandingan paging vs segmentation), menginformasikan materi virtual memory",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Stallings, W. (2017). Bab 7",
+      "referensi_2": "Silberschatz, A. (2018). Bab 8"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah + latihan TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Virtual memory",
+      "indikator_1": "Kemampuan menjelaskan demand paging, page fault, page replacement (FIFO, LRU, Optimal), thrashing",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep virtual memory, demand paging, algoritma page replacement, dan thrashing",
+      "pokok_bahasan": "Virtual Memory",
+      "sub_pokok_bahasan_1": "Demand paging, page fault handling, copy-on-write",
+      "sub_pokok_bahasan_2": "Page replacement algorithms: FIFO, LRU, Optimal, working set, thrashing",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Mengapa program lebih besar dari RAM bisa berjalan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan virtual memory, demand paging, page fault, dan copy-on-write. Menjelaskan algoritma page replacement: FIFO, LRU, Optimal, dan perhitungan page fault. Latihan soal page replacement. Menjelaskan working set dan thrashing, penyebab dan penanganan",
+          "mahasiswa": "Mencatat, latihan hitungan page replacement, diskusi thrashing",
+          "media": "Slide, papan tulis, contoh"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan page replacement (3 algoritma), menginformasikan materi manajemen file dan I/O",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas hitungan (page replacement) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 9",
+      "referensi_2": "Tanenbaum, A.S. (2015). Bab 3"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Manajemen file dan I/O",
+      "indikator_1": "Kemampuan menjelaskan file system (struktur direktori, alokasi, free space), dan manajemen I/O (buffering, spooling)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep file system, alokasi file, manajemen ruang bebas, dan manajemen I/O",
+      "pokok_bahasan": "Manajemen File dan I/O",
+      "sub_pokok_bahasan_1": "File concept, directory structure, file allocation (contiguous, linked, indexed)",
+      "sub_pokok_bahasan_2": "Free space management, I/O hardware, interrupt, buffering, spooling",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana OS mengatur file di disk?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan file system: atribut file, operasi, struktur direktori (single-level, two-level, tree-structured). Menjelaskan metode alokasi file (contiguous, linked, indexed) dan kelebihan/kekurangan. Free space management (bit vector, linked list). Manajemen I/O: perangkat I/O, interrupt, DMA, buffering, spooling. Latihan mengevaluasi alokasi file",
+          "mahasiswa": "Mencatat, latihan membandingkan metode alokasi, diskusi",
+          "media": "Slide, contoh alokasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, memberikan tugas individu (analisis file system), menginformasikan materi keamanan OS",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 10, 12",
+      "referensi_2": "Stallings, W. (2017). Bab 10, 11"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Keamanan dan proteksi",
+      "indikator_1": "Kemampuan menjelaskan mekanisme proteksi (access control, authentication, encryption) dan ancaman",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan mekanisme proteksi dan keamanan dalam sistem operasi, termasuk ancaman umum",
+      "pokok_bahasan": "Keamanan dan Proteksi Sistem Operasi",
+      "sub_pokok_bahasan_1": "Domain of protection, access matrix, capability, ACL",
+      "sub_pokok_bahasan_2": "Authentication, encryption, malware, dan pertahanan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang dimaksud dengan proteksi OS?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan domain proteksi, access matrix, access control lists (ACL), capability-based protection. Authentication (password, biometric), encryption (enkripsi data). Ancaman (virus, worm, Trojan horse, rootkit) dan pertahanan (firewall, antivirus, update). Studi kasus: keamanan Windows (UAC) dan Linux (sudo). Diskusi kelompok tentang ancaman terbaru",
+          "mahasiswa": "Mencatat, diskusi kelompok, studi kasus",
+          "media": "Slide, contoh ACL, berita keamanan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan studi kasus (analisis ancaman pada OS), menginformasikan materi OS modern",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus; Diskusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Silberschatz, A. (2018). Bab 15, 16",
+      "referensi_2": "Tanenbaum, A.S. (2015). Bab 8"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Diskusi + presentasi kelompok TM: 3x50",
+      "detail_cpmk": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 10 : Sistem operasi modern",
+      "indikator_1": "Kemampuan membandingkan Linux, Windows, Android (kernel, file system, proses, keamanan)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membandingkan arsitektur, manajemen proses, file system, dan keamanan pada Linux, Windows, dan Android",
+      "pokok_bahasan": "Perbandingan Sistem Operasi Modern",
+      "sub_pokok_bahasan_1": "Linux (monolithic kernel, ext4, security)",
+      "sub_pokok_bahasan_2": "Windows (hybrid kernel, NTFS, security), Android (Linux-based)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan utama Linux, Windows, Android?'), menyampaikan tujuan dan tugas presentasi kelompok",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan gambaran singkat Linux (monolithic kernel, open source), Windows (hybrid kernel, closed source), Android (Linux-based, mobile). Memberikan matriks perbandingan (kernel, file system, manajemen proses, keamanan). Kelompok mahasiswa yang sudah ditunjuk presentasi (10 menit per kelompok) tentang perbandingan mendalam aspek tertentu. Dosen memberikan feedback dan klarifikasi",
+          "mahasiswa": "Mempresentasikan hasil studi komparasi, mendengarkan kelompok lain, bertanya",
+          "media": "Slide presentasi kelompok, Zoom, matriks perbandingan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan poin penting, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat kesimpulan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (studi komparasi) - Bobot 7%",
+      "evaluasi_2": "",
+      "referensi_1": "Love, R. (2013). Linux Kernel Development. Bab 1-3",
+      "referensi_2": "Russinovich, M. (2012). Windows Internals. Bab 1-2"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang manajemen memori, virtual memory, file system, keamanan, dan OS modern",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap manajemen memori, virtual memory, file system, keamanan, dan OS modern",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15 (deadlock, memori, virtual memory, file I/O, keamanan, OS modern)",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan (soal integratif, durasi, boleh buka buku)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal ujian: pilihan ganda, esai, dan hitungan (page replacement, deadlock avoidance)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 20%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Silberschatz, Tanenbaum, Stallings"
+    }
+  ]
+}

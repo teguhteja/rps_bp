@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Statistika dan Probabilitas",
+  "semester": "II",
+  "sks_total": "2",
+  "jenis_mk": "Mata Kuliah Utama Prodi",
+  "kelas": "A",
+  "prasyarat": "TSI3105 (Pengantar Teknologi Informasi) – direkomendasikan",
+  "hari_jam": "Jumat, 13:10 - 14:50 (Offline)",
+  "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu memahami konsep statistika deskriptif, penyajian data, ukuran pemusatan, dan ukuran penyebaran"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menjelaskan teori probabilitas, aturan peluang, dan distribusi probabilitas (diskret dan kontinu)"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu memahami sampling, distribusi sampling, estimasi, dan interval kepercayaan"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu melakukan pengujian hipotesis (satu sampel, dua sampel) dan menginterpretasikan hasil"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu menerapkan analisis korelasi dan regresi linier untuk pemodelan data dalam sistem informasi"
+    }
+  ],
+  "jumlah_kuis_mingguan": "6",
+  "jumlah_tugas_terstruktur": "6",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "5",
+  "bobot_proyek": "15",
+  "bobot_tugas": "15",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "35",
+  "materi_minggu_1": "Statistika deskriptif vs inferensial, jenis data, skala pengukuran",
+  "materi_minggu_2": "Distribusi frekuensi, grafik, diagram",
+  "materi_minggu_3": "Mean, median, modus, interpretasi",
+  "materi_minggu_4": "Varians, standar deviasi, range, interpretasi sebaran",
+  "materi_minggu_5": "Definisi probabilitas, kejadian saling lepas, bebas, bersyarat",
+  "materi_minggu_6": "Distribusi Binomial, Poisson, Normal, pendekatan normal",
+  "materi_minggu_7": "Populasi, sampel, sampling random, distribusi sampling, CLT",
+  "materi_minggu_9": "Estimasi titik, interval kepercayaan, margin of error",
+  "materi_minggu_10": "Hipotesis nol, alternatif, statistik uji, daerah kritis (uji z, t satu sampel)",
+  "materi_minggu_11": "Uji perbedaan dua rata-rata, asumsi, contoh kasus (uji t dua sampel)",
+  "materi_minggu_12": "Korelasi Pearson, uji signifikansi, korelasi rank",
+  "materi_minggu_13": "Model regresi, estimasi parameter, R-squared, uji F",
+  "materi_minggu_14": "Penggunaan Excel/SPSS untuk statistik deskriptif, uji hipotesis, regresi",
+  "materi_minggu_15": "Struktur laporan, tabel, grafik, kesimpulan (penyusunan laporan analisis statistik)",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "mahasiswa_sign": "sign/aldi.png",
+  "dosen_sign": "sign/hendra.png",
+  "nuptk": "5138772673130293"
+}

@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3109",
+    "nama_mk": "Berpikir Komputasional",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menunjukkan kedisiplinan, kejujuran akademik, dan tanggung jawab dalam menyelesaikan tugas-tugas pemecahan masalah (CPMK-1) serta menjelaskan empat pilar CT (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu menjelaskan kontrak perkuliahan, ruang lingkup, dan relevansi Computational Thinking (CT) dalam bidang sistem informasi",
+      "indikator_1": "Ketepatan menjelaskan konsep dasar CT",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan kontrak perkuliahan, definisi CT, sejarah, relevansi dalam era digital, dan keempat pilar utama secara umum",
+      "pokok_bahasan": "Pengantar Computational Thinking",
+      "sub_pokok_bahasan_1": "Kontrak perkuliahan, definisi CT, sejarah",
+      "sub_pokok_bahasan_2": "Relevansi CT di era digital, empat pilar (overview)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu berpikir seperti komputer?), menyampaikan kontrak perkuliahan dan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi Computational Thinking menurut Jeannette Wing, sejarah perkembangannya, dan relevansinya dalam sistem informasi. Memperkenalkan empat pilar utama: Dekomposisi, Pengenalan Pola, Abstraksi, Desain Algoritma.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan Tugas 1 (ringkasan konsep CT), menginformasikan materi Dekomposisi minggu depan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 1: Ringkasan - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Wing, J. M. (2006). Computational thinking. CACM, 49(3), 33-35",
+      "referensi_2": "Beecher, K. (2017). Computational Thinking. Bab 1-2"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan dan menerapkan empat pilar Computational Thinking (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu menerapkan pilar Dekomposisi untuk memecah masalah kompleks menjadi sub-masalah yang lebih kecil dan terkelola",
+      "indikator_1": "Kemampuan menguraikan masalah besar menjadi bagian-bagian logis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan teknik dekomposisi untuk memecah masalah kompleks menjadi sub-masalah yang lebih kecil dan terstruktur",
+      "pokok_bahasan": "Pilar CT 1: Dekomposisi",
+      "sub_pokok_bahasan_1": "Konsep dan teknik dekomposisi",
+      "sub_pokok_bahasan_2": "Studi kasus: memecah masalah sehari-hari (membuat kue, perjalanan, dll)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaiamana cara membuat sarapan?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep dekomposisi, tujuannya, dan bagaimana memecah masalah besar menjadi bagian kecil. Memberikan studi kasus (misal: menyusun acara seminar, membangun aplikasi). Latihan kelompok: dekomposisi masalah sederhana.",
+          "mahasiswa": "Mencatat, diskusi, latihan",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis 1 (via LMS), telaah video, menginformasikan materi pengenalan pola",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis 1, telaah video - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 3",
+      "referensi_2": "Curzon & McOwan (2017). Part 1"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan dan menerapkan empat pilar CT (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu mengidentifikasi pola, tren, dan keteraturan dalam data atau masalah untuk menyederhanakan solusi",
+      "indikator_1": "Ketepatan dalam menemukan dan mendeskripsikan pola",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi pola dari sekumpulan data atau kasus dan menggunakannya untuk menyederhanakan solusi",
+      "pokok_bahasan": "Pilar CT 2: Pengenalan Pola",
+      "sub_pokok_bahasan_1": "Konsep, tujuan, dan teknik pengenalan pola",
+      "sub_pokok_bahasan_2": "Studi kasus: menemukan pola dalam data (harga, cuaca, transaksi)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pola apa dalam deret 2,4,6,8?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan pentingnya pengenalan pola untuk generalisasi. Memberikan contoh pola dalam kehidupan (musim, pola belanja) dan dalam komputasi (deteksi spam). Latihan: menemukan pola dari kumpulan gambar atau angka.",
+          "mahasiswa": "Mencatat, diskusi, latihan",
+          "media": "Slide, contoh data"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas studi pustaka review artikel, menginformasikan materi abstraksi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi pustaka review artikel - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 4",
+      "referensi_2": "Curzon & McOwan (2017). Part 1"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan dan menerapkan empat pilar CT (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu menggunakan pilar Abstraksi untuk fokus pada informasi penting dan mengabaikan detail yang tidak relevan",
+      "indikator_1": "Kemampuan membedakan informasi relevan dan tidak relevan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan abstraksi dengan memilih informasi penting dan membuat model sederhana dari suatu permasalahan",
+      "pokok_bahasan": "Pilar CT 3: Abstraksi dan Representasi Data",
+      "sub_pokok_bahasan_1": "Konsep dan teknik abstraksi",
+      "sub_pokok_bahasan_2": "Representasi data, studi kasus membuat model sederhana (class diagram awal)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: peta jalan mana yang penting dan mana detail?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep abstraksi (menyembunyikan detail kompleks, menampilkan yang esensial). Contoh: peta, papan sirkuit, class diagram. Latihan: dari deskripsi sistem peminjaman buku, buat model kelas sederhana.",
+          "mahasiswa": "Mencatat, diskusi kelompok, presentasi hasil",
+          "media": "Slide, contoh model"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas presentasi studi kasus (persiapan), menginformasikan materi desain algoritma",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas 4: presentasi studi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 5",
+      "referensi_2": "Guttag, J. (2016). Bab 2"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu merancang algoritma dasar (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu merumuskan serangkaian langkah-langkah solusi (algoritma) secara logis dan terurut untuk menyelesaikan masalah",
+      "indikator_1": "Kelogisan dan keterurutan langkah-langkah solusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merumuskan algoritma dengan notasi bahasa alami untuk menyelesaikan masalah sederhana",
+      "pokok_bahasan": "Pilar CT 4: Desain Algoritma",
+      "sub_pokok_bahasan_1": "Definisi, karakteristik algoritma (input, output, efektif, deterministik, terbatas)",
+      "sub_pokok_bahasan_2": "Pengenalan notasi algoritma (natural language, pseudocode awal)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: resep masak adalah contoh algoritma?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan karakteristik algoritma. Memberikan contoh algoritma dalam kehidupan (resep, petunjuk perakitan). Latihan: menulis algoritma untuk membuat secangkir kopi atau menghitung luas lingkaran dalam bahasa alami.",
+          "mahasiswa": "Mencatat, latihan menulis algoritma, diskusi",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas (lanjutan presentasi studi kasus), kuis 2, menginformasikan materi flowchart",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis 2, tugas presentasi - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 6",
+      "referensi_2": "Guttag, J. (2016). Bab 2-3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu merancang algoritma dasar (CPMK-3) serta mengevaluasi alternatif solusi (CPMK-4)",
+      "detail_sub_cpmk": "Mahasiswa mampu mengilustrasikan alur logika algoritma menggunakan notasi standar Diagram Alir (Flowchart) dan menerapkan struktur kontrol logika",
+      "indikator_1": "Ketepatan penggunaan simbol dan alur logika pada Flowchart",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami simbol-simbol flowchart dan membuat flowchart untuk algoritma sederhana",
+      "pokok_bahasan": "Notasi Algoritma: Flowchart (bagian 1)",
+      "sub_pokok_bahasan_1": "Simbol-simbol standar flowchart (terminal, proses, decision, i/o, connector)",
+      "sub_pokok_bahasan_2": "Aturan pembuatan flowchart, contoh sederhana (sekuensial)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah melihat diagram alir?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan simbol-simbol flowchart beserta fungsinya. Memberikan contoh flowchart untuk menghitung rata-rata dua angka. Latihan: membuat flowchart untuk menghitung diskon.",
+          "mahasiswa": "Mencatat, latihan membuat flowchart manual",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas presentasi (finalisasi), menginformasikan lanjutan flowchart dengan percabangan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot 20% untuk minggu 6-7",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 7",
+      "referensi_2": "Sumirat, L. P. (2023). Dasar-Dasar Rekayasa Perangkat Lunak"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah Diskusi kelompok TM: 2x50",
+      "detail_cpmk": "Mampu merancang algoritma dasar (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu merumuskan struktur kontrol logika (percabangan dan perulangan) yang tepat dalam pseudocode/flowchart",
+      "indikator_1": "Ketepatan implementasi percabangan (if-else) dan perulangan (for, while) dalam flowchart",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat flowchart yang melibatkan percabangan dan perulangan untuk menyelesaikan masalah",
+      "pokok_bahasan": "Notasi Algoritma: Flowchart dengan Percabangan dan Perulangan",
+      "sub_pokok_bahasan_1": "Flowchart dengan percabangan (if-then-else, switch)",
+      "sub_pokok_bahasan_2": "Flowchart dengan perulangan (for, while, repeat-until)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: cara membuat flowchart untuk menentukan bilangan prima?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan simbol percabangan dan perulangan dalam flowchart. Memberikan contoh: flowchart menentukan nilai lulus/tidak, flowchart mencetak angka 1-10. Latihan: membuat flowchart untuk menampilkan deret Fibonacci atau faktorial.",
+          "mahasiswa": "Mencatat, latihan, diskusi",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas presentasi (final), menginformasikan UTS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot 20% (bersama minggu 6) - presentasi, kuis",
+      "evaluasi_2": "",
+      "referensi_1": "Beecher, K. (2017). Bab 7",
+      "referensi_2": "Guttag, J. (2016). Bab 3"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep CT, dekomposisi, pola, abstraksi, algoritma, flowchart",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang empat pilar CT, algoritma, dan notasi flowchart",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, membuat flowchart sederhana)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "UTS (validasi, tidak ada bobot terpisah)",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik menggunakan tools pemodelan untuk memecahkan studi kasus nyata (CPMK-5)",
+      "detail_sub_cpmk": "Mahasiswa mampu menerapkan empat pilar CT serta merepresentasikan dalam DFD dan UML (bagian 1: DFD)",
+      "indikator_1": "Kemampuan merancang solusi sistem melalui penerapan 4 pilar CT secara akurat dalam DFD",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memahami konsep Data Flow Diagram (DFD) dan membuat DFD level 0 dan level 1 untuk suatu sistem",
+      "pokok_bahasan": "Pemodelan dengan Data Flow Diagram (DFD)",
+      "sub_pokok_bahasan_1": "Pengertian DFD, notasi (external entity, proses, data store, aliran data)",
+      "sub_pokok_bahasan_2": "Tingkatan DFD (konteks, level 0, level 1), contoh DFD sistem peminjaman buku",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana memetakan aliran data dalam suatu sistem?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan DFD sebagai tool pemodelan aliran data. Memberikan contoh sistem informasi perpustakaan. Latihan: membuat DFD level 0 untuk sistem pendaftaran mahasiswa.",
+          "mahasiswa": "Mencatat, latihan, diskusi",
+          "media": "Slide, contoh DFD"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas (level DFD untuk SI Peminjaman Buku Perpustakaan), menginformasikan materi lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot 30% untuk minggu 9-11",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Systems Analysis and Design. Hal 184-200",
+      "referensi_2": "Beecher, K. (2017). Ch. 8"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik menggunakan tools pemodelan (CPMK-5)",
+      "detail_sub_cpmk": "Mahasiswa mampu menerapkan pemodelan domain menggunakan Class Diagram UML",
+      "indikator_1": "Kemampuan membuat class diagram dari deskripsi sistem",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat class diagram sederhana (tanpa detail implementasi) sebagai representasi struktur data",
+      "pokok_bahasan": "Pemodelan dengan Class Diagram UML",
+      "sub_pokok_bahasan_1": "Pengertian UML, notasi class (kelas, atribut, method) dan relasi (asosiasi, agregasi)",
+      "sub_pokok_bahasan_2": "Contoh class diagram untuk sistem peminjaman buku (entity: Buku, Anggota, Peminjaman)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana merepresentasikan data dalam bentuk kelas?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan class diagram, simbol, dan hubungan antar kelas. Memberikan contoh dari kasus perpustakaan. Latihan: membuat class diagram untuk sistem pemesanan tiket bioskop.",
+          "mahasiswa": "Mencatat, latihan, diskusi",
+          "media": "Slide, contoh diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, melanjutkan tugas rancangan DFD dan class diagram, menginformasikan presentasi Use Case",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, tugas - Bobot 30%",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Hal 126-155",
+      "referensi_2": "Sumirat, L. P. (2023). Bab 4"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik menggunakan tools pemodelan (CPMK-5)",
+      "detail_sub_cpmk": "Mahasiswa mampu mendokumentasikan dan mempresentasikan Use Case Diagram",
+      "indikator_1": "Kemampuan membuat Use Case Diagram dari daftar kebutuhan fungsional",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat use case diagram sebagai alat untuk mendefinisikan interaksi aktor dengan sistem",
+      "pokok_bahasan": "Use Case Diagram",
+      "sub_pokok_bahasan_1": "Simbol use case (aktor, use case, relasi include/extend)",
+      "sub_pokok_bahasan_2": "Studi kasus: use case untuk sistem perpustakaan atau sistem informasi penjualan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana aktor menggunakan sistem?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan use case diagram, contoh penggunaan. Latihan: dari studi kasus sebelumnya, buat use case diagram. Kemudian presentasikan hasil kelompok kecil.",
+          "mahasiswa": "Latihan, diskusi, presentasi",
+          "media": "Slide, alat gambar"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis dan tugas final untuk dikumpulkan, menginformasikan materi presentasi (minggu 12)",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, presentasi - Bobot 30%",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Hal 115-118",
+      "referensi_2": "Sumirat, L. P. (2023). Bab 3"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik menggunakan tools pemodelan (CPMK-5) serta bekerja sama dan berkomunikasi (CPMK-1)",
+      "detail_sub_cpmk": "Mahasiswa mampu mempresentasikan dan mempertahankan hasil rancangan solusi algoritmik di depan kelas secara logis dan sistematis",
+      "indikator_1": "Kemampuan dalam mempresentasikan rancangan secara logis dan sistematis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan rancangan solusi (DFD, class diagram, use case) dan menjelaskan alasan desainnya",
+      "pokok_bahasan": "Presentasi Rancangan Solusi",
+      "sub_pokok_bahasan_1": "Teknik presentasi hasil desain UML",
+      "sub_pokok_bahasan_2": "Pentingnya komunikasi dalam fase desain",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas tugas), menyampaikan aturan presentasi",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Setiap kelompok (atau individu) mempresentasikan hasil rancangan (DFD, class diagram, use case) untuk kasus yang diberikan. Dosen memberi umpan balik.",
+          "mahasiswa": "Presentasi, tanya jawab",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan materi desain komprehensif (Sequence Diagram)",
+          "mahasiswa": "Mencatat masukan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Hal 240-243",
+      "referensi_2": "Sumirat, L. P. (2023). Bab 5"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik menggunakan tools pemodelan (CPMK-5)",
+      "detail_sub_cpmk": "Mahasiswa mampu mendesain solusi algoritmik yang efektif dan efisien untuk studi kasus komprehensif melalui Sequence Diagram",
+      "indikator_1": "Kemampuan dalam mentransformasikan studi kasus menjadi arsitektur program yang matang sebelum tahap pengodean",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat sequence diagram untuk memvalidasi alur logika interaksi objek",
+      "pokok_bahasan": "Desain Interaksi: Sequence Diagram",
+      "sub_pokok_bahasan_1": "Simbol sequence diagram (lifeline, activation bar, message, return)",
+      "sub_pokok_bahasan_2": "Contoh: sequence diagram untuk use case 'Meminjam Buku'",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana urutan pesan antara objek?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sequence diagram, kapan digunakan, dan cara membuatnya. Contoh dari sistem perpustakaan. Latihan: buat sequence diagram untuk use case 'Login' atau 'Pesan Tiket'.",
+          "mahasiswa": "Mencatat, latihan, diskusi",
+          "media": "Slide, alat gambar"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas desain lengkap (studi kasus komprehensif) untuk minggu depan, menginformasikan finalisasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot 15% untuk minggu 13-15",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Hal 350-390",
+      "referensi_2": "Sumirat, L. P. (2023). Bab 6"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik (CPMK-5)",
+      "detail_sub_cpmk": "Mahasiswa mampu mengintegrasikan seluruh diagram (DFD, class diagram, use case, sequence) dalam satu studi kasus yang diberikan",
+      "indikator_1": "Kelengkapan dan kesesuaian antar diagram",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat dokumentasi desain yang komprehensif untuk suatu sistem informasi sederhana",
+      "pokok_bahasan": "Integrasi Desain Solusi Algoritmik",
+      "sub_pokok_bahasan_1": "Konsistensi antar diagram (DFD, class, use case, sequence)",
+      "sub_pokok_bahasan_2": "Review keseluruhan dan verifikasi dengan studi kasus",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review tugas), menyampaikan tujuan konsistensi desain",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan studi kasus baru (misal: sistem informasi penjualan UMKM). Mahasiswa bekerja kelompok merancang DFD, class diagram, use case, sequence diagram secara terintegrasi. Dosen membimbing.",
+          "mahasiswa": "Diskusi, penyusunan desain",
+          "media": "LMS, alat gambar"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, melanjutkan pengerjaan final, menginformasikan presentasi final (minggu 15)",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Satzinger et al. (2016). Bab 8,11",
+      "referensi_2": "Beecher, K. (2017). Bab 9"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mendesain solusi algoritmik (CPMK-5) serta bekerja sama dan berkomunikasi (CPMK-1)",
+      "detail_sub_cpmk": "Mahasiswa mampu mempresentasikan final project desain solusi algoritmik komprehensif",
+      "indikator_1": "Kemampuan mempresentasikan dengan jelas dan mempertahankan argumen desain",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil desain lengkap (DFD, UML) untuk studi kasus yang diberikan",
+      "pokok_bahasan": "Final Project Presentasi",
+      "sub_pokok_bahasan_1": "Presentasi kelompok (10-15 menit) tentang solusi algoritmik",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan evaluasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi, urutan kelompok",
+          "mahasiswa": "Mempersiapkan slide",
+          "media": "Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok, memberikan penilaian dan umpan balik",
+          "mahasiswa": "Mempresentasikan proyek, menjawab pertanyaan",
+          "media": "Slide, diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi final, laporan - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi kuliah",
+      "referensi_2": "Satzinger et al. (2016). Bab 13"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang DFD, class diagram, use case, sequence diagram, dan desain solusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang pemodelan sistem (DFD, UML) dan penerapan CT dalam desain",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif, studi kasus desain), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "UAS (validasi akhir kelulusan)",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Satzinger, Beecher"
+    }
+  ]
+}

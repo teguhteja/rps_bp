@@ -18,7 +18,10 @@ __pycache__/
 output/
 output_*/
 *.docx
+*.pdf
 !RPS_MK_TSI0000.docx
+!Kontrak_Kuliah_MK_TSI0000.docx
+!SAP_MK_TSI0000.docx
 
 # If you want to ignore all raw input JSONs but keep template structure, uncomment below
 # input*/

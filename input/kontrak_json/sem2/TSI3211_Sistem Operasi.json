@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Sistem Operasi",
+  "semester": "II",
+  "sks_total": "3",
+  "jenis_mk": "Mata Kuliah Utama Prodi",
+  "kelas": "A",
+  "prasyarat": "TSI3105 (Pengantar Teknologi Informasi) – direkomendasikan",
+  "hari_jam": "Jumat, 09:50 - 12:20 (Online)",
+  "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel)"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu menjelaskan sinkronisasi proses, deadlock, dan mekanisme penanganannya"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android)"
+    }
+  ],
+  "jumlah_kuis_mingguan": "6",
+  "jumlah_tugas_terstruktur": "6",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "5",
+  "bobot_proyek": "15",
+  "bobot_tugas": "15",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "35",
+  "materi_minggu_1": "Definisi OS, fungsi (resource manager, extended machine), kernel, system call",
+  "materi_minggu_2": "Struktur OS, system call, API, layanan OS, booting",
+  "materi_minggu_3": "Sejarah OS, perbandingan karakteristik, contoh OS setiap era",
+  "materi_minggu_4": "Proses, PCB, state (new, ready, running, waiting, terminated), thread, perbedaan proses dan thread",
+  "materi_minggu_5": "FCFS, SJF (non-preemptive, preemptive), Priority (non-preemptive, preemptive)",
+  "materi_minggu_6": "Round Robin, multilevel queue, multilevel feedback queue, evaluasi algoritma",
+  "materi_minggu_7": "Critical section, Peterson solution, semaphore, mutex, monitor, producer-consumer, readers-writers",
+  "materi_minggu_9": "Deadlock characterization, resource allocation graph, deadlock prevention, avoidance (banker), detection, recovery",
+  "materi_minggu_10": "Alokasi kontigu, fragmentasi, swapping, paging, page table, TLB",
+  "materi_minggu_11": "Segmentation, segment table, kelebihan/kekurangan, contoh Intel 80386",
+  "materi_minggu_12": "Demand paging, page fault handling, copy-on-write, page replacement algorithms, working set, thrashing",
+  "materi_minggu_13": "File concept, directory structure, file allocation (contiguous, linked, indexed), free space management, I/O hardware, interrupt",
+  "materi_minggu_14": "Domain of protection, access matrix, capability, ACL, authentication, malware, defense",
+  "materi_minggu_15": "Linux (monolithic), Windows (hybrid), Android (Linux-based), perbandingan",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "mahasiswa_sign": "sign/aldi.png",
+  "dosen_sign": "sign/septa.png",
+  "nuptk": "0234772673130253"
+}

@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3217",
+    "nama_mk": "Matematika Diskrit",
+    "sks_total": "3",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu memahami logika matematika (proposisi, tautologi, ekuivalensi) dan operasi himpunan sebagai fondasi berpikir formal",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Logika proposisional (pernyataan, nilai kebenaran, operator)",
+      "indikator_1": "Ketepatan menentukan nilai kebenaran proposisi tunggal dan majemuk (¬, ∧, ∨, →, ↔)",
+      "indikator_2": "Kemampuan membuat tabel kebenaran proposisi sederhana",
+      "tujuan_pembelajaran": "Mahasiswa memahami konsep proposisi, nilai kebenaran, dan operator logika dasar, serta mampu membuat tabel kebenaran proposisi tunggal dan majemuk",
+      "pokok_bahasan": "Logika Proposisional",
+      "sub_pokok_bahasan_1": "Proposisi dan nilai kebenaran",
+      "sub_pokok_bahasan_2": "Operator logika dasar (¬, ∧, ∨, →, ↔)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (memberikan contoh pernyataan sehari-hari yang bernilai benar/salah), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi proposisi, macam-macam operator logika, cara membuat tabel kebenaran untuk 1 dan 2 variabel, memberikan contoh dan latihan soal",
+          "mahasiswa": "Mendengarkan, mencatat, berdiskusi, mengerjakan latihan soal",
+          "media": "Slide, papan tulis virtual, contoh soal interaktif"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis singkat (LMS), menginformasikan materi pertemuan berikutnya (tabel kebenaran lanjutan)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis, bertanya",
+          "media": "Google Classroom, LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online (5 soal pilihan ganda) via LMS",
+      "evaluasi_2": "Bobot penilaian: 3%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit (Edisi ke-6). Informatika Bandung. Bab 1",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics and its applications (8th ed.). McGraw-Hill. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu memahami logika matematika (proposisi, tautologi, ekuivalensi) dan operasi himpunan sebagai fondasi berpikir formal",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Tabel kebenaran, tautologi, kontradiksi, ekuivalensi logika",
+      "indikator_1": "Kemampuan membuat tabel kebenaran untuk proposisi majemuk dengan 3 variabel",
+      "indikator_2": "Ketepatan membuktikan ekuivalensi logika dengan hukum De Morgan dan hukum logika lainnya",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat tabel kebenaran proposisi majemuk (3 variabel), membedakan tautologi/kontradiksi, dan membuktikan ekuivalensi logika",
+      "pokok_bahasan": "Tabel Kebenaran dan Ekuivalensi Logika",
+      "sub_pokok_bahasan_1": "Tabel kebenaran proposisi majemuk (3 variabel)",
+      "sub_pokok_bahasan_2": "Hukum-hukum ekuivalensi (De Morgan, distributif, implikasi, dll)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Review proposisi dan operator, doa, presensi, apersepsi: 'Apakah (p→q) ekuivalen dengan (¬p∨q)?'",
+          "mahasiswa": "Menyimak, menjawab pertanyaan",
+          "media": "Slide, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara membuat tabel kebenaran dengan 3 variabel, mendefinisikan tautologi/kontradiksi, dan membuktikan ekuivalensi dengan hukum logika (De Morgan, distributif, implikasi, dll)",
+          "mahasiswa": "Latihan membuat tabel kebenaran dan pembuktian ekuivalensi",
+          "media": "Slide, papan tulis, contoh soal"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas terstruktur (5 soal ekuivalensi), menginformasikan materi himpunan",
+          "mahasiswa": "Mencatat tugas, mengumpulkan via LMS",
+          "media": "Google Classroom, LMS"
+        }
+      },
+      "evaluasi_1": "Tugas terstruktur (5 soal ekuivalensi logika)",
+      "evaluasi_2": "Bobot: 3%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 1",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 1"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu memahami logika matematika (proposisi, tautologi, ekuivalensi) dan operasi himpunan sebagai fondasi berpikir formal",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Teori himpunan (definisi, operasi, diagram Venn)",
+      "indikator_1": "Kemampuan mendefinisikan himpunan dan melakukan operasi himpunan (∩, ∪, komplemen, selisih)",
+      "indikator_2": "Kemampuan menggambar diagram Venn untuk 2 atau 3 himpunan",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan himpunan, melakukan operasi himpunan, dan menggambar diagram Venn",
+      "pokok_bahasan": "Teori Himpunan",
+      "sub_pokok_bahasan_1": "Definisi, notasi, dan jenis himpunan",
+      "sub_pokok_bahasan_2": "Operasi himpunan (irisan, gabungan, komplemen, selisih) dan diagram Venn",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: 'Apa itu himpunan? Berikan contoh himpunan dalam basis data'",
+          "mahasiswa": "Menyimak, menjawab apersepsi",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep himpunan, notasi, operasi himpunan, hukum-hukum himpunan, dan teknik menggambar diagram Venn",
+          "mahasiswa": "Mencatat, latihan soal, menggambar diagram Venn",
+          "media": "Slide, papan tulis, contoh soal"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi relasi",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (5 soal operasi himpunan)",
+      "evaluasi_2": "Bobot: 4%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 2",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 2"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menganalisis relasi, fungsi, dan struktur kombinatorial untuk pemodelan data dan komputasi",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Relasi biner (sifat refleksif, simetris, transitif, ekuivalen)",
+      "indikator_1": "Kemampuan menentukan sifat relasi (refleksif, simetris, transitif, ekuivalen)",
+      "indikator_2": "Kemampuan membuat matriks relasi dan digraf relasi",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi sifat-sifat relasi, membuat matriks relasi, dan menggambar digraf",
+      "pokok_bahasan": "Relasi Biner",
+      "sub_pokok_bahasan_1": "Sifat relasi: refleksif, simetris, transitif, ekuivalen",
+      "sub_pokok_bahasan_2": "Matriks relasi dan digraf",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: kaitan relasi dengan foreign key di basis data",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi relasi biner, sifat-sifat relasi, matriks relasi, digraf, dan relasi ekuivalen serta kelas ekuivalen",
+          "mahasiswa": "Diskusi, latihan soal menentukan sifat relasi",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis relasi pada contoh kasus), menginformasikan materi fungsi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (analisis relasi pada dataset kecil)",
+      "evaluasi_2": "Bobot: 4%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 3",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 9"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menganalisis relasi, fungsi, dan struktur kombinatorial untuk pemodelan data dan komputasi",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Fungsi (injektif, surjektif, bijektif, komposisi, invers)",
+      "indikator_1": "Kemampuan menentukan jenis fungsi (injektif, surjektif, bijektif)",
+      "indikator_2": "Kemampuan menghitung komposisi fungsi dan invers fungsi",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi fungsi injektif, surjektif, bijektif, serta melakukan komposisi dan invers fungsi",
+      "pokok_bahasan": "Fungsi",
+      "sub_pokok_bahasan_1": "Jenis-jenis fungsi (injektif, surjektif, bijektif)",
+      "sub_pokok_bahasan_2": "Komposisi fungsi dan fungsi invers",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: contoh fungsi dalam pemrograman",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi fungsi, domain, kodomain, range, fungsi injektif, surjektif, bijektif, komposisi, dan invers. Memberikan latihan soal",
+          "mahasiswa": "Latihan soal menentukan jenis fungsi dan komposisi",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu, menginformasikan materi kombinatorik",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (10 soal fungsi)",
+      "evaluasi_2": "Bobot: 4%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 3",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menganalisis relasi, fungsi, dan struktur kombinatorial untuk pemodelan data dan komputasi",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Kombinatorik (prinsip perkalian, penjumlahan, permutasi, kombinasi)",
+      "indikator_1": "Kemampuan menyelesaikan masalah dengan prinsip perkalian dan penjumlahan",
+      "indikator_2": "Ketepatan menghitung permutasi dan kombinasi (dengan dan tanpa pengulangan)",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan aturan pencacahan, permutasi, dan kombinasi dalam pemecahan masalah",
+      "pokok_bahasan": "Kombinatorik",
+      "sub_pokok_bahasan_1": "Aturan perkalian dan penjumlahan",
+      "sub_pokok_bahasan_2": "Permutasi, kombinasi, dan teorema binomial",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: 'Berapa banyak cara memilih password?'",
+          "mahasiswa": "Menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan prinsip perkalian, penjumlahan, permutasi (dengan dan tanpa pengulangan), kombinasi, dan teorema binomial. Latihan soal",
+          "mahasiswa": "Mengerjakan latihan hitungan",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi induksi",
+          "mahasiswa": "Kuis online",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (5 soal kombinatorik)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 4",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 6"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menerapkan induksi matematika, matriks, dan aljabar boolean dalam pembuktian dan perancangan logika sistem",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Induksi matematika (prinsip, langkah basis dan induktif)",
+      "indikator_1": "Kemampuan membuktikan pernyataan matematika dengan induksi sederhana",
+      "indikator_2": "Pemahaman relasi rekursif dan pembuktian rekursif",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan pembuktian dengan induksi matematika dan memahami relasi rekursif",
+      "pokok_bahasan": "Induksi Matematika",
+      "sub_pokok_bahasan_1": "Prinsip induksi: langkah basis dan induktif",
+      "sub_pokok_bahasan_2": "Relasi rekursif",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: contoh deret bilangan, buktikan rumus",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan prinsip induksi matematika, langkah basis dan induktif, contoh pembuktian jumlah deret, dan relasi rekursif (faktorial, fibonacci). Latihan pembuktian",
+          "mahasiswa": "Latihan membuktikan rumus dengan induksi",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas pembuktian, menginformasikan materi UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (3 soal pembuktian induksi)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 5",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 5"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Tengah Semester (materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep logika, himpunan, relasi, fungsi, kombinatorik, induksi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Mengawasi ujian, membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan pengumpulan jawaban, menutup sesi",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (20 soal pilihan ganda + 5 esai)",
+      "evaluasi_2": "Bobot: 15%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 1-5",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 1,2,5,6,9"
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menerapkan induksi matematika, matriks, dan aljabar boolean dalam pembuktian dan perancangan logika sistem",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Matriks (operasi, perkalian, transpos, invers dasar)",
+      "indikator_1": "Kemampuan melakukan operasi matriks (penjumlahan, perkalian, transpos)",
+      "indikator_2": "Pemahaman konsep determinan dan invers matriks 2x2",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan operasi matriks dan memahami aplikasinya dalam sistem informasi",
+      "pokok_bahasan": "Matriks",
+      "sub_pokok_bahasan_1": "Operasi matriks (penjumlahan, perkalian, transpos)",
+      "sub_pokok_bahasan_2": "Determinan dan invers matriks 2x2",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: representasi data dalam tabel",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan operasi matriks, perkalian matriks, transpos, determinan, invers. Latihan soal",
+          "mahasiswa": "Latihan hitungan matriks",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi aljabar boolean",
+          "mahasiswa": "Kuis online",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (5 soal operasi matriks)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 6",
+      "referensi_2": "Anton, H. (2019). Aljabar Linear Elementer. Bab 1-2"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menerapkan induksi matematika, matriks, dan aljabar boolean dalam pembuktian dan perancangan logika sistem",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Aljabar boolean (aksioma, ekspresi, penyederhanaan dengan Karnaugh map)",
+      "indikator_1": "Kemampuan menyederhanakan ekspresi boolean dengan hukum aljabar boolean",
+      "indikator_2": "Kemampuan menggunakan Karnaugh map (K-map) untuk 2,3,4 variabel",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyederhanakan ekspresi boolean dan menerapkan K-map",
+      "pokok_bahasan": "Aljabar Boolean",
+      "sub_pokok_bahasan_1": "Aksioma dan hukum aljabar boolean",
+      "sub_pokok_bahasan_2": "Penyederhanaan dengan Karnaugh map",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: koneksi dengan gerbang logika",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan aljabar boolean, hukum-hukum, ekspresi boolean, dan teknik K-map untuk 2,3,4 variabel. Latihan soal",
+          "mahasiswa": "Latihan menyederhanakan dengan K-map",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu, menginformasikan materi graf",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (5 soal penyederhanaan boolean)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 7",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 12"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menggunakan teori graf (jenis graf, derajat, isomorfisme, konektivitas) untuk pemodelan masalah",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Teori graf (definisi, terminologi, jenis graf, derajat, isomorfisme)",
+      "indikator_1": "Kemampuan mengidentifikasi jenis graf (sederhana, berarah, berbobot, dll)",
+      "indikator_2": "Kemampuan menghitung derajat simpul, dan mengenali isomorfisme graf sederhana",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan graf, menentukan jenis graf, derajat, dan isomorfisme",
+      "pokok_bahasan": "Teori Graf Dasar",
+      "sub_pokok_bahasan_1": "Definisi graf, terminologi, jenis graf",
+      "sub_pokok_bahasan_2": "Derajat, isomorfisme, subgraf",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: contoh graf dalam jaringan komputer",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi graf, jenis graf (sederhana, berarah, multigraph, berbobot), derajat, isomorfisme, dan subgraf. Latihan mengidentifikasi graf",
+          "mahasiswa": "Latihan soal",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi lintasan Euler/Hamilton",
+          "mahasiswa": "Kuis online",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online (identifikasi graf)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 8",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 10"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menggunakan teori graf (jenis graf, derajat, isomorfisme, konektivitas) untuk pemodelan masalah",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Lintasan, sirkuit, konektivitas, graf Euler dan Hamilton",
+      "indikator_1": "Kemampuan menentukan lintasan Euler dan sirkuit Euler",
+      "indikator_2": "Kemampuan menentukan lintasan/sirkuit Hamilton",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis keberadaan lintasan Euler/Hamilton pada graf sederhana",
+      "pokok_bahasan": "Lintasan dan Sirkuit Khusus",
+      "sub_pokok_bahasan_1": "Graf Euler (lintasan dan sirkuit)",
+      "sub_pokok_bahasan_2": "Graf Hamilton (lintasan dan sirkuit)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: masalah jembatan Königsberg",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan teorema Euler untuk sirkuit/lintasan, masalah Hamilton, kriteria cukup. Latihan soal menentukan Euler/Hamilton",
+          "mahasiswa": "Latihan soal",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok, menginformasikan materi traversal BFS/DFS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (analisis graf pada kasus rute distribusi)",
+      "evaluasi_2": "Bobot: 5%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 8",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 10"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan struktur pohon dalam pemecahan masalah sistem informasi",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Algoritma traversal graf (BFS, DFS) dan aplikasinya",
+      "indikator_1": "Kemampuan mensimulasikan algoritma BFS (Breadth First Search) pada graf sederhana",
+      "indikator_2": "Kemampuan mensimulasikan algoritma DFS (Depth First Search) pada graf sederhana",
+      "tujuan_pembelajaran": "Mahasiswa mampu menerapkan algoritma BFS dan DFS untuk traversal graf",
+      "pokok_bahasan": "Traversal Graf",
+      "sub_pokok_bahasan_1": "Breadth First Search (BFS)",
+      "sub_pokok_bahasan_2": "Depth First Search (DFS)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: pencarian jalur di peta",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan prinsip BFS (menggunakan queue) dan DFS (menggunakan stack), simulasi pada graf, serta aplikasinya (misal deteksi siklus). Latihan simulasi",
+          "mahasiswa": "Simulasi BFS/DFS pada graf kecil",
+          "media": "Slide, animasi, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas simulasi, menginformasikan materi pohon",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik (simulasi BFS/DFS pada graf yang diberikan)",
+      "evaluasi_2": "Bobot: 6%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 8",
+      "referensi_2": "Cormen et al. (2009). Introduction to Algorithms. Bab 22"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 3x50",
+      "detail_cpmk": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan struktur pohon dalam pemecahan masalah sistem informasi",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Pohon (berakar, pohon biner, traversal pohon, pohon rentang minimum)",
+      "indikator_1": "Kemampuan menelusuri pohon biner dengan preorder, inorder, postorder",
+      "indikator_2": "Kemampuan menerapkan algoritma Prim atau Kruskal untuk pohon rentang minimum",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan traversal pohon biner dan menentukan pohon rentang minimum",
+      "pokok_bahasan": "Pohon (Tree) dan Aplikasinya",
+      "sub_pokok_bahasan_1": "Pohon biner dan traversal (preorder, inorder, postorder)",
+      "sub_pokok_bahasan_2": "Minimum Spanning Tree (Prim & Kruskal)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi: struktur folder komputer",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan pohon biner, cara traversal, dan algoritma Prim/Kruskal untuk MST. Latihan soal MST",
+          "mahasiswa": "Latihan traversal pohon dan MST",
+          "media": "Slide, papan tulis"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas hitungan MST, menginformasikan materi studi kasus integrasi",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (soal MST dan traversal pohon)",
+      "evaluasi_2": "Bobot: 6%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 9",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 11"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Diskusi + bimbingan TM: 3x50",
+      "detail_cpmk": "Mampu mengintegrasikan konsep matematika diskrit dalam studi kasus sistem informasi",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Studi kasus integrasi matematika diskrit dalam sistem informasi",
+      "indikator_1": "Kemampuan mengidentifikasi penerapan konsep (basis data, jaringan, algoritma) dalam SI",
+      "indikator_2": "Kemampuan menyusun laporan kelompok tentang penerapan matematika diskrit",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengaitkan konsep matematika diskrit dengan permasalahan nyata di bidang SI",
+      "pokok_bahasan": "Integrasi Matematika Diskrit dalam SI",
+      "sub_pokok_bahasan_1": "Penerapan logika, himpunan, relasi pada basis data",
+      "sub_pokok_bahasan_2": "Penerapan graf dan pohon pada jaringan dan algoritma",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, membagi kelompok, menjelaskan tugas studi kasus",
+          "mahasiswa": "Membentuk kelompok, memilih kasus",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan contoh kasus (ERD, query logika, algoritma pencarian), membimbing diskusi kelompok",
+          "mahasiswa": "Berdiskusi, mencari referensi, menyusun laporan",
+          "media": "Laptop, internet, LMS"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progress, menginformasikan presentasi minggu depan",
+          "mahasiswa": "Mencatat target penyelesaian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan kelompok (studi kasus penerapan matematika diskrit)",
+      "evaluasi_2": "Bobot: 6%",
+      "referensi_1": "Buku Kurikulum Prodi SI, bab penerapan",
+      "referensi_2": "Jurnal ilmiah terkait"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Akhir Semester (materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang matriks, aljabar boolean, graf, pohon, dan studi kasus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 9-15",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Matriks, aljabar boolean, graf, pohon, MST, studi kasus",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi",
+          "mahasiswa": "Mempersiapkan diri",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Mengawasi ujian",
+          "mahasiswa": "Mengerjakan soal ujian",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan pengumpulan, menutup sesi",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (20 soal pilihan ganda + 5 esai, termasuk studi kasus)",
+      "evaluasi_2": "Bobot: 18%",
+      "referensi_1": "Munir, R. (2016). Matematika diskrit. Bab 6-9",
+      "referensi_2": "Rosen, K. H. (2019). Discrete mathematics. Bab 10-12"
+    }
+  ]
+}

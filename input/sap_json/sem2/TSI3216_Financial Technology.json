@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3216",
+    "nama_mk": "Financial Technology",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan konsep, ekosistem, dan perkembangan Financial Technology (FinTech) di Indonesia dan global (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Konsep dan perkembangan FinTech",
+      "indikator_1": "Ketepatan menjelaskan definisi FinTech, ruang lingkup, dan evolusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi FinTech, ruang lingkup, serta perkembangan FinTech global dan di Indonesia",
+      "pokok_bahasan": "Konsep dan Perkembangan FinTech",
+      "sub_pokok_bahasan_1": "Definisi FinTech dan perbedaan dengan bank tradisional",
+      "sub_pokok_bahasan_2": "Sejarah FinTech global dan Indonesia",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contohn aplikasi FinTech yang sering digunakan), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi FinTech, ruang lingkup (layanan keuangan berbasis teknologi), perbedaan dengan bank tradisional, serta timeline perkembangan FinTech di dunia dan Indonesia. Memberikan contoh perusahaan FinTech awal",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi singkat",
+          "media": "Slide, papan tulis virtual, infografis timeline"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi ekosistem FinTech Indonesia",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online, tanya jawab - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S., & Barberis, J. (2016). The FinTech Book. Bab 1-2",
+      "referensi_2": "Otoritas Jasa Keuangan. (2021). Roadmap Pengembangan FinTech di Indonesia. Pendahuluan"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menjelaskan konsep, ekosistem, dan perkembangan Financial Technology (FinTech) di Indonesia dan global (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Ekosistem FinTech Indonesia",
+      "indikator_1": "Kemampuan mengidentifikasi pemain (GoPay, OVO, Dana, Akulaku, Investree) dan regulator",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi pemain utama (startup, perbankan, investor) dan regulator dalam ekosistem FinTech Indonesia",
+      "pokok_bahasan": "Ekosistem FinTech Indonesia",
+      "sub_pokok_bahasan_1": "Startup FinTech (GoPay, OVO, Dana, Akulaku, Investree)",
+      "sub_pokok_bahasan_2": "Peran bank, investor, dan regulator (OJK, BI, Kominfo)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: platform FinTech apa yang dikenal), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ekosistem FinTech: startup (pembayaran, lending, investasi), perbankan sebagai mitra, investor (VC), dan regulator. Menampilkan peta pemain FinTech Indonesia. Diskusi kelompok tentang peran masing-masing pemain",
+          "mahasiswa": "Diskusi kelompok kecil, mempresentasikan poin",
+          "media": "Slide, diagram ekosistem"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis satu startup FinTech), menginformasikan materi pembayaran digital",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi kelompok - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 3",
+      "referensi_2": "OJK Roadmap (2021). Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis berbagai model bisnis FinTech (pembayaran digital, lending, crowdfunding, investasi) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Pembayaran digital",
+      "indikator_1": "Kemampuan menjelaskan e-wallet, QRIS, payment gateway",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan model bisnis pembayaran digital (e-wallet, QRIS, payment gateway) beserta biaya transaksi",
+      "pokok_bahasan": "Pembayaran Digital",
+      "sub_pokok_bahasan_1": "Dompet elektronik (e-wallet)",
+      "sub_pokok_bahasan_2": "QRIS dan payment gateway (Midtrans, Xendit)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pengalaman menggunakan e-wallet), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan jenis e-wallet (closed loop, open loop), standar QRIS (sejarah, manfaat), payment gateway (fungsi, contoh Midtrans, Xendit), dan komponen biaya (MDR, setup fee). Studi kasus: perbandingan GoPay, OVO, Dana",
+          "mahasiswa": "Mencatat, diskusi, latihan menghitung biaya transaksi",
+          "media": "Slide, contoh transaksi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan studi kasus (analisis payment gateway), menginformasikan materi P2P lending & crowdfunding",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 4 (payments)",
+      "referensi_2": "Arner, D. (2017). The FinTech RegTech Book. Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis berbagai model bisnis FinTech (pembayaran digital, lending, crowdfunding, investasi) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Peer-to-peer lending dan crowdfunding",
+      "indikator_1": "Kemampuan menjelaskan mekanisme pinjam meminjam online dan penggalangan dana",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan model bisnis P2P lending dan crowdfunding, termasuk risiko gagal bayar",
+      "pokok_bahasan": "Peer-to-peer Lending dan Crowdfunding",
+      "sub_pokok_bahasan_1": "P2P lending (Modalku, Amartha)",
+      "sub_pokok_bahasan_2": "Crowdfunding (KitaBisa, Kitabisa) dan resiko gagal bayar",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: perbedaan pinjaman online dan galang dana), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan mekanisme P2P lending (lender, borrower, platform), skema bagi hasil, regulasi OJK. Crowdfunding: donation, reward, equity, debt. Contoh platform Modalku, Amartha, KitaBisa. Diskusi risiko gagal bayar dan mitigasi",
+          "mahasiswa": "Mencatat, diskusi, latihan menganalisis studi kasus platform",
+          "media": "Slide, studi kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (analisis platform P2P lending), menginformasikan materi robo-advisor & insurtech",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: analisis platform - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 5 (lending & crowdfunding)",
+      "referensi_2": "OJK Roadmap. Bab 3"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis berbagai model bisnis FinTech (pembayaran digital, lending, crowdfunding, investasi) (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Robo-advisor, insurtech, investasi digital",
+      "indikator_1": "Kemampuan menjelaskan investasi online dan asuransi digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan model bisnis robo-advisor, insurtech, dan investasi digital (reksadana, saham)",
+      "pokok_bahasan": "Robo-advisor, Insurtech, Investasi Digital",
+      "sub_pokok_bahasan_1": "Robo-advisor (Bibit, Bareksa)",
+      "sub_pokok_bahasan_2": "Insurtech (PasarPolis, Qoala) dan investasi digital (reksadana, saham online)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: investasi online yang pernah digunakan), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan robo-advisor: algoritma, portofolio sesuai profil risiko, contoh Bibit, Bareksa. Insurtech: digitalisasi asuransi, contoh PasarPolis, Qoala. Investasi digital: reksadana online, saham ritel (Ajaib, Stockbit). Diskusi kelebihan dan risiko",
+          "mahasiswa": "Mencatat, diskusi, latihan membandingkan dua aplikasi investasi",
+          "media": "Slide, screenshot aplikasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi API dan open banking",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 6 (wealth management)",
+      "referensi_2": "Arner, D. (2017). Bab 7"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan teknologi dalam FinTech (API, blockchain, big data, keamanan) dan memahami RegTech (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: API ekonomi, open banking, teknologi pendukung",
+      "indikator_1": "Kemampuan menjelaskan peran API, big data, dan AI dalam FinTech",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan peran API, open banking, big data analitik, dan AI dalam FinTech",
+      "pokok_bahasan": "API Ekonomi, Open Banking, Big Data & AI",
+      "sub_pokok_bahasan_1": "API (Application Programming Interface) dan open banking",
+      "sub_pokok_bahasan_2": "Big data analytics dan AI untuk credit scoring",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu API?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan API: definisi, cara kerja, contoh API FinTech (pembayaran, data nasabah). Open banking: inisiatif BI, standar, implementasi. Big data: sumber data, analitik untuk credit scoring, deteksi fraud. AI: chatbot, personalisasi. Studi kasus: bagaimana Gojek menggunakan API dan big data",
+          "mahasiswa": "Mencatat, diskusi, latihan mencari contoh penggunaan API di FinTech",
+          "media": "Slide, dokumentasi API"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan diskusi, menginformasikan materi blockchain dan cryptocurrency",
+          "mahasiswa": "Diskusi",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Diskusi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arner, D. (2017). Bab 8 (Tech in FinTech)",
+      "referensi_2": "Chishti, S. (2016). Bab 9"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan teknologi dalam FinTech (API, blockchain, big data, keamanan) dan memahami RegTech (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Blockchain dan cryptocurrency",
+      "indikator_1": "Kemampuan menjelaskan blockchain, Bitcoin, Ethereum, smart contract",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep dasar blockchain, cryptocurrency (Bitcoin, Ethereum), dan smart contract",
+      "pokok_bahasan": "Blockchain dan Cryptocurrency",
+      "sub_pokok_bahasan_1": "Konsep blockchain (desentralisasi, konsensus)",
+      "sub_pokok_bahasan_2": "Cryptocurrency (Bitcoin, Ethereum), token, smart contract",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu Bitcoin?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan blockchain: struktur, mekanisme konsensus (PoW, PoS), karakteristik (immutable, transparan). Cryptocurrency: Bitcoin sebagai contoh pertama, Ethereum dengan smart contract. Smart contract: definisi, contoh penggunaan (DeFi). Diskusi potensi dan risiko",
+          "mahasiswa": "Mencatat, diskusi, latihan membuat analogi blockchain",
+          "media": "Slide, animasi blockchain"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (esai singkat tentang potensi blockchain), menginformasikan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu: esai singkat - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arner, D. (2017). Bab 9 (blockchain)",
+      "referensi_2": "Chishti, S. (2016). Bab 10"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep FinTech, model bisnis, teknologi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap konsep FinTech, model bisnis, dan teknologi pendukung",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasus)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis risiko dan kepatuhan regulasi FinTech di Indonesia (OJK, Bank Indonesia) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8: RegTech dan regulasi FinTech",
+      "indikator_1": "Kemampuan menjelaskan peran OJK, BI, UU PDP, dan aturan perlindungan konsumen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan kerangka regulasi FinTech di Indonesia (OJK, BI), serta konsep RegTech dan UU perlindungan data",
+      "pokok_bahasan": "RegTech dan Regulasi FinTech",
+      "sub_pokok_bahasan_1": "Peraturan OJK (POJK), Bank Indonesia (PBI)",
+      "sub_pokok_bahasan_2": "UU Perlindungan Data Pribadi, anti pencucian uang (AML), RegTech",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pentingnya regulasi FinTech), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan wewenang OJK untuk FinTech lending, BI untuk sistem pembayaran. POJK tentang P2P lending, perlindungan konsumen. UU PDP (2022) dampak pada FinTech. AML/CFT. RegTech: penggunaan teknologi untuk kepatuhan. Studi kasus regulasi terhadap platform lending",
+          "mahasiswa": "Mencatat, diskusi, studi kasus regulasi",
+          "media": "Slide, dokumen regulasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan studi kasus regulasi, menginformasikan materi analisis risiko",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus regulasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Arner, D. (2017). Bab 11 (RegTech)",
+      "referensi_2": "OJK Roadmap. Bab 4 (regulasi)"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis risiko dan kepatuhan regulasi FinTech di Indonesia (OJK, Bank Indonesia) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Analisis risiko FinTech",
+      "indikator_1": "Kemampuan mengidentifikasi risiko kredit, likuiditas, operasional, dan keamanan siber",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi berbagai jenis risiko dalam FinTech (kredit, likuiditas, operasional, keamanan siber)",
+      "pokok_bahasan": "Analisis Risiko FinTech",
+      "sub_pokok_bahasan_1": "Risiko kredit (default), likuiditas, operasional",
+      "sub_pokok_bahasan_2": "Fraud dan keamanan siber",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa risiko terbesar FinTech?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan risiko kredit (gagal bayar di P2P lending), likuiditas (ketidakmampuan bayar), operasional (sistem down, human error), fraud, dan keamanan siber (peretasan, pencurian data). Diskusi kelompok: peta risiko untuk satu platform FinTech",
+          "mahasiswa": "Diskusi kelompok, menyusun peta risiko",
+          "media": "Slide, template matriks risiko"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis risiko platform FinTech), menginformasikan materi keamanan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: analisis risiko - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Arner, D. (2017). Bab 12 (risk management)",
+      "referensi_2": "Chishti, S. (2016). Bab 13"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu melakukan analisis risiko dan kepatuhan regulasi FinTech di Indonesia (OJK, Bank Indonesia) (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9: Keamanan dan manajemen risiko",
+      "indikator_1": "Kemampuan menjelaskan enkripsi, otentikasi, pencegahan fraud",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan mekanisme keamanan (enkripsi, 2FA, tokenisasi) dan deteksi fraud dalam FinTech",
+      "pokok_bahasan": "Keamanan dan Manajemen Risiko",
+      "sub_pokok_bahasan_1": "Enkripsi, otentikasi (2FA), tokenisasi",
+      "sub_pokok_bahasan_2": "Deteksi fraud dengan AI, upaya pencegahan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah mengalami akun diretas?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan enkripsi simetris/asimetris, 2FA (SMS, authenticator), tokenisasi (pembayaran). Deteksi fraud: rule-based, machine learning, anomaly detection. Contoh deteksi fraud di e-wallet. Studi kasus: kebocoran data FinTech dan responnya",
+          "mahasiswa": "Mencatat, diskusi, latihan memilih metode keamanan",
+          "media": "Slide, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, menginformasikan materi ideasi bisnis",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Arner, D. (2017). Bab 13 (cybersecurity)",
+      "referensi_2": "Chishti, S. (2016). Bab 14"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Ideasi bisnis FinTech",
+      "indikator_1": "Kemampuan mengidentifikasi masalah dan solusi FinTech",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi permasalahan di ekosistem FinTech dan merumuskan ide bisnis solusi",
+      "pokok_bahasan": "Ideasi Bisnis FinTech",
+      "sub_pokok_bahasan_1": "Brainstorming ide, validasi masalah",
+      "sub_pokok_bahasan_2": "Target pasar dan proposisi nilai",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: masalah FinTech apa yang belum teratasi?), menyampaikan tujuan proyek",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan tahap ideasi: identifikasi pain point di layanan keuangan, cari celah inovasi. Metode validasi masalah (wawancara, survei). Membagi kelompok, brainstorming ide, memilih satu ide. Membimbing untuk merumuskan target pasar dan value proposition",
+          "mahasiswa": "Diskusi kelompok, menulis ide, presentasi singkat",
+          "media": "Slide, template canvas ide"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan proposal ide kelompok, menginformasikan materi BMC",
+          "mahasiswa": "Mencatat tugas, mulai menyusun proposal",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal ide kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 16 (entrepreneurship)",
+      "referensi_2": "Osterwalder, A. BMC handbook"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Business Model Canvas (BMC) FinTech",
+      "indikator_1": "Kemampuan menyusun BMC untuk ide FinTech",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun Business Model Canvas (9 blok) untuk ide bisnis FinTech",
+      "pokok_bahasan": "Business Model Canvas (BMC) FinTech",
+      "sub_pokok_bahasan_1": "9 blok BMC (value proposition, customer segments, channels, revenue streams, cost structure)",
+      "sub_pokok_bahasan_2": "Contoh BMC FinTech (GoPay, Investree)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu BMC), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sembilan blok BMC lengkap dengan contoh untuk FinTech. Memberikan template BMC. Kelompok mulai mengisi BMC untuk ide masing-masing. Dosen membimbing",
+          "mahasiswa": "Mengisi BMC, diskusi kelompok, konsultasi",
+          "media": "Template BMC digital"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (mengisi BMC), menginformasikan materi rencana bisnis",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: BMC - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Osterwalder, A. Business Model Generation (Chapter 1)",
+      "referensi_2": "Chishti, S. (2016). Bab 17"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Penyusunan rencana bisnis sederhana",
+      "indikator_1": "Kemampuan membuat proyeksi keuangan sederhana dan strategi pemasaran",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun rencana bisnis sederhana meliputi proyeksi keuangan dan strategi akuisisi pengguna",
+      "pokok_bahasan": "Rencana Bisnis Sederhana",
+      "sub_pokok_bahasan_1": "Proyeksi pendapatan, biaya, break-even point",
+      "sub_pokok_bahasan_2": "Strategi akuisisi pengguna (digital marketing, referral)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: bagaimana memperkirakan pendapatan?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan dasar proyeksi keuangan: revenue streams (transaction fee, subscription, interest), biaya tetap dan variabel, perhitungan BEP sederhana. Strategi pemasaran digital (SEO, social media ads, influencer, referral). Memberikan template rencana bisnis. Kelompok memulai mengisi",
+          "mahasiswa": "Mengisi draft rencana bisnis, konsultasi",
+          "media": "Template spreadsheet, contoh"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tenggat draft rencana, menginformasikan presentasi akhir",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok: draft rencana - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 18 (financial planning)",
+      "referensi_2": "Osterwalder, A. Bab 3"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 10: Presentasi ide bisnis FinTech",
+      "indikator_1": "Kemampuan mempresentasikan ide dan BMC di depan kelas",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan ide bisnis FinTech beserta BMC dan rencana sederhana secara efektif",
+      "pokok_bahasan": "Presentasi Ide Bisnis FinTech",
+      "sub_pokok_bahasan_1": "Paparan 10 menit per kelompok",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan peer feedback",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (10 menit + 5 menit tanya jawab), urutan",
+          "mahasiswa": "Mempersiapkan slide, berdoa",
+          "media": "Zoom, slide"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok, memberikan pertanyaan, memberikan umpan balik konstruktif",
+          "mahasiswa": "Mempresentasikan (ide, BMC, proyeksi keuangan, strategi), menjawab pertanyaan",
+          "media": "Slide, template BMC"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat feedback",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok (10 menit) - Bobot 8%",
+      "evaluasi_2": "",
+      "referensi_1": "Chishti, S. (2016). Bab 20 (pitching)",
+      "referensi_2": "Osterwalder, A. Bab 4"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 1-15)",
+      "detail_sub_cpmk": "UAS: Ujian Akhir Semester",
+      "indikator_1": "Menjawab soal integratif tentang regulasi, risiko, ide bisnis, dan studi kasus FinTech",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang regulasi, risiko, ide bisnis, serta studi kasus FinTech",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15 (regulasi, risiko, ideasi, BMC)",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan (boleh buka catatan, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif, studi kasus regulasi dan ide bisnis), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus regulasi, analisis risiko, menyusun BMC singkat)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Chishti, Arner, OJK Roadmap"
+    }
+  ]
+}

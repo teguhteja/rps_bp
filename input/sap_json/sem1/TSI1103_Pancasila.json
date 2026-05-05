@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1103",
+    "nama_mk": "Pancasila",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menguasai konsep teoretis secara umum mengenai pentingnya mempelajari mata kuliah pendidikan Kewarganegaraan (CPMK-1)",
+      "detail_sub_cpmk": "Mahasiswa mampu menelusuri konsep dan urgensi Kewarganegaraan dalam pencerdasan kehidupan bangsa",
+      "indikator_1": "Ketepatan menjelaskan konsep dan urgensi Kewarganegaraan dalam pencerdasan kehidupan bangsa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep dan urgensi Pendidikan Kewarganegaraan serta kaitannya dengan pencerdasan kehidupan bangsa",
+      "pokok_bahasan": "Konsep dan Urgensi Kewarganegaraan",
+      "sub_pokok_bahasan_1": "Pengertian Kewarganegaraan dan Pendidikan Kewarganegaraan",
+      "sub_pokok_bahasan_2": "Urgensi PKn dalam pencerdasan kehidupan bangsa",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa pentingnya belajar PKn?), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep kewarganegaraan, hakikat PKn, urgensi pencerdasan kehidupan bangsa. Diskusi interaktif dan tanya jawab.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis/quiz singkat, menginformasikan materi pertemuan berikutnya",
+          "mahasiswa": "Mengerjakan quiz, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis, presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Paradigma Baru Pendidikan Kewarganegaraan. Bab 1",
+      "referensi_2": "Kaelan (2010). Pendidikan Kewarganegaraan. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menguasai konsep teoretis secara umum (CPMK-1)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami historis, sosiologis, dan politik tentang kewarganegaraan di Indonesia",
+      "indikator_1": "Ketepatan menjelaskan konsep dasar historis, sosiologis, dan politik tentang kewarganegaraan di Indonesia",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan latar belakang historis, sosiologis, dan politik kewarganegaraan di Indonesia",
+      "pokok_bahasan": "Historis, Sosiologis, dan Politik Kewarganegaraan",
+      "sub_pokok_bahasan_1": "Perkembangan kewarganegaraan Indonesia secara historis",
+      "sub_pokok_bahasan_2": "Dimensi sosiologis dan politik dalam kewarganegaraan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: sejarah kewarganegaraan Indonesia?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah kewarganegaraan dari masa ke masa, faktor sosiologis dan politik yang mempengaruhi. Diskusi kelompok.",
+          "mahasiswa": "Mencatat, diskusi, presentasi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi identitas nasional",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 2",
+      "referensi_2": "Kaelan (2010). Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menguasai konsep teoretis (CPMK-1)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami identitas nasional sebagai salah satu determinan pembangunan bangsa dan karakter",
+      "indikator_1": "Ketepatan menjelaskan identitas nasional sebagai determinan pembangunan bangsa dan karakter",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep identitas nasional dan pengaruhnya terhadap pembangunan bangsa dan karakter",
+      "pokok_bahasan": "Identitas Nasional",
+      "sub_pokok_bahasan_1": "Pengertian dan unsur-unsur identitas nasional",
+      "sub_pokok_bahasan_2": "Peran identitas nasional dalam pembangunan bangsa dan karakter",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa identitas nasional Indonesia?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan identitas nasional (bahasa, budaya, sejarah, simbol negara), perannya dalam pembangunan karakter bangsa. Diskusi.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi integrasi nasional",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 3",
+      "referensi_2": "Kaelan (2010). Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual Kewarganegaraan (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami urgensi integrasi nasional sebagai salah satu parameter persatuan dan kesatuan bangsa",
+      "indikator_1": "Ketepatan menjelaskan urgensi integrasi nasional sebagai parameter persatuan dan kesatuan bangsa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan pentingnya integrasi nasional dalam menjaga persatuan dan kesatuan bangsa",
+      "pokok_bahasan": "Integrasi Nasional",
+      "sub_pokok_bahasan_1": "Konsep integrasi nasional",
+      "sub_pokok_bahasan_2": "Parameter persatuan dan kesatuan bangsa",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa yang mengancam persatuan bangsa?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan urgensi integrasi nasional, faktor pendorong dan penghambat. Diskusi kasus disintegrasi.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan lanjutan integrasi nasional",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 4",
+      "referensi_2": "Kaelan (2010). Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami urgensi integrasi nasional (lanjutan)",
+      "indikator_1": "Ketepatan menjelaskan urgensi integrasi nasional sebagai parameter persatuan dan kesatuan bangsa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis faktor-faktor yang mempengaruhi integrasi nasional di Indonesia",
+      "pokok_bahasan": "Faktor-faktor Integrasi Nasional",
+      "sub_pokok_bahasan_1": "Faktor pendorong integrasi (sejarah, kemauan bersatu, Bhinneka Tunggal Ika)",
+      "sub_pokok_bahasan_2": "Faktor penghambat dan ancaman disintegrasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review minggu lalu), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Mendalami faktor-faktor yang memperkuat dan mengancam integrasi nasional. Studi kasus (SARA, radikalisme, ketimpangan).",
+          "mahasiswa": "Mencatat, diskusi kelompok",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi harmoni hak dan kewajiban",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 4",
+      "referensi_2": "Busrizalti (2013). Pendidikan Kewarganegaraan. Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami harmoni kewajiban dan hak warga negara dalam demokrasi Pancasila",
+      "indikator_1": "Ketepatan menjelaskan harmoni kewajiban dan hak negara dan warga negara dalam demokrasi yang bersumbu pada kedaulatan rakyat dan musyawarah mufakat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan keseimbangan hak dan kewajiban warga negara dalam sistem demokrasi Pancasila",
+      "pokok_bahasan": "Harmoni Hak dan Kewajiban Warga Negara",
+      "sub_pokok_bahasan_1": "Hak warga negara menurut UUD 1945",
+      "sub_pokok_bahasan_2": "Kewajiban warga negara dan nilai kedaulatan rakyat",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh hak dan kewajiban sehari-hari), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan pasal-pasal tentang hak dan kewajiban, prinsip kedaulatan rakyat, musyawarah mufakat. Diskusi studi kasus.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi UTS",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan (2010). Bab 5",
+      "referensi_2": "Ubaedillah (2010). Pendidikan Kewargaan. Bab 4"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami harmoni hak dan kewajiban (lanjutan)",
+      "indikator_1": "Kemampuan menganalisis kasus pelanggaran hak atau pengabaian kewajiban",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis kasus nyata pelanggaran hak/kewajiban dan mengusulkan solusi berdasarkan demokrasi Pancasila",
+      "pokok_bahasan": "Studi Kasus Hak dan Kewajiban",
+      "sub_pokok_bahasan_1": "Kasus pelanggaran hak warga negara",
+      "sub_pokok_bahasan_2": "Mekanisme penyelesaian dan peran negara",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah melihat ketidakadilan?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Membahas kasus-kasus aktual (misal: pelanggaran hak dalam kebijakan publik). Diskusi kelompok, presentasi solusi.",
+          "mahasiswa": "Diskusi, presentasi",
+          "media": "Slide, berita"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas, menginformasikan UTS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Ubaedillah (2010). Bab 5",
+      "referensi_2": "Busrizalti (2013). Bab 3"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep kewarganegaraan, identitas nasional, integrasi nasional, hak dan kewajiban",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang konsep kewarganegaraan, identitas nasional, integrasi nasional, dan harmoni hak-kewajiban",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mengembangkan pola pikir kritis dan etis (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami hakikat, instrumentasi, dan praksis demokrasi Indonesia berlandaskan Pancasila dan UUD NRI 1945",
+      "indikator_1": "Ketepatan menjelaskan hakikat, instrumentasi, dan praksis demokrasi Indonesia",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan hakikat dan instrumen demokrasi Pancasila serta praktiknya di Indonesia",
+      "pokok_bahasan": "Demokrasi Pancasila",
+      "sub_pokok_bahasan_1": "Hakikat demokrasi Pancasila (kerakyatan, musyawarah)",
+      "sub_pokok_bahasan_2": "Instrumentasi demokrasi (pemilu, partai politik, DPRD), praksis pemilu",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa ciri demokrasi Pancasila?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan demokrasi Pancasila vs liberal, mekanisme pemilu, peran partai, lembaga perwakilan. Diskusi.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan lanjutan demokrasi",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kaelan (2010). Bab 6",
+      "referensi_2": "Surbakti, Ramlan (2010). Memahami Ilmu Politik. Bab 7"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mengembangkan pola pikir kritis (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami hakikat, instrumentasi, dan praksis demokrasi Indonesia (lanjutan)",
+      "indikator_1": "Kemampuan menganalisis praktik demokrasi di Indonesia",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis kelebihan dan kelemahan praktik demokrasi di Indonesia",
+      "pokok_bahasan": "Analisis Praktik Demokrasi",
+      "sub_pokok_bahasan_1": "Evaluasi pemilu, peran masyarakat sipil",
+      "sub_pokok_bahasan_2": "Tantangan demokrasi (politik uang, hoaks, golput)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: kelemahan pemilu di Indonesia?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Diskusi kelompok tentang tantangan demokrasi kontemporer, studi kasus pemilu, dan rekomendasi perbaikan.",
+          "mahasiswa": "Diskusi, presentasi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi dinamika konstitusi",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Mahfud MD (2000). Demokrasi dan Konstitusi. Bab 4",
+      "referensi_2": "Feith, H. (1994). Democracy in Indonesia"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami dinamika historis konstitusional, sosial-politik, kultural, serta konteks kontemporer penegakan hukum yang berkeadilan",
+      "indikator_1": "Ketepatan menjelaskan dinamika historis konstitusional, sosial-politik, kultural, serta penegakan hukum",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan perkembangan konstitusi Indonesia dan faktor sosial-politik-kultural yang mempengaruhi penegakan hukum",
+      "pokok_bahasan": "Dinamika Konstitusi dan Penegakan Hukum",
+      "sub_pokok_bahasan_1": "Sejarah perubahan UUD 1945 (amandemen)",
+      "sub_pokok_bahasan_2": "Faktor sosial-politik-kultural dalam penegakan hukum",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah dengar amandemen UUD?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah konstitusi, amandemen UUD 1945, pengaruh sosial-politik terhadap penegakan hukum, serta tantangan kontemporer (korupsi, ketidakadilan).",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan lanjutan",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Thaib, Dahlan (2013). Teori dan Hukum Konstitusi. Bab 3",
+      "referensi_2": "Huda, Ni'matul (2010). Ilmu Negara. Bab 5"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual (CPMK-2)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami dinamika historis, dan urgensi wawasan nusantara sebagai konsepsi dan pandangan kolektif kebangsaan Indonesia dalam konteks pergaulan dunia",
+      "indikator_1": "Ketepatan menjelaskan dinamika historis wawasan nusantara dan urgensinya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan sejarah dan urgensi wawasan nusantara sebagai geopolitik Indonesia",
+      "pokok_bahasan": "Wawasan Nusantara",
+      "sub_pokok_bahasan_1": "Latar belakang historis wawasan nusantara (Deklarasi Djuanda)",
+      "sub_pokok_bahasan_2": "Konsepsi wawasan nusantara, asas, dan implementasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa itu wawasan nusantara?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Deklarasi Djuanda, UNCLOS 1982, konsep wawasan nusantara (cara pandang), asas kepulauan, implementasi (tol laut, poros maritim).",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide, peta Indonesia"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan materi ketahanan nasional",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 5",
+      "referensi_2": "Busrizalti (2013). Bab 4"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mengembangkan pola pikir kritis dan etis (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami urgensi dan tantangan ketahanan nasional dan bela negara",
+      "indikator_1": "Ketepatan menjelaskan urgensi dan tantangan ketahanan nasional dan bela negara",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep ketahanan nasional (astagatra) dan bela negara serta tantangannya di era global",
+      "pokok_bahasan": "Ketahanan Nasional dan Bela Negara",
+      "sub_pokok_bahasan_1": "Konsep ketahanan nasional dan astagatra",
+      "sub_pokok_bahasan_2": "Bela negara (fisik & nonfisik), tantangan modern",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa yang dimaksud ketahanan nasional?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan astagatra (trigatra dan pancagatra), bela negara menurut UU No.3/2002, peran mahasiswa. Diskusi tantangan: radikalisme, hoaks, disintegrasi.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan lanjutan",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Busrizalti (2013). Bab 5",
+      "referensi_2": "Winarno (2014). Bab 6"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah Diskusi TM: 2x50",
+      "detail_cpmk": "Mampu mengembangkan pola pikir kritis (CPMK-3)",
+      "detail_sub_cpmk": "Mahasiswa mampu memahami pentingnya Visi Indonesia Maju dan kontribusi mahasiswa",
+      "indikator_1": "Ketepatan menjelaskan Visi Indonesia Maju 2045 dan peran mahasiswa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan Visi Indonesia Maju 2045 dan bagaimana mahasiswa dapat berkontribusi",
+      "pokok_bahasan": "Visi Indonesia Maju 2045",
+      "sub_pokok_bahasan_1": "Pilar-pilar pembangunan (SDM, infrastruktur, hukum, birokrasi, ekonomi)",
+      "sub_pokok_bahasan_2": "Peran mahasiswa dalam mencapai visi Indonesia Maju",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa cita-cita Indonesia 100 tahun?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan Visi Indonesia 2045, roadmap, dan peran generasi muda. Diskusi tentang kontribusi mahasiswa bidang teknologi.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, kuis, menginformasikan proyek citizen",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kementerian PPN/Bappenas (2020). Visi Indonesia 2045",
+      "referensi_2": "Sofhian Subhan (2012). Pendidikan Kewarganegaraan. Bab 7"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Project Citizen TM: 2x50",
+      "detail_cpmk": "Mampu menganalisis masalah kontekstual, mengembangkan sikap positif (CPMK-2 & CPMK-3)",
+      "detail_sub_cpmk": "Menyelenggarakan Project Citizen",
+      "indikator_1": "Kemampuan menyusun project citizen, mengidentifikasi masalah kebangsaan, dan merumuskan rekomendasi kebijakan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi masalah publik di lingkungan kampus/masyarakat, menganalisis, dan menyusun rekomendasi kebijakan melalui Project Citizen",
+      "pokok_bahasan": "Project Citizen",
+      "sub_pokok_bahasan_1": "Identifikasi masalah publik (isu kebangsaan, korupsi, lingkungan, dll)",
+      "sub_pokok_bahasan_2": "Pengumpulan data, analisis, dan presentasi rekomendasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (penjelasan project citizen), membagi kelompok, menyampaikan tujuan",
+          "mahasiswa": "Menyimak, membentuk kelompok",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Mahasiswa mempresentasikan hasil project citizen (masalah, analisis, rekomendasi). Dosen memberikan umpan balik.",
+          "mahasiswa": "Presentasi kelompok, tanya jawab",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Project Citizen (presentasi) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Winarno (2014). Bab 7 (Project Citizen)",
+      "referensi_2": "Kaelan (2010). Bab 8"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang demokrasi, wawasan nusantara, ketahanan nasional, project citizen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang demokrasi Pancasila, wawasan nusantara, ketahanan nasional, dan project citizen",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (boleh buka catatan, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus demokrasi, wawasan nusantara, ketahanan nasional)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Semua pustaka utama"
+    }
+  ]
+}

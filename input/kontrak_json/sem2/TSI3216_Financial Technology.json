@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Financial Technology",
+  "semester": "II",
+  "sks_total": "2",
+  "jenis_mk": "Mata Kuliah Penciri / Kekhasan Prodi",
+  "kelas": "A",
+  "prasyarat": "-",
+  "hari_jam": "Selasa, 10:40 - 12:20 (Online)",
+  "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu menjelaskan konsep, ekosistem, dan perkembangan Financial Technology (FinTech) di Indonesia dan global"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menganalisis berbagai model bisnis FinTech (pembayaran digital, lending, crowdfunding, investasi)"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu menerapkan teknologi dalam FinTech (API, blockchain, big data, keamanan) dan memahami RegTech"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu mengidentifikasi peluang wirausaha di ekosistem FinTech serta menyusun model bisnis sederhana"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu melakukan analisis risiko dan kepatuhan regulasi FinTech di Indonesia (OJK, Bank Indonesia)"
+    }
+  ],
+  "jumlah_kuis_mingguan": "6",
+  "jumlah_tugas_terstruktur": "6",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "5",
+  "bobot_proyek": "15",
+  "bobot_tugas": "15",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "35",
+  "materi_minggu_1": "Definisi FinTech, perbedaan dengan bank tradisional, sejarah FinTech global dan Indonesia",
+  "materi_minggu_2": "Ekosistem FinTech: startup, perbankan, teknologi, investor, regulator (OJK, BI, Kominfo)",
+  "materi_minggu_3": "Dompet elektronik, QRIS (standar QR code), payment gateway (Midtrans, Xendit), biaya transaksi",
+  "materi_minggu_4": "P2P lending (Modalku, Amartha), crowdfunding (KitaBisa, Kitabisa), resiko gagal bayar",
+  "materi_minggu_5": "Robo-advisor (Bibit, Bareksa), insurtech (PasarPolis, Qoala), reksadana, saham digital",
+  "materi_minggu_6": "API (Application Programming Interface), open banking (BI), big data analytics, AI untuk credit scoring",
+  "materi_minggu_7": "Konsep blockchain (desentralisasi, konsensus), cryptocurrency, token, smart contract",
+  "materi_minggu_9": "Peraturan OJK (POJK), BI (PBI), UU Perlindungan Data Pribadi, anti pencucian uang (AML)",
+  "materi_minggu_10": "Risiko kredit (default), risiko likuiditas, risiko operasional, fraud, cybersecurity",
+  "materi_minggu_11": "Keamanan transaksi, 2FA, tokenisasi, deteksi fraud dengan AI",
+  "materi_minggu_12": "Brainstorming ide, validasi masalah, target pasar (ideasi bisnis FinTech)",
+  "materi_minggu_13": "9 blok BMC (value proposition, customer segments, channels, revenue streams, cost structure)",
+  "materi_minggu_14": "Proyeksi pendapatan, biaya, break-even point, strategi akuisisi pengguna",
+  "materi_minggu_15": "Presentasi, tanya jawab, peer feedback (presentasi ide bisnis FinTech)",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "mahasiswa_sign": "sign/aldi.png",
+  "dosen_sign": "sign/hendra.png",
+  "nuptk": "5138772673130293"
+}

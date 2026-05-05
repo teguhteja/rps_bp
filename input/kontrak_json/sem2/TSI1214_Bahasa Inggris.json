@@ -1,0 +1,62 @@
+{
+  "tahun_akademik": "2025/2026",
+  "periode": "Genap",
+  "nama_mk": "Bahasa Inggris",
+  "semester": "II",
+  "sks_total": "2",
+  "jenis_mk": "Mata Kuliah Wajib Umum",
+  "kelas": "A",
+  "prasyarat": "-",
+  "hari_jam": "Rabu, 10:40 - 12:20 (Online)",
+  "dosen_pengampu": "Made Edwin Wira Putra, S.T., M.T.",
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "deskripsi": "Mampu memahami dan menganalisis teks bacaan (reading comprehension) bidang teknologi informasi"
+    },
+    {
+      "kode": "CPMK-2",
+      "deskripsi": "Mampu menulis karya tulis akademik (abstract, paper summary) dalam bahasa Inggris dengan tata bahasa fungsional"
+    },
+    {
+      "kode": "CPMK-3",
+      "deskripsi": "Mampu menguasai technical vocabulary dan istilah dalam bidang sistem informasi"
+    },
+    {
+      "kode": "CPMK-4",
+      "deskripsi": "Mampu melakukan presentasi dan diskusi ilmiah dalam bahasa Inggris secara efektif"
+    },
+    {
+      "kode": "CPMK-5",
+      "deskripsi": "Mampu menulis email bisnis dan korespondensi profesional dalam bahasa Inggris"
+    }
+  ],
+  "jumlah_kuis_mingguan": "6",
+  "jumlah_tugas_terstruktur": "6",
+  "jumlah_proyek": "1",
+  "bobot_diskusi": "10",
+  "bobot_proyek": "15",
+  "bobot_tugas": "10",
+  "bobot_kuis": "10",
+  "bobot_uts": "20",
+  "bobot_uas": "35",
+  "materi_minggu_1": "Teknik membaca cepat, identifikasi main idea dan supporting details",
+  "materi_minggu_2": "Membaca artikel dari IEEE/ACM, mengidentifikasi kosakata teknis",
+  "materi_minggu_3": "Review tenses (simple present, past, future, present perfect)",
+  "materi_minggu_4": "Passive voice dalam konteks teknologi, modal verbs, conditional sentences",
+  "materi_minggu_5": "Daftar istilah teknis (hardware, software, database, network, cloud, AI), definisi, penggunaan",
+  "materi_minggu_6": "Teknik paraphrasing, menulis ringkasan artikel, menghindari plagiarisme",
+  "materi_minggu_7": "Struktur abstrak (background, methods, results, conclusion), gaya bahasa",
+  "materi_minggu_9": "Struktur email bisnis (subject, salutation, body, closing), bahasa formal, etika",
+  "materi_minggu_10": "Desain slide, bullet points, visual, kalimat kunci, bahasa yang digunakan",
+  "materi_minggu_11": "Latihan presentasi, intonasi, body language, menangani pertanyaan",
+  "materi_minggu_12": "Topik diskusi: 'Impact of AI', 'Cloud vs On-premise'; ekspresi setuju/tidak, memberi pendapat",
+  "materi_minggu_13": "Struktur laporan teknis, bahasa impersonal, presentasi data",
+  "materi_minggu_14": "Revisi, proofreading, pengecekan grammar untuk laporan",
+  "materi_minggu_15": "Pertanyaan umum wawancara (introduction, experience, skill), tips wawancara",
+  "wakil_mahasiswa": "Putu Aldi Palguna",
+  "nim_wakil": "252401001",
+  "dosen_sign": "sign/edwin.png",
+  "mahasiswa_sign": "sign/aldi.png",
+  "nuptk": "0547768669130333"
+}

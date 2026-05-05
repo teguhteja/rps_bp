@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "",
+    "nama_mk": "Analisis dan Perancangan Sistem Informasi",
+    "sks_total": "4",
+    "template_sap": "SAP_MK_TSI3321.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: studi kasus awal",
+      "detail_cpmk": "Mampu memahami konsep dan metodologi pengembangan sistem informasi serta melakukan investigasi awal dan studi kelayakan (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Konsep dasar sistem informasi dan siklus hidup pengembangan",
+      "indikator_1": "Ketepatan mendefinisikan sistem informasi, komponen, dan tahapan SDLC",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendefinisikan sistem informasi, menjelaskan komponennya, serta tahapan-tahapan dalam System Development Life Cycle (SDLC)",
+      "pokok_bahasan": "Definisi SI dan SDLC",
+      "sub_pokok_bahasan_1": "Definisi SI; komponen sistem informasi",
+      "sub_pokok_bahasan_2": "SDLC waterfall, prototyping, agile; peran analis sistem",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pengalaman menggunakan sistem informasi kampus), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi sistem informasi, komponen (hardware, software, data, prosedur, manusia). Memperkenalkan SDLC: waterfall, prototyping, agile. Praktik: analisis studi kasus awal perusahaan sederhana untuk identifikasi komponen SI",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, mengerjakan latihan identifikasi komponen SI pada kasus toko retail",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online, memberikan tugas latihan soal, menginformasikan materi pertemuan berikutnya (metodologi pengembangan)",
+          "mahasiswa": "Mencatat kesimpulan, mengerjakan kuis",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design (10th ed.). Pearson. Bab 1",
+      "referensi_2": "Pressman, R. S. (2014). Software engineering: A practitioner's approach (8th ed.). McGraw-Hill. Bab 2"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: studi banding metodologi",
+      "detail_cpmk": "Mampu memahami konsep dan metodologi pengembangan sistem informasi serta melakukan investigasi awal dan studi kelayakan (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Metodologi pengembangan sistem (waterfall, agile, prototyping)",
+      "indikator_1": "Ketepatan membandingkan metodologi dan memilih yang sesuai",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membandingkan metodologi waterfall, agile, dan prototyping serta memilih metodologi yang sesuai untuk suatu proyek",
+      "pokok_bahasan": "Metodologi pengembangan sistem",
+      "sub_pokok_bahasan_1": "Waterfall: fase (analisis, desain, implementasi, testing, maintenance)",
+      "sub_pokok_bahasan_2": "Agile: scrum, kanban; prototyping; kelebihan dan kekurangan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Metodologi apa yang paling tepat untuk proyek skala kecil dengan kebutuhan berubah cepat?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan fase-fase waterfall secara detail. Menjelaskan agile manifesto, scrum (sprint, daily standup, review), kanban. Menjelaskan prototyping (low-fidelity, high-fidelity). Praktik: studi banding metodologi dengan memberikan studi kasus, mahasiswa memilih metodologi yang tepat dan memberikan alasan",
+          "mahasiswa": "Mencatat, diskusi kelompok, mempresentasikan hasil studi banding",
+          "media": "Slide, video perbandingan metodologi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan perbandingan metodologi, memberikan kuis, memberikan tugas kelompok kecil, menginformasikan materi investigasi awal",
+          "mahasiswa": "Mengerjakan kuis, membentuk kelompok",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas kelompok kecil - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 2",
+      "referensi_2": "Pressman, R. S. (2014). Software engineering. Bab 3-4"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: simulasi studi kelayakan",
+      "detail_cpmk": "Mampu memahami konsep dan metodologi pengembangan sistem informasi serta melakukan investigasi awal dan studi kelayakan (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Investigasi awal dan studi kelayakan",
+      "indikator_1": "Kemampuan mengidentifikasi masalah, peluang, dan arahan; analisis kelayakan",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi masalah dan peluang dalam suatu organisasi serta melakukan studi kelayakan teknis, ekonomis, operasional, dan jadwal",
+      "pokok_bahasan": "Investigasi awal dan studi kelayakan",
+      "sub_pokok_bahasan_1": "Identifikasi masalah; studi kelayakan teknis, ekonomis (ROI, NPV)",
+      "sub_pokok_bahasan_2": "Studi kelayakan operasional, jadwal; analisis biaya-manfaat",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa yang harus dianalisis sebelum membuat sistem baru?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan investigasi awal (identifikasi masalah, peluang, arahan). Menjelaskan studi kelayakan: teknis (apakah teknologi tersedia), ekonomis (ROI, NPV, payback period), operasional (apakah pengguna siap), jadwal (apakah timeline realistis). Praktik: simulasi studi kelayakan dengan kasus fiktif (misal: sistem pendaftaran online kampus)",
+          "mahasiswa": "Mencatat, berlatih menghitung ROI dan NPV sederhana, mengisi checklist kelayakan",
+          "media": "Slide, template perhitungan keuangan, spreadsheet"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas analisis studi kasus sederhana, menginformasikan materi teknik pengumpulan kebutuhan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas analisis studi kasus sederhana - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 3",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 2"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: role-play wawancara",
+      "detail_cpmk": "Mampu melakukan teknik pengumpulan kebutuhan (requirement elicitation) dan menganalisis kebutuhan fungsional dan non-fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Teknik pengumpulan kebutuhan (wawancara, kuesioner)",
+      "indikator_1": "Kemampuan merancang daftar pertanyaan wawancara dan kuesioner",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang instrumen wawancara dan kuesioner untuk pengumpulan kebutuhan sistem",
+      "pokok_bahasan": "Wawancara dan kuesioner",
+      "sub_pokok_bahasan_1": "Teknik wawancara: persiapan, pertanyaan terbuka/tertutup, dokumentasi",
+      "sub_pokok_bahasan_2": "Kuesioner: desain, skala Likert, distribusi, analisis hasil",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana cara mengetahui kebutuhan pengguna?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan persiapan wawancara (stakeholder mapping, daftar pertanyaan). Jenis pertanyaan terbuka dan tertutup. Teknik dokumentasi wawancara. Desain kuesioner, skala Likert, contoh kuesioner. Praktik: role-play wawancara (mahasiswa berpasangan sebagai analis dan stakeholder), merancang kuesioner sederhana",
+          "mahasiswa": "Mencatat, role-play wawancara, membuat draft kuesioner",
+          "media": "Slide, contoh kuesioner, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (merancang instrumen wawancara dan kuesioner), menginformasikan materi observasi dan studi dokumen",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (merancang instrumen) - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 4",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 3"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: observasi simulasi",
+      "detail_cpmk": "Mampu melakukan teknik pengumpulan kebutuhan (requirement elicitation) dan menganalisis kebutuhan fungsional dan non-fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Observasi, studi dokumen, dan brainstorming",
+      "indikator_1": "Ketepatan mengidentifikasi kebutuhan melalui observasi dan dokumen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu melakukan observasi partisipatif, studi dokumen, serta brainstorming untuk mengidentifikasi kebutuhan sistem",
+      "pokok_bahasan": "Observasi, studi dokumen, brainstorming",
+      "sub_pokok_bahasan_1": "Observasi partisipatif; studi dokumen (formulir, laporan, manual prosedur)",
+      "sub_pokok_bahasan_2": "Brainstorming, focus group discussion (FGD)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Selain wawancara, bagaimana cara menggali kebutuhan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan observasi (participant observation, direct observation), kelebihan (melihat langsung) dan kekurangan (Hawthorne effect). Studi dokumen: menganalisis formulir, laporan, kebijakan yang ada. Brainstorming dan FGD untuk menggali ide. Praktik: simulasi observasi (menonton video simulasi proses bisnis, mahasiswa mencatat kebutuhan) dan studi dokumen (menganalisis formulir pendaftaran)",
+          "mahasiswa": "Mencatat, latihan observasi dari video, menganalisis contoh formulir",
+          "media": "Slide, video simulasi proses bisnis, contoh formulir"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (studi kasus analisis kebutuhan dengan berbagai teknik), menginformasikan materi analisis kebutuhan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (studi kasus) - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 4-5",
+      "referensi_2": "Whitten, J. L., & Bentley, L. D. (2007). Systems analysis and design methods. Bab 4"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: identifikasi kebutuhan pada kasus",
+      "detail_cpmk": "Mampu melakukan teknik pengumpulan kebutuhan (requirement elicitation) dan menganalisis kebutuhan fungsional dan non-fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Analisis kebutuhan fungsional dan non-fungsional",
+      "indikator_1": "Kemampuan membedakan dan mendaftar kebutuhan fungsional/non-fungsional",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan kebutuhan fungsional dan non-fungsional serta menyusun daftar kebutuhan prioritas",
+      "pokok_bahasan": "Kebutuhan fungsional dan non-fungsional",
+      "sub_pokok_bahasan_1": "Kebutuhan fungsional (fitur, proses, fungsi sistem)",
+      "sub_pokok_bahasan_2": "Kebutuhan non-fungsional (kinerja, keamanan, usability, maintainability); prioritas",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Contoh kebutuhan fungsional dan non-fungsional?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kebutuhan fungsional: apa yang harus dilakukan sistem (fitur, proses, output). Kebutuhan non-fungsional: bagaimana sistem berjalan (kecepatan, keamanan, kemudahan penggunaan). Memberikan contoh: fungsional (login, transaksi, laporan), non-fungsional (response time < 2 detik, 99.9% uptime). Teknik prioritas (MoSCoW: Must, Should, Could, Won't). Praktik: identifikasi kebutuhan dari studi kasus",
+          "mahasiswa": "Mencatat, latihan mengelompokkan kebutuhan fungsional/non-fungsional dari deskripsi kasus",
+          "media": "Slide, template daftar kebutuhan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis, memberikan tugas analisis, menginformasikan materi SRS",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas analisis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 5",
+      "referensi_2": "Pressman, R. S. (2014). Software engineering. Bab 5"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: penyusunan SRS",
+      "detail_cpmk": "Mampu melakukan teknik pengumpulan kebutuhan (requirement elicitation) dan menganalisis kebutuhan fungsional dan non-fungsional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Spesifikasi kebutuhan perangkat lunak (SRS)",
+      "indikator_1": "Kemampuan menyusun dokumen SRS sesuai standar (IEEE 830)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun dokumen Software Requirements Specification (SRS) sesuai standar IEEE 830",
+      "pokok_bahasan": "Spesifikasi kebutuhan perangkat lunak (SRS)",
+      "sub_pokok_bahasan_1": "Struktur SRS: pendahuluan, deskripsi umum, kebutuhan spesifik, lampiran",
+      "sub_pokok_bahasan_2": "Validasi kebutuhan (review, prototyping, traceability matrix)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Dokumen apa yang berisi semua kebutuhan sistem?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan standar IEEE 830 untuk SRS: bab 1 (pendahuluan, ruang lingkup), bab 2 (deskripsi umum, karakteristik pengguna), bab 3 (kebutuhan spesifik fungsional dan non-fungsional, lampiran). Validasi kebutuhan: review oleh stakeholder, prototyping, traceability matrix. Praktik: penyusunan draft SRS untuk studi kasus yang sama",
+          "mahasiswa": "Mencatat, praktik menyusun SRS menggunakan template, diskusi kelompok",
+          "media": "Slide, template SRS (IEEE 830), contoh SRS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (draft SRS), menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (draft SRS) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 6",
+      "referensi_2": "Pressman, R. S. (2014). Software engineering. Bab 5"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 3x50",
+      "detail_cpmk": "Ujian Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep, studi kelayakan, pengumpulan kebutuhan, DFD",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (konsep SI, metodologi, studi kelayakan, teknik pengumpulan kebutuhan, analisis kebutuhan, SRS)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: konsep SI, SDLC, metodologi waterfall/agile/prototyping, studi kelayakan, teknik elicitation, analisis kebutuhan, SRS",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal pilihan ganda dan essay)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 25 soal, essay 2 soal studi kasus analisis kebutuhan)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online (LMS) - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: tools DFD (draw.io)",
+      "detail_cpmk": "Mampu memodelkan proses bisnis menggunakan DFD dan BPMN serta pemodelan berorientasi objek dengan UML (use case, class, sequence diagram) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Pemodelan proses bisnis dengan DFD (level 0)",
+      "indikator_1": "Kemampuan membuat DFD konteks dan level 0",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat Data Flow Diagram (DFD) konteks dan level 0 serta memahami notasi dan balancing",
+      "pokok_bahasan": "DFD (Data Flow Diagram)",
+      "sub_pokok_bahasan_1": "DFD: notasi (entitas eksternal, proses, aliran data, penyimpanan data)",
+      "sub_pokok_bahasan_2": "Konteks diagram, level 0, level 1,2; balancing; kamus data",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana memodelkan aliran data dalam sistem?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan notasi DFD (Gane & Sarson atau Yourdon). Membuat konteks diagram (level tertinggi). Dekomposisi ke level 0 (proses utama), level 1, level 2. Konsep balancing (konsistensi data antar level). Kamus data (deskripsi aliran dan penyimpanan data). Praktik: membuat DFD konteks dan level 0 untuk studi kasus sistem perpustakaan menggunakan draw.io",
+          "mahasiswa": "Mencatat, praktik menggambar DFD dengan draw.io, mengerjakan latihan balancing",
+          "media": "Slide, draw.io, contoh DFD"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik (menggambar DFD), menginformasikan materi BPMN",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik (menggambar DFD) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 7",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 5"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: BPMN tools",
+      "detail_cpmk": "Mampu memodelkan proses bisnis menggunakan DFD dan BPMN serta pemodelan berorientasi objek dengan UML (use case, class, sequence diagram) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Pemodelan dengan BPMN",
+      "indikator_1": "Kemampuan membuat diagram BPMN sederhana (kolam, jalur, aktivitas, gateway)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat Business Process Model and Notation (BPMN) sederhana dengan elemen dasar (event, aktivitas, gateway, kolam, jalur)",
+      "pokok_bahasan": "BPMN (Business Process Model and Notation)",
+      "sub_pokok_bahasan_1": "BPMN: elemen (event, aktivitas, gateway, flow)",
+      "sub_pokok_bahasan_2": "Kolam (pool) dan jalur (lane); contoh proses bisnis",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan DFD dan BPMN?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan BPMN: tujuan (memodelkan proses bisnis secara visual), elemen dasar (start/end event, task/subprocess, exclusive/gateway, sequence flow). Kolam (pool) untuk organisasi, jalur (lane) untuk role/peran. Contoh proses bisnis: 'pengajuan cuti karyawan'. Praktik: membuat diagram BPMN dengan draw.io atau tools BPMN lainnya",
+          "mahasiswa": "Mencatat, praktik membuat BPMN untuk proses bisnis sederhana (misal: pemesanan barang)",
+          "media": "Slide, draw.io/BPMN.io, contoh BPMN"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik BPMN, menginformasikan materi UML use case",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik BPMN - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 6",
+      "referensi_2": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 8"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: tools UML (StarUML)",
+      "detail_cpmk": "Mampu memodelkan proses bisnis menggunakan DFD dan BPMN serta pemodelan berorientasi objek dengan UML (use case, class, sequence diagram) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Pemodelan UML – Use Case Diagram",
+      "indikator_1": "Kemampuan mengidentifikasi aktor, use case, dan relasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi aktor dan use case serta membuat use case diagram beserta relasi include, extend, dan generalisasi",
+      "pokok_bahasan": "UML Use Case Diagram",
+      "sub_pokok_bahasan_1": "UML: use case diagram (aktor, use case, sistem boundary)",
+      "sub_pokok_bahasan_2": "Relasi include, extend, generalisasi; skenario use case",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu UML?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memperkenalkan UML (Unified Modeling Language). Menjelaskan use case diagram: aktor (pengguna luar sistem), use case (fungsi sistem), sistem boundary (batasan). Relasi: include (wajib) dan extend (opsional), generalisasi (pewarisan aktor/use case). Menulis skenario (normal flow, alternative flow). Praktik: membuat use case diagram untuk studi kasus (sistem perpustakaan) menggunakan StarUML",
+          "mahasiswa": "Mencatat, praktik membuat use case diagram, menulis skenario sederhana",
+          "media": "Slide, StarUML, contoh use case diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik use case diagram, menginformasikan materi class dan sequence diagram",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik use case diagram - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 7",
+      "referensi_2": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 9"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: lanjutan tools UML",
+      "detail_cpmk": "Mampu memodelkan proses bisnis menggunakan DFD dan BPMN serta pemodelan berorientasi objek dengan UML (use case, class, sequence diagram) (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : UML – Class Diagram dan Sequence Diagram",
+      "indikator_1": "Kemampuan membuat class diagram dari use case dan sequence diagram untuk satu skenario",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat class diagram (kelas, atribut, method, relasi) dan sequence diagram dari use case yang telah dibuat",
+      "pokok_bahasan": "Class Diagram dan Sequence Diagram",
+      "sub_pokok_bahasan_1": "Class diagram: kelas, atribut, method, relasi (asosiasi, agregasi, komposisi, inheritance)",
+      "sub_pokok_bahasan_2": "Sequence diagram: lifeline, message, activation, alt/loop",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Dari use case, bagaimana kita menggambarkan struktur data?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan class diagram: notasi kelas (nama, atribut, method), jenis relasi (asosiasi, agregasi, komposisi, inheritance). Mengidentifikasi kelas dari use case. Menjelaskan sequence diagram: lifeline (objek), message (synchronous/asynchronous), activation box, fragment alt/loop. Praktik: membuat class diagram dan sequence diagram untuk satu skenario use case (misal: pinjam buku)",
+          "mahasiswa": "Mencatat, praktik membuat class dan sequence diagram dengan StarUML",
+          "media": "Slide, StarUML, contoh class dan sequence diagram"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik class + sequence, menginformasikan materi perancangan arsitektur",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik class + sequence - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 8-9",
+      "referensi_2": "Pressman, R. S. (2014). Software engineering. Bab 8"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: diagram arsitektur",
+      "detail_cpmk": "Mampu merancang arsitektur sistem informasi, basis data logis dan fisik, serta antarmuka pengguna (UI) (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Perancangan arsitektur sistem",
+      "indikator_1": "Kemampuan memilih arsitektur (client-server, 3-tier, MVC) dan membuat diagram komponen",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih arsitektur sistem yang tepat (client-server, 3-tier, MVC) dan membuat diagram komponen/deployment",
+      "pokok_bahasan": "Perancangan arsitektur sistem",
+      "sub_pokok_bahasan_1": "Arsitektur: 1-tier, 2-tier, 3-tier, n-tier; MVC",
+      "sub_pokok_bahasan_2": "Deployment diagram; pemilihan platform (on-premise, cloud)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa perbedaan aplikasi desktop dan web?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan arsitektur sistem: 1-tier (single machine), 2-tier (client-server), 3-tier (presentation, logic, data), n-tier. Model MVC (Model-View-Controller) untuk aplikasi web. Deployment diagram (menunjukkan komponen fisik dan koneksi). Pemilihan platform (on-premise vs cloud). Praktik: membuat diagram deployment sederhana untuk studi kasus, membandingkan arsitektur yang sesuai",
+          "mahasiswa": "Mencatat, praktik membuat diagram deployment, diskusi pemilihan arsitektur untuk kasus tertentu",
+          "media": "Slide, draw.io, contoh diagram deployment"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (rancangan arsitektur untuk proyek), menginformasikan materi perancangan basis data",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (rancangan arsitektur) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 10",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 10"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah interaktif TM: 3x50; Praktik: tools ERD (MySQL Workbench)",
+      "detail_cpmk": "Mampu merancang arsitektur sistem informasi, basis data logis dan fisik, serta antarmuka pengguna (UI) (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Perancangan basis data (ERD dan normalisasi)",
+      "indikator_1": "Kemampuan membuat ERD, melakukan normalisasi hingga 3NF, dan menghasilkan skema relasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat Entity Relationship Diagram (ERD) dan melakukan normalisasi hingga bentuk normal ketiga (3NF) serta mengkonversi ke skema relasi",
+      "pokok_bahasan": "ERD dan Normalisasi",
+      "sub_pokok_bahasan_1": "ERD: entitas, atribut, hubungan (kardinalitas: one-to-one, one-to-many, many-to-many)",
+      "sub_pokok_bahasan_2": "Normalisasi (1NF, 2NF, 3NF); konversi ke tabel relasional; DDL",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana merancang database yang baik?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan ERD: entitas (strong, weak), atribut (key, composite, derived), hubungan (kardinalitas, optionality). Normalisasi: 1NF (eliminasi repeating group), 2NF (eliminasi ketergantungan parsial), 3NF (eliminasi ketergantungan transitif). Konversi ERD ke skema relasi (tabel, primary key, foreign key). Praktik: membuat ERD untuk studi kasus (sistem perpustakaan) menggunakan MySQL Workbench, melakukan normalisasi, menghasilkan skema relasi dan DDL",
+          "mahasiswa": "Mencatat, praktik membuat ERD, latihan normalisasi, membuat tabel SQL",
+          "media": "Slide, MySQL Workbench, contoh ERD"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas praktik perancangan basis data, menginformasikan materi dokumentasi dan presentasi proyek",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas praktik perancangan basis data - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 11",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 11"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Bimbingan proyek TM: 3x50; Praktik: finalisasi laporan",
+      "detail_cpmk": "Mampu mendokumentasikan dan mengelola konfigurasi sistem serta menyusun laporan analisis dan perancangan sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Dokumentasi dan presentasi proyek (persiapan)",
+      "indikator_1": "Kemampuan menyusun laporan analisis dan perancangan sistem informasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan analisis dan perancangan sistem informasi yang lengkap dan sistematis",
+      "pokok_bahasan": "Struktur laporan proyek",
+      "sub_pokok_bahasan_1": "Struktur laporan: pendahuluan, analisis kebutuhan, perancangan (DFD, UML, arsitektur, basis data, UI)",
+      "sub_pokok_bahasan_2": "Kesimpulan; teknik presentasi efektif",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas progres proyek), menyampaikan tujuan",
+          "mahasiswa": "Melaporkan progres singkat",
+          "media": "Slide, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan final: bab pendahuluan (latar belakang, tujuan, ruang lingkup), bab analisis kebutuhan (metode elicitation, daftar kebutuhan fungsional/non-fungsional, SRS), bab perancangan (DFD, BPMN, UML: use case, class, sequence, arsitektur, ERD, UI prototype), bab kesimpulan. Memberikan template laporan. Konsultasi intensif per kelompok untuk finalisasi laporan dan persiapan presentasi",
+          "mahasiswa": "Menyusun laporan, berkonsultasi dengan dosen, menyiapkan slide presentasi",
+          "media": "Template laporan, contoh laporan, breakout room Zoom"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan target akhir, memberikan tenggat laporan final, menginformasikan jadwal presentasi (minggu 16)",
+          "mahasiswa": "Mencatat, melanjutkan finalisasi laporan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan proyek kelompok (draft) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 12",
+      "referensi_2": "Dennis, A., Wixom, B. H., & Tegarden, D. (2015). Systems analysis and design. Bab 13"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Presentasi proyek + UAS TM: 3x50",
+      "detail_cpmk": "Mampu mendokumentasikan dan mengelola konfigurasi sistem serta menyusun laporan analisis dan perancangan sistem informasi (CPMK-5)",
+      "detail_sub_cpmk": "UAS : Ujian Akhir Semester + Presentasi Proyek",
+      "indikator_1": "Kemampuan mempresentasikan hasil proyek dan menjawab soal integratif",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil analisis dan perancangan sistem informasi serta menjawab soal integratif dalam UAS",
+      "pokok_bahasan": "Presentasi Proyek dan UAS",
+      "sub_pokok_bahasan_1": "Presentasi hasil proyek: analisis kebutuhan, DFD, UML, arsitektur, basis data, UI",
+      "sub_pokok_bahasan_2": "UAS mencakup seluruh materi (analisis, pemodelan, perancangan) + integrasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (10-12 menit per kelompok, 5 menit tanya jawab), urutan kelompok, dan teknis UAS (60 menit setelah presentasi)",
+          "mahasiswa": "Mempersiapkan slide, laporan final",
+          "media": "Slide, Zoom, LMS"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi proyek kelompok satu per satu, memberikan pertanyaan dan umpan balik. Setelah semua presentasi, membuka akses UAS di LMS",
+          "mahasiswa": "Mempresentasikan proyek (latar belakang, metodologi, analisis kebutuhan, pemodelan DFD/UML, arsitektur, basis data, UI prototype), menjawab pertanyaan. Kemudian mengerjakan soal UAS (esai integratif: studi kasus analisis dan perancangan sistem)",
+          "media": "LMS, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan keseluruhan mata kuliah, memberikan apresiasi, mengumumkan nilai akhir akan diumumkan di LMS, menutup perkuliahan",
+          "mahasiswa": "Mencatat, memberikan feedback, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok + laporan final - Bobot 15%",
+      "evaluasi_2": "Ujian tertulis online (LMS) - Bobot 15%",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "Kendall, K. E., & Kendall, J. E. (2018). Systems analysis and design. Bab 13"
+    }
+  ]
+}

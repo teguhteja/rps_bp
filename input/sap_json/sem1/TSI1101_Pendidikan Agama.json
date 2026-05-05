@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI1101",
+    "nama_mk": "Pendidikan Agama",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami dan mengerti konsep-konsep srada ajaran etika",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: konsep dasar mengerti konsep-konsep srada ajaran etika dengan teori",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep dasar ajaran etika (moral, budi pekerti, tata susila) dan mengamalkannya dalam kehidupan sehari-hari",
+      "pokok_bahasan": "Konsep Dasar Ajaran Etika",
+      "sub_pokok_bahasan_1": "Ajaran moral dan budi pekerti",
+      "sub_pokok_bahasan_2": "Tata susila dan pengamalan dalam kehidupan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa perbedaan etika dan moral?), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep srada ajaran etika, moral, budi pekerti, tata susila, serta pentingnya mengamalkan dalam kehidupan. Memberikan contoh-contoh nyata.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas meringkas materi, menginformasikan pertemuan berikutnya (konsep manusia beretika)",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 10% (minggu 1-2 digabung)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Pendidikan Agama di Perguruan Tinggi. Bab 1",
+      "referensi_2": "Ida Bagus Mantra (2013). Tata Susila Hindu Dharma. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu memahami dan mengerti konsep-konsep srada ajaran etika (lanjutan)",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: konsep dasar mengerti konsep-konsep srada ajaran etika dengan teori",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendalami dan mengaplikasikan konsep ajaran etika dalam berbagai situasi",
+      "pokok_bahasan": "Pengamalan Ajaran Etika",
+      "sub_pokok_bahasan_1": "Implementasi moral dalam kampus",
+      "sub_pokok_bahasan_2": "Studi kasus dilema etika",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review minggu lalu), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Mendiskusikan studi kasus tentang dilema etika di lingkungan kampus. Diskusi kelompok kecil, presentasi hasil diskusi.",
+          "mahasiswa": "Diskusi kelompok, presentasi",
+          "media": "Slide, kasus cetak"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu, menginformasikan materi konsep manusia beretika",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot (bersama minggu 1)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Bab 2",
+      "referensi_2": "G.K. Adia Wiratmadja (1975). Etika Tata Susila Hindu Dharma. Bab 1"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu memahami dan mengerti konsep manusia yang beretika",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: konsep manusia yang beretika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan ciri-ciri manusia beretika dan pentingnya karakter dalam kehidupan",
+      "pokok_bahasan": "Konsep Manusia Beretika",
+      "sub_pokok_bahasan_1": "Ciri-ciri manusia beretika",
+      "sub_pokok_bahasan_2": "Peran etika dalam pembentukan karakter",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: orang seperti apa yang disebut beretika?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep manusia beretika, mengaitkan dengan ajaran agama. Memberikan contoh tokoh atau figur yang beretika. Diskusi tentang pentingnya integritas.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas meringkas, menginformasikan pertemuan berikutnya",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Ida Bagus Mantra (2013). Bab 2",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 3"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Konsep manusia yang beretika (lanjutan)",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: konsep manusia yang beretika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi dan menganalisis perilaku etis dan tidak etis di lingkungan sekitar",
+      "pokok_bahasan": "Analisis Perilaku Etis",
+      "sub_pokok_bahasan_1": "Contoh perilaku etis dan tidak etis",
+      "sub_pokok_bahasan_2": "Dampak perilaku tidak etis",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya contoh pelanggaran etika di kampus), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Presentasi studi kasus oleh mahasiswa (tugas kelompok). Diskusi dan analisis bersama.",
+          "mahasiswa": "Presentasi, diskusi",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas, menginformasikan materi hukum dan keadilan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok - Bobot (bersama minggu 3)",
+      "evaluasi_2": "",
+      "referensi_1": "G.K. Adia Wiratmadja (1975). Bab 2",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 4"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah TM: 1x50 (dalam RPS tertulis 1x50)",
+      "detail_cpmk": "Mampu menyampaikan informasi terkait pelayanan kefarmasian... (CPMK-4) - disesuaikan: Mampu menjelaskan hukum dan keadilan dalam perspektif agama",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu memahami dan mengerti hukum dalam rangka menegakkan keadilan sesuai sumber-sumber ajaran etika",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: hukum dalam rangka menegakan keadilan sesuai sumber-sumber ajaran etika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep hukum dalam perspektif ajaran etika dan pentingnya taat hukum Tuhan (Rta/Dharma)",
+      "pokok_bahasan": "Hukum dan Keadilan dalam Ajaran Etika",
+      "sub_pokok_bahasan_1": "Konsep Rta/Dharma, peran agama dalam hukum",
+      "sub_pokok_bahasan_2": "Fungsi profil dalam hukum",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apa hubungan agama dan hukum?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep hukum dalam ajaran Hindu (Rta, Dharma), peran agama dalam merumuskan hukum yang adil. Diskusi tentang contoh hukum yang adil dan tidak adil.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas merangkum, menginformasikan materi etika AI",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Ida Bagus Mantra (2013). Bab 3",
+      "referensi_2": "G.K. Adia Wiratmadja (1975). Bab 3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Etika menggunakan AI",
+      "indikator_1": "Ketepatan Dalam menggunakan AI dan memahami AI harus dimanfaatkan seperti apa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan prinsip etika dalam pemanfaatan AI, serta memahami AI sebagai partner berpikir, bukan pengganti daya cipta",
+      "pokok_bahasan": "Etika Penggunaan AI",
+      "sub_pokok_bahasan_1": "AI sebagai partner berpikir",
+      "sub_pokok_bahasan_2": "Mencegah musnahnya daya cipta",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah menggunakan AI? etikanya?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan panduan etika AI dari Kemdikbud (2024). Diskusi tentang batasan penggunaan AI dalam akademik. Latihan: identifikasi kasus penggunaan AI yang etis dan tidak etis.",
+          "mahasiswa": "Mencatat, diskusi, latihan",
+          "media": "Slide, dokumen panduan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas merangkum, menginformasikan materi lanjutan etika AI",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 10% (minggu 6-7 digabung)",
+      "evaluasi_2": "",
+      "referensi_1": "Kemdikbud (2024). Panduan Penggunaan Generative AI. Bab 1-2",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 5"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Etika menggunakan AI (lanjutan)",
+      "indikator_1": "Ketepatan Dalam menggunakan AI dan memahami AI harus dimanfaatkan seperti apa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun kode etik pribadi dalam menggunakan AI untuk tugas akademik",
+      "pokok_bahasan": "Implementasi Etika AI",
+      "sub_pokok_bahasan_1": "Penyusunan kode etik pribadi",
+      "sub_pokok_bahasan_2": "Studi kasus pelanggaran etika AI",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya pengalaman menggunakan AI untuk tugas), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Diskusi kelompok: merumuskan kode etik penggunaan AI di kampus. Presentasi hasil. Studi kasus: mahasiswa menggunakan AI untuk menulis paper tanpa sitasi.",
+          "mahasiswa": "Diskusi kelompok, presentasi",
+          "media": "Slide, Zoom breakout"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (esai tentang etika AI), menginformasikan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (esai) - Bobot (bersama minggu 6)",
+      "evaluasi_2": "",
+      "referensi_1": "Kemdikbud (2024). Bab 3",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 6"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep etika, hukum, AI, dan manusia beretika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang konsep dasar etika, hukum, etika AI, dan manusia beretika",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya (CPMK-3) - untuk Sub-CPMK 5",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu mengerti ilmu pengetahuan teknologi dan seni dalam perspektif agama atas dasar ajaran etika, dan pembangunan pendidikan karakter bangsa",
+      "indikator_1": "Ketepatan menjelaskan tentang materi: memahami dan mengerti ilmu pengetahuan, teknologi dan seni dalam perspektif agama atas dasar ajaran etika, dan pembangunan pendidikan karakter bangsa",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan keterkaitan IPTEK dan seni dengan ajaran agama serta pendidikan karakter bangsa",
+      "pokok_bahasan": "IPTEK, Seni, dan Etika",
+      "sub_pokok_bahasan_1": "Perspektif agama terhadap IPTEK",
+      "sub_pokok_bahasan_2": "Pembangunan pendidikan karakter bangsa",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apakah IPTEK bertentangan dengan agama?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan hubungan IPTEK, seni, dan etika agama. Diskusi tentang bagaimana teknologi dapat digunakan untuk memperkuat karakter bangsa. Contoh: media sosial dan dampaknya pada moral.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas merangkum, menginformasikan materi kerukunan umat beragama",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Bab 7",
+      "referensi_2": "Ida Bagus Mantra (2013). Bab 4"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mampu Memahami dan mengerti kerukunan hidup umat beragama di Lingkungan Kampus",
+      "indikator_1": "Ketepatan menjelaskan tentang materi : kerukunan hidup umat beragama di lingkungan kampus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan konsep kerukunan antar umat beragama dan menerapkannya di kampus",
+      "pokok_bahasan": "Kerukunan Umat Beragama",
+      "sub_pokok_bahasan_1": "Prinsip kerukunan dalam agama",
+      "sub_pokok_bahasan_2": "Implementasi di lingkungan kampus",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh kerukunan antar agama di kampus?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep kerukunan, toleransi, dan dialog antar agama. Studi kasus kegiatan lintas agama di kampus. Diskusi kelompok tentang peran mahasiswa dalam menjaga kerukunan.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas merangkum, menginformasikan materi lanjutan",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas meringkas materi - Bobot 10% (minggu 10-11 digabung)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Bab 8",
+      "referensi_2": "Ida Bagus Mantra (2013). Bab 5"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Kerukunan hidup umat beragama (lanjutan)",
+      "indikator_1": "Ketepatan menjelaskan tentang materi : kerukunan hidup umat beragama di lingkungan kampus",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis kasus intoleransi dan merumuskan solusi berbasis nilai agama",
+      "pokok_bahasan": "Studi Kasus Intoleransi",
+      "sub_pokok_bahasan_1": "Analisis kasus intoleransi di Indonesia",
+      "sub_pokok_bahasan_2": "Strategi pencegahan dan resolusi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah menyaksikan intoleransi?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Membahas studi kasus intoleransi di lingkungan pendidikan. Kelompok mahasiswa menganalisis penyebab dan merumuskan rekomendasi. Presentasi hasil.",
+          "mahasiswa": "Diskusi kelompok, presentasi",
+          "media": "Slide, Zoom breakout"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas esai tentang peran mahasiswa dalam kerukunan, menginformasikan materi budaya sebagai ekspresi agama",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas esai - Bobot (bersama minggu 10)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Bab 9",
+      "referensi_2": "G.K. Adia Wiratmadja (1975). Bab 4"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Memahami budaya sebagai ekspresi pengamalan ajaran agama / etika",
+      "indikator_1": "Ketepatan menjelaskan hubungan budaya dengan ajaran agama dan etika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan bagaimana budaya menjadi ekspresi pengamalan ajaran agama dan etika",
+      "pokok_bahasan": "Budaya dan Agama",
+      "sub_pokok_bahasan_1": "Budaya sebagai ekspresi agama",
+      "sub_pokok_bahasan_2": "Contoh tradisi keagamaan di Indonesia",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: tradisi keagamaan apa yang dikenal?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan hubungan antara budaya dan agama, bagaimana nilai-nilai etika tercermin dalam tradisi. Studi kasus: upacara keagamaan, kesenian religi. Diskusi tentang pelestarian budaya.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide, video contoh"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (mengamati satu tradisi keagamaan lokal), menginformasikan materi politik dalam etika",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok - Bobot 10% (minggu 12-13 digabung)",
+      "evaluasi_2": "",
+      "referensi_1": "Ida Bagus Mantra (2013). Bab 6",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 10"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Budaya sebagai ekspresi (lanjutan)",
+      "indikator_1": "Kemampuan menganalisis sebuah tradisi dan mengaitkannya dengan nilai etika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis tradisi keagamaan lokal sebagai ekspresi nilai etika",
+      "pokok_bahasan": "Analisis Tradisi Keagamaan",
+      "sub_pokok_bahasan_1": "Presentasi hasil observasi",
+      "sub_pokok_bahasan_2": "Nilai etika dalam tradisi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres tugas), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Setiap kelompok mempresentasikan hasil observasi tradisi keagamaan, kemudian dianalisis nilai-nilai etikanya.",
+          "mahasiswa": "Presentasi kelompok, diskusi",
+          "media": "Slide, Zoom"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas finalisasi laporan, menginformasikan materi politik dalam ajaran etika",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi (bersama minggu 12)",
+      "evaluasi_2": "",
+      "referensi_1": "G.K. Adia Wiratmadja (1975). Bab 5",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 11"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menyampaikan informasi terkait pelayanan ... (CPMK-4) - disesuaikan: Mampu menjelaskan politik dalam ajaran etika",
+      "detail_sub_cpmk": "Sub-CPMK 8: Mengerti dan memahami politik dalam ajaran etika",
+      "indikator_1": "Ketepatan menjelaskan hubungan politik dengan etika agama",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan prinsip politik yang etis menurut ajaran agama",
+      "pokok_bahasan": "Politik dalam Ajaran Etika",
+      "sub_pokok_bahasan_1": "Etika politik dalam perspektif agama",
+      "sub_pokok_bahasan_2": "Peran agama dalam politik praktis",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: apakah agama boleh masuk politik?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep etika politik: keadilan, amanah, musyawarah, anti-korupsi. Diskusi tentang keterlibatan agama dalam politik. Studi kasus: pemimpin yang beretika.",
+          "mahasiswa": "Mencatat, diskusi",
+          "media": "Slide"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas esai tentang etika politik, menginformasikan materi presentasi proyek",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas esai - Bobot 10% (minggu 14-15 digabung)",
+      "evaluasi_2": "",
+      "referensi_1": "Tim Dosen Agama (2009). Bab 12",
+      "referensi_2": "Ida Bagus Mantra (2013). Bab 7"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Kuliah TM: 2x50",
+      "detail_cpmk": "Mampu menyampaikan informasi terkait ... (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 8: Politik dalam ajaran etika (lanjutan)",
+      "indikator_1": "Kemampuan menganalisis kasus politik yang tidak etis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis kasus politik dan menilai berdasarkan etika agama",
+      "pokok_bahasan": "Studi Kasus Etika Politik",
+      "sub_pokok_bahasan_1": "Analisis kasus korupsi, hoax, politik uang",
+      "sub_pokok_bahasan_2": "Solusi berbasis nilai agama",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh pelanggaran etika politik), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Diskusi kelompok: membaca berita tentang pelanggaran etika politik, menganalisis menggunakan prinsip etika agama. Simulasi peran: bagaimana seharusnya pemimpin bertindak.",
+          "mahasiswa": "Diskusi kelompok, role-play",
+          "media": "Slide, berita"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas finalisasi laporan studi kasus, menginformasikan UAS",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan kelompok - Bobot (bersama minggu 14)",
+      "evaluasi_2": "",
+      "referensi_1": "G.K. Adia Wiratmadja (1975). Bab 6",
+      "referensi_2": "Tim Dosen Agama (2009). Bab 13"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang IPTEK, kerukunan, budaya, politik, dan etika",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang etika dalam IPTEK, kerukunan, budaya, politik",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif, studi kasus), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus etika, hubungan agama dan budaya, politik)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Semua pustaka utama"
+    }
+  ]
+}

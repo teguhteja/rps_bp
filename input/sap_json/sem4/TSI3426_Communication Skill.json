@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3426",
+    "nama_mk": "Communication Skill",
+    "sks_total": "2",
+    "template_sap": "SAP_MK_TSI0000.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami prinsip dan proses komunikasi efektif, baik verbal, non-verbal, maupun tertulis (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Prinsip dan proses komunikasi efektif",
+      "indikator_1": "Ketepatan menjelaskan model komunikasi (Shannon-Weaver, Schramm) dan hambatan komunikasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan definisi komunikasi, model komunikasi, unsur-unsur, dan hambatan komunikasi",
+      "pokok_bahasan": "Prinsip dan Proses Komunikasi Efektif",
+      "sub_pokok_bahasan_1": "Definisi komunikasi, model komunikasi",
+      "sub_pokok_bahasan_2": "Unsur-unsur komunikasi (sender, message, channel, receiver, feedback, noise)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh komunikasi efektif & tidak efektif), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom/Google Meet"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan definisi komunikasi, model Shannon-Weaver dan Schramm, unsur-unsur komunikasi, hambatan (noise, persepsi, dll). Diskusi interaktif.",
+          "mahasiswa": "Mendengarkan, mencatat, bertanya, diskusi",
+          "media": "Slide, papan tulis virtual, diagram model komunikasi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan kuis online via LMS, menginformasikan materi pertemuan berikutnya (studi kasus komunikasi gagal)",
+          "mahasiswa": "Mengerjakan kuis, mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas latihan soal - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler, R. B., & Elmhorst, J. M. (2018). Communicating at work (12th ed.). Bab 1",
+      "referensi_2": "DeVito, J. A. (2019). The interpersonal communication book (15th ed.). Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Diskusi interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami prinsip dan proses komunikasi efektif, baik verbal, non-verbal, maupun tertulis (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1 : Proses komunikasi dan umpan balik",
+      "indikator_1": "Kemampuan menganalisis kasus komunikasi gagal dan memberikan solusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menganalisis penyebab kegagalan komunikasi dalam kasus nyata dan merumuskan solusi",
+      "pokok_bahasan": "Proses Komunikasi dan Umpan Balik",
+      "sub_pokok_bahasan_1": "Proses encoding-decoding, umpan balik",
+      "sub_pokok_bahasan_2": "Konteks komunikasi; studi kasus komunikasi organisasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pengalaman komunikasi gagal), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan proses encoding-decoding, pentingnya umpan balik, konteks komunikasi. Memberikan studi kasus komunikasi gagal (misal: kesalahan instruksi proyek). Diskusi kelompok menganalisis penyebab dan solusi.",
+          "mahasiswa": "Diskusi kelompok kecil, presentasi hasil analisis",
+          "media": "Slide, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis kasus komunikasi di organisasi), menginformasikan materi komunikasi verbal & non-verbal",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Studi kasus kelompok - Bobot 3%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 2",
+      "referensi_2": "DeVito (2019). Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu memahami prinsip dan proses komunikasi efektif, baik verbal, non-verbal, maupun tertulis (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2 : Komunikasi verbal, non-verbal, dan tertulis",
+      "indikator_1": "Ketepatan mengidentifikasi jenis komunikasi dan penggunaannya",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membedakan dan mengaplikasikan komunikasi verbal, non-verbal, dan tertulis dalam konteks profesional",
+      "pokok_bahasan": "Komunikasi Verbal, Non-verbal, dan Tertulis",
+      "sub_pokok_bahasan_1": "Komunikasi lisan (intonasi, kejelasan, kosa kata)",
+      "sub_pokok_bahasan_2": "Bahasa tubuh (ekspresi, gestur, postur) dan komunikasi tertulis (email, memo)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh pesan yang disampaikan lewat bahasa tubuh), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan komunikasi verbal (pilihan kata, intonasi), non-verbal (ekspresi wajah, gestur, postur, kontak mata), tertulis (email, memo, laporan). Simulasi singkat perbedaan makna akibat bahasa tubuh. Latihan menulis email profesional.",
+          "mahasiswa": "Mencatat, latihan, simulasi role-play",
+          "media": "Slide, role-play"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas individu (menulis memo formal), menginformasikan materi komunikasi bisnis",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas individu - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 3-4",
+      "referensi_2": "Guffey & Loewy (2018). Bab 1"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah + praktik menulis TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan komunikasi bisnis dan teknis dalam organisasi, serta menulis laporan teknis dan dokumentasi profesional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Komunikasi bisnis dan teknis",
+      "indikator_1": "Kemampuan menulis email bisnis, memo, dan surat resmi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menulis email bisnis, memo, dan surat formal dengan etika dan format yang benar",
+      "pokok_bahasan": "Komunikasi Bisnis dan Teknis",
+      "sub_pokok_bahasan_1": "Format email profesional (subject, salam, isi, penutup)",
+      "sub_pokok_bahasan_2": "Memo dan surat resmi, etika komunikasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: email seperti apa yang profesional?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan format email profesional (subject line, salutation, body, closing), kesalahan umum. Memberikan contoh email baik dan buruk. Latihan menulis email berdasarkan skenario (inquiry, response, complaint). Membahas memo dan surat resmi sederhana.",
+          "mahasiswa": "Menulis email, saling mereview",
+          "media": "Slide, template email"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas menulis dokumen bisnis (email & memo), menginformasikan materi komunikasi organisasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas menulis dokumen bisnis - Bobot 4%",
+      "evaluasi_2": "",
+      "referensi_1": "Guffey & Loewy (2018). Bab 4 (email)",
+      "referensi_2": "Adler & Elmhorst (2018). Bab 7"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan komunikasi bisnis dan teknis dalam organisasi, serta menulis laporan teknis dan dokumentasi profesional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3 : Komunikasi dalam organisasi",
+      "indikator_1": "Ketepatan menjelaskan aliran komunikasi vertikal, horizontal, dan diagonal",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan aliran komunikasi formal dan informal dalam organisasi serta peran komunikasi dalam manajemen",
+      "pokok_bahasan": "Komunikasi dalam Organisasi",
+      "sub_pokok_bahasan_1": "Jaringan komunikasi formal (vertikal, horizontal, diagonal)",
+      "sub_pokok_bahasan_2": "Komunikasi informal (grapevine), rapat efektif",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: komunikasi antara atasan dan bawahan termasuk apa?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan aliran komunikasi: ke bawah (perintah), ke atas (laporan), horizontal (rekan kerja), diagonal (lintas departemen). Komunikasi informal (grapevine): manfaat & risiko. Teknik rapat efektif (agenda, notulensi). Diskusi studi kasus rapat yang tidak efektif.",
+          "mahasiswa": "Mencatat, diskusi, latihan membuat agenda rapat",
+          "media": "Slide, contoh agenda"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas kelompok (analisis aliran komunikasi di organisasi hipotetis), menginformasikan materi laporan teknis",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Tugas kelompok - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 8",
+      "referensi_2": "Guffey & Loewy (2018). Bab 2"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Praktik penulisan TM: 2x50",
+      "detail_cpmk": "Mampu menerapkan komunikasi bisnis dan teknis dalam organisasi, serta menulis laporan teknis dan dokumentasi profesional (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4 : Penulisan laporan teknis dan dokumentasi",
+      "indikator_1": "Kemampuan menyusun laporan teknis (struktur, gaya bahasa, referensi)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan teknis sederhana dengan struktur baku (pendahuluan, metode, hasil, kesimpulan) dan daftar pustaka",
+      "pokok_bahasan": "Penulisan Laporan Teknis",
+      "sub_pokok_bahasan_1": "Struktur laporan teknis (IMRaD)",
+      "sub_pokok_bahasan_2": "Teknik penulisan ilmiah, referensi (APA style)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: laporan teknis yang pernah dibaca), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan struktur laporan teknis (pendahuluan, metode, hasil, diskusi, kesimpulan). Gaya bahasa impersonal, objektif. Cara menulis daftar pustaka (APA). Memberikan template laporan. Latihan menulis pendahuluan dan kesimpulan dari data hipotetis.",
+          "mahasiswa": "Mencatat, latihan menulis, konsultasi",
+          "media": "Slide, template laporan"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas individu (laporan teknis sederhana), menginformasikan materi presentasi",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas individu (laporan teknis sederhana) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Guffey & Loewy (2018). Bab 10 (laporan)",
+      "referensi_2": "Adler & Elmhorst (2018). Bab 9"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Praktik presentasi TM: 2x50",
+      "detail_cpmk": "Mampu melakukan presentasi dan public speaking yang efektif di depan audiens (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5 : Presentasi dan public speaking",
+      "indikator_1": "Kemampuan membuat slide presentasi efektif dan menyampaikan dengan percaya diri",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat slide presentasi yang menarik dan menyampaikan presentasi singkat dengan percaya diri",
+      "pokok_bahasan": "Presentasi dan Public Speaking",
+      "sub_pokok_bahasan_1": "Persiapan presentasi (analisis audiens, tujuan, struktur)",
+      "sub_pokok_bahasan_2": "Desain slide (visual, bullet points), bahasa tubuh, manajemen kecemasan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pengalaman presentasi yang berkesan), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan tips presentasi: persiapan, struktur (pembukaan, isi, penutup), slide yang efektif (minimal teks, visual). Bahasa tubuh, kontak mata, intonasi. Manajemen kecemasan (latihan, napas). Setiap mahasiswa presentasi singkat (2-3 menit) dengan topik bebas. Dosen memberi umpan balik.",
+          "mahasiswa": "Mempresentasikan, menerima feedback",
+          "media": "Zoom, slide presentasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas rekaman presentasi singkat, menginformasikan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi individu (5 menit) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 11",
+      "referensi_2": "Guffey & Loewy (2018). Bab 12"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Tengah Semester (Materi minggu 1-7)",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep komunikasi, laporan, dan presentasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang prinsip komunikasi, komunikasi bisnis, penulisan laporan, dan presentasi",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (pilihan ganda, esai, studi kasus komunikasi)",
+          "media": "LMS (Google Form atau Moodle)"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 15%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu melakukan negosiasi dan komunikasi persuasif dalam konteks profesional (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Negosiasi dan komunikasi persuasif",
+      "indikator_1": "Ketepatan menjelaskan strategi negosiasi (integratif vs distributif) dan teknik persuasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan strategi negosiasi dan teknik persuasi (Cialdini) serta menerapkannya dalam simulasi",
+      "pokok_bahasan": "Negosiasi dan Komunikasi Persuasif",
+      "sub_pokok_bahasan_1": "Prinsip negosiasi: BATNA, ZOPA, gaya negosiasi",
+      "sub_pokok_bahasan_2": "Teknik persuasi (reciprocity, scarcity, authority, liking, consistency, consensus)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: contoh negosiasi dalam proyek TI), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep BATNA (Best Alternative), ZOPA (Zone of Possible Agreement), gaya negosiasi (kompetitif, kolaboratif, kompromi). Teknik persuasi Cialdini (6 prinsip). Studi kasus negosiasi sederhana. Simulasi negosiasi berpasangan (misal: alokasi sumber daya proyek).",
+          "mahasiswa": "Simulasi negosiasi, diskusi",
+          "media": "Slide, skenario negosiasi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, tugas kelompok (analisis strategi negosiasi dalam kasus), menginformasikan materi manajemen konflik",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Simulasi negosiasi - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Fisher, R., Ury, W. (2011). Getting to yes. Bab 1-3",
+      "referensi_2": "Cialdini, R. B. (2016). Pre-suasion. Bab 4"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Diskusi kasus TM: 2x50",
+      "detail_cpmk": "Mampu melakukan negosiasi dan komunikasi persuasif dalam konteks profesional (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 6 : Manajemen konflik dalam tim proyek TI",
+      "indikator_1": "Kemampuan mengidentifikasi sumber konflik dan strategi resolusi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengidentifikasi sumber konflik dalam tim proyek dan memilih strategi resolusi yang tepat",
+      "pokok_bahasan": "Manajemen Konflik dalam Tim",
+      "sub_pokok_bahasan_1": "Sumber konflik (perbedaan tujuan, komunikasi, sumber daya)",
+      "sub_pokok_bahasan_2": "Strategi resolusi (kolaborasi, kompromi, kompetisi, menghindar, akomodasi)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah alami konflik tim proyek?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sumber konflik di tim proyek TI (komunikasi, ambiguitas peran, perbedaan nilai). Strategi resolusi konflik (Thomas-Kilmann): kolaborasi (win-win), kompromi (lose-lose), kompetisi (win-lose), menghindar, akomodasi. Studi kasus konflik tim proyek, diskusi kelompok menentukan strategi terbaik.",
+          "mahasiswa": "Diskusi, analisis kasus",
+          "media": "Slide, contoh kasus konflik"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan tugas kelompok (analisis konflik dan resolusi), menginformasikan materi komunikasi lintas budaya",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Tugas kelompok (analisis konflik) - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 10 (konflik)",
+      "referensi_2": "Fisher & Ury (2011). Bab 4"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah interaktif TM: 2x50",
+      "detail_cpmk": "Mampu berkomunikasi lintas budaya dan menerapkan etika komunikasi di era digital (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Komunikasi lintas budaya",
+      "indikator_1": "Ketepatan menjelaskan dimensi budaya (Hofstede) dan dampaknya pada komunikasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan dimensi budaya Hofstede dan pengaruhnya terhadap komunikasi dalam tim global",
+      "pokok_bahasan": "Komunikasi Lintas Budaya",
+      "sub_pokok_bahasan_1": "Dimensi budaya (power distance, individualisme, uncertainty avoidance, maskulinitas, long-term orientation)",
+      "sub_pokok_bahasan_2": "Tantangan dan strategi komunikasi dalam tim lintas budaya",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: perbedaan budaya mempengaruhi komunikasi?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan dimensi budaya Hofstede dengan contoh (Indonesia: high power distance, collectivism). Dampak pada gaya komunikasi (langsung vs tidak langsung, hierarkis vs egaliter). Strategi komunikasi efektif lintas budaya (empati, belajar budaya). Studi kasus kerja tim internasional (misal: tim outsourcing).",
+          "mahasiswa": "Mencatat, diskusi, latihan menganalisis kasus",
+          "media": "Slide, tabel dimensi"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan kuis online, studi kasus (analisis komunikasi lintas budaya dalam proyek global), menginformasikan materi etika digital",
+          "mahasiswa": "Mengerjakan kuis, mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Kuis online; Studi kasus - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 5",
+      "referensi_2": "DeVito (2019). Bab 4"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Diskusi interaktif TM: 2x50",
+      "detail_cpmk": "Mampu berkomunikasi lintas budaya dan menerapkan etika komunikasi di era digital (CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 7 : Etika komunikasi di era digital",
+      "indikator_1": "Kemampuan menjelaskan etika berkomunikasi di media sosial, email, dan platform digital",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menjelaskan etika komunikasi digital (netiket), privasi, keamanan, dan penanganan hoax",
+      "pokok_bahasan": "Etika Komunikasi di Era Digital",
+      "sub_pokok_bahasan_1": "Netiket (etika berinternet) di email, grup WA, media sosial",
+      "sub_pokok_bahasan_2": "Privasi, keamanan informasi, hoax, dan cyberbullying",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: pernah menerima pesan tidak etis di grup?), menyampaikan tujuan",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan aturan netiket: jangan menulis dengan huruf kapital semua, membalas email tepat waktu, menjaga bahasa di grup. Privasi data pribadi, jangan menyebarkan informasi sensitif. Cara mengidentifikasi dan menangani hoax. Diskusi kasus: cyberbullying di tempat kerja (dampak & penanganan).",
+          "mahasiswa": "Mencatat, diskusi, forum online",
+          "media": "Slide, contoh kasus"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan forum diskusi (esai pendek tentang etika komunikasi digital), menginformasikan persiapan studi kasus tim proyek",
+          "mahasiswa": "Mengerjakan forum diskusi",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Forum diskusi; Tulis esai pendek - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "Guffey & Loewy (2018). Bab 14 (etika digital)",
+      "referensi_2": "Adler & Elmhorst (2018). Bab 12"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Bimbingan proyek TM: 2x50",
+      "detail_cpmk": "Mampu menyusun dan mempresentasikan studi kasus komunikasi dalam tim proyek TI (CPMK-3, CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Persiapan studi kasus komunikasi dalam tim proyek TI",
+      "indikator_1": "Kemampuan memilih kasus dan merancang analisis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memilih studi kasus komunikasi dalam tim proyek TI dan merancang analisis permasalahan",
+      "pokok_bahasan": "Studi Kasus Komunikasi Tim Proyek TI: Persiapan",
+      "sub_pokok_bahasan_1": "Pemilihan studi kasus (tim proyek nyata atau fiktif)",
+      "sub_pokok_bahasan_2": "Identifikasi masalah komunikasi dan pengumpulan data",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (ulas proyek akhir), menyampaikan kriteria dan tujuan proyek",
+          "mahasiswa": "Menyimak",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan proyek studi kasus: pilih tim proyek TI (bisa berdasarkan pengalaman) atau kasus hipotetis. Identifikasi masalah komunikasi (misal: miskomunikasi requirement, konflik antar anggota, tidak ada feedback). Bimbingan per kelompok memilih topik dan menyusun proposal.",
+          "mahasiswa": "Diskusi kelompok, menyusun proposal",
+          "media": "Slide, template proposal"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tenggat proposal, menginformasikan materi penyusunan laporan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Proposal proyek kelompok - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 14 (studi kasus)",
+      "referensi_2": "Guffey & Loewy (2018). Bab 15"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Bimbingan proyek TM: 2x50",
+      "detail_cpmk": "Mampu menyusun dan mempresentasikan studi kasus komunikasi dalam tim proyek TI (CPMK-3, CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Penyusunan laporan dan simulasi komunikasi",
+      "indikator_1": "Kemampuan menyusun laporan analisis dan merancang simulasi perbaikan komunikasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menyusun laporan analisis masalah komunikasi dan merancang simulasi perbaikan (role-play)",
+      "pokok_bahasan": "Penyusunan Laporan dan Simulasi Komunikasi",
+      "sub_pokok_bahasan_1": "Struktur laporan: pendahuluan, temuan, analisis, rekomendasi",
+      "sub_pokok_bahasan_2": "Perancangan role-play untuk simulasi perbaikan komunikasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya progres), menyampaikan materi laporan",
+          "mahasiswa": "Melaporkan progres",
+          "media": "Slide"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan template laporan studi kasus (pendahuluan, identifikasi masalah, analisis (teori komunikasi), rekomendasi perbaikan, serta simulasi role-play untuk menunjukkan perbaikan. Bimbingan kelompok menyusun laporan dan merancang simulasi.",
+          "mahasiswa": "Konsultasi, menyusun laporan, merancang role-play",
+          "media": "Template laporan, LMS"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, mengingatkan tenggat laporan, menginformasikan persiapan presentasi",
+          "mahasiswa": "Mencatat",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Laporan proyek - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Guffey & Loewy (2018). Bab 10",
+      "referensi_2": "Adler & Elmhorst (2018). Bab 13"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Presentasi proyek TM: 2x50",
+      "detail_cpmk": "Mampu menyusun dan mempresentasikan studi kasus komunikasi dalam tim proyek TI (CPMK-3, CPMK-5)",
+      "detail_sub_cpmk": "Sub-CPMK 8 : Presentasi studi kasus",
+      "indikator_1": "Kemampuan mempresentasikan hasil analisis dan rekomendasi",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mempresentasikan hasil studi kasus komunikasi dan simulasi perbaikan secara efektif",
+      "pokok_bahasan": "Presentasi Hasil Studi Kasus",
+      "sub_pokok_bahasan_1": "Paparan 10 menit per kelompok",
+      "sub_pokok_bahasan_2": "Sesi tanya jawab dan peer feedback",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, menyampaikan aturan presentasi (10 menit + 5 menit tanya jawab), urutan",
+          "mahasiswa": "Mempersiapkan slide",
+          "media": "Zoom, slide"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi kelompok, memberikan pertanyaan, memberi umpan balik",
+          "mahasiswa": "Mempresentasikan (masalah, analisis, rekomendasi, simulasi role-play), menjawab pertanyaan",
+          "media": "Slide, role-play"
+        },
+        "penutup": {
+          "pengajar": "Kesimpulan, memberikan apresiasi, menginformasikan UAS",
+          "mahasiswa": "Mencatat feedback",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi kelompok (10 menit) - Bobot 6%",
+      "evaluasi_2": "",
+      "referensi_1": "Adler & Elmhorst (2018). Bab 11",
+      "referensi_2": "Guffey & Loewy (2018). Bab 12"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "Ujian Akhir Semester (Materi minggu 9-15)",
+      "detail_sub_cpmk": "Sub-CPMK 9 : Ujian Akhir Semester + Integrasi",
+      "indikator_1": "Menjawab soal integratif tentang komunikasi dalam konteks organisasi dan tim proyek",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa tentang negosiasi, manajemen konflik, komunikasi lintas budaya, etika digital, dan studi kasus komunikasi",
+      "pokok_bahasan": "Evaluasi Akhir Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 9-15",
+      "sub_pokok_bahasan_2": "Integrasi konsep",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (boleh buka catatan, durasi)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian (soal esai integratif, studi kasus komunikasi organisasi), mengawasi, menjawab pertanyaan teknis",
+          "mahasiswa": "Mengerjakan soal (analisis kasus, rekomendasi perbaikan komunikasi)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan waktu, menutup akses, mengkonfirmasi pengumpulan",
+          "mahasiswa": "Mengumpulkan jawaban",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 18%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 9-15",
+      "referensi_2": "Adler, DeVito, Guffey"
+    }
+  ]
+}

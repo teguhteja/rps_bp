@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "kode_mk": "TSI3106",
+    "nama_mk": "Pemrograman Dasar Visual",
+    "sks_total": "3",
+    "template_sap": "SAP_MK_TSI3104.docx"
+  },
+  "pertemuan": [
+    {
+      "no": 1,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu menggunakan IDE (Microsoft Visual Basic) dan menerapkan sintaks dasar (Variabel, Tipe Data, Operator) VB.NET. (C2, A3) (CPMK 1)",
+      "indikator_1": "Mampu membuat dan menjalankan proyek VB .NET di Microsoft Visual Basic",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggunakan IDE Microsoft Visual Basic, membuat proyek, dan menjalankan aplikasi VB.NET pertama",
+      "pokok_bahasan": "Pengenalan Visual Basic .NET dan IDE",
+      "sub_pokok_bahasan_1": "Pengenalan VB.NET, keunggulan, dan konsep OOP",
+      "sub_pokok_bahasan_2": "IDE Visual Basic .NET: menu, toolbox, solution explorer, properties window",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (menanyakan pengalaman pemrograman), menyampaikan tujuan pembelajaran",
+          "mahasiswa": "Menyimak, merespon presensi, menjawab apersepsi",
+          "media": "Slide presentasi, LMS, Zoom, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sejarah VB.NET, keunggulan, dan konsep OOP. Demonstrasi membuat proyek Windows Forms App, menjalankan aplikasi Hello World. Praktikum: mahasiswa mengikuti langkah-langkah membuat proyek sederhana",
+          "mahasiswa": "Mendengarkan, mencatat, praktik membuat proyek VB.NET, bertanya",
+          "media": "Slide, Visual Studio, demo coding"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas 1 (esai tentang konsep OOP dan keuntungan VB.NET), menginformasikan materi variabel dan tipe data",
+          "mahasiswa": "Mencatat kesimpulan, mulai mengerjakan tugas",
+          "media": "LMS, grup WhatsApp"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung, Tugas 1 - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 1-8",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 1"
+    },
+    {
+      "no": 2,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Mampu menggunakan IDE (Microsoft Visual Basic) dan menerapkan sintaks dasar (Variabel, Tipe Data, Operator) VB.NET. (C2, A3) (CPMK 1)",
+      "indikator_1": "Mampu mendeklarasikan variabel dengan tipe data yang tepat dan benar sintaksnya",
+      "indikator_2": "Mampu menggunakan operator aritmatika dan penugasan untuk perhitungan yang akurat",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendeklarasikan variabel dengan tipe data yang tepat serta menggunakan operator aritmatika dan penugasan",
+      "pokok_bahasan": "Variabel, Tipe Data, dan Operator",
+      "sub_pokok_bahasan_1": "Deklarasi variabel (Dim), tipe data (Integer, String, Boolean, Double, Date)",
+      "sub_pokok_bahasan_2": "Operator aritmatika (+, -, *, /, Mod), operator penugasan (=), operator perbandingan",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu variabel?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan aturan penamaan variabel, tipe data dan penggunaannya. Menjelaskan operator aritmatika dan prioritas. Demonstrasi membuat program sederhana (misal: kalkulator sederhana). Praktikum: mahasiswa membuat program konversi suhu atau luas lingkaran",
+          "mahasiswa": "Mencatat, praktik coding, bertanya",
+          "media": "Slide, Visual Studio, contoh kode"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi, memberikan tugas coding sederhana, menginformasikan materi selanjutnya",
+          "mahasiswa": "Mencatat tugas, mengumpulkan kode program",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 9-16",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 2"
+    },
+    {
+      "no": 3,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Lanjutan - Variabel, Tipe Data, dan Operator (Praktikum Intensif)",
+      "indikator_1": "Mampu mendeklarasikan variabel dengan tipe data yang tepat dan benar sintaksnya",
+      "indikator_2": "Mampu menggunakan operator aritmatika dan penugasan untuk perhitungan yang akurat",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengimplementasikan variabel, tipe data, dan operator dalam program pemecahan masalah sederhana",
+      "pokok_bahasan": "Implementasi Variabel dan Operator dalam Kasus Nyata",
+      "sub_pokok_bahasan_1": "Konversi tipe data (CType, Convert), input dari pengguna (TextBox, InputBox)",
+      "sub_pokok_bahasan_2": "Latihan pemrograman: menghitung diskon, menghitung BMI, konversi mata uang",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review tugas), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Membahas tugas sebelumnya, memberikan umpan balik. Menjelaskan konversi tipe data dan cara mengambil input dari pengguna. Memberikan studi kasus sederhana (menghitung diskon, konversi mata uang). Praktikum: mahasiswa menyelesaikan minimal 2 kasus pemrograman",
+          "mahasiswa": "Mencatat, praktik coding, konsultasi",
+          "media": "Slide, Visual Studio, studi kasus"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis online, menginformasikan materi percabangan",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung, Kuis - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 9-16",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 2"
+    },
+    {
+      "no": 4,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 1: Review dan Penguatan Materi Minggu 1-3",
+      "indikator_1": "Mampu membuat dan menjalankan proyek VB.NET",
+      "indikator_2": "Mampu mendeklarasikan variabel dan menggunakan operator dengan benar",
+      "tujuan_pembelajaran": "Mahasiswa mampu mereview dan menguatkan pemahaman tentang IDE, variabel, tipe data, dan operator melalui latihan terstruktur",
+      "pokok_bahasan": "Review: IDE, Variabel, Tipe Data, Operator",
+      "sub_pokok_bahasan_1": "Latihan soal pilihan ganda dan coding",
+      "sub_pokok_bahasan_2": "Pembahasan kesalahan umum dan best practice",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review materi sebelumnya), menyampaikan tujuan review",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Memberikan latihan soal terstruktur (pilihan ganda dan coding). Membahas kesalahan umum dalam pendeklarasian variabel dan penggunaan operator. Praktikum: mahasiswa mengerjakan soal review dengan bimbingan",
+          "mahasiswa": "Mengerjakan latihan, diskusi, bertanya",
+          "media": "Slide, Visual Studio, Google Forms"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan materi 1-4, memberikan tugas mandiri, menginformasikan materi percabangan",
+          "mahasiswa": "Mencatat, mengumpulkan tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 1-16",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 1-2"
+    },
+    {
+      "no": 5,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu membangun logika program yang efisien dengan Percabangan (If/Select Case) dan Perulangan (For/Do). (C2, A3) (CPMK1)",
+      "indikator_1": "Mampu mengimplementasikan If...Then dan Select Case yang akurat",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengimplementasikan struktur percabangan If-Then-Else dan Select Case dalam program",
+      "pokok_bahasan": "Percabangan (If dan Select Case)",
+      "sub_pokok_bahasan_1": "If...Then, If...Then...Else, If bersarang, ElseIf",
+      "sub_pokok_bahasan_2": "Select Case; perbandingan If vs Select Case",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana membuat program yang memutuskan sesuatu?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan logika percabangan, sintaks If, ElseIf, Else. Menjelaskan Select Case untuk banyak kondisi. Memberikan contoh: menentukan kelulusan (If), program kalkulator pilihan menu (Select Case). Praktikum: mahasiswa membuat program menentukan grade nilai, program konversi nilai angka ke huruf",
+          "mahasiswa": "Mencatat, praktik coding, bertanya",
+          "media": "Slide, Visual Studio, contoh kode"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas coding percabangan, menginformasikan materi perulangan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 20-24",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 3"
+    },
+    {
+      "no": 6,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu menguasai konsep dasar pemrograman VB.NET dan logika kontrol terstruktur (CPMK-1)",
+      "detail_sub_cpmk": "Sub-CPMK 2: Mampu membangun logika program yang efisien dengan Percabangan (If/Select Case) dan Perulangan (For/Do). (C2, A3) (CPMK1)",
+      "indikator_1": "Mampu memilih dan menggunakan For...Next dan Do...Loop secara efisien",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengimplementasikan struktur perulangan For...Next dan Do...Loop dalam program",
+      "pokok_bahasan": "Perulangan (For dan Do Loop)",
+      "sub_pokok_bahasan_1": "For...Next (dengan Step, Exit For), For Each",
+      "sub_pokok_bahasan_2": "Do While, Do Until, Do Loop While, Do Loop Until; perbandingan For dan Do",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana mencetak angka 1-100 tanpa menulis manual?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan sintaks For...Next, For Each untuk koleksi. Menjelaskan Do Loop dengan berbagai varian kondisi. Memberikan contoh: mencetak bilangan genap, faktorial, program tebak angka. Praktikum: mahasiswa membuat program deret Fibonacci, program hitung rata-rata input hingga berhenti",
+          "mahasiswa": "Mencatat, praktik coding, bertanya",
+          "media": "Slide, Visual Studio, contoh kode"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan kuis, menginformasikan materi array",
+          "mahasiswa": "Mengerjakan kuis",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung, Kuis - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 25-29",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 3"
+    },
+    {
+      "no": 7,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan solusi modular dan mengelola data kompleks secara terstruktur (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 3: Mampu mengelola data kompleks dengan Array (satu dan multi dimensi). (C2, A3) (CPMK 2)",
+      "indikator_1": "Mampu mendeklarasikan dan mengakses data pada Array satu dimensi yang benar",
+      "indikator_2": "Mampu mendeklarasikan dan mengakses data pada Array multi dimensi",
+      "tujuan_pembelajaran": "Mahasiswa mampu mendeklarasikan dan mengakses array satu dimensi dan multi dimensi untuk menyimpan data terstruktur",
+      "pokok_bahasan": "Array (Satu dan Multi Dimensi)",
+      "sub_pokok_bahasan_1": "Deklarasi array satu dimensi (Dim, ReDim), mengisi dan membaca nilai, properti (Length, GetUpperBound)",
+      "sub_pokok_bahasan_2": "Array multi dimensi (2D), perulangan bersarang untuk mengakses",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana menyimpan 100 nilai ujian dengan efisien?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan konsep array, deklarasi array satu dimensi, mengisi dan membaca nilai. Menjelaskan ReDim dan Preserve. Menjelaskan array dua dimensi (baris, kolom) dan penggunaan perulangan bersarang. Praktikum: mahasiswa membuat program menyimpan dan menampilkan nilai mahasiswa, membuat matriks 2x2",
+          "mahasiswa": "Mencatat, praktik coding, bertanya",
+          "media": "Slide, Visual Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas coding array, menginformasikan persiapan UTS",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 35-38",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 4"
+    },
+    {
+      "no": 8,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UTS / Evaluasi Tengah Semester",
+      "detail_sub_cpmk": "UTS",
+      "indikator_1": "Menjawab soal konsep variabel, tipe data, operator, percabangan, perulangan, array",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap materi pertemuan 1-7 (IDE, variabel, operator, percabangan, perulangan, array)",
+      "pokok_bahasan": "Evaluasi Tengah Semester",
+      "sub_pokok_bahasan_1": "Materi minggu 1-7: IDE, variabel, tipe data, operator, percabangan, perulangan, array",
+      "sub_pokok_bahasan_2": "",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis ujian online, doa, presensi, menjelaskan aturan ujian (closed book, durasi 90 menit, soal teori dan coding)",
+          "mahasiswa": "Mempersiapkan diri, mengisi presensi, menyiapkan koneksi stabil",
+          "media": "LMS, Zoom"
+        },
+        "penyajian": {
+          "pengajar": "Membuka akses ujian di LMS, mengawasi jalannya ujian (mengaktifkan kamera), membuka sesi tanya jawab teknis",
+          "mahasiswa": "Mengerjakan soal ujian (pilihan ganda 20 soal, essay 2 soal coding sederhana di pseudo-code atau VB.NET)",
+          "media": "LMS"
+        },
+        "penutup": {
+          "pengajar": "Mengingatkan sisa waktu, menutup akses ujian tepat waktu, mengkonfirmasi pengumpulan jawaban",
+          "mahasiswa": "Mengumpulkan jawaban, keluar dari ruang ujian",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Ujian tertulis online - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "Materi minggu 1-7",
+      "referensi_2": ""
+    },
+    {
+      "no": 9,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengimplementasikan solusi modular dan mengelola data kompleks secara terstruktur (CPMK-2)",
+      "detail_sub_cpmk": "Sub-CPMK 4: Mampu merancang kode modular dengan membuat dan memanggil Procedure, Function dan Module. (C2, A3) (CPMK 2)",
+      "indikator_1": "Mampu membuat dan memanggil Sub & Function dengan parameter yang benar",
+      "indikator_2": "Mampu mengorganisasi kode program ke dalam Module",
+      "tujuan_pembelajaran": "Mahasiswa mampu membuat kode modular menggunakan Sub, Function, dan Module untuk meningkatkan reusability dan keterbacaan kode",
+      "pokok_bahasan": "Procedure, Function, dan Module",
+      "sub_pokok_bahasan_1": "Sub (tanpa nilai balik), Function (dengan nilai balik), parameter (ByVal, ByRef)",
+      "sub_pokok_bahasan_2": "Module, scope variabel (lokal vs global), rekursi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa manfaat membuat kode modular?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan perbedaan Sub dan Function, cara membuat dan memanggil, parameter ByVal dan ByRef. Menjelaskan Module untuk menyimpan fungsi-fungsi umum. Memberikan contoh: membuat fungsi faktorial, prosedur untuk menampilkan data. Praktikum: mahasiswa membuat program dengan modular (menghitung luas berbagai bangun, konversi suhu)",
+          "mahasiswa": "Mencatat, praktik coding modular, konsultasi",
+          "media": "Slide, Visual Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas coding modular, menginformasikan materi GUI dan database",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 42-45",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 5"
+    },
+    {
+      "no": 10,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu membangun antarmuka grafis (GUI) yang fungsional dan terintegrasi dengan Database (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu merancang GUI yang efektif dan melakukan koneksi dasar aplikasi VB.NET ke Database (DBMS). (C2, A3) (CPMK 3)",
+      "indikator_1": "Mampu merancang GUI yang efektif dan user friendly",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu merancang antarmuka grafis (GUI) yang user-friendly menggunakan kontrol-kontrol standar VB.NET",
+      "pokok_bahasan": "Perancangan GUI yang Efektif",
+      "sub_pokok_bahasan_1": "Kontrol: Form, Label, TextBox, Button, ListBox, ComboBox, DataGridView, DateTimePicker",
+      "sub_pokok_bahasan_2": "Property (Text, Name, Size, Location), Event (Click, Load, TextChanged), Layout (Anchor, Dock)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Aplikasi desktop dengan GUI yang baik cirinya?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan kontrol-kontrol utama dalam VB.NET dan propertinya. Menjelaskan event-driven programming. Memberikan contoh desain form login, form input data mahasiswa. Praktikum: mahasiswa merancang GUI sederhana (form data diri) dengan tata letak yang rapi dan user-friendly",
+          "mahasiswa": "Mencatat, praktik desain GUI, bertanya",
+          "media": "Slide, Visual Studio, contoh desain"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas desain GUI, menginformasikan materi koneksi database",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 6",
+      "referensi_2": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 48-50"
+    },
+    {
+      "no": 11,
+      "waktu_pertemuan": "Kuliah, Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu membangun antarmuka grafis (GUI) yang fungsional dan terintegrasi dengan Database (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Mampu merancang GUI yang efektif dan melakukan koneksi dasar aplikasi VB.NET ke Database (DBMS). (C2, A3) (CPMK 3)",
+      "indikator_1": "Mampu mengkonfigurasi dan menguji koneksi database dasar ke DBMS",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengkonfigurasi dan menguji koneksi VB.NET ke database (MySQL/SQL Server) menggunakan koneksi dasar",
+      "pokok_bahasan": "Koneksi VB.NET ke Database",
+      "sub_pokok_bahasan_1": "Database Management System (MySQL, SQL Server), komponen database, konsep pemrograman database",
+      "sub_pokok_bahasan_2": "Koneksi menggunakan SqlConnection, ConnectionString, SqlCommand, SqlDataReader; menguji koneksi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana aplikasi menyimpan data secara permanen?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio, XAMPP/MySQL"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan DBMS (MySQL, SQL Server) dan cara menginstal. Menjelaskan konsep pemrograman database (koneksi, query). Demonstrasi membuat koneksi ke database MySQL, menguji dengan SqlConnection.Open, menampilkan pesan sukses/gagal. Praktikum: mahasiswa membuat aplikasi sederhana yang mencoba koneksi ke database (menampilkan \"Koneksi Berhasil\")",
+          "mahasiswa": "Mencatat, praktik koneksi database, troubleshooting koneksi",
+          "media": "Slide, Visual Studio, XAMPP, contoh koneksi"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas koneksi database, menginformasikan materi CRUD",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 48-50",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 7"
+    },
+    {
+      "no": 12,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu membangun antarmuka grafis (GUI) yang fungsional dan terintegrasi dengan Database (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 5: Desain GUI dan Koneksi Database (Praktikum Terintegrasi)",
+      "indikator_1": "Mampu merancang GUI yang efektif dan user friendly",
+      "indikator_2": "Mampu mengkonfigurasi dan menguji koneksi database dasar ke DBMS",
+      "tujuan_pembelajaran": "Mahasiswa mampu menggabungkan desain GUI dengan koneksi database untuk menampilkan data dalam DataGridView",
+      "pokok_bahasan": "Integrasi GUI dengan Database",
+      "sub_pokok_bahasan_1": "Menampilkan data di DataGridView menggunakan SqlDataAdapter dan DataTable",
+      "sub_pokok_bahasan_2": "Mengisi ComboBox dari database, navigasi data",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review tugas koneksi), menyampaikan tujuan integrasi",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio, MySQL"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan cara menampilkan data di DataGridView menggunakan SqlDataAdapter dan DataTable. Menjelaskan cara mengisi ComboBox dari database. Praktikum: mahasiswa membuat aplikasi yang menampilkan data dari tabel ke DataGridView, mengisi ComboBox dengan data kategori",
+          "mahasiswa": "Mencatat, praktik membuat aplikasi data viewer, konsultasi",
+          "media": "Slide, Visual Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas (aplikasi data viewer sederhana), menginformasikan materi CRUD",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 5%",
+      "evaluasi_2": "",
+      "referensi_1": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 7",
+      "referensi_2": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 48-50"
+    },
+    {
+      "no": 13,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu membangun antarmuka grafis (GUI) yang fungsional dan terintegrasi dengan Database (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Mampu mengimplementasikan seluruh operasi CRUD (Create, Read, Update, Delete). (C2, A3) (CPMK 3)",
+      "indikator_1": "Mampu mengimplementasikan operasi Create, Read, Update, Delete (CRUD)",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu mengimplementasikan operasi CRUD (Create, Read, Update, Delete) pada aplikasi VB.NET yang terintegrasi database",
+      "pokok_bahasan": "Implementasi CRUD",
+      "sub_pokok_bahasan_1": "Read (SELECT) dengan DataAdapter dan DataTable atau SqlCommand",
+      "sub_pokok_bahasan_2": "Create (INSERT), Update (UPDATE), Delete (DELETE) menggunakan SqlCommand.ExecuteNonQuery",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Apa itu CRUD?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio, MySQL"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan 4 operasi CRUD. Demonstrasi membuat aplikasi CRUD sederhana (misal: data mahasiswa) dengan fitur tambah, tampil, ubah, hapus. Menjelaskan penggunaan parameter query untuk mencegah SQL injection. Praktikum: mahasiswa membuat aplikasi CRUD untuk tabel sederhana (buku, barang, atau mahasiswa) dengan bimbingan",
+          "mahasiswa": "Mencatat, praktik coding CRUD, konsultasi",
+          "media": "Slide, Visual Studio, demo CRUD"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas CRUD, menginformasikan materi lanjutan",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Hal 119-129",
+      "referensi_2": "B. Sudirman, Vb .Net Untuk Pemula. 2021. Hal 55-70"
+    },
+    {
+      "no": 14,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu membangun antarmuka grafis (GUI) yang fungsional dan terintegrasi dengan Database (CPMK-3)",
+      "detail_sub_cpmk": "Sub-CPMK 6: Lanjutan - Memastikan konsistensi data antara aplikasi dan database",
+      "indikator_1": "Mampu memastikan konsistensi data antara aplikasi dan database",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memastikan konsistensi data (validasi, handling error) dan menyempurnakan aplikasi CRUD",
+      "pokok_bahasan": "Validasi Data dan Konsistensi dalam CRUD",
+      "sub_pokok_bahasan_1": "Validasi input (field tidak kosong, tipe data, range, duplikasi)",
+      "sub_pokok_bahasan_2": "Penanganan error (Try-Catch), transaction, refresh data setelah operasi",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (review aplikasi CRUD), menyampaikan tujuan validasi",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan pentingnya validasi input dan konsistensi data. Menjelaskan penggunaan Try-Catch untuk menangani error (koneksi gagal, query error). Menjelaskan konsep transaction untuk menjaga integrity data. Praktikum: mahasiswa menyempurnakan aplikasi CRUD dengan validasi dan error handling",
+          "mahasiswa": "Mencatat, praktik menambahkan validasi dan Try-Catch, konsultasi",
+          "media": "Slide, Visual Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan, memberikan tugas finalisasi CRUD, menginformasikan materi evaluasi program",
+          "mahasiswa": "Mencatat tugas",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "I. K. Raharjana, Buku Ajar Pengujian Perangkat Lunak, 1st ed. Surabaya: Airlangga University Press, 2025. Hal 45-58",
+      "referensi_2": "I. G. T. Isa, Buku Ajar Pemrograman Visual Dasar. 2021. Bab 7"
+    },
+    {
+      "no": 15,
+      "waktu_pertemuan": "Praktikum, Diskusi TM: 3x50",
+      "detail_cpmk": "Mampu mengintegrasikan, menguji, dan mengevaluasi sistem aplikasi desktop sebagai solusi akurat (CPMK-4)",
+      "detail_sub_cpmk": "Sub-CPMK 7: Mampu mengevaluasi keakuratan program dan mempresentasikan hasil proyek akhir secara profesional. (C2, A3) (CPMK 4)",
+      "indikator_1": "Mampu memvalidasi keakuratan output program terhadap spesifikasi teknis dan menyajikan hasil proyek secara profesional dengan argumentasi yang logis",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mahasiswa mampu memvalidasi keakuratan output program, menguji aplikasi, dan mempresentasikan hasil proyek akhir",
+      "pokok_bahasan": "Evaluasi Keakuratan Program dan Presentasi Proyek",
+      "sub_pokok_bahasan_1": "Teknik pengujian (black box, white box), validasi output terhadap spesifikasi",
+      "sub_pokok_bahasan_2": "Penyusunan laporan proyek, presentasi profesional",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Doa, presensi, apersepsi (tanya: 'Bagaimana memastikan program bekerja sesuai keinginan?'), menyampaikan tujuan",
+          "mahasiswa": "Menyimak, menjawab",
+          "media": "Slide, LMS, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Menjelaskan metode pengujian black box dan white box. Memberikan contoh kasus uji. Menjelaskan cara mengevaluasi keakuratan output. Bimbingan final proyek: mahasiswa menyelesaikan aplikasi CRUD lengkap dengan GUI yang baik, validasi, dan error handling. Persiapan presentasi (slide, demo).",
+          "mahasiswa": "Mengerjakan proyek akhir, konsultasi dengan dosen, menyiapkan presentasi",
+          "media": "Slide, Visual Studio, template laporan"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan progres, memberikan deadline pengumpulan proyek, menginformasikan jadwal presentasi dan UAS",
+          "mahasiswa": "Mencatat deadline, melanjutkan pengerjaan",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Observasi Kinerja Langsung - Bobot 10%",
+      "evaluasi_2": "",
+      "referensi_1": "I. K. Raharjana, Buku Ajar Pengujian Perangkat Lunak, 2025. Hal 45-58",
+      "referensi_2": "Panduan presentasi proyek"
+    },
+    {
+      "no": 16,
+      "waktu_pertemuan": "Ujian TM: 2x50",
+      "detail_cpmk": "UAS / Evaluasi Akhir Semester",
+      "detail_sub_cpmk": "UAS",
+      "indikator_1": "Menjawab soal integratif tentang seluruh materi pemrograman VB.NET dan studi kasus CRUD",
+      "indikator_2": "",
+      "tujuan_pembelajaran": "Mengukur pemahaman mahasiswa terhadap seluruh materi (IDE, variabel, percabangan, perulangan, array, procedure/function, GUI, koneksi database, CRUD, pengujian) serta kemampuan presentasi proyek",
+      "pokok_bahasan": "Ujian Akhir Semester dan Presentasi Proyek",
+      "sub_pokok_bahasan_1": "Seluruh materi minggu 1-15",
+      "sub_pokok_bahasan_2": "Presentasi proyek aplikasi VB.NET (demo aplikasi + laporan)",
+      "kegiatan": {
+        "pendahuluan": {
+          "pengajar": "Mengatur teknis presentasi dan ujian, doa, presensi, menjelaskan aturan presentasi (5-7 menit per kelompok) dan UAS (30 menit coding sederhana)",
+          "mahasiswa": "Mempersiapkan slide, aplikasi, laporan",
+          "media": "LMS, Zoom, Visual Studio"
+        },
+        "penyajian": {
+          "pengajar": "Memandu presentasi proyek kelompok (demo aplikasi, penjelasan fitur, validasi, pengujian). Memberikan pertanyaan dan umpan balik. Setelah presentasi, membuka akses UAS praktik (soal coding sederhana: membuat program dengan percabangan/perulangan atau CRUD sederhana)",
+          "mahasiswa": "Mempresentasikan proyek, menjawab pertanyaan, mengerjakan UAS coding",
+          "media": "Slide, demo aplikasi, LMS, Visual Studio"
+        },
+        "penutup": {
+          "pengajar": "Menyimpulkan keseluruhan mata kuliah, memberikan apresiasi, mengumumkan nilai akhir di LMS, menutup perkuliahan",
+          "mahasiswa": "Mengumpulkan kode UAS, memberikan feedback, keluar",
+          "media": "LMS"
+        }
+      },
+      "evaluasi_1": "Presentasi proyek + UAS coding - Bobot 20%",
+      "evaluasi_2": "",
+      "referensi_1": "Seluruh materi minggu 1-15",
+      "referensi_2": "B. Sudirman, Vb .Net Untuk Pemula. 2021."
+    }
+  ]
+}
