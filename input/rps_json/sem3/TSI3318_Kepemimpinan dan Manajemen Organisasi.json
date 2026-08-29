@@ -19,296 +19,553 @@
     {
       "kode": "S-02",
       "tipe": "Sikap",
-      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika",
+      "label": "CPL 1 (S-02)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "S-06",
       "tipe": "Sikap",
-      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan",
+      "label": "CPL 2 (S-06)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "S-09",
       "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 3 (S-09)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 4 (S-10)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 5 (KU-01)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
-    },
-    {
-      "kode": "KU-06",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 6 (KU-02)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KU-07",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan"
+      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan",
+      "label": "CPL 7 (KU-07)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 8 (KK-01)",
+      "nomor": "CPL 8"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "S-02, S-06, KU-01",
-      "deskripsi": "Mampu memahami konsep dan teori kepemimpinan modern serta gaya kepemimpinan yang sesuai dengan konteks organisasi"
+      "deskripsi": "Mampu memahami konsep dan teori kepemimpinan modern serta gaya kepemimpinan yang sesuai dengan konteks organisasi (CPL 1, CPL 2, CPL 5)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "S-09, KU-02, KU-07",
-      "deskripsi": "Mampu menjelaskan struktur organisasi, budaya organisasi, dan perilaku individu dalam kelompok kerja"
+      "deskripsi": "Mampu menjelaskan struktur organisasi, budaya organisasi, dan perilaku individu dalam kelompok kerja (CPL 3, CPL 6, CPL 7)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-01, KU-06, KK-01",
-      "deskripsi": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI"
+      "cpl": "KU-01, KK-01",
+      "deskripsi": "Mampu menerapkan manajemen tim, pengambilan keputusan manajerial, dan manajemen konflik dalam tim proyek TI (CPL 5, CPL 8)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KU-07, KK-01",
-      "deskripsi": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership serta etika kepemimpinan"
+      "cpl": "S-09, S-10, KU-07, KK-01",
+      "deskripsi": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership serta etika kepemimpinan (CPL 3, CPL 4, CPL 7, CPL 8)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-06, KK-01",
-      "deskripsi": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi pada perusahaan/organisasi nyata"
+      "cpl": "KK-01",
+      "deskripsi": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi pada perusahaan/organisasi nyata (CPL 8)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep dasar kepemimpinan dan perbedaannya dengan manajemen",
+      "deskripsi": "Mampu menjelaskan konsep dasar kepemimpinan dan perbedaannya dengan manajemen (C2–C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu mengidentifikasi gaya kepemimpinan (otoriter, demokratis, laissez-faire, situasional)",
+      "deskripsi": "Mampu mengidentifikasi gaya kepemimpinan (otoriter, demokratis, laissez-faire, situasional) (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menjelaskan struktur organisasi, budaya, dan perilaku organisasi",
+      "deskripsi": "Mampu menjelaskan struktur organisasi, budaya, dan perilaku organisasi (C2–C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan manajemen tim dan kerja kelompok dalam proyek",
+      "deskripsi": "Mampu menerapkan manajemen tim dan kerja kelompok dalam proyek (C3–C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "6–7",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu melakukan pengambilan keputusan manajerial dan manajemen konflik",
+      "deskripsi": "Mampu melakukan pengambilan keputusan manajerial dan manajemen konflik (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "8–9",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership",
+      "deskripsi": "Mampu menjelaskan kepemimpinan transformasional dan digital leadership (C3–C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu memahami etika kepemimpinan dan tanggung jawab sosial",
+      "deskripsi": "Mampu memahami etika kepemimpinan dan tanggung jawab sosial (C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi",
+      "deskripsi": "Mampu melakukan analisis studi kasus kepemimpinan dan manajemen organisasi (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–15",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus dan memberikan rekomendasi",
+      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus dan memberikan rekomendasi (C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "16",
-      "cpl": "C6"
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "51%",
+      "c1": "15%",
+      "c2": "9%",
+      "c3": "5%",
+      "c4": "10%",
+      "c5": "12%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "20%",
+      "c1": "1.7%",
+      "c2": "1.7%",
+      "c3": "11.7%",
+      "c4": "5%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3%",
+      "c2": "3%",
+      "c3": "3%",
+      "c4": "3%",
+      "c5": "3%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "14%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "4.7%",
+      "c4": "4.7%",
+      "c5": "4.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "19.7%",
+      "c2": "13.7%",
+      "c3": "24.3%",
+      "c4": "22.7%",
+      "c5": "19.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.3",
+      "p2": "4.3",
+      "p3": "",
+      "p4": "",
+      "p5": "4.3",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "12.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "2.7",
+      "p2": "2.6",
+      "p3": "",
+      "p4": "",
+      "p5": "2.6",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "7.9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "4",
+      "p4": "",
+      "p5": "",
+      "p6": "4",
+      "p7": "3.9",
+      "p8": "",
+      "bobot": "11.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "6.5",
+      "p6": "",
+      "p7": "",
+      "p8": "6.4",
+      "bobot": "12.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "5.1",
+      "p6": "",
+      "p7": "",
+      "p8": "5.1",
+      "bobot": "10.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "3.8",
+      "p4": "3.8",
+      "p5": "",
+      "p6": "",
+      "p7": "3.8",
+      "p8": "3.8",
+      "bobot": "15.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "2.6",
+      "p4": "2.6",
+      "p5": "",
+      "p6": "",
+      "p7": "2.5",
+      "p8": "2.5",
+      "bobot": "10.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "17.2",
+      "bobot": "17.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "1.6",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "7",
+      "p2": "6.9",
+      "p3": "10.4",
+      "p4": "6.4",
+      "p5": "18.5",
+      "p6": "4",
+      "p7": "10.2",
+      "p8": "35",
+      "bobot": "100",
+      "minggu": "13"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep dasar kepemimpinan",
-      "indikator": "Ketepatan mendefinisikan kepemimpinan, membedakan dengan manajemen, serta menjelaskan peran pemimpin",
-      "kriteria": "Kuis online (LMS); Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Definisi kepemimpinan vs manajemen; teori sifat; teori perilaku; peran pemimpin dalam organisasi",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar kepemimpinan (C2–C3, A3) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan kepemimpinan, membedakan dengan manajemen, serta menjelaskan peran pemimpin\n1.2 Ketepatan menerapkan definisi kepemimpinan vs manajemen, teori sifat, teori perilaku\n1.3 Kemampuan menggunakan peran pemimpin dalam organisasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Definisi kepemimpinan vs manajemen; teori sifat; teori perilaku; peran pemimpin dalam organisasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi kepemimpinan vs manajemen; teori sifat; teori perilaku; peran pemimpin dalam organisasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Teori kepemimpinan modern",
-      "indikator": "Ketepatan menjelaskan teori kontingensi, transformasional, servant leadership",
-      "kriteria": "Kuis online (LMS); Tugas individu",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Teori kontingensi Fiedler; teori situasional Hersey-Blanchard; path-goal theory; transformational leadership",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Teori kepemimpinan modern (C2–C3, A3) (CPMK-1)",
+      "indikator": "2.1 Ketepatan menjelaskan teori kontingensi, transformasional, servant leadership\n2.2 Ketepatan menerapkan teori situasional Hersey-Blanchard, path-goal theory, transformational leadership",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Teori kontingensi Fiedler; teori situasional Hersey-Blanchard; path-goal theory; transformational leadership\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teori kontingensi Fiedler; teori situasional Hersey-Blanchard; path-goal theory; transformational leadership\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Gaya kepemimpinan",
-      "indikator": "Ketepatan mengidentifikasi gaya kepemimpinan dan kapan menggunakannya",
-      "kriteria": "Kuis online (LMS); Studi kasus gaya kepemimpinan",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Gaya otoriter, demokratis, laissez-faire; gaya situasional; gaya kepemimpinan digital",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Gaya kepemimpinan (C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan mengidentifikasi gaya kepemimpinan dan kapan menggunakannya\n3.2 Ketepatan menerapkan Gaya otoriter, demokratis, laissez-faire, gaya situasional",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Studi kasus gaya kepemimpinan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 3: studi kasus — Gaya otoriter\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Gaya otoriter, demokratis, laissez-faire; gaya situasional; gaya kepemimpinan digital\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Struktur organisasi",
-      "indikator": "Ketepatan menjelaskan tipe struktur organisasi (fungsional, divisional, matriks, flat)",
-      "kriteria": "Kuis online (LMS); Tugas kelompok",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Struktur organisasi; bagan organisasi; sentralisasi vs desentralisasi; rentang kendali",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Struktur organisasi (C2–C3, A3) (CPMK-2)",
+      "indikator": "4.1 Ketepatan menjelaskan tipe struktur organisasi (fungsional, divisional, matriks, flat)\n4.2 Ketepatan menerapkan sentralisasi vs desentralisasi, rentang kendali",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Struktur organisasi; bagan organisasi; sentralisasi vs desentralisasi; rentang kendali\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur organisasi; bagan organisasi; sentralisasi vs desentralisasi; rentang kendali\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Budaya organisasi dan perilaku",
-      "indikator": "Ketepatan menjelaskan budaya organisasi dan pengaruhnya terhadap kinerja",
-      "kriteria": "Kuis online (LMS); Tugas analisis budaya organisasi",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Budaya organisasi (Handy, Schein); perilaku individu dan kelompok; motivasi; kepuasan kerja",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Budaya organisasi dan perilaku (C2–C3, A3) (CPMK-2)",
+      "indikator": "5.1 Ketepatan menjelaskan budaya organisasi dan pengaruhnya terhadap kinerja\n5.2 Ketepatan menerapkan Budaya organisasi (Handy, Schein)\n5.3 Kemampuan menggunakan perilaku individu dan kelompok, motivasi, kepuasan kerja",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas analisis budaya organisasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — Budaya organisasi (Handy\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Budaya organisasi (Handy, Schein); perilaku individu dan kelompok; motivasi; kepuasan kerja\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Manajemen tim dan kerja kelompok",
-      "indikator": "Ketepatan menjelaskan tahapan pembentukan tim (Tuckman) dan peran dalam tim",
-      "kriteria": "Kuis online (LMS); Simulasi peran tim",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Tahapan forming, storming, norming, performing; peran tim (Belbin); kolaborasi tim virtual",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Manajemen tim dan kerja kelompok (C3–C4, A4) (CPMK-3)",
+      "indikator": "6.1 Ketepatan menjelaskan tahapan pembentukan tim (Tuckman) dan peran dalam tim\n6.2 Ketepatan menganalisis tahapan forming, storming, norming, performing\n6.3 Kemampuan membandingkan peran tim (Belbin)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Simulasi peran tim",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Role-Play & Simulation (RPS)\n[TM: 1x(2x50')]\nTugas 6: latihan terstruktur — Tahapan forming\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tahapan forming, storming, norming, performing; peran tim (Belbin); kolaborasi tim virtual\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 4 : Manajemen tim proyek TI",
-      "indikator": "Ketepatan mengidentifikasi tantangan tim proyek TI dan solusi",
-      "kriteria": "Tugas kelompok (studi kasus tim proyek TI)",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Tim proyek agile vs waterfall; peran Scrum Master, Product Owner; komunikasi tim",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : Manajemen tim proyek TI (C3–C4, A4) (CPMK-3)",
+      "indikator": "7.1 Ketepatan mengidentifikasi tantangan tim proyek TI dan solusi\n7.2 Ketepatan menganalisis Tim proyek agile vs waterfall\n7.3 Kemampuan membandingkan peran Scrum Master, Product Owner, komunikasi tim",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi kasus tim proyek TI)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 7: studi kasus — Tim proyek agile vs waterfall; peran Scrum Master\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Tim proyek agile vs waterfall; peran Scrum Master, Product Owner; komunikasi tim\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "Sub-CPMK 5 : Pengambilan keputusan manajerial",
-      "indikator": "Ketepatan menjelaskan model pengambilan keputusan (rasional, bounded rationality, intuitive)",
-      "kriteria": "Kuis online (LMS); Tugas analisis keputusan",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Proses pengambilan keputusan; teknik (brainstorming, Delphi, SWOT); keputusan kelompok",
-      "bobot": "5%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 5 : Pengambilan keputusan manajerial (C4, A4) (CPMK-3)",
+      "indikator": "8.1 Ketepatan menjelaskan model pengambilan keputusan (rasional, bounded rationality, intuitive)\n8.2 Ketepatan menerapkan teknik (brainstorming, Delphi, SWOT), keputusan kelompok",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Proses pengambilan keputusan; teknik (brainstorming, Delphi, SWOT); keputusan kelompok\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 5 : Manajemen konflik dan negosiasi",
-      "indikator": "Ketepatan mengidentifikasi sumber konflik dan strategi penyelesaian",
-      "kriteria": "Kuis online (LMS); Simulasi negosiasi",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Sumber konflik; strategi (kompetisi, kolaborasi, kompromi, menghindar, akomodasi); teknik negosiasi",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Manajemen konflik dan negosiasi (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Ketepatan mengidentifikasi sumber konflik dan strategi penyelesaian\n9.2 Ketepatan menganalisis strategi (kompetisi, kolaborasi, kompromi, menghindar, akomodasi), teknik negosiasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Simulasi negosiasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Role-Play & Simulation (RPS)\n[TM: 1x(2x50')]\nTugas 8: latihan terstruktur — Sumber konflik; strategi (kompetisi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sumber konflik; strategi (kompetisi, kolaborasi, kompromi, menghindar, akomodasi); teknik negosiasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
+      "minggu": "10/16",
       "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep dan studi kasus kepemimpinan & organisasi",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 2x50",
-      "daring": "Ujian daring sinkron (LMS); [TM: 2×50']",
-      "materi": "Materi Minggu 1–9",
-      "bobot": "15%"
+      "indikator": "10.1 Menjawab soal konsep dan studi kasus kepemimpinan & organisasi\n10.2 Ketepatan menjelaskan materi Minggu 1–9",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: latihan terstruktur — Materi Minggu 1–9\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Materi Minggu 1–9\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 6 : Kepemimpinan transformasional",
-      "indikator": "Ketepatan menjelaskan komponen kepemimpinan transformasional (idealized influence, inspirational motivation, intellectual stimulation, individualized consideration)",
-      "kriteria": "Kuis online (LMS); Tugas individu",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Kepemimpinan transformasional vs transaksional; contoh pemimpin transformasional",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Kepemimpinan transformasional (C3–C4, A4) (CPMK-4)",
+      "indikator": "11.1 Ketepatan menjelaskan komponen kepemimpinan transformasional (idealized influence, inspirational motivation, intellectual stimulation, individualized consideration)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 10: tugas terstruktur — Kepemimpinan transformasional vs transaksional; contoh pemimpin transformasional\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kepemimpinan transformasional vs transaksional; contoh pemimpin transformasional\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 6 : Digital leadership",
-      "indikator": "Ketepatan menjelaskan kompetensi pemimpin di era digital (agile, data-driven, tech-savvy)",
-      "kriteria": "Kuis online (LMS); Studi kasus pemimpin digital",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Digital leadership: karakteristik, tantangan; peran CIO, CTO; kepemimpinan dalam transformasi digital",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 6 : Digital leadership (C3–C4, A4) (CPMK-4)",
+      "indikator": "12.1 Ketepatan menjelaskan kompetensi pemimpin di era digital (agile, data-driven, tech-savvy)\n12.2 Ketepatan menganalisis Digital leadership: karakteristik, tantangan\n12.3 Kemampuan membandingkan peran CIO, CTO",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Studi kasus pemimpin digital",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 11: studi kasus — Digital leadership: karakteristik\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Digital leadership: karakteristik, tantangan; peran CIO, CTO; kepemimpinan dalam transformasi digital\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 7 : Etika kepemimpinan dan tanggung jawab sosial",
-      "indikator": "Ketepatan menjelaskan prinsip etika kepemimpinan dan CSR",
-      "kriteria": "Kuis online (LMS); Diskusi etika",
-      "tatap_muka": "Kuliah interaktif; diskusi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Etika kepemimpinan; dilema etis; corporate social responsibility; kepemimpinan berkelanjutan",
-      "bobot": "5%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 7 : Etika kepemimpinan dan tanggung jawab sosial (C3, A3) (CPMK-4)",
+      "indikator": "13.1 Ketepatan menjelaskan prinsip etika kepemimpinan dan CSR\n13.2 Ketepatan menerapkan Etika kepemimpinan, dilema etis\n13.3 Kemampuan menggunakan corporate social responsibility, kepemimpinan berkelanjutan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Diskusi etika",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 12: latihan terstruktur — Etika kepemimpinan; dilema etis; corporate social responsibility; kepemimpinan berkelanjutan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Etika kepemimpinan; dilema etis; corporate social responsibility; kepemimpinan berkelanjutan\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (persiapan)",
-      "indikator": "Kemampuan memilih organisasi, mengumpulkan data, dan merumuskan masalah",
-      "kriteria": "Proposal proyek (kelompok)",
-      "tatap_muka": "Bimbingan proyek; konsultasi TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Pemilihan studi kasus (perusahaan, startup, organisasi nirlaba); identifikasi isu kepemimpinan/manajemen",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (persiapan) (C5–C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan memilih organisasi, mengumpulkan data, dan merumuskan masalah\n14.2 Ketepatan merancang Pemilihan studi kasus (perusahaan, startup, organisasi nirlaba)\n14.3 Kemampuan menyusun identifikasi isu kepemimpinan/manajemen",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek (kelompok)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: proyek — Pemilihan studi kasus (perusahaan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan studi kasus (perusahaan, startup, organisasi nirlaba); identifikasi isu kepemimpinan/manajemen\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analisis",
-      "indikator": "Kemampuan menyusun laporan sistematis (analisis SWOT, rekomendasi)",
-      "kriteria": "Laporan proyek (kelompok)",
-      "tatap_muka": "Bimbingan proyek; workshop TM: 2x50",
-      "daring": "Kuliah daring sinkron (video conference); Pembelajaran mandiri asinkron (LMS); [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Struktur laporan; analisis gaya kepemimpinan; evaluasi budaya organisasi; rekomendasi perbaikan",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analisis (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun laporan sistematis (analisis SWOT, rekomendasi)\n15.2 Ketepatan merancang struktur laporan\n15.3 Kemampuan menyusun analisis gaya kepemimpinan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek (kelompok)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: proyek — Struktur laporan; analisis gaya kepemimpinan; evaluasi budaya organisasi; rekomendasi perbaikan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan; analisis gaya kepemimpinan; evaluasi budaya organisasi; rekomendasi perbaikan\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "Sub-CPMK 9 : Presentasi studi kasus",
-      "indikator": "Kemampuan mempresentasikan dan mempertahankan rekomendasi",
-      "kriteria": "Presentasi kelompok; tanya jawab",
-      "tatap_muka": "Presentasi proyek TM: 2x50",
-      "daring": "Presentasi daring sinkron (video conference); [TM: 2×50']",
-      "materi": "Presentasi hasil analisis, rekomendasi perbaikan kepemimpinan dan manajemen organisasi",
-      "bobot": "14%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan dan mempertahankan rekomendasi\n16.2 Ketepatan menganalisis Presentasi hasil analisis\n16.3 Kemampuan membandingkan rekomendasi perbaikan kepemimpinan dan manajemen organisasi",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Presentasi hasil analisis, rekomendasi perbaikan kepemimpinan dan manajemen organisasi\n[P1, P2, P3]",
+      "bobot": "14"
     }
   ],
   "bahan_kajian": "1. Konsep dan teori kepemimpinan modern\n2. Gaya kepemimpinan dan situasional leadership\n3. Organisasi: struktur, budaya, dan perilaku\n4. Manajemen tim dan kerja kelompok\n5. Pengambilan keputusan manajerial\n6. Manajemen konflik dan negosiasi\n7. Kepemimpinan transformasional dan digital leadership\n8. Etika kepemimpinan dan tanggung jawab sosial",

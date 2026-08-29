@@ -17,305 +17,616 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-07",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan"
+      "deskripsi": "Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan",
+      "label": "CPL 5 (KU-07)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-05",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 8 (KK-05)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 9 (KK-06)",
+      "nomor": "CPL 9"
+    },
+    {
+      "kode": "KK-07",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 10 (KK-07)",
+      "nomor": "CPL 10"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu menjelaskan konsep, prinsip, dan framework tata kelola teknologi informasi"
+      "deskripsi": "Mampu menjelaskan konsep, prinsip, dan framework tata kelola teknologi informasi (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
-      "cpl": "P-02, KU-02",
-      "deskripsi": "Mampu menerapkan framework COBIT 2019 untuk perancangan tata kelola TI pada organisasi"
+      "cpl": "P-02, KU-02, KK-07",
+      "deskripsi": "Mampu menerapkan framework COBIT 2019 untuk perancangan tata kelola TI pada organisasi (CPL 2, CPL 4, CPL 10)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-07, KK-04",
-      "deskripsi": "Mampu melakukan evaluasi keselarasan strategi bisnis dan TI menggunakan maturity model"
+      "cpl": "KU-07, KK-01, KK-04",
+      "deskripsi": "Mampu melakukan evaluasi keselarasan strategi bisnis dan TI menggunakan maturity model (CPL 5, CPL 6, CPL 7)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KK-05",
-      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI serta menyusun rekomendasi perbaikan tata kelola"
+      "cpl": "KK-05, KK-06",
+      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI serta menyusun rekomendasi perbaikan tata kelola (CPL 8, CPL 9)"
     },
     {
       "kode": "CPMK-5",
       "cpl": "KU-01, KK-05",
-      "deskripsi": "Mampu menyusun dokumen tata kelola TI dan mempresentasikan hasil assessment secara profesional"
+      "deskripsi": "Mampu menyusun dokumen tata kelola TI dan mempresentasikan hasil assessment secara profesional (CPL 3, CPL 8)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep dasar tata kelola TI dan perbedaannya dengan manajemen TI",
+      "deskripsi": "Mampu menjelaskan konsep dasar tata kelola TI dan perbedaannya dengan manajemen TI (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu membandingkan framework tata kelola TI (COBIT, ITIL, ISO 38500)",
+      "deskripsi": "Mampu membandingkan framework tata kelola TI (COBIT, ITIL, ISO 38500) (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menjelaskan komponen dan struktur COBIT 2019",
+      "deskripsi": "Mampu menjelaskan komponen dan struktur COBIT 2019 (C2, A2) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan COBIT 2019 untuk mendesain sistem tata kelola TI",
+      "deskripsi": "Mampu menerapkan COBIT 2019 untuk mendesain sistem tata kelola TI (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menganalisis keselarasan strategi bisnis dan TI",
+      "deskripsi": "Mampu menganalisis keselarasan strategi bisnis dan TI (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "6",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu menggunakan maturity model untuk evaluasi tata kelola TI",
+      "deskripsi": "Mampu menggunakan maturity model untuk evaluasi tata kelola TI (C4–C5, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C4–C5"
+      "taksonomi": "C4–C5, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI berdasarkan COBIT",
+      "deskripsi": "Mampu mengidentifikasi dan mengelola risiko TI berdasarkan COBIT (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "9–10",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menyusun rekomendasi perbaikan tata kelola TI",
+      "deskripsi": "Mampu menyusun rekomendasi perbaikan tata kelola TI (C5–C6, A5) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "11",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menyusun laporan assessment tata kelola TI",
+      "deskripsi": "Mampu menyusun laporan assessment tata kelola TI (C5–P4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12–13",
-      "cpl": "C5–P4"
+      "taksonomi": "C5–P4, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mempresentasikan hasil evaluasi tata kelola TI",
+      "deskripsi": "Mampu mempresentasikan hasil evaluasi tata kelola TI (C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "14–15",
-      "cpl": "C6"
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "53%",
+      "c1": "4%",
+      "c2": "9%",
+      "c3": "10%",
+      "c4": "15%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "12%",
+      "c1": "3%",
+      "c2": "4%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "10%",
+      "c5": "10%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "18%",
+      "c3": "15%",
+      "c4": "25%",
+      "c5": "30%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.2",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "2.2",
+      "p3": "",
+      "p4": "2.2",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "2.1",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "3.9",
+      "p3": "",
+      "p4": "3.8",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "3.8",
+      "bobot": "11.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "2.5",
+      "p6": "2.5",
+      "p7": "2.5",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "2.5",
+      "p6": "2.5",
+      "p7": "2.5",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7.5",
+      "p9": "7.5",
+      "p10": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "5",
+      "p9": "5",
+      "p10": "",
+      "bobot": "10",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "7.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7.5",
+      "p9": "",
+      "p10": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "7.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7.5",
+      "p9": "",
+      "p10": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.1",
+      "p2": "6.1",
+      "p3": "20.9",
+      "p4": "6",
+      "p5": "5",
+      "p6": "5",
+      "p7": "5",
+      "p8": "27.5",
+      "p9": "12.5",
+      "p10": "5.9",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Konsep dasar tata kelola TI",
-      "indikator": "Ketepatan menjelaskan definisi, tujuan, dan ruang lingkup tata kelola TI",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Definisi tata kelola TI vs manajemen TI; prinsip tata kelola; pemangku kepentingan; nilai bisnis dari TI",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar tata kelola TI (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi, tujuan, dan ruang lingkup tata kelola TI\n1.2 Ketepatan menjelaskan prinsip tata kelola, pemangku kepentingan\n1.3 Ketepatan menguraikan nilai bisnis dari TI",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Definisi tata kelola TI vs manajemen TI; prinsip tata kelola; pemangku kepentingan; nilai bisnis dari TI\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi tata kelola TI vs manajemen TI; prinsip tata kelola; pemangku kepentingan; nilai bisnis dari TI\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Framework tata kelola TI",
-      "indikator": "Kemampuan membandingkan COBIT, ITIL, ISO 38500",
-      "kriteria": "Diskusi kelompok; studi kasus",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Sejarah dan evolusi framework; COBIT, ITIL, ISO/IEC 38500; perbedaan dan area fokus",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Framework tata kelola TI (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membandingkan COBIT, ITIL, ISO 38500\n2.2 Ketepatan menerapkan sejarah dan evolusi framework\n2.3 Kemampuan menggunakan perbedaan dan area fokus",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok, studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 2: studi kasus — Sejarah dan evolusi framework; COBIT\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sejarah dan evolusi framework; COBIT, ITIL, ISO/IEC 38500; perbedaan dan area fokus\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: Pengenalan COBIT 2019",
-      "indikator": "Ketepatan menjelaskan komponen COBIT 2019 (governance objectives, components, focus areas)",
-      "kriteria": "Kuis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Struktur COBIT 2019: governance objectives, components (processes, policies, etc.), focus areas, design factors",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Pengenalan COBIT 2019 (C2, A2) (CPMK-2)",
+      "indikator": "3.1 Ketepatan menjelaskan komponen COBIT 2019 (governance objectives, components, focus areas)\n3.2 Ketepatan menjelaskan components (processes, policies, etc.), focus areas, design factors",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Kuis online",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: latihan terstruktur — Struktur COBIT 2019: governance objectives\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur COBIT 2019: governance objectives, components (processes, policies, etc.), focus areas, design factors\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 4: Desain tata kelola TI dengan COBIT",
-      "indikator": "Kemampuan menerapkan design factors untuk menyusun governance system",
-      "kriteria": "Tugas individu: desain awal",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Design factors (enterprise strategy, goals, risk profile, etc.); governance system components; tailoring",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Desain tata kelola TI dengan COBIT (C3–C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menerapkan design factors untuk menyusun governance system\n4.2 Ketepatan menganalisis Design factors (enterprise strategy, goals, risk profile, etc.)\n4.3 Kemampuan membandingkan governance system components, tailoring",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: desain awal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: esai — Design factors (enterprise strategy\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Design factors (enterprise strategy, goals, risk profile, etc.); governance system components; tailoring\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 4: Implementasi COBIT",
-      "indikator": "Kemampuan merencanakan implementasi COBIT dalam organisasi",
-      "kriteria": "Tugas kelompok: roadmap implementasi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Implementation lifecycle: recognize need, plan, scope, define, implement, operate, monitor",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Implementasi COBIT (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan merencanakan implementasi COBIT dalam organisasi\n5.2 Ketepatan menganalisis Implementation lifecycle: recognize need, plan, scope, define, implement, operate, monitor",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: roadmap implementasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Implementation lifecycle: recognize need\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementation lifecycle: recognize need, plan, scope, define, implement, operate, monitor\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5: Keselarasan strategi bisnis dan TI",
-      "indikator": "Kemampuan menganalisis alignment menggunakan framework",
-      "kriteria": "Studi kasus; analisis alignment",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Strategic alignment model (Henderson & Venkatraman); balanced scorecard; value creation",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Keselarasan strategi bisnis dan TI (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan menganalisis alignment menggunakan framework\n6.2 Ketepatan menganalisis Strategic alignment model (Henderson & Venkatraman), balanced scorecard, value creation",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, analisis alignment",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 6: studi kasus — Strategic alignment model ; balanced scorecard; value creation\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Strategic alignment model (Henderson & Venkatraman); balanced scorecard; value creation\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 6: Maturity model dan evaluasi",
-      "indikator": "Kemampuan menggunakan capability level COBIT untuk assessment",
-      "kriteria": "Kuis; tugas individu assessment maturity",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Capability levels (0-5); process assessment; gap analysis; maturity model",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Maturity model dan evaluasi (C4–C5, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menggunakan capability level COBIT untuk assessment\n7.2 Ketepatan mengevaluasi Capability levels (0-5), process assessment, gap analysis, maturity model",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: tugas individu assessment maturity",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 7: tugas terstruktur — Capability levels ; process assessment; gap analysis; maturity model\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Capability levels (0-5); process assessment; gap analysis; maturity model\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep tata kelola TI, framework COBIT, alignment, maturity",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep tata kelola TI, framework COBIT, alignment, maturity\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 7: Manajemen risiko TI",
-      "indikator": "Ketepatan menjelaskan siklus manajemen risiko dan hubungannya dengan COBIT",
-      "kriteria": "Diskusi; studi kasus",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Risk management framework (ISO 31000); identifikasi risiko TI; analisis risiko; risk response",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Manajemen risiko TI (C4, A4) (CPMK-4)",
+      "indikator": "9.1 Ketepatan menjelaskan siklus manajemen risiko dan hubungannya dengan COBIT\n9.2 Ketepatan menganalisis Risk management framework (ISO 31000)\n9.3 Kemampuan membandingkan identifikasi risiko TI, analisis risiko, risk response",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi, studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 8: studi kasus — Risk management framework ; identifikasi risiko TI; analisis risiko; risk response\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Risk management framework (ISO 31000); identifikasi risiko TI; analisis risiko; risk response\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7: COBIT dan manajemen risiko",
-      "indikator": "Kemampuan mengidentifikasi risk scenarios menggunakan COBIT",
-      "kriteria": "Tugas kelompok: risk register",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "COBIT risk management processes (APO12, DSS04); risk scenarios; risk appetite; risk reporting",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : COBIT dan manajemen risiko (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan mengidentifikasi risk scenarios menggunakan COBIT\n10.2 Ketepatan menganalisis COBIT risk management processes (APO12, DSS04), risk scenarios\n10.3 Kemampuan membandingkan risk appetite, risk reporting",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: risk register",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — COBIT risk management processes (APO12\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "COBIT risk management processes (APO12, DSS04); risk scenarios; risk appetite; risk reporting\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 8: Rekomendasi perbaikan tata kelola",
-      "indikator": "Kemampuan menyusun rekomendasi berdasarkan gap analysis",
-      "kriteria": "Tugas individu: rekomendasi perbaikan",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Gap analysis techniques; prioritization; action plan; continuous improvement",
-      "bobot": "6%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Rekomendasi perbaikan tata kelola (C5–C6, A5) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menyusun rekomendasi berdasarkan gap analysis\n11.2 Ketepatan merancang Gap analysis techniques, prioritization, action plan, continuous improvement",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: rekomendasi perbaikan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Gap analysis techniques; prioritization; action plan; continuous improvement\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Gap analysis techniques; prioritization; action plan; continuous improvement\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 9: Penyusunan laporan assessment",
-      "indikator": "Kemampuan menyusun laporan tata kelola TI yang sistematis",
-      "kriteria": "Tugas kelompok: draft laporan",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Struktur laporan assessment: executive summary, methodology, findings, recommendations",
-      "bobot": "6%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan assessment (C5–P4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menyusun laporan tata kelola TI yang sistematis\n12.2 Ketepatan mengevaluasi struktur laporan assessment: executive summary, methodology, findings, recommendations",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: draft laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 11: laporan — Struktur laporan assessment: executive summary\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan assessment: executive summary, methodology, findings, recommendations\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9: Finalisasi laporan",
-      "indikator": "Kemampuan menyelesaikan laporan dengan data dan analisis yang valid",
-      "kriteria": "Tugas kelompok: laporan final",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Verifikasi data; penulisan rekomendasi; review laporan",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Finalisasi laporan (C5–P4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menyelesaikan laporan dengan data dan analisis yang valid\n13.2 Ketepatan mengevaluasi Verifikasi data, penulisan rekomendasi, review laporan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: laporan final",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 12: laporan — Verifikasi data; penulisan rekomendasi; review laporan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Verifikasi data; penulisan rekomendasi; review laporan\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 10: Persiapan presentasi",
-      "indikator": "Kemampuan merancang slide presentasi efektif",
-      "kriteria": "Konsultasi dan review slide",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Teknik presentasi; visualisasi data; storytelling",
-      "bobot": "5%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Persiapan presentasi (C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan merancang slide presentasi efektif\n14.2 Ketepatan merancang teknik presentasi, visualisasi data, storytelling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Konsultasi dan review slide",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 13: latihan terstruktur — Teknik presentasi; visualisasi data; storytelling\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik presentasi; visualisasi data; storytelling\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Presentasi hasil assessment",
-      "indikator": "Kemampuan mempresentasikan temuan dan rekomendasi",
-      "kriteria": "Presentasi kelompok (15 menit)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Presentasi daring sinkron; TM: 3x50",
-      "materi": "Presentasi laporan; tanya jawab; peer feedback",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi hasil assessment (C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan temuan dan rekomendasi\n15.2 Ketepatan merancang Presentasi laporan, tanya jawab, peer feedback",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi laporan; tanya jawab; peer feedback\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi laporan; tanya jawab; peer feedback\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang tata kelola TI, COBIT, manajemen risiko, dan studi kasus",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Seluruh materi (minggu 1–15)",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang tata kelola TI, COBIT, manajemen risiko, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1–15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1–15)\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Konsep tata kelola TI (IT Governance)\n2. Framework tata kelola TI: COBIT 2019, ITIL v4, ISO 38500\n3. Keselarasan strategi bisnis dan TI\n4. Manajemen risiko TI dan kepatuhan (compliance)\n5. Pengukuran kinerja TI: KPI, BSC, dan maturity model\n6. Tata kelola data dan manajemen informasi\n7. Tata kelola keamanan informasi (ISO 27001)\n8. Implementasi tata kelola TI pada organisasi",

@@ -16,61 +16,554 @@
     "jabatan": "Asisten Ahli"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
-    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
-    {"kode": "KU-03", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengkaji implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi berdasarkan kaidah, tata cara, dan etika ilmiah"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 5 (KK-03)",
+      "nomor": "CPL 5"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami logika matematika (proposisi, tautologi, ekuivalensi) dan operasi himpunan sebagai fondasi berpikir formal"},
-    {"kode": "CPMK-2", "cpl": "P-02, KK-03", "deskripsi": "Mampu menganalisis relasi, fungsi, dan struktur kombinatorial untuk pemodelan data dan komputasi"},
-    {"kode": "CPMK-3", "cpl": "P-01, KU-01", "deskripsi": "Mampu menerapkan induksi matematika, matriks, dan aljabar boolean dalam pembuktian dan perancangan logika sistem"},
-    {"kode": "CPMK-4", "cpl": "KU-03, KK-01", "deskripsi": "Mampu menggunakan teori graf (jenis graf, derajat, isomorfisme, konektivitas) untuk pemodelan masalah"},
-    {"kode": "CPMK-5", "cpl": "KK-01, KK-03", "deskripsi": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan struktur pohon dalam pemecahan masalah sistem informasi"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami logika matematika (proposisi, tautologi, ekuivalensi) dan operasi himpunan sebagai fondasi berpikir formal (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KK-03",
+      "deskripsi": "Mampu menganalisis relasi, fungsi, dan struktur kombinatorial untuk pemodelan data dan komputasi (CPL 5)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-01, KU-01, KU-02",
+      "deskripsi": "Mampu menerapkan induksi matematika, matriks, dan aljabar boolean dalam pembuktian dan perancangan logika sistem (CPL 1, CPL 3, CPL 4)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-03",
+      "deskripsi": "Mampu menggunakan teori graf (jenis graf, derajat, isomorfisme, konektivitas) untuk pemodelan masalah (CPL 5)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "P-03, KK-03",
+      "deskripsi": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan struktur pohon dalam pemecahan masalah sistem informasi (CPL 2, CPL 5)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan logika proposisional, tabel kebenaran, tautologi, kontradiksi, ekuivalensi", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mendefinisikan dan mengoperasikan himpunan (irisan, gabungan, komplemen, selisih) serta diagram Venn", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C2–C3"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu mengidentifikasi jenis-jenis relasi (refleksif, simetris, transitif, ekuivalen) dan fungsi (injektif, surjektif, bijektif)", "cpmk": "CPMK-2", "minggu": "4–5", "cpl": "C3"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menerapkan prinsip pencacahan (perkalian, penjumlahan), permutasi, kombinasi, dan teorema binomial", "cpmk": "CPMK-2", "minggu": "6", "cpl": "C3"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu melakukan pembuktian dengan induksi matematika (langkah basis dan induktif) dan relasi rekursif", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3–C4"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu melakukan operasi matriks (penjumlahan, perkalian, transpos) dan aljabar boolean (penyederhanaan, K-map)", "cpmk": "CPMK-3", "minggu": "9–10", "cpl": "C3"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu memodelkan permasalahan dengan teori graf (terminologi, jenis, representasi, isomorfisme, lintasan Euler/Hamilton)", "cpmk": "CPMK-4", "minggu": "11–12", "cpl": "C3–C4"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan pohon (berakar, biner, rentang minimum)", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C4"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu mengintegrasikan konsep matematika diskrit dalam studi kasus sistem informasi", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "15", "cpl": "C5"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyelesaikan masalah nyata (pemodelan basis data, jaringan, algoritma) dengan pendekatan matematika diskrit", "cpmk": "CPMK-4, CPMK-5", "minggu": "16", "cpl": "C5–C6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan logika proposisional, tabel kebenaran, tautologi, kontradiksi, ekuivalensi (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu mendefinisikan dan mengoperasikan himpunan (irisan, gabungan, komplemen, selisih) serta diagram Venn (C2–C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu mengidentifikasi jenis-jenis relasi (refleksif, simetris, transitif, ekuivalen) dan fungsi (injektif, surjektif, bijektif) (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan prinsip pencacahan (perkalian, penjumlahan), permutasi, kombinasi, dan teorema binomial (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu melakukan pembuktian dengan induksi matematika (langkah basis dan induktif) dan relasi rekursif (C3–C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C3–C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan operasi matriks (penjumlahan, perkalian, transpos) dan aljabar boolean (penyederhanaan, K-map) (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "9–10",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu memodelkan permasalahan dengan teori graf (terminologi, jenis, representasi, isomorfisme, lintasan Euler/Hamilton) (C3–C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "11–12",
+      "taksonomi": "C3–C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menerapkan algoritma traversal graf (BFS, DFS) dan pohon (berakar, biner, rentang minimum) (C4, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mengintegrasikan konsep matematika diskrit dalam studi kasus sistem informasi (C5, A4) (CPMK-1 s.d. CPMK-5)",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "15",
+      "taksonomi": "C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyelesaikan masalah nyata (pemodelan basis data, jaringan, algoritma) dengan pendekatan matematika diskrit (C5–C6, A5) (CPMK-4, CPMK-5)",
+      "cpmk": "CPMK-4, CPMK-5",
+      "minggu": "16",
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "67%",
+      "c1": "12.2%",
+      "c2": "14.2%",
+      "c3": "16.2%",
+      "c4": "11.2%",
+      "c5": "13.2%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "3.6%",
+      "c2": "3.6%",
+      "c3": "3.6%",
+      "c4": "3.6%",
+      "c5": "3.6%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "20.8%",
+      "c2": "22.8%",
+      "c3": "24.8%",
+      "c4": "14.8%",
+      "c5": "16.8%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "5",
+      "p2": "",
+      "p3": "5",
+      "p4": "",
+      "p5": "",
+      "bobot": "10",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "",
+      "p5": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "11",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "8",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "2.7",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "2.6",
+      "p5": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "4.9",
+      "p2": "",
+      "p3": "4.8",
+      "p4": "4.8",
+      "p5": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "14.5",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "8.3",
+      "p3": "",
+      "p4": "",
+      "p5": "8.2",
+      "bobot": "16.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "2.1",
+      "p2": "2.1",
+      "p3": "2.1",
+      "p4": "2.1",
+      "p5": "2.1",
+      "bobot": "10.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "18.2",
+      "p2": "10.4",
+      "p3": "18.1",
+      "p4": "9.5",
+      "p5": "43.8",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Logika proposisional (pernyataan, nilai kebenaran, operator)", "indikator": "Ketepatan menentukan nilai kebenaran proposisi tunggal dan majemuk (¬, ∧, ∨, →, ↔)", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']", "materi": "Proposisi, operator logika, tabel kebenaran", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Tabel kebenaran, tautologi, kontradiksi, ekuivalensi logika", "indikator": "Kemampuan membuat tabel kebenaran dan membuktikan ekuivalensi dengan hukum De Morgan", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Tautologi, kontradiksi, ekuivalensi, hukum logika", "bobot": "3%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Teori himpunan (definisi, operasi, diagram Venn)", "indikator": "Kemampuan melakukan operasi himpunan (∩, ∪, komplemen, selisih) dan menggambar diagram Venn", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Himpunan, notasi, operasi, hukum himpunan", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Relasi biner (sifat refleksif, simetris, transitif, ekuivalen)", "indikator": "Kemampuan menentukan sifat relasi dan membuat matriks relasi", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Relasi, matriks relasi, digraf, relasi ekuivalen", "bobot": "4%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Fungsi (injektif, surjektif, bijektif, komposisi, invers)", "indikator": "Kemampuan menentukan jenis fungsi dan menghitung komposisi fungsi", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Fungsi, domain, range, injektif, surjektif, bijektif, komposisi", "bobot": "4%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Kombinatorik (prinsip perkalian, penjumlahan, permutasi, kombinasi)", "indikator": "Kemampuan menyelesaikan masalah permutasi dan kombinasi dengan dan tanpa pengulangan", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Aturan pencacahan, permutasi, kombinasi, binomial", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : Induksi matematika (prinsip, langkah basis dan induktif)", "indikator": "Kemampuan membuktikan pernyataan matematika dengan induksi sederhana", "kriteria": "Kuis online; Tugas pembuktian", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Induksi matematika, deret, relasi rekursif", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal logika, himpunan, relasi, fungsi, kombinatorik, induksi", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron; [TM: 3×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 6 : Matriks (operasi, perkalian, transpos, invers dasar)", "indikator": "Kemampuan melakukan operasi matriks dan memahami aplikasi dalam sistem informasi", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Matriks, penjumlahan, perkalian, transpos, determinan", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 6 : Aljabar boolean (aksioma, ekspresi, penyederhanaan dengan Karnaugh map)", "indikator": "Kemampuan menyederhanakan ekspresi boolean dan membuat gerbang logika", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Aljabar boolean, K-map, gerbang logika", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 7 : Teori graf (definisi, terminologi, jenis graf, derajat, isomorfisme)", "indikator": "Kemampuan mengidentifikasi jenis graf dan menghitung derajat simpul", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Graf sederhana, berarah, derajat, isomorfisme, subgraf", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Lintasan, sirkuit, konektivitas, graf Euler dan Hamilton", "indikator": "Kemampuan menentukan lintasan Euler/Hamilton dan konektivitas graf", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Lintasan, sirkuit, Euler, Hamilton, planar", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Algoritma traversal graf (BFS, DFS) dan aplikasinya", "indikator": "Kemampuan mensimulasikan BFS/DFS pada graf sederhana", "kriteria": "Tugas praktik (simulasi)", "tatap_muka": "Praktik simulasi TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "BFS, DFS, pencarian jalur, deteksi siklus", "bobot": "6%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Pohon (berakar, pohon biner, traversal pohon, pohon rentang minimum)", "indikator": "Kemampuan menelusuri pohon biner (preorder, inorder, postorder) dan menerapkan Prim/Kruskal", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Pohon, pohon biner, MST, algoritma Prim, Kruskal", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 9 : Studi kasus integrasi matematika diskrit dalam sistem informasi", "indikator": "Kemampuan mengidentifikasi penerapan konsep (basis data, jaringan, algoritma) dalam SI", "kriteria": "Tugas kelompok (makalah)", "tatap_muka": "Diskusi + bimbingan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Contoh: ERD sebagai graf, query logika, algoritma pencarian", "bobot": "6%"},
-    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang graf, pohon, aljabar boolean, dan penerapannya", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron; [TM: 3×50']", "materi": "Materi Minggu 9–15 (matriks, boolean, graf, pohon, studi kasus)", "bobot": "18%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Logika proposisional (pernyataan, nilai kebenaran, operator) (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menentukan nilai kebenaran proposisi tunggal dan majemuk (¬, ∧, ∨, →, ↔)\n1.2 Ketepatan menjelaskan Proposisi, operator logika, tabel kebenaran",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\nTugas 1: latihan soal — Proposisi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Proposisi, operator logika, tabel kebenaran\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Tabel kebenaran, tautologi, kontradiksi, ekuivalensi logika (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membuat tabel kebenaran dan membuktikan ekuivalensi dengan hukum De Morgan\n2.2 Ketepatan menjelaskan Tautologi, kontradiksi, ekuivalensi, hukum logika",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 2: tugas terstruktur — Tautologi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tautologi, kontradiksi, ekuivalensi, hukum logika\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Teori himpunan (definisi, operasi, diagram Venn) (C2–C3, A3) (CPMK-1)",
+      "indikator": "3.1 Kemampuan melakukan operasi himpunan (∩, ∪, komplemen, selisih) dan menggambar diagram Venn\n3.2 Ketepatan menerapkan Himpunan, notasi, operasi, hukum himpunan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Himpunan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Himpunan, notasi, operasi, hukum himpunan\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Relasi biner (sifat refleksif, simetris, transitif, ekuivalen) (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menentukan sifat relasi dan membuat matriks relasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Relasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Relasi, matriks relasi, digraf, relasi ekuivalen\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Fungsi (injektif, surjektif, bijektif, komposisi, invers) (C3, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menentukan jenis fungsi dan menghitung komposisi fungsi\n5.2 Ketepatan menerapkan fungsi, domain, range, injektif, surjektif, bijektif, komposisi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Fungsi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Fungsi, domain, range, injektif, surjektif, bijektif, komposisi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Kombinatorik (prinsip perkalian, penjumlahan, permutasi, kombinasi) (C3, A3) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menyelesaikan masalah permutasi dan kombinasi dengan dan tanpa pengulangan\n6.2 Ketepatan menerapkan Aturan pencacahan, permutasi, kombinasi, binomial",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Aturan pencacahan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Aturan pencacahan, permutasi, kombinasi, binomial\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Induksi matematika (prinsip, langkah basis dan induktif) (C3–C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan membuktikan pernyataan matematika dengan induksi sederhana\n7.2 Ketepatan menganalisis Induksi matematika, deret, relasi rekursif",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas pembuktian",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 7: tugas terstruktur — Induksi matematika\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Induksi matematika, deret, relasi rekursif\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal logika, himpunan, relasi, fungsi, kombinatorik, induksi\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Matriks (operasi, perkalian, transpos, invers dasar) (C3, A3) (CPMK-3)",
+      "indikator": "9.1 Kemampuan melakukan operasi matriks dan memahami aplikasi dalam sistem informasi\n9.2 Ketepatan menerapkan Matriks, penjumlahan, perkalian, transpos, determinan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 8: tugas terstruktur — Matriks\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Matriks, penjumlahan, perkalian, transpos, determinan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : Aljabar boolean (aksioma, ekspresi, penyederhanaan dengan Karnaugh map) (C3, A3) (CPMK-3)",
+      "indikator": "10.1 Kemampuan menyederhanakan ekspresi boolean dan membuat gerbang logika",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Aljabar boolean\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Aljabar boolean, K-map, gerbang logika\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Teori graf (definisi, terminologi, jenis graf, derajat, isomorfisme) (C3–C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mengidentifikasi jenis graf dan menghitung derajat simpul\n11.2 Ketepatan menganalisis Graf sederhana, berarah, derajat, isomorfisme, subgraf",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Graf sederhana\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Graf sederhana, berarah, derajat, isomorfisme, subgraf\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Lintasan, sirkuit, konektivitas, graf Euler dan Hamilton (C3–C4, A4) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menentukan lintasan Euler/Hamilton dan konektivitas graf\n12.2 Ketepatan menganalisis Lintasan, sirkuit, Euler, Hamilton, planar",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Lintasan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Lintasan, sirkuit, Euler, Hamilton, planar\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Algoritma traversal graf (BFS, DFS) dan aplikasinya (C4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan mensimulasikan BFS/DFS pada graf sederhana\n13.2 Ketepatan menganalisis BFS, DFS, pencarian jalur, deteksi siklus",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (simulasi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 12: tugas terstruktur — BFS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "BFS, DFS, pencarian jalur, deteksi siklus\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Pohon (berakar, pohon biner, traversal pohon, pohon rentang minimum) (C4, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menelusuri pohon biner (preorder, inorder, postorder) dan menerapkan Prim/Kruskal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 13: tugas terstruktur — Pohon\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pohon, pohon biner, MST, algoritma Prim, Kruskal\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Studi kasus integrasi matematika diskrit dalam sistem informasi (C5, A4) (CPMK-1 s.d. CPMK-5)",
+      "indikator": "15.1 Kemampuan mengidentifikasi penerapan konsep (basis data, jaringan, algoritma) dalam SI\n15.2 Ketepatan mengevaluasi Contoh: ERD sebagai graf, query logika, algoritma pencarian",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (makalah)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Collaborative Learning (CbL)\n[TM: 1x(3x50')]\nTugas 14: makalah — Contoh: ERD sebagai graf\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Contoh: ERD sebagai graf, query logika, algoritma pencarian\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang graf, pohon, aljabar boolean, dan penerapannya\n16.2 Ketepatan menerapkan materi Minggu 9–15 (matriks, boolean, graf, pohon, studi kasus)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 9–15 (matriks, boolean, graf, pohon, studi kasus)\n[P1, P2, P3]",
+      "bobot": "18"
+    }
   ],
   "bahan_kajian": "1. Logika matematika dan proposisi\n2. Himpunan, relasi, dan fungsi\n3. Aturan pencacahan, permutasi, dan kombinasi\n4. Induksi matematika\n5. Teori graf dan pohon (tree)\n6. Algoritma graf: pencarian dan traversal\n7. Matriks dan aljabar boolean\n8. Penerapan matematika diskrit dalam sistem informasi",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Munir, R. (2016). *Matematika diskrit* (Edisi ke-6). Informatika Bandung."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Rosen, K. H. (2019). *Discrete mathematics and its applications* (8th ed.). McGraw-Hill."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Johnsonbaugh, R. (2018). *Discrete mathematics* (8th ed.). Pearson."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Munir, R. (2016). *Matematika diskrit* (Edisi ke-6). Informatika Bandung."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Rosen, K. H. (2019). *Discrete mathematics and its applications* (8th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Johnsonbaugh, R. (2018). *Discrete mathematics* (8th ed.). Pearson."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Epp, S. S. (2011). *Discrete mathematics with applications* (4th ed.). Cengage."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Munir, R. (2024). *Materi kuliah matematika diskrit IF1220*. ITB."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Epp, S. S. (2011). *Discrete mathematics with applications* (4th ed.). Cengage."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Munir, R. (2024). *Materi kuliah matematika diskrit IF1220*. ITB."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan fondasi matematika yang diperlukan untuk memahami dan merancang sistem komputasi. Materi meliputi logika proposisional, teori himpunan, relasi dan fungsi, kombinatorik, induksi matematika, matriks, aljabar boolean, teori graf dan pohon, serta algoritma traversal (BFS, DFS). Penekanan diberikan pada kemampuan berpikir abstrak, penalaran formal, dan pembuktian matematis yang menjadi landasan algoritmik dalam pengembangan sistem informasi. Seluruh topik dikaitkan dengan penerapan nyata di bidang sistem informasi seperti pemodelan basis data, desain jaringan, analisis algoritma, dan perancangan logika sistem.",
   "matakuliah_syarat": "-"

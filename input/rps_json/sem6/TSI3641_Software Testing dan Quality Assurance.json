@@ -17,325 +17,634 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 3 (P-03)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-04",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 6 (KU-04)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 7 (KK-01)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan kaidah rekayasa perangkat lunak"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 8 (KK-03)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 9 (KK-04)",
+      "nomor": "CPL 9"
     },
     {
       "kode": "KK-05",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance"
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 10 (KK-05)",
+      "nomor": "CPL 10"
     },
     {
       "kode": "KK-08",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 11 (KK-08)",
+      "nomor": "CPL 11"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami konsep kualitas perangkat lunak, software testing, dan level pengujian (unit, integrasi, sistem, acceptance)"
+      "deskripsi": "Mampu memahami konsep kualitas perangkat lunak, software testing, dan level pengujian (unit, integrasi, sistem, acceptance) (CPL 1, CPL 4)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-02, KK-03",
-      "deskripsi": "Mampu menerapkan teknik pengujian black-box, white-box, dan grey-box pada perangkat lunak"
+      "deskripsi": "Mampu menerapkan teknik pengujian black-box, white-box, dan grey-box pada perangkat lunak (CPL 2, CPL 8)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "P-03, KU-02",
-      "deskripsi": "Mampu merancang test case, test plan, dan melakukan pengujian fungsional serta non-fungsional"
+      "deskripsi": "Mampu merancang test case, test plan, dan melakukan pengujian fungsional serta non-fungsional (CPL 3, CPL 5)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KK-04, KK-05",
-      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium, JUnit) dan menerapkan continuous integration (CI/CT)"
+      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium, JUnit) dan menerapkan continuous integration (CI/CT) (CPL 9, CPL 10)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-04, KK-08",
-      "deskripsi": "Mampu melakukan bug tracking, manajemen defect, dan menyusun laporan quality assurance berdasarkan standar (ISO 25010)"
+      "cpl": "KU-04, KK-01, KK-08",
+      "deskripsi": "Mampu melakukan bug tracking, manajemen defect, dan menyusun laporan quality assurance berdasarkan standar (ISO 25010) (CPL 6, CPL 7, CPL 11)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep kualitas perangkat lunak dan software testing",
+      "deskripsi": "Mampu menjelaskan konsep kualitas perangkat lunak dan software testing (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu membedakan level pengujian (unit, integrasi, sistem, acceptance) dan model V-Model",
+      "deskripsi": "Mampu membedakan level pengujian (unit, integrasi, sistem, acceptance) dan model V-Model (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menerapkan teknik black-box testing (equivalence partitioning, boundary value analysis)",
+      "deskripsi": "Mampu menerapkan teknik black-box testing (equivalence partitioning, boundary value analysis) (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan teknik white-box testing (statement coverage, branch coverage, path coverage)",
+      "deskripsi": "Mampu menerapkan teknik white-box testing (statement coverage, branch coverage, path coverage) (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "6",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu merancang test case dan test plan, serta melakukan pengujian fungsional",
+      "deskripsi": "Mampu merancang test case dan test plan, serta melakukan pengujian fungsional (C4–P4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu melakukan pengujian non-fungsional (kinerja, keamanan, usability) dan regression testing",
+      "deskripsi": "Mampu melakukan pengujian non-fungsional (kinerja, keamanan, usability) dan regression testing (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium WebDriver, JUnit/TestNG)",
+      "deskripsi": "Mampu menggunakan alat otomatisasi pengujian (Selenium WebDriver, JUnit/TestNG) (C4–P4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menjelaskan continuous integration/continuous testing (CI/CT) dengan Jenkins atau GitLab CI",
+      "deskripsi": "Mampu menjelaskan continuous integration/continuous testing (CI/CT) dengan Jenkins atau GitLab CI (C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan bug tracking dan manajemen defect menggunakan tools (JIRA, Bugzilla)",
+      "deskripsi": "Mampu melakukan bug tracking dan manajemen defect menggunakan tools (JIRA, Bugzilla) (C4–P4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–14",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu menyusun laporan quality assurance dan melakukan evaluasi berdasarkan standar ISO 25010",
+      "deskripsi": "Mampu menyusun laporan quality assurance dan melakukan evaluasi berdasarkan standar ISO 25010 (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "15–16",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "62%",
+      "c1": "10%",
+      "c2": "9%",
+      "c3": "10%",
+      "c4": "17%",
+      "c5": "16%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "5%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6%",
+      "c4": "6%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "15%",
+      "c2": "14%",
+      "c3": "26%",
+      "c4": "23%",
+      "c5": "22%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "3.5",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "6.5",
+      "p4": "",
+      "p5": "6.5",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "4.3",
+      "p4": "",
+      "p5": "4.3",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "8.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "7.8",
+      "p10": "7.8",
+      "p11": "",
+      "bobot": "15.6",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.3",
+      "p10": "4.3",
+      "p11": "",
+      "bobot": "8.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.9",
+      "p7": "4.9",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "4.8",
+      "bobot": "14.6",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "2.9",
+      "p7": "2.9",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "2.8",
+      "bobot": "8.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "8",
+      "p2": "7.5",
+      "p3": "10.8",
+      "p4": "8",
+      "p5": "10.8",
+      "p6": "7.8",
+      "p7": "7.8",
+      "p8": "7.5",
+      "p9": "12.1",
+      "p10": "12.1",
+      "p11": "7.6",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep kualitas perangkat lunak",
-      "indikator": "Ketepatan mendefinisikan kualitas (ISO 25010), software testing, dan verifikasi vs validasi",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
-      "materi": "Definisi kualitas, testing, error, fault, failure; verifikasi dan validasi; prinsip testing",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep kualitas perangkat lunak (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan kualitas (ISO 25010), software testing, dan verifikasi vs validasi\n1.2 Ketepatan menjelaskan definisi kualitas, testing, error, fault, failure",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\nTugas 1: latihan soal — Definisi kualitas\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi kualitas, testing, error, fault, failure; verifikasi dan validasi; prinsip testing\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Level pengujian dan V-Model",
-      "indikator": "Kemampuan menjelaskan unit, integration, system, acceptance testing serta V-Model",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Level testing; V-Model; alpha/beta testing; regression testing",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Level pengujian dan V-Model (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan unit, integration, system, acceptance testing serta V-Model\n2.2 Ketepatan menjelaskan Level testing, V-Model, alpha/beta testing, regression testing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 2: tugas terstruktur — Level testing; V-Model; alpha/beta testing; regression testing\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Level testing; V-Model; alpha/beta testing; regression testing\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Black-box testing (equivalence partitioning, boundary value analysis)",
-      "indikator": "Kemampuan merancang test case dengan EP dan BVA",
-      "kriteria": "Tugas praktik (rancangan test case)",
-      "tatap_muka": "Kuliah + praktik TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Equivalence partitioning; boundary value analysis; decision table; state transition",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Black-box testing (equivalence partitioning, boundary value analysis) (C3, A3) (CPMK-1)",
+      "indikator": "3.1 Kemampuan merancang test case dengan EP dan BVA\n3.2 Ketepatan menerapkan Equivalence partitioning\n3.3 Kemampuan menggunakan boundary value analysis, decision table, state transition",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (rancangan test case)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Equivalence partitioning; boundary value analysis; decision table; state transition\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Equivalence partitioning; boundary value analysis; decision table; state transition\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Black-box lainnya (decision table, state transition)",
-      "indikator": "Kemampuan membuat decision table dan state transition diagram",
-      "kriteria": "Tugas kelompok (studi kasus)",
-      "tatap_muka": "Praktik black-box TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Decision table; state transition; use case testing; pairwise testing",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Black-box lainnya (decision table, state transition) (C3–P4, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan membuat decision table dan state transition diagram\n4.2 Ketepatan menerapkan use case testing, pairwise testing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi kasus)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 4: studi kasus — Decision table; state transition; use case testing; pairwise testing\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Decision table; state transition; use case testing; pairwise testing\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 4 : White-box testing (statement, branch, path coverage)",
-      "indikator": "Kemampuan menghitung coverage dan membuat test case untuk struktur kontrol",
-      "kriteria": "Tugas hitungan coverage",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Statement coverage, decision coverage, condition coverage, path coverage; cyclomatic complexity",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : White-box testing (statement, branch, path coverage) (C3–P4, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menghitung coverage dan membuat test case untuk struktur kontrol\n5.2 Ketepatan menerapkan Statement coverage, decision coverage, condition coverage, path coverage, cyclomatic complexity",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan coverage",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Statement coverage\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Statement coverage, decision coverage, condition coverage, path coverage; cyclomatic complexity\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5 : Perancangan test case dan test plan",
-      "indikator": "Kemampuan menyusun test plan (IEEE 829) dan test case template",
-      "kriteria": "Tugas individu (dokumen test plan sederhana)",
-      "tatap_muka": "Kuliah + workshop TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Test plan: scope, strategi, sumber daya, jadwal; test case: ID, deskripsi, langkah, hasil yang diharapkan",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Perancangan test case dan test plan (C4–P4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan menyusun test plan (IEEE 829) dan test case template\n6.2 Ketepatan menganalisis Test plan: scope, strategi, sumber daya, jadwal\n6.3 Kemampuan membandingkan test case: ID, deskripsi, langkah, hasil yang diharapkan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (dokumen test plan sederhana)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Test plan: scope\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Test plan: scope, strategi, sumber daya, jadwal; test case: ID, deskripsi, langkah, hasil yang diharapkan\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 5 : Pengujian fungsional dan non-fungsional",
-      "indikator": "Kemampuan melakukan pengujian fungsional (smoke, sanity) dan non-fungsional (performance, security)",
-      "kriteria": "Tugas kelompok (uji coba aplikasi)",
-      "tatap_muka": "Praktik pengujian TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Smoke test, sanity test, regression; performance (load, stress), security, usability",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Pengujian fungsional dan non-fungsional (C4–P4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan melakukan pengujian fungsional (smoke, sanity) dan non-fungsional (performance, security)\n7.2 Ketepatan menganalisis Smoke test, sanity test, regression\n7.3 Kemampuan membandingkan performance (load, stress), security, usability",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (uji coba aplikasi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 7: tugas terstruktur — Smoke test\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Smoke test, sanity test, regression; performance (load, stress), security, usability\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep testing, black-box, white-box, test plan",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep testing, black-box, white-box, test plan\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 6 : Regression testing dan otomatisasi pendahuluan",
-      "indikator": "Ketepatan menjelaskan regression testing dan kapan menggunakan otomatisasi",
-      "kriteria": "Kuis online; Diskusi",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Regression testing; seleksi test case; otomatisasi regression; ROI otomatisasi",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Regression testing dan otomatisasi pendahuluan (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Ketepatan menjelaskan regression testing dan kapan menggunakan otomatisasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(3x50')]\nTugas 8: latihan terstruktur — Regression testing; seleksi test case; otomatisasi regression; ROI otomatisasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Regression testing; seleksi test case; otomatisasi regression; ROI otomatisasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7 : Otomatisasi dengan Selenium WebDriver",
-      "indikator": "Kemampuan menulis script Selenium untuk testing web",
-      "kriteria": "Tugas praktik (script Selenium)",
-      "tatap_muka": "Praktik Selenium TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Selenium WebDriver: setup, locator, WebDriverWait, assertion, test suite",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Otomatisasi dengan Selenium WebDriver (C4–P4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menulis script Selenium untuk testing web\n10.2 Ketepatan menganalisis Selenium WebDriver: setup, locator, WebDriverWait, assertion, test suite",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (script Selenium)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Selenium WebDriver: setup\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Selenium WebDriver: setup, locator, WebDriverWait, assertion, test suite\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 7 : Unit testing dengan JUnit/TestNG",
-      "indikator": "Kemampuan menulis unit test di Java/Python menggunakan JUnit atau pytest",
-      "kriteria": "Tugas praktik (unit test)",
-      "tatap_muka": "Praktik unit testing TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "JUnit: annotation, assertion, test fixture; parameterized test; mocking (Mockito)",
-      "bobot": "6%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Unit testing dengan JUnit/TestNG (C4–P4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menulis unit test di Java/Python menggunakan JUnit atau pytest\n11.2 Ketepatan menganalisis JUnit: annotation, assertion, test fixture, parameterized test, mocking (Mockito)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (unit test)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — JUnit: annotation\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "JUnit: annotation, assertion, test fixture; parameterized test; mocking (Mockito)\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 8 : Continuous Integration / Continuous Testing",
-      "indikator": "Kemampuan menjelaskan CI/CT dengan Jenkins/GitLab CI dan integrasi dengan test automation",
-      "kriteria": "Kuis online; Studi kasus",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "CI/CD pipeline; Jenkins: job, pipeline, integrasi dengan Selenium/JUnit; GitLab CI",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Continuous Integration / Continuous Testing (C3, A3) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menjelaskan CI/CT dengan Jenkins/GitLab CI dan integrasi dengan test automation\n12.2 Ketepatan menerapkan CI/CD pipeline",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 11: studi kasus — CI/CD pipeline; Jenkins: job\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "CI/CD pipeline; Jenkins: job, pipeline, integrasi dengan Selenium/JUnit; GitLab CI\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9 : Bug tracking dan manajemen defect",
-      "indikator": "Kemampuan menggunakan JIRA/Bugzilla untuk melaporkan dan mengelola bug",
-      "kriteria": "Tugas praktik (simulasi bug tracking)",
-      "tatap_muka": "Praktik JIRA TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Siklus hidup defect; severity vs priority; JIRA workflow; laporan bug",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Bug tracking dan manajemen defect (C4–P4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menggunakan JIRA/Bugzilla untuk melaporkan dan mengelola bug\n13.2 Ketepatan menganalisis Siklus hidup defect\n13.3 Kemampuan membandingkan severity vs priority, JIRA workflow, laporan bug",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (simulasi bug tracking)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 12: tugas terstruktur — Siklus hidup defect; severity vs priority; JIRA workflow; laporan bug\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Siklus hidup defect; severity vs priority; JIRA workflow; laporan bug\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9 : Quality assurance dan standar (ISO 25010)",
-      "indikator": "Kemampuan menjelaskan karakteristik kualitas ISO 25010 dan proses QA",
-      "kriteria": "Tugas kelompok (analisis standar)",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "ISO 25010: functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability, portability",
-      "bobot": "5%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Quality assurance dan standar (ISO 25010) (C4–P4, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menjelaskan karakteristik kualitas ISO 25010 dan proses QA\n14.2 Ketepatan menganalisis ISO 25010: functional suitability, reliability, performance efficiency, usability\n14.3 Kemampuan membandingkan security, compatibility, maintainability, portability",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (analisis standar)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 13: tugas terstruktur — ISO 25010: functional suitability\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ISO 25010: functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability, portability\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10 : Penyusunan laporan QA dan evaluasi",
-      "indikator": "Kemampuan menyusun laporan quality assurance dan rekomendasi",
-      "kriteria": "Tugas kelompok (laporan QA untuk proyek)",
-      "tatap_muka": "Bimbingan laporan TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Struktur laporan QA; metrik; rekomendasi perbaikan; presentasi",
-      "bobot": "5%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Penyusunan laporan QA dan evaluasi (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun laporan quality assurance dan rekomendasi\n15.2 Ketepatan merancang struktur laporan QA, metrik, rekomendasi perbaikan, presentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (laporan QA untuk proyek)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: proyek — Struktur laporan QA; metrik; rekomendasi perbaikan; presentasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan QA; metrik; rekomendasi perbaikan; presentasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS : Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang testing, otomatisasi, CI/CT, QA, dan standar",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 9–15",
-      "bobot": "18%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang testing, otomatisasi, CI/CT, QA, dan standar\n16.2 Ketepatan menganalisis materi Minggu 9–15",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 9–15\n[P1, P2, P3]",
+      "bobot": "18"
     }
   ],
   "bahan_kajian": "1. Konsep kualitas perangkat lunak dan software testing\n2. Level pengujian: unit, integrasi, sistem, acceptance\n3. Teknik pengujian: black-box, white-box, grey-box\n4. Pengujian fungsional dan non-fungsional\n5. Test case design dan test planning\n6. Otomatisasi pengujian (Selenium, JUnit)\n7. Continuous Integration dan Continuous Testing (CI/CT)\n8. Standar kualitas perangkat lunak (ISO 25010)\n9. Bug tracking dan manajemen defect",

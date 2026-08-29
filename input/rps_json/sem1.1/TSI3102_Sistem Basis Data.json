@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "kode_mk": "TSI3102",
+    "nama_mk": "Sistem Basis Data",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-02",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi",
+      "label": "CPL 5 (KK-02)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 6 (KK-04)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 7 (KK-08)",
+      "nomor": "CPL 7"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep dan arsitektur basis data serta peran DBMS dalam sistem informasi (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03",
+      "deskripsi": "Mampu merancang Entity Relationship Diagram (ERD) dan melakukan normalisasi basis data (CPL 2)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-02, KK-02",
+      "deskripsi": "Mampu mengimplementasikan basis data relasional menggunakan SQL (DDL, DML) pada RDBMS (CPL 4, CPL 5)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-08",
+      "deskripsi": "Mampu melakukan pengelolaan transaksi, konkurensi, serta keamanan dan integritas data (CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KK-04, KK-08",
+      "deskripsi": "Mampu mengintegrasikan basis data dengan aplikasi sederhana dan melakukan backup/recovery (CPL 3, CPL 6, CPL 7)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep basis data, DBMS, dan arsitektur (eksternal, konseptual, internal) (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membedakan model data (hierarkis, jaringan, relasional, objek) (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu membuat ERD (entitas, atribut, relasi, kardinalitas) dan mengubahnya ke tabel relasional (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menerapkan normalisasi (1NF, 2NF, 3NF) untuk mengatasi redundansi dan anomali (C3-C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menggunakan DDL (CREATE, ALTER, DROP) untuk mendefinisikan struktur basis data (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "5",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menggunakan DML (INSERT, UPDATE, DELETE, SELECT) untuk memanipulasi data (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menulis query SELECT lanjutan (JOIN, subquery, fungsi agregat, GROUP BY) (C3-C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan konsep transaksi, ACID, dan konkurensi (C2, A2) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menerapkan keamanan basis data (user, privilege, GRANT/REVOKE) dan integritas (constraints, trigger) (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10-11",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu melakukan backup, recovery, dan integrasi basis data dengan aplikasi (koneksi JDBC/ODBC) (C3-C4, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12-15",
+      "taksonomi": "C3-C4, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "40%",
+      "c1": "0%",
+      "c2": "10%",
+      "c3": "10%",
+      "c4": "5%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "27%",
+      "c1": "7%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "10%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9%",
+      "c5": "9%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "15%",
+      "c3": "20%",
+      "c4": "24%",
+      "c5": "29%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.6",
+      "p2": "",
+      "p3": "2.6",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "5.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.1",
+      "p2": "",
+      "p3": "3.1",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "6.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "7.2",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "7.1",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.6",
+      "p5": "3.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.6",
+      "p5": "3.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.6",
+      "p5": "3.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "11",
+      "bobot": "11",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "16",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "8.7",
+      "p4": "",
+      "p5": "",
+      "p6": "8.7",
+      "p7": "8.6",
+      "bobot": "26",
+      "minggu": "4"
+    },
+    {
+      "sub": "Total",
+      "p1": "5.7",
+      "p2": "14.3",
+      "p3": "14.4",
+      "p4": "10.8",
+      "p5": "10.5",
+      "p6": "8.7",
+      "p7": "35.6",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar basis data dan DBMS (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi basis data, DBMS, dan arsitektur 3-level\n1.2 Ketepatan menjelaskan DBMS (fungsi, keuntungan)\n1.3 Ketepatan menguraikan arsitektur ANSI-SPARC (eksternal, konseptual, internal)",
+      "kriteria": "Metode Penilaian:\nKuis (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 1: tugas terstruktur — Data vs informasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Data vs informasi, basis data, DBMS (fungsi, keuntungan), arsitektur ANSI-SPARC (eksternal, konseptual, internal)\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Model data (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membedakan model data hierarkis, jaringan, relasional, objek\n2.2 Ketepatan menjelaskan model data hierarkis (IMS), jaringan (CODASYL), relasional (Codd), objek-relasional, NoSQL",
+      "kriteria": "Metode Penilaian:\nKuis (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Model data hierarkis\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Model data hierarkis (IMS), jaringan (CODASYL), relasional (Codd), objek-relasional, NoSQL\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Entity Relationship Diagram (ERD) (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan membuat ERD dengan entitas, atribut, relasi, kardinalitas\n3.2 Ketepatan menerapkan Entitas kuat/lemah\n3.3 Kemampuan menggunakan atribut (sederhana, komposit, multinilai, turunan)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: ERD",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — Entitas kuat/lemah\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Entitas kuat/lemah, atribut (sederhana, komposit, multinilai, turunan), relasi (1:1, 1:N, M:N), kardinalitas\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Normalisasi (C3-C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menormalisasi tabel hingga 3NF\n4.2 Ketepatan menganalisis Anomali (insert, update, delete), ketergantungan fungsional, 1NF (atomic)\n4.3 Kemampuan membandingkan 2NF (tanpa partial dependency)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: normalisasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Anomali (insert\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Anomali (insert, update, delete), ketergantungan fungsional, 1NF (atomic), 2NF (tanpa partial dependency), 3NF (tanpa transitive dependency)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : DDL (Data Definition Language) (C3, A3) (CPMK-3)",
+      "indikator": "5.1 Kemampuan membuat tabel, mengubah struktur, menghapus objek\n5.2 Ketepatan menerapkan CREATE DATABASE\n5.3 Kemampuan menggunakan CREATE TABLE (tipe data, constraints: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY), ALTER, DROP",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik SQL",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — CREATE DATABASE\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "CREATE DATABASE, CREATE TABLE (tipe data, constraints: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY), ALTER, DROP\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 6 : DML dasar (INSERT, UPDATE, DELETE, SELECT) (C3, A3) (CPMK-3)",
+      "indikator": "6.1 Kemampuan memanipulasi data\n6.2 Ketepatan menerapkan INSERT (single, multiple), UPDATE, DELETE\n6.3 Kemampuan menggunakan SELECT sederhana (WHERE, ORDER BY, LIMIT)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: DML",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — INSERT (single\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "INSERT (single, multiple), UPDATE, DELETE, SELECT sederhana (WHERE, ORDER BY, LIMIT)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 7 : Query lanjutan (JOIN, subquery, agregat) (C3-C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menulis query dengan JOIN, subquery, GROUP BY\n7.2 Ketepatan menganalisis INNER JOIN, LEFT/RIGHT JOIN, SELF JOIN\n7.3 Kemampuan membandingkan subquery di WHERE/FROM/SELECT",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: query",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — INNER JOIN\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "INNER JOIN, LEFT/RIGHT JOIN, SELF JOIN; subquery di WHERE/FROM/SELECT; fungsi agregat (COUNT, SUM, AVG, MIN, MAX), GROUP BY, HAVING\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6,7\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep basis data, ERD, normalisasi, SQL dasar\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 8 : Transaksi dan konkurensi (C2, A2) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menjelaskan sifat ACID dan masalah konkurensi\n9.2 Ketepatan menjelaskan Transaksi (BEGIN, COMMIT, ROLLBACK), sifat ACID, jadwal, serializability\n9.3 Ketepatan menguraikan locking (shared, exclusive), deadlock",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Transaksi (BEGIN\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Transaksi (BEGIN, COMMIT, ROLLBACK), sifat ACID, jadwal, serializability, locking (shared, exclusive), deadlock\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 9 : Keamanan basis data (C3, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan mengelola user dan privilege\n10.2 Ketepatan menerapkan User management (CREATE USER)\n10.3 Kemampuan menggunakan privilege (GRANT, REVOKE), role",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik GRANT/REVOKE",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 9: tugas terstruktur — User management\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "User management (CREATE USER), privilege (GRANT, REVOKE), role, view untuk keamanan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 9 : Integritas data (constraints, trigger) (C3, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menggunakan CHECK, DEFAULT, dan trigger sederhana\n11.2 Ketepatan menerapkan Integritas domain, entitas, referensial, CHECK, DEFAULT\n11.3 Kemampuan menggunakan trigger (BEFORE/AFTER INSERT/UPDATE/DELETE)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: trigger",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 10: tugas terstruktur — Integritas domain\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Integritas domain, entitas, referensial; CHECK, DEFAULT; trigger (BEFORE/AFTER INSERT/UPDATE/DELETE)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 10 : Backup dan recovery (C3-C4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan melakukan backup database dan restore\n12.2 Ketepatan menganalisis jenis backup (full, incremental, differential)\n12.3 Kemampuan membandingkan tools (mysqldump, pg_dump), restore, point-in-time recovery",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik backup",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 11: tugas terstruktur — Jenis backup (full\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Jenis backup (full, incremental, differential), tools (mysqldump, pg_dump), restore, point-in-time recovery\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 10 : Integrasi basis data dengan aplikasi (C3-C4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menghubungkan basis data dengan program (Python/Java)\n13.2 Ketepatan menganalisis JDBC/ODBC, driver, connection string, execute query, result set, prepared statement",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: koneksi DB",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 12: tugas terstruktur — JDBC/ODBC\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "JDBC/ODBC, driver, connection string, execute query, result set, prepared statement\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek basis data – perancangan (C3-C4, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan merancang basis data untuk studi kasus (misal: perpustakaan, penjualan)\n14.2 Ketepatan menganalisis analisis kebutuhan, ERD, normalisasi, implementasi DDL",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: proyek — Analisis kebutuhan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis kebutuhan, ERD, normalisasi, implementasi DDL\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi proyek dan presentasi (C3-C4, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mengimplementasikan basis data dan membuat query aplikatif\n15.2 Ketepatan menganalisis Pembuatan database, pengisian data, query laporan, dokumentasi",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok + demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: presentasi — Pembuatan database\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pembuatan database, pengisian data, query laporan, dokumentasi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang transaksi, keamanan, integrasi, dan studi kasus\n16.2 Ketepatan menjelaskan Seluruh materi (minggu 1-15)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (18%) (18%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "18"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan arsitektur basis data\n2. Model data relasional\n3. Entity Relationship Diagram (ERD)\n4. Normalisasi basis data\n5. Structured Query Language (SQL) dasar\n6. Implementasi basis data dengan RDBMS\n7. Transaksi dan konkurensi\n8. Keamanan dan integritas data",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Elmasri, R., & Navathe, S. B. (2016). *Fundamentals of Database Systems* (7th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Connolly, T., & Begg, C. (2015). *Database Systems: A Practical Approach to Design, Implementation, and Management* (6th ed.). Pearson."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Date, C. J. (2019). *An Introduction to Database Systems* (8th ed.). Addison-Wesley."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2019). *Database System Concepts* (7th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Ramakrishnan, R., & Gehrke, J. (2003). *Database Management Systems* (3rd ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini memberikan pemahaman tentang konsep dasar basis data yang menjadi fondasi penting dalam pengelolaan data pada sistem informasi. Materi meliputi arsitektur basis data, model data relasional, Entity Relationship Diagram (ERD), normalisasi, bahasa SQL (DDL dan DML), transaksi dan konkurensi, keamanan dan integritas data, serta backup dan recovery. Mahasiswa akan mempraktikkan perancangan dan implementasi basis data menggunakan RDBMS (seperti MySQL atau PostgreSQL) melalui studi kasus, serta belajar mengintegrasikan basis data dengan aplikasi sederhana. Mata kuliah ini mempersiapkan mahasiswa untuk mata kuliah lanjutan seperti Sistem Basis Data Lanjut dan Big Data.",
+  "matakuliah_syarat": "-"
+}

@@ -17,315 +17,580 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
-    },
-    {
-      "kode": "KU-02",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 4 (KK-04)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KK-05",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 5 (KK-05)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-06",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 6 (KK-06)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-07",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 7 (KK-07)",
+      "nomor": "CPL 7"
     },
     {
-      "kode": "KK-08",
+      "kode": "KK-09",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis",
+      "label": "CPL 8 (KK-09)",
+      "nomor": "CPL 8"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami konsep dasar, strategi, dan komponen Supply Chain Management (SCM)"
+      "deskripsi": "Mampu memahami konsep dasar, strategi, dan komponen Supply Chain Management (SCM) (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-02, KK-04, KK-06",
-      "deskripsi": "Mampu menjelaskan desain jaringan rantai pasok, manajemen permintaan, dan peramalan (demand forecasting)"
+      "deskripsi": "Mampu menjelaskan desain jaringan rantai pasok, manajemen permintaan, dan peramalan (demand forecasting) (CPL 2, CPL 4, CPL 6)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KK-05, KK-07",
-      "deskripsi": "Mampu menganalisis manajemen persediaan, logistik, dan koordinasi antar mitra rantai pasok"
+      "cpl": "KK-05, KK-07, KK-09",
+      "deskripsi": "Mampu menganalisis manajemen persediaan, logistik, dan koordinasi antar mitra rantai pasok (CPL 5, CPL 7, CPL 8)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "P-02, KK-08",
-      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, IoT) dalam SCM serta green supply chain"
+      "cpl": "P-02",
+      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, IoT) dalam SCM serta green supply chain (CPL 2)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-02, KK-04",
-      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok dan studi kasus implementasi SCM pada perusahaan"
+      "cpl": "KK-04",
+      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok dan studi kasus implementasi SCM pada perusahaan (CPL 4)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep dasar SCM, evolusi, dan perbedaannya dengan logistik tradisional",
+      "deskripsi": "Mampu menjelaskan konsep dasar SCM, evolusi, dan perbedaannya dengan logistik tradisional (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menjelaskan strategi SCM (efisiensi vs responsivitas, push vs pull) dan komponen utama",
+      "deskripsi": "Mampu menjelaskan strategi SCM (efisiensi vs responsivitas, push vs pull) dan komponen utama (C2–C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menganalisis desain jaringan rantai pasok (lokasi fasilitas, distribusi, transportasi)",
+      "deskripsi": "Mampu menganalisis desain jaringan rantai pasok (lokasi fasilitas, distribusi, transportasi) (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan metode peramalan permintaan (time series, causal) dalam manajemen rantai pasok",
+      "deskripsi": "Mampu menerapkan metode peramalan permintaan (time series, causal) dalam manajemen rantai pasok (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "6",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menjelaskan model manajemen persediaan (EOQ, safety stock, reorder point) dan logistik",
+      "deskripsi": "Mampu menjelaskan model manajemen persediaan (EOQ, safety stock, reorder point) dan logistik (C3–C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7–8",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu menganalisis koordinasi rantai pasok (bullwhip effect, CPFR, VMI)",
+      "deskripsi": "Mampu menganalisis koordinasi rantai pasok (bullwhip effect, CPFR, VMI) (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, RFID, IoT) dalam SCM",
+      "deskripsi": "Mampu menjelaskan peran teknologi informasi (ERP, e-procurement, RFID, IoT) dalam SCM (C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menjelaskan konsep green supply chain dan keberlanjutan",
+      "deskripsi": "Mampu menjelaskan konsep green supply chain dan keberlanjutan (C2–C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok (SCOR model, KPI) dan studi kasus",
+      "deskripsi": "Mampu melakukan pengukuran kinerja rantai pasok (SCOR model, KPI) dan studi kasus (C4–C5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–15",
-      "cpl": "C4–C5"
+      "taksonomi": "C4–C5, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus SCM",
+      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus SCM (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "16",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "66%",
+      "c1": "15%",
+      "c2": "14%",
+      "c3": "10%",
+      "c4": "10%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "4%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "4%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "20%",
+      "c2": "19%",
+      "c3": "20%",
+      "c4": "19%",
+      "c5": "22%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "6.5",
+      "p2": "",
+      "p3": "6.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "4",
+      "p2": "",
+      "p3": "4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "4",
+      "p5": "",
+      "p6": "4",
+      "p7": "",
+      "p8": "",
+      "bobot": "12",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "2.7",
+      "p3": "",
+      "p4": "2.7",
+      "p5": "",
+      "p6": "2.6",
+      "p7": "",
+      "p8": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "2.7",
+      "p6": "",
+      "p7": "2.7",
+      "p8": "2.6",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "3",
+      "p6": "",
+      "p7": "2.9",
+      "p8": "2.9",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "13.8",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "7.7",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "7.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "20.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "20.7",
+      "minggu": "3"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "10.5",
+      "p2": "28.2",
+      "p3": "10.5",
+      "p4": "27.4",
+      "p5": "5.7",
+      "p6": "6.6",
+      "p7": "5.6",
+      "p8": "5.5",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep dasar SCM",
-      "indikator": "Ketepatan mendefinisikan SCM, membedakan dengan logistik, dan menjelaskan evolusi",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Definisi SCM; perbedaan SCM dengan logistik; evolusi dari fungsi terpisah ke terintegrasi",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar SCM (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan SCM, membedakan dengan logistik, dan menjelaskan evolusi\n1.2 Ketepatan menjelaskan definisi SCM\n1.3 Ketepatan menguraikan evolusi dari fungsi terpisah ke terintegrasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Definisi SCM; perbedaan SCM dengan logistik; evolusi dari fungsi terpisah ke terintegrasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi SCM; perbedaan SCM dengan logistik; evolusi dari fungsi terpisah ke terintegrasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Komponen dan aliran SCM",
-      "indikator": "Ketepatan mengidentifikasi komponen (supplier, manufaktur, distribusi, ritel, customer) dan aliran (produk, informasi, keuangan)",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Komponen rantai pasok; aliran material, informasi, dan uang; contoh rantai pasok sederhana",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Komponen dan aliran SCM (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Ketepatan mengidentifikasi komponen (supplier, manufaktur, distribusi, ritel, customer) dan aliran (produk, informasi, keuangan)\n2.2 Ketepatan menjelaskan komponen rantai pasok\n2.3 Ketepatan menguraikan contoh rantai pasok sederhana",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Komponen rantai pasok; aliran material\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Komponen rantai pasok; aliran material, informasi, dan uang; contoh rantai pasok sederhana\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Strategi SCM",
-      "indikator": "Ketepatan membedakan strategi efisiensi vs responsivitas, push vs pull",
-      "kriteria": "Kuis online; Studi kasus strategi",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Strategi SCM: lean (efisiensi) vs agile (responsivitas); push-based vs pull-based; trade-off",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Strategi SCM (C2–C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan membedakan strategi efisiensi vs responsivitas, push vs pull\n3.2 Ketepatan menerapkan strategi SCM: lean (efisiensi) vs agile (responsivitas)\n3.3 Kemampuan menggunakan push-based vs pull-based, trade-off",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus strategi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 3: studi kasus — Strategi SCM: lean  vs agile ; push-based vs pull-based; trade-off\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Strategi SCM: lean (efisiensi) vs agile (responsivitas); push-based vs pull-based; trade-off\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Desain jaringan rantai pasok",
-      "indikator": "Kemampuan menganalisis keputusan lokasi fasilitas, distribusi, dan transportasi",
-      "kriteria": "Tugas kelompok (analisis desain jaringan)",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Model desain jaringan: facility location, distribution network, transportation mode",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Desain jaringan rantai pasok (C3–C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menganalisis keputusan lokasi fasilitas, distribusi, dan transportasi\n4.2 Ketepatan menganalisis model desain jaringan: facility location, distribution network, transportation mode",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (analisis desain jaringan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 4: esai — Model desain jaringan: facility location\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Model desain jaringan: facility location, distribution network, transportation mode\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Manajemen permintaan dan peramalan (pendahuluan)",
-      "indikator": "Ketepatan menjelaskan pentingnya peramalan dan metode kualitatif",
-      "kriteria": "Kuis online; Tugas latihan",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Peramalan permintaan: peran, metode kualitatif (Delphi, panel ahli)",
-      "bobot": "4%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Manajemen permintaan dan peramalan (pendahuluan) (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Ketepatan menjelaskan pentingnya peramalan dan metode kualitatif\n5.2 Ketepatan menganalisis Peramalan permintaan: peran, metode kualitatif (Delphi, panel ahli)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 5: latihan soal — Peramalan permintaan: peran\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Peramalan permintaan: peran, metode kualitatif (Delphi, panel ahli)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Metode peramalan kuantitatif",
-      "indikator": "Kemampuan menghitung peramalan dengan moving average, exponential smoothing, dan regresi",
-      "kriteria": "Tugas praktik peramalan (Excel)",
-      "tatap_muka": "Kuliah interaktif + praktik TM: 2x50",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 2×50']",
-      "materi": "Time series: moving average, weighted MA, exponential smoothing; regresi linier; error (MAD, MSE, MAPE)",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Metode peramalan kuantitatif (C3–C4, A4) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menghitung peramalan dengan moving average, exponential smoothing, dan regresi\n6.2 Ketepatan menganalisis Time series: moving average, weighted MA, exponential smoothing\n6.3 Kemampuan membandingkan regresi linier",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik peramalan (Excel)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — Time series: moving average\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Time series: moving average, weighted MA, exponential smoothing; regresi linier; error (MAD, MSE, MAPE)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 5 : Manajemen persediaan",
-      "indikator": "Ketepatan menghitung EOQ, safety stock, dan reorder point",
-      "kriteria": "Kuis online; Tugas hitungan persediaan",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Model EOQ; safety stock; reorder point; periodic review vs continuous review",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Manajemen persediaan (C3–C4, A4) (CPMK-3)",
+      "indikator": "7.1 Ketepatan menghitung EOQ, safety stock, dan reorder point\n7.2 Ketepatan menganalisis periodic review vs continuous review",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan persediaan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — Model EOQ; safety stock; reorder point; periodic review vs continuous review\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Model EOQ; safety stock; reorder point; periodic review vs continuous review\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep SCM, strategi, desain jaringan, peramalan, persediaan",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 2x50",
-      "daring": "Ujian daring sinkron; [TM: 2×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep SCM, strategi, desain jaringan, peramalan, persediaan\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 6 : Koordinasi rantai pasok",
-      "indikator": "Kemampuan menjelaskan bullwhip effect, CPFR, VMI, dan kolaborasi",
-      "kriteria": "Kuis online; Studi kasus bullwhip effect",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Bullwhip effect: penyebab, dampak, mitigasi; CPFR (Collaborative Planning Forecasting Replenishment); VMI (Vendor Managed Inventory)",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Koordinasi rantai pasok (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menjelaskan bullwhip effect, CPFR, VMI, dan kolaborasi\n9.2 Ketepatan menganalisis Bullwhip effect: penyebab, dampak, mitigasi\n9.3 Kemampuan membandingkan CPFR (Collaborative Planning Forecasting Replenishment)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus bullwhip effect",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 8: studi kasus — Bullwhip effect: penyebab\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Bullwhip effect: penyebab, dampak, mitigasi; CPFR (Collaborative Planning Forecasting Replenishment); VMI (Vendor Managed Inventory)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7 : Teknologi informasi dalam SCM (ERP, e-procurement)",
-      "indikator": "Ketepatan menjelaskan peran ERP dalam SCM dan e-procurement",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "ERP untuk SCM: modul procurement, inventory, warehouse; e-procurement; manfaat dan tantangan",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Teknologi informasi dalam SCM (ERP, e-procurement) (C3, A3) (CPMK-4)",
+      "indikator": "10.1 Ketepatan menjelaskan peran ERP dalam SCM dan e-procurement\n10.2 Ketepatan menerapkan ERP untuk SCM: modul procurement, inventory, warehouse, e-procurement\n10.3 Kemampuan menggunakan manfaat dan tantangan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: tugas terstruktur — ERP untuk SCM: modul procurement\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ERP untuk SCM: modul procurement, inventory, warehouse; e-procurement; manfaat dan tantangan\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 7 : IoT, RFID, dan blockchain dalam SCM",
-      "indikator": "Ketepatan menjelaskan aplikasi IoT, RFID, dan blockchain untuk traceability",
-      "kriteria": "Kuis online; Studi kasus teknologi",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "RFID untuk tracking; IoT sensor; blockchain untuk transparansi; contoh implementasi",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : IoT, RFID, dan blockchain dalam SCM (C3, A3) (CPMK-4)",
+      "indikator": "11.1 Ketepatan menjelaskan aplikasi IoT, RFID, dan blockchain untuk traceability\n11.2 Ketepatan menerapkan RFID untuk tracking, IoT sensor\n11.3 Kemampuan menggunakan blockchain untuk transparansi, contoh implementasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus teknologi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 10: studi kasus — RFID untuk tracking; IoT sensor; blockchain untuk transparansi; contoh implementasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "RFID untuk tracking; IoT sensor; blockchain untuk transparansi; contoh implementasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 8 : Green supply chain dan keberlanjutan",
-      "indikator": "Ketepatan menjelaskan konsep green SCM, reverse logistics, dan circular economy",
-      "kriteria": "Kuis online; Diskusi",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Green SCM: ramah lingkungan; reverse logistics (retur, daur ulang); circular economy; regulasi",
-      "bobot": "4%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Green supply chain dan keberlanjutan (C2–C3, A3) (CPMK-4)",
+      "indikator": "12.1 Ketepatan menjelaskan konsep green SCM, reverse logistics, dan circular economy\n12.2 Ketepatan menerapkan Green SCM: ramah lingkungan\n12.3 Kemampuan menggunakan reverse logistics (retur, daur ulang), circular economy, regulasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 11: latihan terstruktur — Green SCM: ramah lingkungan; reverse logistics (retur\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Green SCM: ramah lingkungan; reverse logistics (retur, daur ulang); circular economy; regulasi\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9 : Pengukuran kinerja SCM",
-      "indikator": "Kemampuan menjelaskan SCOR model dan KPI rantai pasok",
-      "kriteria": "Tugas kelompok (rancangan KPI)",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "SCOR model (Plan, Source, Make, Deliver, Return); KPI: fill rate, lead time, inventory turnover, on-time delivery",
-      "bobot": "5%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Pengukuran kinerja SCM (C4–C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan SCOR model dan KPI rantai pasok\n13.2 Ketepatan mengevaluasi SCOR model (Plan, Source, Make, Deliver, Return)\n13.3 Kemampuan menilai KPI: fill rate, lead time, inventory turnover, on-time delivery",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (rancangan KPI)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 12: tugas terstruktur — SCOR model (Plan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "SCOR model (Plan, Source, Make, Deliver, Return); KPI: fill rate, lead time, inventory turnover, on-time delivery\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9 : Studi kasus SCM pada perusahaan (persiapan)",
-      "indikator": "Kemampuan memilih perusahaan dan mengidentifikasi permasalahan SCM",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Pemilihan studi kasus (manufaktur, ritel, logistik); pengumpulan data sekunder",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Studi kasus SCM pada perusahaan (persiapan) (C4–C5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan memilih perusahaan dan mengidentifikasi permasalahan SCM\n14.2 Ketepatan mengevaluasi Pemilihan studi kasus (manufaktur, ritel, logistik)\n14.3 Kemampuan menilai pengumpulan data sekunder",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: proyek — Pemilihan studi kasus (manufaktur\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan studi kasus (manufaktur, ritel, logistik); pengumpulan data sekunder\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 9 : Analisis dan penyusunan laporan",
-      "indikator": "Kemampuan menganalisis rantai pasok dan memberikan rekomendasi",
-      "kriteria": "Laporan proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Analisis menggunakan SCOR; rekomendasi perbaikan; format laporan",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Analisis dan penyusunan laporan (C4–C5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menganalisis rantai pasok dan memberikan rekomendasi\n15.2 Ketepatan mengevaluasi analisis menggunakan SCOR, rekomendasi perbaikan, format laporan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: proyek — Analisis menggunakan SCOR; rekomendasi perbaikan; format laporan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis menggunakan SCOR; rekomendasi perbaikan; format laporan\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "Sub-CPMK 10 : Presentasi studi kasus + UAS",
-      "indikator": "Kemampuan mempresentasikan hasil analisis dan menjawab soal integratif",
-      "kriteria": "Presentasi kelompok + ujian tertulis",
-      "tatap_muka": "Presentasi + UAS TM: 2x50",
-      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
-      "materi": "Materi seluruh semester (terutama koordinasi, teknologi, green SCM, kinerja) + proyek",
-      "bobot": "15%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan hasil analisis dan menjawab soal integratif\n16.2 Ketepatan menganalisis materi seluruh semester (terutama koordinasi, teknologi, green SCM, kinerja) + proyek",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi seluruh semester (terutama koordinasi, teknologi, green SCM, kinerja) + proyek\n[P1, P2, P3]",
+      "bobot": "15"
     }
   ],
   "bahan_kajian": "1. Konsep dan strategi Supply Chain Management (SCM)\n2. Desain jaringan dan konfigurasi rantai pasok\n3. Manajemen permintaan dan peramalan (demand forecasting)\n4. Manajemen persediaan dan logistik\n5. Koordinasi rantai pasok dan kolaborasi antar mitra\n6. Teknologi informasi dalam SCM (ERP, e-procurement, IoT)\n7. Green supply chain dan keberlanjutan\n8. Pengukuran kinerja rantai pasok (SCOR model, KPI)",

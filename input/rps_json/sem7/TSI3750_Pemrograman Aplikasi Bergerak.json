@@ -17,305 +17,598 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
-      "kode": "KU-05",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 7 (KK-05)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-08",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 8 (KK-08)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-10",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi",
+      "label": "CPL 9 (KK-10)",
+      "nomor": "CPL 9"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu menjelaskan konsep dan ekosistem pengembangan aplikasi mobile (Android dan iOS) serta arsitektur aplikasi"
+      "deskripsi": "Mampu menjelaskan konsep dan ekosistem pengembangan aplikasi mobile (Android dan iOS) serta arsitektur aplikasi (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-03, KU-02",
-      "deskripsi": "Mampu merancang antarmuka pengguna mobile (UI/UX) dengan menerapkan Material Design/Human Interface Guidelines"
+      "deskripsi": "Mampu merancang antarmuka pengguna mobile (UI/UX) dengan menerapkan Material Design/Human Interface Guidelines (CPL 2, CPL 4)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-01, KK-03",
-      "deskripsi": "Mampu mengimplementasikan aplikasi mobile native (Android dengan Java/Kotlin) atau cross-platform (Flutter/React Native)"
+      "cpl": "KU-01, KK-03, KK-05",
+      "deskripsi": "Mampu mengimplementasikan aplikasi mobile native (Android dengan Java/Kotlin) atau cross-platform (Flutter/React Native) (CPL 3, CPL 6, CPL 7)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KK-08",
-      "deskripsi": "Mampu mengintegrasikan API, basis data lokal, dan layanan cloud pada aplikasi mobile"
+      "cpl": "KK-08",
+      "deskripsi": "Mampu mengintegrasikan API, basis data lokal, dan layanan cloud pada aplikasi mobile (CPL 8)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-05, KK-08",
-      "deskripsi": "Mampu menguji, mendeploy, dan mendistribusikan aplikasi mobile ke app store"
+      "cpl": "KK-01, KK-08, KK-10",
+      "deskripsi": "Mampu menguji, mendeploy, dan mendistribusikan aplikasi mobile ke app store (CPL 5, CPL 8, CPL 9)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan platform mobile (Android vs iOS), perbedaan native vs cross-platform, dan tools development",
+      "deskripsi": "Mampu menjelaskan platform mobile (Android vs iOS), perbedaan native vs cross-platform, dan tools development (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menyiapkan environment development (Android Studio, Flutter SDK) dan membuat proyek pertama",
+      "deskripsi": "Mampu menyiapkan environment development (Android Studio, Flutter SDK) dan membuat proyek pertama (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu merancang layout dan komponen UI dasar (TextView, Button, ImageView, RecyclerView)",
+      "deskripsi": "Mampu merancang layout dan komponen UI dasar (TextView, Button, ImageView, RecyclerView) (C3-C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3-4",
-      "cpl": "C3-C4"
+      "taksonomi": "C3-C4, A4"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan event handling, intent, dan navigasi antar halaman",
+      "deskripsi": "Mampu menerapkan event handling, intent, dan navigasi antar halaman (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "5",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu mengimplementasikan penyimpanan data lokal (SharedPreferences, SQLite, atau Room)",
+      "deskripsi": "Mampu mengimplementasikan penyimpanan data lokal (SharedPreferences, SQLite, atau Room) (C3-C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "6",
-      "cpl": "C3-C4"
+      "taksonomi": "C3-C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu mengintegrasikan REST API (Retrofit/HttpClient) untuk komunikasi dengan backend",
+      "deskripsi": "Mampu mengintegrasikan REST API (Retrofit/HttpClient) untuk komunikasi dengan backend (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "7",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menerapkan state management dan pola arsitektur (MVVM) pada aplikasi mobile",
+      "deskripsi": "Mampu menerapkan state management dan pola arsitektur (MVVM) pada aplikasi mobile (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9-10",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan debugging, unit testing, dan pengujian UI pada aplikasi mobile",
+      "deskripsi": "Mampu melakukan debugging, unit testing, dan pengujian UI pada aplikasi mobile (C4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "11",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan deployment (signed APK/AAB) dan distribusi ke Google Play Store",
+      "deskripsi": "Mampu melakukan deployment (signed APK/AAB) dan distribusi ke Google Play Store (C5-P4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12-13",
-      "cpl": "C5-P4"
+      "taksonomi": "C5-P4, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mengembangkan proyek aplikasi mobile lengkap dengan dokumentasi dan presentasi",
+      "deskripsi": "Mampu mengembangkan proyek aplikasi mobile lengkap dengan dokumentasi dan presentasi (C5-C6, A5) (CPMK-3, CPMK-5)",
       "cpmk": "CPMK-3, CPMK-5",
       "minggu": "14-15",
-      "cpl": "C5-C6"
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "52%",
+      "c1": "4%",
+      "c2": "13%",
+      "c3": "10%",
+      "c4": "10%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "13%",
+      "c1": "3%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "0%",
+      "c4": "5%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "10%",
+      "c4": "0%",
+      "c5": "10%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "18%",
+      "c3": "25%",
+      "c4": "15%",
+      "c5": "30%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.2",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "5.3",
+      "p3": "",
+      "p4": "5.2",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "10.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "3.8",
+      "p3": "",
+      "p4": "3.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7.5",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7.5",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "5",
+      "p4": "",
+      "p5": "",
+      "p6": "5",
+      "p7": "5",
+      "p8": "",
+      "p9": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "3.4",
+      "p6": "",
+      "p7": "",
+      "p8": "3.3",
+      "p9": "3.3",
+      "bobot": "10",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "5",
+      "p6": "",
+      "p7": "",
+      "p8": "5",
+      "p9": "5",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "2.5",
+      "p4": "",
+      "p5": "2.5",
+      "p6": "2.5",
+      "p7": "2.5",
+      "p8": "2.5",
+      "p9": "2.5",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.1",
+      "p2": "9.1",
+      "p3": "13.4",
+      "p4": "8.9",
+      "p5": "10.9",
+      "p6": "7.5",
+      "p7": "7.5",
+      "p8": "25.8",
+      "p9": "10.8",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Pengenalan pemrograman mobile",
-      "indikator": "Ketepatan menjelaskan platform, arsitektur, dan perbedaan native vs cross-platform",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Android vs iOS, Android architecture (Linux kernel, Dalvik/ART, Application Framework), Flutter vs React Native, tools (Android Studio, Xcode)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengenalan pemrograman mobile (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan platform, arsitektur, dan perbedaan native vs cross-platform\n1.2 Ketepatan menjelaskan Android vs iOS\n1.3 Ketepatan menguraikan Android architecture (Linux kernel, Dalvik/ART, Application Framework)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: latihan terstruktur — Android vs iOS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Android vs iOS, Android architecture (Linux kernel, Dalvik/ART, Application Framework), Flutter vs React Native, tools (Android Studio, Xcode)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Setup environment dan proyek pertama",
-      "indikator": "Kemampuan menginstal Android Studio/Flutter dan membuat Hello World",
-      "kriteria": "Praktik: instalasi dan proyek pertama",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Instalasi Android Studio, SDK, emulator; membuat project; struktur project; running di emulator/device",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Setup environment dan proyek pertama (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menginstal Android Studio/Flutter dan membuat Hello World\n2.2 Ketepatan menerapkan Instalasi Android Studio, SDK, emulator, membuat project, struktur project\n2.3 Kemampuan menggunakan running di emulator/device",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik: instalasi dan proyek pertama",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: proyek — Instalasi Android Studio\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Instalasi Android Studio, SDK, emulator; membuat project; struktur project; running di emulator/device\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: Layout dan UI dasar",
-      "indikator": "Kemampuan membuat layout dengan XML (Android) atau widget (Flutter)",
-      "kriteria": "Tugas individu: layout sederhana",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "LinearLayout, RelativeLayout, ConstraintLayout; TextView, EditText, Button, ImageView; Flutter: Row, Column, Container",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Layout dan UI dasar (C3-C4, A4) (CPMK-2)",
+      "indikator": "3.1 Kemampuan membuat layout dengan XML (Android) atau widget (Flutter)\n3.2 Ketepatan menganalisis LinearLayout, RelativeLayout, ConstraintLayout\n3.3 Kemampuan membandingkan TextView, EditText, Button, ImageView",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: layout sederhana",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — LinearLayout\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "LinearLayout, RelativeLayout, ConstraintLayout; TextView, EditText, Button, ImageView; Flutter: Row, Column, Container\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3: RecyclerView dan list",
-      "indikator": "Kemampuan menampilkan data dalam bentuk list dengan adapter",
-      "kriteria": "Tugas individu: RecyclerView",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "RecyclerView, adapter, view holder, item click listener; Flutter: ListView.builder",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : RecyclerView dan list (C3-C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menampilkan data dalam bentuk list dengan adapter\n4.2 Ketepatan menganalisis RecyclerView, adapter, view holder, item click listener, Flutter: ListView.builder",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: RecyclerView",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — RecyclerView\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "RecyclerView, adapter, view holder, item click listener; Flutter: ListView.builder\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 4: Event handling dan navigasi",
-      "indikator": "Kemampuan menangani klik, intent, dan navigasi antar activity/fragment",
-      "kriteria": "Tugas individu: multi-screen app",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Event listener (onClick), Intent (explicit, implicit), Activity lifecycle, Fragment; Flutter: Navigator, routes",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Event handling dan navigasi (C3, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menangani klik, intent, dan navigasi antar activity/fragment\n5.2 Ketepatan menerapkan Event listener (onClick), Intent (explicit, implicit), Activity lifecycle, Fragment\n5.3 Kemampuan menggunakan Flutter: Navigator, routes",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: multi-screen app",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: tugas terstruktur — Event listener\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Event listener (onClick), Intent (explicit, implicit), Activity lifecycle, Fragment; Flutter: Navigator, routes\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5: Penyimpanan data lokal",
-      "indikator": "Kemampuan menggunakan SharedPreferences dan SQLite/Room",
-      "kriteria": "Tugas individu: todo app dengan SQLite",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "SharedPreferences, SQLite database, Room persistence library (Entity, DAO, Database); CRUD operations",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Penyimpanan data lokal (C3-C4, A4) (CPMK-4)",
+      "indikator": "6.1 Kemampuan menggunakan SharedPreferences dan SQLite/Room\n6.2 Ketepatan menganalisis SharedPreferences, SQLite database, Room persistence library (Entity, DAO, Database), CRUD operations",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: todo app dengan SQLite",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: tugas terstruktur — SharedPreferences\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "SharedPreferences, SQLite database, Room persistence library (Entity, DAO, Database); CRUD operations\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 6: Integrasi REST API",
-      "indikator": "Kemampuan mengambil data dari API dan menampilkannya",
-      "kriteria": "Tugas individu: API client",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Retrofit (Android) atau http (Flutter), parsing JSON (Gson), asynchronous (Coroutines/AsyncTask), menampilkan data di RecyclerView",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Integrasi REST API (C4, A4) (CPMK-4)",
+      "indikator": "7.1 Kemampuan mengambil data dari API dan menampilkannya\n7.2 Ketepatan menganalisis Retrofit (Android) atau http (Flutter)\n7.3 Kemampuan membandingkan parsing JSON (Gson), asynchronous (Coroutines/AsyncTask)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: API client",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: tugas terstruktur — Retrofit  atau http\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Retrofit (Android) atau http (Flutter), parsing JSON (Gson), asynchronous (Coroutines/AsyncTask), menampilkan data di RecyclerView\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep mobile, UI, event handling, penyimpanan lokal, API",
-      "kriteria": "Ujian tertulis online + praktik coding",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Materi Minggu 1-7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep mobile, UI, event handling, penyimpanan lokal, API\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 7: State management dan MVVM",
-      "indikator": "Kemampuan menerapkan pola MVVM dan state management",
-      "kriteria": "Praktik coding",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Arsitektur MVVM, LiveData, ViewModel, Repository; Flutter: Provider, Bloc, Riverpod",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : State management dan MVVM (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menerapkan pola MVVM dan state management\n9.2 Ketepatan menganalisis arsitektur MVVM, LiveData, ViewModel, Repository\n9.3 Kemampuan membandingkan Flutter: Provider, Bloc, Riverpod",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik coding",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: latihan terstruktur — Arsitektur MVVM\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Arsitektur MVVM, LiveData, ViewModel, Repository; Flutter: Provider, Bloc, Riverpod\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7: Lanjutan state management dan background tasks",
-      "indikator": "Kemampuan menggunakan WorkManager/Service untuk tugas background",
-      "kriteria": "Tugas kelompok: aplikasi dengan background sync",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "WorkManager, Service, BroadcastReceiver; notifikasi; scheduling tasks",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Lanjutan state management dan background tasks (C4, A4) (CPMK-3)",
+      "indikator": "10.1 Kemampuan menggunakan WorkManager/Service untuk tugas background\n10.2 Ketepatan menganalisis WorkManager, Service, BroadcastReceiver, notifikasi, scheduling tasks",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: aplikasi dengan background sync",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: tugas terstruktur — WorkManager\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "WorkManager, Service, BroadcastReceiver; notifikasi; scheduling tasks\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 8: Debugging dan testing",
-      "indikator": "Kemampuan menggunakan debugger, Logcat, dan menulis unit test",
-      "kriteria": "Tugas individu: testing",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Debugging (breakpoints, Logcat), unit testing (JUnit), UI testing (Espresso/Flutter test)",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Debugging dan testing (C4, A4) (CPMK-5)",
+      "indikator": "11.1 Kemampuan menggunakan debugger, Logcat, dan menulis unit test\n11.2 Ketepatan menganalisis Debugging (breakpoints, Logcat)\n11.3 Kemampuan membandingkan unit testing (JUnit)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: testing",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — Debugging (breakpoints\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Debugging (breakpoints, Logcat), unit testing (JUnit), UI testing (Espresso/Flutter test)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 9: Deployment ke app store",
-      "indikator": "Kemampuan membuat signed APK/AAB dan upload ke Google Play Console",
-      "kriteria": "Praktik: generate signed APK",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Generate signed APK/AAB, keystore, Google Play Console, app listing, store listing",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Deployment ke app store (C5-P4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan membuat signed APK/AAB dan upload ke Google Play Console\n12.2 Ketepatan mengevaluasi Generate signed APK/AAB, keystore",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik: generate signed APK",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: latihan terstruktur — Generate signed APK/AAB\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Generate signed APK/AAB, keystore, Google Play Console, app listing, store listing\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9: Keamanan aplikasi mobile",
-      "indikator": "Kemampuan menjelaskan best practices keamanan (obfuscation, secure storage, HTTPS)",
-      "kriteria": "Kuis; studi kasus",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "ProGuard, R8, secure SharedPreferences (EncryptedSharedPreferences), HTTPS, SSL pinning, input validation",
-      "bobot": "5%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Keamanan aplikasi mobile (C5-P4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan best practices keamanan (obfuscation, secure storage, HTTPS)\n13.2 Ketepatan mengevaluasi ProGuard, R8\n13.3 Kemampuan menilai secure SharedPreferences (EncryptedSharedPreferences), HTTPS, SSL pinning, input validation",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: studi kasus — ProGuard\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "ProGuard, R8, secure SharedPreferences (EncryptedSharedPreferences), HTTPS, SSL pinning, input validation\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 10: Proyek aplikasi mobile – perencanaan dan desain",
-      "indikator": "Kemampuan merancang aplikasi (UI, fitur, arsitektur)",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Pemilihan tema, perancangan UI mockup, pembagian tugas, penyusunan jadwal",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek aplikasi mobile – perencanaan dan desain (C5-C6, A5) (CPMK-3, CPMK-5)",
+      "indikator": "14.1 Kemampuan merancang aplikasi (UI, fitur, arsitektur)\n14.2 Ketepatan merancang Pemilihan tema\n14.3 Kemampuan menyusun perancangan UI mockup, pembagian tugas, penyusunan jadwal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: proyek — Pemilihan tema\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan tema, perancangan UI mockup, pembagian tugas, penyusunan jadwal\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Implementasi dan presentasi proyek",
-      "indikator": "Kemampuan menyelesaikan dan mempresentasikan aplikasi mobile",
-      "kriteria": "Presentasi kelompok (15 menit), demo",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Presentasi daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Demo aplikasi, presentasi slide, tanya jawab, dokumentasi kode",
-      "bobot": "10%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi dan presentasi proyek (C5-C6, A5) (CPMK-3, CPMK-5)",
+      "indikator": "15.1 Kemampuan menyelesaikan dan mempresentasikan aplikasi mobile\n15.2 Ketepatan merancang Demo aplikasi, presentasi slide, tanya jawab, dokumentasi kode",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit), demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: presentasi — Demo aplikasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Demo aplikasi, presentasi slide, tanya jawab, dokumentasi kode\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang MVVM, testing, deployment, keamanan, dan studi kasus",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50; Praktik: 1x170",
-      "daring": "Ujian daring sinkron; TM: 3x50; Praktik: 1x170",
-      "materi": "Seluruh materi (minggu 1-15)",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang MVVM, testing, deployment, keamanan, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1-15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Konsep dan ekosistem mobile computing\n2. Platform mobile: Android dan iOS\n3. Pengembangan aplikasi mobile native dan cross-platform (Flutter/React Native)\n4. Desain antarmuka mobile (Material Design, Human Interface Guidelines)\n5. Pengelolaan data lokal dan basis data mobile\n6. Integrasi API dan layanan web pada aplikasi mobile\n7. Keamanan aplikasi mobile\n8. Publishing dan distribusi aplikasi mobile\n9. Praktikum: pengembangan aplikasi mobile berbasis sistem informasi",

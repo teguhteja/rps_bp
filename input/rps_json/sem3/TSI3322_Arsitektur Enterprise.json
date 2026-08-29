@@ -1,4 +1,3 @@
-
 {
   "meta": {
     "kode_mk": "TSI3322",
@@ -17,62 +16,635 @@
     "jabatan": "Asisten Ahli"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
-    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"},
-    {"kode": "KK-05", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) sesuai panduan APTIKOM"},
-    {"kode": "KK-07", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 6 (KK-04)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 7 (KK-05)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 8 (KK-06)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-07",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 9 (KK-07)",
+      "nomor": "CPL 9"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep, tujuan, dan manfaat arsitektur enterprise (EA) dalam organisasi"},
-    {"kode": "CPMK-2", "cpl": "P-02, KK-05", "deskripsi": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai"},
-    {"kode": "CPMK-3", "cpl": "KU-01, KK-07", "deskripsi": "Mampu merancang business architecture dan information/data architecture"},
-    {"kode": "CPMK-4", "cpl": "S-09, KK-04", "deskripsi": "Mampu merancang application architecture dan technology architecture"},
-    {"kode": "CPMK-5", "cpl": "KU-02, KK-07", "deskripsi": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep, tujuan, dan manfaat arsitektur enterprise (EA) dalam organisasi (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-05",
+      "deskripsi": "Mampu membandingkan framework EA (TOGAF, Zachman, FEAF) dan memilih yang sesuai (CPL 2, CPL 7)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-01, KK-06, KK-07",
+      "deskripsi": "Mampu merancang business architecture dan information/data architecture (CPL 3, CPL 8, CPL 9)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-04",
+      "deskripsi": "Mampu merancang application architecture dan technology architecture (CPL 6)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KK-01, KK-07",
+      "deskripsi": "Mampu menyusun roadmap arsitektur enterprise dan mengintegrasikannya dengan transformasi digital (CPL 4, CPL 5, CPL 9)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar EA, komponen, dan nilai bisnisnya", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan sejarah dan evolusi EA serta hubungannya dengan strategi bisnis", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu membandingkan framework TOGAF, Zachman, FEAF, dan Gartner", "cpmk": "CPMK-2", "minggu": "3-4", "cpl": "C3"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan Architecture Development Method (ADM) TOGAF", "cpmk": "CPMK-2", "minggu": "5", "cpl": "C2"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu merancang business architecture (strategi, proses bisnis, organisasi)", "cpmk": "CPMK-3", "minggu": "6-7", "cpl": "C4"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu merancang information/data architecture (model data enterprise, manajemen data)", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C4"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu merancang application architecture (peta aplikasi, integrasi)", "cpmk": "CPMK-4", "minggu": "10-11", "cpl": "C4"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu merancang technology architecture (infrastruktur, platform, cloud)", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C4"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menyusun roadmap EA dan implementasi strategis", "cpmk": "CPMK-5", "minggu": "13-14", "cpl": "C5"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyelesaikan studi kasus EA pada organisasi dan mempresentasikan", "cpmk": "CPMK-5", "minggu": "15", "cpl": "C5-C6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar EA, komponen, dan nilai bisnisnya (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan sejarah dan evolusi EA serta hubungannya dengan strategi bisnis (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu membandingkan framework TOGAF, Zachman, FEAF, dan Gartner (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3-4",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan Architecture Development Method (ADM) TOGAF (C2, A2) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu merancang business architecture (strategi, proses bisnis, organisasi) (C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6-7",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu merancang information/data architecture (model data enterprise, manajemen data) (C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu merancang application architecture (peta aplikasi, integrasi) (C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10-11",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu merancang technology architecture (infrastruktur, platform, cloud) (C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun roadmap EA dan implementasi strategis (C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13-14",
+      "taksonomi": "C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyelesaikan studi kasus EA pada organisasi dan mempresentasikan (C5-C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15",
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "54%",
+      "c1": "0%",
+      "c2": "9%",
+      "c3": "15%",
+      "c4": "15%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "11%",
+      "c1": "7%",
+      "c2": "4%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6.7%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "18%",
+      "c3": "26.7%",
+      "c4": "21.7%",
+      "c5": "21.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3",
+      "p2": "",
+      "p3": "3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "5.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "5.5",
+      "p8": "",
+      "p9": "",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4",
+      "p8": "",
+      "p9": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "4.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4.3",
+      "p9": "4.3",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "3",
+      "p9": "3",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "14",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "9",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.7",
+      "p5": "4.7",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.6",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3",
+      "p5": "3",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "3",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.5",
+      "p2": "9.5",
+      "p3": "13.9",
+      "p4": "7.7",
+      "p5": "7.7",
+      "p6": "23",
+      "p7": "9.5",
+      "p8": "7.3",
+      "p9": "14.9",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dasar arsitektur enterprise", "indikator": "Ketepatan menjelaskan definisi, komponen (business, data, application, technology), dan manfaat", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Definisi EA, nilai bisnis, hubungan dengan strategi IT, contoh kasus", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Sejarah dan evolusi EA", "indikator": "Kemampuan menjelaskan perkembangan EA dari John Zachman hingga saat ini", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Sejarah EA, peran dalam menyelaraskan bisnis dan TI, tantangan implementasi", "bobot": "4%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Framework EA – Zachman Framework", "indikator": "Kemampuan menjelaskan matriks Zachman (6 baris, 6 kolom)", "kriteria": "Tugas individu: analisis", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Zachman Framework: perspektif (planner, owner, designer, builder, subcontractor, enterprise), sel-sel matriks", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3: Framework EA – TOGAF dan FEAF", "indikator": "Kemampuan membandingkan TOGAF, FEAF, dan Gartner", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "TOGAF (ADM, repository), FEAF (segmented architecture), Gartner (operating model)", "bobot": "4%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 4: Architecture Development Method (ADM) TOGAF", "indikator": "Kemampuan menjelaskan fase-fase ADM (Preliminary, A-H, Requirements Management)", "kriteria": "Tugas individu: diagram fase", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "ADM cycle, input-output setiap fase, iterasi, governance", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 5: Business architecture", "indikator": "Kemampuan merancang value stream, capabilities, dan proses bisnis", "kriteria": "Tugas kelompok: business architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Business architecture: value stream map, business capability map, organization map, process modeling", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 5: Studi kasus business architecture", "indikator": "Kemampuan menganalisis kasus (misal: perusahaan ritel) dan menyusun business architecture", "kriteria": "Tugas kelompok: laporan", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Studi kasus: identifikasi strategi, value stream, capability map", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep EA, framework, ADM, business architecture", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 6: Information / Data architecture", "indikator": "Kemampuan merancang model data enterprise (ERD, data dictionary, master data management)", "kriteria": "Tugas individu: data architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Data architecture: conceptual, logical, physical models; data governance; MDM", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 7: Application architecture", "indikator": "Kemampuan membuat application portfolio dan diagram integrasi", "kriteria": "Tugas kelompok: application map", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Application portfolio, peta aplikasi, integrasi (ESB, API), microservices", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 7: Studi kasus application architecture", "indikator": "Kemampuan menganalisis aplikasi yang ada dan usulan perbaikan", "kriteria": "Tugas kelompok", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Analisis legacy system, rationalisasi aplikasi, roadmap aplikasi", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 8: Technology architecture", "indikator": "Kemampuan merancang infrastruktur (server, cloud, network, security)", "kriteria": "Tugas individu: tech architecture", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Infrastructure, platform (cloud, on-premise), network diagram, security architecture", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 9: Roadmap arsitektur enterprise", "indikator": "Kemampuan menyusun rencana implementasi bertahap (transition architecture)", "kriteria": "Tugas kelompok: roadmap", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Gap analysis, project portfolio, prioritization, transition architecture, work packages", "bobot": "6%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 9: EA dan transformasi digital", "indikator": "Kemampuan menjelaskan peran EA dalam mendukung transformasi digital", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Digital strategy, EA untuk cloud migration, agile EA, DevOps", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi studi kasus EA", "indikator": "Kemampuan mempresentasikan hasil rancangan EA untuk organisasi", "kriteria": "Presentasi kelompok (15 menit)", "tatap_muka": "Kuliah TM: 3x50", "daring": "Presentasi daring sinkron; TM: 3x50", "materi": "Presentasi business, data, application, technology architecture, dan roadmap", "bobot": "8%"},
-    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang perancangan EA, studi kasus, dan transformasi digital", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "20%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar arsitektur enterprise (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi, komponen (business, data, application, technology), dan manfaat\n1.2 Ketepatan menjelaskan definisi EA, nilai bisnis\n1.3 Ketepatan menguraikan hubungan dengan strategi IT, contoh kasus",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Definisi EA\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi EA, nilai bisnis, hubungan dengan strategi IT, contoh kasus\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Sejarah dan evolusi EA (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan perkembangan EA dari John Zachman hingga saat ini\n2.2 Ketepatan menjelaskan sejarah EA\n2.3 Ketepatan menguraikan peran dalam menyelaraskan bisnis dan TI, tantangan implementasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(3x50')]\nTugas 2: latihan terstruktur — Sejarah EA\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sejarah EA, peran dalam menyelaraskan bisnis dan TI, tantangan implementasi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Framework EA – Zachman Framework (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan menjelaskan matriks Zachman (6 baris, 6 kolom)\n3.2 Ketepatan menerapkan Zachman Framework: perspektif (planner, owner, designer, builder, subcontractor, enterprise), sel-sel matriks",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Zachman Framework: perspektif (planner\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Zachman Framework: perspektif (planner, owner, designer, builder, subcontractor, enterprise), sel-sel matriks\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Framework EA – TOGAF dan FEAF (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan membandingkan TOGAF, FEAF, dan Gartner\n4.2 Ketepatan menerapkan TOGAF (ADM, repository)\n4.3 Kemampuan menggunakan FEAF (segmented architecture)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Kuis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: latihan terstruktur — TOGAF (ADM\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "TOGAF (ADM, repository), FEAF (segmented architecture), Gartner (operating model)\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Architecture Development Method (ADM) TOGAF (C2, A2) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menjelaskan fase-fase ADM (Preliminary, A-H, Requirements Management)\n5.2 Ketepatan menjelaskan ADM cycle, input-output setiap fase, iterasi, governance",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: diagram fase",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — ADM cycle\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ADM cycle, input-output setiap fase, iterasi, governance\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Business architecture (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan merancang value stream, capabilities, dan proses bisnis\n6.2 Ketepatan menganalisis Business architecture: value stream map\n6.3 Kemampuan membandingkan business capability map, organization map, process modeling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: business architecture",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Business architecture: value stream map\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Business architecture: value stream map, business capability map, organization map, process modeling\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Studi kasus business architecture (C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menganalisis kasus (misal: perusahaan ritel) dan menyusun business architecture\n7.2 Ketepatan menganalisis Studi kasus: identifikasi strategi, value stream, capability map",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 7: laporan — Studi kasus: identifikasi strategi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Studi kasus: identifikasi strategi, value stream, capability map\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep EA, framework, ADM, business architecture\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Information / Data architecture (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan merancang model data enterprise (ERD, data dictionary, master data management)\n9.2 Ketepatan menganalisis Data architecture: conceptual, logical, physical models, data governance, MDM",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: data architecture",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 8: tugas terstruktur — Data architecture: conceptual\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Data architecture: conceptual, logical, physical models; data governance; MDM\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Application architecture (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan membuat application portfolio dan diagram integrasi\n10.2 Ketepatan menganalisis Application portfolio, peta aplikasi, integrasi (ESB, API), microservices",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: application map",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Application portfolio\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Application portfolio, peta aplikasi, integrasi (ESB, API), microservices\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Studi kasus application architecture (C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menganalisis aplikasi yang ada dan usulan perbaikan\n11.2 Ketepatan menganalisis analisis legacy system, rationalisasi aplikasi, roadmap aplikasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Analisis legacy system\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis legacy system, rationalisasi aplikasi, roadmap aplikasi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Technology architecture (C4, A4) (CPMK-4)",
+      "indikator": "12.1 Kemampuan merancang infrastruktur (server, cloud, network, security)\n12.2 Ketepatan menganalisis Infrastructure, platform (cloud, on-premise), network diagram, security architecture",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: tech architecture",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Infrastructure\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Infrastructure, platform (cloud, on-premise), network diagram, security architecture\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Roadmap arsitektur enterprise (C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menyusun rencana implementasi bertahap (transition architecture)\n13.2 Ketepatan mengevaluasi Gap analysis, project portfolio, prioritization, transition architecture, work packages",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: roadmap",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 12: tugas terstruktur — Gap analysis\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Gap analysis, project portfolio, prioritization, transition architecture, work packages\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : EA dan transformasi digital (C5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menjelaskan peran EA dalam mendukung transformasi digital\n14.2 Ketepatan mengevaluasi Digital strategy\n14.3 Kemampuan menilai EA untuk cloud migration, agile EA, DevOps",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 13: studi kasus — Digital strategy\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Digital strategy, EA untuk cloud migration, agile EA, DevOps\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi studi kasus EA (C5-C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan hasil rancangan EA untuk organisasi\n15.2 Ketepatan merancang Presentasi business, data, application, technology architecture, dan roadmap",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi business\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi business, data, application, technology architecture, dan roadmap\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang perancangan EA, studi kasus, dan transformasi digital\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1-15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "20"
+    }
   ],
   "bahan_kajian": "1. Konsep dan framework arsitektur enterprise (TOGAF, Zachman)\n2. Business Architecture: strategi dan proses bisnis\n3. Information/Data Architecture: model dan manajemen data enterprise\n4. Application Architecture: peta aplikasi dan integrasi\n5. Technology Architecture: infrastruktur dan platform\n6. Perencanaan dan roadmap arsitektur enterprise\n7. Enterprise Architecture dan transformasi digital\n8. Studi kasus implementasi EA pada organisasi",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "The Open Group. (2018). *TOGAF Standard Version 9.2*. Van Haren Publishing."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Bernard, S. A. (2012). *An Introduction to Enterprise Architecture* (3rd ed.). AuthorHouse."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Lankhorst, M. (2017). *Enterprise Architecture at Work: Modelling, Communication and Analysis* (4th ed.). Springer."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "The Open Group. (2018). *TOGAF Standard Version 9.2*. Van Haren Publishing."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Bernard, S. A. (2012). *An Introduction to Enterprise Architecture* (3rd ed.). AuthorHouse."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Lankhorst, M. (2017). *Enterprise Architecture at Work: Modelling, Communication and Analysis* (4th ed.). Springer."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Ross, J. W., Weill, P., & Robertson, D. C. (2006). *Enterprise Architecture as Strategy*. Harvard Business Review Press."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Schekkerman, J. (2006). *How to Survive in the Jungle of Enterprise Architecture Frameworks* (3rd ed.). Trafford Publishing."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Ross, J. W., Weill, P., & Robertson, D. C. (2006). *Enterprise Architecture as Strategy*. Harvard Business Review Press."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Schekkerman, J. (2006). *How to Survive in the Jungle of Enterprise Architecture Frameworks* (3rd ed.). Trafford Publishing."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang arsitektur enterprise (EA) sebagai kerangka kerja untuk menyelaraskan strategi bisnis dengan teknologi informasi. Materi meliputi konsep dasar EA, framework utama (TOGAF, Zachman, FEAF), Architecture Development Method (ADM), perancangan business architecture, information/data architecture, application architecture, technology architecture, serta penyusunan roadmap implementasi. Mahasiswa akan belajar menganalisis studi kasus organisasi dan merancang EA yang mendukung transformasi digital, dengan penekanan pada integrasi solusi teknologi secara efektif.",
   "matakuliah_syarat": "TSI3104 Konsep Sistem Informasi"

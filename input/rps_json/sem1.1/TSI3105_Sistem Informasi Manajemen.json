@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "kode_mk": "TSI3105",
+    "nama_mk": "Sistem Informasi Manajemen",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Wayan Septa Malan Vergantana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/septa.png",
+    "nuptk": "0234772673130253",
+    "pangkat_golongan": "-",
+    "jabatan": "Lektor"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 4 (KK-01)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 5 (KK-04)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 6 (KK-06)",
+      "nomor": "CPL 6"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dan peran sistem informasi dalam organisasi serta jenis-jenis sistem informasi manajemen (TPS, MIS, DSS, EIS) (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-04",
+      "deskripsi": "Mampu menjelaskan infrastruktur teknologi informasi organisasi, manajemen data, dan basis pengetahuan (CPL 2, CPL 5)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-01, KK-06",
+      "deskripsi": "Mampu menjelaskan e-commerce, sistem informasi global, dan pengambilan keputusan berbasis informasi (CPL 1, CPL 6)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-01",
+      "deskripsi": "Mampu memahami keamanan dan pengendalian sistem informasi serta isu etika dan privasi (CPL 3)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "P-02, KK-01, KK-06",
+      "deskripsi": "Mampu melakukan studi kasus implementasi SIM pada suatu organisasi dan menyusun laporan sederhana (CPL 2, CPL 4, CPL 6)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep sistem informasi, komponen, dan perbedaannya dengan sistem transaksional (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan jenis-jenis SIM (TPS, MIS, DSS, EIS) dan contoh penerapannya (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan infrastruktur TI (hardware, software, jaringan, database) dalam organisasi (C2, A2) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan manajemen data, data warehouse, dan basis pengetahuan (C2–C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan konsep e-commerce, tipe-tipe e-commerce, dan sistem informasi global (C2, A2) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan pengambilan keputusan berbasis informasi dan peran SIM dalam manajemen (C2–C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan keamanan sistem informasi, pengendalian, dan isu etika privasi (C2, A2) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan analisis studi kasus implementasi SIM pada perusahaan (C4–C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12–14",
+      "taksonomi": "C4–C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mempresentasikan hasil studi kasus dan menyusun laporan (C5–C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "63%",
+      "c1": "10%",
+      "c2": "13%",
+      "c3": "5%",
+      "c4": "10%",
+      "c5": "25%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "5%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "17%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5.7%",
+      "c4": "5.7%",
+      "c5": "5.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "15%",
+      "c2": "18%",
+      "c3": "20.7%",
+      "c4": "15.7%",
+      "c5": "30.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "4.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "5.5",
+      "p3": "",
+      "p4": "",
+      "p5": "5.5",
+      "p6": "",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "4",
+      "p6": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "4",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "4.7",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.6",
+      "bobot": "9.3",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "14.3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "bobot": "14.3",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "5.4",
+      "p3": "",
+      "p4": "5.4",
+      "p5": "",
+      "p6": "5.4",
+      "bobot": "16.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "5.8",
+      "p3": "",
+      "p4": "5.7",
+      "p5": "",
+      "p6": "5.7",
+      "bobot": "17.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "16.7",
+      "p2": "20.7",
+      "p3": "22.3",
+      "p4": "11.1",
+      "p5": "9.5",
+      "p6": "19.7",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep sistem informasi (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan sistem informasi, komponen (input, proses, output, umpan balik)\n1.2 Ketepatan menjelaskan definisi SI\n1.3 Ketepatan menguraikan peran dalam organisasi",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Definisi SI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi SI, data vs informasi, komponen SI, peran dalam organisasi\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Peran SIM dalam organisasi (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan bagaimana SIM mendukung strategi dan operasi\n2.2 Ketepatan menjelaskan peran SI di level strategis, manajerial, operasional, keunggulan kompetitif",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi, Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Peran SI di level strategis\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Peran SI di level strategis, manajerial, operasional; keunggulan kompetitif\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Jenis-jenis SIM (C2, A2) (CPMK-1)",
+      "indikator": "3.1 Kemampuan membedakan TPS, MIS, DSS, EIS, dan contohnya\n3.2 Ketepatan menjelaskan Transaction Processing System\n3.3 Ketepatan menguraikan Management Information System",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — Transaction Processing System\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Transaction Processing System, Management Information System, Decision Support System, Executive Information System\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Infrastruktur TI (C2, A2) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menjelaskan komponen hardware, software, jaringan, database\n4.2 Ketepatan menjelaskan Infrastruktur TI: server, storage, jaringan, sistem operasi, DBMS",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Infrastruktur TI: server\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Infrastruktur TI: server, storage, jaringan, sistem operasi, DBMS\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Tren infrastruktur (cloud, mobile, IoT) (C2, A2) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menjelaskan cloud computing, mobile computing, dan IoT\n5.2 Ketepatan menjelaskan Cloud (IaaS, PaaS, SaaS), mobile apps, IoT devices",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 5: studi kasus — Cloud (IaaS\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Cloud (IaaS, PaaS, SaaS), mobile apps, IoT devices\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Manajemen data dan data warehouse (C2–C3, A3) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menjelaskan konsep database, data warehouse, OLAP\n6.2 Ketepatan menerapkan Database, data warehouse, data mining, business intelligence",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — Database\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Database, data warehouse, data mining, business intelligence\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : E-commerce (C2, A2) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menjelaskan tipe e-commerce (B2B, B2C, C2C, C2B) dan contoh\n7.2 Ketepatan menjelaskan E-commerce models, payment systems, marketplace, keamanan e-commerce",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — E-commerce models\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "E-commerce models, payment systems, marketplace, keamanan e-commerce\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep SIM, jenis, infrastruktur, e-commerce\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Pengambilan keputusan berbasis informasi (C2–C3, A3) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menjelaskan proses keputusan dan peran SIM\n9.2 Ketepatan menerapkan model pengambilan keputusan (Simon), decision support, business analytics",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Model pengambilan keputusan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Model pengambilan keputusan (Simon), decision support, business analytics\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Keamanan sistem informasi (C2, A2) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menjelaskan ancaman keamanan dan pengendalian\n10.2 Ketepatan menjelaskan Ancaman (malware, hacking)\n10.3 Ketepatan menguraikan kontrol (akses, enkripsi, backup), kebijakan keamanan",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: tugas terstruktur — Ancaman (malware\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Ancaman (malware, hacking), kontrol (akses, enkripsi, backup), kebijakan keamanan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Etika dan privasi dalam SIM (C2, A2) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menjelaskan isu etika, privasi data, dan regulasi\n11.2 Ketepatan menjelaskan Etika informasi, privasi, UU PDP, HAKI\n11.3 Ketepatan menguraikan tanggung jawab sosial",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 10: studi kasus — Etika informasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Etika informasi, privasi, UU PDP, HAKI, tanggung jawab sosial\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Studi kasus implementasi SIM (persiapan) (C4–C5, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan memilih perusahaan dan mengidentifikasi SIM yang digunakan\n12.2 Ketepatan mengevaluasi Pemilihan studi kasus (perusahaan manufaktur, ritel, jasa)",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 11: studi kasus — Pemilihan studi kasus (perusahaan manufaktur\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Pemilihan studi kasus (perusahaan manufaktur, ritel, jasa)\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (C4–C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menganalisis kelebihan/kekurangan SIM perusahaan\n13.2 Ketepatan mengevaluasi analisis SIM perusahaan, identifikasi masalah, rekomendasi",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 12: laporan — Analisis SIM perusahaan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis SIM perusahaan, identifikasi masalah, rekomendasi\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan (C5–C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menyusun laporan sistematis\n14.2 Ketepatan merancang struktur laporan, lampiran, daftar pustaka",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 13: studi kasus — Struktur laporan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Struktur laporan, lampiran, daftar pustaka\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Presentasi studi kasus (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan hasil analisis\n15.2 Ketepatan merancang Presentasi hasil studi kasus",
+      "kriteria": "Metode Penilaian:\nTugas (7%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok + tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: presentasi — Presentasi hasil studi kasus\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi hasil studi kasus\n[P1, P2, P3]",
+      "bobot": "7"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang implementasi SIM\n16.2 Ketepatan menerapkan Seluruh materi (keamanan, etika, studi kasus)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (17%) (17%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (keamanan, etika, studi kasus)\n[P1, P2, P3]",
+      "bobot": "17"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan peran sistem informasi dalam organisasi\n2. Jenis-jenis sistem informasi manajemen (TPS, MIS, DSS, EIS)\n3. Infrastruktur teknologi informasi organisasi\n4. Manajemen data dan basis pengetahuan\n5. E-commerce dan sistem informasi global\n6. Pengambilan keputusan berbasis informasi\n7. Keamanan dan pengendalian sistem informasi\n8. Etika, privasi, dan isu sosial dalam sistem informasi",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Laudon, K. C., & Laudon, J. P. (2020). *Management information systems: Managing the digital firm* (16th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "O'Brien, J. A., & Marakas, G. M. (2017). *Management information systems* (10th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Turban, E., Pollard, C., & Wood, G. (2018). *Information technology for management* (11th ed.). Wiley."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Stair, R. M., & Reynolds, G. W. (2018). *Principles of information systems* (13th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "McLeod, R., & Schell, G. P. (2014). *Management information systems* (12th ed.). Pearson."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang peran sistem informasi dalam mendukung manajemen organisasi. Materi meliputi konsep sistem informasi, jenis-jenis SIM (TPS, MIS, DSS, EIS), infrastruktur TI, manajemen data, e-commerce, sistem informasi global, pengambilan keputusan berbasis informasi, keamanan dan pengendalian sistem informasi, serta isu etika dan privasi. Penekanan diberikan pada studi kasus implementasi SIM pada perusahaan nyata untuk menganalisis efektivitas dan rekomendasi perbaikan.",
+  "matakuliah_syarat": "-"
+}

@@ -19,298 +19,578 @@
     {
       "kode": "S-02",
       "tipe": "Sikap",
-      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika",
+      "label": "CPL 1 (S-02)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "S-06",
       "tipe": "Sikap",
-      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan",
+      "label": "CPL 2 (S-06)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "S-09",
       "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 3 (S-09)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-05",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data",
+      "label": "CPL 6 (KU-05)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KU-06",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya",
+      "label": "CPL 7 (KU-06)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 8 (KK-01)",
+      "nomor": "CPL 8"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "S-02, KU-06",
-      "deskripsi": "Mampu menjelaskan teori dan model komunikasi dalam konteks profesional serta menerapkan komunikasi interpersonal dan kelompok"
+      "deskripsi": "Mampu menjelaskan teori dan model komunikasi dalam konteks profesional serta menerapkan komunikasi interpersonal dan kelompok (CPL 1, CPL 7)"
     },
     {
       "kode": "CPMK-2",
-      "cpl": "KU-05, KK-01",
-      "deskripsi": "Mampu menerapkan teknik negosiasi integratif dan distributif serta strategi persuasi dalam situasi bisnis"
+      "cpl": "KU-01, KU-05, KK-01",
+      "deskripsi": "Mampu menerapkan teknik negosiasi integratif dan distributif serta strategi persuasi dalam situasi bisnis (CPL 4, CPL 6, CPL 8)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "S-06, KU-02",
-      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan menerapkan strategi resolusi konflik yang tepat"
+      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan menerapkan strategi resolusi konflik yang tepat (CPL 2, CPL 5)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KU-05, KU-06",
-      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan serta menyusun negosiasi kontrak dan SLA"
+      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan serta menyusun negosiasi kontrak dan SLA (CPL 6, CPL 7)"
     },
     {
       "kode": "CPMK-5",
       "cpl": "S-09, KU-02",
-      "deskripsi": "Mampu melakukan presentasi teknis dan non-teknis secara profesional serta mengevaluasi hasil negosiasi"
+      "deskripsi": "Mampu melakukan presentasi teknis dan non-teknis secara profesional serta mengevaluasi hasil negosiasi (CPL 3, CPL 5)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan model komunikasi (Shannon-Weaver, Schramm, transaksional) dan hambatan komunikasi",
+      "deskripsi": "Mampu menjelaskan model komunikasi (Shannon-Weaver, Schramm, transaksional) dan hambatan komunikasi (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menerapkan komunikasi interpersonal dan kelompok dalam tim proyek",
+      "deskripsi": "Mampu menerapkan komunikasi interpersonal dan kelompok dalam tim proyek (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menjelaskan prinsip negosiasi (BATNA, ZOPA) dan perbedaan negosiasi integratif vs distributif",
+      "deskripsi": "Mampu menjelaskan prinsip negosiasi (BATNA, ZOPA) dan perbedaan negosiasi integratif vs distributif (C2, A2) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan strategi persuasi (Cialdini: reciprocity, scarcity, authority, dll.) dalam simulasi",
+      "deskripsi": "Mampu menerapkan strategi persuasi (Cialdini: reciprocity, scarcity, authority, dll.) dalam simulasi (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan memilih gaya resolusi (kolaborasi, kompromi, kompetisi, menghindar, akomodasi)",
+      "deskripsi": "Mampu mengidentifikasi sumber konflik dalam tim proyek TI dan memilih gaya resolusi (kolaborasi, kompromi, kompetisi, menghindar, akomodasi) (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "5–6",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan (stakeholder mapping, komunikasi asertif)",
+      "deskripsi": "Mampu melakukan komunikasi efektif dengan klien dan pemangku kepentingan (stakeholder mapping, komunikasi asertif) (C3–P4, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "7",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menyusun dan menegosiasikan kontrak serta Service Level Agreement (SLA) dalam proyek TI",
+      "deskripsi": "Mampu menyusun dan menegosiasikan kontrak serta Service Level Agreement (SLA) dalam proyek TI (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "9–10",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu mempersiapkan dan menyampaikan presentasi teknis dan non-teknis secara efektif",
+      "deskripsi": "Mampu mempersiapkan dan menyampaikan presentasi teknis dan non-teknis secara efektif (C3–P4, A3) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "11–12",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan simulasi negosiasi dan presentasi dalam studi kasus profesional",
+      "deskripsi": "Mampu melakukan simulasi negosiasi dan presentasi dalam studi kasus profesional (C5–C6, A5) (CPMK-2, CPMK-5)",
       "cpmk": "CPMK-2, CPMK-5",
       "minggu": "13–14",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mengevaluasi hasil negosiasi dan presentasi serta melakukan refleksi diri",
+      "deskripsi": "Mampu mengevaluasi hasil negosiasi dan presentasi serta melakukan refleksi diri (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "15",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "42%",
+      "c1": "4%",
+      "c2": "6.5%",
+      "c3": "4%",
+      "c4": "10%",
+      "c5": "17.5%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "23%",
+      "c1": "4%",
+      "c2": "6.5%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "2.5%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3.8%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "6.7%",
+      "c3": "0%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "11.8%",
+      "c2": "23.4%",
+      "c3": "12.8%",
+      "c4": "25.4%",
+      "c5": "26.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "3.2",
+      "p8": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "3.2",
+      "p8": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "2.2",
+      "p5": "",
+      "p6": "2.2",
+      "p7": "",
+      "p8": "2.1",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "2.2",
+      "p5": "",
+      "p6": "2.2",
+      "p7": "",
+      "p8": "2.1",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "5.8",
+      "p3": "",
+      "p4": "",
+      "p5": "5.7",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "11.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.8",
+      "p7": "3.7",
+      "p8": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "7.5",
+      "p7": "7.5",
+      "p8": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "7.5",
+      "p4": "",
+      "p5": "7.5",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "3",
+      "p4": "3",
+      "p5": "3",
+      "p6": "3",
+      "p7": "",
+      "p8": "3",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "5",
+      "p4": "",
+      "p5": "5",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "10",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.6",
+      "p2": "5.8",
+      "p3": "15.5",
+      "p4": "7.4",
+      "p5": "21.2",
+      "p6": "18.7",
+      "p7": "17.6",
+      "p8": "7.2",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Teori dan model komunikasi profesional",
-      "indikator": "Ketepatan menjelaskan model komunikasi dan hambatan komunikasi",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Model komunikasi (Shannon-Weaver, Schramm, transaksional); unsur komunikasi; hambatan (noise, persepsi, dll)",
-      "bobot": "4%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Teori dan model komunikasi profesional (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan model komunikasi dan hambatan komunikasi\n1.2 Ketepatan menjelaskan model komunikasi (Shannon-Weaver, Schramm, transaksional), unsur komunikasi\n1.3 Ketepatan menguraikan hambatan (noise, persepsi, dll)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 1: latihan terstruktur — Model komunikasi (Shannon-Weaver\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Model komunikasi (Shannon-Weaver, Schramm, transaksional); unsur komunikasi; hambatan (noise, persepsi, dll)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Komunikasi interpersonal dan kelompok",
-      "indikator": "Kemampuan menerapkan komunikasi efektif dalam tim",
-      "kriteria": "Studi kasus kelompok; role-play",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Komunikasi verbal dan non-verbal; mendengarkan aktif; umpan balik; komunikasi dalam rapat",
-      "bobot": "5%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Komunikasi interpersonal dan kelompok (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menerapkan komunikasi efektif dalam tim\n2.2 Ketepatan menerapkan Komunikasi verbal dan non-verbal, mendengarkan aktif, umpan balik",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus kelompok, role-play",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 2: studi kasus — Komunikasi verbal dan non-verbal; mendengarkan aktif; umpan balik; komunikasi dalam rapat\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Komunikasi verbal dan non-verbal; mendengarkan aktif; umpan balik; komunikasi dalam rapat\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: Prinsip negosiasi",
-      "indikator": "Ketepatan menjelaskan BATNA, ZOPA, dan gaya negosiasi",
-      "kriteria": "Kuis; diskusi",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "BATNA, ZOPA, reservasi price; negosiasi integratif vs distributif; gaya negosiasi (kompetitif, kolaboratif, kompromi)",
-      "bobot": "5%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Prinsip negosiasi (C2, A2) (CPMK-2)",
+      "indikator": "3.1 Ketepatan menjelaskan BATNA, ZOPA, dan gaya negosiasi\n3.2 Ketepatan menjelaskan BATNA, ZOPA, reservasi price\n3.3 Ketepatan menguraikan negosiasi integratif vs distributif",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 3: latihan terstruktur — BATNA\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "BATNA, ZOPA, reservasi price; negosiasi integratif vs distributif; gaya negosiasi (kompetitif, kolaboratif, kompromi)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 4: Strategi persuasi",
-      "indikator": "Kemampuan mengidentifikasi dan menerapkan prinsip persuasi Cialdini",
-      "kriteria": "Tugas individu: analisis iklan/campaign",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Prinsip persuasi: reciprocity, scarcity, authority, consistency, liking, consensus; teknik framing",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Strategi persuasi (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan mengidentifikasi dan menerapkan prinsip persuasi Cialdini\n4.2 Ketepatan menerapkan prinsip persuasi: reciprocity, scarcity, authority, consistency, liking, consensus, teknik framing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: analisis iklan/campaign",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Prinsip persuasi: reciprocity\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prinsip persuasi: reciprocity, scarcity, authority, consistency, liking, consensus; teknik framing\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 5: Manajemen konflik (bagian 1)",
-      "indikator": "Kemampuan mengidentifikasi sumber konflik dalam tim proyek TI",
-      "kriteria": "Studi kasus; analisis sumber konflik",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Sumber konflik: perbedaan tujuan, komunikasi, sumber daya, peran; dampak konflik",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : Manajemen konflik (bagian 1) (C4, A4) (CPMK-3)",
+      "indikator": "5.1 Kemampuan mengidentifikasi sumber konflik dalam tim proyek TI\n5.2 Ketepatan menganalisis Sumber konflik: perbedaan tujuan, komunikasi, sumber daya, peran, dampak konflik",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, analisis sumber konflik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 5: studi kasus — Sumber konflik: perbedaan tujuan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sumber konflik: perbedaan tujuan, komunikasi, sumber daya, peran; dampak konflik\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5: Strategi resolusi konflik",
-      "indikator": "Kemampuan memilih gaya resolusi yang tepat",
-      "kriteria": "Role-play simulasi konflik",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Gaya resolusi: kolaborasi, kompromi, kompetisi, menghindar, akomodasi; mediasi",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Strategi resolusi konflik (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan memilih gaya resolusi yang tepat\n6.2 Ketepatan menganalisis Gaya resolusi: kolaborasi, kompromi, kompetisi, menghindar, akomodasi, mediasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Role-play simulasi konflik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Role-Play & Simulation (RPS)\n[TM: 1x(2x50')]\nTugas 6: latihan terstruktur — Gaya resolusi: kolaborasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Gaya resolusi: kolaborasi, kompromi, kompetisi, menghindar, akomodasi; mediasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 6: Komunikasi dengan klien dan stakeholder",
-      "indikator": "Kemampuan melakukan stakeholder mapping dan komunikasi asertif",
-      "kriteria": "Tugas kelompok: mapping stakeholder",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Stakeholder analysis; communication plan; komunikasi asertif; handling difficult clients",
-      "bobot": "6%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Komunikasi dengan klien dan stakeholder (C3–P4, A3) (CPMK-4)",
+      "indikator": "7.1 Kemampuan melakukan stakeholder mapping dan komunikasi asertif\n7.2 Ketepatan menerapkan Stakeholder analysis, communication plan, komunikasi asertif\n7.3 Kemampuan menggunakan handling difficult clients",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: mapping stakeholder",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — Stakeholder analysis; communication plan; komunikasi asertif; handling difficult clients\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Stakeholder analysis; communication plan; komunikasi asertif; handling difficult clients\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal teori komunikasi, negosiasi, persuasi, konflik",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Ujian daring sinkron; TM: 2x50",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal teori komunikasi, negosiasi, persuasi, konflik\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 7: Negosiasi kontrak dan SLA (bagian 1)",
-      "indikator": "Kemampuan menjelaskan elemen kontrak dan SLA",
-      "kriteria": "Kuis; studi kasus kontrak",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Elemen kontrak: scope, deliverables, timeline, payment terms, termination; Service Level Agreement (SLA): metrik, penalti",
-      "bobot": "6%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Negosiasi kontrak dan SLA (bagian 1) (C4, A4) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menjelaskan elemen kontrak dan SLA\n9.2 Ketepatan menganalisis Elemen kontrak: scope, deliverables, timeline, payment terms, termination\n9.3 Kemampuan membandingkan Service Level Agreement (SLA): metrik, penalti",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: studi kasus kontrak",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 8: studi kasus — Elemen kontrak: scope\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Elemen kontrak: scope, deliverables, timeline, payment terms, termination; Service Level Agreement (SLA): metrik, penalti\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7: Simulasi negosiasi kontrak",
-      "indikator": "Kemampuan melakukan negosiasi kontrak dalam role-play",
-      "kriteria": "Simulasi negosiasi (berpasangan)",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Persiapan negosiasi, taktik tawar-menawar, closing deal",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Simulasi negosiasi kontrak (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan melakukan negosiasi kontrak dalam role-play\n10.2 Ketepatan menganalisis Persiapan negosiasi, taktik tawar-menawar, closing deal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Simulasi negosiasi (berpasangan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Role-Play & Simulation (RPS)\n[TM: 1x(2x50')]\nTugas 9: latihan terstruktur — Persiapan negosiasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Persiapan negosiasi, taktik tawar-menawar, closing deal\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 8: Presentasi teknis dan non-teknis",
-      "indikator": "Kemampuan merancang slide dan menyampaikan presentasi",
-      "kriteria": "Tugas individu: presentasi singkat (5 menit)",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Struktur presentasi; visual aids; bahasa tubuh; manajemen kecemasan; menyesuaikan audiens",
-      "bobot": "6%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Presentasi teknis dan non-teknis (C3–P4, A3) (CPMK-5)",
+      "indikator": "11.1 Kemampuan merancang slide dan menyampaikan presentasi\n11.2 Ketepatan menerapkan struktur presentasi, visual aids, bahasa tubuh, manajemen kecemasan, menyesuaikan audiens",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: presentasi singkat (5 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 10: presentasi — Struktur presentasi; visual aids; bahasa tubuh; manajemen kecemasan; menyesuaikan audiens\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur presentasi; visual aids; bahasa tubuh; manajemen kecemasan; menyesuaikan audiens\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 8: Presentasi untuk pemangku kepentingan",
-      "indikator": "Kemampuan menyampaikan informasi teknis ke non-teknis",
-      "kriteria": "Tugas kelompok: presentasi proyek fiktif",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Teknik storytelling; visualisasi data; Q&A handling",
-      "bobot": "6%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Presentasi untuk pemangku kepentingan (C3–P4, A3) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menyampaikan informasi teknis ke non-teknis\n12.2 Ketepatan menerapkan teknik storytelling, visualisasi data, Q&A handling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: presentasi proyek fiktif",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 11: presentasi — Teknik storytelling; visualisasi data; Q&A handling\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik storytelling; visualisasi data; Q&A handling\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9: Simulasi negosiasi dan presentasi – persiapan",
-      "indikator": "Kemampuan menyusun skenario negosiasi dan presentasi",
-      "kriteria": "Proposal simulasi kelompok",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Studi kasus terintegrasi: peran sebagai vendor dan klien; persiapan argumen",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Simulasi negosiasi dan presentasi – persiapan (C5–C6, A5) (CPMK-2, CPMK-5)",
+      "indikator": "13.1 Kemampuan menyusun skenario negosiasi dan presentasi\n13.2 Ketepatan merancang Studi kasus terintegrasi: peran sebagai vendor dan klien, persiapan argumen",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal simulasi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 12: latihan terstruktur — Studi kasus terintegrasi: peran sebagai vendor dan klien; persiapan argumen\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Studi kasus terintegrasi: peran sebagai vendor dan klien; persiapan argumen\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9: Simulasi negosiasi dan presentasi – pelaksanaan",
-      "indikator": "Kemampuan melakukan negosiasi dan presentasi dalam skenario nyata",
-      "kriteria": "Role-play negosiasi dan presentasi",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Simulasi: negosiasi kontrak proyek TI, presentasi hasil negosiasi ke manajemen",
-      "bobot": "8%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Simulasi negosiasi dan presentasi – pelaksanaan (C5–C6, A5) (CPMK-2, CPMK-5)",
+      "indikator": "14.1 Kemampuan melakukan negosiasi dan presentasi dalam skenario nyata\n14.2 Ketepatan merancang Simulasi: negosiasi kontrak proyek TI\n14.3 Kemampuan menyusun presentasi hasil negosiasi ke manajemen",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Role-play negosiasi dan presentasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: presentasi — Simulasi: negosiasi kontrak proyek TI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Simulasi: negosiasi kontrak proyek TI, presentasi hasil negosiasi ke manajemen\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Evaluasi dan refleksi",
-      "indikator": "Kemampuan mengevaluasi hasil negosiasi dan presentasi serta refleksi diri",
-      "kriteria": "Laporan refleksi individu; peer feedback",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Kuliah daring sinkron; TM: 2x50",
-      "materi": "Analisis kekuatan dan kelemahan; perbaikan ke depan; etika komunikasi",
-      "bobot": "8%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Evaluasi dan refleksi (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mengevaluasi hasil negosiasi dan presentasi serta refleksi diri\n15.2 Ketepatan merancang analisis kekuatan dan kelemahan\n15.3 Kemampuan menyusun perbaikan ke depan, etika komunikasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan refleksi individu, peer feedback",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 14: laporan — Analisis kekuatan dan kelemahan; perbaikan ke depan; etika komunikasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis kekuatan dan kelemahan; perbaikan ke depan; etika komunikasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang negosiasi, manajemen konflik, presentasi, dan studi kasus",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 2x50",
-      "daring": "Ujian daring sinkron; TM: 2x50",
-      "materi": "Seluruh materi (minggu 1–15)",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang negosiasi, manajemen konflik, presentasi, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1–15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1–15)\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Teori dan model komunikasi dalam konteks profesional\n2. Komunikasi interpersonal dan kelompok\n3. Teknik negosiasi: integratif dan distributif\n4. Strategi persuasi dan pengaruh\n5. Manajemen konflik dalam tim proyek TI\n6. Komunikasi dengan klien dan pemangku kepentingan\n7. Presentasi teknis dan non-teknis\n8. Negosiasi kontrak dan SLA dalam proyek TI",

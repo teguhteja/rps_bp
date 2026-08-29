@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "kode_mk": "TSI3101",
+    "nama_mk": "Computational Thinking",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Umum",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 3 (P-03)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 7 (KK-03)",
+      "nomor": "CPL 7"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dan komponen computational thinking (dekomposisi, pengenalan pola, abstraksi, algoritma) (CPL 1, CPL 4)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KK-03",
+      "deskripsi": "Mampu menerapkan dekomposisi masalah untuk memecahkan masalah kompleks menjadi bagian-bagian kecil (CPL 2, CPL 7)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KU-01",
+      "deskripsi": "Mampu melakukan pengenalan pola (pattern recognition) dan abstraksi untuk menyederhanakan masalah (CPL 3, CPL 4)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-01, KK-03",
+      "deskripsi": "Mampu menyusun algoritma dan langkah-langkah pemecahan masalah secara logis dan sistematis (CPL 6, CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KU-02",
+      "deskripsi": "Mampu menerapkan computational thinking dalam konteks sistem informasi dan pemecahan masalah nyata (CPL 4, CPL 5)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dan komponen computational thinking (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu melakukan dekomposisi masalah sederhana (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu mengidentifikasi pola (pattern recognition) dalam data atau masalah (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "4",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu melakukan abstraksi (menghilangkan detail yang tidak relevan) (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "5",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menyusun algoritma dalam bentuk pseudocode atau flowchart (C3–P4, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "6–7",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu mengevaluasi algoritma (efisiensi, kebenaran) dan melakukan debugging logika (C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menerapkan computational thinking pada studi kasus sistem informasi (pencarian, pengurutan, dll) (C4, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "10–12",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menyelesaikan masalah nyata (non-coding) dengan pendekatan CT (C4–C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C4–C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mempresentasikan hasil pemecahan masalah dan menyusun laporan (C5–C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "66%",
+      "c1": "6%",
+      "c2": "4%",
+      "c3": "8%",
+      "c4": "15%",
+      "c5": "33%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3.8%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "19%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9.5%",
+      "c5": "9.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "9.8%",
+      "c2": "7.8%",
+      "c3": "11.8%",
+      "c4": "28.2%",
+      "c5": "42.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "",
+      "p2": "3.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "3.5",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.5",
+      "p7": "6.5",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.9",
+      "p7": "4.9",
+      "bobot": "9.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "9.9",
+      "p5": "9.9",
+      "p6": "",
+      "p7": "",
+      "bobot": "19.8",
+      "minggu": "3"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "8.4",
+      "p5": "8.3",
+      "p6": "",
+      "p7": "",
+      "bobot": "16.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "5.4",
+      "p5": "5.3",
+      "p6": "",
+      "p7": "",
+      "bobot": "10.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "4.5",
+      "p2": "3.5",
+      "p3": "7",
+      "p4": "35.2",
+      "p5": "23.5",
+      "p6": "11.4",
+      "p7": "14.9",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengantar computational thinking (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi CT, 4 pilar (dekomposisi, pengenalan pola, abstraksi, algoritma)\n1.2 Ketepatan menjelaskan Apa itu CT\n1.3 Ketepatan menguraikan perbedaan dengan pemrograman",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Apa itu CT\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Apa itu CT, perbedaan dengan pemrograman, sejarah CT (Jeanette Wing)\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Manfaat CT dalam berbagai disiplin (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan mengidentifikasi contoh penerapan CT di luar IT (matematika, sains, sosial)\n2.2 Ketepatan menjelaskan Contoh CT dalam kehidupan sehari-hari, pengambilan keputusan",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi, Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Contoh CT dalam kehidupan sehari-hari\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Contoh CT dalam kehidupan sehari-hari, pengambilan keputusan\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Dekomposisi masalah (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan memecah masalah kompleks menjadi sub-masalah lebih kecil\n3.2 Ketepatan menerapkan teknik dekomposisi, studi kasus: merencanakan liburan, membangun aplikasi",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (dekomposisi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — Teknik dekomposisi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik dekomposisi, studi kasus: merencanakan liburan, membangun aplikasi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Pengenalan pola (pattern recognition) (C3, A3) (CPMK-3)",
+      "indikator": "4.1 Kemampuan menemukan pola dalam data atau urutan kejadian\n4.2 Ketepatan menerapkan Pola dalam data numerik, teks, gambar\n4.3 Kemampuan menggunakan contoh: pola cuaca, pola belanja",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (identifikasi pola)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Pola dalam data numerik\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pola dalam data numerik, teks, gambar; contoh: pola cuaca, pola belanja\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Abstraksi (C3, A3) (CPMK-3)",
+      "indikator": "5.1 Kemampuan mengidentifikasi informasi penting dan mengabaikan detail tidak relevan\n5.2 Ketepatan menerapkan Abstraksi data, abstraksi proses, contoh: peta, model",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (abstraksi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — Abstraksi data\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Abstraksi data, abstraksi proses, contoh: peta, model\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Algoritma (pseudocode dan flowchart) (C3–P4, A3) (CPMK-4)",
+      "indikator": "6.1 Kemampuan menulis algoritma dengan pseudocode dan flowchart\n6.2 Ketepatan menerapkan Notasi algoritma, struktur kontrol (sekuensial, percabangan, perulangan)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (algoritma sederhana)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — Notasi algoritma\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Notasi algoritma, struktur kontrol (sekuensial, percabangan, perulangan)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Studi kasus algoritma (pencarian, pengurutan) (C3–P4, A3) (CPMK-4)",
+      "indikator": "7.1 Kemampuan membuat algoritma pencarian linear, binary, dan pengurutan sederhana\n7.2 Ketepatan menerapkan Sequential search, binary search, bubble sort, selection sort",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (algoritma)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — Sequential search\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sequential search, binary search, bubble sort, selection sort\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep CT, dekomposisi, pola, abstraksi, algoritma dasar\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Evaluasi algoritma (efisiensi, kebenaran) (C4, A4) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menganalisis kompleksitas waktu (Big O) sederhana\n9.2 Ketepatan menganalisis Notasi Big O, analisis algoritma linear vs logaritmik",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Notasi Big O\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Notasi Big O, analisis algoritma linear vs logaritmik\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : CT dalam sistem informasi (studi kasus pencarian data) (C4, A4) (CPMK-5)",
+      "indikator": "10.1 Kemampuan menerapkan CT untuk masalah pencarian data pada database\n10.2 Ketepatan menganalisis Pencarian data pada tabel, indexing, hashing",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi kasus)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 9: studi kasus — Pencarian data pada tabel\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Pencarian data pada tabel, indexing, hashing\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : CT dalam pengambilan keputusan (C4, A4) (CPMK-5)",
+      "indikator": "11.1 Kemampuan menggunakan CT untuk analisis keputusan\n11.2 Ketepatan menganalisis Decision tree, algoritma rekomendasi sederhana",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (kasus keputusan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 10: tugas terstruktur — Decision tree\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Decision tree, algoritma rekomendasi sederhana\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : CT dalam pemrograman (pengantar) (C4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan mengubah algoritma menjadi kode sederhana (pseudocode ke Python)\n12.2 Ketepatan menganalisis dasar Python, implementasi algoritma pencarian",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas coding kecil (opsional)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 11: tugas terstruktur — Dasar Python\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Dasar Python, implementasi algoritma pencarian\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Pemecahan masalah nyata (studi kasus kompleks) (C4–C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menyelesaikan masalah non-coding dengan pendekatan CT\n13.2 Ketepatan mengevaluasi Kasus: optimalisasi rute, penjadwalan, alokasi sumber daya",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (presentasi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 12: presentasi — Kasus: optimalisasi rute\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kasus: optimalisasi rute, penjadwalan, alokasi sumber daya\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan pemecahan masalah (C4–C5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan mendokumentasikan proses CT\n14.2 Ketepatan mengevaluasi struktur laporan, analisis solusi",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 13: laporan — Struktur laporan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan, analisis solusi\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Presentasi hasil pemecahan masalah (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan dan mempertahankan solusi\n15.2 Ketepatan merancang Slide presentasi, demonstrasi solusi",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok + tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: presentasi — Slide presentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Slide presentasi, demonstrasi solusi\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang penerapan CT dalam berbagai konteks\n16.2 Ketepatan menganalisis Seluruh materi (dekomposisi, pola, abstraksi, algoritma, studi kasus)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (19%) (19%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (dekomposisi, pola, abstraksi, algoritma, studi kasus)\n[P1, P2, P3]",
+      "bobot": "19"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dan komponen computational thinking\n2. Dekomposisi masalah\n3. Pengenalan pola (pattern recognition)\n4. Abstraksi dan generalisasi\n5. Algoritma dan langkah-langkah pemecahan masalah\n6. Logika dan penalaran komputasional\n7. Penerapan computational thinking dalam konteks sistem informasi\n8. Studi kasus pemecahan masalah nyata",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, 49(3), 33-35."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Cormen, T. H. (2013). *Algorithms unlocked*. MIT Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Curzon, P., & McOwan, P. W. (2017). *The power of computational thinking: Games, magic and puzzles to help you become a computational thinker*. World Scientific."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Google for Education. (2015). *Exploring computational thinking*. https://edu.google.com/resources/programs/exploring-computational-thinking/"
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Bell, T., Witten, I. H., & Fellows, M. (2018). *CS Unplugged: Computer science without a computer*. CS Unplugged."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan kemampuan berpikir komputasional (computational thinking) sebagai fondasi untuk memecahkan masalah secara sistematis, logis, dan efisien. Materi meliputi konsep CT, dekomposisi masalah, pengenalan pola, abstraksi, algoritma, serta logika dan penalaran komputasional. Penekanan diberikan pada penerapan CT dalam berbagai konteks, termasuk sistem informasi, melalui studi kasus dan pemecahan masalah nyata (tidak selalu memerlukan pemrograman). Mahasiswa akan belajar memecah masalah kompleks, mengenali pola, menyederhanakan informasi, dan menyusun langkah-langkah solusi secara terstruktur.",
+  "matakuliah_syarat": "-"
+}

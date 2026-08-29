@@ -16,62 +16,590 @@
     "jabatan": "Lektor"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
-    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"},
-    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 7 (KK-08)",
+      "nomor": "CPL 7"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel)"},
-    {"kode": "CPMK-2", "cpl": "P-03, KK-03", "deskripsi": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU"},
-    {"kode": "CPMK-3", "cpl": "KU-02, KK-01", "deskripsi": "Mampu menjelaskan sinkronisasi proses, deadlock, dan mekanisme penanganannya"},
-    {"kode": "CPMK-4", "cpl": "P-01, KK-08", "deskripsi": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file"},
-    {"kode": "CPMK-5", "cpl": "S-09, KU-02", "deskripsi": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android)"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dan evolusi sistem operasi serta arsitektur dasar (kernel, mode user/kernel) (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KK-03",
+      "deskripsi": "Mampu menjelaskan manajemen proses dan thread, serta algoritma penjadwalan CPU (CPL 2, CPL 6)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-02, KK-01",
+      "deskripsi": "Mampu menjelaskan sinkronisasi proses, deadlock, dan mekanisme penanganannya (CPL 4, CPL 5)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-01, KK-08",
+      "deskripsi": "Mampu menjelaskan manajemen memori (paging, segmentation, virtual memory) dan manajemen sistem file (CPL 1, CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02",
+      "deskripsi": "Mampu menjelaskan keamanan, proteksi, serta sistem operasi modern (Linux, Windows, Android) (CPL 4)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar sistem operasi, fungsi, dan arsitektur", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan evolusi sistem operasi dari batch hingga real-time", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C2"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan manajemen proses dan thread (PCB, context switch, multithreading)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C2–C3"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menjelaskan algoritma penjadwalan CPU (FCFS, SJF, Round Robin, Priority)", "cpmk": "CPMK-2", "minggu": "5–6", "cpl": "C3"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan sinkronisasi proses (critical section, semaphore, mutex)", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan deadlock (kondisi, deteksi, pencegahan, dan recovery)", "cpmk": "CPMK-3", "minggu": "9", "cpl": "C3–C4"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan manajemen memori (alokasi kontigu, paging, segmentation)", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C3"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menjelaskan virtual memory (demand paging, page replacement, thrashing)", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C3"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan manajemen file dan I/O, serta keamanan sistem operasi", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C3"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu membandingkan sistem operasi modern (Linux, Windows, Android) dan penerapannya", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C4"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar sistem operasi, fungsi, dan arsitektur (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan evolusi sistem operasi dari batch hingga real-time (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan manajemen proses dan thread (PCB, context switch, multithreading) (C2–C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan algoritma penjadwalan CPU (FCFS, SJF, Round Robin, Priority) (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5–6",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan sinkronisasi proses (critical section, semaphore, mutex) (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan deadlock (kondisi, deteksi, pencegahan, dan recovery) (C3–C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "taksonomi": "C3–C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan manajemen memori (alokasi kontigu, paging, segmentation) (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan virtual memory (demand paging, page replacement, thrashing) (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menjelaskan manajemen file dan I/O, serta keamanan sistem operasi (C3, A3) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu membandingkan sistem operasi modern (Linux, Windows, Android) dan penerapannya (C4, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "taksonomi": "C4, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "65%",
+      "c1": "9%",
+      "c2": "14%",
+      "c3": "10%",
+      "c4": "15%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6.7%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "14%",
+      "c2": "19%",
+      "c3": "21.7%",
+      "c4": "21.7%",
+      "c5": "23.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "4.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3",
+      "p2": "",
+      "p3": "3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.5",
+      "p7": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "6.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.5",
+      "p7": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4",
+      "p5": "4",
+      "p6": "",
+      "p7": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "4.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "7",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4.5",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "14",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "11",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "11",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "19",
+      "p2": "10",
+      "p3": "7.5",
+      "p4": "33.5",
+      "p5": "8.5",
+      "p6": "10",
+      "p7": "11.5",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Pengertian, fungsi, dan arsitektur sistem operasi", "indikator": "Ketepatan menjelaskan definisi, tujuan, komponen, dan mode user/kernel", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']", "materi": "Definisi OS, fungsi (resource manager, extended machine), kernel, system call", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Struktur dan layanan sistem operasi", "indikator": "Kemampuan menjelaskan struktur (monolitik, layered, microkernel) dan layanan (process, file, I/O, komunikasi)", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Struktur OS, system call, API, layanan OS, booting", "bobot": "3%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Evolusi sistem operasi", "indikator": "Kemampuan menjelaskan generasi OS (batch, multiprogramming, time-sharing, real-time, distributed)", "kriteria": "Diskusi; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Sejarah OS, perbandingan karakteristik, contoh OS setiap era", "bobot": "3%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Manajemen proses dan thread", "indikator": "Kemampuan menjelaskan proses, PCB, state diagram, context switch, multithreading", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Proses, PCB, state (new, ready, running, waiting, terminated), thread, perbedaan proses dan thread", "bobot": "4%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 4 : Algoritma penjadwalan CPU (FCFS, SJF, Priority)", "indikator": "Kemampuan menghitung waiting time, turnaround time, dan membuat Gantt chart", "kriteria": "Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "FCFS, SJF (non-preemptive, preemptive), Priority (non-preemptive, preemptive)", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Algoritma penjadwalan Round Robin dan multilevel queue", "indikator": "Kemampuan menghitung dan membandingkan RR dengan quantum berbeda", "kriteria": "Tugas hitungan + analisis", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Round Robin, multilevel queue, multilevel feedback queue, evaluasi algoritma", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : Sinkronisasi proses", "indikator": "Kemampuan menjelaskan critical section, race condition, semaphore, mutex, dan classical problem (producer-consumer)", "kriteria": "Kuis online; Tugas studi kasus", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Critical section, Peterson solution, semaphore, mutex, monitor, producer-consumer, readers-writers", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep OS, proses, penjadwalan, sinkronisasi", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron; [TM: 3×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 6 : Deadlock", "indikator": "Kemampuan menjelaskan 4 kondisi deadlock, metode deteksi, pencegahan, penghindaran (banker's algorithm), dan recovery", "kriteria": "Kuis online; Tugas analisis", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Deadlock characterization, resource allocation graph, deadlock prevention, avoidance (banker), detection, recovery", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 7 : Manajemen memori (alokasi kontigu, paging)", "indikator": "Kemampuan menjelaskan skema alokasi (single partition, multiple partition), fragmentasi, paging (address translation)", "kriteria": "Kuis online; Tugas hitungan", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Alokasi kontigu, fragmentasi, swapping, paging, page table, TLB", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 7 : Segmentation dan kombinasi", "indikator": "Kemampuan menjelaskan segmentation dan segmentasi dengan paging", "kriteria": "Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Segmentation, segment table, kelebihan/kekurangan, contoh Intel 80386", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 8 : Virtual memory", "indikator": "Kemampuan menjelaskan demand paging, page fault, page replacement (FIFO, LRU, Optimal), thrashing", "kriteria": "Tugas hitungan (page replacement)", "tatap_muka": "Kuliah + latihan TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Demand paging, page fault handling, copy-on-write, page replacement algorithms, working set, thrashing", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 9 : Manajemen file dan I/O", "indikator": "Kemampuan menjelaskan file system (struktur direktori, alokasi, free space), dan manajemen I/O (buffering, spooling)", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "File concept, directory structure, file allocation (contiguous, linked, indexed), free space management, I/O hardware, interrupt", "bobot": "5%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 9 : Keamanan dan proteksi", "indikator": "Kemampuan menjelaskan mekanisme proteksi (access control, authentication, encryption) dan ancaman", "kriteria": "Studi kasus; Diskusi", "tatap_muka": "Kuliah interaktif TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Domain of protection, access matrix, capability, ACL, authentication, malware, defense", "bobot": "5%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 10 : Sistem operasi modern", "indikator": "Kemampuan membandingkan Linux, Windows, Android (kernel, file system, proses, keamanan)", "kriteria": "Tugas kelompok (studi komparasi)", "tatap_muka": "Diskusi + presentasi kelompok TM: 3x50", "daring": "Kuliah daring sinkron; [TM: 3×50']", "materi": "Linux (monolithic), Windows (hybrid), Android (Linux-based), perbandingan", "bobot": "7%"},
-    {"minggu": 16, "deskripsi": "UAS : Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang manajemen memori, virtual memory, file system, keamanan, dan OS modern", "kriteria": "Ujian tertulis online", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron; [TM: 3×50']", "materi": "Materi Minggu 9–15", "bobot": "20%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengertian, fungsi, dan arsitektur sistem operasi (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi, tujuan, komponen, dan mode user/kernel\n1.2 Ketepatan menjelaskan definisi OS\n1.3 Ketepatan menguraikan fungsi (resource manager, extended machine), kernel, system call",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\nTugas 1: latihan soal — Definisi OS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi OS, fungsi (resource manager, extended machine), kernel, system call\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Struktur dan layanan sistem operasi (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan struktur (monolitik, layered, microkernel) dan layanan (process, file, I/O, komunikasi)\n2.2 Ketepatan menjelaskan struktur OS, system call, API, layanan OS, booting",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 2: tugas terstruktur — Struktur OS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur OS, system call, API, layanan OS, booting\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Evolusi sistem operasi (C2, A2) (CPMK-1)",
+      "indikator": "3.1 Kemampuan menjelaskan generasi OS (batch, multiprogramming, time-sharing, real-time, distributed)\n3.2 Ketepatan menjelaskan sejarah OS, perbandingan karakteristik, contoh OS setiap era",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi, Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Sejarah OS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sejarah OS, perbandingan karakteristik, contoh OS setiap era\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Manajemen proses dan thread (C2–C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menjelaskan proses, PCB, state diagram, context switch, multithreading\n4.2 Ketepatan menerapkan proses, PCB\n4.3 Kemampuan menggunakan state (new, ready, running, waiting, terminated), thread",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Proses\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Proses, PCB, state (new, ready, running, waiting, terminated), thread, perbedaan proses dan thread\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Algoritma penjadwalan CPU (FCFS, SJF, Priority) (C3, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menghitung waiting time, turnaround time, dan membuat Gantt chart\n5.2 Ketepatan menerapkan FCFS, SJF (non-preemptive, preemptive), Priority (non-preemptive, preemptive)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — FCFS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "FCFS, SJF (non-preemptive, preemptive), Priority (non-preemptive, preemptive)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Algoritma penjadwalan Round Robin dan multilevel queue (C3, A3) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menghitung dan membandingkan RR dengan quantum berbeda\n6.2 Ketepatan menerapkan Round Robin, multilevel queue\n6.3 Kemampuan menggunakan multilevel feedback queue, evaluasi algoritma",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan + analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Round Robin\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Round Robin, multilevel queue, multilevel feedback queue, evaluasi algoritma\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Sinkronisasi proses (C3, A3) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menjelaskan critical section, race condition, semaphore, mutex, dan classical problem (producer-consumer)\n7.2 Ketepatan menerapkan Critical section, Peterson solution, semaphore, mutex, monitor, producer-consumer, readers-writers",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 7: studi kasus — Critical section\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Critical section, Peterson solution, semaphore, mutex, monitor, producer-consumer, readers-writers\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep OS, proses, penjadwalan, sinkronisasi\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Deadlock (C3–C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menjelaskan 4 kondisi deadlock, metode deteksi, pencegahan, penghindaran (banker's algorithm), dan recovery\n9.2 Ketepatan menganalisis Deadlock characterization\n9.3 Kemampuan membandingkan resource allocation graph, deadlock prevention, avoidance (banker), detection, recovery",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 8: tugas terstruktur — Deadlock characterization\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Deadlock characterization, resource allocation graph, deadlock prevention, avoidance (banker), detection, recovery\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Manajemen memori (alokasi kontigu, paging) (C3, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menjelaskan skema alokasi (single partition, multiple partition), fragmentasi, paging (address translation)\n10.2 Ketepatan menerapkan Alokasi kontigu, fragmentasi, swapping, paging, page table, TLB",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Alokasi kontigu\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Alokasi kontigu, fragmentasi, swapping, paging, page table, TLB\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Segmentation dan kombinasi (C3, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menjelaskan segmentation dan segmentasi dengan paging\n11.2 Ketepatan menerapkan Segmentation, segment table, kelebihan/kekurangan, contoh Intel 80386",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Segmentation\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Segmentation, segment table, kelebihan/kekurangan, contoh Intel 80386\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Virtual memory (C3, A3) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menjelaskan demand paging, page fault, page replacement (FIFO, LRU, Optimal), thrashing\n12.2 Ketepatan menerapkan page fault handling, copy-on-write\n12.3 Kemampuan menggunakan page replacement algorithms, working set, thrashing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan (page replacement)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Demand paging\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Demand paging, page fault handling, copy-on-write, page replacement algorithms, working set, thrashing\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Manajemen file dan I/O (C3, A3) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan file system (struktur direktori, alokasi, free space), dan manajemen I/O (buffering, spooling)\n13.2 Ketepatan menerapkan File concept, directory structure\n13.3 Kemampuan menggunakan file allocation (contiguous, linked, indexed)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 12: tugas terstruktur — File concept\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "File concept, directory structure, file allocation (contiguous, linked, indexed), free space management, I/O hardware, interrupt\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Keamanan dan proteksi (C3, A3) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menjelaskan mekanisme proteksi (access control, authentication, encryption) dan ancaman\n14.2 Ketepatan menerapkan Domain of protection, access matrix, capability, ACL, authentication, malware, defense",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 13: studi kasus — Domain of protection\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Domain of protection, access matrix, capability, ACL, authentication, malware, defense\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Sistem operasi modern (C4, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan membandingkan Linux, Windows, Android (kernel, file system, proses, keamanan)\n15.2 Ketepatan menganalisis Linux (monolithic), Windows (hybrid), Android (Linux-based), perbandingan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi komparasi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 14: tugas terstruktur — Linux\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Linux (monolithic), Windows (hybrid), Android (Linux-based), perbandingan\n[P1, P2, P3]",
+      "bobot": "7"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang manajemen memori, virtual memory, file system, keamanan, dan OS modern\n16.2 Ketepatan menganalisis materi Minggu 9–15",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 9–15\n[P1, P2, P3]",
+      "bobot": "20"
+    }
   ],
   "bahan_kajian": "1. Konsep dan evolusi sistem operasi\n2. Manajemen proses dan thread\n3. Penjadwalan CPU\n4. Sinkronisasi proses dan deadlock\n5. Manajemen memori dan memori virtual\n6. Manajemen sistem file dan I/O\n7. Keamanan dan proteksi sistem operasi\n8. Sistem operasi modern (Linux, Windows, Android)",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). *Operating system concepts* (10th ed.). Wiley."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Tanenbaum, A. S., & Bos, H. (2015). *Modern operating systems* (4th ed.). Pearson."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Stallings, W. (2017). *Operating systems: Internals and design principles* (9th ed.). Pearson."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). *Operating system concepts* (10th ed.). Wiley."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Tanenbaum, A. S., & Bos, H. (2015). *Modern operating systems* (4th ed.). Pearson."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Stallings, W. (2017). *Operating systems: Internals and design principles* (9th ed.). Pearson."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Love, R. (2013). *Linux kernel development* (3rd ed.). Addison-Wesley."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Russinovich, M. E., Solomon, D. A., & Ionescu, A. (2012). *Windows internals* (6th ed.). Microsoft Press."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Love, R. (2013). *Linux kernel development* (3rd ed.). Addison-Wesley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Russinovich, M. E., Solomon, D. A., & Ionescu, A. (2012). *Windows internals* (6th ed.). Microsoft Press."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep, struktur, dan manajemen sistem operasi sebagai perangkat lunak yang mengelola sumber daya komputer. Materi meliputi evolusi dan arsitektur sistem operasi, manajemen proses dan thread, algoritma penjadwalan CPU, sinkronisasi proses, deadlock, manajemen memori (paging, segmentation, virtual memory), manajemen file dan I/O, keamanan dan proteksi, serta studi kasus sistem operasi modern (Linux, Windows, Android). Penekanan diberikan pada kemampuan analisis dan perbandingan algoritma serta implementasi konsep pada sistem nyata.",
   "matakuliah_syarat": "TSI3105 (Pengantar Teknologi Informasi) – direkomendasikan"

@@ -1,0 +1,579 @@
+{
+  "meta": {
+    "kode_mk": "TSI3106",
+    "nama_mk": "Pengantar Teknologi Informasi",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Umum",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "Ida Bagus Teguh Teja Murti, S.Kom., M.Kom.",
+    "dosen_sign": "sign/teguh.png",
+    "nuptk": "9234766667130303",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 4 (KK-01)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 5 (KK-06)",
+      "nomor": "CPL 5"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dasar teknologi informasi dan komunikasi serta sejarah perkembangan komputer (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-01",
+      "deskripsi": "Mampu menjelaskan komponen perangkat keras, perangkat lunak, dan sistem bilangan (CPL 1)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-02, KK-01",
+      "deskripsi": "Mampu memahami dasar-dasar jaringan komputer, internet, dan keamanan informasi dasar (CPL 2, CPL 4)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-02, KK-06",
+      "deskripsi": "Mampu menjelaskan pemanfaatan teknologi informasi dalam kehidupan dan bisnis (CPL 2, CPL 5)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01",
+      "deskripsi": "Mampu mengidentifikasi isu etika, sosial, dan hukum dalam TI serta penerapannya (CPL 3)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar TI, data, informasi, dan pengetahuan (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan sejarah dan perkembangan komputer dari generasi ke generasi (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan komponen perangkat keras komputer (input, proses, output, storage) (C2, A2) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3–4",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan perangkat lunak (sistem operasi, aplikasi, bahasa pemrograman) (C2, A2) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan sistem bilangan (biner, oktal, desimal, heksadesimal) dan representasi data (C2–C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "6",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan dasar-dasar jaringan komputer, internet, dan protokol (C2, A2) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan konsep keamanan informasi dasar (CIA Triad, ancaman, perlindungan) (C2, A2) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "9",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan pemanfaatan TI dalam kehidupan (e-commerce, e-learning, e-government, dll) (C2–C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menjelaskan isu etika, sosial, dan hukum dalam TI (UU ITE, privasi, HAKI) (C2–C3, A3) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12–13",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyusun makalah/paper tentang perkembangan TI dan presentasi (C4–C5, A4) (CPMK-4, CPMK-5)",
+      "cpmk": "CPMK-4, CPMK-5",
+      "minggu": "14–16",
+      "taksonomi": "C4–C5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "62%",
+      "c1": "6%",
+      "c2": "17%",
+      "c3": "5%",
+      "c4": "17%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "5%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6%",
+      "c4": "6%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "11%",
+      "c2": "22%",
+      "c3": "21%",
+      "c4": "23%",
+      "c5": "23%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "10.5",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "bobot": "10.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "6.5",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "7.5",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "3.8",
+      "p3": "",
+      "p4": "3.7",
+      "p5": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "4.8",
+      "p3": "",
+      "p4": "4.7",
+      "p5": "",
+      "bobot": "9.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "7.3",
+      "p3": "",
+      "p4": "",
+      "p5": "7.2",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "14.5",
+      "p4": "",
+      "p5": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "6.2",
+      "p3": "6.2",
+      "p4": "",
+      "p5": "6.1",
+      "bobot": "18.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "30.1",
+      "p2": "22.1",
+      "p3": "26.1",
+      "p4": "8.4",
+      "p5": "13.3",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar TI (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan data, informasi, pengetahuan, dan teknologi informasi",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Definisi TI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi TI, perbedaan data, informasi, pengetahuan\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Sejarah dan perkembangan komputer (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan generasi komputer dan tokoh-tokoh penting\n2.2 Ketepatan menjelaskan Generasi 1-5, komputer modern, Moore's law",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Generasi 1-5\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Generasi 1-5, komputer modern, Moore's law\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Perangkat keras (input, proses, output, storage) (C2, A2) (CPMK-2)",
+      "indikator": "3.1 Kemampuan mengidentifikasi dan menjelaskan fungsi perangkat keras\n3.2 Ketepatan menjelaskan CPU, RAM, ROM, HDD/SSD, monitor, keyboard, mouse, printer, scanner",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (identifikasi PC)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — CPU\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "CPU, RAM, ROM, HDD/SSD, monitor, keyboard, mouse, printer, scanner\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Perangkat keras lanjutan (motherboard, bus, interface) (C2, A2) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menjelaskan komponen internal komputer\n4.2 Ketepatan menjelaskan Motherboard, chipset, bus, port, ekspansi",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Motherboard\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Motherboard, chipset, bus, port, ekspansi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Perangkat lunak (sistem operasi, aplikasi, bahasa pemrograman) (C2, A2) (CPMK-2)",
+      "indikator": "5.1 Kemampuan membedakan jenis perangkat lunak dan contohnya\n5.2 Ketepatan menjelaskan OS (Windows, Linux, macOS)\n5.3 Ketepatan menguraikan aplikasi (office, grafis), programming language",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (daftar software)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — OS (Windows\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "OS (Windows, Linux, macOS), aplikasi (office, grafis), programming language\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Sistem bilangan dan representasi data (C2–C3, A3) (CPMK-2)",
+      "indikator": "6.1 Kemampuan mengkonversi bilangan biner, oktal, desimal, heksadesimal\n6.2 Ketepatan menerapkan representasi teks (ASCII, Unicode)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — Biner\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Biner, desimal, oktal, heksadesimal, konversi, representasi teks (ASCII, Unicode)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Dasar jaringan komputer dan internet (C2, A2) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menjelaskan jenis jaringan, topologi, dan protokol dasar\n7.2 Ketepatan menjelaskan LAN, MAN, WAN, topologi, TCP/IP, HTTP, DNS, IP address",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — LAN\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "LAN, MAN, WAN, topologi, TCP/IP, HTTP, DNS, IP address\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal tentang konsep TI, hardware, software, sistem bilangan, jaringan\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Keamanan informasi dasar (C2, A2) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menjelaskan CIA Triad, ancaman (malware, phishing), dan perlindungan\n9.2 Ketepatan menjelaskan Confidentiality, Integrity, Availability, enkripsi, firewall, antivirus",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Confidentiality\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Confidentiality, Integrity, Availability, enkripsi, firewall, antivirus\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 8 : Pemanfaatan TI dalam kehidupan (e-commerce, e-learning) (C2–C3, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menjelaskan contoh aplikasi TI di berbagai bidang\n10.2 Ketepatan menerapkan E-commerce, e-learning, e-government, e-health, smart city",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (esai singkat)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: esai — E-commerce\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "E-commerce, e-learning, e-government, e-health, smart city\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : TI dalam bisnis dan industri (C2–C3, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menjelaskan peran TI dalam digitalisasi bisnis\n11.2 Ketepatan menerapkan ERP, CRM, SCM, Big Data, AI, IoT",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 10: studi kasus — ERP\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "ERP, CRM, SCM, Big Data, AI, IoT\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Isu etika dalam TI (C2–C3, A3) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menjelaskan etika penggunaan TI, privasi, dan hak cipta\n12.2 Ketepatan menerapkan Netiket, plagiarisme, hacking etis, whistleblowing",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 11: tugas terstruktur — Netiket\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Netiket, plagiarisme, hacking etis, whistleblowing\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Isu sosial dan hukum (UU ITE, HAKI) (C2–C3, A3) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan UU ITE, UU PDP, dan HAKI di Indonesia\n13.2 Ketepatan menerapkan UU ITE, UU PDP\n13.3 Kemampuan menggunakan perlindungan data pribadi, merek, paten",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (analisis kasus)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 12: tugas terstruktur — UU ITE\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "UU ITE, UU PDP, perlindungan data pribadi, merek, paten\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Persiapan makalah dan presentasi (C4–C5, A4) (CPMK-4, CPMK-5)",
+      "indikator": "14.1 Kemampuan menyusun makalah tentang tren TI terkini\n14.2 Ketepatan mengevaluasi Topik: AI, blockchain, cloud computing, cybersecurity, dll",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal makalah",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCollaborative Learning (CbL)\n[TM: 1x(2x50')]\nTugas 13: makalah — Topik: AI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Topik: AI, blockchain, cloud computing, cybersecurity, dll\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi makalah (C4–C5, A4) (CPMK-4, CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan dan diskusi\n15.2 Ketepatan mengevaluasi Presentasi hasil makalah",
+      "kriteria": "Metode Penilaian:\nTugas (8%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok + tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: presentasi — Presentasi hasil makalah\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi hasil makalah\n[P1, P2, P3]",
+      "bobot": "8"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang pemanfaatan TI dan etika\n16.2 Ketepatan menjelaskan Seluruh materi (keamanan, pemanfaatan, isu etika, presentasi)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (18%) (18%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (keamanan, pemanfaatan, isu etika, presentasi)\n[P1, P2, P3]",
+      "bobot": "18"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dasar teknologi informasi dan komunikasi\n2. Sejarah dan perkembangan komputer\n3. Komponen perangkat keras dan perangkat lunak\n4. Sistem bilangan dan representasi data digital\n5. Dasar-dasar jaringan dan internet\n6. Keamanan informasi dasar\n7. Pemanfaatan teknologi informasi dalam kehidupan dan bisnis\n8. Isu etika, sosial, dan hukum dalam TI",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Williams, B. K., & Sawyer, S. C. (2015). *Using information technology: A practical introduction to computers & communications* (11th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Stair, R. M., & Reynolds, G. W. (2018). *Principles of information systems* (13th ed.). Cengage Learning."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Kadir, A. (2019). *Pengantar teknologi informasi*. Penerbit Andi."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Shelly, G. B., & Vermaat, M. E. (2017). *Discovering computers: Digital technology, data, and devices*. Cengage Learning."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Undang-Undang ITE (UU No. 11 Tahun 2008 jo. UU No. 19 Tahun 2016)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini memberikan fondasi dasar tentang teknologi informasi dan komunikasi bagi mahasiswa. Materi meliputi konsep dasar TI, sejarah dan perkembangan komputer, komponen perangkat keras dan perangkat lunak, sistem bilangan dan representasi data, dasar-dasar jaringan komputer dan internet, keamanan informasi dasar, pemanfaatan TI dalam berbagai bidang kehidupan dan bisnis, serta isu etika, sosial, dan hukum dalam pemanfaatan TI. Penekanan diberikan pada pemahaman konsep dan penerapannya dalam kehidupan sehari-hari serta persiapan untuk mata kuliah lanjutan di program studi sistem informasi.",
+  "matakuliah_syarat": "-"
+}

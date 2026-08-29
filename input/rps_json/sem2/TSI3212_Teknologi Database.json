@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "kode_mk": "TSI3212",
+    "nama_mk": "Teknologi Database",
+    "sks_total": 4,
+    "sks_teori": 3,
+    "sks_praktik": 1,
+    "semester": 2,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Prodi",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-02",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi",
+      "label": "CPL 5 (KK-02)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 6 (KK-04)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 7 (KK-08)",
+      "nomor": "CPL 7"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, P-03",
+      "deskripsi": "Mampu menerapkan SQL lanjutan dan teknik optimasi query untuk mengolah data secara efisien (CPL 1, CPL 2)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan arsitektur basis data terdistribusi dan basis data non-relasional (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "P-03, KK-04",
+      "deskripsi": "Mampu merancang dan mengelola data warehouse serta memanfaatkan teknologi basis data modern (CPL 2, CPL 6)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-02, KK-08",
+      "deskripsi": "Mampu melakukan administrasi dan pengamanan basis data lanjut (CPL 5, CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KK-04",
+      "deskripsi": "Mampu mengimplementasikan solusi basis data menggunakan tools modern secara mandiri dan terukur (CPL 4, CPL 6)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menerapkan view dan stored procedure untuk menyederhanakan akses data (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menerapkan trigger dan function untuk menjaga integritas data (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menganalisis rencana eksekusi query dan menerapkan indeks yang tepat (C4, A4) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3-4",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan arsitektur basis data terdistribusi, fragmentasi, dan replikasi (C2-C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5-6",
+      "taksonomi": "C2-C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu membandingkan model basis data NoSQL dan menentukan kasus penggunaannya (C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "7",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan ekosistem Big Data dan teknologi basis data modern (C2, A2) (CPMK-2, CPMK-3)",
+      "cpmk": "CPMK-2, CPMK-3",
+      "minggu": "9",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan layanan basis data cloud dan virtualisasi data (C2-C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "10",
+      "taksonomi": "C2-C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu merancang skema data warehouse dan proses ETL (C4-C5, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "11-12",
+      "taksonomi": "C4-C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menerapkan keamanan dan administrasi basis data lanjut (C3-C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "13-14",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengimplementasikan solusi basis data dengan tools modern melalui praktikum (C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15",
+      "taksonomi": "C5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "56%",
+      "c1": "15%",
+      "c2": "10%",
+      "c3": "15%",
+      "c4": "10%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "14%",
+      "c1": "4%",
+      "c2": "7.5%",
+      "c3": "2.5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "7.5%",
+      "c2": "7.5%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "3.8%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "26.5%",
+      "c2": "28.8%",
+      "c3": "21.2%",
+      "c4": "13.8%",
+      "c5": "9.8%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3.5",
+      "p2": "3.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "4",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "6.5",
+      "p2": "6.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "6.5",
+      "p2": "",
+      "p3": "6.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "4",
+      "p2": "",
+      "p3": "4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "2",
+      "p2": "2",
+      "p3": "2",
+      "p4": "",
+      "p5": "",
+      "p6": "2",
+      "p7": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4",
+      "p7": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "6.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.5",
+      "p7": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "6.5",
+      "p6": "",
+      "p7": "6.5",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "",
+      "p6": "4.5",
+      "p7": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "26.5",
+      "p2": "26.5",
+      "p3": "12.5",
+      "p4": "4.5",
+      "p5": "6.5",
+      "p6": "17",
+      "p7": "6.5",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : View dan stored procedure (C3, A3) (CPMK-1)",
+      "indikator": "1.1 Ketepatan membuat view sederhana dan view bertingkat untuk menyederhanakan akses data\n1.2 Ketepatan menerapkan View (simple, complex, updatable)\n1.3 Kemampuan menggunakan stored procedure (parameter IN/OUT, kontrol alur)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: latihan praktikum",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: praktikum — View (simple\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "View (simple, complex, updatable), stored procedure (parameter IN/OUT, kontrol alur), keuntungan enkapsulasi logika di basis data\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Trigger dan function (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Ketepatan membuat trigger untuk menjaga integritas dan audit perubahan data\n2.2 Ketepatan menerapkan Trigger (BEFORE, AFTER, INSTEAD OF), user-defined function, audit trail\n2.3 Kemampuan menggunakan batasan penggunaan trigger",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktikum individu",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: praktikum — Trigger (BEFORE\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Trigger (BEFORE, AFTER, INSTEAD OF), user-defined function, audit trail, batasan penggunaan trigger\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Rencana eksekusi query (C4, A4) (CPMK-1)",
+      "indikator": "3.1 Ketepatan membaca execution plan dan mengenali operasi yang mahal\n3.2 Ketepatan menganalisis Query processing\n3.3 Kemampuan membandingkan execution plan (EXPLAIN), cost-based optimizer",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: studi kasus — Query processing\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Query processing, execution plan (EXPLAIN), cost-based optimizer, operasi scan dan join\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Indeks dan optimasi query (C4, A4) (CPMK-1)",
+      "indikator": "4.1 Ketepatan memilih jenis indeks yang sesuai dengan pola query\n4.2 Ketepatan menganalisis B-tree, hash, bitmap, composite index, covering index\n4.3 Kemampuan membandingkan dampak indeks pada operasi tulis",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktikum optimasi query",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: praktikum — B-tree\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "B-tree, hash, bitmap, composite index, covering index, dampak indeks pada operasi tulis\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Arsitektur basis data terdistribusi (C2-C3, A3) (CPMK-2)",
+      "indikator": "5.1 Ketepatan menjelaskan arsitektur dan tujuan basis data terdistribusi\n5.2 Ketepatan menerapkan arsitektur terdistribusi, transparansi lokasi\n5.3 Kemampuan menggunakan fragmentasi horizontal dan vertikal, alokasi data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: latihan terstruktur — Arsitektur terdistribusi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Arsitektur terdistribusi, transparansi lokasi, fragmentasi horizontal dan vertikal, alokasi data\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Replikasi dan konsistensi (C2-C3, A3) (CPMK-2)",
+      "indikator": "6.1 Ketepatan menjelaskan strategi replikasi dan implikasinya terhadap konsistensi\n6.2 Ketepatan menerapkan Replikasi sinkron dan asinkron, two-phase commit, teorema CAP, eventual consistency",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: studi kasus — Replikasi sinkron dan asinkron\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Replikasi sinkron dan asinkron, two-phase commit, teorema CAP, eventual consistency\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Basis data NoSQL (C4, A4) (CPMK-2)",
+      "indikator": "7.1 Ketepatan membandingkan model NoSQL dan menentukan kasus penggunaannya\n7.2 Ketepatan menganalisis Key-value, document, column-family, graph database\n7.3 Kemampuan membandingkan perbandingan dengan relasional, kriteria pemilihan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: studi kasus — Key-value\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Key-value, document, column-family, graph database, perbandingan dengan relasional, kriteria pemilihan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Ketepatan menjawab soal SQL lanjutan, optimasi query, basis data terdistribusi, dan NoSQL\n8.2 Ketepatan menerapkan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Big Data dan teknologi basis data modern (C2, A2) (CPMK-2, CPMK-3)",
+      "indikator": "9.1 Ketepatan menjelaskan karakteristik Big Data dan ekosistem teknologinya\n9.2 Ketepatan menjelaskan Karakteristik 5V, Hadoop, Spark, arsitektur lambda\n9.3 Ketepatan menguraikan posisi basis data dalam ekosistem Big Data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: latihan terstruktur — Karakteristik 5V\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Karakteristik 5V, Hadoop, Spark, arsitektur lambda, posisi basis data dalam ekosistem Big Data\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Basis data cloud dan virtualisasi data (C2-C3, A3) (CPMK-3)",
+      "indikator": "10.1 Ketepatan menjelaskan model layanan basis data cloud dan konsep virtualisasi data\n10.2 Ketepatan menerapkan DBaaS\n10.3 Kemampuan menggunakan elastisitas dan skalabilitas, data virtualization, federated query",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: studi kasus — DBaaS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "DBaaS, model deployment cloud, elastisitas dan skalabilitas, data virtualization, federated query\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Konsep dan arsitektur data warehouse (C4-C5, A4) (CPMK-3)",
+      "indikator": "11.1 Ketepatan menjelaskan perbedaan OLTP dan OLAP serta arsitektur data warehouse\n11.2 Ketepatan mengevaluasi skema bintang dan snowflake\n11.3 Kemampuan menilai tabel fakta dan dimensi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — OLTP vs OLAP\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "OLTP vs OLAP, arsitektur data warehouse, data mart, skema bintang dan snowflake, tabel fakta dan dimensi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Perancangan ETL (C4-C5, A4) (CPMK-3)",
+      "indikator": "12.1 Ketepatan merancang alur ETL dari sumber data operasional ke data warehouse\n12.2 Ketepatan mengevaluasi Extract, transform, load, staging area\n12.3 Kemampuan menilai pembersihan dan integrasi data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktikum perancangan ETL",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: praktikum — Extract\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Extract, transform, load, staging area, pembersihan dan integrasi data, penjadwalan dan pemantauan ETL\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Keamanan basis data lanjut (C3-C4, A4) (CPMK-4)",
+      "indikator": "13.1 Ketepatan menerapkan kontrol akses dan enkripsi pada basis data\n13.2 Ketepatan menganalisis Role-based access control, privilege\n13.3 Kemampuan membandingkan enkripsi data at rest dan in transit",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktikum keamanan basis data",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: praktikum — Role-based access control\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Role-based access control, privilege, enkripsi data at rest dan in transit, pencegahan SQL injection, audit log\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Administrasi basis data (C3-C4, A4) (CPMK-4)",
+      "indikator": "14.1 Ketepatan menyusun rencana backup, recovery, dan pemantauan kinerja basis data\n14.2 Ketepatan menganalisis strategi backup (full, incremental, differential), point-in-time recovery, pemantauan kinerja\n14.3 Kemampuan membandingkan kapasitas dan pemeliharaan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: studi kasus — Strategi backup (full\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Strategi backup (full, incremental, differential), point-in-time recovery, pemantauan kinerja, kapasitas dan pemeliharaan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi basis data dengan tools modern (C5, A4) (CPMK-5)",
+      "indikator": "15.1 Ketepatan mengimplementasikan dan mempresentasikan solusi basis data terintegrasi\n15.2 Ketepatan mengevaluasi implementasi terintegrasi (SQL lanjutan, indeks, keamanan, data warehouse) menggunakan RDBMS dan tools modern",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proyek kelompok dan presentasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: presentasi — Implementasi terintegrasi (SQL lanjutan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi terintegrasi (SQL lanjutan, indeks, keamanan, data warehouse) menggunakan RDBMS dan tools modern\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Ketepatan menjawab soal integratif tentang teknologi basis data modern\n16.2 Ketepatan menjelaskan materi Minggu 9-15",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 9-15\n[P1, P2, P3]",
+      "bobot": "15"
+    }
+  ],
+  "bahan_kajian": "1. SQL lanjutan (stored procedure, trigger, view)\n2. Optimasi query dan indeks\n3. Basis data terdistribusi\n4. NoSQL dan basis data non-relasional\n5. Big Data dan teknologi database modern\n6. Database cloud dan virtualisasi data\n7. Data warehouse: konsep dan arsitektur\n8. Keamanan dan administrasi basis data lanjut\n9. Praktikum: implementasi database dengan tools modern",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Elmasri, R., & Navathe, S. B. (2016). *Fundamentals of Database Systems* (7th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Silberschatz, A., Korth, H. F., & Sudarshan, S. (2019). *Database System Concepts* (7th ed.). McGraw-Hill."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Kimball, R., & Ross, M. (2013). *The Data Warehouse Toolkit* (3rd ed.). Wiley."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Sadalage, P. J., & Fowler, M. (2012). *NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence*. Addison-Wesley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly Media."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini merupakan kelanjutan Sistem Basis Data dan membekali mahasiswa dengan kemampuan mengelola basis data pada skala dan kompleksitas yang lebih tinggi. Materi meliputi SQL lanjutan (view, stored procedure, trigger), optimasi query dan indeks, basis data terdistribusi, basis data non-relasional (NoSQL), ekosistem Big Data, basis data cloud dan virtualisasi data, perancangan data warehouse beserta proses ETL, serta keamanan dan administrasi basis data lanjut. Penekanan diberikan pada praktikum implementasi menggunakan RDBMS dan tools modern sehingga mahasiswa siap menangani kebutuhan data organisasi secara nyata.",
+  "matakuliah_syarat": "Sistem Basis Data (TSI3102)"
+}

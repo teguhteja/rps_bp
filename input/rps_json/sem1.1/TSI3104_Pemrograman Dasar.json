@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "kode_mk": "TSI3104",
+    "nama_mk": "Pemrograman Dasar",
+    "sks_total": 3,
+    "sks_teori": 2,
+    "sks_praktik": 1,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Utama Program Studi",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "I Wayan Yudik Pradnyana, S.Kom., M.Kom.",
+    "dosen_sign": "sign/yudik.png",
+    "nuptk": "4835771672130352",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 7 (KK-08)",
+      "nomor": "CPL 7"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep dasar pemrograman dan algoritma serta membuat flowchart/pseudocode (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu mengimplementasikan tipe data, variabel, operator, dan struktur kendali (percabangan, perulangan) (CPL 2, CPL 4)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-01, KK-03",
+      "deskripsi": "Mampu menerapkan fungsi/prosedur, array, dan struktur data dasar dalam pemecahan masalah (CPL 3, CPL 6)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-08",
+      "deskripsi": "Mampu melakukan pengurutan dan pencarian data menggunakan algoritma sorting dan searching sederhana (CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-02, KK-01, KK-08",
+      "deskripsi": "Mampu menulis program lengkap dengan penanganan error dasar dan dokumentasi (CPL 4, CPL 5, CPL 7)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan algoritma, flowchart, dan pseudocode (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu membuat flowchart dan pseudocode untuk masalah sederhana (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menggunakan tipe data, variabel, operator, dan ekspresi (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu mengimplementasikan struktur percabangan (if, if-else, switch) (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengimplementasikan struktur perulangan (for, while, do-while) (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menggunakan fungsi/prosedur dengan parameter dan return value (C3-C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu mengelola array satu dimensi dan multidimensi (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu mengimplementasikan algoritma pengurutan (bubble, selection) dan pencarian (sequential, binary) (C3-C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9-10",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan penanganan error sederhana dan debugging (C3, A3) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "11-12",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyusun program terintegrasi (studi kasus) dan dokumentasi (C5-C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13-15",
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "45%",
+      "c1": "4%",
+      "c2": "10%",
+      "c3": "10%",
+      "c4": "5%",
+      "c5": "16%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "22%",
+      "c1": "3%",
+      "c2": "4%",
+      "c3": "0%",
+      "c4": "5%",
+      "c5": "10%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9%",
+      "c5": "9%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "19%",
+      "c3": "15%",
+      "c4": "19%",
+      "c5": "35%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.6",
+      "p2": "",
+      "p3": "2.6",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "5.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.1",
+      "p2": "",
+      "p3": "3.1",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "6.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.1",
+      "p3": "",
+      "p4": "3.1",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "6.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "3.6",
+      "p3": "",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "3.6",
+      "p3": "",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "3.6",
+      "p4": "",
+      "p5": "",
+      "p6": "3.5",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "3.6",
+      "p4": "",
+      "p5": "",
+      "p6": "3.5",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "16",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "5.4",
+      "p5": "5.3",
+      "p6": "",
+      "p7": "5.3",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "7.4",
+      "p5": "7.3",
+      "p6": "",
+      "p7": "7.3",
+      "bobot": "22",
+      "minggu": "3"
+    },
+    {
+      "sub": "Total",
+      "p1": "5.7",
+      "p2": "10.3",
+      "p3": "12.9",
+      "p4": "22.9",
+      "p5": "12.6",
+      "p6": "7",
+      "p7": "28.6",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar algoritma dan pemrograman (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan algoritma, flowchart, pseudocode\n1.2 Ketepatan menjelaskan definisi algoritma, karakteristik\n1.3 Ketepatan menguraikan pengenalan bahasa pemrograman",
+      "kriteria": "Metode Penilaian:\nKuis (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 1: tugas terstruktur — Definisi algoritma\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi algoritma, karakteristik, representasi (flowchart, pseudocode), pengenalan bahasa pemrograman\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Flowchart dan pseudocode (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membuat flowchart/pseudocode untuk kasus sederhana\n2.2 Ketepatan menerapkan Simbol flowchart, struktur sequence, selection, repetition, contoh konversi",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: flowchart",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 2: tugas terstruktur — Simbol flowchart\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Simbol flowchart, struktur sequence, selection, repetition; contoh konversi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Tipe data, variabel, operator (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan mendeklarasikan variabel dan menggunakan operator\n3.2 Ketepatan menerapkan Tipe data primitif (int, float, char, boolean), variabel\n3.3 Kemampuan menggunakan konstanta, operator aritmatika/logika/perbandingan",
+      "kriteria": "Metode Penilaian:\nKuis (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik coding",
+      "tatap_muka": "Bentuk: Praktikum\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — Tipe data primitif (int\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tipe data primitif (int, float, char, boolean), variabel, konstanta, operator aritmatika/logika/perbandingan\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Struktur percabangan (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menggunakan if, if-else, switch\n4.2 Ketepatan menerapkan If single, if-else, nested if, else-if, switch-case, operator ternary",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: program percabangan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — If single\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "If single, if-else, nested if, else-if, switch-case, operator ternary\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : Struktur perulangan (C3, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menggunakan for, while, do-while\n5.2 Ketepatan menerapkan Perulangan for, while, do-while, nested loop, break, continue",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: program perulangan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 5: tugas terstruktur — Perulangan for\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Perulangan for, while, do-while; nested loop; break, continue\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 6 : Fungsi dan prosedur (C3-C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan membuat fungsi dengan parameter dan return\n6.2 Ketepatan menganalisis definisi fungsi\n6.3 Kemampuan membandingkan parameter (by value, by reference), return value, scope variabel, rekursi dasar",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: fungsi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 6: tugas terstruktur — Definisi fungsi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi fungsi, parameter (by value, by reference), return value, scope variabel, rekursi dasar\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 7 : Array (C3, A3) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menggunakan array satu dimensi dan multidimensi\n7.2 Ketepatan menerapkan Deklarasi array, indeks, iterasi array, array multidimensi\n7.3 Kemampuan menggunakan array sebagai parameter fungsi",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: array",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 7: tugas terstruktur — Deklarasi array\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Deklarasi array, indeks, iterasi array, array multidimensi, array sebagai parameter fungsi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6,7\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep algoritma, flowchart, tipe data, percabangan, perulangan, fungsi, array\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 8 : Algoritma pengurutan (bubble sort, selection sort) (C3-C4, A4) (CPMK-4)",
+      "indikator": "9.1 Kemampuan mengimplementasikan bubble sort dan selection sort\n9.2 Ketepatan menganalisis konsep sorting, bubble sort (logika, implementasi), selection sort",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik coding",
+      "tatap_muka": "Bentuk: Praktikum\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 8: tugas terstruktur — Konsep sorting\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Konsep sorting, bubble sort (logika, implementasi), selection sort\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 8 : Algoritma pencarian (sequential, binary) (C3-C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan mengimplementasikan sequential search dan binary search\n10.2 Ketepatan menganalisis binary search (syarat data terurut), kompleksitas sederhana",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: sorting & searching",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 9: tugas terstruktur — Sequential search\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sequential search, binary search (syarat data terurut), kompleksitas sederhana\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 9 : Penanganan error (exception handling) (C3, A3) (CPMK-5)",
+      "indikator": "11.1 Kemampuan menggunakan try-catch dan debugging\n11.2 Ketepatan menerapkan jenis error (syntax, runtime, logical), try-catch, throw\n11.3 Kemampuan menggunakan debugging dengan IDE",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik",
+      "tatap_muka": "Bentuk: Praktikum\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — Jenis error (syntax\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Jenis error (syntax, runtime, logical), try-catch, throw, debugging dengan IDE\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Struktur data dasar (record/struct) (C3, A3) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menggunakan struct/record untuk data majemuk\n12.2 Ketepatan menerapkan pengertian record/struct, deklarasi, akses anggota, array of struct",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: struct",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 11: tugas terstruktur — Pengertian record/struct\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengertian record/struct, deklarasi, akses anggota, array of struct\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek pemrograman – perencanaan (C5-C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan merancang program untuk studi kasus (misal: sistem sederhana)\n13.2 Ketepatan merancang analisis masalah, perancangan algoritma, pembagian modul",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 12: proyek — Analisis masalah\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis masalah, perancangan algoritma, pembagian modul\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi proyek (C5-C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menulis kode program terintegrasi\n14.2 Ketepatan merancang Coding, pengujian modul, integrasi",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Progress demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 13: tugas terstruktur — Coding\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Coding, pengujian modul, integrasi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Finalisasi dan presentasi proyek (C5-C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyelesaikan program dan mempresentasikan\n15.2 Ketepatan merancang Dokumentasi, presentasi, tanya jawab",
+      "kriteria": "Metode Penilaian:\nTugas (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok + demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(1x170')]\nTugas 14: presentasi — Dokumentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Dokumentasi, presentasi, tanya jawab\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang algoritma, sorting, searching, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1-15)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (18%) (18%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "18"
+    }
+  ],
+  "bahan_kajian": "1. Konsep dasar pemrograman dan algoritma\n2. Flowchart dan pseudocode\n3. Tipe data, variabel, operator, dan ekspresi\n4. Struktur kendali: seleksi dan perulangan\n5. Fungsi dan prosedur\n6. Array dan struktur data dasar\n7. Teknik pengurutan dan pencarian data\n8. Penanganan kesalahan (error handling) dasar\n9. Praktikum pemrograman menggunakan bahasa pemrograman modern",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Deitel, P., & Deitel, H. (2019). *C++ How to Program* (10th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Sedgewick, R., & Wayne, K. (2015). *Introduction to Programming in Python: An Interdisciplinary Approach*. Addison-Wesley."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). *Introduction to Algorithms* (4th ed.). MIT Press."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Stroustrup, B. (2013). *The C++ Programming Language* (4th ed.). Addison-Wesley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Downey, A. B. (2015). *Think Python: How to Think Like a Computer Scientist* (2nd ed.). O'Reilly Media."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan fondasi logika pemrograman dan algoritma sebagai dasar pengembangan perangkat lunak. Materi meliputi konsep algoritma, flowchart, pseudocode, tipe data, variabel, operator, struktur kendali (percabangan dan perulangan), fungsi/prosedur, array, algoritma pengurutan (bubble, selection) dan pencarian (sequential, binary), penanganan error, serta struktur data sederhana. Mahasiswa akan mempraktikkan langsung melalui latihan coding dan proyek kelompok untuk membangun program sederhana, mengasah kemampuan pemecahan masalah logis, dan mempersiapkan diri untuk mata kuliah pemrograman lanjutan.",
+  "matakuliah_syarat": "-"
+}

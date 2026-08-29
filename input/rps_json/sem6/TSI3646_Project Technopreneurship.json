@@ -19,318 +19,605 @@
     {
       "kode": "S-10",
       "tipe": "Sikap",
-      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 1 (S-10)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-04",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"
+      "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi",
+      "label": "CPL 2 (P-04)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "P-05",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship)"
+      "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship) untuk mengidentifikasi dan mengembangkan peluang usaha di bidang sistem informasi",
+      "label": "CPL 3 (P-05)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
-    },
-    {
-      "kode": "KU-05",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-06",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat"
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya",
+      "label": "CPL 6 (KU-06)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 7 (KK-01)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-09",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis"
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis",
+      "label": "CPL 8 (KK-09)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-10",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur)"
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi",
+      "label": "CPL 9 (KK-10)",
+      "nomor": "CPL 9"
     },
     {
       "kode": "KK-11",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital",
+      "label": "CPL 10 (KK-11)",
+      "nomor": "CPL 10"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
-      "cpl": "S-10, P-05",
-      "deskripsi": "Mampu melakukan ideasi dan validasi ide proyek technopreneurship menggunakan lean startup methodology"
+      "cpl": "S-10, P-05, KU-01",
+      "deskripsi": "Mampu melakukan ideasi dan validasi ide proyek technopreneurship menggunakan lean startup methodology (CPL 1, CPL 3, CPL 4)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-04, KK-10",
-      "deskripsi": "Mampu mengembangkan produk minimum viable (MVP) berbasis teknologi"
+      "deskripsi": "Mampu mengembangkan produk minimum viable (MVP) berbasis teknologi (CPL 2, CPL 9)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-05, KK-11",
-      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing untuk produk"
+      "cpl": "KK-11",
+      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing untuk produk (CPL 10)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KU-06, KK-01",
-      "deskripsi": "Mampu mengelola tim startup dan menerapkan agile development"
+      "deskripsi": "Mampu mengelola tim startup dan menerapkan agile development (CPL 6, CPL 7)"
     },
     {
       "kode": "CPMK-5",
       "cpl": "KU-02, KK-09",
-      "deskripsi": "Mampu melakukan pitching produk kepada pemangku kepentingan serta menganalisis kompetitor dan posisi pasar"
+      "deskripsi": "Mampu melakukan pitching produk kepada pemangku kepentingan serta menganalisis kompetitor dan posisi pasar (CPL 5, CPL 8)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menghasilkan ide bisnis digital dan melakukan validasi awal",
+      "deskripsi": "Mampu menghasilkan ide bisnis digital dan melakukan validasi awal (C3–C4, A4) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menyusun Business Model Canvas (BMC) untuk ide startup",
+      "deskripsi": "Mampu menyusun Business Model Canvas (BMC) untuk ide startup (C4, A4) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu merancang dan mengembangkan MVP (minimum viable product)",
+      "deskripsi": "Mampu merancang dan mengembangkan MVP (minimum viable product) (C5–P5, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–7",
-      "cpl": "C5–P5"
+      "taksonomi": "C5–P5, A4"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menguji MVP dengan target pengguna dan melakukan iterasi",
+      "deskripsi": "Mampu menguji MVP dengan target pengguna dan melakukan iterasi (C4–P4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "8",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing",
+      "deskripsi": "Mampu menyusun strategi go-to-market dan digital marketing (C4–C5, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9–10",
-      "cpl": "C4–C5"
+      "taksonomi": "C4–C5, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu mengelola tim dan menggunakan metode agile dalam pengembangan",
+      "deskripsi": "Mampu mengelola tim dan menggunakan metode agile dalam pengembangan (C3–C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "11",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menganalisis kompetitor dan positioning pasar",
+      "deskripsi": "Mampu menganalisis kompetitor dan positioning pasar (C4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menyusun rencana bisnis dan proyeksi keuangan sederhana",
+      "deskripsi": "Mampu menyusun rencana bisnis dan proyeksi keuangan sederhana (C5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13",
-      "cpl": "C5"
+      "taksonomi": "C5, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan pitching produk dan menyiapkan demo",
+      "deskripsi": "Mampu melakukan pitching produk dan menyiapkan demo (C6–P5, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "14–15",
-      "cpl": "C6–P5"
+      "taksonomi": "C6–P5, A5"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mengevaluasi proyek dan menyusun laporan akhir",
+      "deskripsi": "Mampu mengevaluasi proyek dan menyusun laporan akhir (C6, A5) (CPMK-1 s.d. CPMK-5)",
       "cpmk": "CPMK-1 s.d. CPMK-5",
       "minggu": "16",
-      "cpl": "C6"
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "10%",
+      "c1": "10%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "77%",
+      "c1": "8%",
+      "c2": "27%",
+      "c3": "12%",
+      "c4": "5%",
+      "c5": "25%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "13%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "4.3%",
+      "c4": "4.3%",
+      "c5": "4.3%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "18%",
+      "c2": "27%",
+      "c3": "16.3%",
+      "c4": "9.3%",
+      "c5": "29.3%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4",
+      "p2": "",
+      "p3": "4",
+      "p4": "4",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "12",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "2.4",
+      "p2": "",
+      "p3": "2.3",
+      "p4": "2.3",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "13",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "13",
+      "p10": "",
+      "bobot": "26",
+      "minggu": "4"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "14.6",
+      "bobot": "14.6",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.8",
+      "p7": "3.8",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "3.8",
+      "p6": "",
+      "p7": "",
+      "p8": "3.8",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "4.3",
+      "p6": "",
+      "p7": "",
+      "p8": "4.3",
+      "p9": "",
+      "p10": "",
+      "bobot": "8.6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "8.3",
+      "p6": "",
+      "p7": "",
+      "p8": "8.3",
+      "p9": "",
+      "p10": "",
+      "bobot": "16.6",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "6.4",
+      "p2": "13",
+      "p3": "6.3",
+      "p4": "6.3",
+      "p5": "16.4",
+      "p6": "3.8",
+      "p7": "3.8",
+      "p8": "16.4",
+      "p9": "13",
+      "p10": "14.6",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Ideasi dan validasi ide",
-      "indikator": "Kemampuan menghasilkan ide startup digital dan melakukan customer discovery awal",
-      "kriteria": "Presentasi ide (pitch 1 menit)",
-      "tatap_muka": "Workshop ideasi; diskusi kelompok",
-      "daring": "Sesi sinkron via video conference; [TM: 0] [Praktik: 2×170']",
-      "materi": "Teknik brainstorming, problem validation, customer discovery",
-      "bobot": "5%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Ideasi dan validasi ide (C3–C4, A4) (CPMK-1)",
+      "indikator": "1.1 Kemampuan menghasilkan ide startup digital dan melakukan customer discovery awal\n1.2 Ketepatan menganalisis teknik brainstorming, problem validation, customer discovery",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi ide (pitch 1 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 1: presentasi — Teknik brainstorming\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik brainstorming, problem validation, customer discovery\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Validasi ide lanjutan",
-      "indikator": "Kemampuan mewawancarai calon pengguna dan mengumpulkan feedback",
-      "kriteria": "Laporan hasil wawancara minimal 5 responden",
-      "tatap_muka": "Kerja lapangan (wawancara)",
-      "daring": "Konsultasi kelompok; [Praktik: 2×170']",
-      "materi": "Customer interview, problem-solution fit",
-      "bobot": "5%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Validasi ide lanjutan (C3–C4, A4) (CPMK-1)",
+      "indikator": "2.1 Kemampuan mewawancarai calon pengguna dan mengumpulkan feedback\n2.2 Ketepatan menganalisis Customer interview, problem-solution fit",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan hasil wawancara minimal 5 responden",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 2: laporan — Customer interview\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Customer interview, problem-solution fit\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Business Model Canvas (BMC)",
-      "indikator": "Kemampuan mengisi 9 blok BMC untuk ide startup",
-      "kriteria": "BMC yang sudah divalidasi",
-      "tatap_muka": "Workshop BMC",
-      "daring": "Sesi sinkron; [Praktik: 2×170']",
-      "materi": "BMC, value proposition canvas",
-      "bobot": "5%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Business Model Canvas (BMC) (C4, A4) (CPMK-1)",
+      "indikator": "3.1 Kemampuan mengisi 9 blok BMC untuk ide startup\n3.2 Ketepatan menganalisis BMC, value proposition canvas",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: BMC yang sudah divalidasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 3: latihan terstruktur — BMC\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "BMC, value proposition canvas\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Perancangan MVP",
-      "indikator": "Kemampuan menentukan fitur inti MVP dan membuat prototype (mockup/wireframe)",
-      "kriteria": "Prototype MVP (Figma/Adobe XD)",
-      "tatap_muka": "Desain prototype",
-      "daring": "Praktik mandiri; [Praktik: 2×170']",
-      "materi": "MVP design, feature prioritization, prototyping",
-      "bobot": "6%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Perancangan MVP (C5–P5, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menentukan fitur inti MVP dan membuat prototype (mockup/wireframe)\n4.2 Ketepatan mengevaluasi MVP design, feature prioritization, prototyping",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Prototype MVP (Figma/Adobe XD)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 4: latihan terstruktur — MVP design\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "MVP design, feature prioritization, prototyping\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Pengembangan MVP (coding/building)",
-      "indikator": "Kemampuan mengimplementasikan MVP sesuai prototype",
-      "kriteria": "MVP berfungsi (website, app, atau landing page)",
-      "tatap_muka": "Pengerjaan produk",
-      "daring": "Koding/development; [Praktik: 2×170']",
-      "materi": "Teknologi stack untuk MVP, no-code tools",
-      "bobot": "6%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Pengembangan MVP (coding/building) (C5–P5, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan mengimplementasikan MVP sesuai prototype\n5.2 Ketepatan mengevaluasi Teknologi stack untuk MVP, no-code tools",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: MVP berfungsi (website, app, atau landing page)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 5: latihan terstruktur — Teknologi stack untuk MVP\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknologi stack untuk MVP, no-code tools\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 3 : Iterasi MVP (sprint 1)",
-      "indikator": "Kemampuan menambah fitur berdasarkan prioritas",
-      "kriteria": "MVP versi 1.1",
-      "tatap_muka": "Pengerjaan produk",
-      "daring": "Koding/development; [Praktik: 2×170']",
-      "materi": "Agile development, sprint planning",
-      "bobot": "6%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 3 : Iterasi MVP (sprint 1) (C5–P5, A4) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menambah fitur berdasarkan prioritas\n6.2 Ketepatan mengevaluasi Agile development, sprint planning",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: MVP versi 1.1",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 6: latihan terstruktur — Agile development\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Agile development, sprint planning\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 3 : Finalisasi MVP sebelum user testing",
-      "indikator": "Kemampuan menyelesaikan fitur inti MVP",
-      "kriteria": "MVP siap uji coba",
-      "tatap_muka": "Quality assurance internal",
-      "daring": "Testing internal; [Praktik: 2×170']",
-      "materi": "Bug fixing, deployment ke hosting",
-      "bobot": "6%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 3 : Finalisasi MVP sebelum user testing (C5–P5, A4) (CPMK-2)",
+      "indikator": "7.1 Kemampuan menyelesaikan fitur inti MVP\n7.2 Ketepatan mengevaluasi Bug fixing, deployment ke hosting",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: MVP siap uji coba",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 7: latihan terstruktur — Bug fixing\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Bug fixing, deployment ke hosting\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 8,
-      "deskripsi": "Sub-CPMK 4 : User testing dan iterasi",
-      "indikator": "Kemampuan mendapatkan feedback dari pengguna dan melakukan perbaikan",
-      "kriteria": "Laporan user testing dan MVP hasil iterasi",
-      "tatap_muka": "Uji coba dengan user terbatas",
-      "daring": "Sesi feedback; [Praktik: 2×170']",
-      "materi": "User testing methods, feedback loop",
-      "bobot": "6%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 4 : Pengujian MVP dan iterasi umpan balik (C4–P4, A4) (CPMK-2)",
+      "indikator": "8.1 Kemampuan mendapatkan feedback dari pengguna dan melakukan perbaikan\n8.2 Ketepatan menganalisis User testing methods, feedback loop",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "User testing methods, feedback loop\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 5 : Strategi go-to-market",
-      "indikator": "Kemampuan menyusun rencana peluncuran produk ke pasar",
-      "kriteria": "Dokumen go-to-market strategy",
-      "tatap_muka": "Workshop marketing",
-      "daring": "Sesi sinkron; [Praktik: 2×170']",
-      "materi": "GTM framework, channel strategy",
-      "bobot": "6%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Strategi go-to-market (C4–C5, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menyusun rencana peluncuran produk ke pasar\n9.2 Ketepatan mengevaluasi GTM framework, channel strategy",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Dokumen go-to-market strategy",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 8: latihan terstruktur — GTM framework\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "GTM framework, channel strategy\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 5 : Digital marketing plan",
-      "indikator": "Kemampuan merancang kampanye digital (sosmed, SEO, email, dll)",
-      "kriteria": "Digital marketing plan",
-      "tatap_muka": "Praktik perancangan konten",
-      "daring": "Analisis tools marketing; [Praktik: 2×170']",
-      "materi": "Content marketing, social media ads, SEO",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 5 : Digital marketing plan (C4–C5, A4) (CPMK-3)",
+      "indikator": "10.1 Kemampuan merancang kampanye digital (sosmed, SEO, email, dll)\n10.2 Ketepatan mengevaluasi Content marketing, social media ads, SEO",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Digital marketing plan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 9: latihan terstruktur — Content marketing\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Content marketing, social media ads, SEO\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 6 : Manajemen tim dan agile",
-      "indikator": "Kemampuan mengelola tugas tim dengan agile (daily standup, sprint retrospective)",
-      "kriteria": "Dokumentasi sprint",
-      "tatap_muka": "Simulasi agile",
-      "daring": "Tools manajemen proyek (Trello, Jira); [Praktik: 2×170']",
-      "materi": "Scrum, kanban, role assignment",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Manajemen tim dan agile (C3–C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mengelola tugas tim dengan agile (daily standup, sprint retrospective)\n11.2 Ketepatan menganalisis Scrum, kanban, role assignment",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Dokumentasi sprint",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 10: latihan terstruktur — Scrum\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Scrum, kanban, role assignment\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 7 : Analisis kompetitor",
-      "indikator": "Kemampuan memetakan kompetitor langsung dan tidak langsung, serta posisi pasar",
-      "kriteria": "Competitor analysis report",
-      "tatap_muka": "Diskusi analisis",
-      "daring": "Riset online; [Praktik: 2×170']",
-      "materi": "SWOT competitor, positioning map",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Analisis kompetitor (C4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan memetakan kompetitor langsung dan tidak langsung, serta posisi pasar\n12.2 Ketepatan menganalisis SWOT competitor, positioning map",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Competitor analysis report",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 11: latihan terstruktur — SWOT competitor\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "SWOT competitor, positioning map\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 8 : Rencana bisnis dan proyeksi keuangan",
-      "indikator": "Kemampuan menyusun business plan dan proyeksi pendapatan/biaya sederhana",
-      "kriteria": "Business plan draft",
-      "tatap_muka": "Workshop keuangan",
-      "daring": "Konsultasi; [Praktik: 2×170']",
-      "materi": "Revenue model, cost structure, break-even point",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Rencana bisnis dan proyeksi keuangan (C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menyusun business plan dan proyeksi pendapatan/biaya sederhana\n13.2 Ketepatan mengevaluasi Revenue model, cost structure, break-even point",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Business plan draft",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 12: latihan terstruktur — Revenue model\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Revenue model, cost structure, break-even point\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9 : Persiapan pitching (deck & demo)",
-      "indikator": "Kemampuan membuat pitch deck dan menyiapkan demo produk",
-      "kriteria": "Pitch deck + demo video",
-      "tatap_muka": "Simulasi pitching",
-      "daring": "Latihan presentasi; [Praktik: 2×170']",
-      "materi": "Pitch deck structure, storytelling, demo best practices",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Persiapan pitching (deck & demo) (C6–P5, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan membuat pitch deck dan menyiapkan demo produk\n14.2 Ketepatan merancang Pitch deck structure, storytelling, demo best practices",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Pitch deck + demo video",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 13: latihan terstruktur — Pitch deck structure\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pitch deck structure, storytelling, demo best practices\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 9 : Pitching dan tanya jawab",
-      "indikator": "Kemampuan mempresentasikan startup di depan dosen dan investor (undangan)",
-      "kriteria": "Penilaian pitching (kejelasan, antusiasme, kemampuan menjawab)",
-      "tatap_muka": "Pitching day",
-      "daring": "Presentasi daring (jika diperlukan); [Praktik: 2×170']",
-      "materi": "Presentasi final, Q&A",
-      "bobot": "8%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Pitching dan tanya jawab (C6–P5, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan startup di depan dosen dan investor (undangan)\n15.2 Ketepatan merancang Presentasi final, Q&A",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Penilaian pitching (kejelasan, antusiasme, kemampuan menjawab)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\n[P: 1x(2x170')]\nTugas 14: latihan terstruktur — Presentasi final\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi final, Q&A\n[P1, P2, P3]",
+      "bobot": "8"
     },
     {
-      "minggu": 16,
-      "deskripsi": "Sub-CPMK 10 : Evaluasi proyek dan laporan akhir",
-      "indikator": "Kemampuan menyusun laporan lengkap (proses, hasil, pembelajaran)",
-      "kriteria": "Laporan proyek final",
-      "tatap_muka": "Pengumpulan laporan",
-      "daring": "Konsultasi akhir; [Praktik: 2×170']",
-      "materi": "Struktur laporan, refleksi, lampiran",
-      "bobot": "13%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan menyusun laporan lengkap (proses, hasil, pembelajaran)\n16.2 Ketepatan mengevaluasi struktur laporan, refleksi, lampiran",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Struktur laporan, refleksi, lampiran\n[P1, P2, P3]",
+      "bobot": "13"
     }
   ],
   "bahan_kajian": "1. Ideasi dan validasi proyek technopreneurship\n2. Pengembangan produk minimum viable (MVP)\n3. Strategi go-to-market dan pemasaran digital\n4. Manajemen tim startup dan agile development\n5. Pitching produk kepada pemangku kepentingan\n6. Analisis kompetitor dan positioning pasar\n7. Rencana bisnis dan proyeksi keuangan\n8. Demo produk dan evaluasi proyek akhir",

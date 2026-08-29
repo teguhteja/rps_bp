@@ -1,4 +1,3 @@
-
 {
   "meta": {
     "kode_mk": "TSI1210",
@@ -17,63 +16,732 @@
     "jabatan": "Asisten Ahli"
   },
   "cpl_prodi": [
-    {"kode": "S-01", "tipe": "Sikap", "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius"},
-    {"kode": "S-03", "tipe": "Sikap", "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila"},
-    {"kode": "S-04", "tipe": "Sikap", "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa"},
-    {"kode": "S-06", "tipe": "Sikap", "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"},
-    {"kode": "S-07", "tipe": "Sikap", "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"},
-    {"kode": "S-08", "tipe": "Sikap", "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya"}
+    {
+      "kode": "S-01",
+      "tipe": "Sikap",
+      "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius",
+      "label": "CPL 1 (S-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "S-03",
+      "tipe": "Sikap",
+      "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila",
+      "label": "CPL 2 (S-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "S-04",
+      "tipe": "Sikap",
+      "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa",
+      "label": "CPL 3 (S-04)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "S-05",
+      "tipe": "Sikap",
+      "deskripsi": "Menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain di bidang keahliannya secara mandiri",
+      "label": "CPL 4 (S-05)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "S-06",
+      "tipe": "Sikap",
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan",
+      "label": "CPL 5 (S-06)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "S-07",
+      "tipe": "Sikap",
+      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara",
+      "label": "CPL 6 (S-07)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "S-08",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi",
+      "label": "CPL 7 (S-08)",
+      "nomor": "CPL 7"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "S-01, S-03", "deskripsi": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional"},
-    {"kode": "CPMK-2", "cpl": "S-04, S-07", "deskripsi": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia"},
-    {"kode": "CPMK-3", "cpl": "S-06, KU-06", "deskripsi": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila"},
-    {"kode": "CPMK-4", "cpl": "S-03, S-08", "deskripsi": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara"},
-    {"kode": "CPMK-5", "cpl": "S-07, KU-01", "deskripsi": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-01, S-03",
+      "deskripsi": "Mampu menjelaskan konsep dan urgensi pendidikan kewarganegaraan serta identitas nasional (CPL 1, CPL 2)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "S-04, S-07",
+      "deskripsi": "Mampu menganalisis konstitusi (UUD NRI 1945) dan sistem ketatanegaraan Indonesia (CPL 3, CPL 6)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-05, S-06",
+      "deskripsi": "Mampu mengidentifikasi hak, kewajiban, dan peran warga negara dalam demokrasi Pancasila (CPL 4, CPL 5)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-03, S-08",
+      "deskripsi": "Mampu menjelaskan wawasan nusantara, ketahanan nasional, dan bela negara (CPL 2, CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-07",
+      "deskripsi": "Mampu menginternalisasi nilai-nilai anti korupsi dan menerapkannya dalam kehidupan profesional di bidang teknologi informasi (CPL 6)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep, tujuan, dan ruang lingkup pendidikan kewarganegaraan di perguruan tinggi", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menguraikan identitas nasional dan integrasi nasional", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menjelaskan sejarah, isi, dan makna UUD NRI 1945 serta konstitusi", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C2"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis sistem ketatanegaraan (lembaga negara, pembagian kekuasaan)", "cpmk": "CPMK-2", "minggu": "4", "cpl": "C4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu mengidentifikasi hak dan kewajiban warga negara berdasarkan UUD 1945", "cpmk": "CPMK-3", "minggu": "5", "cpl": "C3"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menjelaskan konsep demokrasi Pancasila dan negara hukum", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C2"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan wawasan nusantara sebagai geopolitik Indonesia", "cpmk": "CPMK-4", "minggu": "7", "cpl": "C2"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu menganalisis ketahanan nasional dan konsep bela negara", "cpmk": "CPMK-4", "minggu": "9", "cpl": "C4"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menjelaskan nilai-nilai anti korupsi dan upaya pemberantasannya", "cpmk": "CPMK-5", "minggu": "10-11", "cpl": "C2"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyusun karya tulis atau presentasi tentang isu kebangsaan dan anti korupsi", "cpmk": "CPMK-5", "minggu": "12-15", "cpl": "C5-C6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep, tujuan, dan ruang lingkup pendidikan kewarganegaraan di perguruan tinggi (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menguraikan identitas nasional dan integrasi nasional (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menjelaskan sejarah, isi, dan makna UUD NRI 1945 serta konstitusi (C2, A2) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menganalisis sistem ketatanegaraan (lembaga negara, pembagian kekuasaan) (C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengidentifikasi hak dan kewajiban warga negara berdasarkan UUD 1945 (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "5",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menjelaskan konsep demokrasi Pancasila dan negara hukum (C2, A2) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan wawasan nusantara sebagai geopolitik Indonesia (C2, A2) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "7",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menganalisis ketahanan nasional dan konsep bela negara (C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menjelaskan nilai-nilai anti korupsi dan upaya pemberantasannya (C2, A2) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "10-11",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyusun karya tulis, poster, atau video kampanye tentang isu kebangsaan dan anti korupsi (C5-C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12-15",
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "43%",
+      "c1": "0%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "10%",
+      "c5": "23%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "27%",
+      "c1": "7%",
+      "c2": "4%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "11%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3.8%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "7.5%",
+      "c5": "7.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "10.8%",
+      "c2": "12.8%",
+      "c3": "13.8%",
+      "c4": "21.2%",
+      "c5": "41.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.6",
+      "p2": "2.6",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "5.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.1",
+      "p2": "3.1",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "6.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "3.1",
+      "p4": "",
+      "p5": "",
+      "p6": "3.1",
+      "p7": "",
+      "bobot": "6.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "3.6",
+      "p4": "",
+      "p5": "",
+      "p6": "3.5",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.6",
+      "p5": "3.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.6",
+      "p5": "3.5",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "3.6",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "3.5",
+      "bobot": "7.1",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "5",
+      "bobot": "10",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "15",
+      "p7": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "29",
+      "p7": "",
+      "bobot": "29",
+      "minggu": "4"
+    },
+    {
+      "sub": "Total",
+      "p1": "5.7",
+      "p2": "14.3",
+      "p3": "6.7",
+      "p4": "7.2",
+      "p5": "7",
+      "p6": "50.6",
+      "p7": "8.5",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Konsep dan urgensi Pendidikan Kewarganegaraan", "indikator": "Ketepatan menjelaskan tujuan dan ruang lingkup MKWU Kewarganegaraan", "kriteria": "Kuis online, tanya jawab", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pengertian, landasan hukum, tujuan pendidikan kewarganegaraan di PT, hubungan dengan profil lulusan", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Identitas nasional dan integrasi nasional", "indikator": "Kemampuan menguraikan unsur-unsur identitas nasional dan faktor pendorong integrasi", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Identitas nasional (bahasa, budaya, sejarah, simbol negara), integrasi nasional, tantangan disintegrasi", "bobot": "4%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Konstitusi dan UUD NRI 1945", "indikator": "Kemampuan menjelaskan sejarah dan isi UUD 1945", "kriteria": "Kuis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen), isi UUD NRI 1945", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 4: Sistem ketatanegaraan Indonesia", "indikator": "Kemampuan menganalisis lembaga negara dan mekanisme checks and balances", "kriteria": "Tugas individu: peta konsep", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "MPR, DPR, DPD, Presiden, MA, MK, BPK; pembagian kekuasaan eksekutif, legislatif, yudikatif", "bobot": "5%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 5: Hak dan kewajiban warga negara", "indikator": "Kemampuan mengidentifikasi hak asasi dan kewajiban berdasarkan UUD 1945", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Hak warga negara (pasal 27-34), kewajiban (membayar pajak, bela negara, menghormati hukum)", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 6: Demokrasi Pancasila dan negara hukum", "indikator": "Kemampuan menjelaskan prinsip demokrasi Pancasila dan rule of law", "kriteria": "Diskusi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Demokrasi Pancasila (kerakyatan, musyawarah), negara hukum (rechtstaat), supremasi hukum", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 7: Wawasan nusantara", "indikator": "Kemampuan menjelaskan konsep geopolitik Indonesia", "kriteria": "Tugas individu: esai", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Wawasan nusantara sebagai cara pandang, asas (kepulauan, archipelago), implementasi", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep identitas nasional, konstitusi, demokrasi, wawasan nusantara", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 8: Ketahanan nasional dan bela negara", "indikator": "Kemampuan menganalisis konsep ketahanan nasional dan bentuk bela negara", "kriteria": "Tugas kelompok: analisis", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Ketahanan nasional (astagatra), bela negara (fisik dan nonfisik), peran mahasiswa", "bobot": "6%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 9: Nilai-nilai anti korupsi (bagian 1)", "indikator": "Kemampuan menjelaskan definisi, jenis, dan dampak korupsi", "kriteria": "Studi kasus", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Definisi korupsi (UU 31/1999), jenis (suap, gratifikasi, penggelapan), dampak ekonomi dan sosial", "bobot": "6%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 9: Pendidikan anti korupsi dan integritas", "indikator": "Kemampuan menginternalisasi 9 nilai anti korupsi", "kriteria": "Kuis, refleksi", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)", "bobot": "6%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 10: Proyek kebangsaan – perencanaan", "indikator": "Kemampuan memilih isu kebangsaan atau anti korupsi untuk kajian", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Pemilihan topik (korupsi di lingkungan kampus, nasionalisme generasi milenial, dll)", "bobot": "6%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Pengumpulan data dan analisis", "indikator": "Kemampuan mengumpulkan data/informasi dan menganalisis", "kriteria": "Progress report", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Metode pengumpulan data, wawancara, kuesioner, studi literatur", "bobot": "6%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Penyusunan laporan dan poster", "indikator": "Kemampuan menyusun laporan dan poster kampanye anti korupsi/nasionalisme", "kriteria": "Tugas kelompok: laporan", "tatap_muka": "Kuliah TM: 2x50", "daring": "Kuliah daring sinkron; TM: 2x50", "materi": "Penulisan laporan, desain poster, pesan kampanye", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi proyek", "indikator": "Kemampuan mempresentasikan hasil proyek kebangsaan", "kriteria": "Presentasi kelompok (10 menit)", "tatap_muka": "Kuliah TM: 2x50", "daring": "Presentasi daring sinkron; TM: 2x50", "materi": "Presentasi laporan, poster, tanya jawab", "bobot": "8%"},
-    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang ketahanan nasional, bela negara, anti korupsi, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 2x50", "daring": "Ujian daring sinkron; TM: 2x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "15%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dan urgensi Pendidikan Kewarganegaraan (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan tujuan dan ruang lingkup MKWU Kewarganegaraan\n1.2 Ketepatan menjelaskan pengertian, landasan hukum\n1.3 Ketepatan menguraikan hubungan dengan profil lulusan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 1: latihan terstruktur — Pengertian\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengertian, landasan hukum, tujuan pendidikan kewarganegaraan di PT, hubungan dengan profil lulusan\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Identitas nasional dan integrasi nasional (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menguraikan unsur-unsur identitas nasional dan faktor pendorong integrasi\n2.2 Ketepatan menjelaskan Identitas nasional (bahasa, budaya, sejarah, simbol negara), integrasi nasional, tantangan disintegrasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 2: latihan terstruktur — Identitas nasional (bahasa\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Identitas nasional (bahasa, budaya, sejarah, simbol negara), integrasi nasional, tantangan disintegrasi\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Konstitusi dan UUD NRI 1945 (C2, A2) (CPMK-2)",
+      "indikator": "3.1 Kemampuan menjelaskan sejarah dan isi UUD 1945\n3.2 Ketepatan menjelaskan sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen)\n3.3 Ketepatan menguraikan isi UUD NRI 1945",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Kuis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 3: latihan terstruktur — Sejarah konstitusi (UUD 1945\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sejarah konstitusi (UUD 1945, RIS, UUDS 1950, kembali ke UUD 1945, amandemen), isi UUD NRI 1945\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Sistem ketatanegaraan Indonesia (C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menganalisis lembaga negara dan mekanisme checks and balances\n4.2 Ketepatan menganalisis MPR, DPR, DPD, Presiden, MA, MK, BPK\n4.3 Kemampuan membandingkan pembagian kekuasaan eksekutif, legislatif, yudikatif",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: peta konsep",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — MPR\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "MPR, DPR, DPD, Presiden, MA, MK, BPK; pembagian kekuasaan eksekutif, legislatif, yudikatif\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : Hak dan kewajiban warga negara (C3, A3) (CPMK-3)",
+      "indikator": "5.1 Kemampuan mengidentifikasi hak asasi dan kewajiban berdasarkan UUD 1945\n5.2 Ketepatan menerapkan Hak warga negara (pasal 27-34)\n5.3 Kemampuan menggunakan kewajiban (membayar pajak, bela negara, menghormati hukum)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 5: studi kasus — Hak warga negara\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Hak warga negara (pasal 27-34), kewajiban (membayar pajak, bela negara, menghormati hukum)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 6 : Demokrasi Pancasila dan negara hukum (C2, A2) (CPMK-3)",
+      "indikator": "6.1 Kemampuan menjelaskan prinsip demokrasi Pancasila dan rule of law\n6.2 Ketepatan menjelaskan Demokrasi Pancasila (kerakyatan, musyawarah)\n6.3 Ketepatan menguraikan negara hukum (rechtstaat), supremasi hukum",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 6: latihan terstruktur — Demokrasi Pancasila (kerakyatan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Demokrasi Pancasila (kerakyatan, musyawarah), negara hukum (rechtstaat), supremasi hukum\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 7 : Wawasan nusantara (C2, A2) (CPMK-4)",
+      "indikator": "7.1 Kemampuan menjelaskan konsep geopolitik Indonesia\n7.2 Ketepatan menjelaskan Wawasan nusantara sebagai cara pandang\n7.3 Ketepatan menguraikan asas (kepulauan, archipelago), implementasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: esai",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 7: esai — Wawasan nusantara sebagai cara pandang\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Wawasan nusantara sebagai cara pandang, asas (kepulauan, archipelago), implementasi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6,7\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep identitas nasional, konstitusi, demokrasi, wawasan nusantara\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 8 : Ketahanan nasional dan bela negara (C4, A4) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menganalisis konsep ketahanan nasional dan bentuk bela negara\n9.2 Ketepatan menganalisis bela negara (fisik dan nonfisik), peran mahasiswa",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Ketahanan nasional\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Ketahanan nasional (astagatra), bela negara (fisik dan nonfisik), peran mahasiswa\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 9 : Nilai-nilai anti korupsi (bagian 1) (C2, A2) (CPMK-5)",
+      "indikator": "10.1 Kemampuan menjelaskan definisi, jenis, dan dampak korupsi\n10.2 Ketepatan menjelaskan jenis (suap, gratifikasi, penggelapan)\n10.3 Ketepatan menguraikan dampak ekonomi dan sosial",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 9: studi kasus — Definisi korupsi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Definisi korupsi (UU 31/1999), jenis (suap, gratifikasi, penggelapan), dampak ekonomi dan sosial\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 9 : Pendidikan anti korupsi dan integritas (C2, A2) (CPMK-5)",
+      "indikator": "11.1 Kemampuan menginternalisasi 9 nilai anti korupsi\n11.2 Ketepatan menjelaskan 9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: refleksi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 10: latihan terstruktur — 9 nilai anti korupsi (jujur\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "9 nilai anti korupsi (jujur, adil, berani, tanggung jawab, sederhana, mandiri, disiplin, kerja keras, peduli)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek kebangsaan – perencanaan (C5-C6, A5) (CPMK-5)",
+      "indikator": "12.1 Kemampuan memilih isu kebangsaan, anti korupsi, atau anti perundungan siber untuk kajian\n12.2 Ketepatan merancang Pemilihan topik (korupsi digital, nasionalisme generasi milenial, cyberbullying, hoaks)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 11: proyek — Pemilihan topik (korupsi digital\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan topik (korupsi digital, nasionalisme generasi milenial, cyberbullying, hoaks)\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 10 : Pengumpulan data dan analisis (C5-C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan mengumpulkan data/informasi dan menganalisis\n13.2 Ketepatan merancang metode pengumpulan data, wawancara, kuesioner, studi literatur\n13.3 Kemampuan menyusun analisis konten digital",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Progress report",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 12: latihan terstruktur — Metode pengumpulan data\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Metode pengumpulan data, wawancara, kuesioner, studi literatur, analisis konten digital\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Penyusunan laporan dan poster/kampanye (C5-C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menyusun laporan dan poster/video kampanye kebangsaan/anti korupsi\n14.2 Ketepatan merancang Penulisan laporan, desain poster, pesan kampanye\n14.3 Kemampuan menyusun pembuatan video pendek",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 13: laporan — Penulisan laporan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Penulisan laporan, desain poster, pesan kampanye, pembuatan video pendek\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi proyek (C5-C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan hasil proyek kebangsaan\n15.2 Ketepatan merancang Presentasi laporan, poster/video, tanya jawab",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (10 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 14: presentasi — Presentasi laporan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi laporan, poster/video, tanya jawab\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang ketahanan nasional, bela negara, anti korupsi, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1-15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "15"
+    }
   ],
-  "bahan_kajian": "1. Konsep dan urgensi Pendidikan Kewarganegaraan\n2. Identitas nasional dan integrasi nasional\n3. Konstitusi dan UUD NRI 1945\n4. Hak dan kewajiban warga negara\n5. Demokrasi Pancasila dan negara hukum\n6. Pendidikan antikorupsi\n7. Wawasan nusantara dan ketahanan nasional\n8. Bela negara dan komitmen kebangsaan",
+  "bahan_kajian": "1. Konsep dan urgensi Pendidikan Kewarganegaraan\n2. Identitas nasional dan integrasi nasional\n3. Konstitusi dan UUD NRI 1945\n4. Hak dan kewajiban warga negara\n5. Demokrasi Pancasila dan negara hukum\n6. Pendidikan antikorupsi\n7. Wawasan nusantara dan ketahanan nasional\n8. Bela negara dan komitmen kebangsaan\n9. Isu kebangsaan di era digital (hoaks, cyberbullying, nasionalisme digital)",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Kaelan, M.S. (2016). *Pendidikan Kewarganegaraan untuk Perguruan Tinggi*. Paradigma."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Winarno, S.H. (2019). *Paradigma Baru Pendidikan Kewarganegaraan*. Bumi Aksara."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Tim Dosen PKn Universitas Indonesia. (2015). *Pendidikan Kewarganegaraan: Demokrasi, HAM, dan Masyarakat Madani*. Prenada Media."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Kaelan, M.S. (2016). *Pendidikan Kewarganegaraan untuk Perguruan Tinggi*. Paradigma."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Winarno, S.H. (2019). *Paradigma Baru Pendidikan Kewarganegaraan*. Bumi Aksara."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Tim Dosen PKn Universitas Indonesia. (2015). *Pendidikan Kewarganegaraan: Demokrasi, HAM, dan Masyarakat Madani*. Prenada Media."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Amandemen)."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Komisi Pemberantasan Korupsi. (2019). *Modul Pendidikan Anti Korupsi untuk Perguruan Tinggi*. KPK."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Amandemen)."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Komisi Pemberantasan Korupsi. (2019). *Modul Pendidikan Anti Korupsi untuk Perguruan Tinggi*. KPK."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep kewarganegaraan, identitas nasional, konstitusi, demokrasi Pancasila, hak dan kewajiban warga negara, wawasan nusantara, ketahanan nasional, bela negara, serta pendidikan anti korupsi. Mahasiswa diajak untuk berpikir kritis dan bertanggung jawab sebagai warga negara yang baik, menjunjung tinggi nilai-nilai Pancasila dan UUD 1945, serta berperan aktif dalam menjaga keutuhan NKRI. Penekanan diberikan pada internalisasi nilai integritas, anti korupsi, dan semangat bela negara dalam konteks profesional di bidang teknologi informasi.",
-  "matakuliah_syarat": "-"
+  "matakuliah_syarat": "-",
+  "rancangan_tugas_proyek": {
+    "tujuan": "Mahasiswa mampu merefleksikan dan mengimplementasikan nilai-nilai kebangsaan, anti korupsi, dan anti perundungan siber melalui proyek nyata di lingkungan kampus atau masyarakat.",
+    "kompetensi": [
+      "Penalaran dan pemecahan masalah (reasoning and problem solving)",
+      "Pemahaman pada pengetahuan (content knowledge)",
+      "Bekerja sama dalam tim kerja (teamwork and collaboration)",
+      "Komunikasi lisan dan tulisan (oral and written communication)",
+      "Belajar mandiri terarah (self-directed learning)",
+      "Pengelolaan proyek (project management)"
+    ],
+    "uraian_tugas": {
+      "objek_garapan": "Menggugah Kembali Sikap dan Nilai-Nilai Berbangsa, Anti Korupsi, dan Anti Perundungan Siber Menuju Era Society 5.0 (dengan fokus pada peran teknologi informasi)",
+      "langkah_kerja": [
+        "Membentuk tim kelompok terdiri dari 4-5 mahasiswa",
+        "Menentukan topik yang akan dipilih (dari tiga topik utama)",
+        "Mencari dan menemukan masalah di masyarakat/kampus terkait topik (misal: korupsi kecil di lingkungan kampus, perundungan di media sosial, rendahnya nasionalisme digital)",
+        "Membuat konsep kegiatan dan dipresentasikan (proposal proyek)",
+        "Menyusun proposal kegiatan secara lengkap",
+        "Mengimplementasikan rencana solusi kegiatan (misal: kampanye, sosialisasi, pembuatan konten edukatif, survei)",
+        "Menyusun laporan kegiatan",
+        "Mempresentasikan hasil kegiatan melalui dokumentasi (video, poster, foto, materi presentasi)"
+      ],
+      "topik": [
+        "Anti Korupsi (fokus pada integritas digital, gratifikasi dalam proyek TI, atau transparansi data)",
+        "Nasionalisme Digital (cara menangkal hoaks, menjaga etika bermedia sosial, mempromosikan budaya Indonesia di dunia digital)",
+        "Anti Perundungan Siber (Cyberbullying) – pencegahan dan penanganan di lingkungan kampus"
+      ],
+      "metode_kerja": [
+        "Penyusunan rumusan masalah",
+        "Mendesain perencanaan proyek",
+        "Membaca dan mencari materi yang akan dijadikan proyek (studi literatur, regulasi, best practices)",
+        "Menulis proposal",
+        "Mengimplementasikan dan membuat dokumentasi (foto, video, poster)",
+        "Membuat laporan",
+        "Mempresentasikan",
+        "Merefleksikan (menulis jurnal refleksi kelompok)"
+      ],
+      "luaran_tugas": [
+        "Proposal proyek (PDF)",
+        "Laporan akhir proyek (PDF)",
+        "Poster kampanye (digital, bisa dicetak A3)",
+        "Video dokumentasi kegiatan atau video edukasi (durasi 2-5 menit)",
+        "Survei masyarakat/kampus (hasil pengukuran dampak)"
+      ]
+    },
+    "kriteria_penilaian": {
+      "penyusunan_proposal": {
+        "bobot": "20%",
+        "deskripsi": "Sistematika sesuai panduan, kelengkapan, bahasa Indonesia baku (EYD), rumusan masalah yang jelas."
+      },
+      "pengimplementasian_proyek": {
+        "bobot": "40%",
+        "deskripsi": "Kegiatan dilaksanakan sesuai rencana (luring/daring). Manajemen proyek (komunikasi, penguasaan materi, pengelolaan tim). Dokumentasi kegiatan lengkap."
+      },
+      "penyusunan_laporan": {
+        "bobot": "20%",
+        "deskripsi": "Sistematika laporan sesuai panduan, kelengkapan dokumentasi (foto, video, poster, survei, materi pendukung). Analisis dampak kegiatan."
+      },
+      "presentasi": {
+        "bobot": "20%",
+        "deskripsi": "Keterampilan komunikasi, penguasaan materi, pengendalian waktu, kejelasan paparan, penguasaan media presentasi (PPT, poster, video)."
+      }
+    }
+  },
+  "rubrik_penilaian": {
+    "rubrik_holistik_proposal_laporan": [
+      {
+        "grade": "Sangat kurang",
+        "skor_min": 0,
+        "skor_max": 20,
+        "kriteria": "Proposal/laporan dibuat tidak sesuai dengan sistematika dan tidak menyelesaikan permasalahan."
+      },
+      {
+        "grade": "Kurang",
+        "skor_min": 21,
+        "skor_max": 40,
+        "kriteria": "Proposal/laporan dibuat sesuai dengan sistematika, tetapi kurang menyelesaikan permasalahan."
+      },
+      {
+        "grade": "Cukup",
+        "skor_min": 41,
+        "skor_max": 60,
+        "kriteria": "Proposal/laporan dibuat sesuai sistematika, menyelesaikan masalah, tetapi kurang dapat diimplementasikan."
+      },
+      {
+        "grade": "Baik",
+        "skor_min": 61,
+        "skor_max": 80,
+        "kriteria": "Proposal/laporan sesuai sistematika, menyelesaikan masalah, dapat diimplementasikan, tetapi kurang inovatif."
+      },
+      {
+        "grade": "Sangat baik",
+        "skor_min": 81,
+        "skor_max": 100,
+        "kriteria": "Proposal/laporan sesuai sistematika, menyelesaikan masalah, dapat diimplementasikan, dan inovatif."
+      }
+    ],
+    "rubrik_deskriptif_presentasi": {
+      "aspek_yang_dinilai": [
+        "Organisasi presentasi (alur, pembukaan-isi-penutup)",
+        "Isi materi (kedalaman, relevansi, akurasi)",
+        "Kemampuan komunikasi (bahasa, intonasi, kejelasan)",
+        "Penguasaan materi (tidak membaca teks, mampu menjawab pertanyaan)",
+        "Kemampuan menghadapi pertanyaan",
+        "Penggunaan alat peraga/media presentasi (PPT, poster, video)",
+        "Ketepatan menyelesaikan masalah (solusi yang ditawarkan)"
+      ],
+      "skala_penilaian": {
+        "sangat_kurang": {
+          "min": 0,
+          "max": 20
+        },
+        "kurang": {
+          "min": 21,
+          "max": 40
+        },
+        "cukup": {
+          "min": 41,
+          "max": 60
+        },
+        "baik": {
+          "min": 61,
+          "max": 80
+        },
+        "sangat_baik": {
+          "min": 81,
+          "max": 100
+        }
+      },
+      "format_penilaian": "setiap aspek dinilai dengan skala 0-100 kemudian dirata-rata"
+    }
+  }
 }

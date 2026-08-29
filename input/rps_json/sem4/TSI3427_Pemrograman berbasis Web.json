@@ -17,310 +17,607 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
     },
     {
-      "kode": "KK-04",
+      "kode": "KK-05",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 7 (KK-05)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-08",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 8 (KK-08)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-10",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi",
+      "label": "CPL 9 (KK-10)",
+      "nomor": "CPL 9"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital",
+      "label": "CPL 10 (KK-11)",
+      "nomor": "CPL 10"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami arsitektur web dan protokol HTTP/HTTPS, serta perbedaan antara frontend dan backend"
+      "deskripsi": "Mampu memahami arsitektur web dan protokol HTTP/HTTPS, serta perbedaan antara frontend dan backend (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-03, KK-03",
-      "deskripsi": "Mampu membuat halaman web dinamis menggunakan HTML5, CSS3, dan JavaScript dasar (DOM, event, AJAX)"
+      "deskripsi": "Mampu membuat halaman web dinamis menggunakan HTML5, CSS3, dan JavaScript dasar (DOM, event, AJAX) (CPL 2, CPL 6)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-02, KK-08",
-      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server (PHP/Node.js) dan integrasi basis data pada aplikasi web"
+      "cpl": "KU-02, KK-05, KK-08",
+      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server (PHP/Node.js) dan integrasi basis data pada aplikasi web (CPL 4, CPL 7, CPL 8)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "KK-01, KK-04",
-      "deskripsi": "Mampu merancang dan mengkonsumsi RESTful API, serta memahami keamanan dasar aplikasi web (OWASP Top 10)"
+      "cpl": "KK-01",
+      "deskripsi": "Mampu merancang dan mengkonsumsi RESTful API, serta memahami keamanan dasar aplikasi web (OWASP Top 10) (CPL 5)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KK-03, KK-08",
-      "deskripsi": "Mampu membangun proyek aplikasi web berbasis sistem informasi secara berkelompok dengan menerapkan seluruh materi"
+      "cpl": "KK-03, KK-08, KK-10, KK-11",
+      "deskripsi": "Mampu membangun proyek aplikasi web berbasis sistem informasi secara berkelompok dengan menerapkan seluruh materi (CPL 6, CPL 8, CPL 9, CPL 10)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan arsitektur web (client-server, request-response) dan protokol HTTP/HTTPS",
+      "deskripsi": "Mampu menjelaskan arsitektur web (client-server, request-response) dan protokol HTTP/HTTPS (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu membuat struktur HTML5 dan styling CSS3 (layout, flexbox, grid, responsif)",
+      "deskripsi": "Mampu membuat struktur HTML5 dan styling CSS3 (layout, flexbox, grid, responsif) (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "2–3",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menggunakan JavaScript untuk manipulasi DOM, event handling, dan AJAX/fetch",
+      "deskripsi": "Mampu menggunakan JavaScript untuk manipulasi DOM, event handling, dan AJAX/fetch (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server dengan PHP/Node.js (dasar routing, session)",
+      "deskripsi": "Mampu mengimplementasikan pemrograman sisi server dengan PHP/Node.js (dasar routing, session) (C3–P4, A3) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "6–7",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu mengintegrasikan basis data (MySQL/MongoDB) ke aplikasi web menggunakan PDO atau ORM",
+      "deskripsi": "Mampu mengintegrasikan basis data (MySQL/MongoDB) ke aplikasi web menggunakan PDO atau ORM (C4–P4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "8–9",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu merancang RESTful API (endpoint, method, response) dan mengkonsumsi API dari frontend",
+      "deskripsi": "Mampu merancang RESTful API (endpoint, method, response) dan mengkonsumsi API dari frontend (C4–P5, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C4–P5"
+      "taksonomi": "C4–P5, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menjelaskan dan menerapkan keamanan dasar web (input validation, SQL injection, XSS, CSRF)",
+      "deskripsi": "Mampu menjelaskan dan menerapkan keamanan dasar web (input validation, SQL injection, XSS, CSRF) (C3–C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menggunakan framework frontend sederhana (React/Vue dasar) untuk meningkatkan interaktivitas",
+      "deskripsi": "Mampu menggunakan framework frontend sederhana (React/Vue dasar) untuk meningkatkan interaktivitas (C3–P4, A3) (CPMK-2, CPMK-4)",
       "cpmk": "CPMK-2, CPMK-4",
       "minggu": "13",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu mengembangkan proyek aplikasi web lengkap (frontend + backend + database) secara kelompok",
+      "deskripsi": "Mampu mengembangkan proyek aplikasi web lengkap (frontend + backend + database) secara kelompok (C5–P5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "14–15",
-      "cpl": "C5–P5"
+      "taksonomi": "C5–P5, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mempresentasikan dan mendokumentasikan proyek web serta mengintegrasikan seluruh konsep",
+      "deskripsi": "Mampu mempresentasikan dan mendokumentasikan proyek web serta mengintegrasikan seluruh konsep (C6–P6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "16",
-      "cpl": "C6–P6"
+      "taksonomi": "C6–P6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "√",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "71%",
+      "c1": "5%",
+      "c2": "21.5%",
+      "c3": "15%",
+      "c4": "17.5%",
+      "c5": "12%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "14%",
+      "c1": "0%",
+      "c2": "3.5%",
+      "c3": "3.5%",
+      "c4": "3.5%",
+      "c5": "3.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "10%",
+      "c2": "30%",
+      "c3": "23.5%",
+      "c4": "21%",
+      "c5": "15.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.4",
+      "p2": "",
+      "p3": "4.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "",
+      "p2": "6.9",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.9",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "6.4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.3",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "12.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.6",
+      "p5": "",
+      "p6": "",
+      "p7": "4.6",
+      "p8": "4.5",
+      "p9": "",
+      "p10": "",
+      "bobot": "13.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "2.6",
+      "p5": "",
+      "p6": "",
+      "p7": "2.6",
+      "p8": "2.6",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "12.8",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "12.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "7.8",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "2.6",
+      "p3": "",
+      "p4": "",
+      "p5": "2.6",
+      "p6": "2.6",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.7",
+      "p7": "",
+      "p8": "3.7",
+      "p9": "3.7",
+      "p10": "3.7",
+      "bobot": "14.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "4.4",
+      "p2": "15.9",
+      "p3": "4.4",
+      "p4": "7.2",
+      "p5": "23.2",
+      "p6": "19.5",
+      "p7": "7.2",
+      "p8": "10.8",
+      "p9": "3.7",
+      "p10": "3.7",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Arsitektur web dan protokol HTTP/HTTPS",
-      "indikator": "Ketepatan menjelaskan client-server, request-response, metode HTTP (GET, POST, PUT, DELETE), dan status code",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: analisis paket HTTP dengan browser dev tools",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Arsitektur web; protokol HTTP/HTTPS; metode HTTP; header; cookie; session; URL",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Arsitektur web dan protokol HTTP/HTTPS (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan client-server, request-response, metode HTTP (GET, POST, PUT, DELETE), dan status code\n1.2 Ketepatan menjelaskan arsitektur web, protokol HTTP/HTTPS, metode HTTP, header, cookie, session, URL",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: latihan soal — Arsitektur web; protokol HTTP/HTTPS; metode HTTP; header; cookie; session; URL\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Arsitektur web; protokol HTTP/HTTPS; metode HTTP; header; cookie; session; URL\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2 : HTML5 dan CSS3 dasar",
-      "indikator": "Kemampuan membuat halaman web dengan elemen semantik HTML5 dan styling CSS (color, font, box model)",
-      "kriteria": "Tugas praktik (halaman profil sederhana)",
-      "tatap_muka": "Praktik HTML/CSS TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri dengan code editor; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "HTML5: struktur, elemen semantik, form, tabel; CSS3: selector, properti, box model, positioning",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : HTML5 dan CSS3 dasar (C3–P4, A3) (CPMK-2)",
+      "indikator": "2.1 Kemampuan membuat halaman web dengan elemen semantik HTML5 dan styling CSS (color, font, box model)\n2.2 Ketepatan menerapkan HTML5: struktur, elemen semantik, form, tabel\n2.3 Kemampuan menggunakan CSS3: selector, properti, box model, positioning",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (halaman profil sederhana)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: tugas terstruktur — HTML5: struktur\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "HTML5: struktur, elemen semantik, form, tabel; CSS3: selector, properti, box model, positioning\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : CSS layout (flexbox, grid) dan responsif",
-      "indikator": "Kemampuan membuat layout responsif menggunakan flexbox, grid, dan media query",
-      "kriteria": "Tugas praktik (landing page responsif)",
-      "tatap_muka": "Praktik CSS lanjutan TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Flexbox, CSS Grid, responsive design, mobile-first, framework CSS (Bootstrap/Tailwind pengantar)",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : CSS layout (flexbox, grid) dan responsif (C3–P4, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan membuat layout responsif menggunakan flexbox, grid, dan media query\n3.2 Ketepatan menerapkan Flexbox, CSS Grid, responsive design, mobile-first\n3.3 Kemampuan menggunakan framework CSS (Bootstrap/Tailwind pengantar)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (landing page responsif)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — Flexbox\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Flexbox, CSS Grid, responsive design, mobile-first, framework CSS (Bootstrap/Tailwind pengantar)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : JavaScript dasar (variabel, fungsi, DOM)",
-      "indikator": "Kemampuan menulis kode JavaScript untuk memanipulasi DOM dan event handling",
-      "kriteria": "Kuis online; Tugas coding (interaksi sederhana)",
-      "tatap_muka": "Kuliah + praktik JS TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "JavaScript: tipe data, variabel, fungsi, event, DOM manipulation, debugging",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : JavaScript dasar (variabel, fungsi, DOM) (C3–P4, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menulis kode JavaScript untuk memanipulasi DOM dan event handling\n4.2 Ketepatan menerapkan JavaScript: tipe data, variabel, fungsi, event, DOM manipulation, debugging",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas coding (interaksi sederhana)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — JavaScript: tipe data\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "JavaScript: tipe data, variabel, fungsi, event, DOM manipulation, debugging\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : JavaScript lanjutan (AJAX, fetch API, JSON)",
-      "indikator": "Kemampuan melakukan request asinkron ke API dan memproses data JSON",
-      "kriteria": "Tugas praktik (fetch data dari API publik)",
-      "tatap_muka": "Praktik AJAX/fetch TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "AJAX, fetch API, promise, async/await, JSON, manipulasi data, error handling",
-      "bobot": "4%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : JavaScript lanjutan (AJAX, fetch API, JSON) (C3–P4, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan melakukan request asinkron ke API dan memproses data JSON\n5.2 Ketepatan menerapkan AJAX, fetch API, promise, async/await, JSON, manipulasi data, error handling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (fetch data dari API publik)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: tugas terstruktur — AJAX\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "AJAX, fetch API, promise, async/await, JSON, manipulasi data, error handling\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Pemrograman sisi server (PHP/Node.js) dasar",
-      "indikator": "Kemampuan membuat server sederhana, routing, dan menangani request",
-      "kriteria": "Kuis online; Tugas coding (hello world server)",
-      "tatap_muka": "Kuliah + praktik server-side TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Pengenalan PHP/Node.js; instalasi; variabel server; request/response; session; cookie",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Pemrograman sisi server (PHP/Node.js) dasar (C3–P4, A3) (CPMK-3)",
+      "indikator": "6.1 Kemampuan membuat server sederhana, routing, dan menangani request\n6.2 Ketepatan menerapkan Pengenalan PHP/Node.js, instalasi, variabel server, request/response, session, cookie",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas coding (hello world server)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: tugas terstruktur — Pengenalan PHP/Node.js; instalasi; variabel server; request/response; session; cookie\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengenalan PHP/Node.js; instalasi; variabel server; request/response; session; cookie\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 4 : Routing dan template engine",
-      "indikator": "Kemampuan membuat routing dinamis dan menggunakan template engine (Blade/EJS)",
-      "kriteria": "Tugas kelompok (routing sederhana)",
-      "tatap_muka": "Praktik routing TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Routing parameter; middleware; template engine; layout; partials",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : Routing dan template engine (C3–P4, A3) (CPMK-3)",
+      "indikator": "7.1 Kemampuan membuat routing dinamis dan menggunakan template engine (Blade/EJS)\n7.2 Ketepatan menerapkan Routing parameter, middleware, template engine, layout, partials",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (routing sederhana)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: tugas terstruktur — Routing parameter; middleware; template engine; layout; partials\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Routing parameter; middleware; template engine; layout; partials\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester (teori + praktik)",
-      "indikator": "Menjawab soal konsep dan membuat aplikasi web sederhana (HTML/CSS/JS + server dasar)",
-      "kriteria": "Ujian praktik online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50; Praktik: 1x170",
-      "daring": "Ujian daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep dan membuat aplikasi web sederhana (HTML/CSS/JS + server dasar)\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 5 : Integrasi basis data (MySQL/MongoDB)",
-      "indikator": "Kemampuan menghubungkan aplikasi web ke database, melakukan CRUD",
-      "kriteria": "Tugas praktik (CRUD dengan database)",
-      "tatap_muka": "Kuliah + praktik DB TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Koneksi database (PDO, MySQLi, Mongoose); query CRUD; prepared statement; migration",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Integrasi basis data (MySQL/MongoDB) (C4–P4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menghubungkan aplikasi web ke database, melakukan CRUD\n9.2 Ketepatan menganalisis Koneksi database (PDO, MySQLi, Mongoose), query CRUD, prepared statement, migration",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (CRUD dengan database)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: tugas terstruktur — Koneksi database (PDO\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Koneksi database (PDO, MySQLi, Mongoose); query CRUD; prepared statement; migration\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 6 : RESTful API (perancangan dan implementasi)",
-      "indikator": "Kemampuan merancang endpoint RESTful dan mengimplementasikannya di server",
-      "kriteria": "Tugas kelompok (membuat API sederhana)",
-      "tatap_muka": "Praktik API TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Prinsip REST; endpoint design; method; response format (JSON); autentikasi dasar (API key)",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : RESTful API (perancangan dan implementasi) (C4–P5, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan merancang endpoint RESTful dan mengimplementasikannya di server\n10.2 Ketepatan menganalisis prinsip REST, endpoint design, method\n10.3 Kemampuan membandingkan response format (JSON)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (membuat API sederhana)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: tugas terstruktur — Prinsip REST; endpoint design; method; response format ; autentikasi dasar\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prinsip REST; endpoint design; method; response format (JSON); autentikasi dasar (API key)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 6 : Mengkonsumsi API dari frontend (fetch, axios)",
-      "indikator": "Kemampuan mengambil data dari API dan menampilkannya di halaman web",
-      "kriteria": "Tugas praktik (frontend + API eksternal)",
-      "tatap_muka": "Praktik konsumsi API TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Fetch API, axios, error handling, loading state, rendering data",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Mengkonsumsi API dari frontend (fetch, axios) (C4–P5, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mengambil data dari API dan menampilkannya di halaman web\n11.2 Ketepatan menganalisis Fetch API, axios, error handling, loading state, rendering data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (frontend + API eksternal)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — Fetch API\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Fetch API, axios, error handling, loading state, rendering data\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 7 : Keamanan aplikasi web (OWASP Top 10)",
-      "indikator": "Kemampuan menjelaskan dan mencegah SQL injection, XSS, CSRF, dan input validation",
-      "kriteria": "Kuis online; Studi kasus keamanan",
-      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi serangan sederhana",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "OWASP Top 10; SQL injection (prepared statement); XSS (escaping); CSRF (token); validasi input",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Keamanan aplikasi web (OWASP Top 10) (C3–C4, A4) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menjelaskan dan mencegah SQL injection, XSS, CSRF, dan input validation\n12.2 Ketepatan menganalisis OWASP Top 10\n12.3 Kemampuan membandingkan SQL injection (prepared statement), XSS (escaping), CSRF (token), validasi input",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus keamanan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: studi kasus — OWASP Top 10; SQL injection ; XSS ; CSRF ; validasi input\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "OWASP Top 10; SQL injection (prepared statement); XSS (escaping); CSRF (token); validasi input\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 8 : Pengantar framework frontend (React/Vue)",
-      "indikator": "Kemampuan membuat komponen sederhana dengan React/Vue",
-      "kriteria": "Tugas praktik (komponen interaktif)",
-      "tatap_muka": "Praktik framework TM: 3x50; Praktik: 1x170",
-      "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Pengenalan React atau Vue; komponen; state; props; event handling; lifecycle",
-      "bobot": "5%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Pengantar framework frontend (React/Vue) (C3–P4, A3) (CPMK-2, CPMK-4)",
+      "indikator": "13.1 Kemampuan membuat komponen sederhana dengan React/Vue\n13.2 Ketepatan menerapkan Pengenalan React atau Vue, komponen, state, props, event handling, lifecycle",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (komponen interaktif)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: tugas terstruktur — Pengenalan React atau Vue; komponen; state; props; event handling; lifecycle\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengenalan React atau Vue; komponen; state; props; event handling; lifecycle\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9 : Proyek aplikasi web (persiapan)",
-      "indikator": "Kemampuan merancang spesifikasi proyek, membagi tugas, dan memulai implementasi",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Spesifikasi proyek (studi kasus sistem informasi sederhana); perancangan database; wireframe",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Proyek aplikasi web (persiapan) (C5–P5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan merancang spesifikasi proyek, membagi tugas, dan memulai implementasi\n14.2 Ketepatan mengevaluasi Spesifikasi proyek (studi kasus sistem informasi sederhana), perancangan database, wireframe",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: proyek — Spesifikasi proyek ; perancangan database; wireframe\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Spesifikasi proyek (studi kasus sistem informasi sederhana); perancangan database; wireframe\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 9 : Implementasi dan pengujian proyek",
-      "indikator": "Kemampuan menyelesaikan proyek web (frontend + backend + database) dan melakukan testing",
-      "kriteria": "Laporan proyek + demo",
-      "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Implementasi fitur; debugging; pengujian fungsional; dokumentasi",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Implementasi dan pengujian proyek (C5–P5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyelesaikan proyek web (frontend + backend + database) dan melakukan testing\n15.2 Ketepatan mengevaluasi implementasi fitur, debugging, pengujian fungsional, dokumentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek + demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: proyek — Implementasi fitur; debugging; pengujian fungsional; dokumentasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi fitur; debugging; pengujian fungsional; dokumentasi\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "Sub-CPMK 10 : UAS (Presentasi proyek + ujian integrasi)",
-      "indikator": "Kemampuan mempresentasikan proyek dan menjawab soal integratif tentang seluruh materi",
-      "kriteria": "Presentasi kelompok + ujian tertulis online",
-      "tatap_muka": "Presentasi + UAS TM: 3x50",
-      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
-      "materi": "Seluruh materi (HTML, CSS, JS, server-side, database, API, keamanan, framework) + proyek",
-      "bobot": "14%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan proyek dan menjawab soal integratif tentang seluruh materi\n16.2 Ketepatan menganalisis Seluruh materi (HTML, CSS, JS, server-side, database, API, keamanan, framework) + proyek",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (HTML, CSS, JS, server-side, database, API, keamanan, framework) + proyek\n[P1, P2, P3]",
+      "bobot": "14"
     }
   ],
   "bahan_kajian": "1. Arsitektur web dan protokol HTTP/HTTPS\n2. HTML5 dan CSS3: struktur dan styling\n3. JavaScript dasar: DOM, event, dan AJAX\n4. Framework frontend modern (React/Vue dasar)\n5. Pemrograman sisi server (PHP/Node.js)\n6. Integrasi basis data pada aplikasi web\n7. RESTful API: perancangan dan konsumsi\n8. Keamanan aplikasi web (OWASP Top 10)\n9. Praktikum: membangun aplikasi web berbasis sistem informasi",

@@ -17,315 +17,607 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-04",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 5 (KU-04)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek sistem informasi"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-05",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO)"
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 8 (KK-05)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-06",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi"
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 9 (KK-06)",
+      "nomor": "CPL 9"
     },
     {
       "kode": "KK-07",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi"
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 10 (KK-07)",
+      "nomor": "CPL 10"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami konsep, tujuan, dan standar audit sistem informasi (ISACA, COBIT 2019, ISO 27001)"
+      "deskripsi": "Mampu memahami konsep, tujuan, dan standar audit sistem informasi (ISACA, COBIT 2019, ISO 27001) (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
-      "cpl": "P-02, KK-05",
-      "deskripsi": "Mampu merencanakan dan melaksanakan audit dengan metodologi audit SI yang tepat"
+      "cpl": "P-02, KK-01, KK-05",
+      "deskripsi": "Mampu merencanakan dan melaksanakan audit dengan metodologi audit SI yang tepat (CPL 2, CPL 6, CPL 8)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "KK-04, KK-06",
-      "deskripsi": "Mampu melakukan audit pengendalian umum TI (ITGC) dan audit pengendalian aplikasi"
+      "deskripsi": "Mampu melakukan audit pengendalian umum TI (ITGC) dan audit pengendalian aplikasi (CPL 7, CPL 9)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KK-05, KK-07",
-      "deskripsi": "Mampu melakukan audit keamanan informasi, infrastruktur, dan basis data"
+      "deskripsi": "Mampu melakukan audit keamanan informasi, infrastruktur, dan basis data (CPL 8, CPL 10)"
     },
     {
       "kode": "CPMK-5",
       "cpl": "KU-02, KU-04",
-      "deskripsi": "Mampu menyusun laporan temuan audit, rekomendasi, dan tindak lanjut hasil audit"
+      "deskripsi": "Mampu menyusun laporan temuan audit, rekomendasi, dan tindak lanjut hasil audit (CPL 4, CPL 5)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep, tujuan, dan ruang lingkup audit sistem informasi",
+      "deskripsi": "Mampu menjelaskan konsep, tujuan, dan ruang lingkup audit sistem informasi (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menjelaskan standar dan framework audit SI (ISACA, COBIT 2019, ISO 27001)",
+      "deskripsi": "Mampu menjelaskan standar dan framework audit SI (ISACA, COBIT 2019, ISO 27001) (C2–C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu merencanakan audit: risk assessment, audit charter, audit program",
+      "deskripsi": "Mampu merencanakan audit: risk assessment, audit charter, audit program (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu melaksanakan audit dengan metode wawancara, observasi, dan pengujian kepatuhan",
+      "deskripsi": "Mampu melaksanakan audit dengan metode wawancara, observasi, dan pengujian kepatuhan (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "6",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu melakukan audit pengendalian umum TI (ITGC): organisasi, SDM, operasi, akses",
+      "deskripsi": "Mampu melakukan audit pengendalian umum TI (ITGC): organisasi, SDM, operasi, akses (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu melakukan audit pengendalian aplikasi (input, proses, output, validasi)",
+      "deskripsi": "Mampu melakukan audit pengendalian aplikasi (input, proses, output, validasi) (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu melakukan audit keamanan informasi dan infrastruktur",
+      "deskripsi": "Mampu melakukan audit keamanan informasi dan infrastruktur (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan audit basis data dan manajemen data",
+      "deskripsi": "Mampu melakukan audit basis data dan manajemen data (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menyusun laporan temuan audit dan rekomendasi",
+      "deskripsi": "Mampu menyusun laporan temuan audit dan rekomendasi (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–14",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu melakukan tindak lanjut dan pemantauan hasil audit",
+      "deskripsi": "Mampu melakukan tindak lanjut dan pemantauan hasil audit (C5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "15–16",
-      "cpl": "C5"
+      "taksonomi": "C5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "65%",
+      "c1": "10%",
+      "c2": "13%",
+      "c3": "10%",
+      "c4": "15%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6.7%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "15%",
+      "c2": "18%",
+      "c3": "21.7%",
+      "c4": "21.7%",
+      "c5": "23.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "4.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.7",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.7",
+      "p7": "",
+      "p8": "3.6",
+      "p9": "",
+      "p10": "",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "2.7",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "2.7",
+      "p7": "",
+      "p8": "2.6",
+      "p9": "",
+      "p10": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4",
+      "p8": "",
+      "p9": "4",
+      "p10": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4.5",
+      "p8": "",
+      "p9": "4.5",
+      "p10": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "7",
+      "p9": "",
+      "p10": "7",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4.5",
+      "p9": "",
+      "p10": "4.5",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "8",
+      "p5": "8",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "4.5",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "8",
+      "p2": "6.4",
+      "p3": "8",
+      "p4": "12.5",
+      "p5": "12.5",
+      "p6": "6.4",
+      "p7": "8.5",
+      "p8": "17.7",
+      "p9": "8.5",
+      "p10": "11.5",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep dan tujuan audit SI",
-      "indikator": "Ketepatan mendefinisikan audit SI, perbedaan dengan audit keuangan, dan tujuan audit",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
-      "materi": "Definisi audit SI; ruang lingkup; peran auditor; jenis audit (internal, eksternal, kepatuhan, forensik)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dan tujuan audit SI (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan audit SI, perbedaan dengan audit keuangan, dan tujuan audit\n1.2 Ketepatan menjelaskan definisi audit SI, ruang lingkup, peran auditor\n1.3 Ketepatan menguraikan jenis audit (internal, eksternal, kepatuhan, forensik)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\nTugas 1: latihan soal — Definisi audit SI; ruang lingkup; peran auditor; jenis audit (internal\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi audit SI; ruang lingkup; peran auditor; jenis audit (internal, eksternal, kepatuhan, forensik)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Ruang lingkup dan objektif audit",
-      "indikator": "Kemampuan menjelaskan aset TI, risiko, dan tujuan pengendalian",
-      "kriteria": "Studi kasus; Diskusi",
-      "tatap_muka": "Diskusi interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Aset TI; risiko TI; tujuan pengendalian; kerangka COBIT",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Ruang lingkup dan objektif audit (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan aset TI, risiko, dan tujuan pengendalian",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 2: studi kasus — Aset TI; risiko TI; tujuan pengendalian; kerangka COBIT\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Aset TI; risiko TI; tujuan pengendalian; kerangka COBIT\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Standar dan framework audit SI",
-      "indikator": "Ketepatan menjelaskan ISACA, COBIT 2019, ISO 27001, dan standar audit SI lainnya",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "ISACA: standar audit, pedoman; COBIT 2019: prinsip, domain; ISO 27001: klausul 9 (evaluasi kinerja)",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Standar dan framework audit SI (C2–C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan menjelaskan ISACA, COBIT 2019, ISO 27001, dan standar audit SI lainnya\n3.2 Ketepatan menerapkan COBIT 2019: prinsip, domain\n3.3 Kemampuan menggunakan ISO 27001: klausul 9 (evaluasi kinerja)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — ISACA: standar audit\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ISACA: standar audit, pedoman; COBIT 2019: prinsip, domain; ISO 27001: klausul 9 (evaluasi kinerja)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Perencanaan audit",
-      "indikator": "Kemampuan melakukan risk assessment dan menyusun audit charter",
-      "kriteria": "Tugas kelompok (rancangan audit plan)",
-      "tatap_muka": "Kuliah + workshop TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Risk assessment; audit charter; audit program; resource planning; audit timeline",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Perencanaan audit (C3–C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan melakukan risk assessment dan menyusun audit charter\n4.2 Ketepatan menganalisis Risk assessment, audit charter, audit program, resource planning, audit timeline",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (rancangan audit plan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Risk assessment; audit charter; audit program; resource planning; audit timeline\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Risk assessment; audit charter; audit program; resource planning; audit timeline\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Audit program dan prosedur",
-      "indikator": "Kemampuan menyusun prosedur audit (kuesioner, checklist)",
-      "kriteria": "Tugas individu (checklist audit)",
-      "tatap_muka": "Praktik penyusunan program TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Prosedur audit: kuesioner, observasi, sampling, computer-assisted audit techniques (CAATs)",
-      "bobot": "4%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Audit program dan prosedur (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menyusun prosedur audit (kuesioner, checklist)\n5.2 Ketepatan menganalisis Prosedur audit: kuesioner, observasi, sampling\n5.3 Kemampuan membandingkan computer-assisted audit techniques (CAATs)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (checklist audit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Prosedur audit: kuesioner\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prosedur audit: kuesioner, observasi, sampling, computer-assisted audit techniques (CAATs)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Pelaksanaan audit (wawancara, observasi, pengujian)",
-      "indikator": "Kemampuan melakukan wawancara, observasi, dan pengujian kepatuhan",
-      "kriteria": "Simulasi wawancara; Tugas kelompok",
-      "tatap_muka": "Praktik simulasi audit TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Teknik wawancara; observasi; dokumentasi; sampling; pengujian kepatuhan dan substantif",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Pelaksanaan audit (wawancara, observasi, pengujian) (C3–P4, A3) (CPMK-2)",
+      "indikator": "6.1 Kemampuan melakukan wawancara, observasi, dan pengujian kepatuhan\n6.2 Ketepatan menerapkan teknik wawancara, observasi, dokumentasi, sampling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Simulasi wawancara, Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Teknik wawancara; observasi; dokumentasi; sampling; pengujian kepatuhan dan substantif\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik wawancara; observasi; dokumentasi; sampling; pengujian kepatuhan dan substantif\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 5 : Audit pengendalian umum TI (ITGC)",
-      "indikator": "Kemampuan mengevaluasi pengendalian organisasi, SDM, operasi, akses fisik",
-      "kriteria": "Kuis online; Studi kasus",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "ITGC: organisasi (pemisahan tugas), SDM (rekrutmen, pelatihan), operasi (backup, BCP), akses fisik",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Audit pengendalian umum TI (ITGC) (C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan mengevaluasi pengendalian organisasi, SDM, operasi, akses fisik\n7.2 Ketepatan menganalisis ITGC: organisasi (pemisahan tugas)\n7.3 Kemampuan membandingkan SDM (rekrutmen, pelatihan)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 7: studi kasus — ITGC: organisasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "ITGC: organisasi (pemisahan tugas), SDM (rekrutmen, pelatihan), operasi (backup, BCP), akses fisik\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep audit, framework, perencanaan, ITGC",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep audit, framework, perencanaan, ITGC\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 6 : Audit pengendalian aplikasi",
-      "indikator": "Kemampuan menguji pengendalian input, proses, output, dan validasi pada aplikasi",
-      "kriteria": "Tugas kelompok (studi kasus aplikasi)",
-      "tatap_muka": "Kuliah + studi kasus TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Pengendalian aplikasi: input (range check, validasi), proses (run-to-run), output (balancing), validasi",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Audit pengendalian aplikasi (C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menguji pengendalian input, proses, output, dan validasi pada aplikasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi kasus aplikasi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 8: studi kasus — Pengendalian aplikasi: input (range check\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Pengendalian aplikasi: input (range check, validasi), proses (run-to-run), output (balancing), validasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 7 : Audit keamanan informasi",
-      "indikator": "Kemampuan mengevaluasi keamanan jaringan, sistem, dan kebijakan keamanan",
-      "kriteria": "Tugas individu (analisis kebijakan keamanan)",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Audit keamanan: access control, authentication, encryption, vulnerability assessment, incident response",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Audit keamanan informasi (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan mengevaluasi keamanan jaringan, sistem, dan kebijakan keamanan\n10.2 Ketepatan menganalisis Audit keamanan: access control, authentication, encryption, vulnerability assessment, incident response",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (analisis kebijakan keamanan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Audit keamanan: access control\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Audit keamanan: access control, authentication, encryption, vulnerability assessment, incident response\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 7 : Audit infrastruktur",
-      "indikator": "Kemampuan mengaudit hardware, software, jaringan, dan fasilitas pusat data",
-      "kriteria": "Studi kasus audit infrastruktur",
-      "tatap_muka": "Kuliah + diskusi TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Infrastruktur: server, storage, network devices, data center (redundansi, UPS, pendingin)",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Audit infrastruktur (C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mengaudit hardware, software, jaringan, dan fasilitas pusat data\n11.2 Ketepatan menganalisis Infrastruktur: server, storage, network devices\n11.3 Kemampuan membandingkan data center (redundansi, UPS, pendingin)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus audit infrastruktur",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 10: studi kasus — Infrastruktur: server\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Infrastruktur: server, storage, network devices, data center (redundansi, UPS, pendingin)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 8 : Audit basis data dan manajemen data",
-      "indikator": "Kemampuan mengaudit akses basis data, integritas data, backup, dan recovery",
-      "kriteria": "Kuis online; Tugas praktik",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Audit DB: akses user, logging, encryption, backup, disaster recovery, data quality",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Audit basis data dan manajemen data (C4, A4) (CPMK-4)",
+      "indikator": "12.1 Kemampuan mengaudit akses basis data, integritas data, backup, dan recovery\n12.2 Ketepatan menganalisis Audit DB: akses user, logging, encryption, backup, disaster recovery, data quality",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas praktik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Audit DB: akses user\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Audit DB: akses user, logging, encryption, backup, disaster recovery, data quality\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan temuan audit",
-      "indikator": "Kemampuan mendokumentasikan temuan, menilai tingkat risiko, dan menyusun rekomendasi",
-      "kriteria": "Tugas kelompok (draft laporan audit)",
-      "tatap_muka": "Bimbingan laporan TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Struktur laporan audit: pendahuluan, temuan, kriteria, penyebab, dampak, rekomendasi, tindak lanjut",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan temuan audit (C5–C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan mendokumentasikan temuan, menilai tingkat risiko, dan menyusun rekomendasi\n13.2 Ketepatan merancang struktur laporan audit: pendahuluan, temuan, kriteria, penyebab, dampak\n13.3 Kemampuan menyusun rekomendasi, tindak lanjut",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (draft laporan audit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 12: laporan — Struktur laporan audit: pendahuluan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan audit: pendahuluan, temuan, kriteria, penyebab, dampak, rekomendasi, tindak lanjut\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 9 : Rekomendasi dan presentasi temuan",
-      "indikator": "Kemampuan menyajikan temuan dan rekomendasi secara lisan",
-      "kriteria": "Presentasi kelompok (simulasi exit meeting)",
-      "tatap_muka": "Presentasi TM: 3x50",
-      "daring": "Presentasi daring; [TM: 3×50']",
-      "materi": "Exit meeting; presentasi temuan; teknik komunikasi audit; penanganan perbedaan pendapat",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Rekomendasi dan presentasi temuan (C5–C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menyajikan temuan dan rekomendasi secara lisan\n14.2 Ketepatan merancang Exit meeting, presentasi temuan\n14.3 Kemampuan menyusun teknik komunikasi audit",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (simulasi exit meeting)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 13: presentasi — Exit meeting; presentasi temuan; teknik komunikasi audit; penanganan perbedaan pendapat\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Exit meeting; presentasi temuan; teknik komunikasi audit; penanganan perbedaan pendapat\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10 : Tindak lanjut dan pemantauan",
-      "indikator": "Kemampuan menjelaskan proses tindak lanjut (remediasi) dan pemantauan berkala",
-      "kriteria": "Studi kasus tindak lanjut",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Rencana tindak lanjut; status rekomendasi; follow-up audit; continuous monitoring",
-      "bobot": "5%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Tindak lanjut dan pemantauan (C5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menjelaskan proses tindak lanjut (remediasi) dan pemantauan berkala\n15.2 Ketepatan mengevaluasi Rencana tindak lanjut, status rekomendasi, follow-up audit, continuous monitoring",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus tindak lanjut",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 14: studi kasus — Rencana tindak lanjut; status rekomendasi; follow-up audit; continuous monitoring\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Rencana tindak lanjut; status rekomendasi; follow-up audit; continuous monitoring\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS : Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang audit aplikasi, keamanan, infrastruktur, DB, dan pelaporan",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 9–15",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang audit aplikasi, keamanan, infrastruktur, DB, dan pelaporan\n16.2 Ketepatan menganalisis materi Minggu 9–15",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 9–15\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Konsep dan tujuan audit sistem informasi\n2. Standar dan framework audit SI (ISACA, COBIT 2019, ISO 27001)\n3. Perencanaan dan metodologi audit SI\n4. Audit pengendalian umum TI (ITGC)\n5. Audit pengendalian aplikasi\n6. Audit keamanan informasi dan infrastruktur\n7. Audit basis data dan manajemen data\n8. Penyusunan laporan temuan dan rekomendasi audit\n9. Tindak lanjut dan pemantauan hasil audit",

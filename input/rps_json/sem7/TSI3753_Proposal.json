@@ -16,63 +16,592 @@
     "jabatan": "Lektor"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
-    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KU-04", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir"},
-    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-02", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"},
-    {"kode": "KK-05", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance"}
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 1 (S-09)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 2 (S-10)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 3 (P-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 4 (P-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 5 (KU-04)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data",
+      "label": "CPL 6 (KU-05)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 7 (KK-01)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-02",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi",
+      "label": "CPL 8 (KK-02)",
+      "nomor": "CPL 8"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami metodologi penelitian dan sistematika penulisan proposal tugas akhir di bidang sistem informasi"},
-    {"kode": "CPMK-2", "cpl": "P-02, KK-05", "deskripsi": "Mampu mengidentifikasi dan merumuskan masalah penelitian serta menyusun tinjauan pustaka sistematis"},
-    {"kode": "CPMK-3", "cpl": "KU-02, KK-01", "deskripsi": "Mampu merancang metodologi penelitian yang sesuai (kuantitatif, kualitatif, atau design science research)"},
-    {"kode": "CPMK-4", "cpl": "KU-04, KK-02", "deskripsi": "Mampu menulis proposal (Bab I, II, III) sesuai kaidah ilmiah dan menggunakan manajer referensi"},
-    {"kode": "CPMK-5", "cpl": "KU-05, S-09", "deskripsi": "Mampu mempresentasikan proposal dalam seminar dan merevisi berdasarkan masukan dosen penguji"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01",
+      "deskripsi": "Mampu memahami metodologi penelitian dan sistematika penulisan proposal tugas akhir di bidang sistem informasi (CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02",
+      "deskripsi": "Mampu mengidentifikasi dan merumuskan masalah penelitian serta menyusun tinjauan pustaka sistematis (CPL 4)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KK-01",
+      "deskripsi": "Mampu merancang metodologi penelitian yang sesuai (kuantitatif, kualitatif, atau design science research) (CPL 7)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KU-04, KK-02",
+      "deskripsi": "Mampu menulis proposal (Bab I, II, III) sesuai kaidah ilmiah dan menggunakan manajer referensi (CPL 5, CPL 8)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-09, S-10, KU-05",
+      "deskripsi": "Mampu mempresentasikan proposal dalam seminar dan merevisi berdasarkan masukan dosen penguji (CPL 1, CPL 2, CPL 6)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu memahami pedoman penulisan proposal dan tugas akhir", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu memilih topik penelitian dan merumuskan latar belakang serta rumusan masalah", "cpmk": "CPMK-2", "minggu": "2–3", "cpl": "C3–C4"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu melakukan tinjauan pustaka dan menyusun kerangka teoritis", "cpmk": "CPMK-2", "minggu": "4–5", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu merancang metodologi penelitian (jenis penelitian, populasi, sampel, instrumen, analisis data)", "cpmk": "CPMK-3", "minggu": "6–7", "cpl": "C4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menulis Bab I (Pendahuluan) dan Bab II (Tinjauan Pustaka)", "cpmk": "CPMK-4", "minggu": "8–9", "cpl": "C5–P5"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menulis Bab III (Metodologi Penelitian) dan daftar pustaka", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C5–P5"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu melakukan review dan revisi proposal berdasarkan masukan pembimbing", "cpmk": "CPMK-5", "minggu": "12–13", "cpl": "C5"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu mempresentasikan proposal dalam seminar proposal", "cpmk": "CPMK-5", "minggu": "14–15", "cpl": "C6"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu merevisi proposal pasca seminar dan mengumpulkan final proposal", "cpmk": "CPMK-5", "minggu": "16", "cpl": "C6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu memahami pedoman penulisan proposal dan tugas akhir (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu memilih topik penelitian dan merumuskan latar belakang serta rumusan masalah (C3–C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "2–3",
+      "taksonomi": "C3–C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu melakukan tinjauan pustaka dan menyusun kerangka teoritis (C3–P4, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu merancang metodologi penelitian (jenis penelitian, populasi, sampel, instrumen, analisis data) (C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6–7",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menulis Bab I (Pendahuluan) dan Bab II (Tinjauan Pustaka) (C5–P5, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "8–9",
+      "taksonomi": "C5–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menulis Bab III (Metodologi Penelitian) dan daftar pustaka (C5–P5, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "taksonomi": "C5–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu melakukan review dan revisi proposal berdasarkan masukan pembimbing (C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12–13",
+      "taksonomi": "C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu mempresentasikan proposal dalam seminar proposal (C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "taksonomi": "C6, A5"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu merevisi proposal pasca seminar dan mengumpulkan final proposal (C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "16",
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "√",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "38%",
+      "c1": "3%",
+      "c2": "18%",
+      "c3": "10%",
+      "c4": "0%",
+      "c5": "7%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "37%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "18%",
+      "c5": "19%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "10%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "5%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "8%",
+      "c2": "23%",
+      "c3": "15%",
+      "c4": "23%",
+      "c5": "31%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "",
+      "p2": "",
+      "p3": "6.8",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "6.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "11.8",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "11.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "13.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "13.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "13.7",
+      "p8": "",
+      "bobot": "13.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "7.3",
+      "p6": "",
+      "p7": "",
+      "p8": "7.2",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "4.3",
+      "p6": "",
+      "p7": "",
+      "p8": "4.2",
+      "bobot": "8.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "4.9",
+      "p2": "4.8",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.8",
+      "p7": "",
+      "p8": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "5.5",
+      "p2": "5.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "5.5",
+      "p7": "",
+      "p8": "",
+      "bobot": "16.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "10.4",
+      "p2": "10.3",
+      "p3": "6.8",
+      "p4": "25.5",
+      "p5": "11.6",
+      "p6": "10.3",
+      "p7": "13.7",
+      "p8": "11.4",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Pengantar proposal tugas akhir", "indikator": "Ketepatan menjelaskan sistematika proposal, jadwal, dan peran pembimbing", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']", "materi": "Pedoman penulisan, struktur proposal (BAB I, II, III), etika akademik, jadwal bimbingan", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 2 : Pemilihan topik dan latar belakang", "indikator": "Kemampuan mengidentifikasi masalah penelitian dan menyusun latar belakang yang kuat", "kriteria": "Tugas individu (topik dan latar belakang)", "tatap_muka": "Bimbingan + diskusi TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Teknik menemukan topik, identifikasi gap penelitian, penulisan latar belakang", "bobot": "4%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Rumusan masalah, tujuan, dan manfaat", "indikator": "Kemampuan merumuskan masalah secara spesifik, tujuan yang terukur, dan manfaat penelitian", "kriteria": "Tugas individu (rumusan masalah)", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Rumusan masalah (deskriptif, komparatif, asosiatif), tujuan, manfaat teoritis dan praktis", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Tinjauan pustaka dan sumber literatur", "indikator": "Kemampuan mencari dan memilih referensi relevan (jurnal, prosiding, buku)", "kriteria": "Tugas individu (daftar pustaka awal)", "tatap_muka": "Praktik pencarian literatur TM: 2x50", "daring": "Praktik via Google Scholar, Scopus, Publish or Perish; [TM: 2×50']", "materi": "Sumber literatur, teknik pencarian, evaluasi kualitas jurnal", "bobot": "5%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Kerangka teoritis dan konseptual", "indikator": "Kemampuan menyusun kerangka teori dan hipotesis/pertanyaan penelitian", "kriteria": "Tugas individu (kerangka teoritis)", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Teori, model, kerangka konseptual, hubungan antar variabel, hipotesis", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Desain penelitian", "indikator": "Kemampuan memilih jenis penelitian (survei, eksperimen, studi kasus, DSR, dll)", "kriteria": "Tugas individu (desain penelitian)", "tatap_muka": "Kuliah interaktif TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Jenis penelitian, pendekatan (kualitatif, kuantitatif, mixed, DSR), waktu penelitian", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Populasi, sampel, dan instrumen", "indikator": "Kemampuan menentukan populasi, teknik sampling, dan merancang instrumen (kuesioner, pedoman wawancara)", "kriteria": "Tugas individu (instrumen)", "tatap_muka": "Praktik perancangan instrumen TM: 2x50", "daring": "Kuliah daring sinkron; [TM: 2×50']", "materi": "Populasi, sampel, sampling, uji validitas reliabilitas, kisi-kisi instrumen", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal metodologi dan substansi proposal", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 2x50", "daring": "Ujian daring sinkron; [TM: 2×50']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Penulisan Bab I (Pendahuluan)", "indikator": "Kemampuan menulis Bab I yang lengkap (latar belakang, masalah, tujuan, manfaat)", "kriteria": "Draft Bab I", "tatap_muka": "Bimbingan penulisan TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Penulisan ilmiah, gaya bahasa, kutipan, parafrase", "bobot": "6%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 5 : Penulisan Bab II (Tinjauan Pustaka)", "indikator": "Kemampuan menulis tinjauan pustaka yang sistematis dan relevan", "kriteria": "Draft Bab II", "tatap_muka": "Bimbingan penulisan TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Sistematika tinjauan pustaka, sintesis, penggunaan Mendeley/Zotero", "bobot": "6%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Penulisan Bab III (Metodologi Penelitian)", "indikator": "Kemampuan menulis metodologi yang detail dan sesuai", "kriteria": "Draft Bab III", "tatap_muka": "Bimbingan penulisan TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Desain, populasi, sampel, instrumen, teknik analisis, jadwal penelitian", "bobot": "6%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Review dan revisi internal", "indikator": "Kemampuan merevisi proposal berdasarkan masukan pembimbing", "kriteria": "Proposal revisi 1", "tatap_muka": "Bimbingan intensif TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Teknik revisi, pengecekan plagiarisme, perbaikan format", "bobot": "6%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 7 : Finalisasi proposal sebelum seminar", "indikator": "Proposal siap diseminarkan (lengkap dan disetujui pembimbing)", "kriteria": "Proposal final (acc pembimbing)", "tatap_muka": "Bimbingan final TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Pengecekan akhir, persiapan presentasi", "bobot": "6%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Seminar proposal (sesi 1)", "indikator": "Kemampuan mempresentasikan proposal dan menjawab pertanyaan", "kriteria": "Presentasi dan tanya jawab", "tatap_muka": "Seminar proposal TM: 2x50", "daring": "Seminar daring; [TM: 2×50']", "materi": "Teknik presentasi, slide yang efektif, handling Q&A", "bobot": "7%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 8 : Seminar proposal (sesi 2) dan revisi", "indikator": "Kemampuan merevisi proposal berdasarkan masukan penguji", "kriteria": "Draft revisi pasca seminar", "tatap_muka": "Bimbingan revisi TM: 2x50", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Analisis masukan, prioritas revisi", "bobot": "7%"},
-    {"minggu": 16, "deskripsi": "Sub-CPMK 9 : Pengumpulan proposal final", "indikator": "Proposal final yang sudah direvisi dan disetujui dosen pembimbing", "kriteria": "Proposal final (lembar pengesahan)", "tatap_muka": "Pengumpulan proposal", "daring": "Submit via LMS; [TM: 2×50']", "materi": "Format akhir, kelengkapan administrasi", "bobot": "10%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengantar proposal tugas akhir (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan sistematika proposal, jadwal, dan peran pembimbing\n1.2 Ketepatan menjelaskan Pedoman penulisan\n1.3 Ketepatan menguraikan struktur proposal (BAB I, II, III), etika akademik, jadwal bimbingan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Pedoman penulisan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pedoman penulisan, struktur proposal (BAB I, II, III), etika akademik, jadwal bimbingan\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Pemilihan topik dan latar belakang (C3–C4, A4) (CPMK-2)",
+      "indikator": "2.1 Kemampuan mengidentifikasi masalah penelitian dan menyusun latar belakang yang kuat\n2.2 Ketepatan menganalisis teknik menemukan topik",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (topik dan latar belakang)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Teknik menemukan topik\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik menemukan topik, identifikasi gap penelitian, penulisan latar belakang\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Rumusan masalah, tujuan, dan manfaat (C3–C4, A4) (CPMK-2)",
+      "indikator": "3.1 Kemampuan merumuskan masalah secara spesifik, tujuan yang terukur, dan manfaat penelitian\n3.2 Ketepatan menganalisis Rumusan masalah (deskriptif, komparatif, asosiatif), tujuan\n3.3 Kemampuan membandingkan manfaat teoritis dan praktis",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (rumusan masalah)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — Rumusan masalah (deskriptif\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Rumusan masalah (deskriptif, komparatif, asosiatif), tujuan, manfaat teoritis dan praktis\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Tinjauan pustaka dan sumber literatur (C3–P4, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan mencari dan memilih referensi relevan (jurnal, prosiding, buku)\n4.2 Ketepatan menerapkan Sumber literatur, teknik pencarian, evaluasi kualitas jurnal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (daftar pustaka awal)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Sumber literatur\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sumber literatur, teknik pencarian, evaluasi kualitas jurnal\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Kerangka teoritis dan konseptual (C3–P4, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menyusun kerangka teori dan hipotesis/pertanyaan penelitian\n5.2 Ketepatan menerapkan Teori, model, kerangka konseptual, hubungan antar variabel, hipotesis",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (kerangka teoritis)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — Teori\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teori, model, kerangka konseptual, hubungan antar variabel, hipotesis\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Desain penelitian (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan memilih jenis penelitian (survei, eksperimen, studi kasus, DSR, dll)\n6.2 Ketepatan menganalisis pendekatan (kualitatif, kuantitatif, mixed, DSR), waktu penelitian",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (desain penelitian)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 6: esai — Jenis penelitian\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Jenis penelitian, pendekatan (kualitatif, kuantitatif, mixed, DSR), waktu penelitian\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : Populasi, sampel, dan instrumen (C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menentukan populasi, teknik sampling, dan merancang instrumen (kuesioner, pedoman wawancara)\n7.2 Ketepatan menganalisis Populasi, sampel, sampling, uji validitas reliabilitas, kisi-kisi instrumen",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (instrumen)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — Populasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Populasi, sampel, sampling, uji validitas reliabilitas, kisi-kisi instrumen\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal metodologi dan substansi proposal\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Penulisan Bab I (Pendahuluan) (C5–P5, A4) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menulis Bab I yang lengkap (latar belakang, masalah, tujuan, manfaat)\n9.2 Ketepatan mengevaluasi Penulisan ilmiah, gaya bahasa, kutipan, parafrase",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft Bab I",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 8: latihan terstruktur — Penulisan ilmiah\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Penulisan ilmiah, gaya bahasa, kutipan, parafrase\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 5 : Penulisan Bab II (Tinjauan Pustaka) (C5–P5, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menulis tinjauan pustaka yang sistematis dan relevan\n10.2 Ketepatan mengevaluasi Sistematika tinjauan pustaka, sintesis, penggunaan Mendeley/Zotero",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft Bab II",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: latihan terstruktur — Sistematika tinjauan pustaka\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sistematika tinjauan pustaka, sintesis, penggunaan Mendeley/Zotero\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Penulisan Bab III (Metodologi Penelitian) (C5–P5, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menulis metodologi yang detail dan sesuai\n11.2 Ketepatan mengevaluasi Desain, populasi, sampel, instrumen, teknik analisis, jadwal penelitian",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft Bab III",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 10: latihan terstruktur — Desain\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Desain, populasi, sampel, instrumen, teknik analisis, jadwal penelitian\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Review dan revisi internal (C5, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan merevisi proposal berdasarkan masukan pembimbing\n12.2 Ketepatan mengevaluasi teknik revisi, pengecekan plagiarisme, perbaikan format",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal revisi 1",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 11: latihan terstruktur — Teknik revisi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik revisi, pengecekan plagiarisme, perbaikan format\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 7 : Finalisasi proposal sebelum seminar (C5, A4) (CPMK-5)",
+      "indikator": "13.1 Proposal siap diseminarkan (lengkap dan disetujui pembimbing)\n13.2 Ketepatan mengevaluasi Pengecekan akhir, persiapan presentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal final (acc pembimbing)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 12: latihan terstruktur — Pengecekan akhir\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengecekan akhir, persiapan presentasi\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Seminar proposal (sesi 1) (C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan mempresentasikan proposal dan menjawab pertanyaan\n14.2 Ketepatan merancang teknik presentasi, slide yang efektif, handling Q&A",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi dan tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: presentasi — Teknik presentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik presentasi, slide yang efektif, handling Q&A\n[P1, P2, P3]",
+      "bobot": "7"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 8 : Seminar proposal (sesi 2) dan revisi (C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan merevisi proposal berdasarkan masukan penguji\n15.2 Ketepatan merancang analisis masukan, prioritas revisi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft revisi pasca seminar",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 14: latihan terstruktur — Analisis masukan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Analisis masukan, prioritas revisi\n[P1, P2, P3]",
+      "bobot": "7"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Proposal final yang sudah direvisi dan disetujui dosen pembimbing\n16.2 Ketepatan mengevaluasi Format akhir, kelengkapan administrasi",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Format akhir, kelengkapan administrasi\n[P1, P2, P3]",
+      "bobot": "10"
+    }
   ],
   "bahan_kajian": "1. Review metodologi penelitian: pendekatan kualitatif, kuantitatif, dan design science research (DSR) dalam SI\n2. Identifikasi dan perumusan masalah penelitian di bidang sistem informasi\n3. Tinjauan pustaka sistematis (Systematic Literature Review / SLR) menggunakan tools (Mendeley, Zotero)\n4. Penyusunan kerangka teoritis dan konseptual penelitian\n5. Perumusan hipotesis/proposisi dan pertanyaan penelitian\n6. Perancangan metodologi: desain penelitian, populasi, sampel, dan instrumen pengumpulan data\n7. Penulisan Bab I (Pendahuluan), Bab II (Tinjauan Pustaka), dan Bab III (Metodologi)\n8. Seminar proposal: teknik presentasi ilmiah, pertahanan argumen, dan respons terhadap evaluator\n9. Revisi proposal berdasarkan masukan seminar dan finalisasi dokumen proposal tugas akhir",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Pedoman Penulisan Proposal dan Skripsi/Tugas Akhir Program Studi S1 Sistem Informasi ITEKES Bintang Persada (2026)."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Creswell, J. W. (2014). *Research design: Qualitative, quantitative, and mixed methods approaches* (4th ed.). SAGE Publications."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Hevner, A. R., & Chatterjee, S. (2010). *Design research in information systems*. Springer."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Pedoman Penulisan Proposal dan Skripsi/Tugas Akhir Program Studi S1 Sistem Informasi ITEKES Bintang Persada (2026)."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Creswell, J. W. (2014). *Research design: Qualitative, quantitative, and mixed methods approaches* (4th ed.). SAGE Publications."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Hevner, A. R., & Chatterjee, S. (2010). *Design research in information systems*. Springer."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Sekaran, U., & Bougie, R. (2016). *Research methods for business* (7th ed.). Wiley."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Mendeley / Zotero documentation. (2025). Reference manager user guides."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Sekaran, U., & Bougie, R. (2016). *Research methods for business* (7th ed.). Wiley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Mendeley / Zotero documentation. (2025). Reference manager user guides."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah Proposal merupakan tahap persiapan penelitian tugas akhir/skripsi. Mahasiswa akan menyusun proposal penelitian yang terdiri dari Bab I (Pendahuluan), Bab II (Tinjauan Pustaka), dan Bab III (Metodologi Penelitian) di bawah bimbingan dosen pembimbing. Materi meliputi identifikasi masalah, perumusan tujuan, tinjauan pustaka sistematis (SLR), perancangan metodologi (kuantitatif, kualitatif, atau design science research), serta teknik penulisan ilmiah. Mahasiswa akan mempresentasikan proposal dalam seminar proposal untuk mendapatkan masukan dari dosen penguji. Hasil akhir adalah proposal yang siap dilanjutkan ke pelaksanaan penelitian tugas akhir.",
   "matakuliah_syarat": "TSI3647 (Metodologi Penelitian) – wajib"

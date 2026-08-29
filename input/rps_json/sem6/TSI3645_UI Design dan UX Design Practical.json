@@ -17,308 +17,589 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 3 (P-03)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
     },
     {
-      "kode": "KK-03",
+      "kode": "KK-02",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"
+      "deskripsi": "Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi",
+      "label": "CPL 7 (KK-02)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 8 (KK-04)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-08",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 9 (KK-08)",
+      "nomor": "CPL 9"
     },
     {
-      "kode": "KK-11",
+      "kode": "KK-10",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data dan optimasi pemasaran digital"
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi",
+      "label": "CPL 10 (KK-10)",
+      "nomor": "CPL 10"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
-      "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami prinsip desain antarmuka pengguna (UI) yang efektif dan perbedaan UI dengan UX"
+      "cpl": "P-01, P-02, KU-01",
+      "deskripsi": "Mampu memahami prinsip desain antarmuka pengguna (UI) yang efektif dan perbedaan UI dengan UX (CPL 1, CPL 2, CPL 4)"
     },
     {
       "kode": "CPMK-2",
-      "cpl": "KK-03, KK-11",
-      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping) untuk memahami kebutuhan pengguna"
+      "cpl": "KK-02",
+      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping) untuk memahami kebutuhan pengguna (CPL 7)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "P-03, KK-08",
-      "deskripsi": "Mampu membuat wireframing dan prototyping menggunakan tools desain (Figma, Adobe XD)"
+      "deskripsi": "Mampu membuat wireframing dan prototyping menggunakan tools desain (Figma, Adobe XD) (CPL 3, CPL 9)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KU-02, KK-01",
-      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan desain responsif serta aksesibilitas"
+      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan desain responsif serta aksesibilitas (CPL 5, CPL 6)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KK-04, KK-08",
-      "deskripsi": "Mampu melakukan usability testing, evaluasi heuristik, dan merancang antarmuka aplikasi sistem informasi"
+      "cpl": "KK-04, KK-08, KK-10",
+      "deskripsi": "Mampu melakukan usability testing, evaluasi heuristik, dan merancang antarmuka aplikasi sistem informasi (CPL 8, CPL 9, CPL 10)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan prinsip UI/UX, perbedaan UI dan UX, serta pentingnya user-centered design",
+      "deskripsi": "Mampu menjelaskan prinsip UI/UX, perbedaan UI dan UX, serta pentingnya user-centered design (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping)",
+      "deskripsi": "Mampu melakukan riset pengguna (user persona, user journey, empathy mapping) (C3–P4, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3–4",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu membuat wireframing (low-fidelity) menggunakan tools",
+      "deskripsi": "Mampu membuat wireframing (low-fidelity) menggunakan tools (C3–P4, A3) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "5–6",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu membuat prototyping (high-fidelity) interaktif di Figma",
+      "deskripsi": "Mampu membuat prototyping (high-fidelity) interaktif di Figma (C4–P4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan design system",
+      "deskripsi": "Mampu menerapkan desain visual (tipografi, warna, layout, ikon) dan design system (C3–P4, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "9–10",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu merancang desain responsif dan aksesibilitas (WCAG)",
+      "deskripsi": "Mampu merancang desain responsif dan aksesibilitas (WCAG) (C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "11",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu melakukan usability testing dan evaluasi heuristik (Nielsen)",
+      "deskripsi": "Mampu melakukan usability testing dan evaluasi heuristik (Nielsen) (C4–P4, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12–13",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan iterasi desain berdasarkan hasil testing",
+      "deskripsi": "Mampu melakukan iterasi desain berdasarkan hasil testing (C5–P5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "14",
-      "cpl": "C5–P5"
+      "taksonomi": "C5–P5, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menyusun portofolio UI/UX dan mempresentasikan proyek akhir",
+      "deskripsi": "Mampu menyusun portofolio UI/UX dan mempresentasikan proyek akhir (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "15–16",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "43%",
+      "c1": "6%",
+      "c2": "8%",
+      "c3": "14%",
+      "c4": "15%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "23%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "23%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "19%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9.5%",
+      "c5": "9.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "11%",
+      "c2": "13%",
+      "c3": "19%",
+      "c4": "24.5%",
+      "c5": "32.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3.3",
+      "p2": "3.3",
+      "p3": "",
+      "p4": "3.2",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "9.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "11.8",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "11.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "6.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "6.3",
+      "p10": "",
+      "bobot": "12.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "4.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.3",
+      "p10": "",
+      "bobot": "8.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "6.9",
+      "p6": "6.9",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "4.4",
+      "p6": "4.4",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "5",
+      "p9": "4.9",
+      "p10": "4.9",
+      "bobot": "14.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "3.3",
+      "p9": "3.3",
+      "p10": "3.2",
+      "bobot": "9.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "3.3",
+      "p9": "3.3",
+      "p10": "3.2",
+      "bobot": "9.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "3.3",
+      "p2": "3.3",
+      "p3": "10.8",
+      "p4": "3.2",
+      "p5": "11.3",
+      "p6": "11.3",
+      "p7": "11.8",
+      "p8": "11.6",
+      "p9": "22.1",
+      "p10": "11.3",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Pengantar UI/UX dan prinsip desain",
-      "indikator": "Ketepatan menjelaskan perbedaan UI dan UX, prinsip user-centered design",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: eksplorasi tools desain",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Definisi UI, UX, user-centered design; prinsip desain (visibility, feedback, consistency, affordance)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengantar UI/UX dan prinsip desain (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan perbedaan UI dan UX, prinsip user-centered design\n1.2 Ketepatan menjelaskan prinsip desain (visibility, feedback, consistency, affordance)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: latihan soal — Definisi UI\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi UI, UX, user-centered design; prinsip desain (visibility, feedback, consistency, affordance)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Proses desain UI/UX (double diamond)",
-      "indikator": "Kemampuan menjelaskan tahapan discover, define, develop, deliver",
-      "kriteria": "Studi kasus; Diskusi",
-      "tatap_muka": "Diskusi interaktif TM: 3x50; Praktik: studi kasus aplikasi",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Double diamond; design thinking; lean UX",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Proses desain UI/UX (double diamond) (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan tahapan discover, define, develop, deliver\n2.2 Ketepatan menjelaskan Double diamond, design thinking, lean UX",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: studi kasus — Double diamond; design thinking; lean UX\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Double diamond; design thinking; lean UX\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Riset pengguna (user persona)",
-      "indikator": "Kemampuan membuat user persona berdasarkan data demografis dan perilaku",
-      "kriteria": "Tugas kelompok (persona)",
-      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Metode riset: wawancara, survei; user persona: goals, pain points, behaviors",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Riset pengguna (user persona) (C3–P4, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan membuat user persona berdasarkan data demografis dan perilaku\n3.2 Ketepatan menerapkan metode riset: wawancara, survei\n3.3 Kemampuan menggunakan user persona: goals, pain points, behaviors",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (persona)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — Metode riset: wawancara\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Metode riset: wawancara, survei; user persona: goals, pain points, behaviors\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 2 : User journey map dan empathy mapping",
-      "indikator": "Kemampuan memetakan perjalanan pengguna dan empati",
-      "kriteria": "Tugas kelompok (journey map)",
-      "tatap_muka": "Praktik journey map TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "User journey map, empathy map, service blueprint",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 2 : User journey map dan empathy mapping (C3–P4, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan memetakan perjalanan pengguna dan empati\n4.2 Ketepatan menerapkan User journey map, empathy map, service blueprint",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (journey map)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — User journey map\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "User journey map, empathy map, service blueprint\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Wireframing (low-fidelity)",
-      "indikator": "Kemampuan membuat wireframe kertas atau digital (Figma)",
-      "kriteria": "Tugas individu (wireframe)",
-      "tatap_muka": "Praktik wireframing TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Wireframing: konsep, tools (Figma, Balsamiq, Adobe XD), layout dasar",
-      "bobot": "4%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Wireframing (low-fidelity) (C3–P4, A3) (CPMK-3)",
+      "indikator": "5.1 Kemampuan membuat wireframe kertas atau digital (Figma)\n5.2 Ketepatan menerapkan Wireframing: konsep\n5.3 Kemampuan menggunakan tools (Figma, Balsamiq, Adobe XD), layout dasar",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (wireframe)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: tugas terstruktur — Wireframing: konsep\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Wireframing: konsep, tools (Figma, Balsamiq, Adobe XD), layout dasar\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 3 : Wireframing lanjutan (interactive wireframe)",
-      "indikator": "Kemampuan membuat wireframe dengan interaksi sederhana",
-      "kriteria": "Tugas kelompok (wireframe interaktif)",
-      "tatap_muka": "Praktik wireframe interaktif TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Prototyping di Figma; linking screens; component",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 3 : Wireframing lanjutan (interactive wireframe) (C3–P4, A3) (CPMK-3)",
+      "indikator": "6.1 Kemampuan membuat wireframe dengan interaksi sederhana\n6.2 Ketepatan menerapkan Prototyping di Figma, linking screens, component",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (wireframe interaktif)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: tugas terstruktur — Prototyping di Figma; linking screens; component\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prototyping di Figma; linking screens; component\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 4 : High-fidelity prototyping",
-      "indikator": "Kemampuan membuat prototype interaktif yang mirip dengan produk final",
-      "kriteria": "Tugas kelompok (prototype high-fi)",
-      "tatap_muka": "Praktik high-fi TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Menggunakan auto layout, variants, interactive components, micro-interactions",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : High-fidelity prototyping (C4–P4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan membuat prototype interaktif yang mirip dengan produk final\n7.2 Ketepatan menganalisis Menggunakan auto layout, variants, interactive components, micro-interactions",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (prototype high-fi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: tugas terstruktur — Menggunakan auto layout\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Menggunakan auto layout, variants, interactive components, micro-interactions\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep UI/UX, riset pengguna, wireframing, prototyping",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep UI/UX, riset pengguna, wireframing, prototyping\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 5 : Desain visual (tipografi, warna, ikon)",
-      "indikator": "Kemampuan memilih tipografi, palet warna, dan ikon yang sesuai",
-      "kriteria": "Tugas praktik (mood board, style guide)",
-      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Tipografi (serif, sans-serif, hierarchy); color theory; iconography; spacing",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Desain visual (tipografi, warna, ikon) (C3–P4, A3) (CPMK-4)",
+      "indikator": "9.1 Kemampuan memilih tipografi, palet warna, dan ikon yang sesuai\n9.2 Ketepatan menerapkan Tipografi (serif, sans-serif, hierarchy), color theory, iconography, spacing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (mood board, style guide)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: tugas terstruktur — Tipografi (serif\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tipografi (serif, sans-serif, hierarchy); color theory; iconography; spacing\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 5 : Design system dan komponen UI",
-      "indikator": "Kemampuan membuat design system (color, typography, component library)",
-      "kriteria": "Tugas kelompok (design system)",
-      "tatap_muka": "Praktik design system TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Atomic design; design system (Material, Human Interface); komponen: button, card, input",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 5 : Design system dan komponen UI (C3–P4, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan membuat design system (color, typography, component library)\n10.2 Ketepatan menerapkan Atomic design\n10.3 Kemampuan menggunakan design system (Material, Human Interface)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (design system)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: tugas terstruktur — Atomic design; design system (Material\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Atomic design; design system (Material, Human Interface); komponen: button, card, input\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 6 : Desain responsif dan aksesibilitas",
-      "indikator": "Kemampuan merancang UI untuk berbagai ukuran layar dan memenuhi WCAG",
-      "kriteria": "Tugas individu (responsif dan aksesibilitas)",
-      "tatap_muka": "Kuliah + praktik TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Responsive design (breakpoints, grid); WCAG (contrast, keyboard navigation, screen reader)",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Desain responsif dan aksesibilitas (C3, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan merancang UI untuk berbagai ukuran layar dan memenuhi WCAG\n11.2 Ketepatan menerapkan Responsive design (breakpoints, grid)\n11.3 Kemampuan menggunakan WCAG (contrast, keyboard navigation, screen reader)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (responsif dan aksesibilitas)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — Responsive design (breakpoints\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Responsive design (breakpoints, grid); WCAG (contrast, keyboard navigation, screen reader)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 7 : Usability testing (persiapan)",
-      "indikator": "Kemampuan merancang rencana usability testing (partisipan, skenario, tugas)",
-      "kriteria": "Proposal usability testing (kelompok)",
-      "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: desain test",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Metode usability testing (moderated, unmoderated); test plan; task list",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Usability testing (persiapan) (C4–P4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan merancang rencana usability testing (partisipan, skenario, tugas)\n12.2 Ketepatan menganalisis metode usability testing (moderated, unmoderated), test plan, task list",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal usability testing (kelompok)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: latihan terstruktur — Metode usability testing (moderated\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Metode usability testing (moderated, unmoderated); test plan; task list\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 7 : Evaluasi heuristik (Nielsen) dan analisis hasil",
-      "indikator": "Kemampuan mengevaluasi UI berdasarkan 10 prinsip heuristik dan menyusun laporan",
-      "kriteria": "Laporan evaluasi heuristik",
-      "tatap_muka": "Praktik evaluasi TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "10 heuristics (Nielsen); severity rating; rekomendasi perbaikan",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 7 : Evaluasi heuristik (Nielsen) dan analisis hasil (C4–P4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan mengevaluasi UI berdasarkan 10 prinsip heuristik dan menyusun laporan\n13.2 Ketepatan menganalisis 10 heuristics (Nielsen), severity rating, rekomendasi perbaikan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Laporan evaluasi heuristik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: laporan — 10 heuristics ; severity rating; rekomendasi perbaikan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "10 heuristics (Nielsen); severity rating; rekomendasi perbaikan\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 8 : Iterasi desain berdasarkan feedback",
-      "indikator": "Kemampuan memperbaiki prototype berdasarkan hasil testing",
-      "kriteria": "Prototype hasil iterasi",
-      "tatap_muka": "Praktik iterasi TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Prioritaskan temuan; design iteration; A/B testing",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Iterasi desain berdasarkan feedback (C5–P5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan memperbaiki prototype berdasarkan hasil testing\n14.2 Ketepatan mengevaluasi Prioritaskan temuan, design iteration, A/B testing",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Prototype hasil iterasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: latihan terstruktur — Prioritaskan temuan; design iteration; A/B testing\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prioritaskan temuan; design iteration; A/B testing\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 9 : Penyusunan portofolio UI/UX",
-      "indikator": "Kemampuan menyusun case study portofolio (latar belakang, proses, hasil)",
-      "kriteria": "Draft portofolio",
-      "tatap_muka": "Bimbingan portofolio TM: 3x50; Praktik: 1x170",
-      "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']",
-      "materi": "Struktur portofolio: problem, solution, process, outcome; tips presentasi",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Penyusunan portofolio UI/UX (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun case study portofolio (latar belakang, proses, hasil)\n15.2 Ketepatan merancang struktur portofolio: problem, solution, process, outcome, tips presentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft portofolio",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: latihan terstruktur — Struktur portofolio: problem\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur portofolio: problem, solution, process, outcome; tips presentasi\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
-      "indikator": "Kemampuan mempresentasikan proyek UI/UX (prototype + portofolio) dan menjawab soal integratif",
-      "kriteria": "Presentasi kelompok + ujian tertulis",
-      "tatap_muka": "Presentasi + UAS TM: 3x50",
-      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
-      "materi": "Seluruh materi + proyek (desain aplikasi sistem informasi)",
-      "bobot": "19%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan proyek UI/UX (prototype + portofolio) dan menjawab soal integratif\n16.2 Ketepatan menerapkan Seluruh materi + proyek (desain aplikasi sistem informasi)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi + proyek (desain aplikasi sistem informasi)\n[P1, P2, P3]",
+      "bobot": "19"
     }
   ],
   "bahan_kajian": "1. Prinsip desain antarmuka pengguna (UI) yang efektif\n2. Riset pengguna: user persona, user journey, empathy mapping\n3. Wireframing dan prototyping\n4. Desain visual: tipografi, warna, layout, dan ikon\n5. Usability testing dan evaluasi heuristik\n6. Desain responsif dan aksesibilitas\n7. Tools desain UI/UX (Figma, Adobe XD)\n8. Praktikum: merancang antarmuka aplikasi sistem informasi",

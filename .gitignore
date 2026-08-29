@@ -17,12 +17,39 @@ __pycache__/
 # Ignore generated output files (optional, but recommended if you don't want to track all generated docs)
 output/
 output_*/
+outputs/
 *.docx
 *.pdf
-!RPS_MK_TSI0000.docx
-!Kontrak_Kuliah_MK_TSI0000.docx
-!SAP_MK_TSI0000.docx
+
+# Template Word yang diisi oleh generator
+!template/*.docx
+
+# Dokumen acuan. Buku Kurikulum dibaca langsung saat runtime oleh
+# tools/cpl_resmi.py dan tools/selaraskan_cpl_kurikulum.py, jadi tanpa berkas
+# ini pemetaan CPL tidak bisa diverifikasi ulang. Tiga lainnya adalah dasar
+# format RPS dan acuan saat menilai perubahan template.
+!materi-rps/Buku Kurikulum S1 Sistem Informasi*.docx
+!materi-rps/KFR 4560 Cosmeceutical.docx
+!materi-rps/1. Panduan terkait Pembelajaran/PANDUAN PENYUSUNAN RPS ITEKES BP*.pdf
+!materi-rps/1. Panduan terkait Pembelajaran/Buku-Panduan-KPT-2024*.pdf
+
+# Hasil konversi PDF ke DOCX bersifat turunan; bisa dibuat ulang dengan
+# tools/pdf_ke_docx.py, jadi tidak perlu dilacak.
+materi-rps/**/docx/
+
+# Arsip unduhan. Isinya sudah diekstrak ke materi-rps/, dan ukurannya
+# (>100 MB) melebihi batas berkas GitHub.
+*.zip
 
 # If you want to ignore all raw input JSONs but keep template structure, uncomment below
 # input*/
 sign/*
+
+# Berkas kunci sementara Word (muncul saat dokumen sedang dibuka).
+~$*
+
+# Materi pelatihan dan contoh rubrik. Tidak dibaca oleh tools mana pun dan
+# tidak jadi acuan format RPS; dua PPTX saja berukuran 26 MB. Dokumen acuan
+# yang memang diperlukan sudah di-whitelist satu per satu di atas.
+*.pptx
+*.xlsx

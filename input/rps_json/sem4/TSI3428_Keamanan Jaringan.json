@@ -16,63 +16,626 @@
     "jabatan": "-"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"},
-    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan"},
-    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi"},
-    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 7 (KK-05)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-07",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 8 (KK-07)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-09",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis",
+      "label": "CPL 9 (KK-09)",
+      "nomor": "CPL 9"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dasar keamanan jaringan, ancaman, serangan, dan kerentanan (CIA Triad)"},
-    {"kode": "CPMK-2", "cpl": "P-03, KK-03", "deskripsi": "Mampu menerapkan kriptografi dan enkripsi data (simetrik, asimetrik, hash) untuk melindungi komunikasi"},
-    {"kode": "CPMK-3", "cpl": "KU-02, KK-04", "deskripsi": "Mampu mengkonfigurasi firewall, IDS/IPS, dan VPN untuk mengamankan jaringan"},
-    {"kode": "CPMK-4", "cpl": "KK-01, KK-08", "deskripsi": "Mampu melakukan pemantauan dan analisis lalu lintas jaringan serta merespon insiden keamanan"},
-    {"kode": "CPMK-5", "cpl": "KK-03, KK-04", "deskripsi": "Mampu menerapkan standar keamanan (ISO 27001) dan melakukan penetration testing dasar"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dasar keamanan jaringan, ancaman, serangan, dan kerentanan (CIA Triad) (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KK-03",
+      "deskripsi": "Mampu menerapkan kriptografi dan enkripsi data (simetrik, asimetrik, hash) untuk melindungi komunikasi (CPL 2, CPL 6)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-02, KK-07",
+      "deskripsi": "Mampu mengkonfigurasi firewall, IDS/IPS, dan VPN untuk mengamankan jaringan (CPL 4, CPL 8)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-01, KK-09",
+      "deskripsi": "Mampu melakukan pemantauan dan analisis lalu lintas jaringan serta merespon insiden keamanan (CPL 5, CPL 9)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KK-03, KK-05",
+      "deskripsi": "Mampu menerapkan standar keamanan (ISO 27001) dan melakukan penetration testing dasar (CPL 6, CPL 7)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep CIA Triad, ancaman, serangan, dan kerentanan jaringan", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu mengidentifikasi jenis serangan (sniffing, spoofing, DoS, DDoS, man-in-the-middle)", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C3"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu menerapkan kriptografi (enkripsi simetrik, asimetrik, hash) untuk keamanan data", "cpmk": "CPMK-2", "minggu": "4–5", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengkonfigurasi firewall (ACL, stateful) dan IDS/IPS (Snort/Suricata)", "cpmk": "CPMK-3", "minggu": "6–7", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu mengkonfigurasi VPN (IPsec, SSL/TLS) untuk komunikasi aman", "cpmk": "CPMK-3", "minggu": "8–9", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu melakukan pemantauan dan analisis lalu lintas jaringan menggunakan Wireshark, tcpdump", "cpmk": "CPMK-4", "minggu": "10–11", "cpl": "C4–P4"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan manajemen insiden keamanan dan response plan", "cpmk": "CPMK-4", "minggu": "12", "cpl": "C3"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu memahami standar keamanan (ISO 27001) dan melakukan penetration testing dasar (nmap, metasploit)", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C4–P5"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu melakukan proyek keamanan jaringan (simulasi serangan dan pertahanan) secara berkelompok", "cpmk": "CPMK-5", "minggu": "15", "cpl": "C5–P5"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu mempresentasikan hasil proyek dan mengintegrasikan seluruh konsep keamanan jaringan", "cpmk": "CPMK-1 s.d. CPMK-5", "minggu": "16", "cpl": "C6–P6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep CIA Triad, ancaman, serangan, dan kerentanan jaringan (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu mengidentifikasi jenis serangan (sniffing, spoofing, DoS, DDoS, man-in-the-middle) (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan kriptografi (enkripsi simetrik, asimetrik, hash) untuk keamanan data (C3–P4, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–5",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu mengkonfigurasi firewall (ACL, stateful) dan IDS/IPS (Snort/Suricata) (C3–P4, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6–7",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengkonfigurasi VPN (IPsec, SSL/TLS) untuk komunikasi aman (C3–P4, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "8–9",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu melakukan pemantauan dan analisis lalu lintas jaringan menggunakan Wireshark, tcpdump (C4–P4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10–11",
+      "taksonomi": "C4–P4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan manajemen insiden keamanan dan response plan (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "12",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu memahami standar keamanan (ISO 27001) dan melakukan penetration testing dasar (nmap, metasploit) (C4–P5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C4–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu melakukan proyek keamanan jaringan (simulasi serangan dan pertahanan) secara berkelompok (C5–P5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15",
+      "taksonomi": "C5–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mempresentasikan hasil proyek dan mengintegrasikan seluruh konsep keamanan jaringan (C6–P6, A5) (CPMK-1 s.d. CPMK-5)",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "16",
+      "taksonomi": "C6–P6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "70%",
+      "c1": "15%",
+      "c2": "8%",
+      "c3": "15%",
+      "c4": "15%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "20%",
+      "c2": "13%",
+      "c3": "25%",
+      "c4": "20%",
+      "c5": "22%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "6.9",
+      "p2": "",
+      "p3": "6.9",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "4.4",
+      "p2": "",
+      "p3": "4.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "5.9",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "5.8",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "11.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "6.9",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "6.8",
+      "p9": "",
+      "bobot": "13.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4",
+      "p9": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "6.5",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "6.5",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "4",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4",
+      "p7": "4",
+      "p8": "",
+      "p9": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "7.5",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "11.3",
+      "p2": "5.9",
+      "p3": "11.3",
+      "p4": "10.9",
+      "p5": "10.5",
+      "p6": "17.3",
+      "p7": "11.5",
+      "p8": "10.8",
+      "p9": "10.5",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep keamanan jaringan (CIA Triad)", "indikator": "Ketepatan menjelaskan confidentiality, integrity, availability, serta contoh ancaman", "kriteria": "Kuis online; Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi ancaman dasar", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Definisi keamanan jaringan; CIA Triad; ancaman internal vs eksternal; contoh serangan sederhana", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Ancaman, serangan, dan kerentanan", "indikator": "Kemampuan mengidentifikasi jenis ancaman (malware, phishing, social engineering)", "kriteria": "Studi kasus; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: analisis malware dummy", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Kerentanan (vulnerability); eksploitasi; zero-day; APT; studi kasus serangan terkenal", "bobot": "3%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Jenis serangan jaringan", "indikator": "Ketepatan menjelaskan sniffing, spoofing, DoS, DDoS, MITM, dan cara kerjanya", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi serangan (lingkungan virtual)", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Packet sniffing (Wireshark); ARP spoofing; SYN flood; ping of death; amplification attack", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Kriptografi (enkripsi simetrik dan asimetrik)", "indikator": "Kemampuan menjelaskan AES, DES, RSA, dan perbedaan kunci simetrik/asimetrik", "kriteria": "Kuis online; Tugas praktik (enkripsi sederhana dengan OpenSSL)", "tatap_muka": "Kuliah + praktik kriptografi TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Kriptografi simetrik (AES, DES, 3DES); asimetrik (RSA, ECC); key exchange (Diffie-Hellman)", "bobot": "4%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Fungsi hash, digital signature, dan sertifikat digital", "indikator": "Kemampuan menjelaskan MD5, SHA, penggunaan hash untuk integritas, dan sertifikat SSL/TLS", "kriteria": "Tugas praktik (hash file, verifikasi tanda tangan)", "tatap_muka": "Praktik hash & signature TM: 3x50; Praktik: 1x170", "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']", "materi": "Fungsi hash (MD5, SHA-1, SHA-256); digital signature; PKI; sertifikat X.509; TLS handshake", "bobot": "4%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Firewall (ACL, stateful firewall)", "indikator": "Kemampuan mengkonfigurasi aturan firewall sederhana (iptables/pfSense) untuk mengizinkan/menolak lalu lintas", "kriteria": "Tugas praktik (konfigurasi firewall)", "tatap_muka": "Praktik firewall TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi (GNS3/Packet Tracer); [TM: 3×50'] [Praktik: 1×170']", "materi": "Firewall: packet filtering, stateful inspection, application gateway; iptables, pfSense", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : IDS/IPS (Snort/Suricata)", "indikator": "Kemampuan menginstal dan mengkonfigurasi IDS/IPS, membuat aturan deteksi sederhana", "kriteria": "Tugas praktik (deteksi serangan dengan Snort)", "tatap_muka": "Praktik IDS/IPS TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi; [TM: 3×50'] [Praktik: 1×170']", "materi": "IDS vs IPS; signature-based vs anomaly-based; Snort/Suricata rules; log analysis", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS : Ujian Tengah Semester (teori + praktik firewall/IDS)", "indikator": "Menjawab soal konsep dan praktik konfigurasi firewall/IDS", "kriteria": "Ujian praktik online (LMS)", "tatap_muka": "Ujian TM: 3x50; Praktik: 1x170", "daring": "Ujian daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Materi Minggu 1–7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : VPN (IPsec, SSL/TLS)", "indikator": "Kemampuan mengkonfigurasi VPN site-to-site atau remote access menggunakan OpenVPN atau IPsec", "kriteria": "Tugas praktik (setup VPN sederhana)", "tatap_muka": "Praktik VPN TM: 3x50; Praktik: 1x170", "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']", "materi": "Konsep VPN; IPsec (AH, ESP); SSL/TLS VPN; OpenVPN; WireGuard", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 6 : Pemantauan lalu lintas jaringan (Wireshark, tcpdump)", "indikator": "Kemampuan menangkap paket, melakukan filtering, follow stream, dan menganalisis protokol", "kriteria": "Tugas praktik (analisis capture file)", "tatap_muka": "Praktik Wireshark TM: 3x50; Praktik: 1x170", "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']", "materi": "Wireshark: capture filter, display filter, follow TCP stream, IO graph, protocol hierarchy", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Analisis serangan dari capture", "indikator": "Kemampuan mengidentifikasi serangan (ARP spoofing, port scan, DoS) dari file pcap", "kriteria": "Tugas kelompok (analisis capture serangan)", "tatap_muka": "Praktik analisis serangan TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi; [TM: 3×50'] [Praktik: 1×170']", "materi": "Deteksi ARP spoofing, SYN scan, HTTP anomaly, DNS tunneling", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 7 : Manajemen insiden keamanan", "indikator": "Ketepatan menjelaskan siklus respons insiden (persiapan, deteksi, analisis, eradikasi, pemulihan, pembelajaran)", "kriteria": "Kuis online; Studi kasus insiden", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi respons insiden", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Incident response plan; forensik dasar; chain of custody; reporting", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 8 : Standar keamanan (ISO 27001) dan penetration testing", "indikator": "Kemampuan menjelaskan klausa ISO 27001 dan melakukan scanning dengan nmap, vulnerability assessment", "kriteria": "Tugas praktik (nmap scan, report)", "tatap_muka": "Praktik pentest dasar TM: 3x50; Praktik: 1x170", "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']", "materi": "ISO 27001: kontrol keamanan; penetration testing: scanning, enumeration, exploitation (metasploit dasar)", "bobot": "5%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 9 : Proyek keamanan jaringan (persiapan)", "indikator": "Kemampuan merancang skenario serangan dan pertahanan dalam lingkungan virtual", "kriteria": "Proposal proyek kelompok", "tatap_muka": "Bimbingan proyek TM: 3x50; Praktik: 1x170", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Topologi jaringan virtual (VM); peran red team vs blue team; aturan main", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 9 : Implementasi proyek keamanan jaringan", "indikator": "Kemampuan melakukan simulasi serangan dan pertahanan, serta mendokumentasikan", "kriteria": "Laporan proyek + demo", "tatap_muka": "Praktik proyek TM: 3x50; Praktik: 1x170", "daring": "Praktik mandiri; [TM: 3×50'] [Praktik: 1×170']", "materi": "Implementasi skenario; pengumpulan log; analisis serangan; rekomendasi mitigasi", "bobot": "6%"},
-    {"minggu": 16, "deskripsi": "Sub-CPMK 10 : UAS (Presentasi proyek + ujian integrasi)", "indikator": "Kemampuan mempresentasikan hasil proyek dan menjawab soal integratif keamanan jaringan", "kriteria": "Presentasi kelompok + ujian tertulis online", "tatap_muka": "Presentasi + UAS TM: 3x50", "daring": "Presentasi daring + UAS online; [TM: 3×50']", "materi": "Seluruh materi (ancaman, kriptografi, firewall, IDS, VPN, analisis trafik, insiden, ISO 27001, pentest) + proyek", "bobot": "15%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep keamanan jaringan (CIA Triad)",
+      "indikator": "1.1 Ketepatan menjelaskan confidentiality, integrity, availability, serta contoh ancaman\n1.2 Ketepatan menjelaskan definisi keamanan jaringan, CIA Triad\n1.3 Ketepatan menguraikan ancaman internal vs eksternal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: latihan soal — Definisi keamanan jaringan; CIA Triad; ancaman internal vs eksternal; contoh serangan sederhana\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi keamanan jaringan; CIA Triad; ancaman internal vs eksternal; contoh serangan sederhana\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Ancaman, serangan, dan kerentanan (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan mengidentifikasi jenis ancaman (malware, phishing, social engineering)\n2.2 Ketepatan menjelaskan Kerentanan (vulnerability), eksploitasi, zero-day, APT\n2.3 Ketepatan menguraikan studi kasus serangan terkenal",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: studi kasus — Kerentanan ; eksploitasi; zero-day; APT; studi kasus serangan terkenal\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Kerentanan (vulnerability); eksploitasi; zero-day; APT; studi kasus serangan terkenal\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Jenis serangan jaringan (C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan menjelaskan sniffing, spoofing, DoS, DDoS, MITM, dan cara kerjanya\n3.2 Ketepatan menerapkan Packet sniffing (Wireshark), ARP spoofing, SYN flood\n3.3 Kemampuan menggunakan ping of death, amplification attack",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — Packet sniffing ; ARP spoofing; SYN flood; ping of death; amplification attack\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Packet sniffing (Wireshark); ARP spoofing; SYN flood; ping of death; amplification attack\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Kriptografi (enkripsi simetrik dan asimetrik) (C3–P4, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan menjelaskan AES, DES, RSA, dan perbedaan kunci simetrik/asimetrik\n4.2 Ketepatan menerapkan Kriptografi simetrik (AES, DES, 3DES)\n4.3 Kemampuan menggunakan asimetrik (RSA, ECC)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas praktik (enkripsi sederhana dengan OpenSSL)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — Kriptografi simetrik (AES\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kriptografi simetrik (AES, DES, 3DES); asimetrik (RSA, ECC); key exchange (Diffie-Hellman)\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Fungsi hash, digital signature, dan sertifikat digital (C3–P4, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menjelaskan MD5, SHA, penggunaan hash untuk integritas, dan sertifikat SSL/TLS\n5.2 Ketepatan menerapkan fungsi hash (MD5, SHA-1, SHA-256), digital signature, PKI\n5.3 Kemampuan menggunakan sertifikat X.509, TLS handshake",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (hash file, verifikasi tanda tangan)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: tugas terstruktur — Fungsi hash (MD5\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Fungsi hash (MD5, SHA-1, SHA-256); digital signature; PKI; sertifikat X.509; TLS handshake\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Firewall (ACL, stateful firewall) (C3–P4, A3) (CPMK-3)",
+      "indikator": "6.1 Kemampuan mengkonfigurasi aturan firewall sederhana (iptables/pfSense) untuk mengizinkan/menolak lalu lintas\n6.2 Ketepatan menerapkan Firewall: packet filtering, stateful inspection, application gateway, iptables, pfSense",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (konfigurasi firewall)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: tugas terstruktur — Firewall: packet filtering\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Firewall: packet filtering, stateful inspection, application gateway; iptables, pfSense\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : IDS/IPS (Snort/Suricata) (C3–P4, A3) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menginstal dan mengkonfigurasi IDS/IPS, membuat aturan deteksi sederhana\n7.2 Ketepatan menerapkan IDS vs IPS\n7.3 Kemampuan menggunakan signature-based vs anomaly-based, Snort/Suricata rules, log analysis",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (deteksi serangan dengan Snort)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: tugas terstruktur — IDS vs IPS; signature-based vs anomaly-based; Snort/Suricata rules; log analysis\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "IDS vs IPS; signature-based vs anomaly-based; Snort/Suricata rules; log analysis\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep dan praktik konfigurasi firewall/IDS\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : VPN (IPsec, SSL/TLS) (C3–P4, A3) (CPMK-3)",
+      "indikator": "9.1 Kemampuan mengkonfigurasi VPN site-to-site atau remote access menggunakan OpenVPN atau IPsec\n9.2 Ketepatan menerapkan konsep VPN",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (setup VPN sederhana)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: tugas terstruktur — Konsep VPN; IPsec (AH\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Konsep VPN; IPsec (AH, ESP); SSL/TLS VPN; OpenVPN; WireGuard\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : Pemantauan lalu lintas jaringan (Wireshark, tcpdump) (C4–P4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menangkap paket, melakukan filtering, follow stream, dan menganalisis protokol\n10.2 Ketepatan menganalisis Wireshark: capture filter, display filter\n10.3 Kemampuan membandingkan follow TCP stream, IO graph, protocol hierarchy",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (analisis capture file)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: tugas terstruktur — Wireshark: capture filter\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Wireshark: capture filter, display filter, follow TCP stream, IO graph, protocol hierarchy\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Analisis serangan dari capture (C4–P4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mengidentifikasi serangan (ARP spoofing, port scan, DoS) dari file pcap\n11.2 Ketepatan menganalisis Deteksi ARP spoofing, SYN scan, HTTP anomaly, DNS tunneling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (analisis capture serangan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: tugas terstruktur — Deteksi ARP spoofing\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Deteksi ARP spoofing, SYN scan, HTTP anomaly, DNS tunneling\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Manajemen insiden keamanan (C3, A3) (CPMK-4)",
+      "indikator": "12.1 Ketepatan menjelaskan siklus respons insiden (persiapan, deteksi, analisis, eradikasi, pemulihan, pembelajaran)\n12.2 Ketepatan menerapkan Incident response plan, forensik dasar\n12.3 Kemampuan menggunakan chain of custody, reporting",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus insiden",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: studi kasus — Incident response plan; forensik dasar; chain of custody; reporting\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Incident response plan; forensik dasar; chain of custody; reporting\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Standar keamanan (ISO 27001) dan penetration testing (C4–P5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan klausa ISO 27001 dan melakukan scanning dengan nmap, vulnerability assessment\n13.2 Ketepatan menganalisis ISO 27001: kontrol keamanan\n13.3 Kemampuan membandingkan penetration testing: scanning, enumeration, exploitation (metasploit dasar)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (nmap scan, report)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: tugas terstruktur — ISO 27001: kontrol keamanan; penetration testing: scanning\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ISO 27001: kontrol keamanan; penetration testing: scanning, enumeration, exploitation (metasploit dasar)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 9 : Proyek keamanan jaringan (persiapan) (C5–P5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan merancang skenario serangan dan pertahanan dalam lingkungan virtual\n14.2 Ketepatan mengevaluasi Topologi jaringan virtual (VM)\n14.3 Kemampuan menilai peran red team vs blue team, aturan main",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: proyek — Topologi jaringan virtual ; peran red team vs blue team; aturan main\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Topologi jaringan virtual (VM); peran red team vs blue team; aturan main\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Implementasi proyek keamanan jaringan (C5–P5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan melakukan simulasi serangan dan pertahanan, serta mendokumentasikan\n15.2 Ketepatan mengevaluasi implementasi skenario, pengumpulan log, analisis serangan, rekomendasi mitigasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek + demo",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: proyek — Implementasi skenario; pengumpulan log; analisis serangan; rekomendasi mitigasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi skenario; pengumpulan log; analisis serangan; rekomendasi mitigasi\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan hasil proyek dan menjawab soal integratif keamanan jaringan\n16.2 Ketepatan menerapkan Seluruh materi (ancaman, kriptografi, firewall, IDS, VPN, analisis trafik, insiden, ISO 27001, pentest) + proyek",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (ancaman, kriptografi, firewall, IDS, VPN, analisis trafik, insiden, ISO 27001, pentest) + proyek\n[P1, P2, P3]",
+      "bobot": "15"
+    }
   ],
   "bahan_kajian": "1. Konsep dan prinsip keamanan jaringan\n2. Ancaman, serangan, dan kerentanan jaringan\n3. Kriptografi dan enkripsi data\n4. Firewall, IDS/IPS, dan VPN\n5. Keamanan jaringan nirkabel\n6. Pemantauan dan analisis lalu lintas jaringan\n7. Respons insiden keamanan jaringan\n8. Standar dan regulasi keamanan jaringan (ISO 27001)\n9. Praktikum: konfigurasi keamanan jaringan",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Stallings, W. (2017). *Network security essentials: Applications and standards* (6th ed.). Pearson."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Kurose, J. F., & Ross, K. W. (2017). *Computer networking: A top-down approach* (7th ed.). Pearson (Chapter 8: Security in Computer Networks)."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Anderson, R. (2020). *Security engineering: A guide to building dependable distributed systems* (3rd ed.). Wiley."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Stallings, W. (2017). *Network security essentials: Applications and standards* (6th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Kurose, J. F., & Ross, K. W. (2017). *Computer networking: A top-down approach* (7th ed.). Pearson (Chapter 8: Security in Computer Networks)."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Anderson, R. (2020). *Security engineering: A guide to building dependable distributed systems* (3rd ed.). Wiley."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Vacca, J. R. (2017). *Network and system security* (2nd ed.). Syngress."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Northcutt, S., & Novak, J. (2016). *Network intrusion detection: An analyst's handbook*. SANS Press."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Vacca, J. R. (2017). *Network and system security* (2nd ed.). Syngress."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Northcutt, S., & Novak, J. (2016). *Network intrusion detection: An analyst's handbook*. SANS Press."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman dan keterampilan dalam mengamankan jaringan komputer dari berbagai ancaman. Materi meliputi konsep keamanan jaringan (CIA Triad), jenis serangan (sniffing, spoofing, DoS, MITM), kriptografi (enkripsi simetrik/asimetrik, hash, digital signature), firewall (ACL, stateful), IDS/IPS (Snort), VPN (IPsec, SSL/TLS), pemantauan lalu lintas dengan Wireshark, manajemen insiden keamanan, standar ISO 27001, serta penetration testing dasar (nmap, metasploit). Penekanan diberikan pada praktikum menggunakan simulator dan lingkungan virtual untuk mengkonfigurasi perangkat keamanan dan melakukan simulasi serangan serta pertahanan.",
   "matakuliah_syarat": "TSI3319 (Jaringan Komputer) – wajib"

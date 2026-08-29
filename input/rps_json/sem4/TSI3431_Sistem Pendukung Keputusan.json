@@ -17,313 +17,563 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 3 (P-03)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 4 (KU-01)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 5 (KU-02)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-04",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk laporan"
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 6 (KU-04)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi menggunakan kaidah rekayasa perangkat lunak dan tools yang relevan"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 7 (KK-03)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-04",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek"
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 8 (KK-04)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-06",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
-    },
-    {
-      "kode": "KK-08",
-      "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 9 (KK-06)",
+      "nomor": "CPL 9"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu memahami konsep, kerangka, dan komponen Sistem Pendukung Keputusan (SPK) serta perbedaannya dengan sistem transaksional"
+      "deskripsi": "Mampu memahami konsep, kerangka, dan komponen Sistem Pendukung Keputusan (SPK) serta perbedaannya dengan sistem transaksional (CPL 1, CPL 4)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-02, KK-06",
-      "deskripsi": "Mampu menerapkan metode pengambilan keputusan (AHP, TOPSIS, SAW) dalam menyelesaikan masalah multi-kriteria"
+      "deskripsi": "Mampu menerapkan metode pengambilan keputusan (AHP, TOPSIS, SAW) dalam menyelesaikan masalah multi-kriteria (CPL 2, CPL 9)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "P-03, KK-03",
-      "deskripsi": "Mampu merancang dan mengimplementasikan SPK berbasis data (OLAP, dashboard, scorecard) dengan tools sederhana"
+      "deskripsi": "Mampu merancang dan mengimplementasikan SPK berbasis data (OLAP, dashboard, scorecard) dengan tools sederhana (CPL 3, CPL 7)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "KU-02, KK-04",
-      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan integrasi AI dalam SPK"
+      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan integrasi AI dalam SPK (CPL 5, CPL 8)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-04, KK-08",
-      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi dan menyusun laporan hasil analisis"
+      "cpl": "KU-04",
+      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi dan menyusun laporan hasil analisis (CPL 6)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep dasar SPK, komponen (data, model, dialog), dan perbedaan dengan MIS/OLTP",
+      "deskripsi": "Mampu menjelaskan konsep dasar SPK, komponen (data, model, dialog), dan perbedaan dengan MIS/OLTP (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu mengidentifikasi jenis-jenis masalah keputusan (terstruktur, semi-terstruktur, tidak terstruktur)",
+      "deskripsi": "Mampu mengidentifikasi jenis-jenis masalah keputusan (terstruktur, semi-terstruktur, tidak terstruktur) (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menerapkan metode AHP (Analytical Hierarchy Process) untuk pembobotan kriteria dan perankingan alternatif",
+      "deskripsi": "Mampu menerapkan metode AHP (Analytical Hierarchy Process) untuk pembobotan kriteria dan perankingan alternatif (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menerapkan metode TOPSIS dan SAW (Simple Additive Weighting) dalam pengambilan keputusan",
+      "deskripsi": "Mampu menerapkan metode TOPSIS dan SAW (Simple Additive Weighting) dalam pengambilan keputusan (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "6",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menjelaskan konsep OLAP (Online Analytical Processing) dan membuat dashboard sederhana",
+      "deskripsi": "Mampu menjelaskan konsep OLAP (Online Analytical Processing) dan membuat dashboard sederhana (C3–P4, A3) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu merancang dan mengimplementasikan SPK dengan spreadsheet (Excel) atau tools BI (Power BI/Tableau) sederhana",
+      "deskripsi": "Mampu merancang dan mengimplementasikan SPK dengan spreadsheet (Excel) atau tools BI (Power BI/Tableau) sederhana (C4–P4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9–10",
-      "cpl": "C4–P4"
+      "taksonomi": "C4–P4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan mesin inferensi",
+      "deskripsi": "Mampu menjelaskan konsep sistem pakar, basis pengetahuan, dan mesin inferensi (C3, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "11–12",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi (persiapan dan analisis)",
+      "deskripsi": "Mampu melakukan studi kasus perancangan SPK untuk organisasi (persiapan dan analisis) (C5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–14",
-      "cpl": "C5"
+      "taksonomi": "C5, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menyusun laporan dan mempresentasikan hasil perancangan SPK",
+      "deskripsi": "Mampu menyusun laporan dan mempresentasikan hasil perancangan SPK (C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "15–16",
-      "cpl": "C6"
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "69%",
+      "c1": "10%",
+      "c2": "15%",
+      "c3": "17%",
+      "c4": "10%",
+      "c5": "17%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "16%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5.3%",
+      "c4": "5.3%",
+      "c5": "5.3%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "15%",
+      "c2": "20%",
+      "c3": "27.3%",
+      "c4": "15.3%",
+      "c5": "22.3%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "",
+      "p4": "4.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "",
+      "p4": "3.5",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "6.5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "6.5",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4",
+      "p8": "",
+      "p9": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "8",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "8",
+      "p8": "",
+      "p9": "",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "7",
+      "p6": "",
+      "p7": "",
+      "p8": "7",
+      "p9": "",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "16",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "16",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "9",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "8",
+      "p2": "10.5",
+      "p3": "12",
+      "p4": "8",
+      "p5": "7",
+      "p6": "25",
+      "p7": "12",
+      "p8": "7",
+      "p9": "10.5",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep dasar SPK",
-      "indikator": "Ketepatan mendefinisikan SPK, membedakan dengan MIS dan OLTP, serta menjelaskan komponen SPK",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50'] [BM: 2×60'] [BT: 2×60']",
-      "materi": "Definisi SPK; karakteristik; komponen (data management, model management, dialogue); perbandingan dengan sistem transaksional",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar SPK (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan SPK, membedakan dengan MIS dan OLTP, serta menjelaskan komponen SPK\n1.2 Ketepatan menjelaskan definisi SPK, karakteristik\n1.3 Ketepatan menguraikan komponen (data management, model management, dialogue)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Definisi SPK; karakteristik; komponen (data management\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi SPK; karakteristik; komponen (data management, model management, dialogue); perbandingan dengan sistem transaksional\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Kerangka dan arsitektur SPK",
-      "indikator": "Kemampuan menjelaskan arsitektur SPK (Sprague, Carlson, Turban) dan siklus pengambilan keputusan",
-      "kriteria": "Studi kasus; Forum diskusi",
-      "tatap_muka": "Diskusi interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Arsitektur SPK; siklus Simon (intelligence, design, choice, implementation); contoh SPK sederhana",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Kerangka dan arsitektur SPK (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan arsitektur SPK (Sprague, Carlson, Turban) dan siklus pengambilan keputusan\n2.2 Ketepatan menjelaskan arsitektur SPK\n2.3 Ketepatan menguraikan siklus Simon (intelligence, design, choice, implementation)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, Forum diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 2: studi kasus — Arsitektur SPK; siklus Simon (intelligence\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Arsitektur SPK; siklus Simon (intelligence, design, choice, implementation); contoh SPK sederhana\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Jenis masalah keputusan",
-      "indikator": "Ketepatan mengidentifikasi masalah terstruktur, semi-terstruktur, tidak terstruktur dengan contoh",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Klasifikasi masalah; decision matrix; contoh pada bisnis (pemilihan supplier, lokasi gudang, dll)",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Jenis masalah keputusan (C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan mengidentifikasi masalah terstruktur, semi-terstruktur, tidak terstruktur dengan contoh\n3.2 Ketepatan menerapkan Klasifikasi masalah, decision matrix\n3.3 Kemampuan menggunakan contoh pada bisnis (pemilihan supplier, lokasi gudang, dll)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 3: tugas terstruktur — Klasifikasi masalah; decision matrix; contoh pada bisnis (pemilihan supplier\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Klasifikasi masalah; decision matrix; contoh pada bisnis (pemilihan supplier, lokasi gudang, dll)\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Metode AHP (Analytical Hierarchy Process)",
-      "indikator": "Kemampuan membuat struktur hierarki kriteria, matriks perbandingan berpasangan, dan menghitung bobot",
-      "kriteria": "Kuis online; Tugas hitungan AHP",
-      "tatap_muka": "Kuliah interaktif + praktik TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "AHP: prinsip, langkah, matriks perbandingan, normalisasi, eigenvector, konsistensi rasio",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Metode AHP (Analytical Hierarchy Process) (C3–C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan membuat struktur hierarki kriteria, matriks perbandingan berpasangan, dan menghitung bobot\n4.2 Ketepatan menganalisis AHP: prinsip, langkah, matriks perbandingan, normalisasi, eigenvector, konsistensi rasio",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas hitungan AHP",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — AHP: prinsip\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "AHP: prinsip, langkah, matriks perbandingan, normalisasi, eigenvector, konsistensi rasio\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Implementasi AHP dengan tools (Excel, SuperDecisions)",
-      "indikator": "Kemampuan menggunakan Excel atau tools untuk perhitungan AHP",
-      "kriteria": "Tugas praktik (studi kasus AHP)",
-      "tatap_muka": "Praktik AHP TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Implementasi AHP di Excel; penggunaan SuperDecisions; studi kasus pemilihan vendor",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Implementasi AHP dengan tools (Excel, SuperDecisions) (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menggunakan Excel atau tools untuk perhitungan AHP\n5.2 Ketepatan menganalisis implementasi AHP di Excel, penggunaan SuperDecisions\n5.3 Kemampuan membandingkan studi kasus pemilihan vendor",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (studi kasus AHP)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 5: studi kasus — Implementasi AHP di Excel; penggunaan SuperDecisions; studi kasus pemilihan vendor\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Implementasi AHP di Excel; penggunaan SuperDecisions; studi kasus pemilihan vendor\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Metode TOPSIS dan SAW",
-      "indikator": "Kemampuan menghitung normalisasi matriks, bobot, dan perankingan dengan TOPSIS dan SAW",
-      "kriteria": "Tugas hitungan TOPSIS/SAW",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "SAW: normalisasi linear, penjumlahan terbobot; TOPSIS: ideal positif, ideal negatif, jarak Euclidean",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Metode TOPSIS dan SAW (C3–C4, A4) (CPMK-2)",
+      "indikator": "6.1 Kemampuan menghitung normalisasi matriks, bobot, dan perankingan dengan TOPSIS dan SAW\n6.2 Ketepatan menganalisis SAW: normalisasi linear, penjumlahan terbobot\n6.3 Kemampuan membandingkan TOPSIS: ideal positif, ideal negatif, jarak Euclidean",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas hitungan TOPSIS/SAW",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 6: tugas terstruktur — SAW: normalisasi linear\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "SAW: normalisasi linear, penjumlahan terbobot; TOPSIS: ideal positif, ideal negatif, jarak Euclidean\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 5 : OLAP dan dashboard",
-      "indikator": "Ketepatan menjelaskan operasi OLAP (slice, dice, drill-down, roll-up, pivot) dan membuat dashboard sederhana",
-      "kriteria": "Kuis online; Tugas praktik (Excel PivotTable)",
-      "tatap_muka": "Praktik OLAP TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "OLAP: kubus data; operasi; dashboard; scorecard; contoh dengan PivotTable atau Power BI",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : OLAP dan dashboard (C3–P4, A3) (CPMK-3)",
+      "indikator": "7.1 Ketepatan menjelaskan operasi OLAP (slice, dice, drill-down, roll-up, pivot) dan membuat dashboard sederhana\n7.2 Ketepatan menerapkan OLAP: kubus data, operasi, dashboard, scorecard\n7.3 Kemampuan menggunakan contoh dengan PivotTable atau Power BI",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas praktik (Excel PivotTable)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — OLAP: kubus data; operasi; dashboard; scorecard; contoh dengan PivotTable atau Power BI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "OLAP: kubus data; operasi; dashboard; scorecard; contoh dengan PivotTable atau Power BI\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep SPK, AHP, TOPSIS, SAW, OLAP",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 2x50",
-      "daring": "Ujian daring sinkron; [TM: 2×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep SPK, AHP, TOPSIS, SAW, OLAP\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 6 : Perancangan SPK dengan spreadsheet (studi kasus sederhana)",
-      "indikator": "Kemampuan membuat model keputusan dengan Excel (input, proses, output)",
-      "kriteria": "Tugas kelompok (prototype SPK)",
-      "tatap_muka": "Praktik Excel TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Membangun SPK sederhana: input data, perhitungan bobot, perankingan, dashboard; studi kasus penerimaan beasiswa",
-      "bobot": "6%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Perancangan SPK dengan spreadsheet (studi kasus sederhana) (C4–P4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan membuat model keputusan dengan Excel (input, proses, output)\n9.2 Ketepatan menganalisis Membangun SPK sederhana: input data, perhitungan bobot, perankingan, dashboard\n9.3 Kemampuan membandingkan studi kasus penerimaan beasiswa",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (prototype SPK)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 8: tugas terstruktur — Membangun SPK sederhana: input data\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Membangun SPK sederhana: input data, perhitungan bobot, perankingan, dashboard; studi kasus penerimaan beasiswa\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 6 : SPK dengan tools BI (Power BI/Tableau)",
-      "indikator": "Kemampuan membuat dashboard interaktif dan scorecard menggunakan Power BI",
-      "kriteria": "Tugas praktik (dashboard BI)",
-      "tatap_muka": "Praktik BI TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Pengenalan Power BI; koneksi data; visualisasi; filter; scorecard; studi kasus penjualan",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : SPK dengan tools BI (Power BI/Tableau) (C4–P4, A4) (CPMK-3)",
+      "indikator": "10.1 Kemampuan membuat dashboard interaktif dan scorecard menggunakan Power BI\n10.2 Ketepatan menganalisis Pengenalan Power BI, koneksi data, visualisasi, filter, scorecard\n10.3 Kemampuan membandingkan studi kasus penjualan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (dashboard BI)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 9: tugas terstruktur — Pengenalan Power BI; koneksi data; visualisasi; filter; scorecard; studi kasus penjualan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengenalan Power BI; koneksi data; visualisasi; filter; scorecard; studi kasus penjualan\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 7 : Sistem pakar dan basis pengetahuan",
-      "indikator": "Ketepatan menjelaskan komponen sistem pakar (basis pengetahuan, mesin inferensi, antarmuka) dan forward/backward chaining",
-      "kriteria": "Kuis online; Studi kasus sistem pakar",
-      "tatap_muka": "Kuliah interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Sistem pakar: definisi, arsitektur, akuisisi pengetahuan, inferensi, certainty factor; contoh",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Sistem pakar dan basis pengetahuan (C3, A3) (CPMK-4)",
+      "indikator": "11.1 Ketepatan menjelaskan komponen sistem pakar (basis pengetahuan, mesin inferensi, antarmuka) dan forward/backward chaining\n11.2 Ketepatan menerapkan sistem pakar: definisi, arsitektur, akuisisi pengetahuan, inferensi, certainty factor, contoh",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus sistem pakar",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(2x50')]\nTugas 10: studi kasus — Sistem pakar: definisi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sistem pakar: definisi, arsitektur, akuisisi pengetahuan, inferensi, certainty factor; contoh\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 7 : Integrasi AI dalam SPK (machine learning, data mining)",
-      "indikator": "Kemampuan menjelaskan peran AI dalam SPK (prediksi, clustering, rekomendasi)",
-      "kriteria": "Forum diskusi; Tugas analisis",
-      "tatap_muka": "Diskusi interaktif TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "AI untuk SPK: decision tree, neural network, fuzzy logic; contoh rekomendasi",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Integrasi AI dalam SPK (machine learning, data mining) (C3, A3) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menjelaskan peran AI dalam SPK (prediksi, clustering, rekomendasi)\n12.2 Ketepatan menerapkan AI untuk SPK: decision tree, neural network, fuzzy logic, contoh rekomendasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Forum diskusi, Tugas analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 11: tugas terstruktur — AI untuk SPK: decision tree\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "AI untuk SPK: decision tree, neural network, fuzzy logic; contoh rekomendasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 8 : Studi kasus perancangan SPK (persiapan)",
-      "indikator": "Kemampuan memilih organisasi/kasus, mengidentifikasi masalah, dan merumuskan kriteria",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Pemilihan kasus (pemilihan supplier, lokasi, karyawan terbaik, dll); identifikasi kriteria dan alternatif",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Studi kasus perancangan SPK (persiapan) (C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan memilih organisasi/kasus, mengidentifikasi masalah, dan merumuskan kriteria\n13.2 Ketepatan mengevaluasi Pemilihan kasus (pemilihan supplier, lokasi, karyawan terbaik, dll)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 12: proyek — Pemilihan kasus (pemilihan supplier\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan kasus (pemilihan supplier, lokasi, karyawan terbaik, dll); identifikasi kriteria dan alternatif\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 8 : Implementasi dan analisis SPK",
-      "indikator": "Kemampuan mengimplementasikan metode (AHP/TOPSIS/SAW) dan membuat dashboard",
-      "kriteria": "Laporan proyek (draft)",
-      "tatap_muka": "Bimbingan proyek TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Implementasi perhitungan; visualisasi hasil; analisis sensitivitas; dokumentasi",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Implementasi dan analisis SPK (C5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan mengimplementasikan metode (AHP/TOPSIS/SAW) dan membuat dashboard\n14.2 Ketepatan mengevaluasi implementasi perhitungan, visualisasi hasil, analisis sensitivitas, dokumentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek (draft)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 13: proyek — Implementasi perhitungan; visualisasi hasil; analisis sensitivitas; dokumentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi perhitungan; visualisasi hasil; analisis sensitivitas; dokumentasi\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan dan presentasi (persiapan)",
-      "indikator": "Kemampuan menyusun laporan sistematis dan slide presentasi",
-      "kriteria": "Laporan final (draft akhir)",
-      "tatap_muka": "Bimbingan proyek TM: 2x50",
-      "daring": "Kuliah daring sinkron; [TM: 2×50']",
-      "materi": "Struktur laporan; kesimpulan dan rekomendasi; persiapan presentasi",
-      "bobot": "5%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Penyusunan laporan dan presentasi (persiapan) (C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun laporan sistematis dan slide presentasi\n15.2 Ketepatan merancang struktur laporan\n15.3 Kemampuan menyusun kesimpulan dan rekomendasi, persiapan presentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan final (draft akhir)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 14: laporan — Struktur laporan; kesimpulan dan rekomendasi; persiapan presentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan; kesimpulan dan rekomendasi; persiapan presentasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS : Presentasi proyek + Ujian Akhir Semester",
-      "indikator": "Kemampuan mempresentasikan hasil SPK dan menjawab soal integratif",
-      "kriteria": "Presentasi kelompok + ujian tertulis online",
-      "tatap_muka": "Presentasi + UAS TM: 2x50",
-      "daring": "Presentasi daring + UAS online; [TM: 2×50']",
-      "materi": "Seluruh materi (SPK, AHP, TOPSIS, SAW, OLAP, dashboard, sistem pakar, AI) + proyek",
-      "bobot": "16%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan hasil SPK dan menjawab soal integratif\n16.2 Ketepatan menganalisis Seluruh materi (SPK, AHP, TOPSIS, SAW, OLAP, dashboard, sistem pakar, AI) + proyek",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (SPK, AHP, TOPSIS, SAW, OLAP, dashboard, sistem pakar, AI) + proyek\n[P1, P2, P3]",
+      "bobot": "16"
     }
   ],
   "bahan_kajian": "1. Konsep dan kerangka sistem pendukung keputusan (SPK)\n2. Komponen SPK: model manajemen, data manajemen, dialog\n3. Metode pengambilan keputusan (AHP, TOPSIS, SAW)\n4. Business Intelligence dan analytics dalam SPK\n5. Sistem pakar dan basis pengetahuan\n6. Integrasi AI dalam sistem pendukung keputusan\n7. SPK berbasis data (OLAP, dashboard, scorecard)\n8. Perancangan dan implementasi SPK",

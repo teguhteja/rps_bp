@@ -17,305 +17,634 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-02",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
-      "kode": "KU-05",
+      "kode": "KU-04",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 5 (KU-04)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 8 (KK-05)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-06",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi"
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 9 (KK-06)",
+      "nomor": "CPL 9"
     },
     {
-      "kode": "KK-08",
+      "kode": "KK-07",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"
+      "deskripsi": "Mampu mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+      "label": "CPL 10 (KK-07)",
+      "nomor": "CPL 10"
+    },
+    {
+      "kode": "KK-09",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis",
+      "label": "CPL 11 (KK-09)",
+      "nomor": "CPL 11"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu menjelaskan konsep dan framework Business Process Management (BPM) serta siklus hidup proses bisnis"
+      "deskripsi": "Mampu menjelaskan konsep dan framework Business Process Management (BPM) serta siklus hidup proses bisnis (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-02, KU-02",
-      "deskripsi": "Mampu mengidentifikasi dan memodelkan proses bisnis menggunakan BPMN (Business Process Model and Notation)"
+      "deskripsi": "Mampu mengidentifikasi dan memodelkan proses bisnis menggunakan BPMN (Business Process Model and Notation) (CPL 2, CPL 4)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-05, KK-06",
-      "deskripsi": "Mampu melakukan analisis dan evaluasi proses bisnis (as-is dan to-be) serta mengusulkan redesain"
+      "cpl": "KU-04, KK-05, KK-06, KK-09",
+      "deskripsi": "Mampu melakukan analisis dan evaluasi proses bisnis (as-is dan to-be) serta mengusulkan redesain (CPL 5, CPL 8, CPL 9, CPL 11)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KK-08",
-      "deskripsi": "Mampu mengimplementasikan otomatisasi proses bisnis (BPA/RPA) dan menggunakan tools BPM"
+      "cpl": "KK-04, KK-07",
+      "deskripsi": "Mampu mengimplementasikan otomatisasi proses bisnis (BPA/RPA) dan menggunakan tools BPM (CPL 7, CPL 10)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-01, KU-05",
-      "deskripsi": "Mampu menyusun KPI, mengukur kinerja proses, serta menerapkan continuous improvement (Lean/Six Sigma)"
+      "cpl": "KU-01, KK-01",
+      "deskripsi": "Mampu menyusun KPI, mengukur kinerja proses, serta menerapkan continuous improvement (Lean/Six Sigma) (CPL 3, CPL 6)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep dasar proses bisnis, BPM, dan siklus hidup BPM",
+      "deskripsi": "Mampu menjelaskan konsep dasar proses bisnis, BPM, dan siklus hidup BPM (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu membandingkan framework BPM (ABPMP, BPMN, dan standar lainnya)",
+      "deskripsi": "Mampu membandingkan framework BPM (ABPMP, BPMN, dan standar lainnya) (C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu mengidentifikasi dan mendokumentasikan proses bisnis menggunakan teknik wawancara/observasi",
+      "deskripsi": "Mampu mengidentifikasi dan mendokumentasikan proses bisnis menggunakan teknik wawancara/observasi (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu memodelkan proses bisnis dengan BPMN (level kolaborasi, orchestration, choreography)",
+      "deskripsi": "Mampu memodelkan proses bisnis dengan BPMN (level kolaborasi, orchestration, choreography) (C3–C4, A4) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menganalisis proses as-is dan mengidentifikasi pain points serta waste",
+      "deskripsi": "Mampu menganalisis proses as-is dan mengidentifikasi pain points serta waste (C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "6",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu merancang proses to-be dan melakukan value-added analysis",
+      "deskripsi": "Mampu merancang proses to-be dan melakukan value-added analysis (C4–C5, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C4–C5"
+      "taksonomi": "C4–C5, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menjelaskan konsep Business Process Automation (BPA) dan Robotic Process Automation (RPA)",
+      "deskripsi": "Mampu menjelaskan konsep Business Process Automation (BPA) dan Robotic Process Automation (RPA) (C2, A2) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "9",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu menggunakan tools BPM (seperti Bizagi, Camunda, atau Appian) untuk simulasi dan eksekusi",
+      "deskripsi": "Mampu menggunakan tools BPM (seperti Bizagi, Camunda, atau Appian) untuk simulasi dan eksekusi (C3–P4, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menyusun KPI proses bisnis dan menerapkan Lean Six Sigma untuk improvement",
+      "deskripsi": "Mampu menyusun KPI proses bisnis dan menerapkan Lean Six Sigma untuk improvement (C4–C5, A4) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12–13",
-      "cpl": "C4–C5"
+      "taksonomi": "C4–C5, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu mengintegrasikan seluruh keterampilan dalam proyek analisis dan redesain proses bisnis",
+      "deskripsi": "Mampu mengintegrasikan seluruh keterampilan dalam proyek analisis dan redesain proses bisnis (C5–C6, A5) (CPMK-3, CPMK-5)",
       "cpmk": "CPMK-3, CPMK-5",
       "minggu": "14–15",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "49%",
+      "c1": "0%",
+      "c2": "9%",
+      "c3": "15%",
+      "c4": "10%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "16%",
+      "c1": "7%",
+      "c2": "4%",
+      "c3": "0%",
+      "c4": "5%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6.7%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "18%",
+      "c3": "26.7%",
+      "c4": "21.7%",
+      "c5": "21.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.2",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.3",
+      "p3": "",
+      "p4": "3.2",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "5.8",
+      "p3": "",
+      "p4": "5.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "11.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "1.9",
+      "p6": "",
+      "p7": "",
+      "p8": "1.9",
+      "p9": "1.9",
+      "p10": "",
+      "p11": "1.8",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "1.9",
+      "p6": "",
+      "p7": "",
+      "p8": "1.9",
+      "p9": "1.9",
+      "p10": "",
+      "p11": "1.8",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "5",
+      "p8": "",
+      "p9": "",
+      "p10": "5",
+      "p11": "",
+      "bobot": "10",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "p10": "7.5",
+      "p11": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "7.5",
+      "p4": "",
+      "p5": "",
+      "p6": "7.5",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "2.5",
+      "p4": "",
+      "p5": "2.5",
+      "p6": "2.5",
+      "p7": "",
+      "p8": "2.5",
+      "p9": "2.5",
+      "p10": "",
+      "p11": "2.5",
+      "bobot": "15",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.1",
+      "p2": "9.1",
+      "p3": "15.9",
+      "p4": "8.9",
+      "p5": "6.3",
+      "p6": "10",
+      "p7": "12.5",
+      "p8": "6.3",
+      "p9": "6.3",
+      "p10": "12.5",
+      "p11": "6.1",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Konsep dasar BPM",
-      "indikator": "Ketepatan menjelaskan definisi proses bisnis, BPM, dan siklus hidup BPM",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Proses bisnis vs fungsi; nilai tambah; siklus BPM (discover, analyze, redesign, implement, monitor, optimize)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar BPM (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi proses bisnis, BPM, dan siklus hidup BPM\n1.2 Ketepatan menjelaskan proses bisnis vs fungsi, nilai tambah\n1.3 Ketepatan menguraikan siklus BPM (discover, analyze, redesign, implement, monitor, optimize)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Proses bisnis vs fungsi; nilai tambah; siklus BPM (discover\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Proses bisnis vs fungsi; nilai tambah; siklus BPM (discover, analyze, redesign, implement, monitor, optimize)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Framework BPM",
-      "indikator": "Kemampuan membandingkan ABPMP, BPMN, dan standar internasional",
-      "kriteria": "Diskusi kelompok",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Body of Knowledge (BPM CBOK); notasi BPMN; standar ISO, APQC",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Framework BPM (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membandingkan ABPMP, BPMN, dan standar internasional\n2.2 Ketepatan menerapkan Body of Knowledge (BPM CBOK), notasi BPMN\n2.3 Kemampuan menggunakan standar ISO, APQC",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 2: latihan terstruktur — Body of Knowledge ; notasi BPMN; standar ISO\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Body of Knowledge (BPM CBOK); notasi BPMN; standar ISO, APQC\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: Identifikasi proses bisnis",
-      "indikator": "Kemampuan mengidentifikasi proses dan mendokumentasikan dengan SIPOC",
-      "kriteria": "Tugas individu: SIPOC untuk kasus sederhana",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Teknik identifikasi: wawancara, observasi, document analysis; SIPOC diagram",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Identifikasi proses bisnis (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan mengidentifikasi proses dan mendokumentasikan dengan SIPOC\n3.2 Ketepatan menerapkan teknik identifikasi: wawancara, observasi, document analysis, SIPOC diagram",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: SIPOC untuk kasus sederhana",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Teknik identifikasi: wawancara\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Teknik identifikasi: wawancara, observasi, document analysis; SIPOC diagram\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 4: Pemodelan BPMN (level kolaborasi dan orchestration)",
-      "indikator": "Kemampuan membuat diagram BPMN sederhana (pool, lane, activities, events, gateways)",
-      "kriteria": "Praktik pemodelan (Bizagi/online tool)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Elemen BPMN: flow objects, connecting objects, swimlanes, artifacts; contoh proses sederhana",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Pemodelan BPMN (level kolaborasi dan orchestration) (C3–C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan membuat diagram BPMN sederhana (pool, lane, activities, events, gateways)\n4.2 Ketepatan menganalisis Elemen BPMN: flow objects, connecting objects, swimlanes, artifacts\n4.3 Kemampuan membandingkan contoh proses sederhana",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik pemodelan (Bizagi/online tool)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 4: latihan terstruktur — Elemen BPMN: flow objects\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Elemen BPMN: flow objects, connecting objects, swimlanes, artifacts; contoh proses sederhana\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 4: Pemodelan BPMN lanjut (choreography dan event subprocess)",
-      "indikator": "Kemampuan memodelkan interaksi antar pool dan event-driven process",
-      "kriteria": "Tugas kelompok: pemodelan proses bisnis organisasi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Choreography diagram; message flow; event subprocess; error handling",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : Pemodelan BPMN lanjut (choreography dan event subprocess) (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan memodelkan interaksi antar pool dan event-driven process\n5.2 Ketepatan menganalisis Choreography diagram, message flow, event subprocess, error handling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: pemodelan proses bisnis organisasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Choreography diagram; message flow; event subprocess; error handling\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Choreography diagram; message flow; event subprocess; error handling\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5: Analisis proses as-is",
-      "indikator": "Kemampuan mengidentifikasi bottleneck, waste, dan pain points",
-      "kriteria": "Studi kasus: analisis proses nyata",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Value stream mapping; cycle time vs throughput; waste (Lean principles)",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Analisis proses as-is (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan mengidentifikasi bottleneck, waste, dan pain points\n6.2 Ketepatan menganalisis Value stream mapping\n6.3 Kemampuan membandingkan cycle time vs throughput",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus: analisis proses nyata",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 6: studi kasus — Value stream mapping; cycle time vs throughput; waste\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Value stream mapping; cycle time vs throughput; waste (Lean principles)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 6: Redesain proses to-be",
-      "indikator": "Kemampuan merancang proses baru yang lebih efisien",
-      "kriteria": "Tugas kelompok: usulan redesain",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Heuristic redesign: task elimination, order adjustment, parallelization, integration; simulasi",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Redesain proses to-be (C4–C5, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan merancang proses baru yang lebih efisien\n7.2 Ketepatan mengevaluasi Heuristic redesign: task elimination, order adjustment, parallelization, integration, simulasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: usulan redesain",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 7: esai — Heuristic redesign: task elimination\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Heuristic redesign: task elimination, order adjustment, parallelization, integration; simulasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep BPM, pemodelan, analisis as-is, redesain",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep BPM, pemodelan, analisis as-is, redesain\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 7: Business Process Automation (BPA) dan RPA",
-      "indikator": "Ketepatan menjelaskan konsep BPA, RPA, dan perbedaannya",
-      "kriteria": "Kuis; studi kasus otomatisasi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "BPA vs RPA; tools: UiPath, Automation Anywhere; kriteria proses untuk otomatisasi",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Business Process Automation (BPA) dan RPA (C2, A2) (CPMK-4)",
+      "indikator": "9.1 Ketepatan menjelaskan konsep BPA, RPA, dan perbedaannya\n9.2 Ketepatan menjelaskan BPA vs RPA\n9.3 Ketepatan menguraikan tools: UiPath, Automation Anywhere",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: studi kasus otomatisasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 8: studi kasus — BPA vs RPA; tools: UiPath\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "BPA vs RPA; tools: UiPath, Automation Anywhere; kriteria proses untuk otomatisasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 8: Tools BPM (Bizagi/Camunda)",
-      "indikator": "Kemampuan menggunakan tool untuk membuat model dan simulasi",
-      "kriteria": "Praktikum: membuat model dan simulasi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Instalasi dan pengenalan Bizagi Modeler/Camunda; membuat diagram; simulasi time/cost",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 8 : Tools BPM (Bizagi/Camunda) (C3–P4, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menggunakan tool untuk membuat model dan simulasi\n10.2 Ketepatan menerapkan Instalasi dan pengenalan Bizagi Modeler/Camunda, membuat diagram, simulasi time/cost",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktikum: membuat model dan simulasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 9: praktikum — Instalasi dan pengenalan Bizagi Modeler/Camunda; membuat diagram; simulasi time/cost\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Instalasi dan pengenalan Bizagi Modeler/Camunda; membuat diagram; simulasi time/cost\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 8: Implementasi dan eksekusi proses dengan BPM engine",
-      "indikator": "Kemampuan mendeploy model ke BPM engine",
-      "kriteria": "Tugas kelompok: deploy model sederhana",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "BPM engine; user task; form; rule; monitoring",
-      "bobot": "6%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Implementasi dan eksekusi proses dengan BPM engine (C3–P4, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan mendeploy model ke BPM engine\n11.2 Ketepatan menerapkan BPM engine, user task, form, rule, monitoring",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: deploy model sederhana",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — BPM engine; user task; form; rule; monitoring\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "BPM engine; user task; form; rule; monitoring\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 9: KPI dan pengukuran kinerja proses",
-      "indikator": "Kemampuan menyusun KPI operasional dan strategis",
-      "kriteria": "Tugas individu: KPI untuk proses bisnis",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Contoh KPI: cycle time, defect rate, cost per transaction, customer satisfaction; dashboard",
-      "bobot": "6%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : KPI dan pengukuran kinerja proses (C4–C5, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menyusun KPI operasional dan strategis\n12.2 Ketepatan mengevaluasi Contoh KPI: cycle time, defect rate, cost per transaction, customer satisfaction, dashboard",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: KPI untuk proses bisnis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Contoh KPI: cycle time\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Contoh KPI: cycle time, defect rate, cost per transaction, customer satisfaction; dashboard\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9: Continuous improvement (Lean Six Sigma)",
-      "indikator": "Kemampuan menerapkan DMAIC untuk improvement",
-      "kriteria": "Studi kasus: DMAIC project",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Lean: value, waste, Kaizen; Six Sigma: DMAIC, role, statistical tools",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Continuous improvement (Lean Six Sigma) (C4–C5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menerapkan DMAIC untuk improvement\n13.2 Ketepatan mengevaluasi Lean: value, waste, Kaizen\n13.3 Kemampuan menilai Six Sigma: DMAIC, role, statistical tools",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus: DMAIC project",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 12: studi kasus — Lean: value\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Lean: value, waste, Kaizen; Six Sigma: DMAIC, role, statistical tools\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 10: Proyek BPM – Identifikasi dan analisis",
-      "indikator": "Kemampuan memilih kasus dan melakukan analisis awal",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Studi kasus nyata (UMKM atau perusahaan); identifikasi proses; pengumpulan data",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek BPM – Identifikasi dan analisis (C5–C6, A5) (CPMK-3, CPMK-5)",
+      "indikator": "14.1 Kemampuan memilih kasus dan melakukan analisis awal\n14.2 Ketepatan merancang Studi kasus nyata (UMKM atau perusahaan), identifikasi proses, pengumpulan data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 13: proyek — Studi kasus nyata ; identifikasi proses; pengumpulan data\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Studi kasus nyata (UMKM atau perusahaan); identifikasi proses; pengumpulan data\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Presentasi proyek redesain proses",
-      "indikator": "Kemampuan mempresentasikan hasil analisis, redesain, dan rekomendasi",
-      "kriteria": "Presentasi kelompok (15 menit)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Presentasi daring sinkron; TM: 3x50",
-      "materi": "Presentasi model as-is, to-be, KPI, improvement plan",
-      "bobot": "8%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi proyek redesain proses (C5–C6, A5) (CPMK-3, CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan hasil analisis, redesain, dan rekomendasi\n15.2 Ketepatan merancang Presentasi model as-is, to-be, KPI, improvement plan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi model as-is\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi model as-is, to-be, KPI, improvement plan\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang BPM, pemodelan, otomatisasi, KPI, dan improvement",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Seluruh materi (minggu 1–15)",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang BPM, pemodelan, otomatisasi, KPI, dan improvement\n16.2 Ketepatan menjelaskan Seluruh materi (minggu 1–15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1–15)\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Konsep dan framework Business Process Management (BPM)\n2. Identifikasi dan pemodelan proses bisnis (BPMN)\n3. Analisis dan evaluasi proses bisnis (as-is dan to-be)\n4. Redesain dan optimasi proses bisnis\n5. Implementasi BPM dengan teknologi informasi\n6. Business Process Automation dan RPA\n7. KPI dan pengukuran kinerja proses bisnis\n8. Continuous Process Improvement: Lean dan Six Sigma",

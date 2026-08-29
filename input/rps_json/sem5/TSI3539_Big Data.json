@@ -17,305 +17,598 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
-      "kode": "KU-05",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 8 (KK-08)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-11",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital",
+      "label": "CPL 9 (KK-11)",
+      "nomor": "CPL 9"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu menjelaskan konsep Big Data (karakteristik 5V) dan ekosistem teknologi Big Data"
+      "deskripsi": "Mampu menjelaskan konsep Big Data (karakteristik 5V) dan ekosistem teknologi Big Data (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
-      "cpl": "P-03, KU-02",
-      "deskripsi": "Mampu mengimplementasikan pengumpulan dan penyimpanan data besar menggunakan Hadoop dan HDFS"
+      "cpl": "P-03, KU-02, KK-04",
+      "deskripsi": "Mampu mengimplementasikan pengumpulan dan penyimpanan data besar menggunakan Hadoop dan HDFS (CPL 2, CPL 4, CPL 7)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-05, KK-03",
-      "deskripsi": "Mampu melakukan pemrosesan data batch (MapReduce) dan real-time streaming (Spark Streaming)"
+      "cpl": "KK-03, KK-08",
+      "deskripsi": "Mampu melakukan pemrosesan data batch (MapReduce) dan real-time streaming (Spark Streaming) (CPL 6, CPL 8)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KK-11",
-      "deskripsi": "Mampu menerapkan analitik Big Data (analisis eksploratif, machine learning sederhana) dan visualisasi data besar"
+      "cpl": "KK-11",
+      "deskripsi": "Mampu menerapkan analitik Big Data (analisis eksploratif, machine learning sederhana) dan visualisasi data besar (CPL 9)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-01, KK-11",
-      "deskripsi": "Mampu mengelola keamanan, privasi, dan etika dalam pengelolaan Big Data serta menyusun laporan analisis"
+      "cpl": "KU-01, KK-01, KK-11",
+      "deskripsi": "Mampu mengelola keamanan, privasi, dan etika dalam pengelolaan Big Data serta menyusun laporan analisis (CPL 3, CPL 5, CPL 9)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan karakteristik Big Data (5V: Volume, Variety, Velocity, Veracity, Value) dan perbedaannya dengan data tradisional",
+      "deskripsi": "Mampu menjelaskan karakteristik Big Data (5V: Volume, Variety, Velocity, Veracity, Value) dan perbedaannya dengan data tradisional (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menjelaskan ekosistem Hadoop (HDFS, YARN, MapReduce) dan teknologi pendukung",
+      "deskripsi": "Mampu menjelaskan ekosistem Hadoop (HDFS, YARN, MapReduce) dan teknologi pendukung (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu mengimplementasikan HDFS untuk penyimpanan data terdistribusi",
+      "deskripsi": "Mampu mengimplementasikan HDFS untuk penyimpanan data terdistribusi (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3–4",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menulis program MapReduce sederhana untuk pengolahan data batch",
+      "deskripsi": "Mampu menulis program MapReduce sederhana untuk pengolahan data batch (C3–C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "5–6",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menjelaskan konsep NoSQL database (key-value, document, column-family, graph) dan implementasi sederhana",
+      "deskripsi": "Mampu menjelaskan konsep NoSQL database (key-value, document, column-family, graph) dan implementasi sederhana (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "7",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu menggunakan Apache Spark untuk pemrosesan data batch dan streaming",
+      "deskripsi": "Mampu menggunakan Apache Spark untuk pemrosesan data batch dan streaming (C3–C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9–10",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu melakukan analisis eksploratif data besar menggunakan tools seperti Python (pandas, PySpark)",
+      "deskripsi": "Mampu melakukan analisis eksploratif data besar menggunakan tools seperti Python (pandas, PySpark) (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "11",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan visualisasi data besar menggunakan Tableau atau Python (Matplotlib, Seaborn)",
+      "deskripsi": "Mampu melakukan visualisasi data besar menggunakan Tableau atau Python (Matplotlib, Seaborn) (C3–P4, A3) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C3–P4"
+      "taksonomi": "C3–P4, A3"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu menjelaskan isu keamanan, privasi, dan etika dalam Big Data (anonimisasi, kepatuhan regulasi)",
+      "deskripsi": "Mampu menjelaskan isu keamanan, privasi, dan etika dalam Big Data (anonimisasi, kepatuhan regulasi) (C2, A2) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu menyusun laporan analisis Big Data dan mempresentasikan hasil",
+      "deskripsi": "Mampu menyusun laporan analisis Big Data dan mempresentasikan hasil (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "14–15",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "44%",
+      "c1": "0%",
+      "c2": "4%",
+      "c3": "15%",
+      "c4": "10%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "21%",
+      "c1": "7%",
+      "c2": "9%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "20%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6.7%",
+      "c4": "6.7%",
+      "c5": "6.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "18%",
+      "c3": "31.7%",
+      "c4": "16.7%",
+      "c5": "21.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3",
+      "p2": "",
+      "p3": "3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.5",
+      "p2": "",
+      "p3": "3.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.7",
+      "p3": "",
+      "p4": "3.7",
+      "p5": "",
+      "p6": "",
+      "p7": "3.6",
+      "p8": "",
+      "p9": "",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.5",
+      "p7": "",
+      "p8": "6.5",
+      "p9": "",
+      "bobot": "13",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "2.7",
+      "p3": "",
+      "p4": "2.7",
+      "p5": "",
+      "p6": "",
+      "p7": "2.6",
+      "p8": "",
+      "p9": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "7",
+      "p7": "",
+      "p8": "7",
+      "p9": "",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "9",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "9",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "3",
+      "p4": "",
+      "p5": "3",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "3",
+      "bobot": "9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "4.7",
+      "p4": "",
+      "p5": "4.7",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.6",
+      "bobot": "14",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.5",
+      "p2": "6.4",
+      "p3": "14.2",
+      "p4": "6.4",
+      "p5": "7.7",
+      "p6": "13.5",
+      "p7": "6.2",
+      "p8": "13.5",
+      "p9": "25.6",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Konsep Big Data",
-      "indikator": "Ketepatan menjelaskan karakteristik 5V dan perbedaan dengan data tradisional",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Definisi Big Data; evolusi data; 5V (Volume, Variety, Velocity, Veracity, Value); studi kasus Big Data di industri",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep Big Data (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan karakteristik 5V dan perbedaan dengan data tradisional\n1.2 Ketepatan menjelaskan definisi Big Data, evolusi data\n1.3 Ketepatan menguraikan 5V (Volume, Variety, Velocity, Veracity, Value)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Definisi Big Data; evolusi data; 5V (Volume\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi Big Data; evolusi data; 5V (Volume, Variety, Velocity, Veracity, Value); studi kasus Big Data di industri\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Ekosistem Hadoop",
-      "indikator": "Kemampuan menjelaskan komponen Hadoop (HDFS, YARN, MapReduce)",
-      "kriteria": "Diskusi kelompok",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Arsitektur Hadoop; HDFS (NameNode, DataNode); YARN (ResourceManager, NodeManager); MapReduce",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Ekosistem Hadoop (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan komponen Hadoop (HDFS, YARN, MapReduce)\n2.2 Ketepatan menjelaskan arsitektur Hadoop\n2.3 Ketepatan menguraikan HDFS (NameNode, DataNode)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 2: latihan terstruktur — Arsitektur Hadoop; HDFS (NameNode\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Arsitektur Hadoop; HDFS (NameNode, DataNode); YARN (ResourceManager, NodeManager); MapReduce\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: HDFS (Hadoop Distributed File System)",
-      "indikator": "Kemampuan menggunakan perintah HDFS untuk upload, download, manajemen file",
-      "kriteria": "Praktik HDFS (simulasi atau VM)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Instalasi Hadoop (single node); perintah HDFS (put, get, ls, mkdir, chmod); replikasi data",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : HDFS (Hadoop Distributed File System) (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan menggunakan perintah HDFS untuk upload, download, manajemen file\n3.2 Ketepatan menerapkan Instalasi Hadoop (single node)\n3.3 Kemampuan menggunakan perintah HDFS (put, get, ls, mkdir, chmod), replikasi data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik HDFS (simulasi atau VM)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 3: latihan terstruktur — Instalasi Hadoop ; perintah HDFS (put\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Instalasi Hadoop (single node); perintah HDFS (put, get, ls, mkdir, chmod); replikasi data\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3: Penyimpanan data terdistribusi",
-      "indikator": "Kemampuan mengkonfigurasi HDFS dan memahami fault tolerance",
-      "kriteria": "Tugas individu: mengelola file di HDFS",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Block size, replication factor, rack awareness; HDFS high availability",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Penyimpanan data terdistribusi (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan mengkonfigurasi HDFS dan memahami fault tolerance\n4.2 Ketepatan menerapkan Block size, replication factor, rack awareness\n4.3 Kemampuan menggunakan HDFS high availability",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: mengelola file di HDFS",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Block size\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Block size, replication factor, rack awareness; HDFS high availability\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 4: MapReduce dasar",
-      "indikator": "Kemampuan menulis program MapReduce (WordCount) dalam Java/Python",
-      "kriteria": "Tugas individu: WordCount",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "MapReduce programming model: Mapper, Reducer, Driver; contoh WordCount",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : MapReduce dasar (C3–C4, A4) (CPMK-3)",
+      "indikator": "5.1 Kemampuan menulis program MapReduce (WordCount) dalam Java/Python\n5.2 Ketepatan menganalisis MapReduce programming model: Mapper, Reducer, Driver, contoh WordCount",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: WordCount",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — MapReduce programming model: Mapper\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "MapReduce programming model: Mapper, Reducer, Driver; contoh WordCount\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4: MapReduce lanjut (join, sorting, combiner)",
-      "indikator": "Kemampuan mengimplementasikan operasi join dan combiner",
-      "kriteria": "Tugas kelompok: analisis data log dengan MapReduce",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Reduce-side join, map-side join, secondary sort, combiner untuk optimasi",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : MapReduce lanjut (join, sorting, combiner) (C3–C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan mengimplementasikan operasi join dan combiner\n6.2 Ketepatan menganalisis Reduce-side join, map-side join, secondary sort\n6.3 Kemampuan membandingkan combiner untuk optimasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: analisis data log dengan MapReduce",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — Reduce-side join\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Reduce-side join, map-side join, secondary sort, combiner untuk optimasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 5: NoSQL Database",
-      "indikator": "Kemampuan menjelaskan jenis NoSQL dan mengimplementasikan CRUD sederhana (MongoDB)",
-      "kriteria": "Kuis; praktik MongoDB",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Jenis NoSQL: key-value (Redis), document (MongoDB), column-family (Cassandra), graph (Neo4j); dasar MongoDB",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : NoSQL Database (C3, A3) (CPMK-2)",
+      "indikator": "7.1 Kemampuan menjelaskan jenis NoSQL dan mengimplementasikan CRUD sederhana (MongoDB)\n7.2 Ketepatan menerapkan jenis NoSQL: key-value (Redis), document (MongoDB), column-family (Cassandra), graph (Neo4j), dasar MongoDB",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: praktik MongoDB",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 7: latihan terstruktur — Jenis NoSQL: key-value\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Jenis NoSQL: key-value (Redis), document (MongoDB), column-family (Cassandra), graph (Neo4j); dasar MongoDB\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep Big Data, HDFS, MapReduce, NoSQL",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep Big Data, HDFS, MapReduce, NoSQL\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 6: Pengenalan Apache Spark",
-      "indikator": "Kemampuan menjelaskan arsitektur Spark dan perbedaan dengan MapReduce",
-      "kriteria": "Diskusi; instalasi Spark",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Spark vs MapReduce; RDD (Resilient Distributed Dataset); SparkSession; operasi transformasi dan aksi",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Pengenalan Apache Spark (C3–C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan menjelaskan arsitektur Spark dan perbedaan dengan MapReduce\n9.2 Ketepatan menganalisis RDD (Resilient Distributed Dataset), SparkSession\n9.3 Kemampuan membandingkan operasi transformasi dan aksi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi, instalasi Spark",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Small Group Discussion (SGD)\n[TM: 1x(3x50')]\nTugas 8: latihan terstruktur — Spark vs MapReduce; RDD ; SparkSession; operasi transformasi dan aksi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Spark vs MapReduce; RDD (Resilient Distributed Dataset); SparkSession; operasi transformasi dan aksi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 6: Pemrosesan streaming dengan Spark Streaming",
-      "indikator": "Kemampuan membuat aplikasi streaming sederhana",
-      "kriteria": "Tugas individu: streaming data log",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "DStream; window operations; integrasi dengan Kafka",
-      "bobot": "6%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : Pemrosesan streaming dengan Spark Streaming (C3–C4, A4) (CPMK-3)",
+      "indikator": "10.1 Kemampuan membuat aplikasi streaming sederhana\n10.2 Ketepatan menganalisis DStream, window operations\n10.3 Kemampuan membandingkan integrasi dengan Kafka",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: streaming data log",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — DStream; window operations; integrasi dengan Kafka\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "DStream; window operations; integrasi dengan Kafka\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 7: Analitik Big Data dengan PySpark",
-      "indikator": "Kemampuan melakukan eksplorasi data dan statistik deskriptif menggunakan PySpark",
-      "kriteria": "Tugas kelompok: analisis dataset besar",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "PySpark DataFrame API; filtering, aggregation, join; SQL di Spark",
-      "bobot": "6%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Analitik Big Data dengan PySpark (C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan melakukan eksplorasi data dan statistik deskriptif menggunakan PySpark\n11.2 Ketepatan menganalisis PySpark DataFrame API\n11.3 Kemampuan membandingkan filtering, aggregation, join",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: analisis dataset besar",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — PySpark DataFrame API; filtering\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "PySpark DataFrame API; filtering, aggregation, join; SQL di Spark\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 8: Visualisasi Big Data",
-      "indikator": "Kemampuan membuat visualisasi interaktif dari data besar",
-      "kriteria": "Tugas individu: dashboard sederhana",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Tools visualisasi: Tableau, Power BI, atau Python (Matplotlib, Seaborn, Plotly); best practices",
-      "bobot": "6%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 8 : Visualisasi Big Data (C3–P4, A3) (CPMK-4)",
+      "indikator": "12.1 Kemampuan membuat visualisasi interaktif dari data besar\n12.2 Ketepatan menerapkan Tools visualisasi: Tableau, Power BI, atau Python (Matplotlib, Seaborn, Plotly), best practices",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: dashboard sederhana",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Tools visualisasi: Tableau\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tools visualisasi: Tableau, Power BI, atau Python (Matplotlib, Seaborn, Plotly); best practices\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 9: Keamanan, privasi, dan etika Big Data",
-      "indikator": "Kemampuan menjelaskan isu privasi (anonymization, GDPR, UU PDP) dan etika",
-      "kriteria": "Studi kasus; esai pendek",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Data anonymization, pseudonymization; regulasi (GDPR, UU PDP); ethical use of Big Data; bias dalam data",
-      "bobot": "5%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Keamanan, privasi, dan etika Big Data (C2, A2) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menjelaskan isu privasi (anonymization, GDPR, UU PDP) dan etika\n13.2 Ketepatan menjelaskan Data anonymization, pseudonymization\n13.3 Ketepatan menguraikan regulasi (GDPR, UU PDP)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus, esai pendek",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 12: studi kasus — Data anonymization\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Data anonymization, pseudonymization; regulasi (GDPR, UU PDP); ethical use of Big Data; bias dalam data\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 10: Proyek Big Data – Persiapan dan analisis",
-      "indikator": "Kemampuan memilih dataset, melakukan preprocessing, dan analisis awal",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Pemilihan dataset (open data), data cleaning, eksplorasi, perumusan pertanyaan bisnis",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek Big Data – Persiapan dan analisis (C5–C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan memilih dataset, melakukan preprocessing, dan analisis awal\n14.2 Ketepatan merancang Pemilihan dataset (open data), data cleaning, eksplorasi\n14.3 Kemampuan menyusun perumusan pertanyaan bisnis",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 13: proyek — Pemilihan dataset\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan dataset (open data), data cleaning, eksplorasi, perumusan pertanyaan bisnis\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Finalisasi dan presentasi proyek",
-      "indikator": "Kemampuan menyelesaikan analisis, visualisasi, dan mempresentasikan hasil",
-      "kriteria": "Presentasi kelompok (15 menit)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Presentasi daring sinkron; TM: 3x50",
-      "materi": "Presentasi laporan analisis, insight, rekomendasi",
-      "bobot": "8%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Finalisasi dan presentasi proyek (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyelesaikan analisis, visualisasi, dan mempresentasikan hasil\n15.2 Ketepatan merancang Presentasi laporan analisis, insight, rekomendasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi laporan analisis\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi laporan analisis, insight, rekomendasi\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang Spark, analitik Big Data, visualisasi, etika, dan studi kasus",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Seluruh materi (minggu 1–15)",
-      "bobot": "20%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang Spark, analitik Big Data, visualisasi, etika, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1–15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1–15)\n[P1, P2, P3]",
+      "bobot": "20"
     }
   ],
   "bahan_kajian": "1. Konsep Big Data: karakteristik 5V (Volume, Variety, Velocity, Veracity, Value)\n2. Ekosistem dan teknologi Big Data (Hadoop, Spark)\n3. Pengumpulan dan penyimpanan data besar\n4. Pemrosesan data batch dan real-time streaming\n5. NoSQL database dalam konteks Big Data\n6. Analitik Big Data dan machine learning\n7. Visualisasi dan pelaporan data besar\n8. Keamanan, privasi, dan etika pengelolaan Big Data",

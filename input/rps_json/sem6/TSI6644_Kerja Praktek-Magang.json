@@ -1,4 +1,3 @@
-
 {
   "meta": {
     "kode_mk": "TSI6644",
@@ -17,60 +16,578 @@
     "jabatan": "-"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "S-10", "tipe": "Sikap", "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"},
-    {"kode": "P-04", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat berdasarkan hasil analisis informasi dan data"},
-    {"kode": "KU-06", "tipe": "Keterampilan Umum", "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja dan mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, dan pengelolaan proyek sistem informasi"},
-    {"kode": "KK-06", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi"}
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 1 (S-09)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 2 (S-10)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "P-04",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep dan praktik pembelajaran sepanjang hayat (lifelong learning) di bidang sistem informasi",
+      "label": "CPL 3 (P-04)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "P-05",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep kewirausahaan berbasis teknologi informasi (technopreneurship) untuk mengidentifikasi dan mengembangkan peluang usaha di bidang sistem informasi",
+      "label": "CPL 4 (P-05)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 5 (KU-01)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 6 (KU-02)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KU-05",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data",
+      "label": "CPL 7 (KU-05)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KU-06",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, dan sejawat baik di dalam maupun di luar lembaganya",
+      "label": "CPL 8 (KU-06)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 9 (KK-01)",
+      "nomor": "CPL 9"
+    },
+    {
+      "kode": "KK-09",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis risiko bisnis dan dampaknya terhadap kelangsungan bisnis, mengambil strategi berdasarkan analisis risiko, serta mendokumentasikan prosedur kelangsungan bisnis pasca krisis",
+      "label": "CPL 10 (KK-09)",
+      "nomor": "CPL 10"
+    },
+    {
+      "kode": "KK-10",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu merancang dan mengembangkan sistem informasi perdagangan berbasis elektronik serta membangun usaha mandiri (technopreneur) di bidang teknologi informasi",
+      "label": "CPL 11 (KK-10)",
+      "nomor": "CPL 11"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "S-09, KU-06", "deskripsi": "Mampu mempersiapkan diri dan memahami lingkungan kerja industri serta etika profesional"},
-    {"kode": "CPMK-2", "cpl": "KK-04, KK-06", "deskripsi": "Mampu menerapkan kompetensi sistem informasi di lingkungan kerja nyata sesuai bidang magang"},
-    {"kode": "CPMK-3", "cpl": "KU-02, KU-05", "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi tempat magang"},
-    {"kode": "CPMK-4", "cpl": "S-10, KK-01", "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas nyata di tempat magang"},
-    {"kode": "CPMK-5", "cpl": "P-04, KU-02", "deskripsi": "Mampu menyusun laporan magang dan mempresentasikan hasil magang secara profesional"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-09, P-05, KU-06",
+      "deskripsi": "Mampu mempersiapkan diri dan memahami lingkungan kerja industri serta etika profesional (CPL 1, CPL 4, CPL 8)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "KU-02",
+      "deskripsi": "Mampu menerapkan kompetensi sistem informasi di lingkungan kerja nyata sesuai bidang magang (CPL 6)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KU-01, KU-02, KU-05, KK-09",
+      "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi tempat magang (CPL 5, CPL 6, CPL 7, CPL 10)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-10, KK-01, KK-10",
+      "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas nyata di tempat magang (CPL 2, CPL 9, CPL 11)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "P-04, KU-02",
+      "deskripsi": "Mampu menyusun laporan magang dan mempresentasikan hasil magang secara profesional (CPL 3, CPL 6)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu mengurus administrasi magang dan memahami target kompetensi", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu melakukan orientasi lingkungan kerja dan memahami etika profesional", "cpmk": "CPMK-1", "minggu": "3", "cpl": "C3"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu melaksanakan tugas magang sesuai dengan bidang (IT support, pengembangan, analisis, dll)", "cpmk": "CPMK-2", "minggu": "4–11", "cpl": "C3–P5"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi", "cpmk": "CPMK-3", "minggu": "6–10", "cpl": "C4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas tim", "cpmk": "CPMK-4", "minggu": "7–12", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menyusun laporan magang secara sistematis", "cpmk": "CPMK-5", "minggu": "13–14", "cpl": "C5–P5"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu mempresentasikan hasil magang dan menjawab pertanyaan", "cpmk": "CPMK-5", "minggu": "15–16", "cpl": "C6–P5"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu mengurus administrasi magang dan memahami target kompetensi (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu melakukan orientasi lingkungan kerja dan memahami etika profesional (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu melaksanakan tugas magang sesuai dengan bidang (IT support, pengembangan, analisis, dll) (C3–P5, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4–11",
+      "taksonomi": "C3–P5, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menganalisis proses bisnis dan sistem informasi organisasi (C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6–10",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu berpartisipasi aktif dalam proyek atau tugas tim (C3–P4, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "7–12",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menyusun laporan magang secara sistematis (C5–P5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C5–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu mempresentasikan hasil magang dan menjawab pertanyaan (C6–P5, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "15–16",
+      "taksonomi": "C6–P5, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "",
+      "m7": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "37%",
+      "c1": "2%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "25%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "44%",
+      "c1": "5.2%",
+      "c2": "21.2%",
+      "c3": "6.2%",
+      "c4": "6.2%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "19%",
+      "c1": "0%",
+      "c2": "4.8%",
+      "c3": "4.8%",
+      "c4": "4.8%",
+      "c5": "4.8%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "7.2%",
+      "c2": "26%",
+      "c3": "16%",
+      "c4": "16%",
+      "c5": "34.8%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "1.7",
+      "p2": "",
+      "p3": "",
+      "p4": "1.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "1.6",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "1",
+      "p2": "",
+      "p3": "",
+      "p4": "1",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "1",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "3",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "24.8",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "24.8",
+      "minggu": "4"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "3.7",
+      "p6": "3.7",
+      "p7": "3.7",
+      "p8": "",
+      "p9": "",
+      "p10": "3.7",
+      "p11": "",
+      "bobot": "14.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "5",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.9",
+      "p10": "",
+      "p11": "4.9",
+      "bobot": "14.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "14.4",
+      "p4": "",
+      "p5": "",
+      "p6": "14.4",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "28.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "4.4",
+      "p4": "",
+      "p5": "",
+      "p6": "4.4",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Total",
+      "p1": "2.7",
+      "p2": "5",
+      "p3": "18.8",
+      "p4": "2.7",
+      "p5": "3.7",
+      "p6": "47.3",
+      "p7": "3.7",
+      "p8": "2.6",
+      "p9": "4.9",
+      "p10": "3.7",
+      "p11": "4.9",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Persiapan administrasi magang", "indikator": "Kelengkapan berkas (surat pengajuan, CV, proposal magang) dan pengajuan ke koordinator", "kriteria": "Submit dokumen persyaratan", "tatap_muka": "Bimbingan TM: 2x50", "daring": "Bimbingan daring; [TM: 2×50'] [BM: 4×60'] [BT: 2×60']", "materi": "Prosedur magang, target kompetensi, pembimbing lapangan, logbook", "bobot": "2%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Pembekalan magang", "indikator": "Ketepatan memahami etika profesional, K3, dan kontrak magang", "kriteria": "Kuis pembekalan; Kehadiran", "tatap_muka": "Kuliah pembekalan TM: 2x50", "daring": "Sesi sinkron; [TM: 2×50']", "materi": "Etika kerja, komunikasi profesional, konflik kepentingan, kerahasiaan data", "bobot": "2%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Orientasi di tempat magang", "indikator": "Kemampuan beradaptasi dengan lingkungan dan memahami tugas", "kriteria": "Laporan orientasi", "tatap_muka": "Kegiatan di tempat magang (full day)", "daring": "Magang luring; [TM: 0] [Praktik: 40 jam/minggu ekuivalen]", "materi": "Pengenalan organisasi, struktur tim, tools yang digunakan, job desk", "bobot": "2%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 1)", "indikator": "Partisipasi dalam tugas sesuai bidang", "kriteria": "Logbook harian; Penilaian pembimbing lapangan", "tatap_muka": "Kerja di tempat magang (full day)", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Implementasi kompetensi SI di proyek nyata", "bobot": "5%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 2)", "indikator": "Kemampuan menyelesaikan tugas dengan bimbingan", "kriteria": "Logbook, penilaian pembimbing", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Penggunaan tools dan metodologi di industri", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 4 : Analisis proses bisnis", "indikator": "Kemampuan mengidentifikasi proses bisnis dan sistem informasi yang digunakan", "kriteria": "Catatan analisis (untuk laporan)", "tatap_muka": "Kerja di tempat magang + wawancara", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Dokumentasi proses bisnis, arsitektur SI, pain points", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 5 : Partisipasi dalam proyek tim", "indikator": "Kemampuan berkolaborasi dan berkontribusi dalam tim", "kriteria": "Feedback dari pembimbing/rekan", "tatap_muka": "Kerja tim di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Manajemen proyek, agile, komunikasi tim", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "Monitoring Tengah Semester (MTS)", "indikator": "Ketepatan mengisi laporan kemajuan dan konsultasi dengan pembimbing akademik", "kriteria": "Laporan kemajuan; Berita acara monitoring", "tatap_muka": "Monitoring oleh dosen pembimbing", "daring": "Sinkron via Zoom/LMS; [TM: 2×50']", "materi": "Evaluasi capaian tengah magang, perbaikan jika diperlukan", "bobot": "5%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 3 : Lanjutan pelaksanaan magang", "indikator": "Peningkatan kompetensi dan kemandirian", "kriteria": "Logbook, penilaian pembimbing", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Eksposur ke berbagai tugas", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 4 : Analisis lebih mendalam", "indikator": "Kemampuan merumuskan rekomendasi perbaikan", "kriteria": "Draft analisis", "tatap_muka": "Kerja + wawancara dengan user", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Identifikasi gap, usulan solusi", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 5 : Kontribusi proyek dan dokumentasi", "indikator": "Kemampuan menyelesaikan tugas proyek dengan baik", "kriteria": "Output proyek (kode, dokumen, dll)", "tatap_muka": "Kerja tim + dokumentasi", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Pengujian, deployment, user manual", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 3 : Finalisasi tugas magang", "indikator": "Penyelesaian seluruh tugas yang diberikan", "kriteria": "Persetujuan pembimbing lapangan", "tatap_muka": "Kerja di tempat magang", "daring": "Magang luring; [Praktik: 40 jam/minggu]", "materi": "Closure proyek, handover", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 6 : Penyusunan laporan magang (draft)", "indikator": "Kemampuan menulis laporan sesuai pedoman (format, isi, referensi)", "kriteria": "Draft laporan magang", "tatap_muka": "Bimbingan penyusunan laporan", "daring": "Konsultasi daring; [TM: 2×50'] [BM: 4×60']", "materi": "Struktur laporan: pendahuluan, deskripsi instansi, aktivitas, analisis, kesimpulan", "bobot": "10%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 6 : Finalisasi laporan magang", "indikator": "Kelengkapan laporan, lampiran, dan logbook", "kriteria": "Laporan final (disetujui pembimbing lapangan)", "tatap_muka": "Bimbingan final", "daring": "Konsultasi daring; [TM: 2×50']", "materi": "Revisi, pengecekan plagiarisme, tanda tangan", "bobot": "15%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 7 : Presentasi hasil magang (persiapan)", "indikator": "Kemampuan menyusun slide dan simulasi presentasi", "kriteria": "Draft slide", "tatap_muka": "Simulasi presentasi", "daring": "Bimbingan presentasi; [TM: 2×50']", "materi": "Teknik presentasi, menjawab pertanyaan", "bobot": "5%"},
-    {"minggu": 16, "deskripsi": "Ujian Akhir Magang (Presentasi + Evaluasi)", "indikator": "Kemampuan mempresentasikan hasil magang dan mempertahankan argumen", "kriteria": "Presentasi di depan penguji; Nilai pembimbing lapangan (30%) sudah masuk", "tatap_muka": "Sidang magang", "daring": "Presentasi daring; [TM: 2×50']", "materi": "Presentasi 15 menit + tanya jawab", "bobot": "19%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Persiapan administrasi magang (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Kelengkapan berkas (surat pengajuan, CV, proposal magang) dan pengajuan ke koordinator\n1.2 Ketepatan menjelaskan Prosedur magang, target kompetensi, pembimbing lapangan, logbook",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Submit dokumen persyaratan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 1: latihan terstruktur — Prosedur magang\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prosedur magang, target kompetensi, pembimbing lapangan, logbook\n[P1, P2, P3]",
+      "bobot": "2"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Pembekalan magang (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Ketepatan memahami etika profesional, K3, dan kontrak magang\n2.2 Ketepatan menjelaskan Etika kerja, komunikasi profesional, konflik kepentingan, kerahasiaan data",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis pembekalan\nNon Test: Kehadiran",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 2: latihan terstruktur — Etika kerja\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Etika kerja, komunikasi profesional, konflik kepentingan, kerahasiaan data\n[P1, P2, P3]",
+      "bobot": "2"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Orientasi di tempat magang (C3, A3) (CPMK-1)",
+      "indikator": "3.1 Kemampuan beradaptasi dengan lingkungan dan memahami tugas\n3.2 Ketepatan menerapkan Pengenalan organisasi, struktur tim\n3.3 Kemampuan menggunakan tools yang digunakan, job desk",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan orientasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 3: laporan — Pengenalan organisasi\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengenalan organisasi, struktur tim, tools yang digunakan, job desk\n[P1, P2, P3]",
+      "bobot": "2"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 1) (C3–P5, A3) (CPMK-2)",
+      "indikator": "4.1 Partisipasi dalam tugas sesuai bidang\n4.2 Ketepatan menerapkan implementasi kompetensi SI di proyek nyata",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Logbook harian, Penilaian pembimbing lapangan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 4: latihan terstruktur — Implementasi kompetensi SI di proyek nyata\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi kompetensi SI di proyek nyata\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Pelaksanaan tugas magang (minggu 2) (C3–P5, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan menyelesaikan tugas dengan bimbingan\n5.2 Ketepatan menerapkan Penggunaan tools dan metodologi di industri",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Logbook, penilaian pembimbing",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 5: latihan terstruktur — Penggunaan tools dan metodologi di industri\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Penggunaan tools dan metodologi di industri\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Analisis proses bisnis (C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan mengidentifikasi proses bisnis dan sistem informasi yang digunakan\n6.2 Ketepatan menganalisis Dokumentasi proses bisnis, arsitektur SI, pain points",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Catatan analisis (untuk laporan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 6: laporan — Dokumentasi proses bisnis\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Dokumentasi proses bisnis, arsitektur SI, pain points\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Partisipasi dalam proyek tim (C3–P4, A3) (CPMK-4)",
+      "indikator": "7.1 Kemampuan berkolaborasi dan berkontribusi dalam tim\n7.2 Ketepatan menerapkan manajemen proyek, agile, komunikasi tim",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Feedback dari pembimbing/rekan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 7: latihan terstruktur — Manajemen proyek\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Manajemen proyek, agile, komunikasi tim\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 3 : Evaluasi capaian tengah pelaksanaan magang (C3–P5, A3) (CPMK-2)",
+      "indikator": "8.1 Ketepatan mengisi laporan kemajuan dan konsultasi dengan pembimbing akademik\n8.2 Ketepatan menjelaskan Evaluasi capaian tengah magang, perbaikan jika diperlukan",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(4x50')]\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Evaluasi capaian tengah magang, perbaikan jika diperlukan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 3 : Lanjutan pelaksanaan magang (C3–P5, A3) (CPMK-2)",
+      "indikator": "9.1 Peningkatan kompetensi dan kemandirian\n9.2 Ketepatan menerapkan Eksposur ke berbagai tugas",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Logbook, penilaian pembimbing",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 8: latihan terstruktur — Eksposur ke berbagai tugas\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Eksposur ke berbagai tugas\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 4 : Analisis lebih mendalam (C4, A4) (CPMK-3)",
+      "indikator": "10.1 Kemampuan merumuskan rekomendasi perbaikan\n10.2 Ketepatan menganalisis Identifikasi gap, usulan solusi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 9: latihan terstruktur — Identifikasi gap\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Identifikasi gap, usulan solusi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 5 : Kontribusi proyek dan dokumentasi (C3–P4, A3) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menyelesaikan tugas proyek dengan baik\n11.2 Ketepatan menerapkan pengujian, deployment, user manual",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Output proyek (kode, dokumen, dll)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 10: proyek — Pengujian\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengujian, deployment, user manual\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 3 : Finalisasi tugas magang (C3–P5, A3) (CPMK-2)",
+      "indikator": "12.1 Penyelesaian seluruh tugas yang diberikan\n12.2 Ketepatan menerapkan Closure proyek, handover",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Persetujuan pembimbing lapangan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 11: latihan terstruktur — Closure proyek\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Closure proyek, handover\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 6 : Penyusunan laporan magang (draft) (C5–P5, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menulis laporan sesuai pedoman (format, isi, referensi)\n13.2 Ketepatan mengevaluasi struktur laporan: pendahuluan, deskripsi instansi, aktivitas, analisis, kesimpulan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft laporan magang",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 12: laporan — Struktur laporan: pendahuluan\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan: pendahuluan, deskripsi instansi, aktivitas, analisis, kesimpulan\n[P1, P2, P3]",
+      "bobot": "10"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 6 : Finalisasi laporan magang (C5–P5, A4) (CPMK-5)",
+      "indikator": "14.1 Kelengkapan laporan, lampiran, dan logbook\n14.2 Ketepatan mengevaluasi Revisi, pengecekan plagiarisme, tanda tangan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan final (disetujui pembimbing lapangan)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 13: laporan — Revisi\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Revisi, pengecekan plagiarisme, tanda tangan\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 7 : Presentasi hasil magang (persiapan) (C6–P5, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun slide dan simulasi presentasi\n15.2 Ketepatan merancang teknik presentasi, menjawab pertanyaan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft slide",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(4x50')]\n[P: 1x(4x170')]\nTugas 14: latihan terstruktur — Teknik presentasi\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik presentasi, menjawab pertanyaan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 3,4,5,6,7\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan hasil magang dan mempertahankan argumen\n16.2 Ketepatan menerapkan Presentasi 15 menit + tanya jawab",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(4x50')]\n[PT+BM: (1+1)x(4x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Presentasi 15 menit + tanya jawab\n[P1, P2, P3]",
+      "bobot": "19"
+    }
   ],
   "bahan_kajian": "1. Orientasi dan pengenalan lingkungan kerja\n2. Penerapan kompetensi sistem informasi di industri nyata\n3. Analisis proses bisnis dan sistem informasi organisasi\n4. Partisipasi dalam proyek atau tugas nyata di tempat magang\n5. Laporan kerja praktek: metodologi penulisan ilmiah\n6. Presentasi dan evaluasi hasil kerja praktek\n7. Refleksi dan pengembangan kompetensi profesional",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Pedoman Magang Program Studi S1 Sistem Informasi ITEKES Bintang Persada (2026)."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab IV.1 Bahan Kajian."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Undang-Undang Ketenagakerjaan dan peraturan perusahaan yang relevan."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Pedoman Magang Program Studi S1 Sistem Informasi ITEKES Bintang Persada (2026)."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab IV.1 Bahan Kajian."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Undang-Undang Ketenagakerjaan dan peraturan perusahaan yang relevan."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Panduan Penulisan Laporan Kerja Praktek (disediakan oleh prodi)."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Materi pembekalan magang (internal)."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Standar operasional perusahaan tempat magang."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Panduan Penulisan Laporan Kerja Praktek (disediakan oleh prodi)."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Materi pembekalan magang (internal)."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Standar operasional perusahaan tempat magang."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah Kerja Praktek / Magang bertujuan memberikan pengalaman kerja nyata kepada mahasiswa di industri, instansi pemerintah, atau startup yang relevan dengan bidang sistem informasi. Mahasiswa akan terjun langsung ke lingkungan profesional, menerapkan kompetensi yang telah dipelajari, berpartisipasi dalam proyek, menganalisis proses bisnis, serta mengasah soft skill dan etika kerja. Hasil magang dituangkan dalam laporan dan dipresentasikan di hadapan dosen penguji. Penilaian dilakukan oleh pembimbing lapangan (30%), laporan (40%), presentasi (20%), dan monitoring (10%).",
   "matakuliah_syarat": "Telah menyelesaikan minimal 100 SKS dan lulus mata kuliah prasyarat yang ditentukan prodi."

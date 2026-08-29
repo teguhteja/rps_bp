@@ -17,305 +17,598 @@
   },
   "cpl_prodi": [
     {
-      "kode": "S-09",
-      "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
-    },
-    {
       "kode": "P-01",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "P-03",
       "tipe": "Pengetahuan",
-      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan"
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
     },
     {
-      "kode": "KU-05",
-      "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 5 (KK-01)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KK-03",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 6 (KK-03)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 8 (KK-08)",
+      "nomor": "CPL 8"
     },
     {
       "kode": "KK-11",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital",
+      "label": "CPL 9 (KK-11)",
+      "nomor": "CPL 9"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "P-01, KU-01",
-      "deskripsi": "Mampu menjelaskan konsep dan jenis machine learning (supervised, unsupervised, reinforcement) serta siklus pembelajaran mesin"
+      "deskripsi": "Mampu menjelaskan konsep dan jenis machine learning (supervised, unsupervised, reinforcement) serta siklus pembelajaran mesin (CPL 1, CPL 3)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "P-03, KU-02",
-      "deskripsi": "Mampu melakukan preprocessing data dan feature engineering menggunakan Python"
+      "deskripsi": "Mampu melakukan preprocessing data dan feature engineering menggunakan Python (CPL 2, CPL 4)"
     },
     {
       "kode": "CPMK-3",
-      "cpl": "KU-05, KK-03",
-      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi, regresi, dan clustering"
+      "cpl": "KK-03, KK-08",
+      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi, regresi, dan clustering (CPL 6, CPL 8)"
     },
     {
       "kode": "CPMK-4",
-      "cpl": "S-09, KK-11",
-      "deskripsi": "Mampu mengevaluasi model machine learning (akurasi, presisi, recall, F1, ROC-AUC) dan melakukan hyperparameter tuning"
+      "cpl": "KK-01, KK-11",
+      "deskripsi": "Mampu mengevaluasi model machine learning (akurasi, presisi, recall, F1, ROC-AUC) dan melakukan hyperparameter tuning (CPL 5, CPL 9)"
     },
     {
       "kode": "CPMK-5",
-      "cpl": "KU-01, KK-11",
-      "deskripsi": "Mampu menerapkan machine learning dalam studi kasus sistem informasi dan menyajikan hasil analisis"
+      "cpl": "KU-01, KK-04, KK-11",
+      "deskripsi": "Mampu menerapkan machine learning dalam studi kasus sistem informasi dan menyajikan hasil analisis (CPL 3, CPL 7, CPL 9)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep machine learning, perbedaan dengan AI dan deep learning, serta jenis-jenis ML",
+      "deskripsi": "Mampu menjelaskan konsep machine learning, perbedaan dengan AI dan deep learning, serta jenis-jenis ML (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menjelaskan siklus pembelajaran mesin (data collection, preprocessing, training, evaluation, deployment)",
+      "deskripsi": "Mampu menjelaskan siklus pembelajaran mesin (data collection, preprocessing, training, evaluation, deployment) (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu melakukan preprocessing data (cleaning, normalization, handling missing values) dengan Python (pandas, numpy)",
+      "deskripsi": "Mampu melakukan preprocessing data (cleaning, normalization, handling missing values) dengan Python (pandas, numpy) (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "3",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu melakukan feature engineering (encoding, scaling, feature selection) dan split data (train-test)",
+      "deskripsi": "Mampu melakukan feature engineering (encoding, scaling, feature selection) dan split data (train-test) (C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4",
-      "cpl": "C3"
+      "taksonomi": "C3, A3"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes)",
+      "deskripsi": "Mampu mengimplementasikan algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes) (C3-C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "5-6",
-      "cpl": "C3-C4"
+      "taksonomi": "C3-C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu mengimplementasikan algoritma regresi (Linear, Logistic, Polynomial)",
+      "deskripsi": "Mampu mengimplementasikan algoritma regresi (Linear, Logistic, Polynomial) (C3-C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "7",
-      "cpl": "C3-C4"
+      "taksonomi": "C3-C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu mengimplementasikan algoritma clustering (K-Means, DBSCAN, Hierarchical)",
+      "deskripsi": "Mampu mengimplementasikan algoritma clustering (K-Means, DBSCAN, Hierarchical) (C3-C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "9",
-      "cpl": "C3-C4"
+      "taksonomi": "C3-C4, A4"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu mengevaluasi model menggunakan confusion matrix, accuracy, precision, recall, F1-score, ROC-AUC",
+      "deskripsi": "Mampu mengevaluasi model menggunakan confusion matrix, accuracy, precision, recall, F1-score, ROC-AUC (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10-11",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu melakukan hyperparameter tuning (GridSearch, RandomSearch) dan cross-validation",
+      "deskripsi": "Mampu melakukan hyperparameter tuning (GridSearch, RandomSearch) dan cross-validation (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "12",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 10",
-      "deskripsi": "Mampu menerapkan machine learning pada studi kasus (prediksi, klasifikasi, segmentasi) dan menyusun laporan",
+      "deskripsi": "Mampu menerapkan machine learning pada studi kasus (prediksi, klasifikasi, segmentasi) dan menyusun laporan (C5-C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13-15",
-      "cpl": "C5-C6"
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "√",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "42%",
+      "c1": "0%",
+      "c2": "10%",
+      "c3": "10%",
+      "c4": "10%",
+      "c5": "12%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "28%",
+      "c1": "7%",
+      "c2": "0%",
+      "c3": "10%",
+      "c4": "5%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "15%",
+      "c3": "30%",
+      "c4": "20%",
+      "c5": "23%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.2",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.8",
+      "p3": "",
+      "p4": "3.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "3.8",
+      "p3": "",
+      "p4": "3.7",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.3",
+      "p7": "",
+      "p8": "6.2",
+      "p9": "",
+      "bobot": "12.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "3.8",
+      "p7": "",
+      "p8": "3.7",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.4",
+      "p7": "",
+      "p8": "4.4",
+      "p9": "",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "6.9",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "6.9",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "4.4",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "4.3",
+      "bobot": "8.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "7.3",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.2",
+      "p8": "",
+      "p9": "7.2",
+      "bobot": "21.7",
+      "minggu": "3"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.1",
+      "p2": "7.6",
+      "p3": "13.2",
+      "p4": "7.4",
+      "p5": "11.3",
+      "p6": "14.5",
+      "p7": "7.2",
+      "p8": "14.3",
+      "p9": "18.4",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1: Pengenalan Machine Learning",
-      "indikator": "Ketepatan menjelaskan definisi, jenis (supervised, unsupervised, reinforcement), dan contoh aplikasi",
-      "kriteria": "Kuis online; tanya jawab",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Sejarah ML, hubungan AI-ML-DL, supervised vs unsupervised, contoh kasus (rekomendasi, prediksi, segmentasi)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengenalan Machine Learning (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi, jenis (supervised, unsupervised, reinforcement), dan contoh aplikasi\n1.2 Ketepatan menjelaskan sejarah ML, hubungan AI-ML-DL\n1.3 Ketepatan menguraikan contoh kasus (rekomendasi, prediksi, segmentasi)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Sejarah ML\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sejarah ML, hubungan AI-ML-DL, supervised vs unsupervised, contoh kasus (rekomendasi, prediksi, segmentasi)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 2: Siklus machine learning",
-      "indikator": "Kemampuan menjelaskan tahapan ML pipeline",
-      "kriteria": "Diskusi kelompok",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Data acquisition, data cleaning, EDA, feature engineering, model training, evaluation, deployment, monitoring",
-      "bobot": "4%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Siklus machine learning (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan tahapan ML pipeline\n2.2 Ketepatan menjelaskan Data acquisition, data cleaning, EDA, feature engineering, model training\n2.3 Ketepatan menguraikan evaluation, deployment, monitoring",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 2: latihan terstruktur — Data acquisition\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Data acquisition, data cleaning, EDA, feature engineering, model training, evaluation, deployment, monitoring\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 3: Preprocessing data",
-      "indikator": "Kemampuan melakukan cleaning, handling missing values, outlier detection dengan Python",
-      "kriteria": "Tugas individu: preprocessing dataset",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Pandas: read data, dropna, fillna, drop duplicates, detect outliers (IQR, Z-score)",
-      "bobot": "5%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Preprocessing data (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan melakukan cleaning, handling missing values, outlier detection dengan Python\n3.2 Ketepatan menerapkan Pandas: read data, dropna, fillna, drop duplicates\n3.3 Kemampuan menggunakan detect outliers (IQR, Z-score)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: preprocessing dataset",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Pandas: read data\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pandas: read data, dropna, fillna, drop duplicates, detect outliers (IQR, Z-score)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 4: Feature engineering dan split data",
-      "indikator": "Kemampuan melakukan encoding, scaling, dan train-test split",
-      "kriteria": "Tugas individu: pipeline preprocessing",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Label encoding, one-hot encoding, normalization, standardization, feature selection, train_test_split",
-      "bobot": "5%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Feature engineering dan split data (C3, A3) (CPMK-2)",
+      "indikator": "4.1 Kemampuan melakukan encoding, scaling, dan train-test split\n4.2 Ketepatan menerapkan Label encoding, one-hot encoding, normalization, standardization, feature selection, train_test_split",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: pipeline preprocessing",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Label encoding\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Label encoding, one-hot encoding, normalization, standardization, feature selection, train_test_split\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 5: Klasifikasi (Decision Tree, KNN)",
-      "indikator": "Kemampuan mengimplementasikan Decision Tree dan KNN",
-      "kriteria": "Praktik coding",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Teori Decision Tree (entropy, information gain, Gini), KNN (distance metrics), implementasi scikit-learn",
-      "bobot": "5%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : Klasifikasi (Decision Tree, KNN) (C3-C4, A4) (CPMK-3)",
+      "indikator": "5.1 Kemampuan mengimplementasikan Decision Tree dan KNN\n5.2 Ketepatan menganalisis Teori Decision Tree (entropy, information gain, Gini)\n5.3 Kemampuan membandingkan KNN (distance metrics), implementasi scikit-learn",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik coding",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 5: latihan terstruktur — Teori Decision Tree (entropy\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teori Decision Tree (entropy, information gain, Gini), KNN (distance metrics), implementasi scikit-learn\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 5: Klasifikasi (SVM, Naive Bayes)",
-      "indikator": "Kemampuan mengimplementasikan SVM dan Naive Bayes",
-      "kriteria": "Tugas individu: klasifikasi dataset",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "SVM (hyperplane, kernel trick), Naive Bayes (teorema Bayes, Gaussian/Multinomial), perbandingan performa",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Klasifikasi (SVM, Naive Bayes) (C3-C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan mengimplementasikan SVM dan Naive Bayes\n6.2 Ketepatan menganalisis SVM (hyperplane, kernel trick)\n6.3 Kemampuan membandingkan Naive Bayes (teorema Bayes, Gaussian/Multinomial), perbandingan performa",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: klasifikasi dataset",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 6: tugas terstruktur — SVM (hyperplane\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "SVM (hyperplane, kernel trick), Naive Bayes (teorema Bayes, Gaussian/Multinomial), perbandingan performa\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 6: Regresi (Linear, Logistic, Polynomial)",
-      "indikator": "Kemampuan mengimplementasikan regresi",
-      "kriteria": "Tugas individu: regresi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Linear regression (OLS, MSE), Logistic regression (sigmoid, log-loss), Polynomial regression (overfitting, regularization)",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Regresi (Linear, Logistic, Polynomial) (C3-C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan mengimplementasikan regresi\n7.2 Ketepatan menganalisis Linear regression (OLS, MSE)\n7.3 Kemampuan membandingkan Logistic regression (sigmoid, log-loss)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: regresi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 7: tugas terstruktur — Linear regression (OLS\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Linear regression (OLS, MSE), Logistic regression (sigmoid, log-loss), Polynomial regression (overfitting, regularization)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS: Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep ML, preprocessing, klasifikasi, regresi",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Materi Minggu 1-7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep ML, preprocessing, klasifikasi, regresi\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 7: Clustering (K-Means, DBSCAN)",
-      "indikator": "Kemampuan mengimplementasikan clustering",
-      "kriteria": "Praktik coding",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "K-Means (elbow method, inertia), DBSCAN (epsilon, min_samples), Hierarchical clustering (dendrogram)",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Clustering (K-Means, DBSCAN) (C3-C4, A4) (CPMK-3)",
+      "indikator": "9.1 Kemampuan mengimplementasikan clustering\n9.2 Ketepatan menganalisis K-Means (elbow method, inertia)\n9.3 Kemampuan membandingkan DBSCAN (epsilon, min_samples)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik coding",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 8: latihan terstruktur — K-Means (elbow method\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "K-Means (elbow method, inertia), DBSCAN (epsilon, min_samples), Hierarchical clustering (dendrogram)\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 8: Evaluasi model (classification metrics)",
-      "indikator": "Kemampuan menghitung confusion matrix, accuracy, precision, recall, F1",
-      "kriteria": "Kuis; tugas",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Confusion matrix, TP/TN/FP/FN, akurasi, presisi, recall, F1-score, macro/micro averaging",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 8 : Evaluasi model (classification metrics) (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menghitung confusion matrix, accuracy, precision, recall, F1\n10.2 Ketepatan menganalisis Confusion matrix, TP/TN/FP/FN, akurasi, presisi, recall, F1-score, macro/micro averaging",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: tugas",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — Confusion matrix\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Confusion matrix, TP/TN/FP/FN, akurasi, presisi, recall, F1-score, macro/micro averaging\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 8: Evaluasi model (ROC, AUC, regression metrics)",
-      "indikator": "Kemampuan menggunakan ROC-AUC dan regression metrics (MAE, MSE, R2)",
-      "kriteria": "Tugas individu: evaluasi",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "ROC curve, AUC, MAE, MSE, RMSE, R-squared, adjusted R-squared",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Evaluasi model (ROC, AUC, regression metrics) (C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menggunakan ROC-AUC dan regression metrics (MAE, MSE, R2)\n11.2 Ketepatan menganalisis ROC curve, AUC, MAE, MSE, RMSE, R-squared, adjusted R-squared",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Tugas individu: evaluasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — ROC curve\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "ROC curve, AUC, MAE, MSE, RMSE, R-squared, adjusted R-squared\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 9: Hyperparameter tuning dan cross-validation",
-      "indikator": "Kemampuan menggunakan GridSearchCV dan cross-validation",
-      "kriteria": "Tugas kelompok: tuning",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "K-fold cross-validation, GridSearchCV, RandomSearchCV, overfitting vs underfitting, bias-variance tradeoff",
-      "bobot": "6%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Hyperparameter tuning dan cross-validation (C4, A4) (CPMK-4)",
+      "indikator": "12.1 Kemampuan menggunakan GridSearchCV dan cross-validation\n12.2 Ketepatan menganalisis K-fold cross-validation, GridSearchCV, RandomSearchCV\n12.3 Kemampuan membandingkan overfitting vs underfitting, bias-variance tradeoff",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: tuning",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — K-fold cross-validation\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "K-fold cross-validation, GridSearchCV, RandomSearchCV, overfitting vs underfitting, bias-variance tradeoff\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 10: Proyek ML – Persiapan",
-      "indikator": "Kemampuan memilih dataset dan merumuskan masalah ML",
-      "kriteria": "Proposal proyek",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Pemilihan dataset (Kaggle, UCI), analisis eksploratif, perumusan target, pembagian tugas",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek ML – Persiapan (C5-C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan memilih dataset dan merumuskan masalah ML\n13.2 Ketepatan merancang Pemilihan dataset (Kaggle, UCI), analisis eksploratif, perumusan target, pembagian tugas",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 12: proyek — Pemilihan dataset (Kaggle\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan dataset (Kaggle, UCI), analisis eksploratif, perumusan target, pembagian tugas\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 10: Implementasi proyek",
-      "indikator": "Kemampuan melakukan preprocessing, training, evaluasi",
-      "kriteria": "Progress report",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Kuliah daring sinkron; TM: 3x50",
-      "materi": "Implementasi pipeline, eksperimen berbagai algoritma, tuning",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi proyek (C5-C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan melakukan preprocessing, training, evaluasi\n14.2 Ketepatan merancang implementasi pipeline, eksperimen berbagai algoritma, tuning",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Progress report",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 13: latihan terstruktur — Implementasi pipeline\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi pipeline, eksperimen berbagai algoritma, tuning\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 10: Presentasi proyek",
-      "indikator": "Kemampuan mempresentasikan hasil analisis dan insight",
-      "kriteria": "Presentasi kelompok (10-15 menit)",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Presentasi daring sinkron; TM: 3x50",
-      "materi": "Presentasi laporan proyek, demo kode, kesimpulan dan rekomendasi",
-      "bobot": "10%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi proyek (C5-C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan hasil analisis dan insight\n15.2 Ketepatan merancang Presentasi laporan proyek, demo kode, kesimpulan dan rekomendasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (10-15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi laporan proyek\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi laporan proyek, demo kode, kesimpulan dan rekomendasi\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "UAS: Ujian Akhir Semester",
-      "indikator": "Menjawab soal integratif tentang ML pipeline, evaluasi, dan studi kasus",
-      "kriteria": "Ujian tertulis online",
-      "tatap_muka": "Kuliah TM: 3x50",
-      "daring": "Ujian daring sinkron; TM: 3x50",
-      "materi": "Seluruh materi (minggu 1-15)",
-      "bobot": "15%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang ML pipeline, evaluasi, dan studi kasus\n16.2 Ketepatan menganalisis Seluruh materi (minggu 1-15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "15"
     }
   ],
   "bahan_kajian": "1. Konsep dan jenis machine learning (supervised, unsupervised, reinforcement)\n2. Preprocessing data dan feature engineering\n3. Algoritma klasifikasi (Decision Tree, SVM, KNN, Naive Bayes)\n4. Algoritma regresi (Linear, Logistic, Polynomial)\n5. Algoritma clustering (K-Means, DBSCAN, Hierarchical)\n6. Evaluasi model: akurasi, presisi, recall, F1-score, ROC-AUC\n7. Pengantar deep learning dan neural network\n8. Implementasi machine learning dengan Python (Scikit-learn, TensorFlow)\n9. Penerapan machine learning dalam sistem informasi",

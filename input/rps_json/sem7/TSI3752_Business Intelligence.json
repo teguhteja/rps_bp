@@ -16,62 +16,653 @@
     "jabatan": "Asisten Ahli"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
-    {"kode": "P-02", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KU-05", "tipe": "Keterampilan Umum", "deskripsi": "Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya berdasarkan hasil analisis informasi dan data"},
-    {"kode": "KK-03", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis"},
-    {"kode": "KK-11", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-02",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis yang mengkaji, menerapkan, dan mengembangkan ilmu sistem informasi serta mampu mengambil keputusan yang tepat dalam penyelesaian masalah",
+      "label": "CPL 2 (P-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KU-04",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menyusun deskripsi saintifik hasil kajian dalam bentuk skripsi atau laporan tugas akhir dan mengunggahnya dalam laman perguruan tinggi",
+      "label": "CPL 5 (KU-04)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-01",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 6 (KK-01)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-04",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya",
+      "label": "CPL 7 (KK-04)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KK-06",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+      "label": "CPL 8 (KK-06)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 9 (KK-08)",
+      "nomor": "CPL 9"
+    },
+    {
+      "kode": "KK-11",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menganalisis perilaku pengguna dan data digital untuk mendukung pengambilan keputusan berbasis data (data-driven decision making) dan optimasi pemasaran digital",
+      "label": "CPL 10 (KK-11)",
+      "nomor": "CPL 10"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu menjelaskan konsep Business Intelligence (BI) dan komponennya (data warehouse, ETL, OLAP, dashboard)"},
-    {"kode": "CPMK-2", "cpl": "P-02, KU-02", "deskripsi": "Mampu merancang dan mengimplementasikan data warehouse (skema bintang, snowflake) serta proses ETL"},
-    {"kode": "CPMK-3", "cpl": "KU-05, KK-03", "deskripsi": "Mampu melakukan analisis multidimensional (OLAP) dan menulis query MDX atau SQL analitik"},
-    {"kode": "CPMK-4", "cpl": "S-09, KK-11", "deskripsi": "Mampu merancang dashboard dan laporan BI menggunakan tools modern (Power BI, Tableau, Looker)"},
-    {"kode": "CPMK-5", "cpl": "KU-01, KK-11", "deskripsi": "Mampu menyusun KPI, balanced scorecard, dan memberikan rekomendasi bisnis berbasis data"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu menjelaskan konsep Business Intelligence (BI) dan komponennya (data warehouse, ETL, OLAP, dashboard) (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-02, KU-02, KK-04, KK-08",
+      "deskripsi": "Mampu merancang dan mengimplementasikan data warehouse (skema bintang, snowflake) serta proses ETL (CPL 2, CPL 4, CPL 7, CPL 9)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KK-04",
+      "deskripsi": "Mampu melakukan analisis multidimensional (OLAP) dan menulis query MDX atau SQL analitik (CPL 7)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "KK-06, KK-11",
+      "deskripsi": "Mampu merancang dashboard dan laporan BI menggunakan tools modern (Power BI, Tableau, Looker) (CPL 8, CPL 10)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KU-04, KK-01, KK-11",
+      "deskripsi": "Mampu menyusun KPI, balanced scorecard, dan memberikan rekomendasi bisnis berbasis data (CPL 3, CPL 5, CPL 6, CPL 10)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan definisi BI, arsitektur BI, dan perbedaannya dengan reporting tradisional", "cpmk": "CPMK-1", "minggu": "1", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan konsep data warehouse (DW), karakteristik (subject-oriented, integrated, time-variant, non-volatile)", "cpmk": "CPMK-1", "minggu": "2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu merancang skema data warehouse (star schema, snowflake schema) dan fact table/dimension table", "cpmk": "CPMK-2", "minggu": "3", "cpl": "C4"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengimplementasikan proses ETL (Extract, Transform, Load) menggunakan tools atau SQL", "cpmk": "CPMK-2", "minggu": "4-5", "cpl": "C3-C4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu melakukan analisis OLAP (slice, dice, drill-down, roll-up, pivot) menggunakan MDX atau SQL", "cpmk": "CPMK-3", "minggu": "6", "cpl": "C3-C4"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menulis query analitik (window functions, GROUP BY ROLLUP/CUBE) untuk agregasi data", "cpmk": "CPMK-3", "minggu": "7", "cpl": "C3"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menggunakan Power BI/Tableau untuk membuat visualisasi data interaktif", "cpmk": "CPMK-4", "minggu": "9-10", "cpl": "C3-P4"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu merancang dashboard eksekutif dengan KPI dan scorecard", "cpmk": "CPMK-4", "minggu": "11", "cpl": "C4"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu menyusun balanced scorecard dan mengukur kinerja organisasi berbasis BI", "cpmk": "CPMK-5", "minggu": "12", "cpl": "C4-C5"},
-    {"kode": "Sub-CPMK 10", "deskripsi": "Mampu menyelesaikan proyek BI (dari data warehouse hingga dashboard) dan mempresentasikan insight", "cpmk": "CPMK-5", "minggu": "13-15", "cpl": "C5-C6"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan definisi BI, arsitektur BI, dan perbedaannya dengan reporting tradisional (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan konsep data warehouse (DW), karakteristik (subject-oriented, integrated, time-variant, non-volatile) (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu merancang skema data warehouse (star schema, snowflake schema) dan fact table/dimension table (C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu mengimplementasikan proses ETL (Extract, Transform, Load) menggunakan tools atau SQL (C3-C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "4-5",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu melakukan analisis OLAP (slice, dice, drill-down, roll-up, pivot) menggunakan MDX atau SQL (C3-C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "taksonomi": "C3-C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menulis query analitik (window functions, GROUP BY ROLLUP/CUBE) untuk agregasi data (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "7",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menggunakan Power BI/Tableau untuk membuat visualisasi data interaktif (C3-P4, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9-10",
+      "taksonomi": "C3-P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu merancang dashboard eksekutif dengan KPI dan scorecard (C4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "11",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun balanced scorecard dan mengukur kinerja organisasi berbasis BI (C4-C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12",
+      "taksonomi": "C4-C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyelesaikan proyek BI (dari data warehouse hingga dashboard) dan mempresentasikan insight (C5-C6, A5) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13-15",
+      "taksonomi": "C5-C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "47%",
+      "c1": "0%",
+      "c2": "14%",
+      "c3": "5%",
+      "c4": "10%",
+      "c5": "18%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "23%",
+      "c1": "7%",
+      "c2": "0%",
+      "c3": "5%",
+      "c4": "5%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "15%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "7.5%",
+      "c5": "7.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "12%",
+      "c2": "19%",
+      "c3": "15%",
+      "c4": "22.5%",
+      "c5": "31.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "2.8",
+      "p2": "",
+      "p3": "2.7",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.2",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "1.7",
+      "p3": "",
+      "p4": "1.6",
+      "p5": "",
+      "p6": "",
+      "p7": "1.6",
+      "p8": "",
+      "p9": "1.6",
+      "p10": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "3.2",
+      "p3": "",
+      "p4": "3.1",
+      "p5": "",
+      "p6": "",
+      "p7": "3.1",
+      "p8": "",
+      "p9": "3.1",
+      "p10": "",
+      "bobot": "12.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "6.9",
+      "p9": "",
+      "p10": "6.9",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4.4",
+      "p9": "",
+      "p10": "4.4",
+      "bobot": "8.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "2.2",
+      "p4": "",
+      "p5": "2.2",
+      "p6": "2.2",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "2.1",
+      "bobot": "8.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "5.7",
+      "p4": "",
+      "p5": "5.7",
+      "p6": "5.7",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "5.6",
+      "bobot": "22.7",
+      "minggu": "3"
+    },
+    {
+      "sub": "Total",
+      "p1": "6.1",
+      "p2": "4.9",
+      "p3": "13.8",
+      "p4": "4.7",
+      "p5": "7.9",
+      "p6": "7.9",
+      "p7": "19.7",
+      "p8": "11.3",
+      "p9": "4.7",
+      "p10": "19",
+      "bobot": "100",
+      "minggu": "14"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1: Pengenalan Business Intelligence", "indikator": "Ketepatan menjelaskan definisi BI, arsitektur, dan manfaat bagi organisasi", "kriteria": "Kuis online; tanya jawab", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Definisi BI, evolusi dari reporting ke analitik, arsitektur BI (data sources, ETL, data warehouse, OLAP, presentation layer)", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 2: Data Warehouse konsep", "indikator": "Kemampuan menjelaskan karakteristik dan perbedaan dengan database operasional", "kriteria": "Diskusi kelompok", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Karakteristik DW, perbedaan OLTP vs OLAP, Inmon vs Kimball, data mart", "bobot": "4%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 3: Perancangan skema data warehouse", "indikator": "Kemampuan membuat star schema dan snowflake schema", "kriteria": "Tugas individu: rancangan skema", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Fact table (measures, foreign keys), dimension table (attributes), star schema, snowflake, degenerate dimension", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 4: ETL – Extract dan Transform", "indikator": "Kemampuan mengambil data dari sumber (CSV, SQL) dan melakukan cleansing", "kriteria": "Tugas individu: ETL sederhana", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Sumber data (operational DB, flat file, API), teknik ekstraksi (full, incremental), transformasi (cleansing, deduplication, formatting, derived columns)", "bobot": "5%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 4: ETL – Load dan scheduling", "indikator": "Kemampuan memuat data ke data warehouse dan menjadwalkan ETL", "kriteria": "Tugas kelompok: pipeline ETL", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Load strategies (batch, incremental), scheduling (cron, Airflow), monitoring log, error handling", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 5: Analisis OLAP", "indikator": "Kemampuan melakukan operasi slice, dice, drill-down, roll-up", "kriteria": "Praktik menggunakan SQL atau tools OLAP", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Operasi OLAP: slice, dice, drill-down, roll-up, pivot; MDX dasar; SQL dengan GROUP BY CUBE/ROLLUP", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 6: SQL analitik (window functions)", "indikator": "Kemampuan menulis query dengan ROW_NUMBER, RANK, LAG, LEAD, moving average", "kriteria": "Tugas individu: query analitik", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Window functions (OVER, PARTITION BY, ORDER BY), ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, SUM with frame", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "UTS: Ujian Tengah Semester", "indikator": "Menjawab soal konsep BI, data warehouse, ETL, OLAP, SQL analitik", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Materi Minggu 1-7", "bobot": "15%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 7: Pengenalan Power BI / Tableau", "indikator": "Kemampuan mengimpor data dan membuat visualisasi dasar", "kriteria": "Praktik menggunakan Power BI Desktop", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Instalasi Power BI, koneksi data, visual (bar chart, line chart, pie chart, map), filter", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "Sub-CPMK 7: Visualisasi lanjut dan DAX (Power BI)", "indikator": "Kemampuan membuat measure, calculated column, dan visual interaktif", "kriteria": "Tugas individu: dashboard", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "DAX (SUM, AVERAGE, CALCULATE, FILTER, time intelligence), slicer, cross-filter, bookmarks", "bobot": "5%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 8: Dashboard dan KPI", "indikator": "Kemampuan merancang dashboard eksekutif dengan KPI", "kriteria": "Tugas kelompok: dashboard KPI", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Desain dashboard yang efektif, KPI (leading vs lagging), traffic light indicators, scorecard", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 9: Balanced Scorecard (BSC)", "indikator": "Kemampuan menyusun BSC untuk organisasi", "kriteria": "Tugas kelompok: BSC", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Perspektif BSC (financial, customer, internal process, learning & growth), strategic mapping, pengukuran", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 10: Proyek BI – Perencanaan dan data preparation", "indikator": "Kemampuan memilih kasus, mengumpulkan data, dan merancang data warehouse", "kriteria": "Proposal proyek", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Pemilihan studi kasus (penjualan, keuangan, logistik), identifikasi sumber data, perancangan skema", "bobot": "6%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 10: Implementasi ETL dan dashboard", "indikator": "Kemampuan membangun pipeline ETL dan dashboard BI", "kriteria": "Progress report", "tatap_muka": "Kuliah TM: 3x50", "daring": "Kuliah daring sinkron; TM: 3x50", "materi": "Implementasi ETL (SSIS/Pentaho/Talend), pembuatan dashboard di Power BI/Tableau", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 10: Presentasi proyek BI", "indikator": "Kemampuan mempresentasikan insight bisnis dari dashboard", "kriteria": "Presentasi kelompok (15 menit)", "tatap_muka": "Kuliah TM: 3x50", "daring": "Presentasi daring sinkron; TM: 3x50", "materi": "Presentasi dashboard, rekomendasi bisnis, tanya jawab", "bobot": "10%"},
-    {"minggu": 16, "deskripsi": "UAS: Ujian Akhir Semester", "indikator": "Menjawab soal integratif tentang BI, data warehouse, dashboard, dan studi kasus", "kriteria": "Ujian tertulis online", "tatap_muka": "Kuliah TM: 3x50", "daring": "Ujian daring sinkron; TM: 3x50", "materi": "Seluruh materi (minggu 1-15)", "bobot": "15%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Pengenalan Business Intelligence (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan definisi BI, arsitektur, dan manfaat bagi organisasi\n1.2 Ketepatan menjelaskan definisi BI\n1.3 Ketepatan menguraikan evolusi dari reporting ke analitik",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: tanya jawab",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 1: latihan terstruktur — Definisi BI\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi BI, evolusi dari reporting ke analitik, arsitektur BI (data sources, ETL, data warehouse, OLAP, presentation layer)\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Data Warehouse konsep (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan karakteristik dan perbedaan dengan database operasional\n2.2 Ketepatan menjelaskan Karakteristik DW\n2.3 Ketepatan menguraikan perbedaan OLTP vs OLAP",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 2: latihan terstruktur — Karakteristik DW\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Karakteristik DW, perbedaan OLTP vs OLAP, Inmon vs Kimball, data mart\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Perancangan skema data warehouse (C4, A4) (CPMK-2)",
+      "indikator": "3.1 Kemampuan membuat star schema dan snowflake schema\n3.2 Ketepatan menganalisis Fact table (measures, foreign keys)\n3.3 Kemampuan membandingkan dimension table (attributes), star schema, snowflake, degenerate dimension",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: rancangan skema",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Fact table (measures\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Fact table (measures, foreign keys), dimension table (attributes), star schema, snowflake, degenerate dimension\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : ETL – Extract dan Transform (C3-C4, A4) (CPMK-2)",
+      "indikator": "4.1 Kemampuan mengambil data dari sumber (CSV, SQL) dan melakukan cleansing\n4.2 Ketepatan menganalisis Sumber data (operational DB, flat file, API)\n4.3 Kemampuan membandingkan teknik ekstraksi (full, incremental)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: ETL sederhana",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Sumber data (operational DB\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Sumber data (operational DB, flat file, API), teknik ekstraksi (full, incremental), transformasi (cleansing, deduplication, formatting, derived columns)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 4 : ETL – Load dan scheduling (C3-C4, A4) (CPMK-2)",
+      "indikator": "5.1 Kemampuan memuat data ke data warehouse dan menjadwalkan ETL\n5.2 Ketepatan menganalisis Load strategies (batch, incremental)\n5.3 Kemampuan membandingkan scheduling (cron, Airflow), monitoring log, error handling",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: pipeline ETL",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Load strategies (batch\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Load strategies (batch, incremental), scheduling (cron, Airflow), monitoring log, error handling\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 5 : Analisis OLAP (C3-C4, A4) (CPMK-3)",
+      "indikator": "6.1 Kemampuan melakukan operasi slice, dice, drill-down, roll-up\n6.2 Ketepatan menganalisis Operasi OLAP: slice, dice, drill-down, roll-up, pivot, MDX dasar\n6.3 Kemampuan membandingkan SQL dengan GROUP BY CUBE/ROLLUP",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik menggunakan SQL atau tools OLAP",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 6: latihan terstruktur — Operasi OLAP: slice\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Operasi OLAP: slice, dice, drill-down, roll-up, pivot; MDX dasar; SQL dengan GROUP BY CUBE/ROLLUP\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : SQL analitik (window functions) (C3, A3) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menulis query dengan ROW_NUMBER, RANK, LAG, LEAD, moving average\n7.2 Ketepatan menerapkan Window functions (OVER, PARTITION BY, ORDER BY), ROW_NUMBER\n7.3 Kemampuan menggunakan SUM with frame",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: query analitik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 7: tugas terstruktur — Window functions (OVER\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Window functions (OVER, PARTITION BY, ORDER BY), ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, SUM with frame\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep BI, data warehouse, ETL, OLAP, SQL analitik\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Pengenalan Power BI / Tableau (C3-P4, A3) (CPMK-4)",
+      "indikator": "9.1 Kemampuan mengimpor data dan membuat visualisasi dasar\n9.2 Ketepatan menerapkan Instalasi Power BI, koneksi data\n9.3 Kemampuan menggunakan visual (bar chart, line chart, pie chart, map), filter",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Praktik menggunakan Power BI Desktop",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 8: latihan terstruktur — Instalasi Power BI\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Instalasi Power BI, koneksi data, visual (bar chart, line chart, pie chart, map), filter\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 7 : Visualisasi lanjut dan DAX (Power BI) (C3-P4, A3) (CPMK-4)",
+      "indikator": "10.1 Kemampuan membuat measure, calculated column, dan visual interaktif\n10.2 Ketepatan menerapkan DAX (SUM, AVERAGE, CALCULATE, FILTER, time intelligence), slicer, cross-filter, bookmarks",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: dashboard",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 9: tugas terstruktur — DAX (SUM\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "DAX (SUM, AVERAGE, CALCULATE, FILTER, time intelligence), slicer, cross-filter, bookmarks\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Dashboard dan KPI (C4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan merancang dashboard eksekutif dengan KPI\n11.2 Ketepatan menganalisis Desain dashboard yang efektif\n11.3 Kemampuan membandingkan KPI (leading vs lagging)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: dashboard KPI",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Desain dashboard yang efektif\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Desain dashboard yang efektif, KPI (leading vs lagging), traffic light indicators, scorecard\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Balanced Scorecard (BSC) (C4-C5, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menyusun BSC untuk organisasi\n12.2 Ketepatan mengevaluasi Perspektif BSC (financial, customer, internal process, learning & growth)\n12.3 Kemampuan menilai strategic mapping, pengukuran",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: BSC",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Perspektif BSC (financial\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Perspektif BSC (financial, customer, internal process, learning & growth), strategic mapping, pengukuran\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 10 : Proyek BI – Perencanaan dan data preparation (C5-C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan memilih kasus, mengumpulkan data, dan merancang data warehouse\n13.2 Ketepatan merancang Pemilihan studi kasus (penjualan, keuangan, logistik)\n13.3 Kemampuan menyusun identifikasi sumber data, perancangan skema",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 12: proyek — Pemilihan studi kasus (penjualan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan studi kasus (penjualan, keuangan, logistik), identifikasi sumber data, perancangan skema\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Implementasi ETL dan dashboard (C5-C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan membangun pipeline ETL dan dashboard BI\n14.2 Ketepatan merancang implementasi ETL (SSIS/Pentaho/Talend), pembuatan dashboard di Power BI/Tableau",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Progress report",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 13: latihan terstruktur — Implementasi ETL\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Implementasi ETL (SSIS/Pentaho/Talend), pembuatan dashboard di Power BI/Tableau\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Presentasi proyek BI (C5-C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan mempresentasikan insight bisnis dari dashboard\n15.2 Ketepatan merancang Presentasi dashboard, rekomendasi bisnis, tanya jawab",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (15 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 14: presentasi — Presentasi dashboard\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Presentasi dashboard, rekomendasi bisnis, tanya jawab\n[P1, P2, P3]",
+      "bobot": "7"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang BI, data warehouse, dashboard, dan studi kasus\n16.2 Ketepatan menerapkan Seluruh materi (minggu 1-15)",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "15"
+    }
   ],
   "bahan_kajian": "1. Konsep dan komponen Business Intelligence (BI)\n2. Data warehouse: arsitektur, skema bintang, dan snowflake\n3. ETL (Extract, Transform, Load) process\n4. OLAP dan multidimensional analysis\n5. Dashboard dan reporting: desain dan implementasi\n6. KPI dan balanced scorecard berbasis BI\n7. Pengantar data mining dalam konteks BI\n8. Implementasi BI dengan tools modern (Power BI, Tableau, Looker)",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Kimball, R., & Ross, M. (2013). *The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling* (3rd ed.). Wiley."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Ferrari, A., & Russo, M. (2019). *Analyzing Data with Power BI and Power Pivot for Excel*. Microsoft Press."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Few, S. (2012). *Show Me the Numbers: Designing Tables and Graphs to Enlighten* (2nd ed.). Analytics Press."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Kimball, R., & Ross, M. (2013). *The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling* (3rd ed.). Wiley."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Ferrari, A., & Russo, M. (2019). *Analyzing Data with Power BI and Power Pivot for Excel*. Microsoft Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Few, S. (2012). *Show Me the Numbers: Designing Tables and Graphs to Enlighten* (2nd ed.). Analytics Press."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Inmon, W. H. (2005). *Building the Data Warehouse* (4th ed.). Wiley."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Kaplan, R. S., & Norton, D. P. (1996). *The Balanced Scorecard: Translating Strategy into Action*. Harvard Business Review Press."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Inmon, W. H. (2005). *Building the Data Warehouse* (4th ed.). Wiley."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Kaplan, R. S., & Norton, D. P. (1996). *The Balanced Scorecard: Translating Strategy into Action*. Harvard Business Review Press."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pengetahuan dan keterampilan dalam merancang dan mengimplementasikan Business Intelligence (BI) untuk mendukung pengambilan keputusan berbasis data. Materi meliputi konsep BI, data warehouse (skema bintang dan snowflake), proses ETL, analisis multidimensional (OLAP), SQL analitik (window functions), visualisasi data dan dashboard menggunakan tools modern (Power BI, Tableau), serta balanced scorecard. Mahasiswa akan mengerjakan proyek BI yang mencakup perancangan data warehouse, pipeline ETL, pembuatan dashboard interaktif, dan penyajian insight bisnis.",
   "matakuliah_syarat": "TSI3108 Sistem Basis Data, TSI3213 Statistika dan Probabilitas"

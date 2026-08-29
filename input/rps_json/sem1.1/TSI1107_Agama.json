@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "kode_mk": "TSI1107",
+    "nama_mk": "Agama",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Nasional (MKWN)",
+    "tanggal_penyusunan": "2026-03-01",
+    "dosen_pengampu": "I Made Hendra Wijaya, S.Kom., M.Kom.",
+    "dosen_sign": "sign/hendra.png",
+    "nuptk": "5138772673130293",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-01",
+      "tipe": "Sikap",
+      "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius",
+      "label": "CPL 1 (S-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "S-02",
+      "tipe": "Sikap",
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika",
+      "label": "CPL 2 (S-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "S-03",
+      "tipe": "Sikap",
+      "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila",
+      "label": "CPL 3 (S-03)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "S-04",
+      "tipe": "Sikap",
+      "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa",
+      "label": "CPL 4 (S-04)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "S-05",
+      "tipe": "Sikap",
+      "deskripsi": "Menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain di bidang keahliannya secara mandiri",
+      "label": "CPL 5 (S-05)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "S-06",
+      "tipe": "Sikap",
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan",
+      "label": "CPL 6 (S-06)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "S-07",
+      "tipe": "Sikap",
+      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara",
+      "label": "CPL 7 (S-07)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "S-08",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi",
+      "label": "CPL 8 (S-08)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "S-09",
+      "tipe": "Sikap",
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 9 (S-09)",
+      "nomor": "CPL 9"
+    },
+    {
+      "kode": "S-10",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 10 (S-10)",
+      "nomor": "CPL 10"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-01, S-02",
+      "deskripsi": "Mampu memahami tujuan dan fungsi pendidikan agama dalam membangun kepribadian humanis (CPL 1, CPL 2)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "S-01, S-03",
+      "deskripsi": "Mampu menjelaskan filsafat ketuhanan dan nilai-nilai ketuhanan dalam kehidupan (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-02, S-05, S-06",
+      "deskripsi": "Mampu memahami kajian nilai moral, kepribadian, tanggung jawab, dan kerukunan antar umat beragama (CPL 2, CPL 5, CPL 6)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-04, S-07",
+      "deskripsi": "Mampu menjelaskan HAM dalam perspektif agama serta menerapkan budaya akademik dan etos kerja yang berlandaskan nilai agama (CPL 4, CPL 7)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-08, S-09, S-10",
+      "deskripsi": "Mampu memahami peran agama dalam kehidupan berbangsa dan bernegara serta kewajiban menuntut dan mengamalkan ilmu secara bertanggung jawab (CPL 8, CPL 9, CPL 10)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan tujuan dan fungsi pendidikan agama (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan filsafat ketuhanan dan nilai-nilai ketuhanan (C2, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "2–3",
+      "taksonomi": "C2, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu memahami nilai moral, kepribadian, dan tanggung jawab dalam perspektif agama (C2–C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "4–5",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menjelaskan kerukunan antar umat beragama dan toleransi (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "6",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan HAM dalam perspektif agama (C2, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "7",
+      "taksonomi": "C2, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu memahami budaya akademik, etos kerja, dan sikap terbuka (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9–10",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan kewajiban menuntut dan mengamalkan ilmu pengetahuan dan teknologi (C3, A3) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "11–12",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menjelaskan peran agama dalam kehidupan berbangsa dan bernegara (C3, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "13–14",
+      "taksonomi": "C3, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu menyusun makalah dan presentasi tentang isu agama dan masyarakat (C4–C5, A4) (CPMK-3, CPMK-5)",
+      "cpmk": "CPMK-3, CPMK-5",
+      "minggu": "15",
+      "taksonomi": "C4–C5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu mengintegrasikan nilai-nilai agama dalam kehidupan profesional (C5, A4) (CPMK-1 s.d. CPMK-5)",
+      "cpmk": "CPMK-1 s.d. CPMK-5",
+      "minggu": "16",
+      "taksonomi": "C5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "53%",
+      "c1": "0%",
+      "c2": "6%",
+      "c3": "17%",
+      "c4": "10%",
+      "c5": "20%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "14%",
+      "c1": "3%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "5%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3.8%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "6%",
+      "c4": "6%",
+      "c5": "6%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "6.8%",
+      "c2": "9.8%",
+      "c3": "26.8%",
+      "c4": "24.8%",
+      "c5": "32%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3",
+      "p2": "3",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "6",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "4.5",
+      "p2": "",
+      "p3": "4.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "3.7",
+      "p3": "",
+      "p4": "",
+      "p5": "3.7",
+      "p6": "3.6",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "11",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "2.4",
+      "p3": "",
+      "p4": "",
+      "p5": "2.3",
+      "p6": "2.3",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4",
+      "p5": "",
+      "p6": "",
+      "p7": "4",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "7.3",
+      "p5": "",
+      "p6": "",
+      "p7": "7.2",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4.9",
+      "p9": "4.8",
+      "p10": "4.8",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "5.2",
+      "p9": "5.2",
+      "p10": "5.1",
+      "bobot": "15.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "2.5",
+      "p3": "",
+      "p4": "",
+      "p5": "2.4",
+      "p6": "2.4",
+      "p7": "",
+      "p8": "2.4",
+      "p9": "2.4",
+      "p10": "2.4",
+      "bobot": "14.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "p10": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "7.5",
+      "p2": "11.6",
+      "p3": "4.5",
+      "p4": "11.3",
+      "p5": "8.4",
+      "p6": "8.3",
+      "p7": "11.2",
+      "p8": "12.5",
+      "p9": "12.4",
+      "p10": "12.3",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Mampu menjelaskan tujuan dan fungsi pendidikan agama (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan urgensi pendidikan agama di perguruan tinggi\n1.2 Ketepatan menjelaskan tujuan pendidikan agama, fungsi membangun kepribadian humanis",
+      "kriteria": "Metode Penilaian:\nKuis (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik kuis\nTeknik:\nTest: Kuis online\nNon Test: Latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 1: latihan soal — Tujuan pendidikan agama\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tujuan pendidikan agama, fungsi membangun kepribadian humanis\n[P1, P2]\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Mampu menjelaskan filsafat ketuhanan dan nilai-nilai ketuhanan (C2, A3) (CPMK-2)",
+      "indikator": "2.1 Ketepatan menjelaskan konsep Ketuhanan dalam berbagai perspektif\n2.2 Ketepatan menjelaskan Filsafat ketuhanan, nilai-nilai ketuhanan",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik diskusi\nTeknik:\nNon Test: Diskusi kelas, tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, small group discussion\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Filsafat ketuhanan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Filsafat ketuhanan, nilai-nilai ketuhanan\n[P1, P3]\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Mampu menjelaskan penerapan nilai-nilai ketuhanan dalam kehidupan (C2, A3) (CPMK-2)",
+      "indikator": "3.1 Kemampuan mengidentifikasi penerapan nilai ketuhanan dalam keluarga\n3.2 Ketepatan menjelaskan implementasi nilai ketuhanan dalam keluarga, masyarakat, dan pekerjaan",
+      "kriteria": "Metode Penilaian:\nTugas (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik studi kasus\nTeknik:\nNon Test: Studi kasus, forum diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nContextual learning, diskusi kelompok\n[TM: 1x(2x50')]\nTugas 3: studi kasus — Implementasi nilai ketuhanan dalam keluarga\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Implementasi nilai ketuhanan dalam keluarga, masyarakat, dan pekerjaan\n[P1, P3, P5]\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Mampu memahami nilai moral dan kepribadian dalam perspektif agama (C2–C3, A3) (CPMK-3)",
+      "indikator": "4.1 Ketepatan menjelaskan hubungan agama dengan moral dan kepribadian\n4.2 Ketepatan menerapkan Moral, akhlak, etika, integritas, tanggung jawab",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik kuis\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Moral\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Moral, akhlak, etika, integritas, tanggung jawab\n[P2, P3]\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Mampu menjelaskan tanggung jawab dalam perspektif agama (C3, A3) (CPMK-3)",
+      "indikator": "5.1 Ketepatan menjelaskan konsep tanggung jawab individu\n5.2 Ketepatan menerapkan Tanggung jawab kepada Tuhan, diri sendiri, sesama, dan lingkungan",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik tugas kelompok\nTeknik:\nNon Test: Tugas kelompok (studi kasus)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative learning, studi kasus\n[TM: 1x(2x50')]\nTugas 5: studi kasus — Tanggung jawab kepada Tuhan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Tanggung jawab kepada Tuhan, diri sendiri, sesama, dan lingkungan\n[P2, P4]\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Mampu menjelaskan kerukunan antar umat beragama dan toleransi (C3, A3) (CPMK-3)",
+      "indikator": "6.1 Ketepatan menjelaskan pentingnya toleransi dan moderasi beragama\n6.2 Ketepatan menerapkan Kerukunan, toleransi, dialog antar iman, pencegahan radikalisme",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik diskusi\nTeknik:\nNon Test: Diskusi kelompok, studi kasus konflik",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall group discussion, studi kasus\n[TM: 1x(2x50')]\nTugas 6: studi kasus — Kerukunan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Kerukunan, toleransi, dialog antar iman, pencegahan radikalisme\n[P4, P5]\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 5 : Mampu menjelaskan HAM dalam perspektif agama (C2, A3) (CPMK-4)",
+      "indikator": "7.1 Ketepatan menjelaskan hak asasi manusia berdasarkan nilai agama\n7.2 Ketepatan menjelaskan HAM, kebebasan beragama, perlindungan minoritas",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik kuis\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 7: tugas terstruktur — HAM\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "HAM, kebebasan beragama, perlindungan minoritas\n[P4, P6]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Ketepatan menjawab soal tentang tujuan dan fungsi pendidikan agama\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3, P4]\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 6 : Mampu memahami budaya akademik dan etos kerja berlandaskan nilai agama (C3, A3) (CPMK-4)",
+      "indikator": "9.1 Ketepatan menjelaskan konsep budaya akademik\n9.2 Ketepatan menerapkan Budaya akademik, disiplin, integritas, etos kerja produktif",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik kuis\nTeknik:\nTest: Kuis online\nNon Test: Diskusi kelas",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, diskusi\n[TM: 1x(2x50')]\nTugas 8: latihan terstruktur — Budaya akademik\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Budaya akademik, disiplin, integritas, etos kerja produktif\n[P2, P3]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 6 : Mampu menunjukkan sikap terbuka dan kejujuran akademik (C3, A3) (CPMK-4)",
+      "indikator": "10.1 Ketepatan menjelaskan pentingnya kejujuran dan keterbukaan\n10.2 Ketepatan menerapkan Sikap terbuka, kritis, anti plagiarisme, etika akademik",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik esai\nTeknik:\nNon Test: Tugas individu (esai pendek)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery learning, diskusi\n[TM: 1x(2x50')]\nTugas 9: esai — Sikap terbuka\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sikap terbuka, kritis, anti plagiarisme, etika akademik\n[P2, P6]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 7 : Mampu menjelaskan kewajiban menuntut ilmu menurut ajaran agama (C3, A3) (CPMK-5)",
+      "indikator": "11.1 Ketepatan menjelaskan perintah menuntut ilmu dalam kitab suci\n11.2 Ketepatan menerapkan Ayat/teks suci tentang ilmu, kewajiban belajar sepanjang hayat",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik kuis\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, cooperative learning\n[TM: 1x(2x50')]\nTugas 10: tugas terstruktur — Ayat/teks suci tentang ilmu\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Ayat/teks suci tentang ilmu, kewajiban belajar sepanjang hayat\n[P1, P3]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Mampu menjelaskan pengamalan ilmu pengetahuan dan teknologi secara beretika (C3, A3) (CPMK-5)",
+      "indikator": "12.1 Ketepatan menjelaskan hubungan agama dengan kemajuan teknologi\n12.2 Ketepatan menerapkan Etika teknologi, pemanfaatan teknologi informasi untuk kebaikan",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik studi kasus\nTeknik:\nNon Test: Studi kasus, diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCase based learning, diskusi\n[TM: 1x(2x50')]\nTugas 11: studi kasus — Etika teknologi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Etika teknologi, pemanfaatan teknologi informasi untuk kebaikan\n[P3, P5, P6]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Mampu menjelaskan peran agama dalam kehidupan berbangsa dan bernegara (C3, A4) (CPMK-5)",
+      "indikator": "13.1 Ketepatan menjelaskan kontribusi agama bagi NKRI\n13.2 Ketepatan menerapkan Agama dan Pancasila, agama dan nasionalisme",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik refleksi\nTeknik:\nNon Test: Tugas individu (refleksi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 12: tugas terstruktur — Agama dan Pancasila\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Agama dan Pancasila, agama dan nasionalisme\n[P4, P6]\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Mampu menjelaskan nilai kepemimpinan religius (C3, A4) (CPMK-5)",
+      "indikator": "14.1 Ketepatan menjelaskan karakter kepemimpinan etis\n14.2 Ketepatan menerapkan Kepemimpinan etis, kepemimpinan pelayanan, keadilan",
+      "kriteria": "Metode Penilaian:\nKuis (6%)\nKriteria:\n• Pedoman penskoran\n• Rubrik diskusi kelompok\nTeknik:\nNon Test: Diskusi kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall group discussion, role play\n[TM: 1x(2x50')]\nTugas 13: latihan terstruktur — Kepemimpinan etis\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kepemimpinan etis, kepemimpinan pelayanan, keadilan\n[P2, P5]\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 9 : Mampu menyusun makalah dan presentasi tentang isu agama dan masyarakat (C4–C5, A4) (CPMK-3, CPMK-5)",
+      "indikator": "15.1 Kemampuan menyusun makalah sesuai kaidah ilmiah\n15.2 Ketepatan mengevaluasi Isu moderasi beragama, intoleransi, radikalisme, dan kerukunan",
+      "kriteria": "Metode Penilaian:\nTugas (10%)\nKriteria:\n• Rubrik penilaian makalah\n• Rubrik penilaian presentasi\nTeknik:\nNon Test: Makalah kelompok dan presentasi",
+      "tatap_muka": "Bentuk: Seminar\nMetode:\nProject based learning, presentasi kelompok\n[TM: 1x(2x50')]\nTugas 14: makalah — Isu moderasi beragama\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nPresentasi daring sinkron",
+      "materi": "Isu moderasi beragama, intoleransi, radikalisme, dan kerukunan\n[P4, P5, P6]\n[P1, P2, P3]",
+      "bobot": "10"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 6,7,8,9\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Ketepatan menjawab soal integratif tentang peran agama dalam kehidupan profesional\n16.2 Ketepatan menerapkan Seluruh materi (etos kerja, kewajiban menuntut ilmu, peran agama dalam bernegara, hasil presentasi)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (18%) (18%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (etos kerja, kewajiban menuntut ilmu, peran agama dalam bernegara, hasil presentasi)\n[P1, P2, P3, P4, P5, P6]\n[P1, P2, P3]",
+      "bobot": "18"
+    }
+  ],
+  "bahan_kajian": "1. Tujuan dan fungsi pendidikan agama dalam membangun kepribadian humanis\n2. Filsafat ketuhanan dan kajian nilai-nilai ketuhanan\n3. Kajian nilai moral, kepribadian, dan tanggung jawab\n4. Kerukunan antar umat beragama dan toleransi\n5. HAM dalam perspektif agama\n6. Budaya akademik, etos kerja, dan sikap terbuka\n7. Kewajiban menuntut dan mengamalkan ilmu pengetahuan dan teknologi\n8. Peran agama dalam kehidupan berbangsa dan bernegara",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Al-Qur'an dan Terjemahnya (Kementerian Agama RI) / Kitab Suci agama lain sesuai keyakinan."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Tim Dosen Agama ITEKES Bintang Persada. (2026). *Buku Ajar Pendidikan Agama*. ITEKES Press."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Rahardjo, M. D. (2012). *Pendidikan agama Islam di perguruan tinggi*. Pustaka Pelajar."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Azra, A. (2015). *Pendidikan agama dan pluralisme*. Kencana."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Shihab, M. Q. (2017). *Wawasan Al-Qur'an*. Mizan."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.2 Mata Kuliah Wajib Nasional."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang nilai-nilai agama untuk membentuk kepribadian humanis, toleran, dan bertanggung jawab. Materi meliputi tujuan pendidikan agama, filsafat ketuhanan, nilai moral dan kepribadian, kerukunan antar umat beragama, HAM dalam perspektif agama, budaya akademik dan etos kerja, kewajiban menuntut ilmu, serta peran agama dalam kehidupan berbangsa dan bernegara. Penekanan diberikan pada pengamalan nilai agama dalam kehidupan sehari-hari dan lingkungan profesional.",
+  "matakuliah_syarat": "-"
+}

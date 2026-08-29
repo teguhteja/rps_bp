@@ -16,61 +16,575 @@
     "jabatan": "-"
   },
   "cpl_prodi": [
-    {"kode": "S-09", "tipe": "Sikap", "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"},
-    {"kode": "P-01", "tipe": "Pengetahuan", "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural"},
-    {"kode": "P-03", "tipe": "Pengetahuan", "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat"},
-    {"kode": "KU-01", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"},
-    {"kode": "KU-02", "tipe": "Keterampilan Umum", "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"},
-    {"kode": "KK-01", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"},
-    {"kode": "KK-04", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menjadi tenaga profesional dalam pengolahan basis data, rekayasa perangkat lunak, jaringan komputer, dan pengelolaan proyek sistem informasi, serta mampu mempresentasikan dan mendokumentasikan hasilnya"},
-    {"kode": "KK-08", "tipe": "Keterampilan Khusus", "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi"}
+    {
+      "kode": "P-01",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai konsep teoritis bidang sistem informasi secara umum dan konsep teoritis bagian khusus secara mendalam, serta mampu memformulasikan penyelesaian masalah prosedural",
+      "label": "CPL 1 (P-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "P-03",
+      "tipe": "Pengetahuan",
+      "deskripsi": "Menguasai pengetahuan dalam penyusunan algoritma pemrograman yang efektif dan efisien serta mampu merancang, membangun, dan mengelola aplikasi sistem teknologi dan informasi secara tepat untuk mendukung pengambilan keputusan",
+      "label": "CPL 2 (P-03)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 3 (KU-01)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 4 (KU-02)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "KK-03",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu melakukan analisis dan desain sistem informasi dengan menggunakan kaidah rekayasa perangkat lunak, algoritma, serta tools yang relevan untuk menghasilkan solusi optimal bagi kebutuhan organisasi dan bisnis",
+      "label": "CPL 5 (KK-03)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "KK-05",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu mengembangkan teori serta metode/teknik pada domain Management and Governance (MAGO) atau Informatics Concepts (INCO) sesuai panduan APTIKOM",
+      "label": "CPL 6 (KK-05)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "KK-08",
+      "tipe": "Keterampilan Khusus",
+      "deskripsi": "Mampu menerapkan konsep dasar dalam merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
+      "label": "CPL 7 (KK-08)",
+      "nomor": "CPL 7"
+    }
   ],
   "cpmk": [
-    {"kode": "CPMK-1", "cpl": "P-01, KU-01", "deskripsi": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP"},
-    {"kode": "CPMK-2", "cpl": "P-03, KU-02, KK-04", "deskripsi": "Mampu melakukan pengalamatan IP, subnetting, dan konfigurasi perangkat jaringan dasar"},
-    {"kode": "CPMK-3", "cpl": "KK-01, KK-08", "deskripsi": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana"},
-    {"kode": "CPMK-4", "cpl": "P-01, KK-04", "deskripsi": "Mampu menjelaskan keamanan jaringan dasar dan mengkonfigurasi firewall sederhana"},
-    {"kode": "CPMK-5", "cpl": "KU-01, KK-08", "deskripsi": "Mampu melakukan troubleshooting jaringan dan menganalisis lalu lintas jaringan menggunakan simulator"}
+    {
+      "kode": "CPMK-1",
+      "cpl": "P-01, KU-01",
+      "deskripsi": "Mampu memahami konsep dan arsitektur jaringan komputer, model OSI dan TCP/IP (CPL 1, CPL 3)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "P-03, KU-02",
+      "deskripsi": "Mampu melakukan pengalamatan IP, subnetting, dan konfigurasi perangkat jaringan dasar (CPL 2, CPL 4)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "KK-05, KK-08",
+      "deskripsi": "Mampu menerapkan protokol jaringan (HTTP, FTP, DNS, DHCP) dan routing/switching sederhana (CPL 6, CPL 7)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "P-01",
+      "deskripsi": "Mampu menjelaskan keamanan jaringan dasar dan mengkonfigurasi firewall sederhana (CPL 1)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "KU-01, KK-03, KK-08",
+      "deskripsi": "Mampu melakukan troubleshooting jaringan dan menganalisis lalu lintas jaringan menggunakan simulator (CPL 3, CPL 5, CPL 7)"
+    }
   ],
   "sub_cpmk": [
-    {"kode": "Sub-CPMK 1", "deskripsi": "Mampu menjelaskan konsep dasar jaringan komputer, manfaat, dan klasifikasi jaringan", "cpmk": "CPMK-1", "minggu": "1–2", "cpl": "C2"},
-    {"kode": "Sub-CPMK 2", "deskripsi": "Mampu menjelaskan model OSI dan TCP/IP serta fungsi setiap layer", "cpmk": "CPMK-1", "minggu": "3–4", "cpl": "C2–C3"},
-    {"kode": "Sub-CPMK 3", "deskripsi": "Mampu melakukan subnetting IPv4 dan memahami IPv6", "cpmk": "CPMK-2", "minggu": "5–6", "cpl": "C3–C4"},
-    {"kode": "Sub-CPMK 4", "deskripsi": "Mampu mengkonfigurasi perangkat jaringan (switch, router) pada simulator", "cpmk": "CPMK-2", "minggu": "7", "cpl": "C3–P4"},
-    {"kode": "Sub-CPMK 5", "deskripsi": "Mampu menjelaskan protokol lapisan aplikasi (HTTP, DNS, FTP, DHCP)", "cpmk": "CPMK-3", "minggu": "8–9", "cpl": "C3"},
-    {"kode": "Sub-CPMK 6", "deskripsi": "Mampu menerapkan routing statis dan dinamis (RIP, OSPF) pada simulator", "cpmk": "CPMK-3", "minggu": "10–11", "cpl": "C4–P4"},
-    {"kode": "Sub-CPMK 7", "deskripsi": "Mampu menjelaskan keamanan jaringan (firewall, VPN, IDS/IPS) dan ancaman", "cpmk": "CPMK-4", "minggu": "12–13", "cpl": "C3"},
-    {"kode": "Sub-CPMK 8", "deskripsi": "Mampu melakukan troubleshooting dan analisis lalu lintas jaringan menggunakan Wireshark", "cpmk": "CPMK-5", "minggu": "14–15", "cpl": "C4–P5"},
-    {"kode": "Sub-CPMK 9", "deskripsi": "Mampu mengintegrasikan seluruh konsep dalam proyek desain jaringan skala kecil", "cpmk": "CPMK-5", "minggu": "16", "cpl": "C5–P5"}
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan konsep dasar jaringan komputer, manfaat, dan klasifikasi jaringan (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1–2",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu menjelaskan model OSI dan TCP/IP serta fungsi setiap layer (C2–C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "3–4",
+      "taksonomi": "C2–C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu melakukan subnetting IPv4 dan memahami IPv6 (C3–C4, A4) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "5–6",
+      "taksonomi": "C3–C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu mengkonfigurasi perangkat jaringan (switch, router) pada simulator (C3–P4, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "7",
+      "taksonomi": "C3–P4, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu menjelaskan protokol lapisan aplikasi (HTTP, DNS, FTP, DHCP) (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "8–9",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menerapkan routing statis dan dinamis (RIP, OSPF) pada simulator (C4–P4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "10–11",
+      "taksonomi": "C4–P4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menjelaskan keamanan jaringan (firewall, VPN, IDS/IPS) dan ancaman (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "12–13",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu melakukan troubleshooting dan analisis lalu lintas jaringan menggunakan Wireshark (C4–P5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "14–15",
+      "taksonomi": "C4–P5, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mengintegrasikan seluruh konsep dalam proyek desain jaringan skala kecil (C5–P5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "16",
+      "taksonomi": "C5–P5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "",
+      "m9": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "66%",
+      "c1": "19%",
+      "c2": "15%",
+      "c3": "15%",
+      "c4": "5%",
+      "c5": "12%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "5%",
+      "c1": "2.5%",
+      "c2": "2.5%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3%",
+      "c2": "3%",
+      "c3": "3%",
+      "c4": "3%",
+      "c5": "3%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "14%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "4.7%",
+      "c4": "4.7%",
+      "c5": "4.7%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "24.5%",
+      "c2": "20.5%",
+      "c3": "22.7%",
+      "c4": "12.7%",
+      "c5": "19.7%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "6.5",
+      "p2": "",
+      "p3": "6.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "12.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "6",
+      "p2": "",
+      "p3": "5.9",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "11.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "6.5",
+      "p3": "",
+      "p4": "6.4",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "12.9",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "4",
+      "p3": "",
+      "p4": "3.9",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "7.9",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "5.1",
+      "p7": "5.1",
+      "bobot": "10.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "7.6",
+      "p7": "7.6",
+      "bobot": "15.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "10.2",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "10.2",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "5.8",
+      "p4": "",
+      "p5": "5.7",
+      "p6": "",
+      "p7": "5.7",
+      "bobot": "17.2",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "bobot": "1.6",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "22.7",
+      "p2": "10.5",
+      "p3": "18.1",
+      "p4": "10.3",
+      "p5": "5.7",
+      "p6": "12.7",
+      "p7": "18.4",
+      "bobot": "100",
+      "minggu": "13"
+    }
   ],
   "detail": [
-    {"minggu": 1, "deskripsi": "Sub-CPMK 1 : Konsep dasar jaringan komputer", "indikator": "Ketepatan mendefinisikan jaringan, manfaat, dan jenis (LAN, MAN, WAN, WLAN)", "kriteria": "Kuis online (LMS); Tugas latihan soal", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: pengenalan perangkat jaringan", "daring": "Kuliah daring sinkron + praktik simulasi (Packet Tracer); [TM: 3×50'] [Praktik: 1×170'] [BM: 3×60'] [BT: 3×60']", "materi": "Definisi jaringan; topologi; perangkat (switch, router, access point); media transmisi", "bobot": "3%"},
-    {"minggu": 2, "deskripsi": "Sub-CPMK 1 : Klasifikasi dan arsitektur jaringan", "indikator": "Ketepatan membedakan client-server, peer-to-peer, dan arsitektur hybrid", "kriteria": "Kuis online; Tugas individu", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: instalasi simulator", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Arsitektur client-server dan peer-to-peer; jaringan hybrid; contoh implementasi", "bobot": "3%"},
-    {"minggu": 3, "deskripsi": "Sub-CPMK 2 : Model OSI (7 layer)", "indikator": "Ketepatan menjelaskan fungsi setiap layer OSI dan contoh protokol", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: analisis header frame", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Model OSI: physical, data link, network, transport, session, presentation, application", "bobot": "4%"},
-    {"minggu": 4, "deskripsi": "Sub-CPMK 2 : Model TCP/IP", "indikator": "Ketepatan membandingkan OSI dan TCP/IP, serta protokol di setiap layer", "kriteria": "Kuis online; Tugas analisis", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: capture paket dengan Wireshark", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "TCP/IP: application, transport, internet, network access; perbandingan dengan OSI", "bobot": "4%"},
-    {"minggu": 5, "deskripsi": "Sub-CPMK 3 : Pengalamatan IP (IPv4)", "indikator": "Ketepatan membedakan kelas IP, subnet mask, dan perhitungan subnet", "kriteria": "Kuis online; Tugas latihan subnetting", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: subnetting manual", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "IPv4: struktur, kelas A,B,C,D,E; subnet mask; CIDR; perhitungan subnet, host, broadcast", "bobot": "5%"},
-    {"minggu": 6, "deskripsi": "Sub-CPMK 3 : IPv6 dan subnetting lanjutan", "indikator": "Ketepatan menjelaskan kelebihan IPv6 dan format alamat", "kriteria": "Kuis online; Tugas desain subnet", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: konfigurasi IPv6 di simulator", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "IPv6: 128-bit, notasi heksadesimal, tipe alamat (unicast, multicast, anycast); subnetting IPv6", "bobot": "5%"},
-    {"minggu": 7, "deskripsi": "Sub-CPMK 4 : Konfigurasi perangkat jaringan (switch, router)", "indikator": "Kemampuan mengkonfigurasi VLAN, trunking, dan routing antar VLAN", "kriteria": "Tugas praktik (simulator) - laporan", "tatap_muka": "Praktikum laboratorium virtual TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi (Packet Tracer); [TM: 3×50'] [Praktik: 1×170']", "materi": "Konfigurasi dasar switch (hostname, password, VLAN); konfigurasi router (interface, IP routing)", "bobot": "5%"},
-    {"minggu": 8, "deskripsi": "Sub-CPMK 5 : Protokol lapisan aplikasi (HTTP, DNS)", "indikator": "Ketepatan menjelaskan cara kerja HTTP request/response dan DNS resolution", "kriteria": "Kuis online; Tugas analisis paket HTTP/DNS", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: capture HTTP dan DNS", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "HTTP: metode GET/POST, status code; DNS: hierarki, recursive/iterative query", "bobot": "5%"},
-    {"minggu": 9, "deskripsi": "Sub-CPMK 5 : Protokol FTP, DHCP, dan SMTP", "indikator": "Ketepatan menjelaskan proses FTP, DHCP (DORA), dan email", "kriteria": "Kuis online; Tugas kelompok", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: simulasi FTP dan DHCP", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "FTP (active/passive); DHCP (discover, offer, request, ack); SMTP, POP3, IMAP", "bobot": "5%"},
-    {"minggu": 10, "deskripsi": "UTS : Ujian Tengah Semester", "indikator": "Menjawab soal konsep, subnetting, dan protokol", "kriteria": "Ujian tertulis online (LMS)", "tatap_muka": "Ujian TM: 3x50", "daring": "Ujian daring sinkron (LMS); [TM: 3×50']", "materi": "Materi Minggu 1–9", "bobot": "15%"},
-    {"minggu": 11, "deskripsi": "Sub-CPMK 6 : Routing statis", "indikator": "Kemampuan mengkonfigurasi routing statis di simulator", "kriteria": "Tugas praktik (laporan)", "tatap_muka": "Praktikum routing statis TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi (Packet Tracer); [TM: 3×50'] [Praktik: 1×170']", "materi": "Routing statis: konsep, konfigurasi, default route, perhitungan metric", "bobot": "5%"},
-    {"minggu": 12, "deskripsi": "Sub-CPMK 6 : Routing dinamis (RIP, OSPF)", "indikator": "Kemampuan mengkonfigurasi RIP dan OSPF serta membandingkan", "kriteria": "Tugas praktik; kuis online", "tatap_muka": "Praktikum routing dinamis TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi; [TM: 3×50'] [Praktik: 1×170']", "materi": "Routing dinamis: RIP (distance vector), OSPF (link state); konfigurasi, kelebihan/kekurangan", "bobot": "5%"},
-    {"minggu": 13, "deskripsi": "Sub-CPMK 7 : Keamanan jaringan dasar", "indikator": "Ketepatan menjelaskan ancaman (sniffing, spoofing, DoS) dan solusi (firewall, VPN)", "kriteria": "Kuis online; Tugas analisis kasus keamanan", "tatap_muka": "Kuliah interaktif TM: 3x50; Praktik: konfigurasi firewall sederhana", "daring": "Kuliah daring sinkron + praktik; [TM: 3×50'] [Praktik: 1×170']", "materi": "Ancaman keamanan; firewall (ACL, stateful); VPN (IPsec, SSL); IDS/IPS", "bobot": "5%"},
-    {"minggu": 14, "deskripsi": "Sub-CPMK 8 : Troubleshooting jaringan", "indikator": "Kemampuan menggunakan perintah ping, traceroute, netstat, dan menganalisis hasil", "kriteria": "Tugas praktik troubleshooting", "tatap_muka": "Praktikum troubleshooting TM: 3x50; Praktik: 1x170", "daring": "Praktik simulasi + command line; [TM: 3×50'] [Praktik: 1×170']", "materi": "Alat troubleshooting: ping, traceroute, ipconfig/ifconfig, netstat, nslookup; analisis log", "bobot": "6%"},
-    {"minggu": 15, "deskripsi": "Sub-CPMK 8 : Analisis lalu lintas dengan Wireshark", "indikator": "Kemampuan menangkap dan menganalisis paket (filter, follow stream, statistik)", "kriteria": "Tugas praktik (capture dan laporan)", "tatap_muka": "Praktikum Wireshark TM: 3x50; Praktik: 1x170", "daring": "Praktik dengan Wireshark; [TM: 3×50'] [Praktik: 1×170']", "materi": "Wireshark: capture filter, display filter, follow TCP stream, IO graph, protocol hierarchy", "bobot": "6%"},
-    {"minggu": 16, "deskripsi": "Sub-CPMK 9 : Proyek desain jaringan skala kecil + UAS", "indikator": "Kemampuan merancang topologi, subnetting, routing, dan keamanan; presentasi", "kriteria": "Laporan proyek + presentasi + ujian tulis", "tatap_muka": "Presentasi proyek + UAS TM: 3x50", "daring": "Presentasi daring + UAS online; [TM: 3×50']", "materi": "Proyek: desain jaringan kantor kecil (20 komputer, server, akses internet); UAS mencakup seluruh materi", "bobot": "14%"}
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep dasar jaringan komputer (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan jaringan, manfaat, dan jenis (LAN, MAN, WAN, WLAN)\n1.2 Ketepatan menjelaskan perangkat (switch, router, access point), media transmisi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online (LMS)\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 1: latihan soal — Definisi jaringan; topologi; perangkat (switch\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Definisi jaringan; topologi; perangkat (switch, router, access point); media transmisi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Klasifikasi dan arsitektur jaringan (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Ketepatan membedakan client-server, peer-to-peer, dan arsitektur hybrid\n2.2 Ketepatan menjelaskan arsitektur client-server dan peer-to-peer, jaringan hybrid, contoh implementasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 2: tugas terstruktur — Arsitektur client-server dan peer-to-peer; jaringan hybrid; contoh implementasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Arsitektur client-server dan peer-to-peer; jaringan hybrid; contoh implementasi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Model OSI (7 layer) (C2–C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan menjelaskan fungsi setiap layer OSI dan contoh protokol\n3.2 Ketepatan menerapkan model OSI: physical, data link, network, transport, session, presentation, application",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 3: tugas terstruktur — Model OSI: physical\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Model OSI: physical, data link, network, transport, session, presentation, application\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 2 : Model TCP/IP (C2–C3, A3) (CPMK-1)",
+      "indikator": "4.1 Ketepatan membandingkan OSI dan TCP/IP, serta protokol di setiap layer\n4.2 Ketepatan menerapkan TCP/IP: application, transport, internet, network access\n4.3 Kemampuan menggunakan perbandingan dengan OSI",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 4: tugas terstruktur — TCP/IP: application\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "TCP/IP: application, transport, internet, network access; perbandingan dengan OSI\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Pengalamatan IP (IPv4) (C3–C4, A4) (CPMK-2)",
+      "indikator": "5.1 Ketepatan membedakan kelas IP, subnet mask, dan perhitungan subnet\n5.2 Ketepatan menganalisis IPv4: struktur, kelas A,B,C,D,E, subnet mask, CIDR\n5.3 Kemampuan membandingkan perhitungan subnet, host, broadcast",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan subnetting",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 5: latihan soal — IPv4: struktur\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "IPv4: struktur, kelas A,B,C,D,E; subnet mask; CIDR; perhitungan subnet, host, broadcast\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 3 : IPv6 dan subnetting lanjutan (C3–C4, A4) (CPMK-2)",
+      "indikator": "6.1 Ketepatan menjelaskan kelebihan IPv6 dan format alamat\n6.2 Ketepatan menganalisis IPv6: 128-bit, notasi heksadesimal, tipe alamat (unicast, multicast, anycast), subnetting IPv6",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas desain subnet",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 6: esai — IPv6: 128-bit\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "IPv6: 128-bit, notasi heksadesimal, tipe alamat (unicast, multicast, anycast); subnetting IPv6\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : Konfigurasi perangkat jaringan (switch, router) (C3–P4, A3) (CPMK-2)",
+      "indikator": "7.1 Kemampuan mengkonfigurasi VLAN, trunking, dan routing antar VLAN\n7.2 Ketepatan menerapkan Konfigurasi dasar switch (hostname, password, VLAN)\n7.3 Kemampuan menggunakan konfigurasi router (interface, IP routing)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (simulator) - laporan",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 7: laporan — Konfigurasi dasar switch (hostname\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Konfigurasi dasar switch (hostname, password, VLAN); konfigurasi router (interface, IP routing)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 5 : Protokol HTTP dan DNS (C3, A3) (CPMK-3)",
+      "indikator": "8.1 Ketepatan menjelaskan cara kerja HTTP request/response dan DNS resolution\n8.2 Ketepatan menjelaskan HTTP: metode GET/POST, status code\n8.3 Ketepatan menguraikan DNS: hierarki, recursive/iterative query",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "HTTP: metode GET/POST, status code; DNS: hierarki, recursive/iterative query\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Protokol FTP, DHCP, dan SMTP (C3, A3) (CPMK-3)",
+      "indikator": "9.1 Ketepatan menjelaskan proses FTP, DHCP (DORA), dan email\n9.2 Ketepatan menerapkan FTP (active/passive)\n9.3 Kemampuan menggunakan DHCP (discover, offer, request, ack)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Cooperative Learning (CoL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 8: tugas terstruktur — FTP ; DHCP (discover\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "FTP (active/passive); DHCP (discover, offer, request, ack); SMTP, POP3, IMAP\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "UTS : Ujian Tengah Semester",
+      "indikator": "10.1 Menjawab soal konsep, subnetting, dan protokol\n10.2 Ketepatan menjelaskan materi Minggu 1–9",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tes\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 9: latihan terstruktur — Materi Minggu 1–9\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Materi Minggu 1–9\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Routing statis (C4–P4, A4) (CPMK-3)",
+      "indikator": "11.1 Kemampuan mengkonfigurasi routing statis di simulator\n11.2 Ketepatan menganalisis Routing statis: konsep, konfigurasi, default route, perhitungan metric",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (laporan)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 10: laporan — Routing statis: konsep\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Routing statis: konsep, konfigurasi, default route, perhitungan metric\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 6 : Routing dinamis (RIP, OSPF) (C4–P4, A4) (CPMK-3)",
+      "indikator": "12.1 Kemampuan mengkonfigurasi RIP dan OSPF serta membandingkan\n12.2 Ketepatan menganalisis Routing dinamis: RIP (distance vector), OSPF (link state), konfigurasi, kelebihan/kekurangan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: kuis online\nNon Test: Tugas praktik",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 11: tugas terstruktur — Routing dinamis: RIP\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Routing dinamis: RIP (distance vector), OSPF (link state); konfigurasi, kelebihan/kekurangan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 7 : Keamanan jaringan dasar (C3, A3) (CPMK-4)",
+      "indikator": "13.1 Ketepatan menjelaskan ancaman (sniffing, spoofing, DoS) dan solusi (firewall, VPN)\n13.2 Ketepatan menerapkan Ancaman keamanan\n13.3 Kemampuan menggunakan firewall (ACL, stateful)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas analisis kasus keamanan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 12: tugas terstruktur — Ancaman keamanan; firewall (ACL\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Ancaman keamanan; firewall (ACL, stateful); VPN (IPsec, SSL); IDS/IPS\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Troubleshooting jaringan (C4–P5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menggunakan perintah ping, traceroute, netstat, dan menganalisis hasil\n14.2 Ketepatan menganalisis Alat troubleshooting: ping, traceroute, ipconfig/ifconfig, netstat, nslookup, analisis log",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik troubleshooting",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 13: tugas terstruktur — Alat troubleshooting: ping\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Alat troubleshooting: ping, traceroute, ipconfig/ifconfig, netstat, nslookup; analisis log\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 8 : Analisis lalu lintas dengan Wireshark (C4–P5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menangkap dan menganalisis paket (filter, follow stream, statistik)\n15.2 Ketepatan menganalisis Wireshark: capture filter, display filter\n15.3 Kemampuan membandingkan follow TCP stream, IO graph, protocol hierarchy",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas praktik (capture dan laporan)",
+      "tatap_muka": "Bentuk: Praktikum\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\n[P: 1x(1x170')]\nTugas 14: laporan — Wireshark: capture filter\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Wireshark: capture filter, display filter, follow TCP stream, IO graph, protocol hierarchy\n[P1, P2, P3]",
+      "bobot": "6"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan merancang topologi, subnetting, routing, dan keamanan; presentasi\n16.2 Ketepatan menerapkan Proyek: desain jaringan kantor kecil (20 komputer, server, akses internet)\n16.3 Kemampuan menggunakan UAS mencakup seluruh materi",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Proyek: desain jaringan kantor kecil (20 komputer, server, akses internet); UAS mencakup seluruh materi\n[P1, P2, P3]",
+      "bobot": "14"
+    }
   ],
   "bahan_kajian": "1. Konsep dan arsitektur jaringan komputer\n2. Model OSI dan TCP/IP\n3. Media transmisi dan perangkat jaringan\n4. Pengalamatan IP (IPv4 dan IPv6) dan subnetting\n5. Protokol jaringan: HTTP, FTP, DNS, DHCP\n6. Routing dan switching\n7. Jaringan nirkabel (Wi-Fi, LTE, 5G)\n8. Dasar keamanan jaringan\n9. Praktikum: konfigurasi jaringan dengan simulator",
   "pustaka_utama": [
-    {"kode": "P1", "jenis": "Utama", "referensi": "Kurose, J. F., & Ross, K. W. (2017). *Computer networking: A top-down approach* (7th ed.). Pearson."},
-    {"kode": "P2", "jenis": "Utama", "referensi": "Tanenbaum, A. S., & Wetherall, D. J. (2011). *Computer networks* (5th ed.). Pearson."},
-    {"kode": "P3", "jenis": "Utama", "referensi": "Odom, W. (2016). *CCNA Routing and Switching ICND1 100-105 Official Cert Guide*. Cisco Press."}
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Kurose, J. F., & Ross, K. W. (2017). *Computer networking: A top-down approach* (7th ed.). Pearson."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Tanenbaum, A. S., & Wetherall, D. J. (2011). *Computer networks* (5th ed.). Pearson."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Odom, W. (2016). *CCNA Routing and Switching ICND1 100-105 Official Cert Guide*. Cisco Press."
+    }
   ],
   "pustaka_pendukung": [
-    {"kode": "P4", "jenis": "Pendukung", "referensi": "Cisco Networking Academy. (2020). *Introduction to Networks v7.0 (ITN)*. Cisco Press."},
-    {"kode": "P5", "jenis": "Pendukung", "referensi": "Comer, D. E. (2015). *Computer networks and internets* (6th ed.). Pearson."},
-    {"kode": "P6", "jenis": "Pendukung", "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."}
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Cisco Networking Academy. (2020). *Introduction to Networks v7.0 (ITN)*. Cisco Press."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Comer, D. E. (2015). *Computer networks and internets* (6th ed.). Pearson."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
   ],
   "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan pemahaman tentang konsep, arsitektur, dan implementasi jaringan komputer. Materi meliputi model OSI dan TCP/IP, media transmisi, perangkat jaringan, pengalamatan IP dan subnetting, protokol jaringan (HTTP, FTP, DNS, DHCP), routing dan switching, keamanan jaringan dasar, serta praktikum konfigurasi jaringan menggunakan simulator Cisco Packet Tracer. Penekanan diberikan pada kemampuan merancang, mengkonfigurasi, dan melakukan troubleshooting jaringan skala kecil.",
   "matakuliah_syarat": "TSI3105 (Pengantar Teknologi Informasi) – direkomendasikan"

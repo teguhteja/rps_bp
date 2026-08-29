@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "kode_mk": "TSI1108",
+    "nama_mk": "Bahasa Indonesia",
+    "sks_total": 2,
+    "sks_teori": 2,
+    "sks_praktik": 0,
+    "semester": 1,
+    "status": "Wajib",
+    "kategori": "Mata Kuliah Wajib Umum / Bela Negara / Pendidikan Umum (Kepribadian)",
+    "tanggal_penyusunan": "2026-04-13",
+    "dosen_pengampu": "Ni Putu Veny Narlianti, S.S., M.Hum.",
+    "dosen_sign": "sign/venny.png",
+    "nuptk": "0633771672230302",
+    "pangkat_golongan": "-",
+    "jabatan": "Asisten Ahli"
+  },
+  "cpl_prodi": [
+    {
+      "kode": "S-01",
+      "tipe": "Sikap",
+      "deskripsi": "Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius",
+      "label": "CPL 1 (S-01)",
+      "nomor": "CPL 1"
+    },
+    {
+      "kode": "S-02",
+      "tipe": "Sikap",
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika",
+      "label": "CPL 2 (S-02)",
+      "nomor": "CPL 2"
+    },
+    {
+      "kode": "S-03",
+      "tipe": "Sikap",
+      "deskripsi": "Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila",
+      "label": "CPL 3 (S-03)",
+      "nomor": "CPL 3"
+    },
+    {
+      "kode": "S-04",
+      "tipe": "Sikap",
+      "deskripsi": "Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggung jawab pada negara dan bangsa",
+      "label": "CPL 4 (S-04)",
+      "nomor": "CPL 4"
+    },
+    {
+      "kode": "S-06",
+      "tipe": "Sikap",
+      "deskripsi": "Bekerjasama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan",
+      "label": "CPL 5 (S-06)",
+      "nomor": "CPL 5"
+    },
+    {
+      "kode": "S-07",
+      "tipe": "Sikap",
+      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara",
+      "label": "CPL 6 (S-07)",
+      "nomor": "CPL 6"
+    },
+    {
+      "kode": "S-08",
+      "tipe": "Sikap",
+      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi",
+      "label": "CPL 7 (S-08)",
+      "nomor": "CPL 7"
+    },
+    {
+      "kode": "KU-01",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 8 (KU-01)",
+      "nomor": "CPL 8"
+    },
+    {
+      "kode": "KU-02",
+      "tipe": "Keterampilan Umum",
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 9 (KU-02)",
+      "nomor": "CPL 9"
+    }
+  ],
+  "cpmk": [
+    {
+      "kode": "CPMK-1",
+      "cpl": "S-01, S-02, S-04, KU-01",
+      "deskripsi": "Mampu menjelaskan kedudukan, fungsi, dan ragam bahasa Indonesia sebagai bahasa negara dan bahasa ilmiah (CPL 1, CPL 2, CPL 4, CPL 8)"
+    },
+    {
+      "kode": "CPMK-2",
+      "cpl": "S-06, KU-02",
+      "deskripsi": "Mampu menerapkan kaidah Ejaan Bahasa Indonesia (EBI) dan tanda baca secara tepat dalam penulisan akademik (CPL 5, CPL 9)"
+    },
+    {
+      "kode": "CPMK-3",
+      "cpl": "S-08",
+      "deskripsi": "Mampu menyusun paragraf ilmiah yang kohesif dan koheren serta mengorganisasikan gagasan secara sistematis (CPL 7)"
+    },
+    {
+      "kode": "CPMK-4",
+      "cpl": "S-07, KU-01",
+      "deskripsi": "Mampu menulis karya ilmiah (makalah, laporan, artikel) dengan memperhatikan kutipan, referensi, dan daftar pustaka sesuai standar (CPL 6, CPL 8)"
+    },
+    {
+      "kode": "CPMK-5",
+      "cpl": "S-03",
+      "deskripsi": "Mampu mempresentasikan gagasan ilmiah secara lisan dan tertulis dengan bahasa Indonesia yang efektif dan santun (CPL 3)"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "kode": "Sub-CPMK 1",
+      "deskripsi": "Mampu menjelaskan sejarah, kedudukan, dan fungsi bahasa Indonesia (C2, A2) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "1",
+      "taksonomi": "C2, A2"
+    },
+    {
+      "kode": "Sub-CPMK 2",
+      "deskripsi": "Mampu mengidentifikasi ragam bahasa Indonesia (ilmiah, jurnalistik, bisnis) dan menggunakannya sesuai konteks (C3, A3) (CPMK-1)",
+      "cpmk": "CPMK-1",
+      "minggu": "2",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 3",
+      "deskripsi": "Mampu menerapkan Ejaan Bahasa Indonesia (EBI) dan tanda baca dalam penulisan (C3, A3) (CPMK-2)",
+      "cpmk": "CPMK-2",
+      "minggu": "3",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 4",
+      "deskripsi": "Mampu menyusun kalimat efektif dan paragraf yang kohesif (C3, A3) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "4",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 5",
+      "deskripsi": "Mampu mengembangkan penalaran ilmiah dalam bentuk argumen dan opini (C4, A4) (CPMK-3)",
+      "cpmk": "CPMK-3",
+      "minggu": "5",
+      "taksonomi": "C4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 6",
+      "deskripsi": "Mampu menulis karya ilmiah (makalah) dengan struktur yang benar (C4-P4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "6-7",
+      "taksonomi": "C4-P4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 7",
+      "deskripsi": "Mampu menggunakan teknik kutipan (langsung dan tidak langsung) dan menyusun daftar pustaka (C3, A3) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "9",
+      "taksonomi": "C3, A3"
+    },
+    {
+      "kode": "Sub-CPMK 8",
+      "deskripsi": "Mampu menulis laporan teknis dan dokumentasi profesional sederhana (C4-P4, A4) (CPMK-4)",
+      "cpmk": "CPMK-4",
+      "minggu": "10-11",
+      "taksonomi": "C4-P4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 9",
+      "deskripsi": "Mampu mempresentasikan hasil karya ilmiah dengan bahasa yang efektif (C5-P4, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "12-13",
+      "taksonomi": "C5-P4, A4"
+    },
+    {
+      "kode": "Sub-CPMK 10",
+      "deskripsi": "Mampu menyunting dan merevisi tulisan sendiri maupun orang lain (C5, A4) (CPMK-5)",
+      "cpmk": "CPMK-5",
+      "minggu": "14-15",
+      "taksonomi": "C5, A4"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "√",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "√",
+      "m7": "√",
+      "m8": "√",
+      "m9": "",
+      "m10": ""
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√",
+      "m10": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "54%",
+      "c1": "4%",
+      "c2": "0%",
+      "c3": "10%",
+      "c4": "25%",
+      "c5": "15%"
+    },
+    {
+      "jenis": "Aktivitas Partisipatif",
+      "bobot": "13%",
+      "c1": "3%",
+      "c2": "5%",
+      "c3": "0%",
+      "c4": "0%",
+      "c5": "5%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "3.8%",
+      "c2": "3.8%",
+      "c3": "3.8%",
+      "c4": "3.8%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "18%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9%",
+      "c5": "9%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "10.8%",
+      "c2": "8.8%",
+      "c3": "13.8%",
+      "c4": "37.8%",
+      "c5": "29%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "1.4",
+      "p2": "1.4",
+      "p3": "",
+      "p4": "1.4",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "1.3",
+      "p9": "",
+      "bobot": "5.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "1.7",
+      "p2": "1.6",
+      "p3": "",
+      "p4": "1.6",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "1.6",
+      "p9": "",
+      "bobot": "6.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "3.8",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "3.7",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "7.5",
+      "p8": "",
+      "p9": "",
+      "bobot": "7.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "6.3",
+      "p7": "",
+      "p8": "6.2",
+      "p9": "",
+      "bobot": "12.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "4.8",
+      "p7": "",
+      "p8": "4.7",
+      "p9": "",
+      "bobot": "9.5",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "7.3",
+      "p7": "",
+      "p8": "7.2",
+      "p9": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "14.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 10",
+      "p1": "",
+      "p2": "",
+      "p3": "14.5",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "p9": "",
+      "bobot": "14.5",
+      "minggu": "2"
+    },
+    {
+      "sub": "Total",
+      "p1": "3.1",
+      "p2": "3",
+      "p3": "29",
+      "p4": "3",
+      "p5": "3.8",
+      "p6": "18.4",
+      "p7": "15",
+      "p8": "21",
+      "p9": "3.7",
+      "bobot": "100",
+      "minggu": "14"
+    }
+  ],
+  "detail": [
+    {
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Sejarah, kedudukan, dan fungsi bahasa Indonesia (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan menjelaskan peran bahasa Indonesia sebagai bahasa negara dan bahasa ilmiah\n1.2 Ketepatan menjelaskan sejarah bahasa Indonesia, Sumpah Pemuda\n1.3 Ketepatan menguraikan fungsi bahasa nasional dan bahasa negara",
+      "kriteria": "Metode Penilaian:\nKuis (3%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nSmall Group Discussion (SGD)\n[TM: 1x(2x50')]\nTugas 1: tugas terstruktur — Sejarah bahasa Indonesia\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Sejarah bahasa Indonesia, Sumpah Pemuda, fungsi bahasa nasional dan bahasa negara\n[P1, P2, P3]",
+      "bobot": "3"
+    },
+    {
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 2 : Ragam bahasa Indonesia (C3, A3) (CPMK-1)",
+      "indikator": "2.1 Kemampuan membedakan ragam ilmiah, jurnalistik, dan bisnis\n2.2 Ketepatan menerapkan Ragam lisan dan tulis\n2.3 Kemampuan menggunakan ragam formal dan nonformal",
+      "kriteria": "Metode Penilaian:\nTugas (4%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: analisis ragam bahasa",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 2: tugas terstruktur — Ragam lisan dan tulis\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Ragam lisan dan tulis, ragam formal dan nonformal, ciri ragam ilmiah\n[P1, P2, P3]",
+      "bobot": "4"
+    },
+    {
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 3 : Ejaan Bahasa Indonesia (EBI) dan tanda baca (C3, A3) (CPMK-2)",
+      "indikator": "3.1 Ketepatan penggunaan huruf kapital, tanda baca, dan penulisan kata\n3.2 Ketepatan menerapkan tanda baca (titik, koma, titik dua, dll)",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis\nNon Test: latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 3: latihan soal — Pedoman EBI\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pedoman EBI, penggunaan huruf, penulisan kata, tanda baca (titik, koma, titik dua, dll)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 4 : Kalimat efektif dan paragraf (C3, A3) (CPMK-3)",
+      "indikator": "4.1 Kemampuan menyusun kalimat efektif dan paragraf kohesif-koheren\n4.2 Ketepatan menerapkan Ciri kalimat efektif (kesepadanan, kehematan, kelogisan), paragraf deduktif-induktif, transisi",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: perbaikan kalimat",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 4: tugas terstruktur — Ciri kalimat efektif (kesepadanan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Ciri kalimat efektif (kesepadanan, kehematan, kelogisan), paragraf deduktif-induktif, transisi\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 5 : Penalaran ilmiah dan argumentasi (C4, A4) (CPMK-3)",
+      "indikator": "5.1 Kemampuan menyusun argumen logis dan kritis\n5.2 Ketepatan menganalisis Logika berpikir induktif-deduktif, fakta vs opini, koherensi argumen",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: debat ilmiah mini",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 5: tugas terstruktur — Logika berpikir induktif-deduktif\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Logika berpikir induktif-deduktif, fakta vs opini, koherensi argumen\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 6 : Penulisan karya ilmiah (struktur makalah) (C4-P4, A4) (CPMK-4)",
+      "indikator": "6.1 Kemampuan menyusun pendahuluan, isi, penutup makalah\n6.2 Ketepatan menganalisis struktur makalah: judul, abstrak, pendahuluan, pembahasan, kesimpulan, daftar pustaka",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: draft makalah",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCollaborative Learning (CbL)\n[TM: 1x(2x50')]\nTugas 6: makalah — Struktur makalah: judul\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur makalah: judul, abstrak, pendahuluan, pembahasan, kesimpulan, daftar pustaka\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 6 : Penulisan karya ilmiah (pengembangan isi) (C4-P4, A4) (CPMK-4)",
+      "indikator": "7.1 Kemampuan mengembangkan topik dengan data dan referensi\n7.2 Ketepatan menganalisis teknik pengembangan paragraf, integrasi kutipan, penyajian data",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: makalah kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCollaborative Learning (CbL)\n[TM: 1x(2x50')]\nTugas 7: makalah — Teknik pengembangan paragraf\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik pengembangan paragraf, integrasi kutipan, penyajian data\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4,5,6\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep kebahasaan, ejaan, kalimat, paragraf, dan penalaran\n8.2 Ketepatan menjelaskan materi Minggu 1-7",
+      "kriteria": "Metode Penilaian:\nUjian Tengah Semester (15%) (15%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1-7\n[P1, P2, P3]",
+      "bobot": "15"
+    },
+    {
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 7 : Kutipan dan daftar pustaka (C3, A3) (CPMK-4)",
+      "indikator": "9.1 Kemampuan menulis kutipan langsung dan tidak langsung serta daftar pustaka sesuai gaya (APA/MLA)\n9.2 Ketepatan menerapkan Kutipan langsung (≤40 kata, >40 kata)\n9.3 Kemampuan menggunakan penulisan daftar pustaka (buku, jurnal, website)",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: latihan kutipan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nDiscovery Learning (DL)\n[TM: 1x(2x50')]\nTugas 8: latihan soal — Kutipan langsung (≤40 kata\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kutipan langsung (≤40 kata, >40 kata), kutipan tidak langsung, penulisan daftar pustaka (buku, jurnal, website)\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 8 : Penulisan laporan teknis (C4-P4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menulis laporan sederhana (observasi, praktikum)\n10.2 Ketepatan menganalisis struktur laporan: pendahuluan, metode, hasil, pembahasan, kesimpulan, bahasa laporan",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: laporan teknis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 9: laporan — Struktur laporan: pendahuluan\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Struktur laporan: pendahuluan, metode, hasil, pembahasan, kesimpulan; bahasa laporan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 8 : Dokumentasi profesional (C4-P4, A4) (CPMK-4)",
+      "indikator": "11.1 Kemampuan menulis memo, notulen rapat, dan email profesional\n11.2 Ketepatan menganalisis etika komunikasi tertulis",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: simulasi dokumen",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCooperative Learning (CoL)\n[TM: 1x(2x50')]\nTugas 10: tugas terstruktur — Format memo\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Format memo, notulen rapat, email formal, etika komunikasi tertulis\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 9 : Presentasi ilmiah (persiapan) (C5-P4, A4) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menyusun slide presentasi yang efektif\n12.2 Ketepatan mengevaluasi prinsip presentasi, desain slide\n12.3 Kemampuan menilai bahasa lisan yang baik, manajemen waktu",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok: draft presentasi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 11: presentasi — Prinsip presentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Prinsip presentasi, desain slide, bahasa lisan yang baik, manajemen waktu\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 9 : Simulasi presentasi (C5-P4, A4) (CPMK-5)",
+      "indikator": "13.1 Kemampuan menyampaikan gagasan secara lisan dengan percaya diri\n13.2 Ketepatan mengevaluasi Latihan presentasi, intonasi, kontak mata, menjawab pertanyaan",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Presentasi kelompok (10 menit)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nProject Based Learning (PjBL)\n[TM: 1x(2x50')]\nTugas 12: presentasi — Latihan presentasi\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Latihan presentasi, intonasi, kontak mata, menjawab pertanyaan\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 10 : Penyuntingan dan revisi (C5, A4) (CPMK-5)",
+      "indikator": "14.1 Kemampuan mengidentifikasi kesalahan ejaan, struktur, dan logika tulisan\n14.2 Ketepatan mengevaluasi teknik editing, proofreading, cek plagiarisme, penggunaan tools penyunting",
+      "kriteria": "Metode Penilaian:\nTugas (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu: suntingan naskah",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 13: tugas terstruktur — Teknik editing\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Teknik editing, proofreading, cek plagiarisme, penggunaan tools penyunting\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 10 : Finalisasi karya ilmiah (C5, A4) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menghasilkan makalah/laporan siap unggah\n15.2 Ketepatan mengevaluasi Format penulisan akhir, pengecekan kelengkapan, unggah ke repository",
+      "kriteria": "Metode Penilaian:\nKuis (5%)\nKriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Pengumpulan karya final",
+      "tatap_muka": "Bentuk: Kuliah\nMetode:\nCeramah interaktif, tanya jawab\n[TM: 1x(2x50')]\nTugas 14: tugas terstruktur — Format penulisan akhir\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Format penulisan akhir, pengecekan kelengkapan, unggah ke repository\n[P1, P2, P3]",
+      "bobot": "5"
+    },
+    {
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 7,8,9,10\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Menjawab soal integratif tentang penulisan karya ilmiah, kutipan, daftar pustaka, dan presentasi\n16.2 Ketepatan menerapkan Seluruh materi (minggu 1-15)",
+      "kriteria": "Metode Penilaian:\nUjian Akhir Semester (18%) (18%)\nKriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode:\nUjian tertulis\n[TM: 1x(2x50')]\n[PT+BM: (1+1)x(2x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (minggu 1-15)\n[P1, P2, P3]",
+      "bobot": "18"
+    }
+  ],
+  "bahan_kajian": "1. Pembinaan dan pengembangan Bahasa Indonesia\n2. Ejaan Bahasa Indonesia (EBI) yang disempurnakan\n3. Jenis-jenis paragraf dan pengorganisasian teks\n4. Penalaran ilmiah dan argumentasi\n5. Penulisan karya ilmiah dan laporan teknis\n6. Kutipan, rujukan, dan penulisan daftar pustaka\n7. Artikel ilmiah dan abstrak",
+  "pustaka_utama": [
+    {
+      "kode": "P1",
+      "jenis": "Utama",
+      "referensi": "Kementerian Pendidikan dan Kebudayaan. (2016). *Pedoman Umum Ejaan Bahasa Indonesia (PUEBI)*. Badan Pengembangan dan Pembinaan Bahasa."
+    },
+    {
+      "kode": "P2",
+      "jenis": "Utama",
+      "referensi": "Dalman, H. (2019). *Keterampilan Menulis* (Edisi Revisi). Rajawali Pers."
+    },
+    {
+      "kode": "P3",
+      "jenis": "Utama",
+      "referensi": "Keraf, G. (2010). *Argumentasi dan Narasi*. Gramedia Pustaka Utama."
+    }
+  ],
+  "pustaka_pendukung": [
+    {
+      "kode": "P4",
+      "jenis": "Pendukung",
+      "referensi": "Chaer, A. (2015). *Tata Bahasa Praktis Bahasa Indonesia*. Rineka Cipta."
+    },
+    {
+      "kode": "P5",
+      "jenis": "Pendukung",
+      "referensi": "Widjono, H. S. (2018). *Bahasa Indonesia: Mata Kuliah Pengembangan Kepribadian di Perguruan Tinggi*. Grasindo."
+    },
+    {
+      "kode": "P6",
+      "jenis": "Pendukung",
+      "referensi": "Buku Kurikulum Prodi S1 Sistem Informasi ITEKES Bintang Persada (2026) – Bab 4.1 Bahan Kajian."
+    }
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan kemampuan berbahasa Indonesia yang baik dan benar dalam konteks akademik dan profesional. Materi meliputi sejarah dan fungsi bahasa Indonesia, ragam bahasa, Ejaan Bahasa Indonesia (EBI), kalimat efektif, paragraf kohesif-koheren, penalaran ilmiah, penulisan karya ilmiah (makalah, laporan teknis), teknik kutipan dan daftar pustaka, serta presentasi ilmiah. Mahasiswa akan berlatih menulis, menyunting, dan mempresentasikan gagasan secara lisan dan tertulis dengan memperhatikan etika akademik dan anti-plagiarisme.",
+  "matakuliah_syarat": "-"
+}

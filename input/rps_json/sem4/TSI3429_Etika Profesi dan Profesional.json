@@ -19,296 +19,544 @@
     {
       "kode": "S-02",
       "tipe": "Sikap",
-      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
+      "deskripsi": "Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika",
+      "label": "CPL 1 (S-02)",
+      "nomor": "CPL 1"
     },
     {
       "kode": "S-07",
       "tipe": "Sikap",
-      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"
+      "deskripsi": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara",
+      "label": "CPL 2 (S-07)",
+      "nomor": "CPL 2"
     },
     {
       "kode": "S-08",
       "tipe": "Sikap",
-      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi"
+      "deskripsi": "Menginternalisasi nilai, norma, dan etika akademik sesuai dengan bidang keprofesian sistem informasi",
+      "label": "CPL 3 (S-08)",
+      "nomor": "CPL 3"
     },
     {
       "kode": "S-09",
       "tipe": "Sikap",
-      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya secara mandiri"
+      "deskripsi": "Menunjukkan sikap bertanggung jawab atas pekerjaan",
+      "label": "CPL 4 (S-09)",
+      "nomor": "CPL 4"
     },
     {
       "kode": "S-10",
       "tipe": "Sikap",
-      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan"
+      "deskripsi": "Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan",
+      "label": "CPL 5 (S-10)",
+      "nomor": "CPL 5"
     },
     {
       "kode": "KU-01",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi"
+      "deskripsi": "Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan nilai humaniora sesuai dengan bidang sistem informasi",
+      "label": "CPL 6 (KU-01)",
+      "nomor": "CPL 6"
     },
     {
       "kode": "KU-02",
       "tipe": "Keterampilan Umum",
-      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
+      "deskripsi": "Mampu menunjukkan kinerja mandiri, bermutu, dan terukur",
+      "label": "CPL 7 (KU-02)",
+      "nomor": "CPL 7"
     },
     {
       "kode": "KK-01",
       "tipe": "Keterampilan Khusus",
-      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri"
+      "deskripsi": "Mampu melakukan evaluasi diri terhadap kelompok kerja yang berada di bawah tanggung jawabnya dan mampu mengelola pembelajaran secara mandiri",
+      "label": "CPL 8 (KK-01)",
+      "nomor": "CPL 8"
     }
   ],
   "cpmk": [
     {
       "kode": "CPMK-1",
       "cpl": "S-02, S-08, KU-01",
-      "deskripsi": "Mampu memahami konsep etika, moral, dan nilai dalam profesi TI serta kode etik profesi (APTIKOM, ACM, IEEE)"
+      "deskripsi": "Mampu memahami konsep etika, moral, dan nilai dalam profesi TI serta kode etik profesi (APTIKOM, ACM, IEEE) (CPL 1, CPL 3, CPL 6)"
     },
     {
       "kode": "CPMK-2",
       "cpl": "S-08, S-09, KK-01",
-      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual, lisensi perangkat lunak, dan implikasi pelanggarannya"
+      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual, lisensi perangkat lunak, dan implikasi pelanggarannya (CPL 3, CPL 4, CPL 8)"
     },
     {
       "kode": "CPMK-3",
       "cpl": "S-02, S-07, KU-02",
-      "deskripsi": "Mampu menjelaskan privasi data, perlindungan informasi pribadi (UU PDP), dan tanggung jawab profesional"
+      "deskripsi": "Mampu menjelaskan privasi data, perlindungan informasi pribadi (UU PDP), dan tanggung jawab profesional (CPL 1, CPL 2, CPL 7)"
     },
     {
       "kode": "CPMK-4",
       "cpl": "S-09, S-10, KU-01",
-      "deskripsi": "Mampu menganalisis isu keamanan siber dan etika hacking serta isu etika dalam kecerdasan buatan dan otomasi"
+      "deskripsi": "Mampu menganalisis isu keamanan siber dan etika hacking serta isu etika dalam kecerdasan buatan dan otomasi (CPL 4, CPL 5, CPL 6)"
     },
     {
       "kode": "CPMK-5",
       "cpl": "S-08, KK-01",
-      "deskripsi": "Mampu menerapkan profesionalisme dan pengembangan karier di bidang sistem informasi serta studi kasus pelanggaran etik"
+      "deskripsi": "Mampu menerapkan profesionalisme dan pengembangan karier di bidang sistem informasi serta studi kasus pelanggaran etik (CPL 3, CPL 8)"
     }
   ],
   "sub_cpmk": [
     {
       "kode": "Sub-CPMK 1",
-      "deskripsi": "Mampu menjelaskan konsep etika, moral, nilai, dan perbedaan dengan hukum",
+      "deskripsi": "Mampu menjelaskan konsep etika, moral, nilai, dan perbedaan dengan hukum (C2, A2) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "1–2",
-      "cpl": "C2"
+      "taksonomi": "C2, A2"
     },
     {
       "kode": "Sub-CPMK 2",
-      "deskripsi": "Mampu menguraikan kode etik profesi TI (APTIKOM, ACM, IEEE) dan penerapannya",
+      "deskripsi": "Mampu menguraikan kode etik profesi TI (APTIKOM, ACM, IEEE) dan penerapannya (C2–C3, A3) (CPMK-1)",
       "cpmk": "CPMK-1",
       "minggu": "3",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 3",
-      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual (HAKI), lisensi perangkat lunak (open source vs proprietary)",
+      "deskripsi": "Mampu menjelaskan hak kekayaan intelektual (HAKI), lisensi perangkat lunak (open source vs proprietary) (C2–C3, A3) (CPMK-2)",
       "cpmk": "CPMK-2",
       "minggu": "4–5",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 4",
-      "deskripsi": "Mampu menjelaskan privasi data, UU Perlindungan Data Pribadi (UU PDP), dan tanggung jawab profesional",
+      "deskripsi": "Mampu menjelaskan privasi data, UU Perlindungan Data Pribadi (UU PDP), dan tanggung jawab profesional (C3–C4, A4) (CPMK-3)",
       "cpmk": "CPMK-3",
       "minggu": "6–7",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 5",
-      "deskripsi": "Mampu menganalisis isu keamanan siber, etika hacking, whistleblowing, dan malpraktik TI",
+      "deskripsi": "Mampu menganalisis isu keamanan siber, etika hacking, whistleblowing, dan malpraktik TI (C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "8–9",
-      "cpl": "C4"
+      "taksonomi": "C4, A4"
     },
     {
       "kode": "Sub-CPMK 6",
-      "deskripsi": "Mampu menjelaskan etika dalam kecerdasan buatan (AI), otomasi, dan big data",
+      "deskripsi": "Mampu menjelaskan etika dalam kecerdasan buatan (AI), otomasi, dan big data (C3–C4, A4) (CPMK-4)",
       "cpmk": "CPMK-4",
       "minggu": "10–11",
-      "cpl": "C3–C4"
+      "taksonomi": "C3–C4, A4"
     },
     {
       "kode": "Sub-CPMK 7",
-      "deskripsi": "Mampu menjelaskan profesionalisme, sertifikasi, dan pengembangan karier di bidang SI",
+      "deskripsi": "Mampu menjelaskan profesionalisme, sertifikasi, dan pengembangan karier di bidang SI (C2–C3, A3) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "12",
-      "cpl": "C2–C3"
+      "taksonomi": "C2–C3, A3"
     },
     {
       "kode": "Sub-CPMK 8",
-      "deskripsi": "Mampu melakukan analisis studi kasus pelanggaran etik dan penyusunan rekomendasi",
+      "deskripsi": "Mampu melakukan analisis studi kasus pelanggaran etik dan penyusunan rekomendasi (C5–C6, A5) (CPMK-5)",
       "cpmk": "CPMK-5",
       "minggu": "13–15",
-      "cpl": "C5–C6"
+      "taksonomi": "C5–C6, A5"
     },
     {
       "kode": "Sub-CPMK 9",
-      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus dan mengintegrasikan seluruh konsep etika profesi",
+      "deskripsi": "Mampu mempresentasikan hasil analisis studi kasus dan mengintegrasikan seluruh konsep etika profesi (C6, A5) (CPMK-1 s.d. CPMK-5)",
       "cpmk": "CPMK-1 s.d. CPMK-5",
       "minggu": "16",
-      "cpl": "C6"
+      "taksonomi": "C6, A5"
+    }
+  ],
+  "korelasi": [
+    {
+      "cpmk": "CPMK-1",
+      "m1": "√",
+      "m2": "√",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√"
+    },
+    {
+      "cpmk": "CPMK-2",
+      "m1": "",
+      "m2": "",
+      "m3": "√",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√"
+    },
+    {
+      "cpmk": "CPMK-3",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "√",
+      "m5": "",
+      "m6": "",
+      "m7": "",
+      "m8": "",
+      "m9": "√"
+    },
+    {
+      "cpmk": "CPMK-4",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "√",
+      "m6": "√",
+      "m7": "",
+      "m8": "",
+      "m9": "√"
+    },
+    {
+      "cpmk": "CPMK-5",
+      "m1": "",
+      "m2": "",
+      "m3": "",
+      "m4": "",
+      "m5": "",
+      "m6": "",
+      "m7": "√",
+      "m8": "√",
+      "m9": "√"
+    }
+  ],
+  "penilaian": [
+    {
+      "jenis": "Tugas",
+      "bobot": "66%",
+      "c1": "10%",
+      "c2": "8%",
+      "c3": "10%",
+      "c4": "15%",
+      "c5": "23%"
+    },
+    {
+      "jenis": "Ujian Tengah Semester",
+      "bobot": "15%",
+      "c1": "5%",
+      "c2": "5%",
+      "c3": "5%",
+      "c4": "0%",
+      "c5": "0%"
+    },
+    {
+      "jenis": "Ujian Akhir Semester",
+      "bobot": "19%",
+      "c1": "0%",
+      "c2": "0%",
+      "c3": "0%",
+      "c4": "9.5%",
+      "c5": "9.5%"
+    },
+    {
+      "jenis": "Total",
+      "bobot": "100%",
+      "c1": "15%",
+      "c2": "13%",
+      "c3": "15%",
+      "c4": "24.5%",
+      "c5": "32.5%"
+    }
+  ],
+  "korelasi_cpl": [
+    {
+      "sub": "Sub-CPMK 1",
+      "p1": "3.3",
+      "p2": "",
+      "p3": "3.3",
+      "p4": "",
+      "p5": "",
+      "p6": "3.2",
+      "p7": "",
+      "p8": "",
+      "bobot": "9.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 2",
+      "p1": "2.6",
+      "p2": "",
+      "p3": "2.6",
+      "p4": "",
+      "p5": "",
+      "p6": "2.6",
+      "p7": "",
+      "p8": "",
+      "bobot": "7.8",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 3",
+      "p1": "",
+      "p2": "",
+      "p3": "4",
+      "p4": "3.9",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "3.9",
+      "bobot": "11.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 4",
+      "p1": "4.6",
+      "p2": "4.6",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "4.6",
+      "p8": "",
+      "bobot": "13.8",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 5",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "4.9",
+      "p5": "4.9",
+      "p6": "4.9",
+      "p7": "",
+      "p8": "",
+      "bobot": "14.7",
+      "minggu": "2"
+    },
+    {
+      "sub": "Sub-CPMK 6",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "3.3",
+      "p5": "3.2",
+      "p6": "3.2",
+      "p7": "",
+      "p8": "",
+      "bobot": "9.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 7",
+      "p1": "",
+      "p2": "",
+      "p3": "4.9",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "4.8",
+      "bobot": "9.7",
+      "minggu": "1"
+    },
+    {
+      "sub": "Sub-CPMK 8",
+      "p1": "",
+      "p2": "",
+      "p3": "11.4",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "11.3",
+      "bobot": "22.7",
+      "minggu": "3"
+    },
+    {
+      "sub": "Sub-CPMK 9",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "p7": "",
+      "p8": "",
+      "bobot": "",
+      "minggu": ""
+    },
+    {
+      "sub": "Total",
+      "p1": "10.5",
+      "p2": "4.6",
+      "p3": "26.2",
+      "p4": "12.1",
+      "p5": "8.1",
+      "p6": "13.9",
+      "p7": "4.6",
+      "p8": "20",
+      "bobot": "100",
+      "minggu": "14"
     }
   ],
   "detail": [
     {
-      "minggu": 1,
-      "deskripsi": "Sub-CPMK 1 : Konsep etika, moral, dan nilai",
-      "indikator": "Ketepatan mendefinisikan etika, moral, nilai, dan membedakan dengan hukum",
-      "kriteria": "Kuis online; Tugas latihan soal",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50'] [BM: 3×60'] [BT: 3×60']",
-      "materi": "Pengertian etika, moral, nilai; perbedaan etika dan hukum; teori etika (deontologi, utilitarianisme, virtue ethics)",
-      "bobot": "3%"
+      "minggu": "1/16",
+      "deskripsi": "Sub-CPMK 1 : Konsep etika, moral, dan nilai (C2, A2) (CPMK-1)",
+      "indikator": "1.1 Ketepatan mendefinisikan etika, moral, nilai, dan membedakan dengan hukum\n1.2 Ketepatan menjelaskan teori etika (deontologi, utilitarianisme, virtue ethics)",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas latihan soal",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Discovery Learning (DL)\n[TM: 1x(3x50')]\nTugas 1: latihan soal — Pengertian etika\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pengertian etika, moral, nilai; perbedaan etika dan hukum; teori etika (deontologi, utilitarianisme, virtue ethics)\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 2,
-      "deskripsi": "Sub-CPMK 1 : Etika dalam profesi dan organisasi",
-      "indikator": "Kemampuan menjelaskan dilema etika dan pengambilan keputusan etis",
-      "kriteria": "Studi kasus dilema etika; Diskusi",
-      "tatap_muka": "Diskusi interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Dilema etika; model pengambilan keputusan etis; kode etik organisasi",
-      "bobot": "3%"
+      "minggu": "2/16",
+      "deskripsi": "Sub-CPMK 1 : Etika dalam profesi dan organisasi (C2, A2) (CPMK-1)",
+      "indikator": "2.1 Kemampuan menjelaskan dilema etika dan pengambilan keputusan etis\n2.2 Ketepatan menjelaskan kode etik organisasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus dilema etika, Diskusi",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 2: studi kasus — Dilema etika; model pengambilan keputusan etis; kode etik organisasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Dilema etika; model pengambilan keputusan etis; kode etik organisasi\n[P1, P2, P3]",
+      "bobot": "3"
     },
     {
-      "minggu": 3,
-      "deskripsi": "Sub-CPMK 2 : Kode etik profesi TI (APTIKOM, ACM, IEEE)",
-      "indikator": "Ketepatan menjelaskan prinsip-prinsip kode etik APTIKOM, ACM, dan IEEE",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Kode etik APTIKOM, ACM (Software Engineering Code of Ethics), IEEE; perbandingan dan contoh kasus",
-      "bobot": "4%"
+      "minggu": "3/16",
+      "deskripsi": "Sub-CPMK 2 : Kode etik profesi TI (APTIKOM, ACM, IEEE) (C2–C3, A3) (CPMK-1)",
+      "indikator": "3.1 Ketepatan menjelaskan prinsip-prinsip kode etik APTIKOM, ACM, dan IEEE\n3.2 Ketepatan menerapkan Kode etik APTIKOM, ACM (Software Engineering Code of Ethics), IEEE\n3.3 Kemampuan menggunakan perbandingan dan contoh kasus",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 3: tugas terstruktur — Kode etik APTIKOM\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kode etik APTIKOM, ACM (Software Engineering Code of Ethics), IEEE; perbandingan dan contoh kasus\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 4,
-      "deskripsi": "Sub-CPMK 3 : Hak Kekayaan Intelektual (HAKI)",
-      "indikator": "Ketepatan menjelaskan hak cipta, paten, merek, rahasia dagang",
-      "kriteria": "Kuis online; Tugas analisis",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Hak cipta; paten perangkat lunak; merek dagang; rahasia dagang; UU HAKI di Indonesia",
-      "bobot": "4%"
+      "minggu": "4/16",
+      "deskripsi": "Sub-CPMK 3 : Hak Kekayaan Intelektual (HAKI) (C2–C3, A3) (CPMK-2)",
+      "indikator": "4.1 Ketepatan menjelaskan hak cipta, paten, merek, rahasia dagang\n4.2 Ketepatan menerapkan Hak cipta\n4.3 Kemampuan menggunakan UU HAKI di Indonesia",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 4: tugas terstruktur — Hak cipta; paten perangkat lunak; merek dagang; rahasia dagang; UU HAKI di Indonesia\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Hak cipta; paten perangkat lunak; merek dagang; rahasia dagang; UU HAKI di Indonesia\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 5,
-      "deskripsi": "Sub-CPMK 3 : Lisensi perangkat lunak (open source vs proprietary)",
-      "indikator": "Kemampuan membedakan lisensi GPL, MIT, Apache, BSD, dan lisensi komersial",
-      "kriteria": "Tugas individu (studi komparasi lisensi)",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Lisensi open source (GPL, LGPL, MIT, Apache, BSD); proprietary software; freeware; shareware; creative commons",
-      "bobot": "4%"
+      "minggu": "5/16",
+      "deskripsi": "Sub-CPMK 3 : Lisensi perangkat lunak (open source vs proprietary) (C2–C3, A3) (CPMK-2)",
+      "indikator": "5.1 Kemampuan membedakan lisensi GPL, MIT, Apache, BSD, dan lisensi komersial\n5.2 Ketepatan menerapkan Lisensi open source (GPL, LGPL, MIT, Apache, BSD)\n5.3 Kemampuan menggunakan proprietary software, freeware, shareware, creative commons",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas individu (studi komparasi lisensi)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 5: tugas terstruktur — Lisensi open source (GPL\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Lisensi open source (GPL, LGPL, MIT, Apache, BSD); proprietary software; freeware; shareware; creative commons\n[P1, P2, P3]",
+      "bobot": "4"
     },
     {
-      "minggu": 6,
-      "deskripsi": "Sub-CPMK 4 : Privasi data dan UU Perlindungan Data Pribadi (UU PDP)",
-      "indikator": "Ketepatan menjelaskan hak subjek data, kewajiban pengendali data, dan prinsip pemrosesan data",
-      "kriteria": "Kuis online; Studi kasus kebocoran data",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Privasi data; UU PDP Indonesia; GDPR; hak subjek data; sanksi pelanggaran",
-      "bobot": "5%"
+      "minggu": "6/16",
+      "deskripsi": "Sub-CPMK 4 : Privasi data dan UU Perlindungan Data Pribadi (UU PDP) (C3–C4, A4) (CPMK-3)",
+      "indikator": "6.1 Ketepatan menjelaskan hak subjek data, kewajiban pengendali data, dan prinsip pemrosesan data\n6.2 Ketepatan menganalisis Privasi data\n6.3 Kemampuan membandingkan UU PDP Indonesia, GDPR",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Studi kasus kebocoran data",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 6: studi kasus — Privasi data; UU PDP Indonesia; GDPR; hak subjek data; sanksi pelanggaran\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Privasi data; UU PDP Indonesia; GDPR; hak subjek data; sanksi pelanggaran\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 7,
-      "deskripsi": "Sub-CPMK 4 : Tanggung jawab profesional dan malpraktik TI",
-      "indikator": "Kemampuan menjelaskan tanggung jawab profesional, kelalaian, dan malpraktik",
-      "kriteria": "Tugas kelompok (studi kasus malpraktik)",
-      "tatap_muka": "Diskusi kasus TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Tanggung jawab profesional; standar due care; malpraktik TI; kasus kegagalan sistem",
-      "bobot": "5%"
+      "minggu": "7/16",
+      "deskripsi": "Sub-CPMK 4 : Tanggung jawab profesional dan malpraktik TI (C3–C4, A4) (CPMK-3)",
+      "indikator": "7.1 Kemampuan menjelaskan tanggung jawab profesional, kelalaian, dan malpraktik\n7.2 Ketepatan menganalisis standar due care, malpraktik TI\n7.3 Kemampuan membandingkan kasus kegagalan sistem",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Tugas kelompok (studi kasus malpraktik)",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 7: studi kasus — Tanggung jawab profesional; standar due care; malpraktik TI; kasus kegagalan sistem\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Tanggung jawab profesional; standar due care; malpraktik TI; kasus kegagalan sistem\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 8,
-      "deskripsi": "UTS : Ujian Tengah Semester",
-      "indikator": "Menjawab soal konsep etika, HAKI, privasi data, tanggung jawab profesional",
-      "kriteria": "Ujian tertulis online (LMS)",
-      "tatap_muka": "Ujian TM: 3x50",
-      "daring": "Ujian daring sinkron; [TM: 3×50']",
-      "materi": "Materi Minggu 1–7",
-      "bobot": "15%"
+      "minggu": "8/16",
+      "deskripsi": "Sub-CPMK 1,2,3,4\n(Ujian Tengah Semester)",
+      "indikator": "8.1 Menjawab soal konsep etika, HAKI, privasi data, tanggung jawab profesional\n8.2 Ketepatan menjelaskan materi Minggu 1–7",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Materi Minggu 1–7\n[P1, P2, P3]",
+      "bobot": "15"
     },
     {
-      "minggu": 9,
-      "deskripsi": "Sub-CPMK 5 : Isu keamanan siber dan etika hacking",
-      "indikator": "Ketepatan menjelaskan ethical hacking, white hat vs black hat, bug bounty",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Keamanan siber; etika hacking; responsible disclosure; bug bounty program; UU ITE",
-      "bobot": "5%"
+      "minggu": "9/16",
+      "deskripsi": "Sub-CPMK 5 : Isu keamanan siber dan etika hacking (C4, A4) (CPMK-4)",
+      "indikator": "9.1 Ketepatan menjelaskan ethical hacking, white hat vs black hat, bug bounty\n9.2 Ketepatan menganalisis Keamanan siber, etika hacking, responsible disclosure\n9.3 Kemampuan membandingkan bug bounty program, UU ITE",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 8: tugas terstruktur — Keamanan siber; etika hacking; responsible disclosure; bug bounty program; UU ITE\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Keamanan siber; etika hacking; responsible disclosure; bug bounty program; UU ITE\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 10,
-      "deskripsi": "Sub-CPMK 5 : Whistleblowing dan perlindungan pelapor",
-      "indikator": "Kemampuan menjelaskan whistleblowing, dilema, dan perlindungan hukum",
-      "kriteria": "Studi kasus whistleblowing",
-      "tatap_muka": "Diskusi interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Whistleblowing; jenis (internal, eksternal); perlindungan whistleblower; kasus di Indonesia",
-      "bobot": "5%"
+      "minggu": "10/16",
+      "deskripsi": "Sub-CPMK 5 : Whistleblowing dan perlindungan pelapor (C4, A4) (CPMK-4)",
+      "indikator": "10.1 Kemampuan menjelaskan whistleblowing, dilema, dan perlindungan hukum\n10.2 Ketepatan menganalisis Whistleblowing\n10.3 Kemampuan membandingkan jenis (internal, eksternal), perlindungan whistleblower",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Studi kasus whistleblowing",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Contextual Learning (CtL)\n[TM: 1x(3x50')]\nTugas 9: studi kasus — Whistleblowing; jenis (internal\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nForum diskusi asinkron",
+      "materi": "Whistleblowing; jenis (internal, eksternal); perlindungan whistleblower; kasus di Indonesia\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 11,
-      "deskripsi": "Sub-CPMK 6 : Etika dalam kecerdasan buatan (AI) dan otomasi",
-      "indikator": "Ketepatan menjelaskan bias algoritma, transparansi, akuntabilitas, dan dampak sosial AI",
-      "kriteria": "Kuis online; Tugas analisis",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Etika AI: fairness, accountability, transparency; bias data; AI dan pekerjaan; regulasi AI",
-      "bobot": "5%"
+      "minggu": "11/16",
+      "deskripsi": "Sub-CPMK 6 : Etika dalam kecerdasan buatan (AI) dan otomasi (C3–C4, A4) (CPMK-4)",
+      "indikator": "11.1 Ketepatan menjelaskan bias algoritma, transparansi, akuntabilitas, dan dampak sosial AI\n11.2 Ketepatan menganalisis Etika AI: fairness, accountability, transparency, bias data\n11.3 Kemampuan membandingkan AI dan pekerjaan, regulasi AI",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas analisis",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 10: tugas terstruktur — Etika AI: fairness\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Etika AI: fairness, accountability, transparency; bias data; AI dan pekerjaan; regulasi AI\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 12,
-      "deskripsi": "Sub-CPMK 7 : Profesionalisme dan pengembangan karier di bidang SI",
-      "indikator": "Kemampuan menjelaskan sertifikasi profesi (CISA, CISSP, CDMP), etika kerja, dan pengembangan berkelanjutan",
-      "kriteria": "Kuis online; Tugas individu",
-      "tatap_muka": "Kuliah interaktif TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Profesionalisme; sertifikasi; kode etik kerja; pengembangan karier; lifelong learning",
-      "bobot": "5%"
+      "minggu": "12/16",
+      "deskripsi": "Sub-CPMK 7 : Profesionalisme dan pengembangan karier di bidang SI (C2–C3, A3) (CPMK-5)",
+      "indikator": "12.1 Kemampuan menjelaskan sertifikasi profesi (CISA, CISSP, CDMP), etika kerja, dan pengembangan berkelanjutan\n12.2 Ketepatan menerapkan Profesionalisme, sertifikasi\n12.3 Kemampuan menggunakan kode etik kerja, pengembangan karier, lifelong learning",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nTest: Kuis online\nNon Test: Tugas individu",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 11: tugas terstruktur — Profesionalisme; sertifikasi; kode etik kerja; pengembangan karier; lifelong learning\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Profesionalisme; sertifikasi; kode etik kerja; pengembangan karier; lifelong learning\n[P1, P2, P3]",
+      "bobot": "5"
     },
     {
-      "minggu": 13,
-      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (persiapan)",
-      "indikator": "Kemampuan memilih kasus pelanggaran etik (nyata/fiktif) dan merumuskan masalah",
-      "kriteria": "Proposal proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Pemilihan studi kasus (pelanggaran HAKI, kebocoran data, hacking, bias AI); identifikasi isu etik",
-      "bobot": "6%"
+      "minggu": "13/16",
+      "deskripsi": "Sub-CPMK 8 : Analisis studi kasus (persiapan) (C5–C6, A5) (CPMK-5)",
+      "indikator": "13.1 Kemampuan memilih kasus pelanggaran etik (nyata/fiktif) dan merumuskan masalah\n13.2 Ketepatan merancang Pemilihan studi kasus (pelanggaran HAKI, kebocoran data, hacking, bias AI)\n13.3 Kemampuan menyusun identifikasi isu etik",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Proposal proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 12: proyek — Pemilihan studi kasus (pelanggaran HAKI\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Pemilihan studi kasus (pelanggaran HAKI, kebocoran data, hacking, bias AI); identifikasi isu etik\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 14,
-      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analisis etika",
-      "indikator": "Kemampuan menganalisis kasus dengan kerangka etika dan memberikan rekomendasi",
-      "kriteria": "Laporan proyek kelompok",
-      "tatap_muka": "Bimbingan proyek TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Kerangka analisis etis; identifikasi pemangku kepentingan; rekomendasi tindakan; format laporan",
-      "bobot": "6%"
+      "minggu": "14/16",
+      "deskripsi": "Sub-CPMK 8 : Penyusunan laporan analisis etika (C5–C6, A5) (CPMK-5)",
+      "indikator": "14.1 Kemampuan menganalisis kasus dengan kerangka etika dan memberikan rekomendasi\n14.2 Ketepatan merancang identifikasi pemangku kepentingan, rekomendasi tindakan, format laporan",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Laporan proyek kelompok",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Project Based Learning (PjBL)\n[TM: 1x(3x50')]\nTugas 13: proyek — Kerangka analisis etis; identifikasi pemangku kepentingan; rekomendasi tindakan; format laporan\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Kerangka analisis etis; identifikasi pemangku kepentingan; rekomendasi tindakan; format laporan\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 15,
-      "deskripsi": "Sub-CPMK 8 : Finalisasi dan review presentasi",
-      "indikator": "Kemampuan menyempurnakan laporan dan menyiapkan slide presentasi",
-      "kriteria": "Draft final laporan",
-      "tatap_muka": "Bimbingan proyek TM: 3x50",
-      "daring": "Kuliah daring sinkron; [TM: 3×50']",
-      "materi": "Revisi laporan; persiapan presentasi; simulasi presentasi",
-      "bobot": "6%"
+      "minggu": "15/16",
+      "deskripsi": "Sub-CPMK 8 : Finalisasi dan review presentasi (C5–C6, A5) (CPMK-5)",
+      "indikator": "15.1 Kemampuan menyempurnakan laporan dan menyiapkan slide presentasi\n15.2 Ketepatan merancang Revisi laporan, persiapan presentasi, simulasi presentasi",
+      "kriteria": "Kriteria:\n• Pedoman penskoran\n• Rubrik penilaian tugas\nTeknik:\nNon Test: Draft final laporan",
+      "tatap_muka": "Bentuk: Kuliah\nMetode: Ceramah interaktif, tanya jawab\n[TM: 1x(3x50')]\nTugas 14: laporan — Revisi laporan; persiapan presentasi; simulasi presentasi\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nGoogle Meet (sinkron)",
+      "materi": "Revisi laporan; persiapan presentasi; simulasi presentasi\n[P1, P2, P3]",
+      "bobot": "6"
     },
     {
-      "minggu": 16,
-      "deskripsi": "Sub-CPMK 9 : UAS (Presentasi studi kasus + ujian integrasi)",
-      "indikator": "Kemampuan mempresentasikan analisis etika dan menjawab soal integratif",
-      "kriteria": "Presentasi kelompok + ujian tertulis online",
-      "tatap_muka": "Presentasi + UAS TM: 3x50",
-      "daring": "Presentasi daring + UAS online; [TM: 3×50']",
-      "materi": "Seluruh materi (etika profesi, HAKI, privasi, keamanan, AI, profesionalisme) + proyek",
-      "bobot": "19%"
+      "minggu": "16/16",
+      "deskripsi": "Sub-CPMK 5,6,7,8\n(Ujian Akhir Semester)",
+      "indikator": "16.1 Kemampuan mempresentasikan analisis etika dan menjawab soal integratif\n16.2 Ketepatan menganalisis Seluruh materi (etika profesi, HAKI, privasi, keamanan, AI, profesionalisme) + proyek",
+      "kriteria": "Kriteria:\n• Kunci jawaban dan pedoman penskoran\nTeknik:\nTest: Ujian tertulis online (LMS)",
+      "tatap_muka": "Bentuk: Ujian\nMetode: Ujian tertulis\n[TM: 1x(3x50')]\n[PT+BM: (1+1)x(3x60')]",
+      "daring": "eLearning ITEKES BP (LMS)\nUjian daring sinkron",
+      "materi": "Seluruh materi (etika profesi, HAKI, privasi, keamanan, AI, profesionalisme) + proyek\n[P1, P2, P3]",
+      "bobot": "19"
     }
   ],
   "bahan_kajian": "1. Konsep etika, moral, dan nilai dalam profesi TI\n2. Kode etik profesi teknologi informasi (APTIKOM, ACM, IEEE)\n3. Hak kekayaan intelektual dan lisensi perangkat lunak\n4. Privasi data dan perlindungan informasi pribadi (UU PDP)\n5. Tanggung jawab profesional dan malpraktik TI\n6. Isu keamanan siber dan etika hacking\n7. Etika dalam kecerdasan buatan dan otomasi\n8. Profesionalisme dan pengembangan karier di bidang SI",
